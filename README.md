@@ -1,3 +1,5 @@
+### Cấu trúc thư mục
+```code
 Viettel_AI_Race_NLP/
 ├── .gitignore
 ├── README.md
@@ -21,7 +23,7 @@ Viettel_AI_Race_NLP/
 ├── task2_QA.py
 ├── task2_QA.sh
 ├── requirements.txt
-
+```
 
 
 ### Lưu ý: 
