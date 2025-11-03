@@ -1,0 +1,29 @@
+Viettel_AI_Race_NLP/
+├── .gitignore
+├── README.md
+├── data/
+│   └── raw/ (dữ liệu thô)
+│   └── processed/ (dữ liệu đã xử lý)
+├── data_test_w2_w3/ (test set của của giai đoạn 2 và 3)
+├── submission_template/
+├── src/
+│   ├── step1_pdf_processing/ (cho Bước 1 - Dũng)
+│   │   └── process_pdf.py
+│   │   └── images/ (thư mục lưu ảnh)
+│   ├── step2_chunking_embedding/ (cho Bước 2 - Minh)
+│   │   └── chunking_data.py
+│   │   └── embedding_index.py
+│   ├── step3_retrieval_qa/ (cho Bước 3 - Chiến)
+│       └── retrieval.py
+│       └── qa_generation.py
+├── task1_extract.py
+├── task1_extract.sh
+├── task2_QA.py
+├── task2_QA.sh
+├── requirements.txt
+
+
+
+### Lưu ý: 
+- public_test của gd 3 chính và private_test của qd 2
+- public_test của gd 4 chính và private_test của qd 3
