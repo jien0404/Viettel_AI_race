@@ -1,10 +1,6 @@
 from typing import List, Dict, Any
 from bs4 import BeautifulSoup
 
-# Giả sử hàm parse_document từ file parser.py đã được import
-# from .parser import parse_document 
-# (Chúng ta sẽ kết nối chúng sau, giờ cứ tập trung vào logic)
-
 def linearize_html_table(html_content: str) -> str:
     soup = BeautifulSoup(html_content, 'html.parser')
     text_parts = []
@@ -93,7 +89,6 @@ def create_chunks(blocks: List[Dict[str, Any]], doc_name: str) -> List[Dict[str,
 
 # --- MAIN ĐỂ KIỂM THỬ ---
 if __name__ == '__main__':
-    # Đây là output mẫu từ file parser.py của chúng ta
     sample_parsed_blocks = [
         {"type": "heading", "level": 1, "content": "Đây là Tiêu đề chính"},
         {"type": "paragraph", "content": "Đây là đoạn văn bản giới thiệu đầu tiên. Nó mô tả nội dung của tài liệu."},
@@ -106,11 +101,9 @@ if __name__ == '__main__':
         {"type": "paragraph", "content": "Đây là đoạn văn bản cuối cùng."}
     ]
 
-    # Chạy hàm chunker
     print("--- Bắt đầu tạo chunks ---")
     final_chunks = create_chunks(sample_parsed_blocks, doc_name="Public_Test_001")
 
-    # In kết quả ra để kiểm tra
     import json
     print(json.dumps(final_chunks, indent=2, ensure_ascii=False))
     print(f"\n--- Tạo chunks hoàn tất. Tổng số chunks: {len(final_chunks)} ---")

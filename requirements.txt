@@ -2,3 +2,4 @@ beautifulsoup4
 sentence-transformers 
 torch 
 Pillow
+chromadb

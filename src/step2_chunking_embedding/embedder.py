@@ -9,9 +9,9 @@ class Embedder:
         print(f"Sử dụng thiết bị: {self.device}")
 
         print("Đang tải mô hình text embedding (AITeamVN/Vietnamese-Sentence-RoBERTa)...")
-        # Sử dụng model chuyên cho tiếng Việt để có chất lượng tốt nhất
+        # Sử dụng model chuyên cho tiếng Việt để có chất lượng tốt 
         self.text_model = SentenceTransformer(
-            'AITeamVN/Vietnamese-Sentence-RoBERTa', 
+            'bkai-foundation-models/vietnamese-bi-encoder', 
             device=self.device
         )
 
@@ -70,7 +70,6 @@ class Embedder:
 
 # --- MAIN ĐỂ KIỂM THỬ ---
 if __name__ == '__main__':
-    # Dữ liệu mẫu đầu vào (output của file chunker.py)
     sample_chunks = [
         {"doc_name": "Public_Test_001", "metadata": {"context_headings": "Đây là Tiêu đề chính", "original_content": "Đây là đoạn văn bản giới thiệu đầu tiên. Nó mô tả nội dung của tài liệu."}, "chunk_type": "text", "content_for_embedding": "Ngữ cảnh: Đây là Tiêu đề chính. Nội dung: Đây là đoạn văn bản giới thiệu đầu tiên. Nó mô tả nội dung của tài liệu."},
         {"doc_name": "Public_Test_001", "metadata": {"context_headings": "Đây là Tiêu đề chính > Một Tiêu đề phụ", "original_content": "Đây là đoạn văn bản thứ hai, nằm dưới tiêu đề phụ."}, "chunk_type": "text", "content_for_embedding": "Ngữ cảnh: Đây là Tiêu đề chính > Một Tiêu đề phụ. Nội dung: Đây là đoạn văn bản thứ hai, nằm dưới tiêu đề phụ."},
@@ -79,20 +78,16 @@ if __name__ == '__main__':
         {"doc_name": "Public_Test_001", "metadata": {"context_headings": "Đây là Tiêu đề chính > Một Tiêu đề phụ", "original_content": "$$\\nE = mc^2\\n$$"}, "chunk_type": "formula", "content_for_embedding": "Ngữ cảnh: Đây là Tiêu đề chính > Một Tiêu đề phụ. Nội dung là một công thức toán học."},
     ]
     
-    # Tạo thư mục images nếu chưa có để phần test chạy được
     import os
     if not os.path.exists('images'):
         os.makedirs('images')
         
-    # Khởi tạo embedder (sẽ tự động tải model)
     embedder = Embedder()
     
-    # Chạy quá trình embedding
     chunks_with_embeddings = embedder.embed_chunks(sample_chunks)
     
     print("\n--- Embedding hoàn tất. Kiểm tra kết quả: ---")
     for chunk in chunks_with_embeddings:
-        # Chỉ in ra thông tin xác nhận, không in cả vector vì nó rất dài
         if 'embedding_vector' in chunk:
             print(f" - Loại chunk: '{chunk['chunk_type']}', "
                   f"Đã thêm vector embedding với shape: {chunk['embedding_vector'].shape}")
