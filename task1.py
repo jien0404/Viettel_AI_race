@@ -213,7 +213,8 @@ def process_all_pdfs(input_root, output_root):
 if __name__ == "__main__":
     input_root = "./data/raw/public_test_data"
     output_root = "./submission"
-    # process_all_pdfs(input_root, output_root)
+    os.makedirs(output_root, exist_ok=True)
+    process_all_pdfs(input_root, output_root)
     main_py_path = os.path.join(output_root, "main.py")
     with open(main_py_path, "w", encoding="utf-8") as f:
         f.write('print("AIRONMEN")\n')
