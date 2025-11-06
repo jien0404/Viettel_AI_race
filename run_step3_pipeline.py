@@ -13,7 +13,7 @@ from typing import List, Dict, Any
 DB_PATH = "chroma_database"
 COLLECTION_NAME = "all_documents"
 QUESTIONS_FILE_PATH = "data/raw/public_test_data/question.csv"
-OUTPUT_FILE_PATH = "submission/answer1.md"
+OUTPUT_FILE_PATH = "submission/answer2.md"
 
 # Model dùng cho embedding câu hỏi (PHẢI GIỐNG model ở bước 2)
 EMBEDDING_MODEL_NAME = 'bkai-foundation-models/vietnamese-bi-encoder'
@@ -24,10 +24,8 @@ LLM_MODEL_NAME = "unsloth/Qwen2.5-3B-Instruct-bnb-4bit"
 RERANKER_MODEL_NAME = "thanhtantran/Vietnamese_Reranker"
 
 # Số lượng context chunk sẽ truy xuất cho mỗi câu hỏi
-NUM_RETRIEVED_CHUNKS = 30
+NUM_RETRIEVED_CHUNKS = 50
 TOP_N_AFTER_RERANK = 3 
-
-MODEL_MAX_LENGTH = 2000
 
 
 def load_llm_model_and_tokenizer():
@@ -37,7 +35,7 @@ def load_llm_model_and_tokenizer():
     print(f"Đang tải mô hình LLM: {LLM_MODEL_NAME}...")
     model, tokenizer = FastLanguageModel.from_pretrained(
         model_name=LLM_MODEL_NAME,
-        max_seq_length=4096,
+        max_seq_length=2048,
         dtype=None,  # Để Unsloth tự chọn dtype tốt nhất
         load_in_4bit=True,
     )
@@ -126,17 +124,15 @@ class RetrieverQA:
         options_str = "\n".join([f"{key}: {value}" for key, value in options.items()])
         
         # --- PROMPT MỚI VỚI HƯỚNG DẪN CHI TIẾT VÀ FEW-SHOT ---
-        prompt = f"""Bạn là một trợ lý QA tiếng Việt chuyên nghiệp, chuyên xử lý các câu hỏi trắc nghiệm **nhiều đáp án đúng**.  
-Bạn sẽ chỉ sử dụng **chính xác** các thông tin trong phần NGỮ CẢNH được cung cấp, và **không được sử dụng kiến thức bên ngoài**.  
-
+        prompt = f"""Bạn là một trợ lý QA tiếng Việt chuyên nghiệp, chuyên xử lý các câu hỏi trắc nghiệm nhiều đáp án đúng.
+Bạn sẽ chỉ sử dụng chính xác các thông tin trong phần NGỮ CẢNH được cung cấp, và không được sử dụng kiến thức bên ngoài.
+Tuy nhiên, nếu trong ngữ cảnh không có thông tin đủ rõ để xác định được ít nhất một đáp án đúng, bạn vẫn chọn các lựa chọn mà bạn cho là đúng nhất.
 --- HƯỚNG DẪN TRẢ LỜI ---
-1. Dựa vào ngữ cảnh, xác định **TẤT CẢ** các lựa chọn (A, B, C, D) mà bạn cho là đúng.
-2. Đáp án của bạn **chỉ** là một chuỗi ký tự đại diện đáp án đúng, cách nhau bằng dấu phẩy, không có khoảng trắng. Ví dụ: `A,C` hoặc `B`.
-3. **Không** kèm lời giải, lý do, hoặc bất kỳ văn bản nào khác.
-
+Dựa vào ngữ cảnh, xác định TẤT CẢ các lựa chọn (A, B, C, D…) mà bạn chắc chắn cho là đúng.
+Nếu bạn không tìm thấy đủ thông tin để chắc chắn, bạn vẫn chọn đáp án mà bạn cho là đúng nhất.
+Đáp án của bạn chỉ là một chuỗi ký tự đại diện đáp án đúng, cách nhau bằng dấu phẩy — ví dụ: A,C hoặc B
+Không kèm lời giải, lý do, hoặc văn bản nào khác ngoài chuỗi như trên.
 --- VÍ DỤ ---
-
-**VÍ DỤ 1: Trường hợp một đáp án đúng**
 NGỮ CẢNH: Một khảo sát cho thấy rằng 40% sinh viên tham gia chỉ chọn môn Toán A, 20% chỉ chọn môn Toán B.
 CÂU HỎI: Có bao nhiêu phần trăm sinh viên chỉ chọn môn Toán A thôi?
 CÁC LỰA CHỌN:
@@ -145,38 +141,13 @@ B: 40%
 C: 50%
 D: 60%
 ĐÁP ÁN: B
-
-**VÍ DỤ 2: Trường hợp nhiều đáp án đúng**
-NGỮ CẢNH: Sản phẩm mới hỗ trợ kết nối qua cả Wi-Fi và Bluetooth. Cổng USB-C dùng để sạc.
-CÂU HỎI: Sản phẩm hỗ trợ những kết nối không dây nào?
-CÁC LỰA CHỌN:
-A: Wi-Fi
-B: Cổng USB-C
-C: Bluetooth
-D: NFC
-ĐÁP ÁN: A,C
-
-**VÍ DỤ 3: Trường hợp nội dung lựa chọn chứa ký tự có thể gây nhiễu**
-NGỮ CẢNH: Yêu cầu kỹ thuật cho bộ phận C là phải có chứng chỉ tin học.
-CÂU HỎI: Bộ phận nào cần chứng chỉ tin học?
-CÁC LỰA CHỌN:
-A: Bộ phận C
-B: Bộ phận D
-C: Bộ phận A
-D: Bộ phận B
-ĐÁP ÁN: A
-
 --- KẾT THÚC VÍ DỤ ---
-
 --- BẮT ĐẦU NHIỆM VỤ ---
 NGỮ CẢNH:
 {context}
-
 CÂU HỎI: {question}
-
 CÁC LỰA CHỌN:
 {options_str}
-
 ĐÁP ÁN:"""
         
         # Sử dụng template chat của Qwen

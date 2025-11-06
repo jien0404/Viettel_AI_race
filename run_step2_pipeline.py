@@ -9,9 +9,9 @@ from src.step2_chunking_embedding.chunker import create_chunks
 from src.step2_chunking_embedding.embedder import Embedder
 from src.step2_chunking_embedding.vector_store_handler import VectorStoreHandler
 
-INPUT_DIRECTORY = "submission" 
+INPUT_DIRECTORY = "data/raw/output" 
 DB_OUTPUT_DIRECTORY = "chroma_database" 
-MASTER_COLLECTION_NAME = "all_documents_2"
+MASTER_COLLECTION_NAME = "all_documents_training"
 
 def run_full_pipeline():
     

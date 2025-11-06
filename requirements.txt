@@ -8,3 +8,10 @@ pandas
 chromadb
 unsloth[cu124-py312]
 google-generativeai
+
+peft
+trl
+bitsandbytes
+accelerate
+datasets
+tqdm

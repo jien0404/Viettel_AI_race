@@ -42,8 +42,8 @@ def parse_document(file_path: str) -> List[Dict[str, Any]]:
             i += 1
 
         # 2. Nhận dạng Placeholder hình ảnh (Image Placeholder)
-        elif re.match(r'^\|<image_(\d+)>\|$', line):
-            match = re.match(r'^\|<image_(\d+)>\|$', line)
+        elif re.match(r'^\|<image(\d+)>\|$', line):
+            match = re.match(r'^\|<image(\d+)>\|$', line)
             image_id = int(match.group(1))
             content_blocks.append({
                 'type': 'image_placeholder',
