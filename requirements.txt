@@ -3,3 +3,7 @@ sentence-transformers
 torch 
 Pillow
 chromadb
+
+pandas
+chromadb
+unsloth[cu124-py312]
