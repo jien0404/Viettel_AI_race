@@ -7,3 +7,4 @@ chromadb
 pandas
 chromadb
 unsloth[cu124-py312]
+google-generativeai

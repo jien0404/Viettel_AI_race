@@ -10,9 +10,9 @@ from typing import List, Dict, Any
 
 # --- CẤU HÌNH ---
 DB_PATH = "chroma_database"
-COLLECTION_NAME = "document_chunks" # Tên collection mặc định, có thể cần thay đổi nếu bạn đặt tên khác ở bước 2
-QUESTIONS_FILE_PATH = "question.csv"
-OUTPUT_FILE_PATH = "submission/answer.md"
+COLLECTION_NAME = "all_documents"
+QUESTIONS_FILE_PATH = "data/raw/public_test_data/question.csv"
+OUTPUT_FILE_PATH = "submission/answer2.md"
 
 # Model dùng cho embedding câu hỏi (PHẢI GIỐNG model ở bước 2)
 EMBEDDING_MODEL_NAME = 'bkai-foundation-models/vietnamese-bi-encoder'
