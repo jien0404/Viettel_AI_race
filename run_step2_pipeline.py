@@ -9,9 +9,12 @@ from src.step2_chunking_embedding.chunker import create_chunks
 from src.step2_chunking_embedding.embedder import Embedder
 from src.step2_chunking_embedding.vector_store_handler import VectorStoreHandler
 
-INPUT_DIRECTORY = "submission" 
+INPUT_DIRECTORY = "data/raw/output" 
 DB_OUTPUT_DIRECTORY = "chroma_database" 
-MASTER_COLLECTION_NAME = "all_documents"
+MASTER_COLLECTION_NAME = "all_documents_training"
+
+TEXT_COLLECTION_NAME = "text_chunks_collection"
+IMAGE_COLLECTION_NAME = "image_chunks_collection"
 
 def run_full_pipeline():
     
@@ -26,9 +29,11 @@ def run_full_pipeline():
     
     print("\nKhởi tạo các công cụ xử lý (Embedder, Vector Store)...")
     embedder = Embedder()
-
     vector_store = VectorStoreHandler(persist_directory=DB_OUTPUT_DIRECTORY)
-    master_collection = vector_store.create_or_get_collection(collection_name=MASTER_COLLECTION_NAME)
+
+    # (SỬA ĐỔI) Tạo ra hai collection riêng biệt
+    text_collection = vector_store.create_or_get_collection(collection_name=TEXT_COLLECTION_NAME)
+    image_collection = vector_store.create_or_get_collection(collection_name=IMAGE_COLLECTION_NAME)
     print("Khởi tạo hoàn tất.\n")
     
     start_time_full = time.time()
@@ -43,11 +48,32 @@ def run_full_pipeline():
                 print(f"Cảnh báo: File rỗng hoặc không phân tích được. Bỏ qua.")
                 continue
             
-            chunks = create_chunks(parsed_blocks, doc_name=doc_name)
+            # (SỬA ĐỔI) Truyền thêm `doc_folder_path`
+            chunks = create_chunks(parsed_blocks, doc_name=doc_name, doc_folder_path=folder_path)
             
             chunks_with_embeddings = embedder.embed_chunks(chunks)
             
-            vector_store.add_chunks_to_collection(master_collection, chunks_with_embeddings)
+            # --- (SỬA ĐỔI LỚN) Tách chunks thành hai danh sách riêng biệt ---
+            text_based_chunks = []
+            image_based_chunks = []
+            for chunk in chunks_with_embeddings:
+                if 'embedding_vector' not in chunk: # Bỏ qua nếu chunk không có embedding
+                    continue
+                
+                chunk_type = chunk.get('chunk_type')
+                if chunk_type in ['text', 'table', 'formula']:
+                    text_based_chunks.append(chunk)
+                elif chunk_type == 'image':
+                    image_based_chunks.append(chunk)
+            
+            # Thêm vào các collection tương ứng
+            if text_based_chunks:
+                print(f"Thêm {len(text_based_chunks)} text chunks vào collection '{TEXT_COLLECTION_NAME}'...")
+                vector_store.add_chunks_to_collection(text_collection, text_based_chunks)
+            
+            if image_based_chunks:
+                print(f"Thêm {len(image_based_chunks)} image chunks vào collection '{IMAGE_COLLECTION_NAME}'...")
+                vector_store.add_chunks_to_collection(image_collection, image_based_chunks)
 
         except Exception as e:
             print(f"\n!!!! GẶP LỖI khi xử lý tài liệu '{doc_name}' !!!!")
@@ -60,7 +86,7 @@ def run_full_pipeline():
     print("\n=====================================================")
     print(f"===   HOÀN TẤT TOÀN BỘ PIPELINE BƯỚC 2   ===")
     print(f"Đã xử lý {total_docs} tài liệu trong {end_time_full - start_time_full:.2f} giây.")
-    print(f"Tất cả dữ liệu đã được lưu vào collection '{MASTER_COLLECTION_NAME}'")
+    print(f"Dữ liệu đã được lưu vào các collection: '{TEXT_COLLECTION_NAME}', '{IMAGE_COLLECTION_NAME}'")
     print(f"Trong cơ sở dữ liệu tại: '{DB_OUTPUT_DIRECTORY}'")
     print("=====================================================")
 

@@ -1,7 +1,33 @@
-from typing import List, Dict, Any
+import os
+from typing import List, Dict, Any, Optional
 from bs4 import BeautifulSoup
 
+def _find_flexible_image_path(base_dir: str, image_id: int) -> Optional[str]:
+    """
+    Tìm kiếm đường dẫn file ảnh linh hoạt, hỗ trợ nhiều định dạng đuôi ảnh
+    và hai kiểu đặt tên 'image_{id}' và 'image{id}'.
+    """
+    # Danh sách các đuôi file ảnh phổ biến để kiểm tra
+    supported_extensions = ['.jpg', '.jpeg', '.png', '.bmp', '.gif', '.webp']
+
+    for ext in supported_extensions:
+        # Thử kiểu tên 'image_{id}.ext'
+        path_with_underscore = os.path.join(base_dir, f"image_{image_id}{ext}")
+        if os.path.exists(path_with_underscore):
+            return path_with_underscore
+
+        # Thử kiểu tên 'image{id}.ext'
+        path_without_underscore = os.path.join(base_dir, f"image{image_id}{ext}")
+        if os.path.exists(path_without_underscore):
+            return path_without_underscore
+    
+    # Trả về None nếu không tìm thấy bất kỳ file nào khớp
+    return None
+
 def linearize_html_table(html_content: str) -> str:
+    """
+    Chuyển đổi một bảng HTML thành một chuỗi văn bản tuyến tính, dễ hiểu hơn cho LLM.
+    """
     soup = BeautifulSoup(html_content, 'html.parser')
     text_parts = []
     
@@ -12,7 +38,7 @@ def linearize_html_table(html_content: str) -> str:
     headers = []
     header_row = soup.find('thead')
     if not header_row:
-        header_row = soup.find('tr')
+        header_row = soup.find('tr') # Lấy hàng đầu tiên nếu không có thead
 
     if header_row:
         header_cols = header_row.find_all('th')
@@ -24,21 +50,27 @@ def linearize_html_table(html_content: str) -> str:
         cols = row.find_all(['td', 'th'])
         if not cols: continue
         
+        # Bỏ qua hàng header nếu nó được lặp lại trong tbody
         if headers and [col.get_text(strip=True) for col in cols] == headers:
             continue
 
+        # Tạo mô tả chi tiết nếu có header khớp
         if headers and len(headers) == len(cols):
             row_description = ", ".join([f"cột '{headers[i]}' là '{cols[i].get_text(strip=True)}'" for i in range(len(cols))])
             text_parts.append(f"Một hàng trong bảng có: {row_description}.")
-        else:
+        else: # Fallback cho các bảng không có cấu trúc chuẩn
             row_text = ", ".join([col.get_text(strip=True) for col in cols])
             text_parts.append(f"Một hàng trong bảng chứa: {row_text}.")
             
     return " ".join(text_parts)
 
-def create_chunks(blocks: List[Dict[str, Any]], doc_name: str) -> List[Dict[str, Any]]:
+def create_chunks(blocks: List[Dict[str, Any]], doc_name: str, doc_folder_path: str) -> List[Dict[str, Any]]:
+    """
+    Chuyển đổi danh sách các khối nội dung thành danh sách các chunk có thể được embedding.
+    """
     chunks = []
     current_headings = []
+    last_paragraph = ""
 
     for i, block in enumerate(blocks):
         block_type = block.get('type')
@@ -60,6 +92,8 @@ def create_chunks(blocks: List[Dict[str, Any]], doc_name: str) -> List[Dict[str,
 
         if block_type == 'paragraph':
             content = block.get('content', '')
+            last_paragraph = content
+            
             chunk['chunk_type'] = 'text'
             chunk['content_for_embedding'] = f"Ngữ cảnh: {heading_context_str}. Nội dung: {content}"
             chunk['metadata']['original_content'] = content
@@ -82,23 +116,19 @@ def create_chunks(blocks: List[Dict[str, Any]], doc_name: str) -> List[Dict[str,
 
         elif block_type == 'image_placeholder':
             image_id = block.get('id')
-            image_path = f"images/image_{image_id}.jpg"
+            images_base_dir = os.path.join(doc_folder_path, "images")
+            image_path = _find_flexible_image_path(images_base_dir, image_id)
             
-            text_context_before = ""
-            if i > 0 and blocks[i-1].get('type') == 'paragraph':
-                text_context_before = blocks[i-1].get('content', '')
+            # Nếu không tìm thấy đường dẫn ảnh hợp lệ, bỏ qua chunk này
+            if image_path is None:
+                print(f"!! CẢNH BÁO: Bỏ qua ảnh ID {image_id} cho tài liệu '{doc_name}' vì không tìm thấy file tương ứng.")
+                continue 
             
-            text_context_after = ""
-            if i < len(blocks) - 1 and blocks[i+1].get('type') == 'paragraph':
-                text_context_after = blocks[i+1].get('content', '')
-
-            full_text_context = f"Đoạn văn trước ảnh: '{text_context_before}'. Đoạn văn sau ảnh: '{text_context_after}'"
-
+            # Chỉ thực hiện các bước dưới đây NẾU tìm thấy ảnh
             chunk['chunk_type'] = 'image'
             chunk['content_for_embedding'] = image_path
-            chunk['metadata']['original_content'] = f"image_{image_id}"
             chunk['metadata']['image_path'] = image_path
-            chunk['metadata']['text_context'] = full_text_context.strip()
+            chunk['metadata']['text_context'] = last_paragraph 
             chunks.append(chunk)
 
     return chunks
