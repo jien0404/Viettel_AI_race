@@ -67,29 +67,3 @@ class Embedder:
         
         return chunks
 
-
-# --- MAIN ĐỂ KIỂM THỬ ---
-if __name__ == '__main__':
-    sample_chunks = [
-        {"doc_name": "Public_Test_001", "metadata": {"context_headings": "Đây là Tiêu đề chính", "original_content": "Đây là đoạn văn bản giới thiệu đầu tiên. Nó mô tả nội dung của tài liệu."}, "chunk_type": "text", "content_for_embedding": "Ngữ cảnh: Đây là Tiêu đề chính. Nội dung: Đây là đoạn văn bản giới thiệu đầu tiên. Nó mô tả nội dung của tài liệu."},
-        {"doc_name": "Public_Test_001", "metadata": {"context_headings": "Đây là Tiêu đề chính > Một Tiêu đề phụ", "original_content": "Đây là đoạn văn bản thứ hai, nằm dưới tiêu đề phụ."}, "chunk_type": "text", "content_for_embedding": "Ngữ cảnh: Đây là Tiêu đề chính > Một Tiêu đề phụ. Nội dung: Đây là đoạn văn bản thứ hai, nằm dưới tiêu đề phụ."},
-        {"doc_name": "Public_Test_001", "metadata": {"context_headings": "Đây là Tiêu đề chính > Một Tiêu đề phụ", "original_content": "image_1", "image_path": "images/image_1.jpg", "text_context": "Đây là đoạn văn bản thứ hai, nằm dưới tiêu đề phụ."}, "chunk_type": "image", "content_for_embedding": "images/image_1.jpg"},
-        {"doc_name": "Public_Test_001", "metadata": {"context_headings": "Đây là Tiêu đề chính > Một Tiêu đề phụ", "original_content": "<table>...</table>"}, "chunk_type": "table", "content_for_embedding": "Ngữ cảnh: Đây là Tiêu đề chính > Một Tiêu đề phụ. Bảng: Nội dung bảng: Bảng kết quả. Một hàng trong bảng chứa: Hàng 1, Cột 1, Hàng 1, Cột 2."},
-        {"doc_name": "Public_Test_001", "metadata": {"context_headings": "Đây là Tiêu đề chính > Một Tiêu đề phụ", "original_content": "$$\\nE = mc^2\\n$$"}, "chunk_type": "formula", "content_for_embedding": "Ngữ cảnh: Đây là Tiêu đề chính > Một Tiêu đề phụ. Nội dung là một công thức toán học."},
-    ]
-    
-    import os
-    if not os.path.exists('images'):
-        os.makedirs('images')
-        
-    embedder = Embedder()
-    
-    chunks_with_embeddings = embedder.embed_chunks(sample_chunks)
-    
-    print("\n--- Embedding hoàn tất. Kiểm tra kết quả: ---")
-    for chunk in chunks_with_embeddings:
-        if 'embedding_vector' in chunk:
-            print(f" - Loại chunk: '{chunk['chunk_type']}', "
-                  f"Đã thêm vector embedding với shape: {chunk['embedding_vector'].shape}")
-        else:
-            print(f" - Loại chunk: '{chunk['chunk_type']}', LỖI: Không có vector embedding!")
