@@ -71,7 +71,7 @@ def process_auto_folder(auto_folder, pdf_name):
                 print(f"⚠️ Thiếu ảnh: {old_name}")
                 continue
             ext = os.path.splitext(old_name)[1]
-            new_name = f"{i}{ext}"
+            new_name = f"image_{i}{ext}"
             new_path = os.path.join(output_images, new_name)
             shutil.copy2(old_path, new_path)
             rename_map[old_name] = new_name

@@ -27,5 +27,5 @@ Viettel_AI_Race_NLP/
 
 
 ### Lưu ý: 
-- public_test của gd 3 chính và private_test của qd 2
-- public_test của gd 4 chính và private_test của qd 3
+- public_test của gd 3 chính là private_test của qd 2
+- public_test của gd 4 chính là private_test của qd 3
