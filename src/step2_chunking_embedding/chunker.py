@@ -86,24 +86,3 @@ def create_chunks(blocks: List[Dict[str, Any]], doc_name: str) -> List[Dict[str,
             chunks.append(chunk)
 
     return chunks
-
-# --- MAIN ĐỂ KIỂM THỬ ---
-if __name__ == '__main__':
-    sample_parsed_blocks = [
-        {"type": "heading", "level": 1, "content": "Đây là Tiêu đề chính"},
-        {"type": "paragraph", "content": "Đây là đoạn văn bản giới thiệu đầu tiên. Nó mô tả nội dung của tài liệu."},
-        {"type": "heading", "level": 2, "content": "Một Tiêu đề phụ"},
-        {"type": "paragraph", "content": "Đây là đoạn văn bản thứ hai, nằm dưới tiêu đề phụ."},
-        {"type": "image_placeholder", "id": 1},
-        {"type": "html_table", "raw_html": "<table><caption>Bảng kết quả</caption><tr><td>Hàng 1, Cột 1</td><td>Hàng 1, Cột 2</td></tr></table>"},
-        {"type": "paragraph", "content": "Một đoạn văn bản khác nằm giữa bảng và công thức."},
-        {"type": "latex_formula", "raw_latex": "$$\\nE = mc^2\\n$$"},
-        {"type": "paragraph", "content": "Đây là đoạn văn bản cuối cùng."}
-    ]
-
-    print("--- Bắt đầu tạo chunks ---")
-    final_chunks = create_chunks(sample_parsed_blocks, doc_name="Public_Test_001")
-
-    import json
-    print(json.dumps(final_chunks, indent=2, ensure_ascii=False))
-    print(f"\n--- Tạo chunks hoàn tất. Tổng số chunks: {len(final_chunks)} ---")

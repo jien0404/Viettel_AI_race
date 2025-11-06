@@ -41,31 +41,3 @@ class VectorStoreHandler:
                 print(f"Đã thêm thành công batch từ {i} đến {i+len(batch_chunks)}.")
             except Exception as e:
                 print(f"Lỗi khi thêm batch vào collection: {e}")
-
-if __name__ == '__main__':
-    sample_chunks_with_embeddings = [
-        {'doc_name': 'Public_Test_001', 'metadata': {'context_headings': 'Tiêu đề chính', 'original_content': 'Nội dung văn bản 1'}, 'chunk_type': 'text', 'embedding_vector': np.random.rand(768)},
-        {'doc_name': 'Public_Test_001', 'metadata': {'context_headings': 'Tiêu đề phụ', 'original_content': 'Nội dung văn bản 2'}, 'chunk_type': 'text', 'embedding_vector': np.random.rand(768)},
-        {'doc_name': 'Public_Test_001', 'metadata': {'context_headings': 'Tiêu đề phụ', 'image_path': 'images/image_1.jpg'}, 'chunk_type': 'image', 'embedding_vector': np.random.rand(512)},
-        {'doc_name': 'Public_Test_001', 'metadata': {'context_headings': 'Tiêu đề phụ', 'original_content': '<table>...</table>'}, 'chunk_type': 'table', 'embedding_vector': np.random.rand(768)}
-    ]
-
-    DB_PATH = "./chroma_db_storage"
-    vector_store = VectorStoreHandler(persist_directory=DB_PATH)
-
-    collection = vector_store.create_or_get_collection(collection_name="Public_Test_001")
-
-    if collection:
-        print("\n--- Bắt đầu thêm chunks vào vector store ---")
-        vector_store.add_chunks_to_collection(collection, sample_chunks_with_embeddings)
-        print("--- Thêm chunks hoàn tất ---")
-        
-        print("\n--- Kiểm tra bằng cách truy vấn thử ---")
-        results = collection.query(
-            query_embeddings=[sample_chunks_with_embeddings[0]['embedding_vector'].tolist()],
-            n_results=2 
-        )
-        
-        print("Kết quả truy vấn:")
-        import json
-        print(json.dumps(results['metadatas'], indent=2, ensure_ascii=False))
