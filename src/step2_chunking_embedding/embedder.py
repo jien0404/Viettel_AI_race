@@ -66,4 +66,3 @@ class Embedder:
                 chunks[i]['embedding_vector'] = embedding.cpu().numpy()
         
         return chunks
-
