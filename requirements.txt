@@ -15,3 +15,7 @@ bitsandbytes
 accelerate
 datasets
 tqdm
+pyspellchecker
+spellchecker
+beautifulsoup4
+lxml

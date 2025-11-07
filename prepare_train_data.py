@@ -43,7 +43,12 @@ def run_full_pipeline():
         print(f"--- Đang xử lý tài liệu {i+1}/{total_docs}: {doc_name} ---")
         try:
             md_file_path = os.path.join(folder_path, 'main.md')
+
+            t_parse_start = time.time()
+            print(f"[LOG] Bắt đầu parse: {md_file_path}", flush=True)
             parsed_blocks = parse_document(md_file_path)
+            print(f"[LOG] Parse xong ({time.time()-t_parse_start:.2f}s). Blocks: {len(parsed_blocks)}", flush=True)
+
             if not parsed_blocks:
                 print(f"Cảnh báo: File rỗng hoặc không phân tích được. Bỏ qua.")
                 continue
@@ -51,7 +56,10 @@ def run_full_pipeline():
             # (SỬA ĐỔI) Truyền thêm `doc_folder_path`
             chunks = create_chunks(parsed_blocks, doc_name=doc_name, doc_folder_path=folder_path)
             
+            t_embed_start = time.time()
+            print(f"[LOG] Bắt đầu embed cho doc '{doc_name}'", flush=True)
             chunks_with_embeddings = embedder.embed_chunks(chunks)
+            print(f"[LOG] Embed xong ({time.time()-t_embed_start:.2f}s)", flush=True)
             
             # --- (SỬA ĐỔI LỚN) Tách chunks thành hai danh sách riêng biệt ---
             text_based_chunks = []
@@ -72,8 +80,10 @@ def run_full_pipeline():
                 vector_store.add_chunks_to_collection(text_collection, text_based_chunks)
             
             if image_based_chunks:
-                print(f"Thêm {len(image_based_chunks)} image chunks vào collection '{IMAGE_COLLECTION_NAME}'...")
+                print(f"Thêm {len(image_based_chunks)} image chunks vào collection '{IMAGE_COLLECTION_NAME}'...", flush=True)
+                t_add_start = time.time()
                 vector_store.add_chunks_to_collection(image_collection, image_based_chunks)
+                print(f"[LOG] add image collection done ({time.time()-t_add_start:.2f}s)", flush=True)
 
         except Exception as e:
             print(f"\n!!!! GẶP LỖI khi xử lý tài liệu '{doc_name}' !!!!")
