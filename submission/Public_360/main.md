@@ -22,7 +22,53 @@ Công suất ra cực đại của UE không được vượt các giá trị t�
 
 Bảng 1 - Các loại công suất UE   
 
-<table><tr><td rowspan=1 colspan=1>Bang tanNB</td><td rowspan=1 colspan=1>Loai 3(dBm)</td><td rowspan=1 colspan=1>Dung sai (dB)</td><td rowspan=1 colspan=1>Loai 5(dBm)</td><td rowspan=1 colspan=1>Dung sai (dB)</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>±2,7</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>±2,7</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>±2,7</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>± 2,7</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>± 2,7</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>± 2,7</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>± 2,7</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>±2,7</td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>± 2,7</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>± 2,7</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Băng tần NB</td>
+      <td>Loại 3 (dBm)</td>
+      <td>Dung sai (dB)</td>
+      <td>Loại 5 (dBm)</td>
+      <td>Dung sai (dB)</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>23</td>
+      <td>± 2,7</td>
+      <td>20</td>
+      <td>± 2,7</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>23</td>
+      <td>± 2,7</td>
+      <td>20</td>
+      <td>± 2,7</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>23</td>
+      <td>± 2,7</td>
+      <td>20</td>
+      <td>± 2,7</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>23</td>
+      <td>± 2,7</td>
+      <td>20</td>
+      <td>± 2,7</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>23</td>
+      <td>± 2,7</td>
+      <td>20</td>
+      <td>± 2,7</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.2 Mặt nạ phổ phát xạ của máy phát
 
@@ -38,7 +84,41 @@ Công suất phát xạ của UE bất kỳ phải tuân thủ theo các yêu c�
 
 Bảng 2 - Mặt nạ phổ phát xạ UE NB   
 
-<table><tr><td rowspan=1 colspan=1>△fooB (kHz)</td><td rowspan=1 colspan=1>Gioi han phó phat xa (dBm)</td><td rowspan=1 colspan=1>Bang thong do</td></tr><tr><td rowspan=1 colspan=1>±0</td><td rowspan=1 colspan=1>24,5</td><td rowspan=1 colspan=1>30 kHz</td></tr><tr><td rowspan=1 colspan=1>± 100</td><td rowspan=1 colspan=1>-3,5</td><td rowspan=1 colspan=1>30 kHz</td></tr><tr><td rowspan=1 colspan=1>± 150</td><td rowspan=1 colspan=1>-6,5</td><td rowspan=1 colspan=1>30 kHz</td></tr><tr><td rowspan=1 colspan=1>±300</td><td rowspan=1 colspan=1>-27,5</td><td rowspan=1 colspan=1>30 kHz</td></tr><tr><td rowspan=1 colspan=1>± 500-1700</td><td rowspan=1 colspan=1>-33,5</td><td rowspan=1 colspan=1>30 kHz</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>ΔfOOB (kHz)</td>
+      <td>Giới hạn phổ phát xạ (dBm)</td>
+      <td>Băng thông đo</td>
+    </tr>
+    <tr>
+      <td>± 0</td>
+      <td>24,5</td>
+      <td>30 kHz</td>
+    </tr>
+    <tr>
+      <td>± 100</td>
+      <td>-3,5</td>
+      <td>30 kHz</td>
+    </tr>
+    <tr>
+      <td>± 150</td>
+      <td>-6,5</td>
+      <td>30 kHz</td>
+    </tr>
+    <tr>
+      <td>± 300</td>
+      <td>-27,5</td>
+      <td>30 kHz</td>
+    </tr>
+    <tr>
+      <td>± 500 – 1 700</td>
+      <td>-33,5</td>
+      <td>30 kHz</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.3 Phát xạ giả của máy phát
 
@@ -60,7 +140,25 @@ Công suất trung bình của phát xạ giả đo được đối với yêu c
 
 Bảng 3 - Ranh giới ΔfOOB giữa kênh NB và miền phát xạ giả   
 
-<table><tr><td rowspan=1 colspan=1>Bang thong kenh</td><td rowspan=1 colspan=1>5 MHz</td><td rowspan=1 colspan=1>10 MHz</td><td rowspan=1 colspan=1>15 MHz</td><td rowspan=1 colspan=1>20 MHz</td></tr><tr><td rowspan=1 colspan=1>△fooB (MHz)</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>25</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Băng thông kênh</td>
+      <td>5 MHz</td>
+      <td>10 MHz</td>
+      <td>15 MHz</td>
+      <td>20 MHz</td>
+    </tr>
+    <tr>
+      <td>ΔfOOB (MHz)</td>
+      <td>10</td>
+      <td>15</td>
+      <td>20</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -68,7 +166,36 @@ CHÚ THÍCH 1: Đối với điều kiện đo tại biên của mỗi dải t�
 
 Bảng 4 - Giới hạn phát xạ giả   
 
-<table><tr><td rowspan=1 colspan=1>Dai tan s6</td><td rowspan=1 colspan=1>Mirc toi da</td><td rowspan=1 colspan=1>Bang thong do</td></tr><tr><td rowspan=1 colspan=1>9 kHz≤f&lt;150 kHz</td><td rowspan=1 colspan=1>-36 dBm</td><td rowspan=1 colspan=1>1 kHz</td></tr><tr><td rowspan=1 colspan=1>150 kHz≤f&lt;30 MHz</td><td rowspan=1 colspan=1>-36 dBm</td><td rowspan=1 colspan=1>10 kHz</td></tr><tr><td rowspan=1 colspan=1> 30 MHz≤f&lt;1 GHz</td><td rowspan=1 colspan=1>-36 dBm</td><td rowspan=1 colspan=1>100 kHz</td></tr><tr><td rowspan=1 colspan=1>1 GHz ≤f&lt;12,75 GHz</td><td rowspan=1 colspan=1>-30 dBm</td><td rowspan=1 colspan=1>1 MHz</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Dải tần số</td>
+      <td>Mức tối đa</td>
+      <td>Băng thông đo</td>
+    </tr>
+    <tr>
+      <td>9 kHz ≤ f < 150 kHz</td>
+      <td>-36 dBm</td>
+      <td>1 kHz</td>
+    </tr>
+    <tr>
+      <td>150 kHz ≤ f < 30 MHz</td>
+      <td>-36 dBm</td>
+      <td>10 kHz</td>
+    </tr>
+    <tr>
+      <td>30 MHz ≤ f < 1 GHz</td>
+      <td>-36 dBm</td>
+      <td>100 kHz</td>
+    </tr>
+    <tr>
+      <td>1 GHz ≤ f < 12,75 GHz</td>
+      <td>-30 dBm</td>
+      <td>1 MHz</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.4 Công suất ra cực tiểu của máy phát
 
@@ -96,7 +223,71 @@ UE phải đáp ứng yêu cầu tối thiểu quy định trong Bảng 5 đối
 
 Bảng 5 - Tham số đo cho độ chọn lọc kênh lân cận   
 
-<table><tr><td rowspan=1 colspan=3>Tham só do ACS1</td></tr><tr><td rowspan=1 colspan=1>Nhiéu</td><td rowspan=1 colspan=1>GSM (GMSK)</td><td rowspan=1 colspan=1>E-UTRA</td></tr><tr><td rowspan=1 colspan=1>Cong suat tin hieu NB(Pwanted) / dBm</td><td rowspan=1 colspan=2>REFSENS + 14 dB</td></tr><tr><td rowspan=1 colspan=1>Cong suat tin hieu nhiéu(PInterferer) / dBm</td><td rowspan=1 colspan=1>REFSENS + 42 dB</td><td rowspan=1 colspan=1>REFSENS + 47 dB</td></tr><tr><td rowspan=1 colspan=1>Bang thong nhieu</td><td rowspan=1 colspan=1>200 kHz</td><td rowspan=1 colspan=1> 5 MHz</td></tr><tr><td rowspan=1 colspan=1>D@ léch nhiéu tur bien kénh NB</td><td rowspan=1 colspan=1>±200 kHz</td><td rowspan=1 colspan=1>±2,5 MHz</td></tr><tr><td rowspan=1 colspan=3>Tham só do ACS2</td></tr><tr><td rowspan=1 colspan=1>Nhieu</td><td rowspan=1 colspan=1>GSM (GMSK)</td><td rowspan=1 colspan=1>E-UTRA</td></tr><tr><td rowspan=1 colspan=1>Cong suat tin hiéu NB(Pwanted) / dBm</td><td rowspan=1 colspan=1>-53 dBm</td><td rowspan=1 colspan=1>-58 dBm</td></tr><tr><td rowspan=1 colspan=1>Cong suat tin hieu nhiéu(PInterferer)） / dBm</td><td rowspan=1 colspan=2>-25 dBm</td></tr><tr><td rowspan=1 colspan=1>Bang thong nhieu</td><td rowspan=1 colspan=1>200 kHz</td><td rowspan=1 colspan=1>5 MHz</td></tr><tr><td rowspan=1 colspan=1>D@ lech nhiéu tur bien kenh NB</td><td rowspan=1 colspan=1>±200 kHz</td><td rowspan=1 colspan=1>±2,5 MHz</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tham số đo ACS1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Nhiễu</td>
+      <td>GSM (GMSK)</td>
+      <td>E-UTRA</td>
+    </tr>
+    <tr>
+      <td>Công suất tín hiệu NB (Pwanted) / dBm</td>
+      <td>REFSENS + 14 dB</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Công suất tín hiệu nhiễu (PInterferer) / dBm</td>
+      <td></td>
+      <td>REFSENS + 42 dB REFSENS + 47 dB</td>
+    </tr>
+    <tr>
+      <td>Băng thông nhiễu</td>
+      <td>200 kHz</td>
+      <td>5 MHz</td>
+    </tr>
+    <tr>
+      <td>Độ lệch nhiễu từ biên kênh NB</td>
+      <td>±200 kHz</td>
+      <td>±2,5 MHz</td>
+    </tr>
+    <tr>
+      <td>Tham số đo ACS2</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Nhiễu</td>
+      <td>GSM (GMSK)</td>
+      <td>E-UTRA</td>
+    </tr>
+    <tr>
+      <td>Công suất tín hiệu NB (Pwanted) / dBm</td>
+      <td>-53 dBm</td>
+      <td>-58 dBm</td>
+    </tr>
+    <tr>
+      <td>Công suất tín hiệu nhiễu (PInterferer) / dBm</td>
+      <td>-25 dBm</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Băng thông nhiễu</td>
+      <td>200 kHz</td>
+      <td>5 MHz</td>
+    </tr>
+    <tr>
+      <td>Độ lệch nhiễu từ biên kênh NB</td>
+      <td>±200 kHz</td>
+      <td>±2,5 MHz</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.6 Đặc tính chặn của máy thu
 
@@ -116,15 +307,124 @@ Với các tham số xác định tại Bảng 7, thông lượng phải $\geq 9
 
 Bảng 6 - Các tham số chặn trong băng   
 
-<table><tr><td rowspan=1 colspan=2>Tham só do IBB1</td></tr><tr><td rowspan=1 colspan=1>Cong suat tin hiéu NB(Pwanted) / dBm</td><td rowspan=1 colspan=1>REFSENS +6 dB</td></tr><tr><td rowspan=1 colspan=1>Nhiéu</td><td rowspan=1 colspan=1>E-UTRA</td></tr><tr><td rowspan=1 colspan=1>Cong suat tin hiéu nhiéu(PInterferer) / dBm</td><td rowspan=1 colspan=1>- 56 dBm</td></tr><tr><td rowspan=1 colspan=1>Bang thong nhiéu</td><td rowspan=1 colspan=1>5 MHz</td></tr><tr><td rowspan=1 colspan=1>D@ léch nhiéu tur bién kénh NB</td><td rowspan=1 colspan=1>+7,5 MHz + 0,005 MHzva-7,5 MHz - 0,005 MHz</td></tr><tr><td rowspan=1 colspan=2>Tham só do IBB2</td></tr><tr><td rowspan=1 colspan=1>Cong suat tin hiéu NB(Pwanted) / dBm</td><td rowspan=1 colspan=1>REFSENS +6 dB</td></tr><tr><td rowspan=1 colspan=1>Nhiéu</td><td rowspan=1 colspan=1>E-UTRA</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tham số đo IBB1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Công suất tín hiệu NB (Pwanted) / dBm</td>
+      <td>REFSENS + 6 dB</td>
+    </tr>
+    <tr>
+      <td>Nhiễu</td>
+      <td>E-UTRA</td>
+    </tr>
+    <tr>
+      <td>Công suất tín hiệu nhiễu (PInterferer) / dBm</td>
+      <td>- 56 dBm</td>
+    </tr>
+    <tr>
+      <td>Băng thông nhiễu</td>
+      <td>5 MHz</td>
+    </tr>
+    <tr>
+      <td>Độ lệch nhiễu từ biên kênh NB</td>
+      <td>+7,5 MHz + 0,005 MHz và -7,5 MHz - 0,005 MHz</td>
+    </tr>
+    <tr>
+      <td>Tham số đo IBB2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Công suất tín hiệu NB (Pwanted) / dBm</td>
+      <td>REFSENS + 6 dB</td>
+    </tr>
+    <tr>
+      <td>Nhiễu</td>
+      <td>E-UTRA</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
 Bảng 7 - Các tham số chặn ngoài băng   
 
-<table><tr><td rowspan=1 colspan=1>Cong suat tin hieu nhiéu(PInterferer) / dBm</td><td rowspan=1 colspan=1>- 44 dBm</td></tr><tr><td rowspan=1 colspan=1>Bang thong nhiéu</td><td rowspan=1 colspan=1>5 MHz</td></tr><tr><td rowspan=1 colspan=1>D@ léch nhiéu tr bien kénh NB</td><td rowspan=1 colspan=1>tur +12,5 MHz dén FDL_high + 15 MHz vatir -12,5 MHz dén FDL_low - 15 MHz</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Công suất tín hiệu nhiễu (PInterferer) / dBm</td>
+      <td>- 44 dBm</td>
+    </tr>
+    <tr>
+      <td>Băng thông nhiễu</td>
+      <td>5 MHz</td>
+    </tr>
+    <tr>
+      <td>Độ lệch nhiễu từ biên kênh NB</td>
+      <td>từ +12,5 MHz đến FDL_high + 15 MHz và từ -12,5 MHz đến FDL_low - 15 MHz</td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan="2">Tham s6</td><td rowspan="2">Don vi</td><td colspan="3">Tan s6</td></tr><tr><td>Dai 1</td><td>Dai 2</td><td>Dai 3</td></tr><tr><td>Pwanted</td><td>dBm</td><td colspan="3">REFSENS +6 dB</td></tr><tr><td>Pintrferer (CW)</td><td>dBm</td><td>-44</td><td>-30</td><td>-15</td></tr><tr><td rowspan="2">Dai Fintererer</td><td>MHz</td><td>FDL low- 15 den FDL_low - 60</td><td>FDLlow- 60 den FDL_low- 85</td><td>FDL_low - 85 dén 1 MHz</td></tr><tr><td>MHz</td><td>+15dén FDL_nigh+ 60</td><td>+ 60 dén FDL_nigh + 85</td><td>FDL_high + 85 den 12 750 MHz</td></tr><tr><td colspan="5">CHU THiCH 1: Dói voi dai tan só duong xuong 729 MHz &lt; f&lt;1 GHz trong bäng tan hoat dong, muc cóng suat nhiéu (PInterferer) doi voi dai 3 sé phai diéu chinh toi -18 dBm tai dai tan só bi gioi han boi FDL low - 150 MHz cua bäng tän nhö nhat UE hö tro trong dai tan só 729 MHz &lt; f &lt; 1 GHz va FDL_high + 150 MHz cua bäng tan lon nhat UE hö tro trong dai tan só 729 MHz&lt;f&lt;1 GHz. CHU THiCH 2: Dói voi dai tan só duong xuóng 1 805 MHz &lt; f &lt; 2 200 MHz trong bang tan hoat dong, murc cong suat nhiéu (PInterferer) doi voi dai 3 sé phai diéu chinh toi -20 dBm tai dai tan só bi gioi han boi FDL low - 200 MHz cua bang tan nho nhät UE hö trg trong dai tan só 1 805 MHz &lt; f&lt;2 200 MHz and FDL_high + 200 MHz cua bang tan lon nhat UE hδ tro trong dai tan só 1 805 MHz &lt; f&lt;2 200 MHz.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tham số</td>
+      <td>Đơn vị</td>
+      <td>Tần số</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Dải 1</td>
+      <td>Dải 2</td>
+      <td>Dải 3</td>
+    </tr>
+    <tr>
+      <td>Pwanted</td>
+      <td>dBm</td>
+      <td>REFSENS + 6 dB</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Pinterferer (CW)</td>
+      <td>dBm</td>
+      <td>-44</td>
+      <td>-30</td>
+      <td>-15</td>
+    </tr>
+    <tr>
+      <td>Dải Finterferer</td>
+      <td>MHz</td>
+      <td>FDL_low - 15 đến FDL_low - 60</td>
+      <td>FDL_low - 60 đến FDL_low - 85</td>
+      <td>FDL_low - 85 đến 1 MHz</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>MHz</td>
+      <td>FDL_high + 15 đến FDL_high + 60</td>
+      <td>FDL_high + 60 đến FDL_high + 85</td>
+      <td>FDL_high + 85 đến 12 750 MHz</td>
+    </tr>
+    <tr>
+      <td>CHÚ THÍCH 1: Đối với dải tần số đường xuống 729 MHz < f < 1 GHz trong băng tần hoạt động, mức công suất nhiễu (PInterferer) đối với dải 3 sẽ phải điều chỉnh tới -18 dBm tại dải tần số bị giới hạn bởi FDL_low - 150 MHz của băng tần nhỏ nhất UE hỗ trợ trong dải tần số 729 MHz < f < 1 GHz và FDL_high + 150 MHz của băng tần lớn nhất UE hỗ trợ trong dải tần số 729 MHz < f < 1 GHz. CHÚ THÍCH 2: Đối với dải tần số đường xuống 1 805 MHz < f < 2 200 MHz trong băng tần hoạt động, mức công suất nhiễu (PInterferer) đối với dải 3 sẽ phải điều chỉnh tới -20 dBm tại dải tần số bị giới hạn bởi FDL_low - 200 MHz của băng tần nhỏ nhất UE hỗ trợ trong dải tần số 1 805 MHz < f < 2 200 MHz and FDL_high + 200 MHz của băng tần lớn nhất UE hỗ trợ trong dải tần số 1 805 MHz < f < 2 200 MHz.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.7 Đáp ứng giả của máy thu
 
@@ -140,7 +440,41 @@ Thông lượng phải $\geq 9 5 ~ \%$ thông lượng tối đa của các kên
 
 Bảng 8 - Đáp ứng giả   
 
-<table><tr><td rowspan=1 colspan=1>Tham s6</td><td rowspan=1 colspan=1>Don vi</td><td rowspan=1 colspan=1>Mirc</td></tr><tr><td rowspan=1 colspan=1>Psignal</td><td rowspan=1 colspan=1>dBm</td><td rowspan=1 colspan=1>REFSENS + 6</td></tr><tr><td rowspan=1 colspan=1>Pintrfer(CW)</td><td rowspan=1 colspan=1>dBm</td><td rowspan=1 colspan=1>-44</td></tr><tr><td rowspan=1 colspan=1>Finterfer</td><td rowspan=1 colspan=1>MHz</td><td rowspan=1 colspan=1>Cac tan só dap ung gia</td></tr><tr><td rowspan=1 colspan=1>S6 luong cac tan so dap ing gia</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>24 (trong OOB dai 1, 2, 3)</td></tr><tr><td rowspan=1 colspan=3>CHU THfCH 1: Kenh do tham chiéu xac dinh tai A.3.2, tai lieu ETSI TS 136 521-1.CHU THiCH 2: REFSENS duoc xac dinh tai tai lieu ETSI TS 136 521-1.CHU THICH 3: OOB dai 1, 2, 3 quy dinh tai Bang 7.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tham số</td>
+      <td>Đơn vị</td>
+      <td>Mức</td>
+    </tr>
+    <tr>
+      <td>Psignal</td>
+      <td>dBm</td>
+      <td>REFSENS + 6</td>
+    </tr>
+    <tr>
+      <td>Pinterferer (CW)</td>
+      <td>dBm</td>
+      <td>-44</td>
+    </tr>
+    <tr>
+      <td>Finterferer</td>
+      <td>MHz</td>
+      <td>Các tần số đáp ứng giả</td>
+    </tr>
+    <tr>
+      <td>Số lượng các tần số đáp ứng giả</td>
+      <td></td>
+      <td>24 (trong OOB dải 1, 2, 3)</td>
+    </tr>
+    <tr>
+      <td>CHÚ THÍCH 1: Kênh đo tham chiếu xác định tại A.3.2, tài liệu ETSI TS 136 521-1. CHÚ THÍCH 2: REFSENS được xác định tại tài liệu ETSI TS 136 521-1. CHÚ THÍCH 3: OOB dải 1, 2, 3 quy định tại Bảng 7.</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.8 Đặc tính xuyên điều chế của máy thu
 
@@ -154,11 +488,43 @@ Thông lượng phải $\geq 9 5 \%$ thông lượng tối đa của các kênh 
 
 Bảng 9 - Các tham số đo cho xuyên điều chế băng rộng   
 
-<table><tr><td rowspan=1 colspan=2>Cac tham só do xuyén dieu ché bang rong</td></tr><tr><td rowspan=1 colspan=1>Cong suat tin hiéu NB</td><td rowspan=1 colspan=1>REFSENS + 12 dB</td></tr><tr><td rowspan=1 colspan=1>Cong suat tin hieu nhiéu CW</td><td rowspan=1 colspan=1>-46 dBm</td></tr><tr><td rowspan=1 colspan=1>Cong suat tin hiéu nhiéu E-UTRA 1,4 MHz</td><td rowspan=1 colspan=1>-46 dBm</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Các tham số đo xuyên điều chế băng rộng</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Công suất tín hiệu NB</td>
+      <td>REFSENS + 12 dB</td>
+    </tr>
+    <tr>
+      <td>Công suất tín hiệu nhiễu CW</td>
+      <td>-46 dBm</td>
+    </tr>
+    <tr>
+      <td>Công suất tín hiệu nhiễu E-UTRA 1,4 MHz</td>
+      <td>-46 dBm</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td>D@ léch nhiéu CW</td><td>±2,2 MHz</td></tr><tr><td>D@ léch nhiéu E-UTRA 1,4 MHz</td><td>±4,4 MHz</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Độ lệch nhiễu CW</td>
+      <td>±2,2 MHz</td>
+    </tr>
+    <tr>
+      <td>Độ lệch nhiễu E-UTRA 1,4 MHz</td>
+      <td>±4,4 MHz</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.9 Phát xạ giả của máy thu
 
@@ -172,7 +538,31 @@ Công suất phát xạ giả không vượt quá giá trị mức tối đa quy
 
 Bảng 10 - Các yêu cầu chung cho phát xạ giả máy thu   
 
-<table><tr><td rowspan=1 colspan=1>Tan s6 bang</td><td rowspan=1 colspan=1>Bang thong do</td><td rowspan=1 colspan=1>Mirc toi da</td></tr><tr><td rowspan=1 colspan=1>30 MHz≤f&lt;1GHz</td><td rowspan=1 colspan=1>100 kHz</td><td rowspan=1 colspan=1>-57 dBm</td></tr><tr><td rowspan=1 colspan=1>1 GHz ≤f≤12,75 GHz</td><td rowspan=1 colspan=1>1 MHz</td><td rowspan=1 colspan=1>-47 dBm</td></tr><tr><td rowspan=1 colspan=3>CHU THICH:        Cac tai nguyén PDCCH khong sur dung duoc dém voi cac nh6mtai nguyén c6 murc cong suat dua ra boi PDCCH_RA/RB nhu dinh nghiatai C.3.1, tai lieu ETSITS 136 101.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tần số băng</td>
+      <td>Băng thông đo</td>
+      <td>Mức tối đa</td>
+    </tr>
+    <tr>
+      <td>30 MHz ≤ f  1 GHz</td>
+      <td>100 kHz</td>
+      <td>-57 dBm</td>
+    </tr>
+    <tr>
+      <td>1 GHz ≤ f ≤ 12,75 GHz</td>
+      <td>1 MHz</td>
+      <td>-47 dBm</td>
+    </tr>
+    <tr>
+      <td>CHÚ THÍCH: Các tài nguyên PDCCH không sử dụng được đệm với các nhóm tài nguyên có mức công suất đưa ra bởi PDCCH_RA/RB như định nghĩa tại C.3.1, tài liệu ETSITS 136 101.</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.10 Tỉ số công suất rò kênh lân cận của máy phát
 
@@ -190,7 +580,46 @@ Nếu công suất kênh lân cận đo được lớn hơn -50 dBm thì GSMACLR
 
 
 
-<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>GSMACLR</td><td rowspan=1 colspan=1>W-CDMAACLR</td></tr><tr><td rowspan=1 colspan=1>ACLR</td><td rowspan=1 colspan=1>19,2 dB</td><td rowspan=1 colspan=1>36,2 dB</td></tr><tr><td rowspan=1 colspan=1>D@ léch tan só trung tamkénh lan can tir bien kénhNB</td><td rowspan=1 colspan=1>±200 kHz</td><td rowspan=1 colspan=1>±2.5 MHz</td></tr><tr><td rowspan=1 colspan=1>Bang thong do kenh lancan</td><td rowspan=1 colspan=1>180 KHz</td><td rowspan=1 colspan=1>3,84 MHz</td></tr><tr><td rowspan=1 colspan=1>B@ loc do</td><td rowspan=1 colspan=1>Chtr nhat</td><td rowspan=1 colspan=1>B@ loc RRC α = 0,22</td></tr><tr><td rowspan=1 colspan=1>Bäng thong do kénh NB</td><td rowspan=1 colspan=1>180 KHz</td><td rowspan=1 colspan=1>180 KHz</td></tr><tr><td rowspan=1 colspan=1>B@ loc do kénh NB</td><td rowspan=1 colspan=1>Chur nhat</td><td rowspan=1 colspan=1>Chu nhat</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td>GSMACLR</td>
+      <td>W-CDMAACLR</td>
+    </tr>
+    <tr>
+      <td>ACLR</td>
+      <td>19,2 dB</td>
+      <td>36,2 dB</td>
+    </tr>
+    <tr>
+      <td>Độ lệch tần số trung tâm kênh lân cận từ biên kênh NB</td>
+      <td>±200 kHz</td>
+      <td>±2,5 MHz</td>
+    </tr>
+    <tr>
+      <td>Băng thông đo kênh lân cận</td>
+      <td>180 KHz</td>
+      <td>3,84 MHz</td>
+    </tr>
+    <tr>
+      <td>Bộ lọc đo</td>
+      <td>Chữ nhật</td>
+      <td>Bộ lọc RRC α = 0,22</td>
+    </tr>
+    <tr>
+      <td>Băng thông đo kênh NB</td>
+      <td>180 KHz</td>
+      <td>180 KHz</td>
+    </tr>
+    <tr>
+      <td>Bộ lọc đo kênh NB</td>
+      <td>Chữ nhật</td>
+      <td>Chữ nhật</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.11 Độ nhạy tham chiếu của máy thu
 
@@ -208,11 +637,27 @@ Thông lượng phải $\geq 9 5 ~ \%$ thông lượng tối đa của các kên
 
 Bảng 12 – Độ nhạy tham chiếu   
 
-<table><tr><td>Bang tan hoat dong</td><td>REFSENS (dBm)</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Băng tần hoạt động</td>
+      <td>REFSENS (dBm)</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td>1,3,5,8,28</td><td>-107,5</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>1, 3, 5, 8, 28</td>
+      <td>-107,5</td>
+    </tr>
+  </tbody>
+</table>
 
 # $2 . 1 2 \ \mathbf { \delta B } \hat { \mathbf { 0 } }$ nhạy bức xạ tổng máy thu
 
@@ -260,7 +705,51 @@ $$
 
 Bảng 13 – Giới hạn giá trị TRS tối thiểu   
 
-<table><tr><td rowspan=2 colspan=1>Bang tan hoat dong</td><td rowspan=2 colspan=1>Don vi</td><td rowspan=1 colspan=1>&lt;REFIor&gt;</td></tr><tr><td rowspan=1 colspan=1>Gia tri trung binh</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>dBm/10 MHz</td><td rowspan=1 colspan=1>-86</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>dBm/10 MHz</td><td rowspan=1 colspan=1>-86</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>dBm/10 MHz</td><td rowspan=1 colspan=1>-86</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>dBm/10 MHz</td><td rowspan=1 colspan=1>-82.5</td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>dBm/10 MHz</td><td rowspan=1 colspan=1>-82,5</td></tr><tr><td rowspan=1 colspan=3>CHU THICH:        Khong ap dung cho song mang két hop.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Băng tần hoạt động</td>
+      <td>Đơn vị</td>
+      <td><REFIor></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Giá trị trung bình</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>dBm/10 MHz</td>
+      <td>-86</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>dBm/10 MHz</td>
+      <td>-86</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>dBm/10 MHz</td>
+      <td>-86</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>dBm/10 MHz</td>
+      <td>-82,5</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>dBm/10 MHz</td>
+      <td>-82,5</td>
+    </tr>
+    <tr>
+      <td>CHÚ THÍCH: Không áp dụng cho sóng mang kết hợp.</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 CHÚ THÍCH: Yêu cầu tối thiểu TRS áp dụng cho thiết bị có kích thước lớn hơn hoặc bằng $5 6 \mathrm { m m }$ và nhỏ hơn hoặc bằng $7 2 \mathrm { m m }$ được định nghĩa trong ETSI TR 125 914.
 
@@ -315,15 +804,78 @@ CHÚ THÍCH: Tất cả các giá trị trung bình phải được thực hiệ
 
 Giá trị trung bình công suất bức xạ tổng đo được của các kênh thấp, trung bình và cao tại vị trí bên cạnh đầu phải lớn hơn giá trị quy định trong Bảng 14. Việc lấy giá trị trung bình phải được thực hiện theo thang tuyến tính đối với các kết quả TRP cho phía trái và phía phải đầu giả.
 
-<table><tr><td rowspan="2">TRPaverage=10log</td><td>10Pleflow/10+Ped10efrigrgid1ig</td></tr><tr><td>6</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Băng tần hoạt động</td>
+      <td>Đơn vị</td>
+      <td>Công suất loại 3</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Công suất trung bình (dBm)</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>dBm/10 MHz</td>
+      <td>10,9</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>dBm/10 MHz</td>
+      <td>10,9</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>dBm/10 MHz</td>
+      <td>10,9</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>dBm/10 MHz</td>
+      <td>7,6</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>dBm/10 MHz</td>
+      <td>7,6</td>
+    </tr>
+    <tr>
+      <td>CHÚ THÍCH: Không áp dụng cho sóng mang kết hợp.</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Bảng 14 – Giới hạn giá trị TRP tối thiểu   
 
-<table><tr><td rowspan=2 colspan=1>Bang tan hoatdong</td><td rowspan=2 colspan=1>Don vi</td><td rowspan=1 colspan=1>Cong suat loai 3</td></tr><tr><td rowspan=1 colspan=1>Cong suat trung binh (dBm)</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>dBm/10 MHz</td><td rowspan=1 colspan=1>10.9</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>dBm/10 MHz</td><td rowspan=1 colspan=1>10,9</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>dBm/10 MHz</td><td rowspan=1 colspan=1>10.9</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>dBm/10 MHz</td><td rowspan=1 colspan=1>76</td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>dBm/10 MHz</td><td rowspan=1 colspan=1>76</td></tr><tr><td rowspan=1 colspan=3>CHU THICH:        Khong ap dung cho sóng mang két hop.</td></tr></table>
+
 
 CHÚ THÍCH: Yêu cầu tối thiểu TRS được áp dụng đối với UE có kích thước lớn hơn hoặc bằng $5 6 \mathrm { m m }$ và nhỏ hơn hoặc bằng $7 2 \mathrm { m m }$ được định nghĩa trong ETSI TR 125 914.
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tần số</td>
+      <td>Yêu cầu tối thiểu đối với (e.r.p)/băng thông tham chiếu ở chế độ rỗi</td>
+      <td>Yêu cầu tối thiểu đối với (e.r.p)/băng thông tham chiếu ở chế độ lưu lượng</td>
+    </tr>
+    <tr>
+      <td>30 MHz ≤ f < 1 000 MHz</td>
+      <td>-57 dBm/100 kHz</td>
+      <td>-36 dBm/100 kHz</td>
+    </tr>
+    <tr>
+      <td>1 GHz ≤ f < 12,75 GHz</td>
+      <td>-47 dBm/1 MHz</td>
+      <td>-30 dBm/1 MHz</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.14 Phát xạ bức xạ
 
@@ -343,7 +895,7 @@ Các yêu cầu trong Bảng 16 chỉ áp dụng đối với các tần số tr
 
 # Bảng 15 - Các yêu cầu đối với phát xạ giả bức xạ
 
-<table><tr><td rowspan=1 colspan=1>Tan s6</td><td rowspan=1 colspan=1>Yeu cau toi thiéu doi voi(e.r.p)/bang thong thamchieu  ché do roi</td><td rowspan=1 colspan=1>Yeu cau toi thiéu doi voi(e.r.p)/bang thong thamchieu o ché d@ luu luong</td></tr><tr><td rowspan=1 colspan=1>30 MHz ≤f&lt;1 000 MHz</td><td rowspan=1 colspan=1>-57 dBm/100 kHz</td><td rowspan=1 colspan=1>-36 dBm/100 kHz</td></tr><tr><td rowspan=1 colspan=1>1 GHz≤ f&lt;12,75 GHz</td><td rowspan=1 colspan=1>-47 dBm/1 MHz</td><td rowspan=1 colspan=1>-30 dBm/1 MHz</td></tr></table>
+
 
 # 2.15 Chức năng điều khiển và giám sát
 

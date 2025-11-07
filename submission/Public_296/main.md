@@ -25,36 +25,468 @@ $^ +$ Có thể sửa đổi được: Đây là các chỉ tiêu dạng tùy ch
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KICH THUOC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Vật tư cải tạo DÂY CHUYỀN CHIA CHỌN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Máng băng tải đầu cấp</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Tải trọng</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Kích thước</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>Vật liệu</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Yêu cầu sơn</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>Tính tương thích</td>
+      <td>Tương thích với hệ thống dây chuyền hiện tại</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Máng phân loại hàng lỗi hệ thống</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>Tải trọng</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>Kích thước</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>Vật liệu</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>Yêu cầu sơn</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2.5</td>
+      <td>Tính tương thích</td>
+      <td>Tương thích với hệ thống dây chuyền hiện tại</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Tấm sàn bổ sung đảo cấp hệ thống</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>Tải trọng</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td>Kích thước</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3.3</td>
+      <td>Vật liệu</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3.4</td>
+      <td>Yêu cầu sơn</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3.5</td>
+      <td>Tính tương thích</td>
+      <td>Tương thích với hệ thống dây chuyền hiện tại</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=4> Mang bang tai dau cap</td></tr><tr><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=1>Tai trong</td><td rowspan=1 colspan=1>Dap ung ban vé Phu luc 01</td><td rowspan=1 colspan=1>Dat: Thong só ky thuat, kich</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1>Kich thuoc</td><td rowspan=1 colspan=1>Dap ung ban vé Phu luc 01</td><td rowspan=1 colspan=1>thuoc cac hang muc dung voi</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1>Vat lieu</td><td rowspan=1 colspan=1>Dap ung ban ve Phu luc 01</td><td rowspan=3 colspan=1>yéu cauKhong dat: Thong so ky thuat, kich thuoc cac hang muckhöng dung voi yéu cau</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1>Yeu cau son</td><td rowspan=1 colspan=1>Dap üng ban ve Phu luc 01</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1>Tinh tuong thich</td><td rowspan=1 colspan=1>Tuong thich vói hé thóng day chuyén hién tai</td><td rowspan=1 colspan=1>Khong</td></tr></table>
-
-<table><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>Tai trong</td><td rowspan=1 colspan=1>Dap üng ban vé Phu luc 01</td><td rowspan=1 colspan=1>- Dat: Thong só ky thuat, kich</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>Kich thuoc</td><td rowspan=1 colspan=1>Dap ung ban ve Phu luc 01</td><td rowspan=1 colspan=1>thuoc cac hang muc dung voi</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1>Vat lieu</td><td rowspan=1 colspan=1>Dap üng ban vé Phu luc 01</td><td rowspan=3 colspan=1>yéu cau- Khong dat: Thong só ky thuat, kich thuoc cac hang muc khong dung voi yéu cau</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2.4</td><td rowspan=1 colspan=1>Yeu cau son</td><td rowspan=1 colspan=1>Dap irng ban ve Phu luc 01</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2.5</td><td rowspan=1 colspan=1>Tinh tuong thich</td><td rowspan=1 colspan=1>Tuong thich voi hé thóng day chuyén hién tai</td><td rowspan=1 colspan=1>Khong</td></tr></table>
-
-<table><tr><td rowspan=1 colspan=1>3.1</td><td rowspan=1 colspan=1>Tai trong</td><td rowspan=1 colspan=1>Dap üng ban vé Phu luc 01</td><td rowspan=1 colspan=1>- Dat: Thong só ky thuat, kich</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>3.2</td><td rowspan=1 colspan=1>Kich thuoc</td><td rowspan=1 colspan=1>Dap üng ban vé Phu luc 01</td><td rowspan=1 colspan=1>thuoc cac hang muc dung voi</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>3.3</td><td rowspan=1 colspan=1>Vat lieu</td><td rowspan=1 colspan=1>Dap ung ban ve Phu luc 01</td><td rowspan=3 colspan=1>yéu cauKhong dat: Thong so kythuat, kich thuóc cac hang muckhong dung voi yeu cau</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>3.4</td><td rowspan=1 colspan=1>Yeu cau son</td><td rowspan=1 colspan=1>Dap ung ban vé Phu luc 01</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>3.5</td><td rowspan=1 colspan=1>Tinh trong thich</td><td rowspan=1 colspan=1>Tuong thich voi hé thóng day chuyén hién tai</td><td rowspan=1 colspan=1>Khong</td></tr></table>
 
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Vật tư cải tạo hệ thống máy chủ DÂY CHUYỀN CHIA CHỌN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Ổ Cứng SSD 2.5inch 960GB</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.1</td>
+      <td>Loại ổ cứng</td>
+      <td>SSD Sata III</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>4.2</td>
+      <td>Kích thước</td>
+      <td>2.5 inch</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>4.3</td>
+      <td>Dung lượng</td>
+      <td>960 Gb</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>4.4</td>
+      <td>Tốc độ đọc</td>
+      <td>550 MB/s</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>4.5</td>
+      <td>Tốc độ ghi</td>
+      <td>520 MB/s</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>4.5</td>
+      <td>Tính tương thích</td>
+      <td>Tương thích với hệ thống dây chuyền hiện tại</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KICH THUOC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=4>Vat tur cai tao he thóng may chü DAY CHUYEN CHIA CHQN</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=4>O Cing SSD 2.5inch 960GB</td></tr><tr><td rowspan=1 colspan=1>4.1</td><td rowspan=1 colspan=1>Loai o cumg</td><td rowspan=1 colspan=1> SSD Sata II</td><td rowspan=3 colspan=1> Dat: Thong só ky thuat, kich thuoc cac hang muc dung voiyéu cau</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>4.2</td><td rowspan=1 colspan=1>Kich thuoc</td><td rowspan=1 colspan=1>2.5 inch</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>4.3</td><td rowspan=1 colspan=1>Dung luong</td><td rowspan=1 colspan=1>960 Gb</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>4.4</td><td rowspan=1 colspan=1>Toc do doc</td><td rowspan=1 colspan=1>550 MB/s</td><td rowspan=1 colspan=1>- Khong dat: Thong só ky</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>4.5</td><td rowspan=1 colspan=1>T6c do ghi</td><td rowspan=1 colspan=1>520 MB/s</td><td rowspan=1 colspan=1>thuat, kich thuoc cac hang muc</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>4.5</td><td rowspan=1 colspan=1>Tinh tuong thich</td><td rowspan=1 colspan=1>Tuong thich vói hé thóng day chuyén hién tai</td><td rowspan=1 colspan=1> khong dung voi yeu cau</td><td rowspan=1 colspan=1>Khong</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>QUY TRÌNH KIỂM TRA</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Vật tư cải tạo DÂY CHUYỀN CHIA CHỌN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Máng băng tải đầu cấp</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Tải trọng</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu - Không đạt: Thông số kỹ thuật, kích thước</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Kích thước</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>Vật liệu</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>QUY TRÌNH KIỂM TRA</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Yêu cầu sơn</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td>các hạng mục không đúng với yêu cầu</td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>Tính tương thích</td>
+      <td>Tương thích với hệ thống dây chuyền hiện tại</td>
+      <td>Đối chiếu thông số thiết bị tương đương tại hệ thống dây chuyền</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Máng phân loại hàng lỗi hệ thống</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>Tải trọng</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>Kích thước</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>Vật liệu</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>Yêu cầu sơn</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.5</td>
+      <td>Tính tương thích</td>
+      <td>Tương thích với hệ thống dây chuyền hiện tại</td>
+      <td>Đối chiếu thông số thiết bị tương đương tại hệ thống dây chuyền</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Tấm sàn bổ sung đảo cấp hệ thống</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>Tải trọng</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các</td>
+    </tr>
+  </tbody>
+</table>
 
 # 3.2 PHẦN 2: BÀI ĐO CHỈ TIÊU KỸ THUẬT
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1> THONG SO KY THUAT/ KICHTHUOC</td><td rowspan=1 colspan=1>QUY TRINH KIEM TRA</td><td rowspan=1 colspan=1>TIEU CHI DANHGIA</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=4> Vat tur cai tao DAY CHUYEN CHIA CHQN</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=4>Mang bang tai dau cap</td></tr><tr><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=1>Tai trong</td><td rowspan=1 colspan=1>Dap irng ban ve Phu luc 01</td><td rowspan=1 colspan=1>Doi chieu tai lieu cam két dapung cua nha san xuat</td><td rowspan=1 colspan=1>1Dat: Thong só kythuat, kich thuoc cac</td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1>Kich thuoc</td><td rowspan=1 colspan=1>Dap ing ban ve Phu luc 01</td><td rowspan=1 colspan=1>Di chieu tai lieu cam két dapung cua nha san xuat</td><td rowspan=2 colspan=1> hang muc dung voi yéucau- Khong dat: Thong sóky thuat,kich thuoc</td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1>Vat lieu</td><td rowspan=1 colspan=1>Däp ung ban ve Phu luc 01</td><td rowspan=1 colspan=1>Doi chieu tai lieu cam két dapurng cua nha san xuat</td></tr></table>
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>QUY TRÌNH KIỂM TRA</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td>Kích thước</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td>hạng mục đúng với yêu cầu - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+    </tr>
+    <tr>
+      <td>3.3</td>
+      <td>Vật liệu</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.4</td>
+      <td>Yêu cầu sơn</td>
+      <td>Đáp ứng bản vẽ Phụ lục 01</td>
+      <td>Đối chiếu tài liệu cam kết đáp ứng của nhà sản xuất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.5</td>
+      <td>Tính tương thích</td>
+      <td>Tương thích với hệ thống dây chuyền hiện tại</td>
+      <td>Đối chiếu thông số thiết bị tương đương tại hệ thống dây chuyền</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Vật tư cải tạo hệ thống máy chủ DÂY CHUYỀN CHIA CHỌN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Ổ Cứng SSD 2.5inch 960GB</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.1</td>
+      <td>Loại ổ cứng</td>
+      <td>SSD Sata III</td>
+      <td>Đối chiếu thông số tài liệu Datasheet</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+    </tr>
+    <tr>
+      <td>4.2</td>
+      <td>Kích thước</td>
+      <td>2.5 inch</td>
+      <td>Đối chiếu thông số tài liệu Datasheet</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.3</td>
+      <td>Dung lượng</td>
+      <td>960 Gb</td>
+      <td>Đối chiếu thông số tài liệu Datasheet</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.4</td>
+      <td>Tốc độ đọc</td>
+      <td>550 MB/s</td>
+      <td>Đối chiếu thông số tài liệu Datasheet</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.5</td>
+      <td>Tốc độ ghi</td>
+      <td>520 MB/s</td>
+      <td>Đối chiếu thông số tài liệu Datasheet</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KICHTHU&#x27;OC</td><td rowspan=1 colspan=1>QUY TRINH KIEM TRA</td><td rowspan=1 colspan=1>TIEU CHI DANHGIA</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1> Yéu cau son</td><td rowspan=1 colspan=1>Dap ung bän ve Phu luc 01</td><td rowspan=1 colspan=1>Doi chieu tai lieu cam két dapung cua nha san xuat</td><td rowspan=2 colspan=1>cac hang muc khongdung voi yeu cau</td></tr><tr><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1>Tinh tuong thich</td><td rowspan=1 colspan=1>Tuong thich voi he thóng day chuyénhien tai</td><td rowspan=1 colspan=1>Dói chiéu thong só thiét bituong duong tai he thong daychuyén</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=4>Mang phan loai hang loi he thong</td></tr><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>Tai trong</td><td rowspan=1 colspan=1>Dap ung ban ve Phu luc 01</td><td rowspan=1 colspan=1>Doi chieu tai lieu cam két dapung cua nha san xuat</td><td rowspan=5 colspan=1>- Dat: Thong só kythuat, kich thuóc cachang muc dung voi yéucau- Khong dat: Thong sóky thuat,kich thuóccac hang muc khongdung voi yéu cau</td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>Kich thuoc</td><td rowspan=1 colspan=1>Dap ing ban ve Phu luc 01</td><td rowspan=1 colspan=1>Doi chiéu tai lieu cam két dapung cua nha san xuat</td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1>Vat lieu</td><td rowspan=1 colspan=1>Dap ung ban ve Phu luc 01</td><td rowspan=1 colspan=1>Doi chieu tai lieu cam ket dapung cua nha san xuat</td></tr><tr><td rowspan=1 colspan=1>2.4</td><td rowspan=1 colspan=1> Yeu cau son</td><td rowspan=1 colspan=1>Däp irng ban vé Phu luc 01</td><td rowspan=1 colspan=1>Doi chieu tai lieu cam két dapung cua nha san xuat</td></tr><tr><td rowspan=1 colspan=1>2.5</td><td rowspan=1 colspan=1> Tinh trong thich</td><td rowspan=1 colspan=1>Tuong thich voi hé thóng day chuyénhien tai</td><td rowspan=1 colspan=1>Doi chiéu thong so thiet bi tuong duong tai he thóng daychuyen</td></tr><tr><td rowspan=1 colspan=1></td><td></td><td></td><td></td><td></td></tr></table>
-
-<table><tr><td rowspan=1 colspan=1>3.1</td><td rowspan=1 colspan=1>Tai trong</td><td rowspan=1 colspan=1>Dap ung ban ve Phu luc 01</td><td rowspan=1 colspan=1>Dói chiéu tai lieu cam két dapung cua nha san xuat</td><td rowspan=1 colspan=1>- Dat: Thong só kythuat,kich thuóc cac</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KICHTHUOC</td><td rowspan=1 colspan=1>QUY TRINH KIEM TRA</td><td rowspan=1 colspan=1>TIEU CHI DANHGIA</td></tr><tr><td rowspan=1 colspan=1>3.2</td><td rowspan=1 colspan=1>Kich thuoc</td><td rowspan=1 colspan=1>Dap üng ban vé Phu luc 01</td><td rowspan=1 colspan=1>Doi chiéu tai lieu cam két dapung cua nha san xuat</td><td rowspan=4 colspan=1> hang muc dung voi yeucau- Khong dat: Thong soky thuat，kich thuoccac hang muc khongdung voi yeu cau</td></tr><tr><td rowspan=1 colspan=1>3.3</td><td rowspan=1 colspan=1>Vat lieu</td><td rowspan=1 colspan=1>Dap ing ban vé Phu luc 01</td><td rowspan=1 colspan=1>Doi chiéu tai lieu cam két dapung cua nha san xuat</td></tr><tr><td rowspan=1 colspan=1>3.4</td><td rowspan=1 colspan=1> Yéu cau son</td><td rowspan=1 colspan=1>Däp ing ban ve Phu luc 01</td><td rowspan=1 colspan=1>D6i chieu tai lieu cam ket dapung cua nha san xuat</td></tr><tr><td rowspan=1 colspan=1>3.5</td><td rowspan=1 colspan=1> Tinh tuong thich</td><td rowspan=1 colspan=1>Tuong thich voi hé thóng day chuyénhien tai</td><td rowspan=1 colspan=1>D6i chiéu thong so thiét bituong duong tai hé thong daychuyen</td></tr></table>
-
-<table><tr><td>I</td><td></td></tr></table>
-
-<table><tr><td rowspan=1 colspan=1>4.1</td><td rowspan=1 colspan=1>Loai ocimng</td><td rowspan=1 colspan=1> SSD Sata III</td><td rowspan=1 colspan=1>Di chieu thong so tai lieuDatasheet</td><td rowspan=3 colspan=1>Dat: Thong só kythuat,kich thuóc cac hang muc dung voi yeucau- Khong dat: Thong só</td></tr><tr><td rowspan=1 colspan=1>4.2</td><td rowspan=1 colspan=1>Kich thuóc</td><td rowspan=1 colspan=1>2.5 inch</td><td rowspan=1 colspan=1>D6i chieuthong so tai lieuDatasheet</td></tr><tr><td rowspan=1 colspan=1>4.3</td><td rowspan=1 colspan=1> Dung lurong</td><td rowspan=1 colspan=1>960 Gb</td><td rowspan=1 colspan=1>D6i chieuthongs6 tai lieuDatasheet</td></tr><tr><td rowspan=1 colspan=1>4.4</td><td rowspan=1 colspan=1>Toc do doc</td><td rowspan=1 colspan=1>550 MB/s</td><td rowspan=1 colspan=1>Di chieu thong ss6 tai lieuDatasheet</td><td rowspan=2 colspan=1>ky thuat,kich thuóccac hang muc khongdung voi yéu cau</td></tr><tr><td rowspan=1 colspan=1>4.5</td><td rowspan=1 colspan=1>Toc do ghi</td><td rowspan=1 colspan=1>520 MB/s</td><td rowspan=1 colspan=1>Doi chieu thong so tai lieuDatasheet</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1> THONG SO KY THUAT/ KICHTHUOC</td><td rowspan=1 colspan=1>QUY TRINH KIEM TRA</td><td rowspan=1 colspan=1>TIEU CHI DANHGIA</td></tr><tr><td rowspan=1 colspan=1>4.5</td><td rowspan=1 colspan=1> Tinh trong thich</td><td rowspan=1 colspan=1>Tuong thich voi he thong day chuyénhien tai</td><td rowspan=1 colspan=1>Doi chieu thong so tai lieuDatasheet</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>QUY TRÌNH KIỂM TRA</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+    </tr>
+    <tr>
+      <td>4.5</td>
+      <td>Tính tương thích</td>
+      <td>Tương thích với hệ thống dây chuyền hiện tại</td>
+      <td>Đối chiếu thông số tài liệu Datasheet</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

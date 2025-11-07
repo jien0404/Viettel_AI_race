@@ -4,11 +4,155 @@
 
 Bảng 1: Bảng thông $\mathbf { s } \hat { 0 } \mathbf { k } \tilde { \mathbf { y } }$ thuật phương tiện đo thủ công   
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1> Phuongtien do</td><td rowspan=1 colspan=1>Don vi do</td><td rowspan=1 colspan=1>Khoang do</td><td rowspan=1 colspan=1>D0 phangiai</td><td rowspan=1 colspan=1>Sai s6</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Nhiet ké</td><td rowspan=1 colspan=1>D@ celsius (C)</td><td rowspan=1 colspan=1>Tu - 25 ℃ dén + 50 ℃</td><td rowspan=1 colspan=1>0,1℃</td><td rowspan=1 colspan=1>±0,3℃</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Nhiet ké toicao</td><td rowspan=1 colspan=1>D@ celsius (C)</td><td rowspan=1 colspan=1>Tu - 10 ℃ dén + 70 ℃</td><td rowspan=1 colspan=1>0,5 ℃±0,5C</td><td rowspan=1 colspan=1>0,5 ℃±0,5C</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Nhiet ké toithap</td><td rowspan=1 colspan=1>D@ celsius (C)</td><td rowspan=1 colspan=1>Tu - 20 ℃ dén + 40℃</td><td rowspan=1 colspan=1>0,5℃±0,5℃</td><td rowspan=1 colspan=1>0,5℃±0,5℃</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Nhiet ky</td><td rowspan=1 colspan=1>D@ celsius (C)</td><td rowspan=1 colspan=1>Tu - 10 ℃ dén + 50 ℃</td><td rowspan=1 colspan=1>1,0℃</td><td rowspan=1 colspan=1>±1,0℃</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Am ky</td><td rowspan=1 colspan=1>Phan tram (%RH)</td><td rowspan=1 colspan=1>Tu 0 % RH dén 100 %RH</td><td rowspan=1 colspan=1>Tur 2 %RHdén 5%RH</td><td rowspan=1 colspan=1>2 % khi am d≥ 98 % va 6 %khi am do &lt;98%</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Khi ap ké</td><td rowspan=1 colspan=1>Hectopascal(hPa)</td><td rowspan=1 colspan=1>Tur 810 hPa dén 1060hPa</td><td rowspan=1 colspan=1>0,1 hPa</td><td rowspan=1 colspan=1>± 0,5 hPa</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Khi ap ky</td><td rowspan=1 colspan=1>Hectopascal(hPa)</td><td rowspan=1 colspan=1>Tu 955 hPa den 1050hPa</td><td rowspan=1 colspan=1>1,0 hPa</td><td rowspan=1 colspan=1>± 1,0 hPa</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Nhiet kéthuong dat</td><td rowspan=1 colspan=1>Do celsius (C)</td><td rowspan=1 colspan=1>Tu - 35 ℃ dén +80℃</td><td rowspan=1 colspan=1>0,5℃</td><td rowspan=1 colspan=1>±0,5℃</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Nhiet ké toicao dat</td><td rowspan=1 colspan=1>Dó celsius (C)</td><td rowspan=1 colspan=1>Tu -15 ℃ dén + 80 C</td><td rowspan=1 colspan=1>0,5℃</td><td rowspan=1 colspan=1>±0,5℃</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Nhiet ké toithap dat</td><td rowspan=1 colspan=1>Dó celsius (C)</td><td rowspan=1 colspan=1>Tir - 50 ℃ dén + 40 ℃</td><td rowspan=1 colspan=1>0,5℃</td><td rowspan=1 colspan=1>±0,5℃</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Bóc hoi turbé mat am</td><td rowspan=1 colspan=1>Milimet (mm)</td><td rowspan=1 colspan=1>Tu 0 mm dén 15 mm</td><td rowspan=1 colspan=1>0,1 mm</td><td rowspan=1 colspan=1>± 0,1 mm khiluong b6c</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>T T</td>
+      <td>Phương tiện đo</td>
+      <td>Đơn vị đo</td>
+      <td>K hoảng đo</td>
+      <td>Độ phân giải</td>
+      <td>S ai số</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Nhiệt kế</td>
+      <td>Độ celsius (oC)</td>
+      <td>Từ - 25 oC đến + 50 oC</td>
+      <td>0,1 oC ± 0,3 oC</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Nhiệt kế tối cao</td>
+      <td>Độ celsius (oC)</td>
+      <td>Từ - 10 oC đến + 70 oC</td>
+      <td>0,5 oC ± 0,5 oC</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Nhiệt kế tối thấp</td>
+      <td>Độ celsius (oC)</td>
+      <td>Từ - 20 oC đến + 40 oC</td>
+      <td>0,5 oC ± 0,5 oC</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Nhiệt ký</td>
+      <td>Độ celsius (oC)</td>
+      <td>Từ - 10 oC đến + 50 oC</td>
+      <td>1,0 oC ± 1,0 oC</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Ẩm ký</td>
+      <td>Phần trăm (% RH)</td>
+      <td>Từ 0 % RH đến 100 % RH</td>
+      <td>Từ 2 % RH đến 5 % RH</td>
+      <td>2 % khi ẩm độ ≥ 98 % và 6 % khi ẩm độ ˂ 98 %</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Khí áp kế</td>
+      <td>Hectopascal (hPa)</td>
+      <td>Từ 810 hPa đến 1060 hPa</td>
+      <td>0,1 hPa</td>
+      <td>± 0,5 hPa</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Khí áp ký</td>
+      <td>Hectopascal (hPa)</td>
+      <td>Từ 955 hPa đến 1050 hPa</td>
+      <td>1,0 hPa</td>
+      <td>± 1,0 hPa</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Nhiệt kế thường đất</td>
+      <td>Độ celsius (oC)</td>
+      <td>Từ - 35 oC đến + 80 oC</td>
+      <td>0,5 oC</td>
+      <td>± 0,5 oC</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Nhiệt kế tối cao đất</td>
+      <td>Độ celsius (oC)</td>
+      <td>Từ -15 oC đến + 80 oC</td>
+      <td>0,5 oC</td>
+      <td>± 0,5 oC</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Nhiệt kế tối thấp đất</td>
+      <td>Độ celsius (oC)</td>
+      <td>Từ - 50 oC đến + 40 oC</td>
+      <td>0,5 oC</td>
+      <td>± 0,5 oC</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Bốc hơi từ bề mặt ẩm</td>
+      <td>Milimet (mm)</td>
+      <td>Từ 0 mm đến 15 mm</td>
+      <td>0,1 mm</td>
+      <td>± 0,1 mm khi lượng bốc</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>12</td><td rowspan=2 colspan=1>Bóc hoi turbe matnuoc</td><td rowspan=2 colspan=1>Milimet (mm)</td><td rowspan=2 colspan=1>Tu 15 mm dén 30 mm</td><td rowspan=2 colspan=1>0,1 mm</td><td></td></tr><tr><td rowspan=1 colspan=1>hoi≤5 mm;± 2 % khiluong bóc hoi &gt;5 mm</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Luongmua</td><td rowspan=1 colspan=1>Milimet (mm)</td><td rowspan=1 colspan=1>Tu 0,1 mm dén 4mm/phut</td><td rowspan=1 colspan=1>0,1 mm</td><td rowspan=1 colspan=1>± 0,4 mm khiluong mua ≤10 mm;±4 % khiluong mua &gt;10 mm</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Thoi giannang</td><td rowspan=1 colspan=1>Gio</td><td rowspan=1 colspan=1>Tu 5 gio dén 19 gio</td><td rowspan=1 colspan=1>0,1 gio</td><td rowspan=1 colspan=1>± 0,1 gio</td></tr><tr><td rowspan=2 colspan=1>15</td><td rowspan=2 colspan=1>Gi6</td><td rowspan=1 colspan=1>Huong gio: do(); huong laban</td><td rowspan=1 colspan=1>Tur O° dén 360°; 16huóng la ban</td><td rowspan=1 colspan=1>11,5°; 1huong laban</td><td rowspan=1 colspan=1>± 11,5; 1huong la ban</td></tr><tr><td rowspan=1 colspan=1>T6c do:mét/giay (m/s)</td><td rowspan=1 colspan=1>Tu 0 m/s dén 40 m/s</td><td rowspan=1 colspan=1>1 m/s</td><td rowspan=1 colspan=1>± 0.5 m/s khitoc do≤5 m/s;10% khi tócd&gt;5 m/s</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>12</td>
+      <td>Bốc hơi từ bề mặt nước</td>
+      <td>Milimet (mm)</td>
+      <td>Từ 15 mm đến 30 mm</td>
+      <td>0,1 mm</td>
+      <td>hơi ≤ 5 mm; ± 2 % khi lượng bốc hơi ˃ 5 mm</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Lượng mưa</td>
+      <td>Milimet (mm)</td>
+      <td>Từ 0,1 mm đến 4 mm/phút</td>
+      <td>0,1 mm</td>
+      <td>± 0,4 mm khi lượng mưa ≤ 10 mm; ± 4 % khi lượng mưa ˃ 10 mm</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Thời gian nắng</td>
+      <td>Giờ</td>
+      <td>Từ 5 giờ đến 19 giờ</td>
+      <td>0,1 giờ</td>
+      <td>± 0,1 giờ</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Gió</td>
+      <td>Hướng gió: độ (o); hướng la bàn</td>
+      <td>Từ 0o đến 360o; 16 hướng la bàn</td>
+      <td>11,5o; 1 hướng la bàn</td>
+      <td>± 11,5o; 1 hướng la bàn</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Tốc độ: mét/giây (m/s)</td>
+      <td>Từ 0 m/s đến 40 m/s</td>
+      <td>1 m/s</td>
+      <td>± 0,5 m/s khi tốc độ ≤ 5 m/s; 10% khi tốc độ > 5 m/s</td>
+    </tr>
+  </tbody>
+</table>
 
 Ghi chú: đối với các phương tiện đo tự ghi đường ghi trên giản đồ nhỏ hơn 0,5 mm.
 
@@ -28,26 +172,294 @@ Bảng 2. Xác định trạng thái mặt đất không có lớp tuyết hoặ
 
 
 
-<table><tr><td rowspan=1 colspan=1>NQi dung trang thai</td><td rowspan=1 colspan=1>Ma</td></tr><tr><td rowspan=1 colspan=1>Mat dat kho khong nut, khong c6 bui hoac cat toi voi luong dang ké.</td><td rowspan=1 colspan=1>0E</td></tr><tr><td rowspan=1 colspan=1>Mat dat am.</td><td rowspan=1 colspan=1>1E</td></tr><tr><td rowspan=1 colspan=1>Mat dat uót (có vung nuóc nho hay lón).</td><td rowspan=1 colspan=1>2E</td></tr><tr><td rowspan=1 colspan=1>Ngap nuoc.</td><td rowspan=1 colspan=1>3E</td></tr><tr><td rowspan=1 colspan=1>Mat dat dong gia.</td><td rowspan=1 colspan=1>4E</td></tr><tr><td rowspan=1 colspan=1>Mat dat c6 vang bang.</td><td rowspan=1 colspan=1>5E</td></tr><tr><td rowspan=1 colspan=1>Bui hoac cat toi kho khong phu kin mat dat.</td><td rowspan=1 colspan=1>6E</td></tr><tr><td rowspan=1 colspan=1>Lop mong cua bui hoäc cat toi, phu kin mät dat.</td><td rowspan=1 colspan=1>7E</td></tr><tr><td rowspan=1 colspan=1>Lóp day hay trung binh cua bui hay cät toi, phu kin mät dat.</td><td rowspan=1 colspan=1>8E</td></tr><tr><td rowspan=1 colspan=1>Dat rat kho, có nhung khe nirt.</td><td rowspan=1 colspan=1>9E</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Nội dung trạng thái</td>
+      <td>Mã</td>
+    </tr>
+    <tr>
+      <td>Mặt đất khô không nứt, không có bụi hoặc cát tơi với lượng đáng kể.</td>
+      <td>0E</td>
+    </tr>
+    <tr>
+      <td>Mặt đất ẩm.</td>
+      <td>1E</td>
+    </tr>
+    <tr>
+      <td>Mặt đất ướt (có vũng nước nhỏ hay lớn).</td>
+      <td>2E</td>
+    </tr>
+    <tr>
+      <td>Ngập nước.</td>
+      <td>3E</td>
+    </tr>
+    <tr>
+      <td>Mặt đất đông giá.</td>
+      <td>4E</td>
+    </tr>
+    <tr>
+      <td>Mặt đất có váng băng.</td>
+      <td>5E</td>
+    </tr>
+    <tr>
+      <td>Bụi hoặc cát tơi khô không phủ kín mặt đất.</td>
+      <td>6E</td>
+    </tr>
+    <tr>
+      <td>Lớp mỏng của bụi hoặc cát tơi, phủ kín mặt đất.</td>
+      <td>7E</td>
+    </tr>
+    <tr>
+      <td>Lớp dầy hay trung bình của bụi hay cát tơi, phủ kín mặt đất.</td>
+      <td>8E</td>
+    </tr>
+    <tr>
+      <td>Đất rất khô, có những khe nứt.</td>
+      <td>9E</td>
+    </tr>
+  </tbody>
+</table>
 
 Bảng 3. Xác định trạng thái mặt đất có lớp tuyết hoặc lớp băng   
 
-<table><tr><td rowspan=1 colspan=1>NQi dung trang thai</td><td rowspan=1 colspan=1>Ma</td></tr><tr><td rowspan=1 colspan=1>Phan lon mat dat bui bäng phu.</td><td rowspan=1 colspan=1>0E’</td></tr><tr><td rowspan=1 colspan=1>Tuyét dac hay xóp c6 hay khong c6 bang phu chua hét mot nira mat dat.</td><td rowspan=1 colspan=1>1E&#x27;</td></tr><tr><td rowspan=1 colspan=1>Tuyét dac hay xóp c6 hay khóng có bāng phu mot nira hay hon, nhungchua kin hoan toan mat dat.</td><td rowspan=1 colspan=1>2E’</td></tr><tr><td rowspan=1 colspan=1>Lop dong déu tuyét dac hay xóp, phu kin hoan toan mat dat.</td><td rowspan=1 colspan=1>3E’</td></tr><tr><td rowspan=1 colspan=1>Lop khong dong déu tuyét dac hay xóp, phu kin hoan toan mat dat.</td><td rowspan=1 colspan=1>4E&#x27;</td></tr><tr><td rowspan=1 colspan=1>Bót tuyét khö phu chua hét mot nua mat dat.</td><td rowspan=1 colspan=1>5E&#x27;</td></tr><tr><td rowspan=1 colspan=1>Bót tuyét khö phu mot nua hay hon nhung chua kin hoan toan mät dat.</td><td rowspan=1 colspan=1>6E’</td></tr><tr><td rowspan=1 colspan=1>Lóp dong déu bot tuyét kho, phu kin hoan toan mät dat.</td><td rowspan=1 colspan=1>7E’</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Nội dung trạng thái</td>
+      <td>Mã</td>
+    </tr>
+    <tr>
+      <td>Phần lớn mặt đất bụi băng phủ.</td>
+      <td>0E’</td>
+    </tr>
+    <tr>
+      <td>Tuyết đặc hay xốp có hay không có băng phủ chưa hết một nửa mặt đất.</td>
+      <td>1E’</td>
+    </tr>
+    <tr>
+      <td>Tuyết đặc hay xốp có hay không có băng phủ một nửa hay hơn, nhưng chưa kín hoàn toàn mặt đất.</td>
+      <td>2E’</td>
+    </tr>
+    <tr>
+      <td>Lớp đồng đều tuyết đặc hay xốp, phủ kín hoàn toàn mặt đất.</td>
+      <td>3E’</td>
+    </tr>
+    <tr>
+      <td>Lớp không đồng đều tuyết đặc hay xốp, phủ kín hoàn toàn mặt đất.</td>
+      <td>4E’</td>
+    </tr>
+    <tr>
+      <td>Bột tuyết khô phủ chưa hết một nửa mặt đất.</td>
+      <td>5E’</td>
+    </tr>
+    <tr>
+      <td>Bột tuyết khô phủ một nửa hay hơn nhưng chưa kín hoàn toàn mặt đất.</td>
+      <td>6E’</td>
+    </tr>
+    <tr>
+      <td>Lớp đồng đều bột tuyết khô, phủ kín hoàn toàn mặt đất.</td>
+      <td>7E’</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td>Lóp khong dong déu bot tuyét kho, phu kin hoan toan mät dat.</td><td>8E’</td></tr><tr><td>Tuyét phu kin hoan toan mat dat, c6 dong tuyét cao.</td><td>9E&#x27;</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Lớp không đồng đều bột tuyết khô, phủ kín hoàn toàn mặt đất.</td>
+      <td>8E’</td>
+    </tr>
+    <tr>
+      <td>Tuyết phủ kín hoàn toàn mặt đất, có đống tuyết cao.</td>
+      <td>9E’</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.4. Xác định cấp tầm nhìn ngang
 
 Bảng 4. Cấp tầm nhìn ngang   
 
-<table><tr><td rowspan=1 colspan=1>Cap tam nhin ngang</td><td rowspan=1 colspan=1>Khoang cach cap tam nhin ngang (m)</td></tr><tr><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>Tur O dén &lt;50</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Tur 50 dén &lt;200</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Tur 200 dén &lt;500</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Tu 500 dén &lt;1000</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Tu 1000 dén&lt;2000</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Tu 2000 dén &lt;4000</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Tu 4000 dén&lt;10000</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Tir 10000 dén&lt; 20000</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Tir 20000 dén&lt; 50000</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Tu 50000 tro lén</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Cấp tầm nhìn ngang</td>
+      <td>Khoảng cách cấp tầm nhìn ngang (m)</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>Từ 0 đến < 50</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Từ 50 đến < 200</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Từ 200 đến < 500</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Từ 500 đến < 1000</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Từ 1000 đến < 2000</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Từ 2000 đến < 4000</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Từ 4000 đến < 10000</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Từ 10000 đến < 20000</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Từ 20000 đến < 50000</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Từ 50000 trở lên</td>
+    </tr>
+  </tbody>
+</table>
 
 Bảng 5. Bảng cấp gió Beaufort   
 
-<table><tr><td rowspan=2 colspan=1>Capgi6</td><td rowspan=2 colspan=1>Murc do</td><td rowspan=1 colspan=2>Toc d@ turongduong</td><td rowspan=2 colspan=1>D@ caosongtrungbinh</td><td rowspan=1 colspan=1>Tac dong cua gio</td></tr><tr><td rowspan=1 colspan=1>m/s</td><td rowspan=1 colspan=1>km/h</td><td rowspan=1 colspan=1>Mirc d@ nguy hai</td></tr><tr><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>Lang gi6</td><td rowspan=1 colspan=1>0- 0,2</td><td rowspan=1 colspan=1>&lt;1</td><td rowspan=1 colspan=1></td><td rowspan=2 colspan=1>- Gi6 nhe.</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Gi6 gan nhulang</td><td rowspan=1 colspan=1>0,3 - 1,5</td><td rowspan=1 colspan=1>1-5</td><td rowspan=1 colspan=1>0,1</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>C ấp gió</td>
+      <td>Mức độ</td>
+      <td>Tốc độ tương đương</td>
+      <td></td>
+      <td>Độ cao sóng trung bình</td>
+      <td>Tác động của gió</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>m/s</td>
+      <td>km/h</td>
+      <td></td>
+      <td>Mức độ nguy hại</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>Lặng gió</td>
+      <td>0 - 0,2</td>
+      <td>< 1</td>
+      <td>-</td>
+      <td>- Gió nhẹ.</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Gió gần như lặng</td>
+      <td>0,3 - 1,5</td>
+      <td>1 - 5</td>
+      <td>0,1</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>2</td><td rowspan=2 colspan=1>Gi6 rat nhe</td><td rowspan=2 colspan=1>1,6 - 3,3</td><td rowspan=2 colspan=1>6-11</td><td rowspan=2 colspan=1>0,2</td><td></td></tr><tr><td rowspan=2 colspan=1>- Khong gay nguy hai.</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Gi6 kha nhe</td><td rowspan=1 colspan=1>3,4 - 5,4</td><td rowspan=1 colspan=1>12 - 19</td><td rowspan=1 colspan=1>0,6</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Gi6 nhe</td><td rowspan=1 colspan=1>5,5 - 7,9</td><td rowspan=1 colspan=1>20 -28</td><td rowspan=1 colspan=1>1,0</td><td rowspan=2 colspan=1>- Cay nho co la bat dau laydong, anh huong dén lua dang phoi mau.- Bién hoi dong, thuyén danhcä bi chao nghieng, phai cuónbót buom.</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Gi6 vua</td><td rowspan=1 colspan=1>8,0 - 10,7</td><td rowspan=1 colspan=1>29 -38</td><td rowspan=1 colspan=1>2.0</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Gi6 hoimanh</td><td rowspan=1 colspan=1>10,8 - 13,8</td><td rowspan=1 colspan=1>39 - 49</td><td rowspan=1 colspan=1>3,0</td><td rowspan=2 colspan=1>- Cay cói rung chuyén, khó dinguoc gi6.- Bién dong. Nguy hiém doivoi tau, thuyén.</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Gi6 khamanh</td><td rowspan=1 colspan=1>13,9 - 17,1</td><td rowspan=1 colspan=1>50 - 61</td><td rowspan=1 colspan=1>4,0</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Gi6 manh</td><td rowspan=1 colspan=1>17,2 - 20,7 62 - 74</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>5.5</td><td rowspan=2 colspan=1> Gió lam gay canh cay, toc mainha gay thiét hai vé nha cira.Khong thé di nguoc gi6.- Bién dong rat manh. Ratnguy hiém doi voi tau, thuyén.</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Gi6 rat manh2</td><td rowspan=1 colspan=1>20,8- 24,475 - 88</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>7.0</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Gi6 kha durd0i</td><td rowspan=1 colspan=1>24,5 - 28,4 89 - 102</td><td rowspan=1 colspan=1>24,5 - 28,4 89 - 102</td><td rowspan=1 colspan=1>9.,0</td><td rowspan=2 colspan=1>- Lam d cay coi, nha cira, cotdien. Gay thiet hai rat nang.- Bién dong du doi. Lamdam tau thuyén.</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Gi6 dur doi</td><td rowspan=1 colspan=1>28,5-32,6103-11711,5</td><td rowspan=1 colspan=1>103- 117</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>Gió rất nhẹ</td>
+      <td>1,6 - 3,3</td>
+      <td>6 - 11</td>
+      <td>0,2</td>
+      <td>- Không gây nguy hại.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Gió khá nhẹ</td>
+      <td>3,4 - 5,4</td>
+      <td>12 - 19</td>
+      <td>0,6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>G ió nhẹ</td>
+      <td>5 ,5 - 7,9</td>
+      <td>2 0 - 28</td>
+      <td>1 ,0</td>
+      <td>- Cây nhỏ cỏ lá bắt đầu lay động, ảnh hưởng đến lúa đang phơi màu. - Biển hơi động, thuyền đánh cá bị chao nghiêng, phải cuốn bớt buồm.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>G ió vừa</td>
+      <td>8 ,0 - 10,7</td>
+      <td>2 9 - 38</td>
+      <td>2 ,0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Gió hơi mạnh</td>
+      <td>10,8 - 13,8</td>
+      <td>39 - 49</td>
+      <td>3,0</td>
+      <td>- Cây cối rung chuyển, khó đi ngược gió. - Biển động. Nguy hiểm đối với tàu, thuyền.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Gió khá mạnh</td>
+      <td>13,9 - 17,1</td>
+      <td>50 - 61</td>
+      <td>4,0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>G ió mạnh</td>
+      <td>1 7,2 - 20,7</td>
+      <td>6 2 - 74</td>
+      <td>5 ,5</td>
+      <td>- Gió làm gãy cành cây, tốc mái nhà gây thiệt hại về nhà cửa. Không thể đi ngược gió. - Biển động rất mạnh. Rất nguy hiểm đối với tàu, thuyền.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>G ió rất mạnh</td>
+      <td>2 0,8 - 24,4</td>
+      <td>7 5 - 88</td>
+      <td>7 ,0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gió khá dữ dội</td>
+      <td>24,5 - 28,4</td>
+      <td>89 - 102</td>
+      <td>9,0</td>
+      <td>- Làm đổ cây cối, nhà cửa, cột điện. Gây thiệt hại rất nặng. - Biển động dữ dội. Làm đắm tàu thuyền.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>G ió dữ dội</td>
+      <td>2 8,5 - 32,6</td>
+      <td>1 03 - 117</td>
+      <td>1 1,5</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

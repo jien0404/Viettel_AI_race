@@ -14,7 +14,41 @@ Hỗ trợ hoạt động vận hành nội bộ: kết nối mạng cho nhân v
 
 Danh sách bố trí thiết bị Wi-Fi Access Point (AP):
 
-<table><tr><td rowspan=1 colspan=1>Thiet bi</td><td rowspan=1 colspan=1>T6ng</td><td rowspan=1 colspan=1>Tang Tret</td><td rowspan=1 colspan=1>Tang1</td><td rowspan=1 colspan=1>Tang 2</td><td rowspan=1 colspan=1>Tang 3</td><td rowspan=1 colspan=1>Tang 4</td><td rowspan=1 colspan=1>Tang 5</td></tr><tr><td rowspan=1 colspan=1>AP</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>02</td><td rowspan=1 colspan=1>02</td><td rowspan=1 colspan=1>02</td><td rowspan=1 colspan=1>02</td><td rowspan=1 colspan=1>02</td><td rowspan=1 colspan=1>02</td></tr><tr><td rowspan=1 colspan=1>Switch PoE</td><td rowspan=1 colspan=1>01</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>01</td><td rowspan=1 colspan=1>0</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Thiết bị</td>
+      <td>Tổng</td>
+      <td>Tầng Trệt</td>
+      <td>Tầng 1</td>
+      <td>Tầng 2</td>
+      <td>Tầng 3</td>
+      <td>Tầng 4</td>
+      <td>Tầng 5</td>
+    </tr>
+    <tr>
+      <td>AP</td>
+      <td>12</td>
+      <td>02</td>
+      <td>02</td>
+      <td>02</td>
+      <td>02</td>
+      <td>02</td>
+      <td>02</td>
+    </tr>
+    <tr>
+      <td>Switch PoE</td>
+      <td>01</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>01</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
 
 Diễn giải:
 
@@ -24,13 +58,97 @@ Diễn giải:
 
 Mô hình hệ thống: Hệ thống Wi-Fi
 
-![](images/1.jpg)
+![](images/image_1.jpg)
 
-> **Hình chú thích:** a diagram of the lau and lau2
-
-
-
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Yêu cầu chung:
 
@@ -60,7 +178,7 @@ Hỗ trợ phân tích tần số/kênh: tránh nhiễu chồng kênh giữa cá
 
 Bảng danh mục thiết bị:
 
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Ten Thiet Bi</td><td rowspan=1 colspan=1>Donvi</td><td rowspan=1 colspan=1>S6Luong</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>THIET BI WI-FI</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Thiét bi Access Point (AP):</td><td rowspan=1 colspan=1>Cai</td><td rowspan=1 colspan=1>12</td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Thiét bi chuyén mach Switch PoE:</td><td rowspan=1 colspan=1>Cai</td><td rowspan=1 colspan=1>01</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Phu kien lap dat</td><td rowspan=1 colspan=1>G6i</td><td rowspan=1 colspan=1>01</td><td rowspan=1 colspan=1></td></tr></table>
+
 
 Giải pháp kỹ thuật:
 
@@ -68,7 +186,46 @@ Cung cấp giải pháp hệ thống Wi-Fi phù hợp với yêu cầu của B�
 
 - Kết quả khảo sát.
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Tên Thiết Bị</td>
+      <td>Đơn vị</td>
+      <td>Số Lượng</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>THIẾT BỊ WI-FI</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Thiết bị Access Point (AP):</td>
+      <td>Cái</td>
+      <td>12</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Thiết bị chuyển mạch Switch PoE:</td>
+      <td>Cái</td>
+      <td>01</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Phụ kiện lắp đặt</td>
+      <td>Gói</td>
+      <td>01</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Tài liệu giải pháp đề xuất có thể hiện đầy đủ các nội dung:
 
@@ -83,11 +240,40 @@ Yêu cầu:
 
 Thông số kỹ thuật thiết bị có xác nhận của hãng sản xuất.
 
-<table><tr><td>STT</td><td>Ten Thiet Bi</td><td>Thong so ky thuat</td></tr><tr><td>I</td><td colspan="2">THIET B! HE THONG WI-FI</td></tr><tr><td>1</td><td>Thiét bi Access Point (AP)</td><td>Thiet bi Accsess Point (AP): H tro bang tan 802.11ax/n (Wi-Fi 6) MIMO: ≥ 2x2 5GHz/2.4GHz Tóc d@ toi da: ≥ 1.5 Gbps Giao dién: ≥ 1 GbE Base-T S6 luong thiét bi truy cap: ≥ 75 Do loi antenna: ≥ 4.9/5.7 dBi Cong suat phat tói da: ≥ 20 dBm Nguon PoE: ≥ PoE 802.3af (class 3) Lap dat: gan tran, treo tuong</td></tr><tr><td>2</td><td>Thiét bi chuyén mach Switch PoE</td><td>Thiét bi chuyén mach Switch PoE: Thiét bi Switch có giam sat 24 port RJ45 10/100/1000 class 4 PoE 04 SFP/SFP+ Bang thong: ≥ 80 Mpps Dung luong: ≥ 100 Gbps</td></tr><tr><td>II</td><td colspan="2">Cong suat PoE: ≥ 180 Watt VAT TU &amp; NHAN CONG</td></tr></table>
 
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Tên Thiết Bị Thông số kỹ thuật</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>THIẾT BỊ HỆ THỐNG WI-FI</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Thiết bị Access Point (AP)</td>
+      <td>Thiết bị Accsess Point (AP): - Hỗ trợ băng tần 802.11ax/n (Wi-Fi 6) - MIMO: ≥ 2x2 5GHz/2.4GHz - Tốc độ tối đa: ≥ 1.5 Gbps - Giao diện: ≥ 1 GbE Base-T - Số lượng thiết bị truy cập: ≥ 75 - Độ lợi antenna: ≥ 4.9/5.7 dBi - Công suất phát tối đa: ≥ 20 dBm - Nguồn PoE: ≥ PoE 802.3af (class 3) - Lắp đặt: gắn trần, treo tường</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Thiết bị chuyển mạch Switch PoE</td>
+      <td>Thiết bị chuyển mạch Switch PoE: - Thiết bị Switch có giám sát - 24 port RJ45 10/100/1000 class 4 PoE - 04 SFP/SFP+ - Băng thông: ≥ 80 Mpps - Dung lượng: ≥ 100 Gbps - Công suất PoE: ≥ 180 Watt</td>
+    </tr>
+    <tr>
+      <td>II</td>
+      <td>VẬT TƯ & NHÂN CÔNG</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Phu kien lap dattu rack</td><td rowspan=1 colspan=1>- Cung cap day du vat tur, cap CAT6 lap dat, phu kien day du.</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Dich vu triénkhai</td><td rowspan=1 colspan=1>- Lap dat- Cai dat, toi uu, nghiém thu, ban giao- Huong dän van hanh hé thóng</td></tr></table>
+
 
 Ghi chú: cấu hình yêu cầu bên trên là tối thiểu bắt buộc, giải pháp có thể đề xuất tương đương hoặc cao hơn.
 
@@ -118,7 +304,21 @@ Bàn giao đưa vào sử dụng.
 
 8. YÊU CẦU HỒ SƠ
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Phụ kiện lắp đặt tủ rack</td>
+      <td>- Cung cấp đầy đủ vật tư, cáp CAT6 lắp đặt, phụ kiện đầy đủ.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Dịch vụ triển khai</td>
+      <td>- Lắp đặt - Cài đặt, tối ưu, nghiệm thu, bàn giao - Hướng dẫn vận hành hệ thống</td>
+    </tr>
+  </tbody>
+</table>
 
 Đơn vị tham gia chào giá cung cấp hệ thống Wi-Fi cần chuẩn bị đầy đủ các loại hồ sơ bao $\mathrm { g } \dot { \hat { \mathrm { o } } } \mathrm { m }$ :
 

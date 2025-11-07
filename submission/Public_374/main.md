@@ -12,13 +12,106 @@ Quy chuẩn này áp dụng cho các loại thiết bị vô tuyến cự ly ng�
 
 Bảng 1 - Các băng tần số sử dụng cho thiết bị vô tuyến cự ly ngắn từ 25 MHz đến 1 GHz
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Loại thiết bị</td>
+      <td>Băng tần/tần số</td>
+      <td>Ứng dụng</td>
+    </tr>
+    <tr>
+      <td>Phát và thu</td>
+      <td>26,995 MHz</td>
+      <td>Điều khiển mô hình</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>27,045 MHz, 27,095 MHz, 27,145 MHz, 27,195 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>34,995 MHz tới 35,225 MHz</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
-<table><tr><td rowspan=1 colspan=1>40,665 MHz, 40,675 MHz,40,685 MHz, 40,695 MHz</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>26,957 MHz toi 27,283 MHz</td><td rowspan=3 colspan=1>Dung cho muc dich chung</td></tr><tr><td rowspan=1 colspan=1>40,660 MHz toi 40,700 MHz</td></tr><tr><td rowspan=1 colspan=1>138,200 MHz toi 138,450 MHz</td></tr><tr><td rowspan=1 colspan=1>169,400 MHz tói 169,475 MHz</td><td rowspan=1 colspan=1> Theo doi, truy tim va thu thap duliéu va do, giam sat tur xa</td></tr><tr><td rowspan=1 colspan=1>169,475 MHz toi 169,4875MHz</td><td rowspan=2 colspan=1>Canh bao chung</td></tr><tr><td rowspan=1 colspan=1>169,5875 MHz toi 169,6000MHz</td></tr><tr><td rowspan=1 colspan=1>433,050 MHz toi 434,790 MHz</td><td rowspan=2 colspan=1>Dung cho muc dich chung</td></tr><tr><td rowspan=1 colspan=1>863,000 MHz toi 870,000 MHz</td></tr><tr><td rowspan=1 colspan=1>864,800 MHz toi 865,000 MHz</td><td rowspan=1 colspan=1>Ung dung am thanh khong day</td></tr><tr><td rowspan=1 colspan=1>868,000 MHz toi 868,600 MHz</td><td rowspan=1 colspan=1> Dung cho muc dich chung</td></tr><tr><td rowspan=1 colspan=1>868,600 MHz toi 868,700 MHz</td><td rowspan=1 colspan=1> Canh bao</td></tr><tr><td rowspan=1 colspan=1>868,700 MHz toi 869,200 MHz</td><td rowspan=1 colspan=1>Dung cho muc dich chung</td></tr></table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td>40,665 MHz, 40,675 MHz, 40,685 MHz, 40,695 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>26,957 MHz tới 27,283 MHz</td>
+      <td>Dùng cho mục đích chung</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>40,660 MHz tới 40,700 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>138,200 MHz tới 138,450 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>169,400 MHz tới 169,475 MHz Theo dõi, truy tìm và thu thập dữ</td>
+      <td>liệu và đo, giám sát từ xa</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>169,475 MHz tới 169,4875 MHz</td>
+      <td>Cảnh báo chung</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>169,5875 MHz tới 169,6000 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>433,050 MHz tới 434,790 MHz Dùng cho mục đích chung</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>863,000 MHz tới 870,000 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>864,800 MHz tới 865,000 MHz Ứng dụng âm thanh không dây</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>868,000 MHz tới 868,600 MHz Dùng cho mục đích chung</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>868,600 MHz tới 868,700 MHz Cảnh báo</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>868,700 MHz tới 869,200 MHz Dùng cho mục đích chung</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-<table><tr><td rowspan=1 colspan=1>869,200 MHz toi 869,250 MHz|Canh bao chung</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>869,250 MHz toi 869,300 MHz|Canh bao (0,1 % chu ky hoat dong)</td><td rowspan=1 colspan=1>869,250 MHz toi 869,300 MHz|Canh bao (0,1 % chu ky hoat dong)</td></tr><tr><td rowspan=1 colspan=1>869,300 MHz toi 869,400 MHz|Canh bao (1 % chu ky hoat dong)</td><td rowspan=1 colspan=1>869,300 MHz toi 869,400 MHz|Canh bao (1 % chu ky hoat dong)</td></tr><tr><td rowspan=1 colspan=1> 869,400 MHz toi 869,650 MHz|Dung cho muc dich chung</td><td rowspan=1 colspan=1> 869,400 MHz toi 869,650 MHz|Dung cho muc dich chung</td></tr><tr><td rowspan=1 colspan=1>869,650 MHz toi 869,700 MHz|Canh bao</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1> 869,700 MHz toi 870,0 MHz|Dung cho muc dich chung</td><td rowspan=1 colspan=1> 869,700 MHz toi 870,0 MHz|Dung cho muc dich chung</td></tr></table>
 
 # 2. Đối tượng áp dụng
 
@@ -36,7 +129,41 @@ Anten cố định, được gắn cùng thiết bị và được thiết $\mat
 
 # 3.3 Băng hẹp (narrowband)
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td>869,200 MHz tới 869,250 MHz Cảnh báo chung</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>869,250 MHz tới 869,300 MHz Cảnh báo (0,1 % chu kỳ hoạt động)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>869,300 MHz tới 869,400 MHz Cảnh báo (1 % chu kỳ hoạt động)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>869,400 MHz tới 869,650 MHz Dùng cho mục đích chung</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>869,650 MHz tới 869,700 MHz Cảnh báo</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>869,700 MHz tới 870,000 MHz Dùng cho mục đích chung</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Các thiết bị hoạt động dùng băng tần không phân kênh, có độ chiếm dụng độ rộng băng tần nhỏ hơn hoặc bằng $2 5 \mathrm { k H z }$ , hoặc dùng băng tần có phân kênh với khoảng cách kênh nhỏ hơn hoặc bằng $2 5 \mathrm { k H z }$ .
 

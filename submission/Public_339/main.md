@@ -40,13 +40,49 @@ KẾT QUẢ ĐÁNH VÙNG PHỦ
 
 
 
-<table><tr><td></td><td></td><td>2. Vung phu Indoor: Vung phu tóc d@ download 30 Mbps trong nha cua mang 5G C-Band ~ 87% mang 4G 1800 MHz 3.Danh gia suy hao Indoor- Outdoor: Tai khu vuc thir nghiém, gia tri suy hao Indoor - Outdoor cua mang 5G C-Band cao hon mang 4G 1800 MHz ~ 4.5 dB.</td><td></td></tr><tr><td>2</td><td>VNPT</td><td>Vung phu s6ng LOS 500-600m, có che chan 200-250m, ind0or 150m. Tóc dó DL/UL: 1469/109 Mbps, d@ tré 11ms (HN), 9,6ms (HCM). Mang 5G khi có tai upload có gay nhiéu lén tram vé tinh ó huong thu (tan só tir 3.4-3.6GHz). O khoang cach 2-3km, tin hiéu 5G anh huong nghiem trong dén tin hiéu diéu khién vé tinh. UE ó cur ly gan (&lt;300m) cüng gay nhiéu dén tram vé tinh. Hién chua có giai phap khac phuc hien tuong gay nhieu nay.</td><td>Vung phu s6ng LOS 250-280m, có che chän 80-90m, indoor rat kém. Tóc d DL/UL: 2178/66,6 Mbps, d@ tré 10ms (HN), 7ms (HCM).</td></tr><tr><td>3</td><td>Mobifone</td><td>- RSRP chi dat nguong tót trong pham vi ban kinh 500m</td><td>Gia tri do SINR phan ánh dung voi gia tri RSRP do dac duoc, khong có gi bat thuong</td></tr><tr><td>256 can diéu kién vo tuyén tót nén rat khó dat duoc, dän dén ty le BLER cao,</td><td>Voi cau hinh RS power dugc cai dat bang voi cong suat trung binh kénh PDSCH, gia tri RSRQ do dac duoc la khong co van dé gi bat thuong - Gia tri do dac SINR phan anh dung voi gia tri RSRP do dac duoc, khong có gi bat thuong - Doan phat tin hiéu 5G (100 Mhz bang thong, tir 3700 MHz dén 3800 MHz) có dBm murc nén trung binh ~ -120 dBm, khóng c6 tin hieu bat thuong. · Danh gia: - Vung phu: Vung phu tram 5G rat hep so voi cac tram 3G, 4G voi pham vi khä dung chi trong khoang 500m. - Vé chat luong: Viec sur dung QAM</td><td>- Murc nhiéu nén trung binh - 110 dBm. Khong phat hien tin hieu bat thuong + Trong pham vi 50m, LOS vung phu tót, SS-RSRP dat - 72 dBm + Trong pham vi 50m c6 su anh huong tan cay, SS-RSRP dat - 82 dBm + O khoang cach 65 m, LOS (khu vuc Diamond Plaza)， SS-RSRP dat ~-83 +  cac diéu kién NLOS, mirc thu ghi nhän kém,~ 100 dBm. · Danh gia: - Vung phu tram 5G mmW rat hep. Chi dam bao vung phu khu vuc LOS trong pham vi 50 -60m - Tin hiéu suy hao lon. Cuong d@ tin hiéu</td><td> giam nhanh voi khoang cach, che khuat</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>2. Vùng phủ Indoor: Vùng phủ tốc độ download 30 Mbps trong nhà của mạng 5G C-Band ~ 87% mạng 4G 1800 MHz 3. Đánh giá suy hao Indoor – Outdoor: Tại khu vực thử nghiệm, giá trị suy hao Indoor – Outdoor của mạng 5G C-Band cao hơn mạng 4G 1800 MHz ~ 4.5 dB.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>VNPT</td>
+      <td>Vùng phủ sóng LOS 500-600m, có che chắn 200-250m, indoor 150m. Tốc độ DL/UL: 1469/109 Mbps, độ trễ 11ms (HN), 9,6ms (HCM). Mạng 5G khi có tải upload có gây nhiễu lên trạm vệ tinh ở hướng thu (tần số từ 3.4-3.6GHz). Ở khoảng cách 2-3km, tín hiệu 5G ảnh hưởng nghiêm trọng đến tín hiệu điều khiển vệ tinh. UE ở cự ly gần (<300m) cũng gây nhiễu đến trạm vệ tinh. Hiện chưa có giải pháp khắc phục hiện tượng gây nhiễu này.</td>
+      <td>Vùng phủ sóng LOS 250-280m, có che chắn 80-90m, indoor rất kém. Tốc độ DL/UL: 2178/66,6 Mbps, độ trễ 10ms (HN), 7ms (HCM).</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Mobifone</td>
+      <td>- RSRP chỉ đạt ngưỡng tốt trong phạm vi bán kính 500m</td>
+      <td>- Giá trị đo SINR phản ánh đúng với giá trị RSRP đo đạc được, không có gì bất thường</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
 Kết quả tốc độ thử nghiệm đối với dịch vụ eMBB:
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Với cấu hình RS power được cài đặt bằng với công suất trung bình kênh PDSCH, giá trị RSRQ đo đạc được là không có vấn đề gì bất thường - Giá trị đo đạc SINR phản ánh đúng với giá trị RSRP đo đạc được, không có gì bất thường - Đoạn phát tín hiệu 5G (100 Mhz băng thông, từ 3700 MHz đến 3800 MHz) có mức nền trung bình ~ -120 dBm, không có tín hiệu bất thường. • Đánh giá: - Vùng phủ: Vùng phủ trạm 5G rất hẹp so với các trạm 3G, 4G với phạm vi khả dụng chỉ trong khoảng 500m. - Về chất lượng: Việc sử dụng QAM 256 cần điều kiện vô tuyến tốt nên rất khó đạt được, dẫn đến tỷ lệ BLER cao, gây ra hiện tượng re-transmission làm ảnh hưởng đến tộc độ tải dữ liệu.</td>
+      <td>- Mức nhiễu nền trung bình – 110 dBm. Không phát hiện tín hiệu bất thường + Trong phạm vi 50m, LOS vùng phủ tốt, SS-RSRP đạt – 72 dBm + Trong phạm vi 50m có sự ảnh hưởng tán cây, SS-RSRP đạt – 82 dBm + Ở khoảng cách 65 m, LOS (khu vực Diamond Plaza), SS-RSRP đạt ~-83 dBm + Ở các điều kiện NLOS, mức thu ghi nhận kém, ~ 100 dBm. • Đánh giá: - Vùng phủ trạm 5G mmW rất hẹp. Chỉ đảm bảo vùng phủ khu vực LOS trong phạm vi 50 – 60m - Tín hiệu suy hao lớn. Cường độ tín hiệu giảm nhanh với khoảng cách, che khuất và sự tán xạ do ảnh hưởng tán cây.</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 3. Tình hình triển khai 5G trên thế giới:
 

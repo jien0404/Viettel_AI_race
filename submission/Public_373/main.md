@@ -22,11 +22,82 @@ Các điều kiện và phép thử được tóm tắt trong Bảng 4. Bảng 4
 
 # Bảng 4 - Miễn nhiễm điện từ
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Điều kiện</td>
+      <td>Xách tay</td>
+      <td>Bảo vệ</td>
+      <td>Mở</td>
+      <td>Chìm</td>
+    </tr>
+    <tr>
+      <td>Nhiễu dẫn tần số vô tuyến</td>
+      <td>*</td>
+      <td>3 V r.m.s e.m.f 150 kHz - 80 MHz, 10 V r.m.s e.m.f tại các tần số điểm quy định Các cổng nguồn a.c và d.c, cổng điều khiển và tín hiệu, chế độ chung Tiêu chí chất lượng A</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Nhiễu phân tán</td>
+      <td>10 V/m 80 MHz - 2 GHz Cổng vỏ Tiêu chí chất lượng A</td>
+      <td></td>
+      <td></td>
+      <td>*</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-
-<table><tr><td rowspan=1 colspan=1>Dieu kien</td><td rowspan=1 colspan=1> Xach tay</td><td rowspan=1 colspan=1>Bao ve</td><td rowspan=1 colspan=1>Mo</td><td rowspan=1 colspan=1>Chim</td></tr><tr><td rowspan=1 colspan=5>CHU THICH: “*” - Khong quy dinh</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Điều kiện</td>
+      <td>Xách tay</td>
+      <td>Bảo vệ</td>
+      <td>Mở</td>
+      <td>Chìm</td>
+    </tr>
+    <tr>
+      <td>Chuyển tiếp nhanh</td>
+      <td>*</td>
+      <td>Điện áp 2 kV trên các cổng nguồn a.c. Điện áp 1 kV chế độ chung trên các cổng điều khiển và tín hiệu. Tiêu chí chất lượng B</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Chuyển tiếp chậm</td>
+      <td>*</td>
+      <td>1 kV cổng/đất, 0,5 kV cổng/cổng Cổng nguồn AC Tiêu chí chất lượng B</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Biến đổi nguồn ngắn hạn</td>
+      <td>*</td>
+      <td>Điện áp  20% cho 1,5 s, tần số  10% cho 5 s Cổng nguồn AC. Tiêu chí chất lượng B</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hỏng nguồn</td>
+      <td>*</td>
+      <td>Ngắt 60 s Cổng nguồn a.c và d.c. Tiêu chí chất lượng C</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Phóng tĩnh điện</td>
+      <td>Tiếp xúc 6 kV Không gian 8 kV Tiêu chí chất lượng B</td>
+      <td></td>
+      <td></td>
+      <td>*</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2. Thiết bị thu sóng vô tuyến
 
@@ -58,15 +129,29 @@ Mô phỏng ảnh hưởng của nhiễu gây ra bởi nguồn, tín hiệu và 
 
 EUT được đặt trên một tấm đỡ cách điện có độ cao 0,1 m so với mặt phẳng tham chiếu đất. Thiết bị phụ trợ (AE) cần thiết cung cấp nguồn cho EUT và các tín hiệu cần thiết để được khai thác bình thường và kiểm tra chất lượng phải được kết nối với nhau bằng dây cáp, sẽ được cung cấp bởi các thiết bị ghép và tách thích hợp (CDNs) tại khoảng cách $^ { 0 , 1 \mathrm { ~ m ~ } }$ và $^ { 0 , 3 \mathrm { ~ m ~ } }$ từ EUT (Hình 7). TCVN 8241-4-6: 2009 chỉ rõ thiết kế của CDNs và các kẹp phun thay thế nếu không thể sử dụng CDN.
 
-![](images/1.jpg)
-
-> **Hình chú thích:** a diagram of the system that is used to control the flow of water
-
-
+![](images/image_1.jpg)
 
 CHÚ THÍCH: T - Đầu cuối $5 0 \Omega$
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Điều kiện</td>
+      <td>Xách tay</td>
+      <td>Bảo vệ</td>
+      <td>Mở</td>
+      <td>Chìm</td>
+    </tr>
+    <tr>
+      <td>CHÚ THÍCH: “*” - Không quy định</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 T2 - Khuyếch đại công suất (6 dB)
 
@@ -74,11 +159,7 @@ CDN - Mạng ghép/ tách
 
 # Hình 7 - Sơ đồ thiết lập thử miễn nhiễm đối với nhiễu dẫn tần số vô tuyến
 
-![](images/2.jpg)
-
-> **Hình chú thích:** a circuit diagram for a power supply
-
-
+![](images/image_2.jpg)
 
 CHU THICH:CDN-M3, $C _ { 1 } \left( { \sf t y p } \right) = 1 0 \mathsf { n F }$ $C _ { 2 } \ ( \mathsf { t y p } ) = 4 7$ nF, $R = 3 0 0$ Ω,L≥280 $\mu \mathsf { H }$ tai150 kHz. CDN-M2, $C _ { 1 } \left( { \sf t y p } \right) = 1 0 \mathsf { n F }$ $C _ { 2 } \left( \mathrm { t y p } \right) = 4 7$ nF, $R = 2 0 0 ~ \Omega$ Ω, $L \geq 2 8 0 ~ \mu \ H$ tai150kHz. CDN-M1, $C _ { 1 } \left( { \sf t y p } \right) = 2 2 { \sf n F }$ $C _ { 2 } \left( \mathsf { t y p } \right) = 4 7$ nF, $R = \ d _ { 1 } 0 0 \Omega$ $L \geq 2 8 0 ~ \mu \ H$ tai150kHz.
 
@@ -118,13 +199,166 @@ Thiết bị phải được đặt trong một phòng che thích hợp hay bu�
 
 EUT cần đặt ở khu vực cường độ trường đồng nhất và cách điện với đất bằng giá đỡ phi kim. Khu vực đồng nhất được hiệu chuẩn khi phòng đo trống. Cấu hình của EUT và các cáp đi cùng sẽ được ghi trong biên bản thử nghiệm.
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-
-![](images/3.jpg)
-
-> **Hình chú thích:** a diagram of a room with a small kitchen and a sink
-
-
+![](images/image_3.jpg)
 
 # Hình 9 - Ví dụ điều kiện thử nghiệm thích hợp miễn nhiễmđối với tần số vô tuyến phân tán
 
@@ -150,15 +384,39 @@ Mô phỏng đột biến năng lượng thấp, nhanh gây ra do chuyển mạc
 
 Phép thử được tiến hành như trong IEC 61000-4-4, tại mức nghiêm ngặt 3, sử dụng thiết bị phát thử tuân thủ theo 6.1.1 của IEC 61000-4-4, mạng ghép/tách tuân thủ theo 6.2 của IEC 61000-4-4 cho các đường điện, và thiết bị kẹp ghép điện dung tuân thủ theo 6.3 của IEC 61000-4-4 cho tín hiệu và đường điều khiển (Hình 10).
 
-![](images/4.jpg)
-
-> **Hình chú thích:** a diagram of a room with a table and a computer
-
-
+![](images/image_4.jpg)
 
 CHÚ THÍCH: I - Khoảng cách giữa giá kẹp và EUT (không lớn hơn 1 m) (A) - Vị trí ghép đường nguồn
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 (B) - Vị trí ghép đường tín hiệu
 

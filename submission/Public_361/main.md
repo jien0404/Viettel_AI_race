@@ -35,11 +35,7 @@ ES3 là nguồn năng lượng điện loại 3 khi cả nguồn điện và đi
 
 
 
-![](images/1.jpg)
-
-> **Hình chú thích:** a diagram shows the different types of batteries
-
-
+![](images/image_1.jpg)
 
 Hình 11 - Hình minh họa các giới hạn ES về điện áp và dòng điện Đối với bất kỳ điện áp trong giới hạn điện áp, sẽ không có giới hạn cho dòng điện. Tương tự như vậy đối với bất kỳ dòng điện nào trong giới hạn, sẽ không có giới hạn nào đối với điện áp, xem Hình 11.
 
@@ -49,34 +45,298 @@ Cấp nguồn năng lượng điện được xác định tử cả nguồn đi
 
 # Bảng 4 - Các giới hạn nguồn năng lượng điện cho ES1 và ES2 ở trạng thái ổn định
 
-<table><tr><td rowspan=2 colspan=1>Nguon nang luong</td><td rowspan=1 colspan=2>Cac gioi han cho ES1</td><td rowspan=1 colspan=2>Cac gioi han cho ES2</td><td rowspan=2 colspan=1>ES3</td></tr><tr><td rowspan=1 colspan=1>Dien ap</td><td rowspan=1 colspan=1>Dong dien aced</td><td rowspan=1 colspan=1>Dien ap</td><td rowspan=1 colspan=1>Dongdien b.c</td></tr><tr><td rowspan=1 colspan=1>DC</td><td rowspan=1 colspan=1>60V</td><td rowspan=1 colspan=1>2 mA</td><td rowspan=1 colspan=1>120 V</td><td rowspan=1 colspan=1>25 mA</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>AC toi 1kHz</td><td rowspan=1 colspan=1> 30 V R.M.S42,4 V dinh</td><td rowspan=2 colspan=1>0,5 mA R.M.S0,707 mA dinh</td><td rowspan=1 colspan=1> 50 V R.M.S70,7 V dinh</td><td rowspan=2 colspan=1>0,5 mAR.M.S0,707 mAdinh</td><td rowspan=2 colspan=1>&gt;ES2</td></tr><tr><td rowspan=1 colspan=1>AC</td><td rowspan=1 colspan=1> 30 V R.M.S + 0,4 *f</td><td rowspan=1 colspan=1>50VIR.M.S+0,9*f</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-
-<table><tr><td rowspan=1 colspan=1>&gt;1 kHz toi100 kHz</td><td rowspan=1 colspan=1>42.2 dinh + 0,4*√2*f</td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1>70,7 V dinh+ 0.9*√2 * f</td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=1>AC   tren100 kHz</td><td rowspan=1 colspan=1>70 V R.M.S99 V dinh</td><td rowspan=1 colspan=1>140 V R.M.S198 V dinh</td></tr><tr><td rowspan=2 colspan=1>Két   hopAC va DC</td><td rowspan=2 colspan=1>UDc(V)60UAC R.M.s(V)+U R.M.s gibi han≤1UDc(V)60UAC dinh(V)+ Udinh gioi han≤1</td><td rowspan=1 colspan=1>IDc(mA)2IAC R.M.s (mA)+</td><td rowspan=2 colspan=1>Xem Hinh 13</td><td rowspan=2 colspan=1>XemHinh 12</td></tr><tr><td rowspan=1 colspan=1>+0,5≤1IDc(mA)2IAc dinh(mA)+0,707≤1</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Thay thế cho các yêu cầu bên trên, các giá trị dưới đây có thể được sử dụng cho các dạng sóng hình sin
 
-<table><tr><td rowspan=2 colspan=1>Nguon nang luong</td><td rowspan=1 colspan=1>Cac gioi han cho ES1</td><td rowspan=1 colspan=1>Cac gioi han cho ES2</td><td rowspan=2 colspan=1>ES3</td></tr><tr><td rowspan=1 colspan=1>Dong dien cR.M.S</td><td rowspan=1 colspan=1>Dong dien R.M.S</td></tr><tr><td rowspan=1 colspan=1>A.Ctoi 1kHz</td><td rowspan=1 colspan=1>0,5 mA</td><td rowspan=1 colspan=1>0,5 mA</td><td rowspan=2 colspan=1>&gt;ES2</td></tr><tr><td rowspan=1 colspan=1>A.C&gt;1kHz toi100 kHz</td><td rowspan=1 colspan=1>0,5 mA * fd</td><td rowspan=1 colspan=1>0,5 mA + 0,95fe</td></tr></table>
-
-
-
-<table><tr><td>A.Ctren 100 kHz</td><td>50 mAd</td><td>100 mAe</td></tr><tr><td colspan="3">f tinh bang kHz Gia tri dinh phai duoc su dung cho dien ap va dong dien khong phai dang hinh sin. Gia tri R.M.S chi có thé duoc sur dung cho dien ap va dong dien có dang hinh sin. Tham khao 2.2.7 vé phép do dien áp tiép xuc tiém nang va phép do dong dien cham.</td></tr><tr><td colspan="3">a Dong dien duoc do bang cach sur dung mang do duoc quy dinh trong Hinh 4 cua tieu chuan IEC 60990:2016. b Dong dien dugc do bang cach sur dung mang do duoc quy dinh trong Hinh 5 cua tieu chuan IEC 60990:2016 c Dói voi dang s6ng hinh sin va mot chieu, dong dien c6 thé duoc do bang dien tró 2 000</td></tr></table>
-
-![](images/2.jpg)
-
-> **Hình chú thích:** a graph shows the temperature of a liquid
-
+<table>
   
+  <tbody>
+    <tr>
+      <td>Nguồn năng lượng</td>
+      <td>Các giới hạn cho ES1</td>
+      <td></td>
+      <td>Các giới hạn cho ES2</td>
+      <td></td>
+      <td>ES3</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Điện áp</td>
+      <td>Dòng điện a,c,d</td>
+      <td>Điện áp</td>
+      <td>Dòng điện b,c</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DC c</td>
+      <td>60 V</td>
+      <td>2 mA</td>
+      <td>120 V</td>
+      <td>25 mA</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AC tới 1 kHz</td>
+      <td>30 V R.M.S 42,4 V đỉnh</td>
+      <td>0,5 mA R.M.S 0,707 mA đỉnh</td>
+      <td>50 V R.M.S 70,7 V đỉnh</td>
+      <td>0,5 mA R.M.S 0,707 mA đỉnh</td>
+      <td>>ES 2</td>
+    </tr>
+    <tr>
+      <td>AC</td>
+      <td>30 V R.M.S + 0,4 *f</td>
+      <td></td>
+      <td>50 V R.M.S + 0,9*f</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>>1 kHz tới 100 kHz</td>
+      <td>42.2 đỉ𝑛ℎ + 0,4 ∗ √2 ∗ 𝑓</td>
+      <td></td>
+      <td>70,7 𝑉 đỉ𝑛ℎ + 0.9 ∗ √2 ∗ 𝑓</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AC trên 100 kHz</td>
+      <td>70 V R.M.S 99 V đỉnh</td>
+      <td></td>
+      <td>140 V R.M.S 198 V đỉnh</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Kết hợp AC và DC</td>
+      <td>𝑈𝐷𝐶(𝑉) 60 𝑈𝐴𝐶 𝑅.𝑀.𝑆(𝑉) + 𝑈 𝑅.𝑀.𝑆 𝑔𝑖ớ𝑖 ℎạ𝑛 ≤ 1 𝑈𝐷𝐶(𝑉) 60 𝑈𝐴𝐶 đỉ𝑛ℎ(𝑉) + 𝑈 đỉ𝑛ℎ 𝑔𝑖ớ𝑖 ℎạ𝑛 ≤ 1</td>
+      <td>𝐼𝐷𝐶(𝑚𝐴) 2 𝐼𝐴𝐶 𝑅.𝑀.𝑆(𝑚𝐴) + 0,5 ≤ 1 𝐼𝐷𝐶(𝑚𝐴) 2 𝐼𝐴𝐶 đỉ𝑛ℎ(𝑚𝐴) + 0,707 ≤ 1</td>
+      <td>Xem Hình 13</td>
+      <td>Xem Hình 12</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thay thế cho các yêu cầu bên trên, các giá trị dưới đây có thể được sử dụng cho các dạng sóng hình sin</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Nguồn năng lượng</td>
+      <td>Các giới hạn cho ES1</td>
+      <td></td>
+      <td>Các giới hạn cho ES2</td>
+      <td></td>
+      <td>ES3</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Dòng điện c R.M.S</td>
+      <td></td>
+      <td>Dòng điện c R.M.S</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>A.C tới 1 kHz</td>
+      <td>0,5 mA</td>
+      <td></td>
+      <td>0,5 mA</td>
+      <td></td>
+      <td>>ES 2</td>
+    </tr>
+    <tr>
+      <td>A.C >1kHz tới 100 kHz</td>
+      <td>0,5 𝑚𝐴 ∗ 𝑓𝑑</td>
+      <td></td>
+      <td>0,5 𝑚𝐴 + 0,95𝑓𝑒</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+![](images/image_2.jpg)  
 Hình 12 - Các giá trị cực đại cho kết hợp dòng AC và dòng DC
 
 
 
-![](images/3.jpg)
-
-> **Hình chú thích:** the graph shows the temperature of a liquid
-
-  
+![](images/image_3.jpg)  
 Hình 13 - Các giá trị cực đại cho kết hợp điện áp AC và điện áp DC
 
 # 2.3 Các giới hạn điện dung
@@ -89,11 +349,118 @@ Các giới hạn ES1 và ES2 cho các giá trị điện dung khác nhau đư�
 
 # Bảng 5 - Các giới hạn nguồn năng lượng điện đối với các tụ điện tích điện
 
-<table><tr><td rowspan=1 colspan=1>CnF</td><td rowspan=1 colspan=1>ES1UdinhV</td><td rowspan=1 colspan=1>ES2UdinhV</td><td rowspan=1 colspan=2>ES3UdinhV</td></tr><tr><td rowspan=1 colspan=1> 300 hoac lon hon</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>120</td><td rowspan=2 colspan=2></td></tr><tr><td rowspan=1 colspan=1>170</td><td rowspan=1 colspan=1>75</td><td rowspan=1 colspan=1>150</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>91</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1></td><td rowspan=4 colspan=1></td></tr><tr><td rowspan=1 colspan=1>61</td><td rowspan=1 colspan=1>125</td><td rowspan=1 colspan=1>250</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>41</td><td rowspan=1 colspan=1>150</td><td rowspan=1 colspan=1>300</td><td></td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>400</td><td></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>A.C trên 100 kHz</td>
+      <td>50 𝑚𝐴𝑑</td>
+      <td>100 𝑚𝐴𝑒</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>f tính bằng kHz Giá trị định phải được sử dụng cho điện áp và dòng điện không phải dạng hình sin. Giá trị R.M.S chỉ có thể được sử dụng cho điện áp và dòng điện có dạng hình sin. Tham khảo 2.2.7 về phép đo điện áp tiếp xúc tiềm năng và phép đo dòng điện chạm.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>a Dòng điện được đo bằng cách sử dụng mạng đo được quy định trong Hình 4 của tiêu chuẩn IEC 60990:2016. b Dòng điện được đo bằng cách sử dụng mạng đo được quy định trong Hình 5 của tiêu chuẩn IEC 60990:2016 c Đối với dạng sóng hình sin và một chiều, dòng điện có thể được đo bằng điện trở 2 000 Ω d Trên 22 kHz, khu vực tiếp cận được giới hạn ở 1 cm2. e Trên 36 kHz, khu vực tiếp cận được giới hạn ở 1 cm2.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-<table><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>250</td><td rowspan=1 colspan=1>500</td><td rowspan=9 colspan=1></td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>350</td><td rowspan=1 colspan=1>700</td></tr><tr><td rowspan=1 colspan=1>8,0</td><td rowspan=1 colspan=1>500</td><td rowspan=1 colspan=1>1000</td></tr><tr><td rowspan=1 colspan=1>4,0</td><td rowspan=1 colspan=1>1 000</td><td rowspan=1 colspan=1>2 000</td></tr><tr><td rowspan=1 colspan=1>1,6</td><td rowspan=1 colspan=1>2 500</td><td rowspan=1 colspan=1>5000</td></tr><tr><td rowspan=1 colspan=1>0,8</td><td rowspan=1 colspan=1>5000</td><td rowspan=1 colspan=1>10 000</td></tr><tr><td rowspan=1 colspan=1>0,4</td><td rowspan=1 colspan=1>10 000</td><td rowspan=1 colspan=1>20000</td></tr><tr><td rowspan=1 colspan=1>0,2</td><td rowspan=1 colspan=1>20 000</td><td rowspan=1 colspan=1>40 000</td></tr><tr><td rowspan=1 colspan=1>0,133 hoac nhóhon</td><td rowspan=1 colspan=1>25 000</td><td rowspan=1 colspan=1>50 000</td></tr><tr><td rowspan=1 colspan=4>Phép noi suy tuyén tinh c6 thé dugc sur dung gitra hai diem gan nhat</td></tr></table>
 
 # 2.4 Các giới hạn xung đơn
 
@@ -105,17 +472,212 @@ Nếu phát hiện nhiều hơn một xung trong khoảng thời gian 3 s, thì 
 
 Bảng 6 - Các giới hạn điện áp cho các xung đơn
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Bảng 7 - Các giới hạn dòng điện cho các xung đơn   
 
-<table><tr><td>Khoang thoi gian ton tai cua xung den ms</td><td>ES1 Udinh V</td><td>ES2 Udinh V</td><td>ES3 Udinh V</td></tr><tr><td>10</td><td rowspan="7">60 nhät tinh theo phu luc R.</td><td>196</td><td rowspan="8">&gt; ES2</td></tr><tr><td>20</td><td>178</td></tr><tr><td>50</td><td>150</td></tr><tr><td>80</td><td>135</td></tr><tr><td></td><td></td></tr><tr><td>100 200 va lón hon</td><td>129 120</td></tr><tr><td colspan="4">Néu khoang thoi gian näm gitra cac gia tri trong hai hang bat ky, thi có thé su dung gia tri ES2 cua Udinh thap hon hoac có thé sur dung phép nói suy tuyén tinh gitra hai hang lién ké bat ky voi gia tri dién ap dinh dugc tinh toan lam tron xuong gia tri gan</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>C nF</td>
+      <td>ES1 Uđỉnh V</td>
+      <td>ES2 Uđỉnh V</td>
+      <td>ES3 Uđỉnh V</td>
+    </tr>
+    <tr>
+      <td>300 hoặc lớn hơn</td>
+      <td>60</td>
+      <td>120</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>170</td>
+      <td>75</td>
+      <td>150</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td>100</td>
+      <td>200</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>125</td>
+      <td>250</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>150</td>
+      <td>300</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>200</td>
+      <td>400</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan=1 colspan=1>Khoangthoigianton taicua xungdénms</td><td rowspan=1 colspan=2>ES1ldinhmA</td><td rowspan=1 colspan=1>ES2lainhmA</td><td rowspan=1 colspan=1>ES3lainhmA</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=3 colspan=2>2</td><td rowspan=1 colspan=1>200</td><td rowspan=3 colspan=1>&gt; ES2</td></tr><tr><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>153</td></tr><tr><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>107</td></tr></table>
 
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>18</td>
+      <td>250</td>
+      <td>500</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>350</td>
+      <td>700</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8,0</td>
+      <td>500</td>
+      <td>1 000</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4,0</td>
+      <td>1 000</td>
+      <td>2 000</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1,6</td>
+      <td>2 500</td>
+      <td>5 000</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>0,8</td>
+      <td>5 000</td>
+      <td>10 000</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>0,4</td>
+      <td>10 000</td>
+      <td>20 000</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>0,2</td>
+      <td>20 000</td>
+      <td>40 000</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>0,133 hoặc nhỏ hơn</td>
+      <td>25 000</td>
+      <td>50 000</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Phép nội suy tuyến tính có thể được sử dụng giữa hai điểm gần nhất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td>100</td><td rowspan="7"></td><td>81</td><td rowspan="7"></td></tr><tr><td>200</td><td>62</td></tr><tr><td>500</td><td>43</td></tr><tr><td>1000</td><td>33</td></tr><tr><td>2 000 va lón hon</td><td>25</td></tr><tr><td colspan="4">Néu khoang thoi gian näm giura cac gia tri trong hai hang bat ky, thi có thé su dung gia tri ES2 cua ldinh thap hon hoac có thé sur dung phép nöi suy tuyén tinh giura hai hang lien ké bat ky voi gia tri dong dien dugc tinh toan lam tron xuong gia tri gan nhät tinh theo mA.</td></tr><tr><td colspan="4">Néu dong dien dinh cho ES2 näm gitra cac gia tri trong hai hang bät ky, thi có thé su dung gia tri khoang thoi gian ton tai cua hang trén hoac có thé sur dung phép noi suy tuyén tinh gitra hai hang lién ké bät ky voi khoang thoi gian tinh toan duoc lam tron xuong gia tri gan nhat tinh theo ms.</td></tr></table>
+
 
 # 2.5 Giới hạn cho các xung lặp lại
 

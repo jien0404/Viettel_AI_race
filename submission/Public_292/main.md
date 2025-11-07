@@ -14,7 +14,23 @@ NỘI DUNG BỘ CHỈ TIÊU KỸ THUẬT
 
 # 1.4 Giải thích từ ngữ
 
-<table><tr><td rowspan=1 colspan=1>CTKT</td><td rowspan=1 colspan=1>Chi tieu ky thuat</td><td rowspan=1 colspan=1>L-H-W</td><td rowspan=1 colspan=1>Length-Height-Width</td></tr><tr><td rowspan=1 colspan=1>QCVN</td><td rowspan=1 colspan=1>Quy chuän Viet Nam</td><td rowspan=1 colspan=1>TCVN</td><td rowspan=1 colspan=1>Tieu chuan Viet Nam</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>CTKT</td>
+      <td>Chỉ tiêu kỹ thuật</td>
+      <td>L-H-W</td>
+      <td>Length-Height-Width</td>
+    </tr>
+    <tr>
+      <td>QCVN</td>
+      <td>Quy chuẩn Việt Nam</td>
+      <td>TCVN</td>
+      <td>Tiêu chuẩn Việt Nam</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2. NỘI DUNG CHI TIẾT
 
@@ -37,52 +53,727 @@ PYC khảo sát, thẩm định, xây dựng CTKT của Trunng tâm công nghệ
 
 # 4.1 PHẦN 1: CHỈ TIÊU KỸ THUẬT XE NÂNG ĐIỆN ĐỨNG LÁI 1,5T
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KICHTHU&#x27;OC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=4>Yeu cau chung, van hanh</td></tr><tr><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=1>Cong suat nang (tinh taitrung tam tai ）</td><td rowspan=1 colspan=1>≥ 1500Kg.</td><td rowspan=6 colspan=1>- Dat: Thong só ky thuat, kich thuoc cac hang muc dung voi yéu cau. Khong dat: Thong so ky thuat, kich thuóc cac hang muc khong dungvoi yéu cau.</td><td rowspan=6 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1>Chieu cao nang</td><td rowspan=1 colspan=1>≥ 3500mm.</td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1>Loai khung nang</td><td rowspan=1 colspan=1>≥ 02 tang, O3 xilanh nang, chuyén dongbang thuy luc ap ung.</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1>Chieu dai cang nang</td><td rowspan=1 colspan=1>≥ 900mm.</td></tr><tr><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1> Chieu rong cang nang</td><td rowspan=1 colspan=1>≥ 100mm.</td></tr><tr><td rowspan=1 colspan=1>1.6</td><td rowspan=1 colspan=1>Truyen dong hop só</td><td rowspan=1 colspan=1>Tu dong gom 3 cap:</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Yêu cầu chung, vận hành</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Công suất nâng (tính tại trung tâm tải )</td>
+      <td>≥ 1500Kg.</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu. - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Chiều cao nâng</td>
+      <td>≥ 3500mm.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>Loại khung nâng</td>
+      <td>≥ 02 tầng, 03 xilanh nâng, chuyển động bằng thủy lực áp ứng.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Chiều dài càng nâng</td>
+      <td>≥ 900mm.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>Chiều rộng càng nâng</td>
+      <td>≥ 100mm.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.6</td>
+      <td>Truyền động hộp số</td>
+      <td>Tự động gồm 3 cấp:</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KICHTHUOC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>+ S6 tien.+ S6 khong.+ S6 lui.</td><td rowspan=6 colspan=1></td><td rowspan=6 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.7</td><td rowspan=1 colspan=1>He thong lai</td><td rowspan=1 colspan=1>Tro luc dien hoac thuy luc hoan toan.</td></tr><tr><td rowspan=1 colspan=1>1.8</td><td rowspan=1 colspan=1>Tóc do di chuyén</td><td rowspan=1 colspan=1>+ C6 tai: ≥ 10 km/h.+ Khong tai: ≥ 10,5 km/h.</td></tr><tr><td rowspan=1 colspan=1>1.9</td><td rowspan=1 colspan=1>Toc do nang cang/nanghang</td><td rowspan=1 colspan=1>+ C6 tai: ≥ 320mm/s.+ Khong tai: ≥ 560 mm/s.</td></tr><tr><td rowspan=1 colspan=1>1.10</td><td rowspan=1 colspan=1>Toc do ha</td><td rowspan=1 colspan=1>+ C6 tai: ≥ 500 mm/s.+ Khong tai: ≥ 480 mm/s.</td></tr><tr><td rowspan=1 colspan=1>1.11</td><td rowspan=1 colspan=1>Kha nang leo dóc lonnhat (c6 tai)</td><td rowspan=1 colspan=1>≥ 15 %.</td></tr><tr><td rowspan=1 colspan=1>1.12</td><td rowspan=1 colspan=1>Man hinh hién thi</td><td rowspan=1 colspan=1>Man hinh dien tur, có thé truy xuat duoc cacthong só cua xe:+ S6 gio hoat dong.+ Ma 1i. + Nguón ac quy.+ Bao loi hong hé thóng thuy luc cangnang.Cac du lieu có thé luu tru va truy xuat dégiam sat loi.</td><td rowspan=1 colspan=1>- Dat: Thong só ky thuat, kich thuóccac hang muc dung voi yeu cau. Khong dat: Thong só ky thuat, kich thuoc cac hang muc khong dungvoi yéu cau.</td><td rowspan=1 colspan=1>C6</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>+ Số tiến. + Số không. + Số lùi.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.7</td>
+      <td>Hệ thống lái</td>
+      <td>Trợ lực điện hoặc thủy lực hoàn toàn.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.8</td>
+      <td>Tốc độ di chuyển</td>
+      <td>+ Có tải: ≥ 10 km/h. + Không tải: ≥ 10,5 km/h.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.9</td>
+      <td>Tốc độ nâng càng/nâng hàng</td>
+      <td>+ Có tải: ≥ 320mm/s. + Không tải: ≥ 560 mm/s.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.10 Tốc độ hạ</td>
+      <td></td>
+      <td>+ Có tải: ≥ 500 mm/s. + Không tải: ≥ 480 mm/s.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.11</td>
+      <td>Khả năng leo dốc lớn nhất (có tải)</td>
+      <td>≥ 15 %.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.12 Màn hình hiển thị</td>
+      <td></td>
+      <td>Màn hình điện tử, có thể truy xuất được các thông số của xe: + Số giờ hoạt động. + Mã lỗi. + Nguồn ắc quy. + Báo lỗi hỏng hệ thống thủy lực càng nâng. Các dữ liệu có thể lưu trữ và truy xuất để giám sát lỗi.</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu. - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+      <td>Có</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KiCHTHUOC</td><td rowspan=1 colspan=1> TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>1.13</td><td rowspan=1 colspan=1>Binh ac quy, Pin</td><td rowspan=1 colspan=1>Lithium, ≥ 80V -150Ah.</td><td rowspan=6 colspan=1>- Dat: Thong só ky thuat, kich thuoccac hang muc dung voi yeu cau.- Khong dat: Thong so ky thuat, kich thuoc cac hang muc khong dungvoi yéu cau.</td><td rowspan=6 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.14</td><td rowspan=1 colspan=1>Thoi gian sac day</td><td rowspan=1 colspan=1>≤2 gio.</td></tr><tr><td rowspan=1 colspan=1>1.15</td><td rowspan=1 colspan=1>Thoi gian su dung lientuc</td><td rowspan=1 colspan=1>≥6gio.</td></tr><tr><td rowspan=1 colspan=1>1.16</td><td rowspan=1 colspan=1>May sac dien</td><td rowspan=1 colspan=1>May sac roi tur dong ngat sau khi sac day acquy. Nguon dien 3 pha 380 VAC.</td></tr><tr><td rowspan=1 colspan=1>1.17</td><td rowspan=1 colspan=1>Den chieu sang</td><td rowspan=1 colspan=1>Den pha phia truoc sur dung 2 den.Den pha phia sau sir dung ≥ 1 den.</td></tr><tr><td rowspan=1 colspan=1>1.18</td><td rowspan=1 colspan=1>Dieu chinh d rong, hepgiura 2 cang</td><td rowspan=1 colspan=1>Cac kha nang diéu chinh do rong, hep gitra2 cang.</td></tr><tr><td rowspan=1 colspan=1>1.19</td><td rowspan=1 colspan=1> Phu kien tieu chuan kemtheo</td><td rowspan=1 colspan=1>Bat chan bui tren mai + phu kien theo xe.</td><td rowspan=2 colspan=1>- Dat: Thong só ky thuat, kich thuóccac hang muc dung voi yéu cau.- Khong dat: Thong so ky thuat, kich thuoc cac hang muc khong dungvoi yéu cau.</td><td rowspan=2 colspan=1>C6</td></tr><tr><td rowspan=1 colspan=1>1.20</td><td rowspan=1 colspan=1>Yéu cau dac biet vé vanhanh</td><td rowspan=1 colspan=1> Xe nang c6 kha nang chui container dé vanhanh.- Khung nang yéu cau thay doi chiéu caobang xy lanh, hé thóng thuy lurc chuyéndung cho viec van hanh trong khong gianchat cua Container.- Dam bao vao duoc container van hanh voikich thuoc cotainer tham chiéu chiéu caomax 2280mm.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>1.13 Bình ắc quy, Pin</td>
+      <td></td>
+      <td>Lithium, ≥ 80V – 150Ah.</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu. - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.14 Thời gian sạc đầy</td>
+      <td></td>
+      <td>≤ 2 giờ.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.15</td>
+      <td>Thời gian sử dụng liên tục</td>
+      <td>≥ 6 giờ.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.16 Máy sạc điện</td>
+      <td></td>
+      <td>Máy sạc rời tự động ngắt sau khi sạc đầy ắc quy. Nguồn điện 3 pha 380 VAC.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.17 Đèn chiếu sáng</td>
+      <td></td>
+      <td>Đèn pha phía trước sử dụng 2 đèn. Đèn pha phía sau sử dụng ≥ 1 đèn.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.18</td>
+      <td>Điều chỉnh độ rộng, hẹp giữa 2 càng</td>
+      <td>Các khả năng điều chỉnh độ rộng, hẹp giữa 2 càng.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.19</td>
+      <td>Phụ kiện tiêu chuẩn kèm theo</td>
+      <td>Bạt chắn bụi trên mái + phụ kiện theo xe.</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu. - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td>1.20</td>
+      <td>Yêu cầu đặc biệt về vận hành</td>
+      <td>Xe nâng có khả năng chui container để vận hành. - Khung nâng yêu cầu thay đổi chiều cao bằng xy lanh, hệ thống thủy lực chuyên dụng cho việc vận hành trong không gian chật của Container. - Đảm bảo vào được container vận hành với kích thước cotainer tham chiếu chiều cao max 2280mm.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tài liệu/đào tạo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KiCHTHUOC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>Tai lieu ky thuat</td><td rowspan=1 colspan=1> Phai c6 day du cac loai tai lieu sau:-Catalogue ky thuat.-Sach huong dan su dung (Operationmanual).</td><td rowspan=1 colspan=1>- Dat: Day du cac tai lieu nhu yéucau.- Khong dat: Khong du cac tai lieu nhu yéu cau.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>Tai lieu dao dao tao vanhanh (Tieng Viet)</td><td rowspan=1 colspan=1> - Tai lieu dao tao khi ban giao.- Dao tao truc tiep onsite.</td><td rowspan=2 colspan=1>- Dat: Day du cac tai lieu nhu yéucau, có bien ban dao tao onsite boinha thau va hoc vién tur VTP.- Khong dat: Khong du tai lieu va/hoac khong có du bien ban daotao.</td><td rowspan=2 colspan=1>C6</td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1>Tai lieu huong dan baotri</td><td rowspan=1 colspan=1>- Tai lieu dao tao khi ban giao.- Dao tao truc tiép onsite.</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Yeu cau bao hanh</td><td rowspan=1 colspan=1>≥ 12 thang.</td><td rowspan=1 colspan=1>- Dat: Day du cac tai lieu nhu yéucau.- Khong dat: Khong du cac tai lieu nhu yeu cau.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=2> Yeu cau ve an toan, phap luat</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.1</td><td rowspan=1 colspan=1>Den bao an toan</td><td rowspan=1 colspan=1> Dén xi nhan trróc va sau + den bäo phanh phia sau.</td><td rowspan=2 colspan=1>- Dat: Thong só ky thuat, kich thuoc cac hang muc dung voi yéu cau.</td><td rowspan=2 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>4.2</td><td rowspan=1 colspan=1>Den bao an toan khi xechuyén dong</td><td rowspan=1 colspan=1>Den quay canh bao di chuyén.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>T ài liệu kỹ thuật</td>
+      <td>Phải có đầy đủ các loại tài liệu sau: -Catalogue kỹ thuật. -Sách hướng dẫn sử dụng (Operation manual).</td>
+      <td>- Đạt: Đầy đủ các tài liệu như yêu cầu. - Không đạt: Không đủ các tài liệu như yêu cầu.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>Tài liệu đào đào tạo vận hành (Tiếng Việt)</td>
+      <td>- Tài liệu đào tạo khi bàn giao. - Đào tạo trực tiếp onsite.</td>
+      <td>- Đạt: Đầy đủ các tài liệu như yêu cầu, có biên bản đào tạo onsite bởi nhà thầu và học viên từ VTP. - Không đạt: Không đủ tài liệu và/hoặc không có đủ biên bản đào tạo.</td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>T ài liệu hướng dẫn bảo trì</td>
+      <td>- Tài liệu đào tạo khi bàn giao. - Đào tạo trực tiếp onsite.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Yêu cầu bảo hành</td>
+      <td>≥ 12 tháng.</td>
+      <td>- Đạt: Đầy đủ các tài liệu như yêu cầu. - Không đạt: Không đủ các tài liệu như yêu cầu.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Yêu cầu về an toàn, pháp luật</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.1</td>
+      <td>Đèn báo an toàn</td>
+      <td>Đèn xi nhan trước và sau + đèn báo phanh phía sau.</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>4.2</td>
+      <td>Đèn báo an toàn khi xe chuyển động</td>
+      <td>Đèn quay cảnh báo di chuyển.</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KICHTHU&#x27;OC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>4.3</td><td rowspan=1 colspan=1>Coi bao khi xe hoatdong</td><td rowspan=1 colspan=1>Khi xe di chuyén tién hoac lui déu phai c6coi bao lien tuc cho nguoi lam viec xungquanh biet.</td><td rowspan=3 colspan=1> - Khong dat: Thong só ky thuat, kich thuoc cac hang muc khong dung voiyéu cau.</td><td rowspan=3 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.4</td><td rowspan=1 colspan=1>Phuong an dam bao an toan phong chay cho xe khi xe hoat dong</td><td rowspan=1 colspan=1>Yéu cau trang bi O1 binh curu hoa duoc lap,dat tren xe nang tai vi tri dé lay ra sur dung khi can (Nha cung cap có the cap roi 01binh di kem).</td></tr><tr><td rowspan=1 colspan=1>4.5</td><td rowspan=1 colspan=1>Kiém dinh xe nang lan01</td><td rowspan=1 colspan=1>Kiém dinh theo TCVN/PLVN (lan 01 dua vao su dung chiu trach nhiem la nha cungcap).</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>4.3</td>
+      <td>Còi báo khi xe hoạt động</td>
+      <td>Khi xe di chuyển tiến hoặc lùi đều phải có còi báo liên tục cho người làm việc xung quanh biết.</td>
+      <td>- Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.4</td>
+      <td>Phương án đảm bảo an toàn phòng cháy cho xe khi xe hoạt động</td>
+      <td>Yêu cầu trang bị 01 bình cứu hỏa được lắp, đặt trên xe nâng tại vị trí dễ lấy ra sử dụng khi cần (Nhà cung cấp có thể cấp rời 01 bình đi kèm).</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.5</td>
+      <td>Kiểm định xe nâng lần 01</td>
+      <td>Kiểm định theo TCVN/PLVN (lần 01 đưa vào sử dụng chịu trách nhiệm là nhà cung cấp).</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 4.2 PHẦN 2: CHỈ TIÊU KỸ THUẬT XE NÂNG ĐIỆN NGỒI LÁI 1,5T   
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KICHTHU&#x27;OC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=3>Yéu cau chung, van hanh</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=1>Cong suat nang (tinh taitrung tam tai ）</td><td rowspan=1 colspan=1>≥ 1500Kg.</td><td rowspan=5 colspan=1> Dat: Thong só ky thuat, kich thróccac hang muc dung voi yéu cau.- Khong dat: Thong só ky thuat, kich thuoc cac hang muc khong dungvoi yeu cau.</td><td rowspan=5 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1> Chieu cao nang</td><td rowspan=1 colspan=1>≥ 3500mm.</td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1>Loai khung nang</td><td rowspan=1 colspan=1>≥ 02 tang, O3 xilanh nang, chuyén dongbang thuy luc ap ung.</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1> Chieu dai cang nang</td><td rowspan=1 colspan=1>≥ 900mm.</td></tr><tr><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1> Chieu rong cang nang</td><td rowspan=1 colspan=1>≥ 100mm.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Yêu cầu chung, vận hành</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Công suất nâng (tính tại trung tâm tải )</td>
+      <td>≥ 1500Kg.</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu. - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Chiều cao nâng</td>
+      <td>≥ 3500mm.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>Loại khung nâng</td>
+      <td>≥ 02 tầng, 03 xilanh nâng, chuyển động bằng thủy lực áp ứng.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Chiều dài càng nâng</td>
+      <td>≥ 900mm.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>Chiều rộng càng nâng</td>
+      <td>≥ 100mm.</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KICHTHU&#x27;OC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>1.6</td><td rowspan=1 colspan=1> Chuyén dong cang nang</td><td rowspan=1 colspan=1>Trai phai (side-shift),len xuong (up-down).</td><td rowspan=8 colspan=1></td><td rowspan=8 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.7</td><td rowspan=1 colspan=1>Lop xe</td><td rowspan=1 colspan=1>Banh dac,2 banh trroc + 2 banh sau. (Lóptrang).</td></tr><tr><td rowspan=1 colspan=1>1.8</td><td rowspan=1 colspan=1>Truyen dong hop só</td><td rowspan=1 colspan=1>Tu dong gom 3 cap:+ S6 tien.+ S6 khong.+ S6 lui.</td></tr><tr><td rowspan=1 colspan=1>1.9</td><td rowspan=1 colspan=1>He thong lai</td><td rowspan=1 colspan=1>Tro luc dien hoac thuy luc hoan toan.</td></tr><tr><td rowspan=1 colspan=1>1.10</td><td rowspan=1 colspan=1>Tóc do di chuyén</td><td rowspan=1 colspan=1>+ C6 tai: ≥ 17 km/h.+ Khong tai: ≥ 18 km/h.</td></tr><tr><td rowspan=1 colspan=1>1.11</td><td rowspan=1 colspan=1>Toc d nang cang/nanghang</td><td rowspan=1 colspan=1>+ Có tai: ≥ 480mm/s.+ Khong tai: ≥ 600 mm/s.</td></tr><tr><td rowspan=1 colspan=1>1.12</td><td rowspan=1 colspan=1>Toc do ha</td><td rowspan=1 colspan=1>+ C6 tai ≥ 470 mm/s.+ Khong tai ≥ 500 mm/s.</td></tr><tr><td rowspan=1 colspan=1>1.13</td><td rowspan=1 colspan=1>Kha nang leo dóc lonnhat (c6 tai)</td><td rowspan=1 colspan=1>≥ 20%.</td></tr><tr><td rowspan=1 colspan=1>1.14</td><td rowspan=1 colspan=1> Man hinh hién thi</td><td rowspan=1 colspan=1>Man hinh dien tir, c6 thé truy xuat duoc cacthong so cua xe:+ S6 gio hoat dong. + Tóc do di chuyén. + Dung luong pin.</td><td rowspan=1 colspan=1> - Dat: Thong só ky thuat, kich thuóccac hang muc dung voi yeu cau.- Khong dat: Thong só ky thuat, kich thuoc cac hang muc khong dungvoi yeu cau.</td><td rowspan=1 colspan=1>C6</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>1.6</td>
+      <td></td>
+      <td>Chuyển động càng nâng Trái phải (side-shift), lên xuống (up-down).</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.7</td>
+      <td>Lốp xe</td>
+      <td>Bánh đặc, 2 bánh trước + 2 bánh sau. (Lốp trắng).</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.8</td>
+      <td>Truyền động hộp số</td>
+      <td>Tự động gồm 3 cấp: + Số tiến. + Số không. + Số lùi.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.9</td>
+      <td>Hệ thống lái</td>
+      <td>Trợ lực điện hoặc thủy lực hoàn toàn.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.10 Tốc độ di chuyển</td>
+      <td></td>
+      <td>+ Có tải: ≥ 17 km/h. + Không tải: ≥ 18 km/h.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.11</td>
+      <td>Tốc độ nâng càng/nâng hàng</td>
+      <td>+ Có tải: ≥ 480mm/s. + Không tải: ≥ 600 mm/s.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.12 Tốc độ hạ</td>
+      <td></td>
+      <td>+ Có tải ≥ 470 mm/s. + Không tải ≥ 500 mm/s.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.13</td>
+      <td>Khả năng leo dốc lớn nhất (có tải)</td>
+      <td>≥ 20 %.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.14 Màn hình hiển thị</td>
+      <td></td>
+      <td>Màn hình điện tử, có thể truy xuất được các thông số của xe: + Số giờ hoạt động. + Tốc độ di chuyển. + Dung lượng pin.</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu. - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+      <td>Có</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan="2">TT</td><td>HANG MUC</td><td>THONG SO KY THUAT/ KICH THUOC</td><td>TIEU CHI DANH GIA</td><td>SUA DOI</td></tr><tr><td></td><td>+ Ma 16i. + Nguon äc quy. + Góc danh lai. Cac du lieu c6 thé luu tru va truy xuat dé</td><td></td><td></td></tr><tr><td>1.15</td><td>May sac dien</td><td>giam sat l0i. May sac roi tur dong ngat sau khi sac day ac quy. Nguon dien 3 pha 380 VAC.</td><td></td><td></td></tr><tr><td>1.16</td><td>Thoi gian sac day</td><td>≤2 gio.</td><td></td><td></td></tr><tr><td>1.17</td><td>Thoi gian sur dung lien tuc</td><td>≥6gio.</td><td></td><td>Khong</td></tr><tr><td>1.18</td><td>Binh ac quy, Pin</td><td>Lithium, ≥ 80V - 200Ah.</td><td></td><td></td></tr><tr><td>1.19</td><td>Den chiéu sang</td><td>Den pha phia truoc sur dung 2 den. Den pha phia sau sur dung ≥ 1 den.</td><td></td><td></td></tr><tr><td>1.20</td><td>Diéu chinh d rong, hep giua 2 cang</td><td>C6 kha nang diéu chinh do rong, hep giura 2 cang.</td><td></td><td></td></tr><tr><td>1.21</td><td>Phu kien tieu chuan kem theo</td><td> Bat chan bui trén mai + phu kien theo xe.</td><td></td><td></td></tr><tr><td>1.22</td><td>Yéu cau dac biet vé van hanh</td><td>Xe nang có kha nang chui container dé van hanh. - Khung nang yéu cau thay doi chiéu cao</td><td></td><td>C6</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>+ Mã lỗi. + Nguồn ắc quy. + Góc đánh lái. Các dữ liệu có thể lưu trữ và truy xuất để giám sát lỗi.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.15 Máy sạc điện</td>
+      <td></td>
+      <td>Máy sạc rời tự động ngắt sau khi sạc đầy ắc quy. Nguồn điện 3 pha 380 VAC.</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.16 Thời gian sạc đầy</td>
+      <td></td>
+      <td>≤ 2 giờ.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.17</td>
+      <td>Thời gian sử dụng liên tục</td>
+      <td>≥ 6 giờ.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.18 Bình ắc quy, Pin</td>
+      <td></td>
+      <td>Lithium, ≥ 80V – 200Ah.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.19 Đèn chiếu sáng</td>
+      <td></td>
+      <td>Đèn pha phía trước sử dụng 2 đèn. Đèn pha phía sau sử dụng ≥ 1 đèn.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.20</td>
+      <td>Điều chỉnh độ rộng, hẹp giữa 2 càng</td>
+      <td>Có khả năng điều chỉnh độ rộng, hẹp giữa 2 càng.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.21</td>
+      <td>Phụ kiện tiêu chuẩn kèm theo</td>
+      <td>Bạt chắn bụi trên mái + phụ kiện theo xe.</td>
+      <td></td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td>1.22</td>
+      <td>Yêu cầu đặc biệt về vận hành</td>
+      <td>Xe nâng có khả năng chui container để vận hành. - Khung nâng yêu cầu thay đổi chiều cao bằng xy lanh, hệ thống thủy lực chuyên</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1> HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KICHTHU&#x27;OC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> dung cho viec van hanh trong khong gianchat cua Container.- Dam bao vao duoc container yan hanh voikich thuoc cotainer tham chiéu chiéu caomax 2280mm.</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=4>Tai lieu/dao tao</td></tr><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>Tai lieu ky thuat</td><td rowspan=1 colspan=1> Phai c6 day du cac loai tai lieu sau:- Catalogue ky thuat.- Sach huong dan sur dung (Operationmanual).</td><td rowspan=1 colspan=1>- Dat: Day du cac tai lieu nhu yeucau.- Khong dat: Khong du cac tai lieunhu yéu cau.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>Tai lieu dao dao tao vanhanh (Tiéng Viet)</td><td rowspan=1 colspan=1>- Tai lieu dao tao khi ban giao.- Dao tao truc tiep onsite.</td><td rowspan=2 colspan=1>- Dat: Day du cac tai lieu nhu yéucau, có bien bän dao tao onsite boinha thau va hoc vien tur VTP.- Khong dat: Khong du tai lieuva/hoac khong có du bien ban daotao.</td><td rowspan=2 colspan=1>C6</td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1>Tai lieu huong dan baotri</td><td rowspan=1 colspan=1>- Tai lieu dao tao khi ban giao.- Dao tao truc tiép onsite.</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Yéu cau bäo hanh</td><td rowspan=1 colspan=1>≥ 12 thang.</td><td rowspan=1 colspan=1>- Dat: Day du cac tai lieu nhu yéucau.- Khong dat: Khong du cac tai lieu nhu yéu cau.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1> Yeu cau ve an toan, phap luat</td><td></td><td></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.1</td><td rowspan=1 colspan=1>Ghé ngoi lai</td><td rowspan=1 colspan=1>C6 day an toan theo xe.</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Khong</td></tr><tr><td></td><td></td><td></td><td></td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>dụng cho việc vận hành trong không gian chật của Container. - Đảm bảo vào được container vận hành với kích thước cotainer tham chiếu chiều cao max 2280mm.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tài liệu/đào tạo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>Tài liệu kỹ thuật</td>
+      <td>Phải có đầy đủ các loại tài liệu sau: - Catalogue kỹ thuật. - Sách hướng dẫn sử dụng (Operation manual).</td>
+      <td>- Đạt: Đầy đủ các tài liệu như yêu cầu. - Không đạt: Không đủ các tài liệu như yêu cầu.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>Tài liệu đào đào tạo vận hành (Tiếng Việt)</td>
+      <td>- Tài liệu đào tạo khi bàn giao. - Đào tạo trực tiếp onsite.</td>
+      <td>- Đạt: Đầy đủ các tài liệu như yêu cầu, có biên bản đào tạo onsite bởi nhà thầu và học viên từ VTP. - Không đạt: Không đủ tài liệu và/hoặc không có đủ biên bản đào tạo.</td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>T ài liệu hướng dẫn bảo trì</td>
+      <td>- Tài liệu đào tạo khi bàn giao. - Đào tạo trực tiếp onsite.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Yêu cầu bảo hành</td>
+      <td>≥ 12 tháng.</td>
+      <td>- Đạt: Đầy đủ các tài liệu như yêu cầu. - Không đạt: Không đủ các tài liệu như yêu cầu.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Yêu cầu về an toàn, pháp luật</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.1</td>
+      <td>Ghế ngồi lái</td>
+      <td>Có dây an toàn theo xe.</td>
+      <td></td>
+      <td>Không</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KY THUAT/ KiCHTHU&#x27;OC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>4.2</td><td rowspan=1 colspan=1>Den bao an toan</td><td rowspan=1 colspan=1> Den xi nhan trroc va sau + den bao phanh phia sau.</td><td rowspan=5 colspan=1>- Dat: Thong só ky thuat, kich thuóccac hang muc dung voi yeu cau.- Khong dat: Thong só ky thuat, kich thuoc cac hang muc khong ding voiyéu cau.</td><td rowspan=5 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.3</td><td rowspan=1 colspan=1>Den bao an toan khi xechuyén dong</td><td rowspan=1 colspan=1>Den quay mau vang khi xe chuyén donghoac den canh bao xoay.</td></tr><tr><td rowspan=1 colspan=1>4.4</td><td rowspan=1 colspan=1>Coi bao khi xe hoatdong</td><td rowspan=1 colspan=1> Khi xe di chuyén tién hoac lui déu phai c6coi bao lien tuc cho nguoi lam viec xungquanh biét.</td></tr><tr><td rowspan=1 colspan=1>4.5</td><td rowspan=1 colspan=1> Phuong án dam bao an toan phong chay cho xekhi xe hoat dong</td><td rowspan=1 colspan=1>Yéu cau trang bi O1 binh ciru hoa duoc lap,dat tren xe nang tai vi tri dé lay ra sur dung khi can (Nha cung cáp có thé cáp roi 01binh di kem).</td></tr><tr><td rowspan=1 colspan=1>4.6</td><td rowspan=1 colspan=1>Kiém dinh xe nang lan01</td><td rowspan=1 colspan=1> Kiém dinh theo TCVN/PLVN (lan 01 duavao su dung chiu trach nhiem la nha cungcap).</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>THÔNG SỐ KỸ THUẬT/ KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>4.2</td>
+      <td>Đèn báo an toàn</td>
+      <td>Đèn xi nhan trước và sau + đèn báo phanh phía sau.</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu. - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.3</td>
+      <td>Đèn báo an toàn khi xe chuyển động</td>
+      <td>Đèn quay màu vàng khi xe chuyển động hoặc đèn cảnh báo xoay.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.4</td>
+      <td>Còi báo khi xe hoạt động</td>
+      <td>Khi xe di chuyển tiến hoặc lùi đều phải có còi báo liên tục cho người làm việc xung quanh biết.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.5</td>
+      <td>Phương án đảm bảo an toàn phòng cháy cho xe khi xe hoạt động</td>
+      <td>Yêu cầu trang bị 01 bình cứu hỏa được lắp, đặt trên xe nâng tại vị trí dễ lấy ra sử dụng khi cần (Nhà cung cấp có thể cấp rời 01 bình đi kèm).</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.6</td>
+      <td>Kiểm định xe nâng lần 01</td>
+      <td>Kiểm định theo TCVN/PLVN (lần 01 đưa vào sử dụng chịu trách nhiệm là nhà cung cấp).</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 4.3 PHẦN 3: CÁC BÀI ĐO CTKT   
 
-<table><tr><td>TT</td><td> Hang muc</td><td>Hang muc kiém tra</td><td>Quy trinh kiém tra</td><td>Tieu chi danh gia</td></tr><tr><td></td><td>Yeu cau chung</td><td>Cac hang muc kich thuoc</td><td>- Kiém tra thong só ky thuat trong cac tai lieu datasheet cua thiét bi. - Do trrc tiép bang thuoc voi cac nói dung quy cach vé kich thuoc. - Kiém tra bang mat voi yéu cau vé cac nut churc nang.</td><td>Dat:Thong so ky thuat，kich thuoc cac hang muc dung voi yeu cau. - Khong dat: Thong só ky thuat, kich thuoc cac hang muc khong dung voi yéu cau.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Hạng mục</td>
+      <td>Hạng mục kiểm tra</td>
+      <td>Quy trình kiểm tra</td>
+      <td>Tiêu chí đánh giá</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Yêu cầu chung</td>
+      <td>Các hạng mục kích thước</td>
+      <td>- Kiểm tra thông số kỹ thuật trong các tài liệu datasheet của thiết bị. - Đo trực tiếp bằng thước với các nội dung quy cách về kích thước. - Kiểm tra bằng mắt với yêu cầu về các nút chức năng.</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu. - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=5 colspan=2>TT</td><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1> Hang muc</td><td rowspan=1 colspan=1>Hang muc kiém tra</td><td rowspan=1 colspan=2>Quy trinh kiém tra</td></tr><tr><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Dói chiéu voi chi tieu ky thuat.</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Yéu cau vé tai tronglón nhat, vän tóc dichuyén, nang ha</td><td rowspan=1 colspan=1>-Kiém tra thong só ky thuat trong cac tai lieu datasheet cua thiét bi. - Dat tai trong tieu chuan len va do vantoc khi van hanh.- Dói chiéu voi chi tieu ky thuat.</td><td rowspan=1 colspan=1>- Dat: Thóng só ky thuat，kich thuoc cac hang muc dung voi yeucau.- Khong dat: Thong só ky thuat,kich thuóc cac hang muc khongdung voi yeu cau.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Yeu cau vanhanh an toan</td><td rowspan=1 colspan=1>Dén pha,den bao,coi, cac churc nang antoan</td><td rowspan=1 colspan=1>- Kiém tra thong só ky thuat trong cac tailieu datasheet cua thiét bi.- Kiém tra truc tiép tai hien trrong khivan hanh.- Kiém tra cac thong só khac bang cac dung cu do va thiét bi do duoc kiem dinh(neu c6).</td><td rowspan=1 colspan=1> - Dat: Thong só ky thuat， kichthuóc cac hang muc dung voi yéucau.- Khong dat: Thong so ky thuat, kich thuoc cac hang muc khong dung voi yéu cau.</td><td></td></tr><tr><td rowspan=1 colspan=1>Yeucauvkiém dinh</td><td rowspan=1 colspan=1>Kiém  dinh theoTCVN</td><td rowspan=1 colspan=1> - Thué ben kiém dinh thur 3 c6 chirc nangtheo quy dinh cüa TCVN</td><td rowspan=1 colspan=1> Dat: Thong só ky thuat, kich thuoc cac hang muc dung voi yeucau.</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Hạng mục</td>
+      <td>Hạng mục kiểm tra</td>
+      <td>Quy trình kiểm tra</td>
+      <td>Tiêu chí đánh giá</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Đối chiếu với chỉ tiêu kỹ thuật.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Yêu cầu về tải trọng lớn nhất, vận tốc di chuyển, nâng hạ</td>
+      <td>-Kiểm tra thông số kỹ thuật trong các tài liệu datasheet của thiết bị. - Đặt tải trọng tiêu chuẩn lên và đo vận tốc khi vận hành. - Đối chiếu với chỉ tiêu kỹ thuật.</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu. - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Yêu cầu vận hành an toàn</td>
+      <td>Đèn pha, đèn báo, còi, các chức năng an toàn</td>
+      <td>- Kiểm tra thông số kỹ thuật trong các tài liệu datasheet của thiết bị. - Kiểm tra trực tiếp tại hiên trường khi vận hành. - Kiểm tra các thông số khác bằng các dụng cụ đo và thiết bị đo được kiểm định (nếu có).</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu. - Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Yêu cầu về kiểm định</td>
+      <td>Kiểm định theo TCVN</td>
+      <td>- Thuê bên kiểm định thứ 3 có chức năng theo quy định của TCVN</td>
+      <td>- Đạt: Thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td>TT</td><td>Hang muc Hang muc kiém tra</td><td>Quy trinh kiém tra</td><td>Tieu chi danh gia</td></tr><tr><td></td><td></td><td>+Dam bao hó so kiém dinh, giay kiém dinh, tem kiém dinh day du khi thuc hién xong. + Theo cac buóc kiém dinh cua TCVN.</td><td>- Khong dat: Thong s ky thuat, kich thuoc cac hang muc khong dung voi yeu cau.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Hạng mục</td>
+      <td>Hạng mục kiểm tra</td>
+      <td>Quy trình kiểm tra</td>
+      <td>Tiêu chí đánh giá</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>+Đảm bảo hồ sơ kiểm định, giấy kiểm định, tem kiểm định đầy đủ khi thực hiện xong. + Theo các bước kiểm định của TCVN.</td>
+      <td>- Không đạt: Thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu.</td>
+    </tr>
+  </tbody>
+</table>

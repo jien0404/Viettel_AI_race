@@ -12,9 +12,53 @@ NỘI DUNG BỘ CHỈ TIÊU KỸ THUẬT
 
 1.4 Giải thích từ ngữ   
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>TỪ VIẾT TẮT</td>
+      <td>GIẢI THÍCH</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>CTKT</td>
+      <td>Chỉ tiêu kỹ thuật</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>TCVN</td>
+      <td>Tiêu chuẩn Việt Nam</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>TTKT</td>
+      <td>Trung tâm khai thác</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>MIL-STD</td>
+      <td>Military Standard</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>ISO</td>
+      <td>International Organization for Standardization</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>ITF</td>
+      <td>Interleaved 2 of 5</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>EAN</td>
+      <td>European Article Numbering</td>
+    </tr>
+  </tbody>
+</table>
 
 
-<table><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>ISBN</td><td rowspan=1 colspan=1>International Standard Book Number</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>IEC</td><td rowspan=1 colspan=1>International Electrotechnical Commission</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>UPC</td><td rowspan=1 colspan=1>Universal Product Code</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>RFID</td><td rowspan=1 colspan=1>Radio Frequency Identification</td></tr></table>
 
 # 2. NỘI DUNG CHI TIẾT
 
@@ -34,32 +78,211 @@ TCVN 6627-30:2011: Tiêu chuẩn về hiệu suất năng lượng đối với 
 
 3. CHI TIẾT CHỈ TIÊU KỸ THUẬT VÀ CÁC BÀI ĐO
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td>8</td>
+      <td>ISBN</td>
+      <td>International Standard Book Number</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>IEC</td>
+      <td>International Electrotechnical Commission</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>UPC</td>
+      <td>Universal Product Code</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>RFID</td>
+      <td>Radio Frequency Identification</td>
+    </tr>
+  </tbody>
+</table>
 
 3.1 CHỈ TIÊU KỸ THUẬT
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1> THONG SO Ki THUAT/KICH THUOC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUA DOI</td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=2>THIET BI DIEN</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Nut     bamDONG/Mómang</td><td rowspan=1 colspan=1>-Kich thuoc 1 022-Tiéu chuan bao vé IP65-S6 lan d6ng mo 100,000 1an-Nguon cap 24V-Nut bam có den.-Kiéu bam Nhan/nha-Tiép diém 1NC-1NO</td><td rowspan=1 colspan=1>- Dat: thong só ky thuat, kich thuóc cachang muc dung voi yéu cau, nha cung cáp giri ban ve thiét ké dap ung muc dich surdung                                  DHLABCD. - Khong dat: thong só ky thuat, kich thuoccac hang muc khong dung voi yéu cau</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Cam bién baoday</td><td rowspan=1 colspan=1>-Nguyén tac phat hién: Cam bién tiém cänquang dien, khur nén-Kich thuóc( Cao x Róng x Day): 50mm X20mm x 39mm-Pham vi cam bién tói da 20mm-950mm-Loai anh sang: Anh sang dó-Nguon sang: PinPoint LED-Kich thuoc diém säng O8 mm (700mm)-Chiéu dai song 625nm-Chuan tin hiéu PNP</td><td rowspan=1 colspan=1>- Dat: thong só ky thuat, kich thuóc cachang muc dung voi yéu cau, nha cung cápgiri ban vé thiét ké dap ung muc dich sirdung                                   DHLABCD.- Khong dat: thong só ky thuat, kich thuoccac hang muc khong dung voi yéu câu</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=4>MANG.TE</td></tr></table>
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td>TT HẠNG MỤC</td>
+      <td>THÔNG SỐ KĨ THUẬT/KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>THIẾT BỊ ĐIỆN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Nút bấm ĐÓNG/MỞ máng</td>
+      <td>-Kích thước lỗ Ø22 -Tiêu chuẩn bảo vệ IP65 -Số lần đóng mở 100,000 lần -Nguồn cấp 24V -Nút bấm có đèn. -Kiểu bấm Nhấn/nhả -Tiếp điểm 1NC-1NO</td>
+      <td>- Đạt: thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu, nhà cung cấp gửi bản vẽ thiết kế đáp ứng mục đích sử dụng DHLABCD. - Không đạt: thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cảm biến báo đầy</td>
+      <td>-Nguyên tắc phát hiện: Cảm biến tiệm cận quang điện, khử nền -Kích thước( Cao x Rộng x Dày): 50mm x 20mm x 39mm -Phạm vi cảm biến tối đa 20mm-950mm -Loại ánh sáng: Ánh sáng đỏ -Nguồn sáng: PinPoint LED -Kích thước điểm sáng Ø8 mm (700mm) -Chiều dài sóng 625nm -Chuẩn tín hiệu PNP</td>
+      <td>- Đạt: thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu, nhà cung cấp gửi bản vẽ thiết kế đáp ứng mục đích sử dụng DHLABCD. - Không đạt: thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>II MÁNG TRƯỢT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1> THONG SO Ki THUAT/KICH THU&#x27;OC</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUA DOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Kichthuóc mang truot</td><td rowspan=1 colspan=1>Theo bän vé layout</td><td rowspan=1 colspan=1>- Dat: thong só ky thuat, kich thuóc cachang muc dung voi yéu cau, nha cung cap giri ban ve thiét ké dap ing muc dich surdung                                   DHLABCD.- Khong dat: thong só ky thuat, kich thuóccac hang muc khong dung voi yéu câu</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Tai trong vanchuyén</td><td rowspan=1 colspan=1> ≥ 75 Kg/mét - vói chiéu róng≥ 800 mm≥ 40 Kg/mét - voi chiéu r@ng ≥ 700 mm</td><td rowspan=1 colspan=1>- Dat: thong só ky thuat, kich thuóc cachang muc dung voi yéu cau, nha cung cap giri ban ve thiét ké dap ng muc dich strdung                                  DHLABCD. - Khong dat: thong só ky thuat, kich thuoc cac hang muc khong dung voi yeu cau</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Khung mangtruot</td><td rowspan=1 colspan=1>- Hé khung khong cong vong, két cáu chacchan - Vat lieu thep CT3 hoac cac mac thep tuongduong- Chat lrong moi han trung binh hoäc cao theophu luc A TCXD:170:2007, lam sach moihan，dam  baotinhthäm- Cac mói ghép bulong yéu cau day du dém venh - phang, bulong cap do bén 8.8 tro len.</td><td rowspan=1 colspan=1>- Dat: thong só ky thuat, kich thuoc cac hang muc dung voi yéu cau, nha cung cápgii ban ve thiét ké dap ung muc dich surdung                                  DHLABCD. - Khong dat: thong só ky thuat, kich thuoccac hang muc khong dung voi yéu cau</td><td rowspan=1 colspan=1>Khong</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td>TT HẠNG MỤC</td>
+      <td>THÔNG SỐ KĨ THUẬT/KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Kích thước máng trượt</td>
+      <td>Theo bản vẽ layout</td>
+      <td>- - Đạt: thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu, nhà cung cấp gửi bản vẽ thiết kế đáp ứng mục đích sử dụng DHLABCD. Không đạt: thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tải trọng vận chuyển</td>
+      <td>≥ 75 Kg/mét – với chiều rộng ≥ 800 mm ≥ 40 Kg/mét – với chiều rộng ≥ 700 mm</td>
+      <td>- Đạt: thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu, nhà cung cấp gửi bản vẽ thiết kế đáp ứng mục đích sử dụng DHLABCD. - Không đạt: thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Khung máng trượt</td>
+      <td>- Hệ khung không cong võng, kết cấu chắc chắn - Vật liệu thép CT3 hoặc các mác thép tương đương - Chất lượng mối hàn trung bình hoặc cao theo phụ lục A TCXD:170:2007, làm sạch mối hàn, đảm bảo tính thẩm mỹ - Các mối ghép bulong yêu cầu đầy đủ đệm vênh - phẳng, bulong cấp độ bền 8.8 trở lên.</td>
+      <td>- Đạt: thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu, nhà cung cấp gửi bản vẽ thiết kế đáp ứng mục đích sử dụng DHLABCD. - Không đạt: thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+      <td>Không</td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-<table><tr><td>TT</td><td>HANG MUC</td><td> THONG SO Ki THUAT/KICH THU&#x27;OC</td><td>TIEU CHI DANH GIA</td><td>SUA DOI</td></tr><tr><td></td><td>cau</td><td>Sur dung loai bulong thép nhuom hoäc ma, yeu dong b - Hé chan có thé tang chinh chiéu cao - C6 bich bat bulong mat san.</td><td></td><td></td></tr></table>
 
 # 3.2 CÁC BÀI ĐO CTKT
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>THONG SO KiTHUAT/KICH THUOC</td><td rowspan=1 colspan=1>QUY TRINH KIEM TRA</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=2>THIET BI DIEN</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Nut      bamDONG/MOmang</td><td rowspan=1 colspan=1>-Kich thuoc 1 022-Tieu chuan bao vé IP65-S6 lan d6ng mo 100,000 lan-Nguon cap 24V -Nut bam có den.-Kiéu bam Nhan/nha-Tiép diém 1NC-1NO</td><td rowspan=1 colspan=1>- Do truc tiép bang thuoc voi cacnoi dung quy cach vé kich thuoc.- Kiém tra bang mät voi yéu cau vécac nut churc nang diéu khién.- Dói chiéu voi chi tieu ky thuat</td><td rowspan=1 colspan=1>- Dat: thong só ky thuat, kich thuoc cac hang muc dung voi yéucau, nha cung cáp gii ban véthiét ké dap ing muc dich surdung DHLABCD.- Khong dat: thong só ky thuat,kich thuoc cac hang muc khongdung voi yéu cau</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td>TT HẠNG MỤC</td>
+      <td>THÔNG SỐ KĨ THUẬT/KÍCH THƯỚC</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sử dụng loại bulong thép nhuộm hoặc mạ, yêu cầu đồng bộ - Hệ chân có thể tăng chỉnh chiều cao - Có bích bắt bulong mặt sàn.</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td>TT HẠNG MỤC</td>
+      <td>THÔNG SỐ KĨ THUẬT/KÍCH THƯỚC</td>
+      <td>QUY TRÌNH KIỂM TRA</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>THIẾT BỊ ĐIỆN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Nút bấm ĐÓNG/MỞ máng</td>
+      <td>-Kích thước lỗ Ø22 -Tiêu chuẩn bảo vệ IP65 -Số lần đóng mở 100,000 lần -Nguồn cấp 24V -Nút bấm có đèn. -Kiểu bấm Nhấn/nhả -Tiếp điểm 1NC-1NO</td>
+      <td>- Đo trực tiếp bằng thước với các nội dung quy cách về kích thước. - Kiểm tra bằng mắt với yêu cầu về các nút chức năng điều khiển. - Đối chiếu với chỉ tiêu kỹ thuật</td>
+      <td>- Đạt: thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu, nhà cung cấp gửi bản vẽ thiết kế đáp ứng mục đích sử dụng DHLABCD. - Không đạt: thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Cam bién baoday</td><td rowspan=1 colspan=1>-Nguyén tac phat hién: Cambién tiem can quang dien, khirnén-Kich thuóc( Cao x Rong XDay): 50mm x 20mm x 39mm-Pham vi cam bién tói da 20mm-950mm-Loai anh sang: Anh sang do-Nguon sang: PinPoint LED-Kich thuóc diém sang 08 mm(700mm)-Chieu dai sóng 625nm-Chuan tin hieu PNP</td><td rowspan=1 colspan=1>- Do trurc tiép bang thuoc voi cacnoi dung quy cach vé kich thuoc.- Kiém tra bang mat voi yéu cau vécac nut churc nang diéu khién.- Doi chiéu voi chi tieu ky thuat</td><td rowspan=1 colspan=1>- Dat: thong só ky thuat, kichthuoc cac hang muc dung voi yéucau, nha cung cap giri ban vethiét ké dap ing muc dich surdung DHLABCD.- Khong dat: thong só ky thuat,kich thuóc các hang muc khongdung voi yéu cau</td></tr><tr><td rowspan=1 colspan=1>ⅡI</td><td rowspan=1 colspan=1>MANG TRU&#x27;QT</td><td></td><td></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Kichthuóc mang truot</td><td rowspan=1 colspan=1>Theo bän vé layout</td><td rowspan=1 colspan=1>- Kiém tra kich thuóc theo ban védinh kem.</td><td rowspan=1 colspan=1> Dat: thong só ky thuat, kichthuoc cac hang muc dung voi yeucâu, nha cung cáp gui bän vethiét ké dap ing muc dich surdung DHLABCD.- Khong dat: thong só ky thuat,kich thuoc cac hang muc khongdung voi yéu cau</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>Cảm biến báo đầy</td>
+      <td>-Nguyên tắc phát hiện: Cảm biến tiệm cận quang điện, khử nền -Kích thước( Cao x Rộng x Dày): 50mm x 20mm x 39mm -Phạm vi cảm biến tối đa 20mm- 950mm -Loại ánh sáng: Ánh sáng đỏ -Nguồn sáng: PinPoint LED -Kích thước điểm sáng Ø8 mm (700mm) -Chiều dài sóng 625nm -Chuẩn tín hiệu PNP</td>
+      <td>- Đo trực tiếp bằng thước với các nội dung quy cách về kích thước. - Kiểm tra bằng mắt với yêu cầu về các nút chức năng điều khiển. - Đối chiếu với chỉ tiêu kỹ thuật</td>
+      <td>- Đạt: thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu, nhà cung cấp gửi bản vẽ thiết kế đáp ứng mục đích sử dụng DHLABCD. - Không đạt: thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>II MÁNG TRƯỢT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Kích thước máng trượt</td>
+      <td>Theo bản vẽ layout</td>
+      <td>- Kiểm tra kích thước theo bản vẽ đính kèm.</td>
+      <td>- Đạt: thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu, nhà cung cấp gửi bản vẽ thiết kế đáp ứng mục đích sử dụng DHLABCD. - Không đạt: thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Tai trong vanchuyen</td><td rowspan=1 colspan=1>≥ 75 Kg/met - voi chiéu rong ≥800 mm≥ 40 Kg/mét - voi chiéu rong ≥700 mm</td><td rowspan=1 colspan=1>- Kiém tra truc tiép voi hang hóathuc té.</td><td rowspan=1 colspan=1> Dat: thong so ky thuat,kich thuóc cac hang muc dung voi yéucau, nha cung cap giri ban véthiét ké dap ing muc dich surdung DHLABCD.- Khong dat: thong só ky thuat,kich thuóc cac hang muc khongdung voi yéu cau</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Khung mangtruot</td><td rowspan=1 colspan=1>- Hé khung khong cong vong,kétcáuchacchan- Vat lieu thép CT3 hoäc cacmacthéptuongduong- Chat lurong moi han trung binhhoäc cao theo phu luc ATCXD:170:2007, lam sach móihan, dam bao tinh thäm my- Cac moi ghép bulong yéu cäuday du dem venh - phang,bulong cap d@ bén 8.8 tro lén.Sur dung loai bulong thépnhuom hoac ma, yéu cau dongb- Hé chan có thé tang chinh</td><td rowspan=1 colspan=1>- Do truc tiép bang thuóc voi cacnQi dung quy cach vé kich thuoc.- Kiém tra cac thong só khac bangcac dung cu do va thiét bi do duockiem dinh.-Dói chiéu voi chi tieu ky thuat.</td><td rowspan=1 colspan=1>- Dat: thong só ky thuat, kich thuoc cac hang muc dung voi yéucau, nha cung cap gii ban véthiét ké dap ing muc dich surdung DHLABCD.- Khong dat: thong só ky thuat,kich thuóc cac hang muc khongdung voi yéu cau</td></tr></table>
-
-
-
-<table><tr><td></td><td>chieu</td><td>cao - C6 bich bat bulong mät san.</td><td></td><td></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>Tải trọng vận chuyển</td>
+      <td>≥ 75 Kg/mét – với chiều rộng ≥ 800 mm ≥ 40 Kg/mét – với chiều rộng ≥ 700 mm</td>
+      <td>- Kiểm tra trực tiếp với hàng hóa thực tế.</td>
+      <td>- Đạt: thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu, nhà cung cấp gửi bản vẽ thiết kế đáp ứng mục đích sử dụng DHLABCD. - Không đạt: thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Khung máng trượt</td>
+      <td>- Hệ khung không cong võng, kết cấu chắc chắn - Vật liệu thép CT3 hoặc các mác thép tương đương - Chất lượng mối hàn trung bình hoặc cao theo phụ lục A TCXD:170:2007, làm sạch mối hàn, đảm bảo tính thẩm mỹ - Các mối ghép bulong yêu cầu đầy đủ đệm vênh - phẳng, bulong cấp độ bền 8.8 trở lên. Sử dụng loại bulong thép nhuộm hoặc mạ, yêu cầu đồng bộ - Hệ chân có thể tăng chỉnh</td>
+      <td>- Đo trực tiếp bằng thước với các nội dung quy cách về kích thước. - Kiểm tra các thông số khác bằng các dụng cụ đo và thiết bị đo được kiểm định. - Đối chiếu với chỉ tiêu kỹ thuật.</td>
+      <td>- Đạt: thông số kỹ thuật, kích thước các hạng mục đúng với yêu cầu, nhà cung cấp gửi bản vẽ thiết kế đáp ứng mục đích sử dụng DHLABCD. - Không đạt: thông số kỹ thuật, kích thước các hạng mục không đúng với yêu cầu</td>
+    </tr>
+  </tbody>
+</table>

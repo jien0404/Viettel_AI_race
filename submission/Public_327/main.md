@@ -26,7 +26,144 @@ Băng song công phân chia theo tần số (FDD) Băng song công phân chia th
 
 
 
-<table><tr><td rowspan=3 colspan=1>STT</td><td rowspan=3 colspan=1>Bq bangtanket hop</td><td rowspan=3 colspan=1>Bang tanE-UTRA/5G</td><td rowspan=1 colspan=1>Bang tan hurong len UL</td><td rowspan=1 colspan=1>Bang tan huong xuong DL</td></tr><tr><td rowspan=1 colspan=1>BS thu/UE phat</td><td rowspan=1 colspan=1>BSphat/UEthu</td></tr><tr><td rowspan=1 colspan=1>FUL,low-FUL,high(MHz)</td><td rowspan=1 colspan=1>FDL,low-FDLhigh(MHz)</td></tr><tr><td rowspan=2 colspan=1>1</td><td rowspan=2 colspan=1>DC_1_n40</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1920÷1980</td><td rowspan=1 colspan=1>2110÷2170</td></tr><tr><td rowspan=1 colspan=1>n40</td><td rowspan=1 colspan=1>2300÷2400</td><td rowspan=1 colspan=1>2300÷2400</td></tr><tr><td rowspan=2 colspan=1>2</td><td rowspan=2 colspan=1>DC_1_n41</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1920÷1980</td><td rowspan=1 colspan=1>2110÷2170</td></tr><tr><td rowspan=1 colspan=1>n41</td><td rowspan=1 colspan=1>2 496÷ 2 690</td><td rowspan=1 colspan=1>2 496÷2 690</td></tr><tr><td rowspan=2 colspan=1>3</td><td rowspan=2 colspan=1>DC_3_n40</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>1710÷1785</td><td rowspan=1 colspan=1>1805÷1880</td></tr><tr><td rowspan=1 colspan=1>n40</td><td rowspan=1 colspan=1>2300÷2400</td><td rowspan=1 colspan=1>2300÷2400</td></tr><tr><td rowspan=2 colspan=1>4</td><td rowspan=2 colspan=1>DC_3_n41</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>1710÷1785</td><td rowspan=1 colspan=1>1805÷1880</td></tr><tr><td rowspan=1 colspan=1>n41</td><td rowspan=1 colspan=1>2 496÷2 690</td><td rowspan=1 colspan=1>2 496÷2 690</td></tr><tr><td rowspan=2 colspan=1>5</td><td rowspan=2 colspan=1>DC_8_n40</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>880÷915</td><td rowspan=1 colspan=1>925÷960</td></tr><tr><td rowspan=1 colspan=1>n40</td><td rowspan=1 colspan=1>2300÷2400</td><td rowspan=1 colspan=1>2300÷2400</td></tr><tr><td rowspan=2 colspan=1>6</td><td rowspan=2 colspan=1>DC_8_n41</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>880÷915</td><td rowspan=1 colspan=1>925 ÷960</td></tr><tr><td rowspan=1 colspan=1>n41</td><td rowspan=1 colspan=1>2 496÷ 2 690</td><td rowspan=1 colspan=1>2 496÷2 690</td></tr><tr><td rowspan=2 colspan=1>7</td><td rowspan=2 colspan=1>DC_28_n40</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>703 ÷ 733</td><td rowspan=1 colspan=1>758 ÷ 788</td></tr><tr><td rowspan=1 colspan=1>n40</td><td rowspan=1 colspan=1>2300÷2400</td><td rowspan=1 colspan=1>2300÷2400</td></tr><tr><td rowspan=2 colspan=1>8</td><td rowspan=2 colspan=1>DC_28_n41</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>703÷733</td><td rowspan=1 colspan=1>758÷788</td></tr><tr><td rowspan=1 colspan=1>n41</td><td rowspan=1 colspan=1>2 496÷ 2 690</td><td rowspan=1 colspan=1>2 496÷ 2 690</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Bộ băng tần kết hợp</td>
+      <td>Băng tần E-UTRA/ 5G</td>
+      <td>Băng tần hướng lên UL</td>
+      <td>Băng tần hướng xuống DL</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>BS thu / UE phát</td>
+      <td>BS phát / UE thu</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>FUL,low – FUL,high (MHz)</td>
+      <td>FDL,low – FDL,high (MHz)</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>DC_1_n40</td>
+      <td>1</td>
+      <td>1 920 ÷ 1 980</td>
+      <td>2 110 ÷ 2 170</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>n40</td>
+      <td>2 300 ÷ 2 400</td>
+      <td>2 300 ÷ 2 400</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>DC_1_n41</td>
+      <td>1</td>
+      <td>1 920 ÷ 1 980</td>
+      <td>2 110 ÷ 2 170</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>n41</td>
+      <td>2 496 ÷ 2 690</td>
+      <td>2 496 ÷ 2 690</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>DC_3_n40</td>
+      <td>3</td>
+      <td>1 710 ÷ 1 785</td>
+      <td>1 805 ÷ 1 880</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>n40</td>
+      <td>2 300 ÷ 2 400</td>
+      <td>2 300 ÷ 2 400</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>DC_3_n41</td>
+      <td>3</td>
+      <td>1 710 ÷ 1 785</td>
+      <td>1 805 ÷ 1 880</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>n41</td>
+      <td>2 496 ÷ 2 690</td>
+      <td>2 496 ÷ 2 690</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>DC_8_n40</td>
+      <td>8</td>
+      <td>880 ÷ 915</td>
+      <td>925 ÷ 960</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>n40</td>
+      <td>2 300 ÷ 2 400</td>
+      <td>2 300 ÷ 2 400</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>DC_8_n41</td>
+      <td>8</td>
+      <td>880 ÷ 915</td>
+      <td>925 ÷ 960</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>n41</td>
+      <td>2 496 ÷ 2 690</td>
+      <td>2 496 ÷ 2 690</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>DC_28_n40</td>
+      <td>28</td>
+      <td>703 ÷ 733</td>
+      <td>758 ÷ 788</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>n40</td>
+      <td>2 300 ÷ 2 400</td>
+      <td>2 300 ÷ 2 400</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>DC_28_n41</td>
+      <td>28</td>
+      <td>703 ÷ 733</td>
+      <td>758 ÷ 788</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>n41</td>
+      <td>2 496 ÷ 2 690</td>
+      <td>2 496 ÷ 2 690</td>
+    </tr>
+  </tbody>
+</table>
 
 # 1.2.2 Băng tần hoạt động cho thiết bị đầu cuối mạng thông tin di động 5G SA tại Việt Nam.
 
@@ -34,7 +171,99 @@ Băng tần hoạt động được quy định trong Quy chuẩn QCVN 127:2021/
 
 - BẢNG 2. CÁC BĂNG TẦN SỐ THIẾT BỊ ĐẦU CUỐI 5G SA   
 
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Bang tan5G</td><td rowspan=1 colspan=1>Bangtan huong lenUL BS thu/UEphat FUL.low-FUL,high (MHz)</td><td rowspan=1 colspan=1>Bang tan huong xuong DLBS phat/UE thuFDL,low -FDL,high (MHz)</td><td rowspan=1 colspan=1>Chedsongcong</td><td rowspan=1 colspan=1>Phanloai</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>nl</td><td rowspan=1 colspan=1>1920 ÷ 1 980</td><td rowspan=1 colspan=1>2 110 ÷ 2170</td><td rowspan=5 colspan=1>FDD</td><td rowspan=9 colspan=1>FR1</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>m3</td><td rowspan=1 colspan=1>1710÷1785</td><td rowspan=1 colspan=1>1 805 ÷ 1 880</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>n5</td><td rowspan=1 colspan=1>824-835</td><td rowspan=1 colspan=1>869 ÷ 880</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>n8</td><td rowspan=1 colspan=1>880-915</td><td rowspan=1 colspan=1>925 - 960</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>n28</td><td rowspan=1 colspan=1>703- 733</td><td rowspan=1 colspan=1>758 ÷ 788</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>n40</td><td rowspan=1 colspan=1>2 300 ÷ 2 400</td><td rowspan=1 colspan=1>2 300 ÷2 400</td><td rowspan=4 colspan=1>TDD</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>n41</td><td rowspan=1 colspan=1>2 496 ÷ 2 690</td><td rowspan=1 colspan=1>2 496 ÷ 2690</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>n77</td><td rowspan=1 colspan=1>3300÷4200</td><td rowspan=1 colspan=1>3300÷4200</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>n78</td><td rowspan=1 colspan=1>3300÷3800</td><td rowspan=1 colspan=1>3300÷3800</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>n258</td><td rowspan=1 colspan=1>24 250÷ 27 500</td><td rowspan=1 colspan=1>24 250 ÷ 27 500</td><td rowspan=1 colspan=1>TDD</td><td rowspan=1 colspan=1>FR2</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Băng tần 5G</td>
+      <td>Băng tần hướng lên UL BS thu / UE phát FUL,low - FUL,high (MHz)</td>
+      <td>Băng tần hướng xuống DL BS phát / UE thu FDL,low - FDL,high (MHz)</td>
+      <td>Chế độ song công</td>
+      <td>Phân loại</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>n1</td>
+      <td>1 920 ÷ 1 980</td>
+      <td>2 110 ÷ 2 170</td>
+      <td>FDD</td>
+      <td>F R1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>n3</td>
+      <td>1 710 ÷ 1 785</td>
+      <td>1 805 ÷ 1 880</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>n5</td>
+      <td>824 – 835</td>
+      <td>869 ÷ 880</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>n8</td>
+      <td>880 – 915</td>
+      <td>925 ÷ 960</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>n28</td>
+      <td>703 – 733</td>
+      <td>758 ÷ 788</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>n40</td>
+      <td>2 300 ÷ 2 400</td>
+      <td>2 300 ÷ 2 400</td>
+      <td>TDD</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>n41</td>
+      <td>2 496 ÷ 2 690</td>
+      <td>2 496 ÷ 2690</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>n77</td>
+      <td>3 300 ÷ 4 200</td>
+      <td>3 300 ÷ 4 200</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>n78</td>
+      <td>3 300 ÷ 3 800</td>
+      <td>3 300 ÷ 3 800</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>n258</td>
+      <td>24 250 ÷ 27 500</td>
+      <td>24 250 ÷ 27 500</td>
+      <td>TDD</td>
+      <td>FR2</td>
+    </tr>
+  </tbody>
+</table>
 
 Các thiết bị điện thoại di động mạng thông tin di động 5G SA phải đảm bảo hoạt động tối thiểu trong tất cả các băng tần n1, n3, n28, n41, n77, n78.
 
@@ -46,7 +275,74 @@ Băng tần hoạt động được quy định trong Quy chuẩn QCVN 128:2021/
 
 
 
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Bangtan</td><td rowspan=1 colspan=1>Bang tan huronglen ULBS thu/UE phatFULlow-FuLhigh(MHz)</td><td rowspan=1 colspan=1>Bang tan hurongxuong DLBS phat/UE thuFDLIow-FDL.tigh(MHz)</td><td rowspan=1 colspan=1>Che dosongcong</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>nl</td><td rowspan=1 colspan=1>1920 ÷ 1980</td><td rowspan=1 colspan=1>2110 ÷ 2170</td><td rowspan=1 colspan=1>FDD</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>m3</td><td rowspan=1 colspan=1>1710 ÷ 1785</td><td rowspan=1 colspan=1>1805 ÷ 1880</td><td rowspan=1 colspan=1>FDD</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>n5</td><td rowspan=1 colspan=1>824 ÷ 835</td><td rowspan=1 colspan=1>869 ÷ 880</td><td rowspan=1 colspan=1>FDD</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>n8</td><td rowspan=1 colspan=1>880  915</td><td rowspan=1 colspan=1>925 ÷ 960</td><td rowspan=1 colspan=1>FDD</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>n28</td><td rowspan=1 colspan=1>703 ÷ 733</td><td rowspan=1 colspan=1>758 ÷ 788</td><td rowspan=1 colspan=1>FDD</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>n40</td><td rowspan=1 colspan=1>2300 ÷ 2400</td><td rowspan=1 colspan=1>2300 + 2400</td><td rowspan=1 colspan=1>TDD</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>n41</td><td rowspan=1 colspan=1>2500 ÷ 2690</td><td rowspan=1 colspan=1>2500 ÷ 2690</td><td rowspan=1 colspan=1>TDD</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>n258</td><td rowspan=1 colspan=1>24250 + 27500</td><td rowspan=1 colspan=1>24250 + 27500</td><td rowspan=1 colspan=1>TDD</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Băng tần</td>
+      <td>Băng tần hướng lên UL BS thu / UE phát FUL,low – FUL,high (MHz)</td>
+      <td>Băng tần hướng xuống DL BS phát / UE thu FDL,low – FDL,high (MHz)</td>
+      <td>Chế độ song công</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>n1</td>
+      <td>1920 ÷ 1980</td>
+      <td>2110 ÷ 2170</td>
+      <td>FDD</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>n3</td>
+      <td>1710 ÷ 1785</td>
+      <td>1805 ÷ 1880</td>
+      <td>FDD</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>n5</td>
+      <td>824 ÷ 835</td>
+      <td>869 ÷ 880</td>
+      <td>FDD</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>n8</td>
+      <td>880 ÷ 915</td>
+      <td>925 ÷ 960</td>
+      <td>FDD</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>n28</td>
+      <td>703 ÷ 733</td>
+      <td>758 ÷ 788</td>
+      <td>FDD</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>n40</td>
+      <td>2300 ÷ 2400</td>
+      <td>2300 ÷ 2400</td>
+      <td>TDD</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>n41</td>
+      <td>2500 ÷ 2690</td>
+      <td>2500 ÷ 2690</td>
+      <td>TDD</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>n258</td>
+      <td>24250 ÷ 27500</td>
+      <td>24250 ÷ 27500</td>
+      <td>TDD</td>
+    </tr>
+  </tbody>
+</table>
 
 # 1.3 Một số kết quả đo phổ tần số 5G
 
@@ -56,29 +352,59 @@ Băng tần hoạt động được quy định trong Quy chuẩn QCVN 128:2021/
 
 - Băng tần n28-700APT với chế độ song công phân chia theo tần số (FDD) là đoạn băng tần được giải phóng sau số hóa truyền hình và được đánh giá là băng tần quý giá đáp ứng cho nhu cầu phát triển của thông tin di động tại nhiều quốc gia trong đó có Việt Nam (Hình 3).
 
-![](images/1.jpg)
-
-> **Hình chú thích:** a diagram of the tmux protocol
-
-  
+![](images/image_1.jpg)  
 Hình 3. Quy hoạch phổ tần băng n28 (IMT)   
 Hình 4. Phân chia phổ tần băng n28.
 
 Đoạn băng tần $( 7 0 3 \div 7 3 3 )$ MHz được dành làm băng tần đường lên, phân chia thành 03 khối là B1, B2 và B3, mỗi khối có độ rộng 10 MHz. Đoạn băng tần $( 7 5 8 \div 7 8 8 )$ MHz được dành làm băng tần đường xuống, phân chia thành 03 khối là B1’, $\mathbf { B } \boldsymbol { 2 } ^ { \flat }$ và $_ { \mathrm { B 3 } } ,$ , mỗi khối có độ rộng 10 MHz, được phân chia trong Hình 4.
 
-<table><tr><td>694</td><td>703</td><td>713</td><td></td><td>723</td><td>733</td><td></td><td>758</td><td>768</td><td></td><td>778</td><td>788</td><td></td></tr><tr><td></td><td></td><td>B</td><td></td><td>B</td><td>B</td><td></td><td></td><td>B</td><td>B</td><td></td><td>B</td><td></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 - Hiện nay, Viettel đang thử nghiệm 4G/5G, kết quả đo được cho trong Hình
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 5.
 
-![](images/2.jpg)
-
-> **Hình chú thích:** a graph showing the power level of the signal
-
-  
+![](images/image_2.jpg)  
 Hình 5. Đoạn băng 773 MHz đến ${ 7 9 2 } \mathrm { M H z }$ Viettel đang thử nghiệm (ngày đo 28/2/2024 tại 80 Trần Quốc Hoàn, Hà Nội)
 
 # 1.3.2 Băng 40 (n40)
@@ -87,17 +413,28 @@ Băng tần này được phân chia thành 3 khối song công phân chia theo 
 
 Hình 6. Phân chia phổ tần băng n40   
 
-<table><tr><td colspan="2">2300 2330</td><td colspan="2">2360 2390</td></tr><tr><td>A1</td><td>A2</td><td>A3</td><td>2400MHz</td></tr><tr><td>(30 MHz)</td><td>(30 MHz)</td><td>(30 MHz)</td><td></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Băng tần này đang được thử nghiệm cho mạng 5G, Viettel đang thử nghiệm cho đoạn băng A3 (Hình 7).
 
 
 
-![](images/3.jpg)
-
-> **Hình chú thích:** a graph showing the time of day and the number of people
-
-
+![](images/image_3.jpg)
 
 Hình 7. Đoạn băng 2350 MHz đến 2390 MHz Viettel đang thử nghiệm (ngày đo 28/2/2024 tại 80 Trần Quốc Hoàn, Hà Nội ).
 
@@ -115,7 +452,583 @@ Băng tần 3600 - 3980 MHz được phân chia thành 04 khối băng tần the
 
 Hình 9. Phân chia phổ tần băng n77/78   
 
-<table><tr><td>3560MHz</td><td>3600</td><td>3700</td><td>3800</td><td>3900</td><td>3980</td><td>4000MHz</td></tr><tr><td></td><td></td><td>C C</td><td></td><td>C</td><td>C</td><td></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Khối C1 có độ rộng 100 MHz, từ tần số 3600 MHz đến 3700 MHz;   
 Khối C2 có độ rộng 100 MHz, từ tần số 3700 MHz đến $3 8 0 0 \mathrm { M H z }$ ;   
@@ -124,13 +1037,19 @@ Khối C4 có độ rộng 80 MHz, từ tần số 3900 MHz đến 3980 MHz.
 
 - Ngày 19/3/2024, VNPT đã chính thức đấu giá thành công khối C2. Ngày 9/7/2024, MobiFone đấu giá thành công khối C3 của băng tần này. Ngoài ra nhà mạng Viettel cũng có giấy phép thử nghiệm tại dải băng tần này (Hình 10).
 
-
-
-![](images/4.jpg)
-
-> **Hình chú thích:** a computer screen showing the data from a device
-
+<table>
   
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+![](images/image_4.jpg)  
 Hình 10. Phổ tần thử nghiệm 5G Viettel dải tần 3700 MHz (ngày đo 29/6/2024)
 
 Tại Việt Nam băng tần n40 (2300 MHz đến 2400 MHz), n41 (2500 MHz đến 2690 MHz) và n77 (3700 MHz đến 4200 MHz) được Cục Tần số vô tuyến điện quy hoạch cho cấu Hình 5G NR TDD và xây dựng lộ trình đấu giá khai thác các băng tần trên. Hiện nay đang được Vinaphone, Viettel và MobiFone đang thử nghiệm trên các băng tần này.
@@ -171,15 +1090,402 @@ Mục tiêu nghiên cứu, thiết kế thiết bị gây nhiễu thông tin di 
 
 Thiết bị gây nhiễu thông tin di động 5G có 5 băng tần cần thực hiện chế tạo mới là băng n28, n40, n41 (chia hai khối băng tần n41A và n41B) và n77 và tích hợp các khối gây nhiễu 2G, 3G, 4G.
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Trên cơ sở lựa chọn giải pháp gây nhiễu, nhóm tác giả đã nghiên cứu thiết kế, xây dựng sơ đồ khối của thiết bị như Hình 11.
 
-![](images/5.jpg)
-
-> **Hình chú thích:** the block diagram of the data processing system
-
-
+![](images/image_5.jpg)
 
 Hình 11. Sơ đồ khối thiết bị gây nhiễu thông tin di động 5G tích hợp gây nhiễu các dải tần số 2G, 3G, 4G
 
@@ -197,7 +1503,19 @@ Có thể lựa chọn thực hiện gây nhiễu từng dải tần hoặc gây
 
 3.1 Kết quả đo các dải tần số gây nhiễu
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Thực hiện đo tại Phòng thí nghiệm 80 Trần Quốc Hoàn có kích thước dài $2 0 \mathrm { m }$ , $\mathrm { r } \mathrm { 0 n g } 6 \mathrm { m }$ , diện tích $1 2 0 ~ \mathrm { m } 2$ và phòng họp ở Phạm Văn Đồng, kích thước dài $1 6 \mathrm { m }$ , rộng 8 m, diện tích $1 2 8 ~ \mathrm { m } 2$ .
 
@@ -205,7 +1523,7 @@ Thiết bị gây nhiễu được kết nối với máy phân tích phổ tín
 
 Phương tiện đo sử dụng $\mathrm { d } \acute { \mathrm { e } }$ thử nghiệm: Máy phân tích phổ tín hiệu ESPI của R&S.
 
-<table><tr><td rowspan=2 colspan=1>STT</td><td rowspan=2 colspan=1>Cac dai tan s6 lam viecua thiet bi gaynhieu thong tin di dong 5G</td><td rowspan=1 colspan=2>Tan so lam viec theo thietké (MHz)</td><td rowspan=1 colspan=2>Tan só lam viec theo két qua do (MHz)</td></tr><tr><td rowspan=1 colspan=1>Dau dai</td><td rowspan=1 colspan=1>Cuoi dai</td><td rowspan=1 colspan=1>Dau dai</td><td rowspan=1 colspan=1>Cuoi dai</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Bang B28/ n28 (DL)</td><td rowspan=1 colspan=1>758</td><td rowspan=1 colspan=1>788</td><td rowspan=1 colspan=1>757,5</td><td rowspan=1 colspan=1>788,4</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Bang 900 GSM (DL)</td><td rowspan=1 colspan=1>925</td><td rowspan=1 colspan=1>960</td><td rowspan=1 colspan=1>924,4</td><td rowspan=1 colspan=1>960,4</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Bang B3 (DL)</td><td rowspan=1 colspan=1>1805</td><td rowspan=1 colspan=1>1880</td><td rowspan=1 colspan=1>2109</td><td rowspan=1 colspan=1>217,5</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Bang B1 (DL)</td><td rowspan=1 colspan=1>2110</td><td rowspan=1 colspan=1>2170</td><td rowspan=1 colspan=1>2109</td><td rowspan=1 colspan=1>217,5</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Bang B40/ n40</td><td rowspan=1 colspan=1>2300</td><td rowspan=1 colspan=1>2400</td><td rowspan=1 colspan=1>2299,5</td><td rowspan=1 colspan=1>2400,2</td></tr><tr><td rowspan=2 colspan=1>7</td><td rowspan=2 colspan=1>Bang B41/ n41</td><td rowspan=1 colspan=1>2500</td><td rowspan=1 colspan=1>2600</td><td rowspan=1 colspan=1>2499,5</td><td rowspan=1 colspan=1>2600,4</td></tr><tr><td rowspan=1 colspan=1>2600</td><td rowspan=1 colspan=1>2700</td><td rowspan=1 colspan=1>2599</td><td rowspan=1 colspan=1>2700,5</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Bang n77</td><td rowspan=1 colspan=1>3700</td><td rowspan=1 colspan=1>3800</td><td rowspan=1 colspan=1>3699</td><td rowspan=1 colspan=1>3801</td></tr></table>
+
 
 - Kết quả đo phổ các tần số thể hiện trên máy phân tích tín hiệu cho trong bảng 4 và Hình 12 từ Hình 12a đến Hình 12h.
 
@@ -218,7 +1536,167 @@ Phương tiện đo sử dụng $\mathrm { d } \acute { \mathrm { e } }$ thử n
 
 - BẢNG 5. KẾT QUẢ ĐO CÔNG SUẤT GÂY NHIỄU   
 
-<table><tr><td rowspan=2 colspan=1>Däi tan só (MHz)</td><td rowspan=1 colspan=2>Cong suat(W)</td></tr><tr><td rowspan=1 colspan=1>Theo thiet ke</td><td rowspan=1 colspan=1>Thurc te</td></tr><tr><td rowspan=1 colspan=1>757÷788</td><td rowspan=1 colspan=1>5±10%</td><td rowspan=1 colspan=1>5,35</td></tr><tr><td rowspan=1 colspan=1>925÷960</td><td rowspan=1 colspan=1>10 ± 10%</td><td rowspan=1 colspan=1>10,42</td></tr><tr><td rowspan=1 colspan=1>1805 ÷ 1880</td><td rowspan=1 colspan=1>10 ± 10%</td><td rowspan=1 colspan=1>10,52</td></tr><tr><td rowspan=1 colspan=1>2110÷2170</td><td rowspan=1 colspan=1>10±10%</td><td rowspan=1 colspan=1>10,38</td></tr><tr><td rowspan=1 colspan=1>2300÷2400</td><td rowspan=1 colspan=1>5±10%</td><td rowspan=1 colspan=1>5,48</td></tr><tr><td rowspan=1 colspan=1>2500÷2600</td><td rowspan=1 colspan=1>5±10%</td><td rowspan=1 colspan=1>5,45</td></tr><tr><td rowspan=1 colspan=1>2600÷2700</td><td rowspan=1 colspan=1>5±10%</td><td rowspan=1 colspan=1>5,42</td></tr><tr><td rowspan=1 colspan=1>3700÷3800</td><td rowspan=1 colspan=1>5±10%</td><td rowspan=1 colspan=1>5,95</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 3.3 Kết quả đo độ ổn định hoạt động của thiết bị theo thời gian.
 
@@ -231,11 +1709,95 @@ Cáp cao tần LM400 trở kháng $5 0 \ \Omega$ .
 
 BẢNG 6: KẾT QUẢ THỬ NGHIỆM ĐỘ ỔN ĐỊNH (TẦN SỐ VÀ CÔNG SUẤT) GÂY NHIỄU THEO THỜI GIAN
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Chi tieu ky thuat</td><td rowspan=1 colspan=1>Don vi do</td><td rowspan=1 colspan=1>Bat dau hoatdong</td><td rowspan=1 colspan=1>Ket quaAsau</td><td rowspan=1 colspan=1>Ket quadsau8h</td><td rowspan=1 colspan=1>Ket qua do sau 24h</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Nhiet do hoat dong</td><td rowspan=1 colspan=1>0C</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>48,5</td><td rowspan=1 colspan=1>49,2</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Dai tan so</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>Bang 1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>2.1.1</td><td rowspan=1 colspan=1>Tan s6</td><td rowspan=1 colspan=1>MHz</td><td rowspan=1 colspan=1>2298</td><td rowspan=1 colspan=1>2298</td><td rowspan=1 colspan=1>2296</td><td rowspan=1 colspan=1>2295</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>广</td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1>÷</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2402</td><td rowspan=1 colspan=1>2403</td><td rowspan=1 colspan=1>2404</td><td rowspan=1 colspan=1>2405</td></tr><tr><td rowspan=1 colspan=1>2.1.2</td><td rowspan=1 colspan=1>Cong suat</td><td rowspan=1 colspan=1>W</td><td rowspan=1 colspan=1>54</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>485</td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>Bang 2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>2.2.1</td><td rowspan=1 colspan=1>Tan s6</td><td rowspan=1 colspan=1>MHz</td><td rowspan=1 colspan=1>2497</td><td rowspan=1 colspan=1>2498</td><td rowspan=1 colspan=1>2498</td><td rowspan=1 colspan=1>2497</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>广</td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1>÷</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2601</td><td rowspan=1 colspan=1>2602</td><td rowspan=1 colspan=1>2603</td><td rowspan=1 colspan=1>2604</td></tr><tr><td rowspan=1 colspan=1>2.2.2</td><td rowspan=1 colspan=1>Cong suat</td><td rowspan=1 colspan=1>W</td><td rowspan=1 colspan=1>5.3</td><td rowspan=1 colspan=1>485</td><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=1>4,75</td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1>Bang 3</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>2.3.1</td><td rowspan=1 colspan=1>Tan s6</td><td rowspan=1 colspan=1>MHz</td><td rowspan=1 colspan=1>2596</td><td rowspan=1 colspan=1>2596</td><td rowspan=1 colspan=1>2595</td><td rowspan=1 colspan=1>2594</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2692</td><td rowspan=1 colspan=1>2694</td><td rowspan=1 colspan=1>2695</td><td rowspan=1 colspan=1>2696</td></tr><tr><td rowspan=1 colspan=1>2.3.2</td><td rowspan=1 colspan=1>Cong suat</td><td rowspan=1 colspan=1>W</td><td rowspan=1 colspan=1>53</td><td rowspan=1 colspan=1>5.05</td><td rowspan=1 colspan=1>46</td><td rowspan=1 colspan=1>46</td></tr><tr><td rowspan=1 colspan=1>2.4</td><td rowspan=1 colspan=1>Bang4</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>2.4.1</td><td rowspan=1 colspan=1>Tan s6</td><td rowspan=1 colspan=1>MHz</td><td rowspan=1 colspan=1>3694</td><td rowspan=1 colspan=1>3695</td><td rowspan=1 colspan=1>3695</td><td rowspan=1 colspan=1>3695</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>·</td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1>÷</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>3803</td><td rowspan=1 colspan=1>3804</td><td rowspan=1 colspan=1>3805</td><td rowspan=1 colspan=1>3805</td></tr><tr><td rowspan=1 colspan=1>2.4.2</td><td rowspan=1 colspan=1>Cong suat</td><td rowspan=1 colspan=1>W</td><td rowspan=1 colspan=1>5,1</td><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=1>4,75</td><td rowspan=1 colspan=1>4,75</td></tr><tr><td rowspan=1 colspan=1>2.5</td><td rowspan=1 colspan=1>Bang 5</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>2.5.1</td><td rowspan=1 colspan=1>Tan s6</td><td rowspan=1 colspan=1>MHz</td><td rowspan=1 colspan=1>923 ÷</td><td rowspan=1 colspan=1>923-+</td><td rowspan=1 colspan=1>923 ÷</td><td rowspan=1 colspan=1>923 ÷</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>963</td><td rowspan=1 colspan=1>964</td><td rowspan=1 colspan=1>965</td><td rowspan=1 colspan=1>965</td></tr><tr><td rowspan=1 colspan=1>2.5.2</td><td rowspan=1 colspan=1>Cong suat</td><td rowspan=1 colspan=1>W</td><td rowspan=1 colspan=1>10.9</td><td rowspan=1 colspan=1>10,6</td><td rowspan=1 colspan=1>10.3</td><td rowspan=1 colspan=1>10,2</td></tr><tr><td rowspan=1 colspan=1>2.6</td><td rowspan=1 colspan=1>Bang6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>2.6.1</td><td rowspan=1 colspan=1>Tan s6</td><td rowspan=1 colspan=1>MHz</td><td rowspan=1 colspan=1>1803</td><td rowspan=1 colspan=1>1802</td><td rowspan=1 colspan=1>1801</td><td rowspan=1 colspan=1>1801</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1>÷</td></tr></table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Chi tieu ky thuat</td><td rowspan=1 colspan=1>Don vi do</td><td rowspan=1 colspan=1>Bat dau hoatdong</td><td rowspan=1 colspan=1>Ket quadsau4h</td><td rowspan=1 colspan=1>Ket quadsau8h</td><td rowspan=1 colspan=1>Ket qua do sau 24h</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1883</td><td rowspan=1 colspan=1>1884</td><td rowspan=1 colspan=1>1885</td><td rowspan=1 colspan=1>1886</td></tr><tr><td rowspan=1 colspan=1>2.6.2</td><td rowspan=1 colspan=1>Cong suat</td><td rowspan=1 colspan=1>W</td><td rowspan=1 colspan=1>10,8</td><td rowspan=1 colspan=1>10,2</td><td rowspan=1 colspan=1>9.5</td><td rowspan=1 colspan=1>9.5</td></tr><tr><td rowspan=1 colspan=1>2.7</td><td rowspan=1 colspan=1>Bang 7</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>2.7.1</td><td rowspan=1 colspan=1>Tan s6</td><td rowspan=1 colspan=1>MHz</td><td rowspan=1 colspan=1>2107</td><td rowspan=1 colspan=1>2107</td><td rowspan=1 colspan=1>2106</td><td rowspan=1 colspan=1>2105</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>广</td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1>÷</td><td rowspan=1 colspan=1>÷</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2172</td><td rowspan=1 colspan=1>2173</td><td rowspan=1 colspan=1>2174</td><td rowspan=1 colspan=1>2174</td></tr><tr><td rowspan=1 colspan=1>2.7.2</td><td rowspan=1 colspan=1>Cong suat</td><td rowspan=1 colspan=1>W</td><td rowspan=1 colspan=1>10,7</td><td rowspan=1 colspan=1>10.1</td><td rowspan=1 colspan=1>9.7</td><td rowspan=1 colspan=1>97</td></tr><tr><td rowspan=1 colspan=1>2.8</td><td rowspan=1 colspan=1>Bang 8</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>2.8.1</td><td rowspan=1 colspan=1>Tan s6</td><td rowspan=1 colspan=1>MHz</td><td rowspan=1 colspan=1>757 ÷</td><td rowspan=1 colspan=1>756÷</td><td rowspan=1 colspan=1>754÷</td><td rowspan=1 colspan=1>754÷</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>789</td><td rowspan=1 colspan=1>789</td><td rowspan=1 colspan=1>790</td><td rowspan=1 colspan=1>790</td></tr><tr><td rowspan=1 colspan=1>2.8.2</td><td rowspan=1 colspan=1>Cong suat</td><td rowspan=1 colspan=1>W</td><td rowspan=1 colspan=1>5.3</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>5</td></tr></table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Các dải tần số làm việc của thiết bị gây nhiễu thông tin di động 5G</td>
+      <td>Tần số làm việc theo thiết kế (MHz)</td>
+      <td></td>
+      <td>Tần số làm việc theo kết quả đo (MHz)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Đầu dải</td>
+      <td>Cuối dải</td>
+      <td>Đầu dải</td>
+      <td>Cuối dải</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Băng B28/ n28 (DL)</td>
+      <td>758</td>
+      <td>788</td>
+      <td>757,5</td>
+      <td>788,4</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Băng 900 GSM (DL)</td>
+      <td>925</td>
+      <td>960</td>
+      <td>924,4</td>
+      <td>960,4</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Băng B3 (DL)</td>
+      <td>1805</td>
+      <td>1880</td>
+      <td>2109</td>
+      <td>217,5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Băng B1 (DL)</td>
+      <td>2110</td>
+      <td>2170</td>
+      <td>2109</td>
+      <td>217,5</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Băng B40/ n40</td>
+      <td>2300</td>
+      <td>2400</td>
+      <td>2299,5</td>
+      <td>2400,2</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Băng B41/ n41</td>
+      <td>2500</td>
+      <td>2600</td>
+      <td>2499,5</td>
+      <td>2600,4</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>2600</td>
+      <td>2700</td>
+      <td>2599</td>
+      <td>2700,5</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Băng n77</td>
+      <td>3700</td>
+      <td>3800</td>
+      <td>3699</td>
+      <td>3801</td>
+    </tr>
+  </tbody>
+</table>
 
 # 3.4 Đánh giá kết quả
 

@@ -52,50 +52,837 @@ Làm căn cứ để cơ quan quản lý nhà nước giám sát, kiểm tra, đ
 
 DANH MỤC TIÊU CHUẨN KỸ THUẬT VỀ ỨNG DỤNG CÔNG NGHỆ THÔNG TIN TRONG CƠ QUAN NHÀ NƯỚC   
 
-<table><tr><td rowspan=1 colspan=1>S6 TT</td><td rowspan=1 colspan=1> Loai tieu chuan</td><td rowspan=1 colspan=1>Ky hieu tieu chuan</td><td rowspan=1 colspan=1> Ten day du cia tieu chuan</td><td rowspan=1 colspan=1>Quy dinh ap dung</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=4>Tieu chuan vé két noi</td></tr><tr><td rowspan=2 colspan=1>1.1</td><td rowspan=2 colspan=1>Truyén siéu van ban</td><td rowspan=1 colspan=1>HTTP v1.1</td><td rowspan=1 colspan=1>Hypertext Transfer Protocol version 1.1</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>HTTP v2.0</td><td rowspan=1 colspan=1>Hypertext Transfer Protocol version 2.0</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=2 colspan=1>1.2</td><td rowspan=2 colspan=1>Truyén tep tin</td><td rowspan=1 colspan=1>FTP</td><td rowspan=1 colspan=1>File Transfer Protocol</td><td rowspan=2 colspan=1>Bat buoc ap dung mot hoacca hai tieu chuan</td></tr><tr><td rowspan=1 colspan=1>HTTP v1.1</td><td rowspan=1 colspan=1>Hypertext Transfer Protocol version 1.1</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Số TT</td>
+      <td>Loại tiêu chuẩn</td>
+      <td>Ký hiệu tiêu chuẩn</td>
+      <td>Tên đầy đủ của tiêu chuẩn</td>
+      <td>Quy định áp dụng</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Tiêu chuẩn về kết nối</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Truyền siêu văn bản</td>
+      <td>HTTP v1.1</td>
+      <td>Hypertext Transfer Protocol version 1.1</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>HTTP v2.0</td>
+      <td>Hypertext Transfer Protocol version 2.0</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Truyền tệp tin</td>
+      <td>FTP</td>
+      <td>File Transfer Protocol</td>
+      <td>Bắt buộc áp dụng một hoặc cả hai tiêu chuẩn</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>HTTP v1.1</td>
+      <td>Hypertext Transfer Protocol version 1.1</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1>HTTP v2.0</td><td rowspan=1 colspan=1>Hypertext Transfer Protocol version 2.0</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>WebDAV</td><td rowspan=1 colspan=1>Web-based Distributed Authoring and Versioning</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=3 colspan=1>1.3</td><td rowspan=3 colspan=1>Truyén, phat luong am thanh/ hinh änh</td><td rowspan=1 colspan=1>RTSP</td><td rowspan=1 colspan=1>Real-time Streaming Protocol</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>RTP</td><td rowspan=1 colspan=1>Real-time Transport Protocol</td><td rowspan=1 colspan=1> Khuyen nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>RTCP</td><td rowspan=1 colspan=1>Real-time Control Protocol</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1>Truy cap va chia sédur lieu</td><td rowspan=1 colspan=1> OData v4</td><td rowspan=1 colspan=1>Open Data Protocol version 4.0</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1>Truyén thu dien tur</td><td rowspan=1 colspan=1>SMTP/MIME</td><td rowspan=1 colspan=1>Simple Mail Transfer Protocol/Multipurpose Internet Mail Extensions</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=2 colspan=1>1.6</td><td rowspan=2 colspan=1>Cung cap dich vu truycap hop thu dien tur</td><td rowspan=1 colspan=1>POP3</td><td rowspan=1 colspan=1>Post Office Protocol version 3</td><td rowspan=2 colspan=1>Bät buoc ap dung ca hai tieuchuan doi voi may chu</td></tr><tr><td rowspan=1 colspan=1>IMAP 4rev1</td><td rowspan=1 colspan=1>Internet Message Access Protocol version 4revision 1</td></tr><tr><td rowspan=1 colspan=1>1.7</td><td rowspan=1 colspan=1> Truy cap thu muc</td><td rowspan=1 colspan=1>LDAP v3</td><td rowspan=1 colspan=1>Lightweight Directory Access Protocol version 3</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>1.8</td><td rowspan=1 colspan=1> Dich vu ten mién</td><td rowspan=1 colspan=1>DNS</td><td rowspan=1 colspan=1> Domain Name System</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>1.9</td><td rowspan=1 colspan=1>Giao van mang c6 ketnoi</td><td rowspan=1 colspan=1>TCP</td><td rowspan=1 colspan=1>Transmission Control Protocol</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>1.10</td><td rowspan=1 colspan=1>Giao van mang khongket n6i</td><td rowspan=1 colspan=1>UDP</td><td rowspan=1 colspan=1>User Datagram Protocol</td><td rowspan=1 colspan=1>Bat bu@c ap dung</td></tr><tr><td rowspan=2 colspan=1>1.11</td><td rowspan=2 colspan=1>Lien mangLAN/WAN</td><td rowspan=1 colspan=1>IPv4</td><td rowspan=1 colspan=1>Internet Protocol version 4</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>IPv6</td><td rowspan=1 colspan=1>Internet Protocol version 6</td><td rowspan=1 colspan=1>Bat buoc ap dung doi voi cac thiét bi có két noi Internet</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Hypertext Transfer Protocol version 2.0</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Web-based Distributed Authoring and Versioning</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Real-time Streaming Protocol</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Real-time Transport Protocol</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Real-time Control Protocol</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Open Data Protocol version 4.0</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Simple Mail Transfer Protocol/Multipurpose Internet Mail Extensions</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Post Office Protocol version 3</td>
+      <td>Bắt buộc áp dụng cả hai tiêu chuẩn đối với máy chủ</td>
+    </tr>
+    <tr>
+      <td>Internet Message Access Protocol version 4 revision 1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lightweight Directory Access Protocol version 3</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Domain Name System</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Transmission Control Protocol</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>User Datagram Protocol</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Internet Protocol version 4</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Internet Protocol version 6</td>
+      <td>Bắt buộc áp dụng đối với các thiết bị có kết nối Internet</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>Truyền, phát luồng âm thanh/ hình ảnh</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Truy cập và chia sẻ dữ liệu</td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>Truyền thư điện tử</td>
+    </tr>
+    <tr>
+      <td>1.6</td>
+      <td>Cung cấp dịch vụ truy cập hộp thư điện tử</td>
+    </tr>
+    <tr>
+      <td>1.7</td>
+      <td>Truy cập thư mục</td>
+    </tr>
+    <tr>
+      <td>1.8</td>
+      <td>Dịch vụ tên miền</td>
+    </tr>
+    <tr>
+      <td>1.9</td>
+      <td>Giao vận mạng có kết nối</td>
+    </tr>
+    <tr>
+      <td>1.10</td>
+      <td>Giao vận mạng không kết nối</td>
+    </tr>
+    <tr>
+      <td>1.11</td>
+      <td>Liên mạng LAN/WAN</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>HTTP v2.0</td>
+    </tr>
+    <tr>
+      <td>WebDAV</td>
+    </tr>
+    <tr>
+      <td>RTSP</td>
+    </tr>
+    <tr>
+      <td>RTP</td>
+    </tr>
+    <tr>
+      <td>RTCP</td>
+    </tr>
+    <tr>
+      <td>OData v4</td>
+    </tr>
+    <tr>
+      <td>SMTP/ MIME</td>
+    </tr>
+    <tr>
+      <td>POP3</td>
+    </tr>
+    <tr>
+      <td>IMAP 4rev1</td>
+    </tr>
+    <tr>
+      <td>LDAP v3</td>
+    </tr>
+    <tr>
+      <td>DNS</td>
+    </tr>
+    <tr>
+      <td>TCP</td>
+    </tr>
+    <tr>
+      <td>UDP</td>
+    </tr>
+    <tr>
+      <td>IPv4</td>
+    </tr>
+    <tr>
+      <td>IPv6</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>1.12</td><td rowspan=2 colspan=1> Mang cuc bó khongday</td><td rowspan=1 colspan=1>IEEE 802.11g</td><td rowspan=1 colspan=1>Institute of Electrical and Electronics EngineersStandard (IEEE) 802.11g</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>IEEE 802.11n</td><td rowspan=1 colspan=1>Institute of Electrical and Electronics EngineersStandard (IEEE) 802.11n</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>1.13</td><td rowspan=1 colspan=1>Truy cäp Internet voithiet bi khong day</td><td rowspan=1 colspan=1>WAP v2.0</td><td rowspan=1 colspan=1>Wireless Application Protocol version 2.0</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=3 colspan=1>1.14</td><td rowspan=3 colspan=1> Dich vu Web dangSOAP</td><td rowspan=1 colspan=1>SOAP v1.2</td><td rowspan=1 colspan=1> Simple Object Access Protocol version 1.2</td><td rowspan=3 colspan=1>Bat buoc ap dung mot, haihoäc ca ba tieu chuan</td></tr><tr><td rowspan=1 colspan=1>WSDL V2.0</td><td rowspan=1 colspan=1>Web Services Description Language version 2.0</td></tr><tr><td rowspan=1 colspan=1>UDDI v3</td><td rowspan=1 colspan=1>Universal Description, Discovery and Integrationversion 3</td></tr><tr><td rowspan=1 colspan=1>1.15</td><td rowspan=1 colspan=1>Dich vu Web dangRESTful</td><td rowspan=1 colspan=1>RESTful web service</td><td rowspan=1 colspan=1>Representational state transfer</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=6 colspan=1>1.16</td><td rowspan=6 colspan=1> Dich vu dac ta Web</td><td rowspan=1 colspan=1>WS BPEL v2.0</td><td rowspan=1 colspan=1>Web Services Business Process ExecutionLanguage Version 2.0</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>WS-I Simple SOAPBinding Profile Version1.0</td><td rowspan=1 colspan=1>Simple SOAP Binding Profile Version 1.0</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>WS- Federation v1.2</td><td rowspan=1 colspan=1> Web Services Federation Language Version 1.2</td><td rowspan=1 colspan=1> Khuyen nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>WS- Addressing v1.0</td><td rowspan=1 colspan=1> Web Services Addressing 1.0</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>WS-CoordinationVersion 1.2</td><td rowspan=1 colspan=1>Web Services Coordination Version 1.2</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>WS-Policy v1.2</td><td rowspan=1 colspan=1>Web Services Coordination Version 1.2</td><td rowspan=1 colspan=1> Khuyen nghi ap dung</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Institute of Electrical and Electronics Engineers Standard (IEEE) 802.11g</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Institute of Electrical and Electronics Engineers Standard (IEEE) 802.11n</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Wireless Application Protocol version 2.0</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Simple Object Access Protocol version 1.2</td>
+      <td>Bắt buộc áp dụng một, hai hoặc cả ba tiêu chuẩn</td>
+    </tr>
+    <tr>
+      <td>Web Services Description Language version 2.0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Universal Description, Discovery and Integration version 3</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Representational state transfer</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Web Services Business Process Execution Language Version 2.0</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Simple SOAP Binding Profile Version 1.0</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Web Services Federation Language Version 1.2</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Web Services Addressing 1.0</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Web Services Coordination Version 1.2</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Web Services Coordination Version 1.2</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>1.12</td>
+      <td>Mạng cục bộ không dây</td>
+    </tr>
+    <tr>
+      <td>1.13</td>
+      <td>Truy cập Internet với thiết bị không dây</td>
+    </tr>
+    <tr>
+      <td>1.14</td>
+      <td>Dịch vụ Web dạng SOAP</td>
+    </tr>
+    <tr>
+      <td>1.15</td>
+      <td>Dịch vụ Web dạng RESTful</td>
+    </tr>
+    <tr>
+      <td>1.16</td>
+      <td>Dịch vụ đặc tả Web</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>IEEE 802.11g</td>
+    </tr>
+    <tr>
+      <td>IEEE 802.11n</td>
+    </tr>
+    <tr>
+      <td>WAP v2.0</td>
+    </tr>
+    <tr>
+      <td>SOAP v1.2</td>
+    </tr>
+    <tr>
+      <td>WSDL V2.0</td>
+    </tr>
+    <tr>
+      <td>UDDI v3</td>
+    </tr>
+    <tr>
+      <td>RESTful web service</td>
+    </tr>
+    <tr>
+      <td>WS BPEL v2.0</td>
+    </tr>
+    <tr>
+      <td>WS-I Simple SOAP Binding Profile Version 1.0</td>
+    </tr>
+    <tr>
+      <td>WS- Federation v1.2</td>
+    </tr>
+    <tr>
+      <td>WS- Addressing v1.0</td>
+    </tr>
+    <tr>
+      <td>WS-Coordination Version 1.2</td>
+    </tr>
+    <tr>
+      <td>WS-Policy v1.2</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=3 colspan=1></td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1> OASIS Web ServicesBusiness ActivityVersion 1.2</td><td rowspan=1 colspan=1>Web Services Business Activity Version 1.2</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>WS- Discovery Version1.1</td><td rowspan=1 colspan=1>Web Services Dynamic Discovery Version 1.1</td><td rowspan=1 colspan=1> Khuyén nghi áp dung</td></tr><tr><td rowspan=1 colspan=1>wS- MetadataExc hange</td><td rowspan=1 colspan=1>Web Services Metadata Exchange</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=2 colspan=1>1.17</td><td rowspan=2 colspan=1>Dich vu dong bo thoigian</td><td rowspan=1 colspan=1>NTPv3</td><td rowspan=1 colspan=1>Network Time Protocol version 3</td><td rowspan=2 colspan=1>Bät buoc ap dung mot tronghai tieu chuan</td></tr><tr><td rowspan=1 colspan=1>NTPv4</td><td rowspan=1 colspan=1>Network Time Protocol version 4</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=2>Tieu chuan ve tich hop dur lieu</td><td></td><td></td></tr><tr><td rowspan=2 colspan=1>2.1</td><td rowspan=2 colspan=1>Ngón ngur dinh dangvan ban</td><td rowspan=1 colspan=1>XML v1.0 (5th Edition)</td><td rowspan=1 colspan=1>Extensible Markup Language version 1.0(5th Edition)</td><td rowspan=2 colspan=1>Bat buoc ap dung mot tronghai tieu chuan</td></tr><tr><td rowspan=1 colspan=1> XML v1.1 (2nd Edition)</td><td rowspan=1 colspan=1> Extensible Markup Language version 1.1</td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>Ngon ngu dinh dangvan ban cho giao dichldien tur</td><td rowspan=1 colspan=1>ISO/TS 15000:2014</td><td rowspan=1 colspan=1>Electronic Business Extensible MarkupLanguage (ebXML)</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1>Dinh nghia cac luocdo trong tai lieu XML</td><td rowspan=1 colspan=1> XML Schema V1.1</td><td rowspan=1 colspan=1> XML Schema version 1.1</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>2.4</td><td rowspan=1 colspan=1>Bien di dur lieu</td><td rowspan=1 colspan=1>XSL</td><td rowspan=1 colspan=1>Extensible Stylesheet Language</td><td rowspan=1 colspan=1>Bat buoc ap dung phien banmoi nhat.</td></tr><tr><td rowspan=1 colspan=1>2.5</td><td rowspan=1 colspan=1>M6 hinh hoa dóitrong</td><td rowspan=1 colspan=1>UML v2.5</td><td rowspan=1 colspan=1>Unified Modelling Language version 2.5</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>2.6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>RDF</td><td rowspan=1 colspan=1>Resource Description Framework</td><td rowspan=1 colspan=1> Khuyen nghi ap dung</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>OASIS Web Services Business Activity Version 1.2</td>
+    </tr>
+    <tr>
+      <td>WS- Discovery Version 1.1</td>
+    </tr>
+    <tr>
+      <td>WS- MetadataExc hange</td>
+    </tr>
+    <tr>
+      <td>NTPv3</td>
+    </tr>
+    <tr>
+      <td>NTPv4</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>OASIS Web Services Business Activity Version 1.2</td>
+      <td>Web Services Business Activity Version 1.2</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>WS- Discovery Version 1.1</td>
+      <td>Web Services Dynamic Discovery Version 1.1</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>WS- MetadataExc hange</td>
+      <td>Web Services Metadata Exchange</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>1.17</td>
+      <td>Dịch vụ đồng bộ thời gian</td>
+      <td>NTPv3</td>
+      <td>Network Time Protocol version 3</td>
+      <td>Bắt buộc áp dụng một trong hai tiêu chuẩn</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>NTPv4</td>
+      <td>Network Time Protocol version 4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tiêu chuẩn về tích hợp dữ liệu</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>Ngôn ngữ định dạng văn bản</td>
+      <td>XML v1.0 (5th Edition)</td>
+      <td>Extensible Markup Language version 1.0 (5th Edition)</td>
+      <td>Bắt buộc áp dụng một trong hai tiêu chuẩn</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>XML v1.1 (2nd Edition)</td>
+      <td>Extensible Markup Language version 1.1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>Ngôn ngữ định dạng văn bản cho giao dịch điện tử</td>
+      <td>ISO/TS 15000:2014</td>
+      <td>Electronic Business Extensible Markup Language (ebXML)</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>Định nghĩa các lược đồ trong tài liệu XML</td>
+      <td>XML Schema V1.1</td>
+      <td>XML Schema version 1.1</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>Biến đổi dữ liệu</td>
+      <td>XSL</td>
+      <td>Extensible Stylesheet Language</td>
+      <td>Bắt buộc áp dụng phiên bản mới nhất.</td>
+    </tr>
+    <tr>
+      <td>2.5</td>
+      <td>Mô hình hóa đối tượng</td>
+      <td>UML v2.5</td>
+      <td>Unified Modelling Language version 2.5</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>2.6</td>
+      <td></td>
+      <td>RDF</td>
+      <td>Resource Description Framework</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> Mo ta tai nguyen durlieu</td><td rowspan=1 colspan=1>OWL</td><td rowspan=1 colspan=1>Web Ontology Language</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>2.7</td><td rowspan=1 colspan=1>Trinh dien bo ki tu</td><td rowspan=1 colspan=1>UTF-8</td><td rowspan=1 colspan=1>8-bit Universal Character Set (UES)/Unicode Transformation Format</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>2.8</td><td rowspan=1 colspan=1>Khuon thurc trao doithong tin dia ly</td><td rowspan=1 colspan=1>GML v3.3</td><td rowspan=1 colspan=1>Geography Markup Language version 3.3</td><td rowspan=1 colspan=1>Bat buc ap dung</td></tr><tr><td rowspan=2 colspan=1>2.9</td><td rowspan=2 colspan=1>Truy cap va cap nhat cac thong tin dia ly</td><td rowspan=1 colspan=1>WMS v1.3.0</td><td rowspan=1 colspan=1>OpenGIS Web Map Service version 1.3.0</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>WFS v1.1.0</td><td rowspan=1 colspan=1>Web Feature Service version 1.1.0</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>2.10</td><td rowspan=1 colspan=1>Trao doi du lieu dacta tai lieu XML</td><td rowspan=1 colspan=1> XMI v2.4.2</td><td rowspan=1 colspan=1> XML Metadata Interchange version 2.4.2</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>2.11</td><td rowspan=1 colspan=1> S6 dang ky sieu dulieu (MDR)</td><td rowspan=1 colspan=1>ISO/IEC 11179:2015</td><td rowspan=1 colspan=1> Só dang ky siéu dur lieu (Metadata registries -MDR)</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>2.12</td><td rowspan=1 colspan=1>Bo phan tir sieu du lieu Dublin Core</td><td rowspan=1 colspan=1>ISO 15836- 1:2017</td><td rowspan=1 colspan=1>Bó phn tir siéu du lieu Dublin Core</td><td rowspan=1 colspan=1>Khuyén nghi ap dung(*)</td></tr><tr><td rowspan=1 colspan=1>2.13</td><td rowspan=1 colspan=1>Dinh dang trao doi dulieu mo ta doi trongdang kich banJavaScript</td><td rowspan=1 colspan=1> JSON RFC 7159</td><td rowspan=1 colspan=1> JavaScript Object Notation</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>2.14</td><td rowspan=1 colspan=1>Ngón ngu mo hinhquy trinh nghiep vu</td><td rowspan=1 colspan=1>BPMN 2.0</td><td rowspan=1 colspan=1>Business Process Model and Notation version 2.0</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=4>Tieu chuan ve truy cap thong tin</td></tr><tr><td rowspan=1 colspan=1>3.1</td><td rowspan=1 colspan=1>Chuan noi dung Web</td><td rowspan=1 colspan=1>HTML v4.01</td><td rowspan=1 colspan=1>Hypertext Markup Language version 4.01</td><td rowspan=1 colspan=1>Bat buoc, ap dung</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>OWL</td>
+    </tr>
+    <tr>
+      <td>UTF-8</td>
+    </tr>
+    <tr>
+      <td>GML v3.3</td>
+    </tr>
+    <tr>
+      <td>WMS v1.3.0</td>
+    </tr>
+    <tr>
+      <td>WFS v1.1.0</td>
+    </tr>
+    <tr>
+      <td>XMI v2.4.2</td>
+    </tr>
+    <tr>
+      <td>ISO/IEC 11179:2015</td>
+    </tr>
+    <tr>
+      <td>ISO 15836- 1:2017</td>
+    </tr>
+    <tr>
+      <td>JSON RFC 7159</td>
+    </tr>
+    <tr>
+      <td>BPMN 2.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Mô tả tài nguyên dữ liệu</td>
+      <td>OWL</td>
+      <td>Web Ontology Language</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>2.7</td>
+      <td>Trình diễn bộ kí tự</td>
+      <td>UTF-8</td>
+      <td>8-bit Universal Character Set (UES)/Unicode Transformation Format</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>2.8</td>
+      <td>Khuôn thức trao đổi thông tin địa lý</td>
+      <td>GML v3.3</td>
+      <td>Geography Markup Language version 3.3</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>2.9</td>
+      <td>Truy cập và cập nhật các thông tin địa lý</td>
+      <td>WMS v1.3.0</td>
+      <td>OpenGIS Web Map Service version 1.3.0</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>WFS v1.1.0</td>
+      <td>Web Feature Service version 1.1.0</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>2.10</td>
+      <td>Trao đổi dữ liệu đặc tả tài liệu XML</td>
+      <td>XMI v2.4.2</td>
+      <td>XML Metadata Interchange version 2.4.2</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>2.11</td>
+      <td>Sổ đăng ký siêu dữ liệu (MDR)</td>
+      <td>ISO/IEC 11179:2015</td>
+      <td>Sổ đăng ký siêu dữ liệu (Metadata registries - MDR)</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>2.12</td>
+      <td>Bộ phần tử siêu dữ liệu Dublin Core</td>
+      <td>ISO 15836- 1:2017</td>
+      <td>Bộ phần tử siêu dữ liệu Dublin Core</td>
+      <td>Khuyến nghị áp dụng(*)</td>
+    </tr>
+    <tr>
+      <td>2.13</td>
+      <td>Định dạng trao đổi dữ liệu mô tả đối tượng dạng kịch bản JavaScript</td>
+      <td>JSON RFC 7159</td>
+      <td>JavaScript Object Notation</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>2.14</td>
+      <td>Ngôn ngữ mô hình quy trình nghiệp vụ</td>
+      <td>BPMN 2.0</td>
+      <td>Business Process Model and Notation version 2.0</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Tiêu chuẩn về truy cập thông tin</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>Chuẩn nội dung Web</td>
+      <td>HTML v4.01</td>
+      <td>Hypertext Markup Language version 4.01</td>
+      <td>Bắt buộc, áp dụng</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1>WCAG 2.0</td><td rowspan=1 colspan=1>W3C Web Content Accessibility Guidelines(WCAG) 2.0</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>HTML 5</td><td rowspan=1 colspan=1> Hypertext Markup Language version 5</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>3.2</td><td rowspan=1 colspan=1>Chuan noi dung Webmo rong</td><td rowspan=1 colspan=1> XHTML v1.1</td><td rowspan=1 colspan=1>Extensible Hypertext Markup Language version 1.1</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=3 colspan=1>3.3</td><td rowspan=3 colspan=1>Giao dien nguoi dung</td><td rowspan=1 colspan=1>CSS2</td><td rowspan=1 colspan=1>Cascading Style Sheets Language Level 2</td><td rowspan=3 colspan=1>Bat buoc ap dung mot trongba tieu chuan</td></tr><tr><td rowspan=1 colspan=1>CSS3</td><td rowspan=1 colspan=1> Cascading Style Sheets Language Level 3</td></tr><tr><td rowspan=1 colspan=1>XSL</td><td rowspan=1 colspan=1> Extensible Stylesheet Language version</td></tr><tr><td rowspan=6 colspan=1>3.4</td><td rowspan=6 colspan=1>Van ban</td><td rowspan=1 colspan=1>(.txt)</td><td rowspan=1 colspan=1>Dinh dang Plain Text (.txt): Danh cho cac tai liéu co ban khong c6 cau truc</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>(.rtf) v1.8, v1.9.1</td><td rowspan=1 colspan=1>Dinh dang Rich Text (.rtf) phien ban 1.8,1.9.1:Danh cho cac tai liéu có thé trao doi gitra cac nénkhac nhau</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>(.docx)</td><td rowspan=1 colspan=1>Dinh dang van ban Word mo rong cüa Microsoft(.docx)</td><td rowspan=1 colspan=1> Khuyén nghi āp dung</td></tr><tr><td rowspan=1 colspan=1>(.pdf) v1.4, v1.5, v1.6,v1.7</td><td rowspan=1 colspan=1>Dinh dang Portable Document (.pdf) phien ban 1.4,1.5, 1.6, 1.7: Danh cho cac tai lieu chi doc</td><td rowspan=3 colspan=1>Bat bu@c ap dung mot, haihoäc ca ba tieu chuan</td></tr><tr><td rowspan=1 colspan=1>（.doc)</td><td rowspan=1 colspan=1>Dinh dang van ban Word cua Microsoft (.doc)</td></tr><tr><td rowspan=1 colspan=1>(.odt) v1.2</td><td rowspan=1 colspan=1>Dinh dang Open Document Text (.odt) phien ban1.2</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>W3C Web Content Accessibility Guidelines (WCAG) 2.0</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Hypertext Markup Language version 5</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Extensible Hypertext Markup Language version 1.1</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Cascading Style Sheets Language Level 2</td>
+      <td>Bắt buộc áp dụng một trong ba tiêu chuẩn</td>
+    </tr>
+    <tr>
+      <td>Cascading Style Sheets Language Level 3</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Extensible Stylesheet Language version</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Định dạng Plain Text (.txt): Dành cho các tài liệu cơ bản không có cấu trúc</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Định dạng Rich Text (.rtf) phiên bản 1.8, 1.9.1: Dành cho các tài liệu có thể trao đổi giữa các nền khác nhau</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Định dạng văn bản Word mở rộng của Microsoft (.docx)</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Định dạng Portable Document (.pdf) phiên bản 1.4, 1.5, 1.6, 1.7: Dành cho các tài liệu chỉ đọc</td>
+      <td>Bắt buộc áp dụng một, hai hoặc cả ba tiêu chuẩn</td>
+    </tr>
+    <tr>
+      <td>Định dạng văn bản Word của Microsoft (.doc)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Định dạng Open Document Text (.odt) phiên bản 1.2</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td>Chuẩn nội dung Web mở rộng</td>
+    </tr>
+    <tr>
+      <td>3.3</td>
+      <td>Giao diện người dùng</td>
+    </tr>
+    <tr>
+      <td>3.4</td>
+      <td>Văn bản</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>WCAG 2.0</td>
+    </tr>
+    <tr>
+      <td>HTML 5</td>
+    </tr>
+    <tr>
+      <td>XHTML v1.1</td>
+    </tr>
+    <tr>
+      <td>CSS2</td>
+    </tr>
+    <tr>
+      <td>CSS3</td>
+    </tr>
+    <tr>
+      <td>XSL</td>
+    </tr>
+    <tr>
+      <td>(.txt)</td>
+    </tr>
+    <tr>
+      <td>(.rtf) v1.8, v1.9.1</td>
+    </tr>
+    <tr>
+      <td>(.docx)</td>
+    </tr>
+    <tr>
+      <td>(.pdf) v1.4, v1.5, v1.6, v1.7</td>
+    </tr>
+    <tr>
+      <td>(.doc)</td>
+    </tr>
+    <tr>
+      <td>(.odt) v1.2</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=4 colspan=1>3.5</td><td rowspan=4 colspan=1>Bang tinh</td><td rowspan=1 colspan=1>(.csv)</td><td rowspan=1 colspan=1> Dinh dang Comma eparated Variable/Delimited(.csv): Danh cho cac bang tinh can trao doi giua cacung dung khac nhau.</td><td rowspan=1 colspan=1>Bät buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>(.xlsx)</td><td rowspan=1 colspan=1>Dinh dang bang tinh Excel mo rong cua Microsoft(.xlsx)</td><td rowspan=1 colspan=1>Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>(.xls）</td><td rowspan=1 colspan=1>Dinh dang bang tinh Excel cua Microsoft (.xls)</td><td rowspan=2 colspan=1>Bät bu@c ap dung mot hoaccä hai tieu chuan</td></tr><tr><td rowspan=1 colspan=1>(.ods) v1.2</td><td rowspan=1 colspan=1>Dinh dang Open Document Spreadsheets (.ods)phien ban 1.2</td></tr><tr><td rowspan=5 colspan=1>3.6</td><td rowspan=5 colspan=1>Trinh dien</td><td rowspan=1 colspan=1>(.htm)</td><td rowspan=1 colspan=1>Dinh dang Hypertext Document (.htm): cho cactrinh bay duoc trao doi thong qua cac loai trinhduyét khac nhau</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>(-pptx)</td><td rowspan=1 colspan=1>Dinh dang PowerPoint mo rng cua Microsoft(.pptx)</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>（.pdf)</td><td rowspan=1 colspan=1>Dinh dang Portable Document (.pdf): cho cac trinhbay luu duoi dang chi doc</td><td rowspan=3 colspan=1>Bät bu@c áp dung mot, haihoäc cä ba tiéu chuan</td></tr><tr><td rowspan=1 colspan=1>(.ppt)</td><td rowspan=1 colspan=1>Dinh dang PowerPoint (.ppt) cua Microsoft</td></tr><tr><td rowspan=1 colspan=1>(.odp) v1.2</td><td rowspan=1 colspan=1>Dinh dang Open Document Presentation (.odp) phien ban 1.2</td></tr><tr><td rowspan=4 colspan=1>3.7</td><td rowspan=4 colspan=1>Anh do hoa</td><td rowspan=1 colspan=1>JPEG</td><td rowspan=1 colspan=1> Joint Photographic Expert Group (.jpg)</td><td rowspan=4 colspan=1>Bät buoc ap dung mot, hai,ba hoäc cä bón tiéu chuan</td></tr><tr><td rowspan=1 colspan=1>GIF v89a</td><td rowspan=1 colspan=1>Graphic Interchange (.gif) version 89a</td></tr><tr><td rowspan=1 colspan=1>TIFF</td><td rowspan=1 colspan=1>Tag Image File (.tif)</td></tr><tr><td rowspan=1 colspan=1>PNG</td><td rowspan=1 colspan=1>Portable Network Graphics (.png)</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Định dạng Comma eparated Variable/Delimited (.csv): Dành cho các bảng tính cần trao đổi giữa các ứng dụng khác nhau.</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Định dạng bảng tính Excel mở rộng của Microsoft (.xlsx)</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Định dạng bảng tính Excel của Microsoft (.xls)</td>
+      <td>Bắt buộc áp dụng một hoặc cả hai tiêu chuẩn</td>
+    </tr>
+    <tr>
+      <td>Định dạng Open Document Spreadsheets (.ods) phiên bản 1.2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Định dạng Hypertext Document (.htm): cho các trình bày được trao đổi thông qua các loại trình duyệt khác nhau</td>
+      <td>Bắt buộc áp dụng</td>
+    </tr>
+    <tr>
+      <td>Định dạng PowerPoint mở rộng của Microsoft (.pptx)</td>
+      <td>Khuyến nghị áp dụng</td>
+    </tr>
+    <tr>
+      <td>Định dạng Portable Document (.pdf): cho các trình bày lưu dưới dạng chỉ đọc</td>
+      <td>Bắt buộc áp dụng một, hai hoặc cả ba tiêu chuẩn</td>
+    </tr>
+    <tr>
+      <td>Định dạng PowerPoint (.ppt) của Microsoft</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Định dạng Open Document Presentation (.odp) phiên bản 1.2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Joint Photographic Expert Group (.jpg)</td>
+      <td>Bắt buộc áp dụng một, hai, ba hoặc cả bốn tiêu chuẩn</td>
+    </tr>
+    <tr>
+      <td>Graphic Interchange (.gif) version 89a</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tag Image File (.tif)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Portable Network Graphics (.png)</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>3.5</td>
+      <td>Bảng tính</td>
+    </tr>
+    <tr>
+      <td>3.6</td>
+      <td>Trình diễn</td>
+    </tr>
+    <tr>
+      <td>3.7</td>
+      <td>Ảnh đồ họa</td>
+    </tr>
+  </tbody>
+</table>
 
-
-<table><tr><td rowspan=1 colspan=1>3.8</td><td rowspan=1 colspan=1>Anh gan voi toa dodia ly</td><td rowspan=1 colspan=1>GEO TIFF</td><td rowspan=1 colspan=1>Tagged Image File Format for GIS applications</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=5 colspan=1>3.9</td><td rowspan=5 colspan=1> Phim änh, am thanh</td><td rowspan=1 colspan=1>MPEG-1</td><td rowspan=1 colspan=1> Moving Picture Experts Group-1</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>MPEG-2</td><td rowspan=1 colspan=1>Moving Picture Experts Group-2</td><td rowspan=1 colspan=1> Khuyen nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>MPEG-4</td><td rowspan=1 colspan=1> Moving Picture Experts Group-4</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>MP3</td><td rowspan=1 colspan=1>MPEG-1 Audio Layer 3</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>AAC</td><td rowspan=1 colspan=1>Advanced Audio Coding</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=3 colspan=1>3.10</td><td rowspan=3 colspan=1>Luong phim anh, amthanh</td><td rowspan=1 colspan=1>(.asf), (.wma), (.wmv)</td><td rowspan=1 colspan=1>Cac dinh dang cua Microsoft Windows MediaPlayer (.asf), (.wma), (.wmv)</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>(.ra), (.rm), (.ram),(.rmm)</td><td rowspan=1 colspan=1> Cac dinh dang Real Audio/Real Video (.ra), (.rm),(.ram), (.rmm)</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>(.avi), (.mov), (.qt)</td><td rowspan=1 colspan=1>Cac dinh dang Apple Quicktime (.avi), (.mov), (.qt)</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=4 colspan=1>3.11</td><td rowspan=4 colspan=1>Hoat hoa</td><td rowspan=1 colspan=1>GIF v89a</td><td rowspan=1 colspan=1>Graphic Interchange (.gif) version 89a</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>（.swf）</td><td rowspan=1 colspan=1>Dinh dang Macromedia Flash (.swf)</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>(.swf)</td><td rowspan=1 colspan=1>Dinh dang Macromedia Shockwave (.swf)</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>(.avi), (.qt), (.mov)</td><td rowspan=1 colspan=1>Cac dinh dang Apple Quicktime (.avi),(.qt),(.mov)</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>3.12</td><td rowspan=1 colspan=1> Chuan n@i dung chothiet bi di dong</td><td rowspan=1 colspan=1>WML v2.0</td><td rowspan=1 colspan=1>Wireless Markup Language version 2.0</td><td rowspan=1 colspan=1>Bat bu@c ap dung</td></tr><tr><td rowspan=1 colspan=1>3.13</td><td rowspan=1 colspan=1>Bo ky tur va ma hóa</td><td rowspan=1 colspan=1>ASCII</td><td rowspan=1 colspan=1>American Standard Code for InformationInterchange</td><td rowspan=1 colspan=1>Bat bu@c ap dung</td></tr></table>
-
-
-
-<table><tr><td rowspan=3 colspan=1>3.14</td><td rowspan=3 colspan=1>B6 ky tu va ma hóacho tieng Viet</td><td rowspan=3 colspan=1>TCVN 6909:2001</td><td rowspan=3 colspan=1>TCVN 6909:2001 “C6ng nghé thong tin - B@ maky tu tieng Viet 16-bit&quot;</td></tr><tr></tr><tr><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=2 colspan=1>3.15</td><td rowspan=2 colspan=1>Nén dur lieu</td><td rowspan=1 colspan=1>Zip</td><td rowspan=2 colspan=1>Bat buoc ap dung mot hoaccä hai tieu chuan</td></tr><tr><td rowspan=1 colspan=1>.gz v4.3</td><td rowspan=1 colspan=1>GNU Zip (.gz) version 4.3</td></tr><tr><td rowspan=1 colspan=1>3.16</td><td rowspan=1 colspan=1>Ngón ngur kich ban phia trinh khach</td><td rowspan=1 colspan=1>ECMA 262</td><td rowspan=1 colspan=1>Bat bu@c ap dung</td></tr><tr><td rowspan=3 colspan=1>3.17</td><td rowspan=3 colspan=1>Chia sé noi dung Web</td><td rowspan=1 colspan=1>RSS v1.0</td><td rowspan=2 colspan=1>Bat bu@c ap dung mot tronghai tieu chuan</td></tr><tr><td rowspan=1 colspan=1>RSS v2.0</td><td rowspan=1 colspan=1>Really Simple Syndication version 2.0</td></tr><tr><td rowspan=1 colspan=1>ATOM v1.0</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=4 colspan=1>3.18</td><td rowspan=4 colspan=1>Chuan két noi ingdung cong thong tindien tur</td><td rowspan=1 colspan=1>JSR 168</td><td rowspan=1 colspan=1>Bat bu@c ap dung</td></tr><tr><td rowspan=1 colspan=1>JSR286</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>WSRP v1.0</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>WSRP v2.0</td><td rowspan=1 colspan=1> Khuyen nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=3>Tieu chuan vé an toan thong tin</td></tr><tr><td rowspan=2 colspan=1>4.1</td><td rowspan=2 colspan=1> An toan thu dien ttr</td><td rowspan=1 colspan=1> S/MIME v3.2</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>OpenPGP</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=2 colspan=1>4.2</td><td rowspan=2 colspan=1>An toan tang giao van</td><td rowspan=1 colspan=1>SSH v2.0</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>TLS v1.2</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1></td><td></td><td></td><td></td></tr></table>
-
-
-
-<table><tr><td rowspan=3 colspan=1>4.3</td><td rowspan=3 colspan=1>An toan truyén tép tin</td><td rowspan=1 colspan=1>HTTPS</td><td rowspan=1 colspan=1>Hypertext Transfer Protocol Secure</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>FTPS</td><td rowspan=1 colspan=1>File Transfer Protocol Secure</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>SFTP</td><td rowspan=1 colspan=1>SSH File Transfer Protocol</td><td rowspan=1 colspan=1> Khuyen nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>4.4</td><td rowspan=1 colspan=1>An toan truyén thudien tur</td><td rowspan=1 colspan=1>SMTPS</td><td rowspan=1 colspan=1> Simple Mail Transfer Protocol Secure</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=2 colspan=1>4.5</td><td rowspan=2 colspan=1> An toan dich vu truycap hop thu</td><td rowspan=1 colspan=1>POP3S</td><td rowspan=1 colspan=1> Post Office Protocol version 3 Secure</td><td rowspan=2 colspan=1>Bat buoc ap dung mit hoacca hai tieu chuan</td></tr><tr><td rowspan=1 colspan=1>IMAPS</td><td rowspan=1 colspan=1>Internet Message Access Protocol Secure</td></tr><tr><td rowspan=1 colspan=1>4.6</td><td rowspan=1 colspan=1>An toan dich vu DNS</td><td rowspan=1 colspan=1>DNSSEC</td><td rowspan=1 colspan=1>Domain Name System Security Extenssions</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>4.7</td><td rowspan=1 colspan=1> An toan tang mang</td><td rowspan=1 colspan=1> IPsec - IP ESP</td><td rowspan=1 colspan=1> Internet Protocol security voi IP ESP</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>4.8</td><td rowspan=1 colspan=1>An toan thong tin cho mang khong day</td><td rowspan=1 colspan=1>WPA2</td><td rowspan=1 colspan=1>Wi-fi Protected Access 2</td><td rowspan=1 colspan=1>Bat bu@c ap dung</td></tr><tr><td rowspan=4 colspan=1>4.9</td><td rowspan=4 colspan=1>Giai thuat mä h6a</td><td rowspan=1 colspan=1>TCVN 7816:2007</td><td rowspan=1 colspan=1>Cong nghe thong tin. Ky thuat mat ma thuat toanma du lieu AES</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>3DES</td><td rowspan=1 colspan=1>Triple Data Encryption Standard</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>PKCS #1 V2.2</td><td rowspan=1 colspan=1>RSA Cryptography Standard - version 2.2</td><td rowspan=1 colspan=1> Khuyén nghi ap dung, surdung lroc do RSAES-OAEPdé ma hoa</td></tr><tr><td rowspan=1 colspan=1>ECC</td><td rowspan=1 colspan=1> Elliptic Curve Cryptography</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=2 colspan=1>4.10</td><td rowspan=2 colspan=1>Giai thuat chu ky só</td><td rowspan=1 colspan=1>PKCS #1 V2.2</td><td rowspan=1 colspan=1> RSA Cryptography Standard - version 2.2</td><td rowspan=1 colspan=1>Bat buoc ap dung, sur dungluoc do RSASSA-PSS dé ky</td></tr><tr><td rowspan=1 colspan=1>ECDSA</td><td rowspan=1 colspan=1>Elliptic Curve Digital Signature Algorithm</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>4.11</td><td rowspan=1 colspan=1>Giai thuat bam chochur ky s6</td><td rowspan=1 colspan=1>SHA-2</td><td rowspan=1 colspan=1>Secure Hash Algorithms-2</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=2 colspan=1>4.12</td><td rowspan=2 colspan=1>Giai thuat truyenkh6a</td><td rowspan=1 colspan=1>RSA-KEM</td><td rowspan=1 colspan=1>Rivest-Shamir-Adleman - KEM (KeyEncapsulation Mechanism) Key Transport Algorithm</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1>ECDHE</td><td rowspan=1 colspan=1>Elliptic Curve Diffie Hellman Ephemeral</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>4.13</td><td rowspan=1 colspan=1>Giai phap xac thucnguoi sur dung</td><td rowspan=1 colspan=1>SAML v2.0</td><td rowspan=1 colspan=1> Security Assertion Markup Language version 2.0</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=2 colspan=1>4.14</td><td rowspan=2 colspan=1>An toan trao doi ban tin XML</td><td rowspan=1 colspan=1>XML Encryption Syntax and Processing</td><td rowspan=1 colspan=1> XML Encryption Syntax and Processing</td><td rowspan=1 colspan=1>Bat buoc ap dung</td></tr><tr><td rowspan=1 colspan=1> XML Signature Syntax and Processing</td><td rowspan=1 colspan=1> XML Signature Syntax and Processing</td><td rowspan=1 colspan=1>Bat buc ap dung</td></tr><tr><td rowspan=1 colspan=1>4.15</td><td rowspan=1 colspan=1>Quan ly khóa cong khai ban tin XML</td><td rowspan=1 colspan=1> XKMS v2.0</td><td rowspan=1 colspan=1> XML Key Management Specification version 2.0</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>4.16</td><td rowspan=1 colspan=1>Giao thurc an toan thong tin ca nhan</td><td rowspan=1 colspan=1>P3P v1.1</td><td rowspan=1 colspan=1> Platform for Privacy Preferences Project version1.1</td><td rowspan=1 colspan=1>Khuyén nghi ap dung</td></tr><tr><td rowspan=3 colspan=1>4.17</td><td rowspan=1 colspan=3> Ha tang khoa cong khai</td><td rowspan=3 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>Cu phap thong diep mat ma cho ky, mah6a</td><td rowspan=1 colspan=1>PKCS#7 v1.5 (RFC2315)</td><td rowspan=1 colspan=1>Cryptographic message syntax for file-based signing and encrypting version 1.5</td></tr><tr><td rowspan=1 colspan=1>Cu phap thong tin themat ma</td><td rowspan=1 colspan=1>PKCS#15 v1.1</td><td rowspan=1 colspan=1>Cryptographic token information syntax version 1.1</td></tr></table>
-
-
-
-
-
-<table><tr><td rowspan=1 colspan=1>4.18</td><td rowspan=1 colspan=1> An toan cho dich vuWeb</td><td rowspan=1 colspan=1>WS-Security v1.1.1</td><td rowspan=1 colspan=1>Web Services Security: SOAP Message SecurityVersion 1.1.1</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr><tr><td rowspan=1 colspan=1>4.19</td><td rowspan=1 colspan=1> Khuon dang du liéeutrao doi sur co an toanmang</td><td rowspan=1 colspan=1>RFC 7970</td><td rowspan=1 colspan=1>The Incident Object Description Exchange Formatversion 2 (IODEF)</td><td rowspan=1 colspan=1> Khuyén nghi ap dung</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>(.csv)</td>
+    </tr>
+    <tr>
+      <td>(.xlsx)</td>
+    </tr>
+    <tr>
+      <td>(.xls)</td>
+    </tr>
+    <tr>
+      <td>(.ods) v1.2</td>
+    </tr>
+    <tr>
+      <td>(.htm)</td>
+    </tr>
+    <tr>
+      <td>(.pptx)</td>
+    </tr>
+    <tr>
+      <td>(.pdf)</td>
+    </tr>
+    <tr>
+      <td>(.ppt)</td>
+    </tr>
+    <tr>
+      <td>(.odp) v1.2</td>
+    </tr>
+    <tr>
+      <td>JPEG</td>
+    </tr>
+    <tr>
+      <td>GIF v89a</td>
+    </tr>
+    <tr>
+      <td>TIFF</td>
+    </tr>
+    <tr>
+      <td>PNG</td>
+    </tr>
+  </tbody>
+</table>

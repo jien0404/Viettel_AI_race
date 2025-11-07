@@ -22,82 +22,1186 @@ $^ +$ Không được sửa đổi: Đây là các chỉ tiêu cơ bản và b�
 
 # 2.1 PHẦN 1: CHI TIẾT CHỈ TIÊU KỸ THUẬT
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1>NQidung</td><td rowspan=2 colspan=1>Yéu cau ky thuat</td><td rowspan=2 colspan=1>Chi tieuco&#x27; ban(CB)/Khong coban(KCB)</td><td rowspan=2 colspan=1>Phamvi chophépsira doi</td><td rowspan=2 colspan=1>Tieu chi danh gia</td><td rowspan=2 colspan=1>Phro&#x27;ngphap kiemtra</td><td rowspan=1 colspan=2>Giai doan kiém tra</td></tr><tr><td rowspan=1 colspan=1>Kiém trakhi giaohang</td><td rowspan=1 colspan=1>Kiém tra khi chaythurc te</td></tr><tr><td rowspan=1 colspan=1>(1)</td><td rowspan=1 colspan=1>(2)</td><td rowspan=1 colspan=1>(3)</td><td rowspan=1 colspan=1>(4)</td><td rowspan=1 colspan=1>(5)</td><td rowspan=1 colspan=1>(6)</td><td rowspan=1 colspan=1>（7）</td><td rowspan=1 colspan=1>(8）</td><td rowspan=1 colspan=1>(9)</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=3>Cong nghe phong chong ma d@c</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.1</td><td rowspan=2 colspan=1>Khanangbao ve</td><td rowspan=1 colspan=1>Tu dong quet loc madoc, bao ve may tinhtheo thoi gian thuc.</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yéu cau. - Khong dat: Cac hang muc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiem, trathuc té</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1>Cong nghe quet toi uu,khong quet lai cac fileda quet trroc d6.</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau.- Khong dat: Cac hang muc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiémtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td>(1)</td>
+      <td>(2)</td>
+      <td>(3)</td>
+      <td>(4)</td>
+      <td>(5)</td>
+      <td>(6)</td>
+      <td>(7)</td>
+      <td>(8)</td>
+      <td>(9)</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Công nghệ phòng chống mã độc</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Khả năng bảo vệ</td>
+      <td>Tự động quét lọc mã độc, bảo vệ máy tính theo thời gian thực.</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra thực tế</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td></td>
+      <td>Công nghệ quét tối ưu, không quét lại các file đã quét trước đó.</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=6 colspan=1>N0idung</td><td rowspan=2 colspan=1>Yeu cau ky thuat</td><td rowspan=2 colspan=1>Chi tieuco&#x27; ban(CB)/Khong coban(KCB)</td><td rowspan=2 colspan=1>Phamvi chophepsira doi</td><td rowspan=2 colspan=1>Tieu chi danh gia</td><td rowspan=2 colspan=1>Phuongphap kiemtra</td><td rowspan=1 colspan=2>Giai doan kiém tra</td></tr><tr><td rowspan=1 colspan=1>Kiem trakhi giaohang</td><td rowspan=1 colspan=1>Kiém trakhi chaythuc té</td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1>Phong chong gia mao(anti-phishing)</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau.- Khong dat: Cac hangmuc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiemtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1>Tuong lira bao ve maytinh</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1> - Dat: Cac hang muc dung voi yeu cau. - Khong dat: Cac hang muc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>Kiemtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1>Bao ve va tur dongngan chän quyén truycäp toi thu muc chia sékhi phat hién hanh vi ma hoa du lieu tur maytinh bi nhiem ma doc.</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yéu cau. - Khong dat: Cac hang muc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiem tratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.6</td><td rowspan=1 colspan=1>Phat hien va nganchan cac thiét bi USB</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1> - Dat: Cac hang mucdung voi yeu cau.</td><td rowspan=1 colspan=1>Kiemtratai lieu ky</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td></td>
+      <td>Phòng chống giả mạo (anti-phishing)</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td></td>
+      <td>Tường lửa bảo vệ máy tính</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td></td>
+      <td>Bảo vệ và tự động ngăn chặn quyền truy cập tới thư mục chia sẻ khi phát hiện hành vi mã hóa dữ liệu từ máy tính bị nhiễm mã độc.</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.6</td>
+      <td></td>
+      <td>Phát hiện và ngăn chặn các thiết bị USB</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=4 colspan=1>Nidung</td><td rowspan=2 colspan=1>Yéu cau ky thuat</td><td rowspan=2 colspan=1> Chi tieuco&#x27;ban(CB)/Khong coban(KCB)</td><td rowspan=2 colspan=1>Phamvi chophepsura di</td><td rowspan=2 colspan=1>Tieu chi danh gia</td><td rowspan=2 colspan=1>Phuongphap kiemtra</td><td rowspan=1 colspan=2>Giai doan kiém tra</td></tr><tr><td rowspan=1 colspan=1>Kiém tra khi giaohang</td><td rowspan=1 colspan=1>Kiem trakhi chaythurc te</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>nhiem ma doc thuchien mo phong giamao nhu thiet bi ban phim. Cho phep nguoidung nhap ma s déban phim duoc ket noitheo nhu cau.</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong dat: Cac hang muc khong thoa mänyeu cau.</td><td rowspan=1 colspan=1> thuatcuaNSX</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.7</td><td rowspan=1 colspan=1>Tao cac khu vuc tincay (Trust-zone)</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hangmuc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiemtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.8</td><td rowspan=2 colspan=1>Kiemsoatimgdung</td><td rowspan=1 colspan=1>Quan ly urng dungduoc khoi chay, nganchan cac ing dung khong mong muon</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau.- Khong dat: Cac hang muc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>Kiemtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.9</td><td rowspan=1 colspan=1>Kiém soat quyén cuaung dung dugc phép</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1> - Dat: Cac hang mucdung voi yeucau.</td><td rowspan=1 colspan=1>Kiemtratai lieu ky</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>nhiễm mã độc thực hiện mô phỏng giả mạo như thiết bị bàn phím. Cho phép người dùng nhập mã số để bàn phím được kết nối theo nhu cầu.</td>
+      <td></td>
+      <td></td>
+      <td>- Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>thuật của NSX</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.7</td>
+      <td></td>
+      <td>Tạo các khu vực tin cậy (Trust-zone)</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.8</td>
+      <td>Kiểm soát ứng dụng</td>
+      <td>Quản lý ứng dụng được khởi chạy, ngăn chặn các ứng dụng không mong muốn</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.9</td>
+      <td></td>
+      <td>Kiểm soát quyền của ứng dụng được phép</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=3 colspan=1>Nidung</td><td rowspan=2 colspan=1> Yéu cau ky thuat</td><td rowspan=2 colspan=1>Chi tieuco&#x27; ban(CB)/Khong coban(KCB)</td><td rowspan=2 colspan=1>Phamvi chophepstra doi</td><td rowspan=2 colspan=1> Tieu chi danh gia</td><td rowspan=2 colspan=1> Phuongphap kiemtra</td><td rowspan=1 colspan=2> Giai doan kiém tra</td></tr><tr><td rowspan=1 colspan=1>Kiém tra khi giaohang</td><td rowspan=1 colspan=1>Kiém trakhi chaythurc te</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>truy cap vao he thong,giam sat va phan loaiung dung</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong dat: Cac hangmuc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>thuatcuaNSX</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.10</td><td rowspan=2 colspan=1>Kiemsoatthiet bingoaivi</td><td rowspan=1 colspan=1>Kiem soat theo congnghétruyéndulieu/bus két noi (ócung, thiét bi luu trugan ngoai, may in, 6dia CD/DVD,...)</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hangmuc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>Kiem, trathurc tée</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td></tr><tr><td rowspan=1 colspan=1>1.11</td><td rowspan=1 colspan=1>C6 kha nang ghi laibao cao, theo doi cachoat dong cua tap tinduoc tao, xóa trén thiet bi luru tru di dong</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yéu cau. - Khong dat: Cac hangmuc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiemtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.12</td><td rowspan=1 colspan=1>Kiemsoattruycapweb</td><td rowspan=1 colspan=1>Thiét lap chinh sachhan ché truy cäp web,ngan chan viec truycap cac trang webkhong mong muon,</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hang muc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiem, trathurc té</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>truy cập vào hệ thống, giám sát và phân loại ứng dụng</td>
+      <td></td>
+      <td></td>
+      <td>- Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>thuật của NSX</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.10</td>
+      <td>Kiểm soát thiết bị ngoại vi</td>
+      <td>Kiểm soát theo công nghệ truyền dữ liệu/bus kết nối (ổ cứng, thiết bị lưu trữ gắn ngoài, máy in, ổ đĩa CD/DVD, …)</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra thực tế</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>1.11</td>
+      <td></td>
+      <td>Có khả năng ghi lại báo cáo, theo dõi các hoạt động của tập tin được tạo, xóa trên thiết bị lưu trữ di động</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.12</td>
+      <td>Kiểm soát truy cập web</td>
+      <td>Thiết lập chính sách hạn chế truy cập web, ngăn chặn việc truy cập các trang web không mong muốn,</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra thực tế</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1>N@idung</td><td rowspan=2 colspan=1>Yéu cau ky thuat</td><td rowspan=2 colspan=1>Chi tieuco&#x27; ban(CB)/Khong co&#x27;ban(KCB)</td><td rowspan=2 colspan=1>Phamvi chophepsura doi</td><td rowspan=2 colspan=1>Tieu chi danh gia</td><td rowspan=2 colspan=1>Phro&#x27;ngphap kiemtra</td><td rowspan=1 colspan=2>Giai doan kiém tra</td></tr><tr><td rowspan=1 colspan=1>Kiem trakhi giaohang</td><td rowspan=1 colspan=1>Kiem tra khi chaythurc te</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1>kiém soat viec truycap theo danh mucwebsite, theo loai dulieu hoac dia chi webchi dinh</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.13</td><td rowspan=1 colspan=1>Kiém soat linh hoattheonh6mnguoidung，theo lich tuychon</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau.- Khong dat: Cac hangmuc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>Kiémtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.14</td><td rowspan=1 colspan=1>Ngonngu hotro</td><td rowspan=1 colspan=1>Ho tro giao dien tieng Anh va giao dien tiengViet</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1> - Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hangmuc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>Kiem tratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.15</td><td rowspan=1 colspan=1>Nentang hotro</td><td rowspan=1 colspan=1>H tro cac he dieuhanh    may  chu:Windows      Server</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau.- Khong dat: Cac hang</td><td rowspan=1 colspan=1>Kiem, trathurc té</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>kiểm soát việc truy cập theo danh mục website, theo loại dữ liệu hoặc địa chỉ web chỉ định</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.13</td>
+      <td></td>
+      <td>Kiểm soát linh hoạt theo nhóm người dùng, theo lịch tùy chọn</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.14</td>
+      <td>Ngôn ngữ hỗ trợ</td>
+      <td>Hỗ trợ giao diện tiếng Anh và giao diện tiếng Việt</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.15</td>
+      <td>Nền tảng hỗ trợ</td>
+      <td>Hỗ trợ các hệ điều hành máy chủ: Windows Server</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng</td>
+      <td>Kiểm tra thực tế</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1>Noidung</td><td rowspan=2 colspan=1>Yéu cau ky thuat</td><td rowspan=2 colspan=1>Chi tieuco&#x27;ban(CB)/Khong co&#x27;ban(KCB)</td><td rowspan=2 colspan=1>Phamvi chophépsura doi</td><td rowspan=2 colspan=1> Tieu chi danh gia</td><td rowspan=2 colspan=1>Phuong phap kiemtra</td><td rowspan=1 colspan=2>Giai doan kiém tra</td></tr><tr><td rowspan=1 colspan=1>Kiem trakhi giaohang</td><td rowspan=1 colspan=1>Kiém tra khi chaythurc te</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1>2016, 2019,2022;Linux</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>muc khong thoa manyeu cau.</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.16</td><td rowspan=1 colspan=1>H trg cac hé diéuhanh: Windows10,11; MacOS, Android,ios</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yéu cau. - Khong dat: Cac hang muc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>Kiem, trathurc te</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>2016, 2019, 2022; Linux</td>
+      <td></td>
+      <td></td>
+      <td>mục không thỏa mãn yêu cầu.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.16</td>
+      <td></td>
+      <td>Hỗ trợ các hệ điều hành: Windows 10, 11; MacOS, Android, iOS</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra thực tế</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Khả năng quản trị tập trung</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>Tính năng quản trị</td>
+      <td>Giám sát và báo cáo tập trung từ công cụ quản trị, cung cấp thông tin tổng quan và các số liệu thống kê trạng thái bảo vệ của hệ thống</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra thực tế</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+  </tbody>
+</table>
 
 2 Khả năng quản trị tập trung   
 
-<table><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>Tinhnangquantri</td><td rowspan=1 colspan=1>Giam sat va bao caotap trung tur cong cuquan tri,,cung cap thong tin tong quan vacac so lieu thong kétrang_thai bao vé cuahe thong</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hangmuc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiém  trathuc té</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td></tr></table>
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td></td>
+      <td>Cho phép cài đặt từ xa phần mềm diệt virus từ công cụ quản trị</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td></td>
+      <td>Tự động kích hoạt chính sách bảo vệ nâng cao khi bùng phát mã độc. Chính sách này được thiết lập riêng so với chính sách hiện hành</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td></td>
+      <td>Có cơ chế Out-of- Office cho phép thực thi một chính sách bảo</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1>N@idung</td><td rowspan=2 colspan=1> Yeu cau ky thuat</td><td rowspan=2 colspan=1>Chi tieuco&#x27; ban(CB)/Khong coban(KCB)</td><td rowspan=2 colspan=1>Phamvichophepsura doi</td><td rowspan=2 colspan=1>Tieu chi danh gia</td><td rowspan=2 colspan=1>Phuongphap kiemtra</td><td rowspan=1 colspan=2>Giai doan kiém tra</td></tr><tr><td rowspan=1 colspan=1>Kiém tra khi giaohang</td><td rowspan=1 colspan=1> Kiem trakhi chaythurc te</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=4 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>Cho phep cai dat tur xaphän mém diét virustur cong cu quan tri</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yéu cau. - Khong dat: Cac hangmuc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>Kiemtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1>Tu dong kich hoatchinh sach bao vénang cao khi bungphat mä d@c. Chinh sach nay duoc thiet laprieng so voi chinhsach hien hanh</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hangmuc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiem tratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.4</td><td rowspan=1 colspan=1>C6 co ché Out-of-Office cho phép thurcthi m@t chinh sach bao</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yeu cau.</td><td rowspan=1 colspan=1>Kiem tratai lieu ky</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>vệ phù hợp khi người sử dụng mang máy tính ra khỏi mạng cơ quan</td>
+      <td></td>
+      <td></td>
+      <td>- Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>thuật của NSX</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.5</td>
+      <td></td>
+      <td>Thực thi tác vụ rà soát lỗ hổng bảo mật trên hệ thống, có báo cáo cung cấp danh sách các lỗ hổng bảo mật được phát hiện và các bản cập nhật cho phần mềm của bên thứ ba được cài đặt trên các máy tính.</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.6</td>
+      <td></td>
+      <td>Khả năng thiết lập mô hình quản lý phân cấp Primary Manager/ secondary Manager</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=5 colspan=1>N@idung</td><td rowspan=2 colspan=1>Yeu cau ky thuat</td><td rowspan=2 colspan=1>Chi tieuco&#x27; ban(CB)/Khong co&#x27;ban(KCB)</td><td rowspan=2 colspan=1>Phamvichophépsura doi</td><td rowspan=2 colspan=1>Tieu chi danh gia</td><td rowspan=2 colspan=1>Phuong phap kiemtra</td><td rowspan=1 colspan=2> Giai doan kiém tra</td></tr><tr><td rowspan=1 colspan=1>Kiem tra khi giaohang</td><td rowspan=1 colspan=1>Kiem tra khi chaythurc te</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>vé phu hop khi nguoi sur dung mang may tinh ra khoi mang coquan</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong dat: Cac hangmuc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>thuat cuaNSX</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.5</td><td rowspan=1 colspan=1>Thuc thi tac vu ra soatl hong bao mat trénhé thong,có bao caocung_cap danh sachcac lo hong bao matduoc phat hién va cacban cäp nhat cho phanmém cua bén thur baduoc cai dat trén cac may tinh.</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hang muc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>Kiem  tratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.6</td><td rowspan=1 colspan=1> Kha nang thiet lap mohinh quan ly phan capPrimary    Manager/ secondary Manager</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau.- Khong dat: Cac hangmuc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiémtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td>2.7</td>
+      <td></td>
+      <td>Hỗ trợ đồng thời cả giao diện quản lý Web Console và MMC- based console. Có cơ chế xác thực hai bước để tăng cường bảo mật.</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.8</td>
+      <td></td>
+      <td>Cho phép tùy chỉnh, trích xuất lưu trữ các báo cáo theo các định dạng XML, HTML, PDF</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.9</td>
+      <td>Nền tảng hỗ trợ triển khai thành phần</td>
+      <td>Giải pháp cho phép triển khai thành phần quản trị On-premise hoặc Cloud</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.10</td>
+      <td></td>
+      <td>Hỗ trợ cài đặt phần mềm quản trị</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu.</td>
+      <td>Kiểm tra thực tế</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=4 colspan=1>Nidung</td><td rowspan=2 colspan=1>Yéu cau ky thuat</td><td rowspan=2 colspan=1>Chi tieuco&#x27; ban(CB)/Khong coban(KCB)</td><td rowspan=2 colspan=1>Phamvi chopheépsura di</td><td rowspan=2 colspan=1>Tieu chi danh gia</td><td rowspan=2 colspan=1>Phuongphap kiemtra</td><td rowspan=1 colspan=2>Giai doan kiém tra</td></tr><tr><td rowspan=1 colspan=1>Kiem tra khi giaohang</td><td rowspan=1 colspan=1>Kiem trakhi chaythurc te</td></tr><tr><td rowspan=1 colspan=1>2.7</td><td rowspan=1 colspan=1>H trg dong thoi ca giao dien quan ly WebConsole va MMC-based console. C6 coché xac thuc hai buocde tang cuong baomat.</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hangmuc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiémtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.8</td><td rowspan=1 colspan=1>Cho phep tuy chinh,trich xuat luu tru cacbao cao theo cac dinhdang XML，HTML,PDF</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hangmuc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>Kiem tratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.9</td><td rowspan=2 colspan=1>Nentang hotrotrienkhaithanhphan</td><td rowspan=1 colspan=1>Giai phap cho phéptrien khai thanh phanquan tri On-premisehoac Cloud</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hang muc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>Kiemtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.10</td><td rowspan=1 colspan=1>H tro cai dat phanmem    quan    tri</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1> - Dat: Cac hang mucdung voi yeu cau.</td><td rowspan=1 colspan=1>Kiém trathuc te</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung quản trị tập trung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>(Security Center) trên các nền tảng hệ điều hành: - Windows: Windows Server 2016, 2019, 2022 - Hệ điều hành Linux</td>
+      <td></td>
+      <td></td>
+      <td>- Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.11</td>
+      <td></td>
+      <td>Hỗ trợ triển khai máy chủ quản trị theo chế độ cluster hoặc failover cluster, đảm bảo tính sẵn sàng cao cho máy chủ.</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.12</td>
+      <td></td>
+      <td>Phần mềm quản trị tập trung hỗ trợ các cơ sở dữ liệu: Microsoft SQL, MySQL hoặc cơ sở dữ liệu quan hệ tương đương</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=5 colspan=1>NQidungquantritaptrung</td><td rowspan=2 colspan=1>Yeu cau ky thuat</td><td rowspan=2 colspan=1>Chi tieuco&#x27;ban(CB)/Khong coban(KCB)</td><td rowspan=2 colspan=1>Phamvi chophepsira d6i</td><td rowspan=2 colspan=1>Tieu chi danh gia</td><td rowspan=2 colspan=1>Phuong phap kiemtra</td><td rowspan=1 colspan=2>Giai doan kiém tra</td></tr><tr><td rowspan=1 colspan=1>Kiem tra khi giaohang</td><td rowspan=1 colspan=1>Kiém tra khi chaythurc te</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>(Security Center) tréncac nen tang he dieuhanh:- Windows: WindowsServer 2016,2019,2022- He dieu hanh Linux</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong dat: Cac hangmuc khong thoa manyeu cau.</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.11</td><td rowspan=1 colspan=1>H tro trien khai maychu quan tri theo chédcluster  hoacfailover cluster， dambao tinh san sang caocho may chu.</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hangmuc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiém  tratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.12</td><td rowspan=1 colspan=1> Phan mém quan tri taptrung hδ trg cac co sodulieu: MicrosoftSQL, MySQL hoac cos dur lieu quan hé tuong duong</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yéu cau. - Khong dat: Cac hangmuc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiemtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Khả năng phân tích sự cố</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>Hỗ trợ phân tích nguyên nhân sự cố</td>
+      <td>Cung cấp biểu đồ lây nhiễm mối đe dọa, bao gồm các thông tin liên quan đến sự cố như: Tiến trình chính, kết nối mạng, dlls, registry, để người quản trị có thể phân tích bối cảnh về nguyên nhân sự cố.</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Giải pháp cho phép mở rộng/ cung cấp tính năng kiểm soát dịch vụ đám mây</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4 .1</td>
+      <td>Hỗ trợ kiểm soát dịch vụ</td>
+      <td>Cho phép phát hiện việc sử dụng tài nguyên đối với các dịch vụ đám mây</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-<table><tr><td rowspan="2">Ni TT dung</td><td rowspan="2">Yéu cau ky thuat</td><td rowspan="2">Chi tieu co&#x27;ban (CB)/ Khong co&#x27; ban (KCB)</td><td rowspan="2">Pham vi cho phep sira doi</td><td rowspan="2">Tieu chi danh gia</td><td rowspan="2">Phuong phap kiem tra</td><td colspan="2">Giai doan kiém tra</td></tr><tr><td>Kiem tra khi giao hang</td><td>Kiém tra khi chay thurc te</td></tr></table>
 
 # 3 Khả năng phân tích sự cố
 
-<table><tr><td rowspan=1 colspan=1>3.1</td><td rowspan=1 colspan=1>H trophantichnguyennhansu c6</td><td rowspan=1 colspan=1>Cung cap biéu do laynhiém moi de doa, bao gom cac thong tin lienquan dén su co nhu:Tién trinh chinh,kétmang,dls,registry，denguoiquan tri có thé phantichbóicanhvénguyen nhan su có.</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yeu cau. - Khong dat: Cac hang muc khong thoa manyeu cau.</td><td rowspan=1 colspan=1>Kiemtratai lieu kythuatcuaNSX</td><td rowspan=1 colspan=1>X</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung đám mây</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td>4.2</td>
+      <td></td>
+      <td>Xếp hạng các dịch vụ đám mây được phát hiện để người quản trị có thể đánh giá các rủi ro tiềm ẩn</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Yêu cầu khác</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5.1</td>
+      <td>Chia sẻ dữ liệu</td>
+      <td>Có chức năng kết nối, chia sẻ thông tin từ hệ thống quản lý tập trung với hệ thống kỹ thuật của cơ quan chức năng có thẩm quyền theo hướng dẫn tại Văn bản số 2290/BTTTT-CATTT ngày 17/07/2018 của Cục An toàn thông tin và các hướng dẫn khác liên quan của Bộ</td>
+      <td>CB</td>
+      <td>Không</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 4 Giải pháp cho phép mở rộng/ cung cấp tính năng kiểm soát dịch vụ đám mây   
 
-<table><tr><td>kiem soat 4.1</td><td>H tro dich vu dich vu dam may</td><td>Cho phép phat hién viecsurdungtai nguyén doi voi cac</td><td>CB</td><td>Khong</td><td>- Dat: Cac hang muc dung voi yéu cau. - Khong dat: Cac hang muc khong thoa man yéu cau.</td><td>Kiemtra tai lieu ky thuatcua NSX</td><td></td><td>X</td><td></td></tr></table>
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nội dung</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Chỉ tiêu cơ bản (CB)/ Không cơ bản (KCB)</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phương pháp kiểm tra</td>
+      <td>Giai đoạn kiểm tra</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Kiểm tra khi giao hàng</td>
+      <td>Kiểm tra khi chạy thực tế</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Thông tin và Truyền thông.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục kiểm tra</td>
+      <td>Tên bài đo</td>
+      <td>Công cụ đo</td>
+      <td>Phương pháp kiểm tra</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Chỉ tiêu 1.1</td>
+      <td>Khả năng bảo vệ</td>
+      <td>Kiểm tra thực tế</td>
+      <td>Mẫu mã độc: Sử dụng mẫu mã độc https://www.eicar.org/download-anti-malware-testfile/ Cài đặt giải pháp trên 01 máy tính, bật tính năng bảo vệ thời gian thực. Thực hiện tải file mẫu .zip về máy tính. Thực hiện giải nén file .zip. Kiểm tra lịch sử bảo vệ của giải pháp. Đạt: Có lịch sử, hành động thực hiện cô lập file nguy hiểm. Không đạt: Không có lịch sử, hành động ngăn chặn</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Chỉ tiêu 1.2</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Chỉ tiêu 1.3</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Chỉ tiêu 1.4</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=3 colspan=1>N@idungdammay</td><td rowspan=2 colspan=1>Yeu cau ky thuat</td><td rowspan=2 colspan=1>Chi tieuco&#x27;ban(CB)/Khong co&#x27;ban(KCB)</td><td rowspan=2 colspan=1>Phamvi chophepsira di</td><td rowspan=2 colspan=1>Tieu chi danh gia</td><td rowspan=2 colspan=1>Phuong phap kiemtra</td><td rowspan=1 colspan=1>Giai doan kiém tra</td></tr><tr><td rowspan=1 colspan=1>Kiem tra khi chaythurc te</td></tr><tr><td rowspan=1 colspan=1>4.2</td><td rowspan=1 colspan=1>Xép hang cac dich vudam may duoc phathien dé nguoi quan tric6 thé danh gia cac ruiro tiem an</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yéu cau.- Khong dat: Cac hang muc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiem  tratai lieu kythuat cuaNSX</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục kiểm tra</td>
+      <td>Tên bài đo</td>
+      <td>Công cụ đo</td>
+      <td>Phương pháp kiểm tra</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Chỉ tiêu 1.5</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Chỉ tiêu 1.6</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Chỉ tiêu 1.7</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Chỉ tiêu 1.8</td>
+      <td>Kiểm soát ứng dụng</td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Chỉ tiêu 1.9</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Chỉ tiêu 1.10</td>
+      <td>Kiểm soát thiết bị ngoại vi</td>
+      <td>Kiểm tra thực tế</td>
+      <td>2.3 Cấu hình chặn USB trên giải pháp phòng chống mã độc 2.4 Cắm USB vào 1 máy tính đang được cài đặt giải pháp, ghi nhận kết quả. Đạt: USB bị chặn, không truy cập được. Không đạt: USB không bị chặn.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Chỉ tiêu 1.11</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Chỉ tiêu 1.12</td>
+      <td>Kiểm soát truy cập web</td>
+      <td>Kiểm tra thực tế</td>
+      <td>Lựa chọn domain thử nghiệm: Ultraviewer.net 1. Cấu hình chặn domain trên hệ thống quản trị tập trung của giải pháp. 2. Thử truy cập domain https://ultraviewer.net, ghi nhận kết quả. Đạt: Trả về thông tin domain bị chặn. Không đạt: Truy cập được domain bình thường</td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan=1 colspan=1>5.1</td><td rowspan=1 colspan=1>Chia sédur lieu</td><td rowspan=1 colspan=1>C6 chirc nang két noi,chia sé thong tin tur héthong quan ly taptrung voi hé thóng ky thuat cua co quan chircnang có tham quyéntheo huong dan taiVan      ban      s62290/BTTTT-CATTTngay 17/07/2018 cuaCuc An toan thong tinva cac huong dan khaclienquan cua Bó</td><td rowspan=1 colspan=1>CB</td><td rowspan=1 colspan=1>Khong</td><td rowspan=1 colspan=1>- Dat: Cac hang mucdung voi yeu cau. - Khong dat: Cac hangmuc khong thoa manyéu cau.</td><td rowspan=1 colspan=1>Kiém tratai lieu kythuattcuaNSX</td><td rowspan=1 colspan=1>X</td></tr></table>
 
-
-
-<table><tr><td>TT</td><td>N0i dung</td><td>Yéu cau ky thuat</td><td>Chi tieu co&#x27; ban (CB)/ Khong co&#x27; ban (KCB)</td><td>Pham vi cho phép sura doi</td><td>Tieu chi danh gia</td><td>Phurong phap kiem tra</td><td>Giai doan kiém tra Kiém tra khi giao</td><td>Kiém tra khi chay thurc te</td></tr><tr><td></td><td></td><td>Thong tin va Truyén thong.</td><td colspan="3"></td><td></td><td>hang</td><td></td></tr></table>
 
 # 2.2 PHẦN 2: PHƯƠNG PHÁP KIỂM TRA
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Danh muc kiém tra</td><td rowspan=1 colspan=1>Ten bai do</td><td rowspan=1 colspan=1>Cong cu do</td><td rowspan=1 colspan=1> Phuong phap kiém tra</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Chi tieu 1.1</td><td rowspan=1 colspan=1>Kha nang bao vé</td><td rowspan=1 colspan=1>Kiém tra thuc té</td><td rowspan=1 colspan=1>Mau ma doc: Sur dung mau ma doc https://www.eicar.org/download-anti-malware-testfile/Cai dat giai phap tren O1 may tinh, bat tinh nang bao vé thoi gian thuc.Thrc hien tai file mau .zip vé may tinh. Thuc hien giai nénfile .zip. Kiem tra lich sur bao vé cua giai phap.Dat: C6 lich sir, hanh dong thuc hién có lap file nguy hiém.Khong dat: Khong c6 lich sur, hanh dong ngan chan</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Chi tieu 1.2</td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Chi tieu 1.3</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Chi tieu 1.4</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cua NSX</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục kiểm tra</td>
+      <td>Tên bài đo</td>
+      <td>Công cụ đo</td>
+      <td>Phương pháp kiểm tra</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Chỉ tiêu 1.13</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Chỉ tiêu 1.14</td>
+      <td>Ngôn ngữ hỗ trợ</td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Chỉ tiêu 1.15</td>
+      <td>Nền tảng hỗ trợ</td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Cài đặt trên các hệ điều hành TCT đang sử dụng, bao gồm: Ubuntu 22.04, Ubuntu 24.04, Windows 10;11, MacOS Đạt: Tương thích và có tính năng bảo vệ trên các hệ điều hành thử nghiệp Không đạt: Không tương thích</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Chỉ tiêu 1.16</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Chỉ tiêu 2.1</td>
+      <td>Tính năng quản trị</td>
+      <td>Kiểm tra thực tế</td>
+      <td>Cài đặt giải pháp lên máy chủ Thử truy cập hệ thống quản trị tập trung Đạt: Có hệ thống quản trị tập trung. Hiển thị trạng thái các máy tính đã cài đặt, có các tính năng quản trị tới các agent. Không đạt: Không hiển thị trạng thái các agent, không cung cấp tính năng quản trị đến các agent.</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Chỉ tiêu 2.2</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Chỉ tiêu 2.3</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Chỉ tiêu 2.4</td>
+      <td></td>
+      <td>Kiểm tra thực tế</td>
+      <td>Cầu hình policy Out-of-Office trên 01 máy tính. Ngắt kết nối máy tính khỏi mạng nội bộ, theo dõi kết quả. Đạt: Các policy Out-of-Office được thực thi. Không đạt: Không thực thi các policy Out-of-Office</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Chỉ tiêu 2.5</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Chỉ tiêu 2.6</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Chỉ tiêu 2.7</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1> Danh muc kiém tra</td><td rowspan=1 colspan=1>Ten bai do</td><td rowspan=1 colspan=1>Cong cu do</td><td rowspan=1 colspan=1>Phuong phap kiém tra</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Chi tieu 1.5</td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cia NSX</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Chi tieu 1.6</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1> Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Chi tieu 1.7</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1> Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Chi tieu 1.8</td><td rowspan=2 colspan=1> Kiém soat ing dung</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Chi tieu 1.9</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1> Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Chi tieu 1.10</td><td rowspan=2 colspan=1>Kiem soat thiet bingoai vi</td><td rowspan=1 colspan=1> Kiém tra thuc té</td><td rowspan=1 colspan=1>2.3 Cau hinh chän USB trén giai phap phong chöngma doc2.4( Cam USB vao 1 may tinh dang dugc cai dät giaiphäp, ghi nhän két qua.Dat: USB bi chan, khong truy cap duoc. Khong dat: USB khong bi chan.</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Chi tieu 1.11</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1> Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Chi tieu 1.12</td><td rowspan=1 colspan=1> Kiem soat truy capweb</td><td rowspan=1 colspan=1> Kiem tra thuc té</td><td rowspan=1 colspan=1>Lua chon domain thur nghiem: Ultraviewer.net1. Cau hinh chan domain tren hé thóng quan tri tap trung cuagiai phap.2. Thur truy cap domain https://ltraviewer.net, ghi nhan kétqua.Dat: Tra vé thong tin domain bi chan. Khong dat: Truy cap duoc domain binh thuong</td></tr></table>
-
-
-
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1> Danh muc kiém tra</td><td rowspan=2 colspan=1>Ten bai do</td><td rowspan=2 colspan=1>Cong cu do</td><td rowspan=2 colspan=1>Phuong phap kiém tra</td></tr><tr></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Chi tieu 1.13</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Chi tieu 1.14</td><td rowspan=1 colspan=1>Ngón ngu h trg</td><td rowspan=1 colspan=1> Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Chi tieu 1.15</td><td rowspan=2 colspan=1>Nen tang h trog</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=2 colspan=1> Cai dat tren cac he dieu hanh TCT dang sur dung, bao gom: Ubuntu 22.04, Ubuntu 24.04, Windows 10;11, MacOS Dat: Tuong thich va c6 tinh nang bao vé tren cac hé diéuhanh thur nghiepKhong dat: Khong tuong thich</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Chi tieu 1.16</td><td rowspan=1 colspan=1> Tai lieu ky thuat cuaNSX</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Chi tieu 2.1</td><td rowspan=7 colspan=1> Tinh nang quan tri</td><td rowspan=1 colspan=1>Kiém tra thuc té</td><td rowspan=1 colspan=1>Cai dat giai phap len may chu Thur truy cap hé thöng quan tri tap trungDat: C6 he thong quan tri tap trung. Hien thi trang thai cacmay tinh da cai dat, có cac tinh nang quan tri toi cac agent. Khong dat: Khong hién thi trang thai cac agent, khong cung cap tinh nang quan tri dén cac agent.</td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>Chi tieu 2.2</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>Chi tieu 2.3</td><td rowspan=1 colspan=1> Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>Chi tieu 2.4</td><td rowspan=1 colspan=1>Kiém tra thuc té</td><td rowspan=1 colspan=1>Cau hinh policy Out-of-Office tren O1 may tinh. Ngat két noi may tinh khoi mang noi bo, theo doi két qua.Dat: Cac policy Out-of-Office dugc thuc thi. Khong dat: Khong thuc thi cac policy Out-of-Office</td></tr><tr><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>Chi tieu 2.5</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1> Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>Chi tieu 2.6</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>Chi tieu 2.7</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cua NSX</td></tr></table>
-
-
-
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1> Danh muc kiém tra</td><td rowspan=2 colspan=1>Ten bai do</td><td rowspan=2 colspan=1> Cong cu do</td><td rowspan=2 colspan=1> Phuong phap kiém tra</td></tr><tr></tr><tr><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>Chi tieu 2.8</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1> Kiem tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>Chi tieu 2.9</td><td rowspan=3 colspan=1>Nen tang ho tro trien khai thanh phan quan tri tap trung</td><td rowspan=1 colspan=1>Kiem tra thuc té</td><td rowspan=2 colspan=1>Cai dat giai phap quan tri tren may chu cloud, hé dieu hanhWindows server 2019-2022.Dat: Giai phap trong thich. Khong dat: Giai phap khong tuong thich</td></tr><tr><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>Chi tieu 2.10</td><td rowspan=1 colspan=1> Kiém tra thuc té</td></tr><tr><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>Chi tieu 2.11</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1> Kiem tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>Chi tieu 2.12</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1> Kiem tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>Chi tieu 3.1</td><td rowspan=1 colspan=1>H tro phan tichnguyen nhan su c6</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1> Kiém tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>Chi tieu 4.1</td><td rowspan=1 colspan=1>H tro kiem soat</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1> Kiem tra tai lieu ky thuat cua NSX</td></tr><tr><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>Chi tieu 4.2</td><td rowspan=1 colspan=1>dich vu dam may</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1>Kiém tra tai lieu ky thuat cüa NSX</td></tr><tr><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>Chi tieu 5.1</td><td rowspan=1 colspan=1> Chia sé dur lieu</td><td rowspan=1 colspan=1>Tai lieu ky thuat cuaNSX</td><td rowspan=1 colspan=1> Kiem tra tai lieu ky thuat cua NSX</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục kiểm tra</td>
+      <td>Tên bài đo</td>
+      <td>Công cụ đo</td>
+      <td>Phương pháp kiểm tra</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Chỉ tiêu 2.8</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Chỉ tiêu 2.9</td>
+      <td>Nền tảng hỗ trợ triển khai thành phần quản trị tập trung</td>
+      <td>Kiểm tra thực tế</td>
+      <td>Cài đặt giải pháp quản trị trên máy chủ cloud, hệ điều hành Windows server 2019-2022. Đạt: Giải pháp tương thích. Không đạt: Giải pháp không tương thích</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Chỉ tiêu 2.10</td>
+      <td></td>
+      <td>Kiểm tra thực tế</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Chỉ tiêu 2.11</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Chỉ tiêu 2.12</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Chỉ tiêu 3.1</td>
+      <td>Hỗ trợ phân tích nguyên nhân sự cố</td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Chỉ tiêu 4.1</td>
+      <td>Hỗ trợ kiểm soát dịch vụ đám mây</td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Chỉ tiêu 4.2</td>
+      <td></td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Chỉ tiêu 5.1</td>
+      <td>Chia sẻ dữ liệu</td>
+      <td>Tài liệu kỹ thuật của NSX</td>
+      <td>Kiểm tra tài liệu kỹ thuật của NSX</td>
+    </tr>
+  </tbody>
+</table>

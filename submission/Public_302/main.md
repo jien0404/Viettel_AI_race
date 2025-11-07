@@ -36,9 +36,33 @@ Các trụ cột chính của Observability trong Kubernetes gồm:
 
 # 4. Công Cụ Observability Thường Dùng
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Công Cụ</td>
+      <td>Chức Năng</td>
+      <td>Ghi Chú</td>
+    </tr>
+    <tr>
+      <td>Prometheus</td>
+      <td>Metrics</td>
+      <td>Giám sát số liệu cluster.</td>
+    </tr>
+    <tr>
+      <td>Grafana</td>
+      <td>Visualization</td>
+      <td>Biểu đồ, dashboard.</td>
+    </tr>
+    <tr>
+      <td>Jaeger / OpenTelemetry</td>
+      <td>Tracing</td>
+      <td>Theo dõi request phân tán.</td>
+    </tr>
+  </tbody>
+</table>
 
 
-<table><tr><td>ELK /Loki</td><td>Logging</td><td>Thu thap &amp; phan tich log.</td></tr></table>
 
 # 5. Quy Trình Troubleshooting Kubernetes
 
@@ -58,7 +82,16 @@ Quy trình thường áp dụng khi xử lý sự cố Kubernetes:
 
 # 7. Observability vs Monitoring
 
-<table><tr><td rowspan=1 colspan=1>Monitoring</td><td rowspan=1 colspan=1>Observability</td></tr><tr><td rowspan=1 colspan=1>Theo doi chi só dinh sän.</td><td rowspan=1 colspan=1>Khä nang phan tich sau, tim rootcause.</td></tr><tr><td rowspan=1 colspan=1>Gioi han trong du lieu da biét.</td><td rowspan=1 colspan=1>Khai thac dur liéu hé thóng dé tra loicau hoi moi.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>ELK / Loki</td>
+      <td>Logging</td>
+      <td>Thu thập & phân tích log.</td>
+    </tr>
+  </tbody>
+</table>
 
 # 8. Kết Luận
 
@@ -66,15 +99,61 @@ Observability là yếu tố then chốt để vận hành Kubernetes hiệu qu�
 
 # 9. Bảng Minh Họa Với Merge Cell
 
-<table><tr><td rowspan=1 colspan=4>Pipeline Observability Trong Kubernetes</td></tr><tr><td rowspan=1 colspan=1>Metrics</td><td rowspan=1 colspan=1>Logging</td><td rowspan=1 colspan=1>Tracing</td><td rowspan=1 colspan=1>Ghi Chu</td></tr><tr><td rowspan=1 colspan=3>Thu Thap Dα Liéu</td><td rowspan=1 colspan=1>Prometheus,ELK, Jaeger</td></tr><tr><td rowspan=1 colspan=1>Phan Tich</td><td rowspan=1 colspan=1>Quan Sat</td><td rowspan=1 colspan=1>Tim Root Cause</td><td rowspan=1 colspan=1>Giam MTTR</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Monitoring</td>
+      <td>Observability</td>
+    </tr>
+    <tr>
+      <td>Theo dõi chỉ số định sẵn.</td>
+      <td>Khả năng phân tích sâu, tìm root cause.</td>
+    </tr>
+    <tr>
+      <td>Giới hạn trong dữ liệu đã biết.</td>
+      <td>Khai thác dữ liệu hệ thống để trả lời câu hỏi mới.</td>
+    </tr>
+  </tbody>
+</table>
 
 # 10. Bảng Pipeline Quan Sát (Phiên Bản Dài)
 
-<table><tr><td rowspan=1 colspan=5>Pipeline Observability Mo Róng</td></tr><tr><td rowspan=1 colspan=1>Buoc</td><td rowspan=1 colspan=1>Metrics</td><td rowspan=1 colspan=1>Logging</td><td rowspan=1 colspan=1>Tracing</td><td rowspan=1 colspan=1>Ghi Chu</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Pipeline Observability Trong Kubernetes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metrics Logging Tracing</td>
+      <td>Ghi Chú</td>
+    </tr>
+    <tr>
+      <td>Thu Thập Dữ Liệu</td>
+      <td>Prometheus, ELK, Jaeger</td>
+    </tr>
+    <tr>
+      <td>Phân Tích Quan Sát Tìm Root Cause</td>
+      <td>Giảm MTTR</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Pipeline Observability Mở Rộng</td>
+    </tr>
+    <tr>
+      <td>Bước Metrics Logging Tracing Ghi Chú</td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-<table><tr><td rowspan=1 colspan=1>Thu Thap DαLieu</td><td rowspan=1 colspan=1>NodeExporter</td><td rowspan=1 colspan=1>Fluentd /Loki</td><td rowspan=1 colspan=1> Jaeger Agent</td><td rowspan=1 colspan=1>Cac agent thuthap dur lieutur cluster</td></tr><tr><td rowspan=1 colspan=1>Luu Trur</td><td rowspan=1 colspan=2>Prometheus TSDBElasticsearch /Loki</td><td rowspan=1 colspan=1>JaegerCollector</td><td rowspan=1 colspan=1>Kho dur lieutrung tam</td></tr><tr><td rowspan=1 colspan=1>Phan Tich</td><td rowspan=1 colspan=1>PromQL</td><td rowspan=1 colspan=1>Kibana /Grafana Loki</td><td rowspan=1 colspan=1> Jaeger Query</td><td rowspan=1 colspan=1>Phan tich duliéu tur nhiéunguon</td></tr><tr><td rowspan=1 colspan=1>Truc QuanH6a</td><td rowspan=1 colspan=1>GrafanaDashboards</td><td rowspan=1 colspan=1>KibanaDashboard</td><td rowspan=1 colspan=1>Jaeger UI</td><td rowspan=1 colspan=1>Cung capdashboardcho DevOps</td></tr><tr><td rowspan=1 colspan=1>Hanh Dong&amp; T6iUu</td><td rowspan=1 colspan=1>Alertmanager</td><td rowspan=1 colspan=1>Canh bao logbat thuong</td><td rowspan=1 colspan=1>Trace-basedalerts</td><td rowspan=1 colspan=1>Giam MTTR,cai thien SLO</td></tr></table>
 
 # 11. Phân Tích Chi Tiết Về Observability Trong Kubernetes
 
@@ -90,12 +169,49 @@ Một quy trình troubleshooting điển hình trong Kubernetes thường bắt 
 
 Best Practices cho Observability trong Kubernetes bao $\mathrm { g } \dot { \hat { \mathrm { o } } } \mathrm { m } ; 1$ 1) Chuẩn hóa log và metrics; 2) Sử dụng nhãn (label) thống nhất; 3) Tích hợp Observability vào
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Thu Thập Dữ Liệu</td>
+      <td>Node Exporter</td>
+      <td>Fluentd / Loki</td>
+      <td>Jaeger Agent</td>
+      <td>Các agent thu thập dữ liệu từ cluster</td>
+    </tr>
+    <tr>
+      <td>Lưu Trữ</td>
+      <td>Prometheus TSDB Elasticsearch / Loki</td>
+      <td></td>
+      <td>Jaeger Collector</td>
+      <td>Kho dữ liệu trung tâm</td>
+    </tr>
+    <tr>
+      <td>Phân Tích</td>
+      <td>PromQL</td>
+      <td>Kibana / Grafana Loki</td>
+      <td>Jaeger Query</td>
+      <td>Phân tích dữ liệu từ nhiều nguồn</td>
+    </tr>
+    <tr>
+      <td>Trực Quan Hóa</td>
+      <td>Grafana Dashboards</td>
+      <td>Kibana Dashboard</td>
+      <td>Jaeger UI</td>
+      <td>Cung cấp dashboard cho DevOps</td>
+    </tr>
+    <tr>
+      <td>Hành Động & Tối Ưu</td>
+      <td>Alertmanager</td>
+      <td>Cảnh báo log bất thường</td>
+      <td>Trace-based alerts</td>
+      <td>Giảm MTTR, cải thiện SLO</td>
+    </tr>
+  </tbody>
+</table>
 
 pipeline CI/CD; 4) Tự động hóa cảnh báo; 5) Liên tục đánh giá và tối ưu hóa chi phí lưu trữ dữ liệu.
 
 Một ví dụ thực tế: khi ứng dụng microservice gặp lỗi 'Pod CrashLoopBackOff', metrics có thể cho thấy pod liên tục khởi động lại, log cung cấp thông tin về lỗi ứng dụng, trong khi tracing cho thấy request dừng lại ở một dịch vụ phụ thuộc. Nhờ quan sát đầy đủ, đội ngũ DevOps nhanh chóng sửa lỗi cấu hình và khôi phục dịch vụ.
 
 # 12. So Sánh Observability và Monitoring
-
-<table><tr><td rowspan=1 colspan=1>Khia Canh</td><td rowspan=1 colspan=1>Monitoring</td><td rowspan=1 colspan=1>Observability</td></tr><tr><td rowspan=1 colspan=1>Muc Tieu</td><td rowspan=1 colspan=1>Theo doi tinh trang hethong</td><td rowspan=1 colspan=1>Hiéu ro nguyén nhanbén trong</td></tr><tr><td rowspan=1 colspan=1>Du Lieu</td><td rowspan=1 colspan=1>Chu yéu metrics co ban</td><td rowspan=1 colspan=1>Metrics, Logging,Tracing</td></tr><tr><td rowspan=1 colspan=1>Cong Cu</td><td rowspan=1 colspan=1>Nagios, Zabbix</td><td rowspan=1 colspan=1>Prometheus, Grafana,Jaeger, ELK</td></tr><tr><td rowspan=1 colspan=1>Pham Vi</td><td rowspan=1 colspan=1>He thong tong thé</td><td rowspan=1 colspan=1>Ting dich vu, request cuthé</td></tr></table>

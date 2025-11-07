@@ -1,35 +1,372 @@
 # Public_375
 
-<table><tr><td rowspan=1 colspan=1>Tan s6/Bang tan</td><td rowspan=1 colspan=1> Ung dung</td><td rowspan=1 colspan=1>Cong suat burc xalon nhat, e.r.p./Mat do pho congsuat</td><td rowspan=1 colspan=1>Khoang cachkénh</td><td rowspan=1 colspan=1>Yeu cau giamthiéu va truy capph (e.g. he s6lam viec hay LBT+ AFA)</td></tr><tr><td rowspan=1 colspan=1>26,995 MHz</td><td rowspan=4 colspan=1>Dieu khien mohinh</td><td rowspan=4 colspan=1>100 mW</td><td rowspan=4 colspan=1>10 kHz</td><td rowspan=4 colspan=1>Khong han ché</td></tr><tr><td rowspan=1 colspan=1>27,045 MHz,27,095 MHz,27,145 MHz,27,195 MHz</td></tr><tr><td rowspan=1 colspan=1>34,995 MHz toi35,225 MHz</td></tr><tr><td rowspan=1 colspan=1>40,665 MHz,40,675 MHz,40,685 MHz,40,695 MHz</td></tr><tr><td rowspan=1 colspan=1>26,957 MHz toi27,283 MHz</td><td rowspan=2 colspan=1>Dung cho mucdich chung</td><td rowspan=2 colspan=1>10 mW</td><td rowspan=2 colspan=1>Khong yéu cau</td><td rowspan=2 colspan=1>Khong han ché</td></tr><tr><td rowspan=1 colspan=1>40,660 MHz toi</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tần số/Băng tần Ứng dụng</td>
+      <td></td>
+      <td>Công suất bức xạ lớn nhất, e.r.p. /Mật độ phổ công suất</td>
+      <td>Khoảng cách kênh</td>
+      <td>Yêu cầu giảm thiểu và truy cập phổ (e.g. hệ số làm việc hay LBT + AFA)</td>
+    </tr>
+    <tr>
+      <td>26,995 MHz</td>
+      <td>Điều khiển mô hình</td>
+      <td>100 mW</td>
+      <td>10 kHz</td>
+      <td>Không hạn chế</td>
+    </tr>
+    <tr>
+      <td>27,045 MHz, 27,095 MHz, 27,145 MHz, 27,195 MHz</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>34,995 MHz tới 35,225 MHz</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>40,665 MHz, 40,675 MHz, 40,685 MHz, 40,695 MHz</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>26,957 MHz tới 27,283 MHz</td>
+      <td>Dùng cho mục đích chung</td>
+      <td>10 mW</td>
+      <td>Không yêu cầu</td>
+      <td>Không hạn chế</td>
+    </tr>
+    <tr>
+      <td>40,660 MHz tới</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>Tan s6/Bang tan</td><td rowspan=1 colspan=1>Ung dung</td><td rowspan=1 colspan=1>Cong suat birc xalon nhat, e.r.p./Mat do ph congsuat</td><td rowspan=1 colspan=1>Khoang cachkénh</td><td rowspan=1 colspan=1> Yeu cau giamthiéu va truy c@pph (e.g. he s6lam viec hay LBT+ AFA)</td></tr><tr><td rowspan=1 colspan=1>40,700MHz</td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>138,200 MHz toi138,450 MHz</td><td rowspan=1 colspan=1>1%(xem Chu thich 3)</td></tr><tr><td rowspan=1 colspan=1>169,400 MHz toi169,475 MHz</td><td rowspan=1 colspan=1> Tim kiemva theo doi</td><td rowspan=1 colspan=1>500 mW</td><td rowspan=1 colspan=1>≤50 kHz</td><td rowspan=1 colspan=1>1%(xem Chu thich 3)</td></tr><tr><td rowspan=1 colspan=1>169,400 MHz tói169,475 MHz</td><td rowspan=1 colspan=1>Gia tri maydo</td><td rowspan=1 colspan=1>500 mW</td><td rowspan=1 colspan=1>≤50 kHz</td><td rowspan=1 colspan=1>10%</td></tr><tr><td rowspan=1 colspan=1>169,475 MHz toi169,4875 MHz</td><td rowspan=1 colspan=1>Canh bao chung</td><td rowspan=1 colspan=1>10 mW</td><td rowspan=1 colspan=1>12,5 kHz</td><td rowspan=1 colspan=1>0,1%</td></tr><tr><td rowspan=1 colspan=1>169,5875 MHz toi169,6000 MHz</td><td rowspan=1 colspan=1>Canh bao chung</td><td rowspan=1 colspan=1>10 mW</td><td rowspan=1 colspan=1>12.5 kHz</td><td rowspan=1 colspan=1>0,1%</td></tr><tr><td rowspan=1 colspan=1>433,050 MHz toi434,790 MHz</td><td rowspan=1 colspan=1>Dung cho mucdich chung</td><td rowspan=1 colspan=1>10 mW</td><td rowspan=1 colspan=1>Khóng yéu cau</td><td rowspan=1 colspan=1>10%(xem Chu thich 3)</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tần số/Băng tần Ứng dụng</td>
+      <td></td>
+      <td>Công suất bức xạ lớn nhất, e.r.p. /Mật độ phổ công suất</td>
+      <td>Khoảng cách kênh</td>
+      <td>Yêu cầu giảm thiểu và truy cập phổ (e.g. hệ số làm việc hay LBT + AFA)</td>
+    </tr>
+    <tr>
+      <td>40,700 MHz</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>138,200 MHz tới 138,450 MHz</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1 % (xem Chú thích 3)</td>
+    </tr>
+    <tr>
+      <td>169,400 MHz tới 169,475 MHz</td>
+      <td>Tìm kiếm và theo dõi</td>
+      <td>500 mW</td>
+      <td>≤50 kHz</td>
+      <td>1 % (xem Chú thích 3)</td>
+    </tr>
+    <tr>
+      <td>169,400 MHz tới 169,475 MHz</td>
+      <td>Giá trị máy đo</td>
+      <td>500 mW</td>
+      <td>≤50 kHz</td>
+      <td>10 %</td>
+    </tr>
+    <tr>
+      <td>169,475 MHz tới 169,4875 MHz</td>
+      <td>Cảnh báo chung</td>
+      <td>10 mW</td>
+      <td>12,5 kHz</td>
+      <td>0,1 %</td>
+    </tr>
+    <tr>
+      <td>169,5875 MHz tới 169,6000 MHz</td>
+      <td>Cảnh báo chung</td>
+      <td>10 mW</td>
+      <td>12,5 kHz</td>
+      <td>0,1 %</td>
+    </tr>
+    <tr>
+      <td>433,050 MHz tới 434,790 MHz</td>
+      <td>Dùng cho mục đích chung</td>
+      <td>10 mW</td>
+      <td>Không yêu cầu</td>
+      <td>10 % (xem Chú thích 3)</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td>Tan s6/Bang tan</td><td>Ung dung</td><td>Cong suat burc xa lon nhat, e.r.p. /Mat do pho cong suat</td><td>Khoang cach kenh</td><td>Yeu cau giam thiéu va truy cap ph (e.g. he só lam viec hay LBT + AFA)</td></tr><tr><td>(xem Chu thich 4)</td><td></td><td></td><td></td><td></td></tr><tr><td>433,050 MHz toi 434,790 MHz (xem Chu thich 5) dich chung</td><td>Dung cho muc</td><td>1 mW Voi do rong bang tan lon hon 250 kHz mat do cong suat gioi han - 13 dBm/10 kHz</td><td>Khong yeu cau</td><td>100%</td></tr><tr><td>434,040 MHz toi 434,790 MHz (xem Chu thich 5)</td><td>Dung cho muc dich chung</td><td>10 mW</td><td>≤25 kHz</td><td>100 %</td></tr><tr><td>863,000 MHz toi 870,000 MHz (xem Chu thich 4) Do rong bang tan dieu ché len toi</td><td>Dung cho muc dich chung (dieu ché bang hep/rong)</td><td>25 mW</td><td>≤100 kHz (xem Chu thich 6</td><td>0,1 % or LBT + AFA (xem Chu thich 2,3,9)</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tần số/Băng tần Ứng dụng</td>
+      <td></td>
+      <td>Công suất bức xạ lớn nhất, e.r.p. /Mật độ phổ công suất</td>
+      <td>Khoảng cách kênh</td>
+      <td>Yêu cầu giảm thiểu và truy cập phổ (e.g. hệ số làm việc hay LBT + AFA)</td>
+    </tr>
+    <tr>
+      <td>(xem Chú thích 4)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>433,050 MHz tới 434,790 MHz (xem Chú thích 5)</td>
+      <td>Dùng cho mục đích chung</td>
+      <td>1 mW Với độ rộng băng tần lớn hơn 250 kHz mật độ công suất giới hạn - 13 dBm/10 kHz</td>
+      <td>Không yêu cầu</td>
+      <td>100 %</td>
+    </tr>
+    <tr>
+      <td>434,040 MHz tới 434,790 MHz (xem Chú thích 5)</td>
+      <td>Dùng cho mục đích chung</td>
+      <td>10 mW</td>
+      <td>≤25 kHz</td>
+      <td>100 %</td>
+    </tr>
+    <tr>
+      <td>863,000 MHz tới 870,000 MHz (xem Chú thích 4) Độ rộng băng tần điều chế lên tới 300 kHz được cho</td>
+      <td>Dùng cho mục đích chung (điều chế băng hẹp/rộng)</td>
+      <td>25 mW</td>
+      <td>≤100 kHz (xem Chú thích 6)</td>
+      <td>0,1 % or LBT + AFA (xem Chú thích 2,3,9)</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>Tan so/Bang tan</td><td rowspan=1 colspan=1>Ung dung</td><td rowspan=1 colspan=1>Cong suat burc xalon nhat, e.r.p./Mat d pho congsuat</td><td rowspan=1 colspan=1>Khoang cachkenh</td><td rowspan=1 colspan=1>Yeu cau giamthiéu va truy capph (e.g. he slam viec hay LBT+ AFA)</td></tr><tr><td rowspan=1 colspan=1>phep(xem 2.3.7.3)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>863,000 MHz toi870,000 MHz(xem Chu thich 4)</td><td rowspan=1 colspan=1>Dung cho mucdich chungDSSS va dieuché bang rongkhacFHSS)</td><td rowspan=1 colspan=1>25 mW mat docong suat gioi han-4,5 dBm/100 kHz(xem Chuthich 1 va 7)</td><td rowspan=1 colspan=1>Khong yéu cau</td><td rowspan=1 colspan=1>0,1 % or LBT +AFA (xem Chuthich 3,8,9)</td></tr><tr><td rowspan=1 colspan=1>863,000 MHz toi870,000 MHz(xem Chu thich 4)</td><td rowspan=1 colspan=1>Dung cho mucdich chung(dieu chéFHSS)</td><td rowspan=1 colspan=1>25 mW (xemChu thich 1)</td><td rowspan=1 colspan=1>≤100 kHz(xem bang 6va Chu thich6</td><td rowspan=1 colspan=1>0,1 % hoac LBT(xem Chu thich 2va 9)</td></tr><tr><td rowspan=1 colspan=1>864,800 MHz toi865,000 MHz</td><td rowspan=1 colspan=1>Am thanhkhong day</td><td rowspan=1 colspan=1>10 mW</td><td rowspan=1 colspan=1>50 kHz</td><td rowspan=1 colspan=1>Khong han ché</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tần số/Băng tần Ứng dụng</td>
+      <td></td>
+      <td>Công suất bức xạ lớn nhất, e.r.p. /Mật độ phổ công suất</td>
+      <td>Khoảng cách kênh</td>
+      <td>Yêu cầu giảm thiểu và truy cập phổ (e.g. hệ số làm việc hay LBT + AFA)</td>
+    </tr>
+    <tr>
+      <td>phép (xem 2.3.7.3)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>863,000 MHz tới 870,000 MHz (xem Chú thích 4)</td>
+      <td>Dùng cho mục đích chung (DSSS và điều chế băng rộng khácFHSS)</td>
+      <td>25 mW mật độ công suất giới hạn -4,5 dBm/ 100 kHz (xem Chú thích 1 và 7)</td>
+      <td>Không yêu cầu 0,1 % or LBT +</td>
+      <td>AFA (xem Chú thích 3,8,9)</td>
+    </tr>
+    <tr>
+      <td>863,000 MHz tới 870,000 MHz (xem Chú thích 4)</td>
+      <td>Dùng cho mục đích chung (điều chế FHSS)</td>
+      <td>25 mW (xem Chú thích 1)</td>
+      <td>≤100 kHz (xem bảng 6 và Chú thích 6)</td>
+      <td>0,1 % hoặc LBT (xem Chú thích 2 và 9)</td>
+    </tr>
+    <tr>
+      <td>864,800 MHz tới 865,000 MHz</td>
+      <td>Âm thanh không dây</td>
+      <td>10 mW</td>
+      <td>50 kHz</td>
+      <td>Không hạn chế</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>Tan s6/Bang tan</td><td rowspan=1 colspan=1>Ung dung</td><td rowspan=1 colspan=1>Cong suat burc xalon nhat, e.r.p./Mat do pho congsuat</td><td rowspan=1 colspan=1>Khoang cachkenh</td><td rowspan=1 colspan=1>Yeu cau giamthiéu va truy cappho (e.g. he sólam viec hay LBT+ AFA)</td></tr><tr><td rowspan=1 colspan=1>868,000 MHz toi868,600 MHz(xem Chu thich 4)</td><td rowspan=1 colspan=1>Dung cho muc dich chung</td><td rowspan=1 colspan=1>25 mW</td><td rowspan=1 colspan=1>Khong yeu cau(xem Chu thich6</td><td rowspan=1 colspan=1>1 %orLBT +AFA(xem Chu thich 3)</td></tr><tr><td rowspan=1 colspan=1>868,600 MHz toi868,700 MHz</td><td rowspan=1 colspan=1>Canh bao</td><td rowspan=1 colspan=1>10 mW</td><td rowspan=1 colspan=1>25 kHztoan bo daitan so c6 thédroc surdung nhu 1kenh bangrong detruyen durlieu toc docao</td><td rowspan=1 colspan=1>1%</td></tr><tr><td rowspan=1 colspan=1>868,700 MHz toi869,200 MHz(xem Chu thich 4)</td><td rowspan=1 colspan=1>Dung cho muc dich chung</td><td rowspan=1 colspan=1>25 mW</td><td rowspan=1 colspan=1>Khong yeu cau(xem Chuthich 6)</td><td rowspan=1 colspan=1>0,1 % or LBT +AFA(xem Chu thich 3)</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tần số/Băng tần Ứng dụng</td>
+      <td></td>
+      <td>Công suất bức xạ lớn nhất, e.r.p. /Mật độ phổ công suất</td>
+      <td>Khoảng cách kênh</td>
+      <td>Yêu cầu giảm thiểu và truy cập phổ (e.g. hệ số làm việc hay LBT + AFA)</td>
+    </tr>
+    <tr>
+      <td>868,000 MHz tới 868,600 MHz (xem Chú thích 4)</td>
+      <td>Dùng cho mục đích chung</td>
+      <td>25 mW</td>
+      <td>Không yêu cầu (xem Chú thích 6)</td>
+      <td>1 % or LBT + AFA (xem Chú thích 3)</td>
+    </tr>
+    <tr>
+      <td>868,600 MHz tới 868,700 MHz</td>
+      <td>Cảnh báo</td>
+      <td>10 mW</td>
+      <td>25 kHz toàn bộ dải tần số có thể được sử dụng như 1 kênh băng rộng để truyền dữ liệu tốc độ cao</td>
+      <td>1 %</td>
+    </tr>
+    <tr>
+      <td>868,700 MHz tới 869,200 MHz (xem Chú thích 4)</td>
+      <td>Dùng cho mục đích chung</td>
+      <td>25 mW</td>
+      <td>Không yêu cầu (xem Chú thích 6)</td>
+      <td>0,1 % or LBT + AFA (xem Chú thích 3)</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>Tan s6/Bang tan</td><td rowspan=1 colspan=1> Ung dung</td><td rowspan=1 colspan=1>Cong suat buirc xalon nhat, e.r.p./Mat do pho congsuat</td><td rowspan=1 colspan=1>Khoang cachkenh</td><td rowspan=1 colspan=1>Yeu cau giamthiéu va truy c@pphó (e.g. he sólam viec hay LBT+ AFA)</td></tr><tr><td rowspan=1 colspan=1>869,200 MHz toi869,250 MHz</td><td rowspan=1 colspan=1>Canh bao chung</td><td rowspan=1 colspan=1>10 mW</td><td rowspan=1 colspan=1>25 kHz</td><td rowspan=1 colspan=1>0,1%</td></tr><tr><td rowspan=1 colspan=1>869,250 MHz toi869,300 MHz</td><td rowspan=1 colspan=1>Canh bao</td><td rowspan=1 colspan=1>10 mW</td><td rowspan=1 colspan=1>25 kHz</td><td rowspan=1 colspan=1>0,1%</td></tr><tr><td rowspan=1 colspan=1>869,300 MHz toi869,400 MHz</td><td rowspan=1 colspan=1>Canh bao</td><td rowspan=1 colspan=1>10 mW</td><td rowspan=1 colspan=1>25 kHz</td><td rowspan=1 colspan=1>1%</td></tr><tr><td rowspan=1 colspan=1>869,400 MHz toi869,650 MHz</td><td rowspan=1 colspan=1>Dung cho mucdich chung</td><td rowspan=1 colspan=1>500 mW</td><td rowspan=1 colspan=1>≤25 kHztoan bo daitan so co thédroc sur dungnhur 1 kenhbang rong détruyén du lieutc do cao</td><td rowspan=1 colspan=1>10 % or LBT+AFA(xem Chu thich 3)</td></tr><tr><td rowspan=1 colspan=1>869,650 MHz toi869,700 MHz</td><td rowspan=1 colspan=1>Canh bao</td><td rowspan=1 colspan=1>25 mW</td><td rowspan=1 colspan=1>25 kHz</td><td rowspan=1 colspan=1>10%</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tần số/Băng tần Ứng dụng</td>
+      <td></td>
+      <td>Công suất bức xạ lớn nhất, e.r.p. /Mật độ phổ công suất</td>
+      <td>Khoảng cách kênh</td>
+      <td>Yêu cầu giảm thiểu và truy cập phổ (e.g. hệ số làm việc hay LBT + AFA)</td>
+    </tr>
+    <tr>
+      <td>869,200 MHz tới 869,250 MHz</td>
+      <td>Cảnh báo chung</td>
+      <td>10 mW</td>
+      <td>25 kHz</td>
+      <td>0,1 %</td>
+    </tr>
+    <tr>
+      <td>869,250 MHz tới 869,300 MHz</td>
+      <td>Cảnh báo</td>
+      <td>10 mW</td>
+      <td>25 kHz</td>
+      <td>0,1 %</td>
+    </tr>
+    <tr>
+      <td>869,300 MHz tới 869,400 MHz</td>
+      <td>Cảnh báo</td>
+      <td>10 mW</td>
+      <td>25 kHz</td>
+      <td>1 %</td>
+    </tr>
+    <tr>
+      <td>869,400 MHz tới 869,650 MHz</td>
+      <td>Dùng cho mục đích chung</td>
+      <td>500 mW</td>
+      <td>≤25 kHz toàn bộ dải tần số có thể được sử dụng như 1 kênh băng rộng để truyền dữ liệu tốc độ cao</td>
+      <td>10 % or LBT+ AFA (xem Chú thích 3)</td>
+    </tr>
+    <tr>
+      <td>869,650 MHz tới 869,700 MHz</td>
+      <td>Cảnh báo</td>
+      <td>25 mW</td>
+      <td>25 kHz</td>
+      <td>10 %</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>Tan só/Bang tan</td><td rowspan=1 colspan=1>Ung dung</td><td rowspan=1 colspan=1>Cong suat burc xalon nhat, e.r.p./Mat do pho congsuat</td><td rowspan=1 colspan=1>Khoang cachkénh</td><td rowspan=1 colspan=1>Yeu cau giam thiéu va truy capph (e.g. he s6lam viec hay LBT+ AFA)</td></tr><tr><td rowspan=1 colspan=1>869,700 MHz toi870,000 MHz(xem Chu thich 5)</td><td rowspan=1 colspan=1>Dung cho mucdich chung</td><td rowspan=1 colspan=1>25 mW</td><td rowspan=1 colspan=1>Khong yeu cau</td><td rowspan=1 colspan=1>1 % or LBT+AFA(xem Chu thich 2,3)</td></tr><tr><td rowspan=1 colspan=1>869,700 MHz toi870,000 MHz(xem Chu thich 5)</td><td rowspan=1 colspan=1>Dung cho muc dich chung</td><td rowspan=1 colspan=1>5 mW</td><td rowspan=1 colspan=1>Khóng yéu cau Khong han ché</td><td rowspan=1 colspan=1>Khóng yéu cau Khong han ché</td></tr><tr><td rowspan=1 colspan=5>CHU THiCH 1: Cac gioi han cóng suat, sap xép kenh va chu trinh hoat dong cho cacthiét bi FHSS duoc quy dinh trong 2.3.4.1.2; voi DSSS va thiét bi trai phó FHSS khacduoc quy dinh tai 2.3.4.1.3.CHU THiCH 2: Dói voi cac thiét bi doi tan nhanh ma khong c6 LBT (hoac ky thuattuong duong) hoat dong trong pham vi tan só 863 MHz dén 870 MHz, gioi han chu kyhoat dong áp dung cho viec truyén tai trur khi có quy dinh cu thé khac (vi du: cac muc2.3.10.3).CHU THiCH 3: Mot chu ky hoat dong, LBT hoac ky thuat trong duong duoc ap dung sékhong phu thuoc vao nguoi sur dung/ diéu chinh va phai duoc bao dam bang phuong tienky thuat thich hop. Dói voi thiét bi LBT ma khóng c6 tan só nhanh thich üng (AFA)</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tần số/Băng tần Ứng dụng</td>
+      <td></td>
+      <td>Công suất bức xạ lớn nhất, e.r.p. /Mật độ phổ công suất</td>
+      <td>Khoảng cách kênh</td>
+      <td>Yêu cầu giảm thiểu và truy cập phổ (e.g. hệ số làm việc hay LBT + AFA)</td>
+    </tr>
+    <tr>
+      <td>869,700 MHz tới 870,000 MHz (xem Chú thích 5)</td>
+      <td>Dùng cho mục đích chung</td>
+      <td>25 mW</td>
+      <td>Không yêu cầu</td>
+      <td>1 % or LBT+AFA (xem Chú thích 2,3)</td>
+    </tr>
+    <tr>
+      <td>869,700 MHz tới 870,000 MHz (xem Chú thích 5)</td>
+      <td>Dùng cho mục đích chung</td>
+      <td>5 mW</td>
+      <td>Không yêu cầu Không hạn chế</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CHÚ THÍCH 1: Các giới hạn công suất, sắp xếp kênh và chu trình hoạt động cho các thiết bị FHSS được quy định trong 2.3.4.1.2; với DSSS và thiết bị trải phổ FHSS khác được quy định tại 2.3.4.1.3. CHÚ THÍCH 2: Đối với các thiết bị đổi tần nhanh mà không có LBT (hoặc kỹ thuật tương đương) hoạt động trong phạm vi tần số 863 MHz đến 870 MHz, giới hạn chu kỳ hoạt động áp dụng cho việc truyền tải trừ khi có quy định cụ thể khác (ví dụ: các mục 2.3.10.3). CHÚ THÍCH 3: Một chu kỳ hoạt động, LBT hoặc kỹ thuật tương đương được áp dụng sẽ không phụ thuộc vào người sử dụng/ điều chỉnh và phải được bảo đảm bằng phương tiện kỹ thuật thích hợp. Đối với thiết bị LBT mà không có tần số nhanh thích ứng (AFA)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td colspan="3">NGAN DAI TAN 25 MHz - 1 GHz</td></tr><tr><td colspan="3"></td></tr><tr><td>Tan só/Bang tan hoac ky thuat turong duong, ap dung gioi han chu ky hoat dong.</td><td>Cong suat burc xa lon nhat, e.r.p. Ung dung /Mat do ph cong suat</td><td>Khoäng cach kénh</td><td>Yéu cau giam thiéu va truy cap ph (e.g. he s6 lam viec hay LBT + AFA)</td></tr><tr><td colspan="4">CHU THiCH 4: Thiét bi hδ tro cac ing dung ám thanh va hinh anh phai sur dung phuong phap dieu ché só voi mot do rong bang tan tói da la 30o kHz. Thiét bi hδ tro thoai tuong tur va/hoac só sé c6 do rong bang tan tói da khong vuot qua 25 kHz. CHU THiCH 5: Thiét bi khong hö tro cac üng dung am thanh va /hoac hinh anh. Thiét bi hδ trg cac ing dung thoai khong dugc vuot qua do rong bang tan 25 kHz va phai sur dung ky thuat truy cap phó nhu LBT hoac tuong duong, may phat bao góm mót cam bién cóng suat dau ra dieu khién diéu khién may phat toi chu ky phat lon nhat 1 phut cho moi lan truyén. CHU THiCH 6: Khoang cach kenh 100 kHz cho phép chia nho thanh 50 kHz hoäc 25 kHz. CHU THiCH 7: Mat do cong suat c6 thé dugc tang tói +6,2 dBm/100 kHz va -0,8 dBm/100 kHz, néu bäng duoc gioi han 865 MHz dén 868 MHz va 865 MHz dén 870 MHz tuong tng.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tần số/Băng tần Ứng dụng</td>
+      <td></td>
+      <td>Công suất bức xạ lớn nhất, e.r.p. /Mật độ phổ công suất</td>
+      <td>Khoảng cách kênh</td>
+      <td>Yêu cầu giảm thiểu và truy cập phổ (e.g. hệ số làm việc hay LBT + AFA)</td>
+    </tr>
+    <tr>
+      <td>hoặc kỹ thuật tương đương, áp dụng giới hạn chu kỳ hoạt động. CHÚ THÍCH 4: Thiết bị hỗ trợ các ứng dụng âm thanh và hình ảnh phải sử dụng phương pháp điều chế số với một độ rộng băng tần tối đa là 300 kHz. Thiết bị hỗ trợ thoại tương tự và/hoặc số sẽ có độ rộng băng tần tối đa không vượt quá 25 kHz. CHÚ THÍCH 5: Thiết bị không hỗ trợ các ứng dụng âm thanh và / hoặc hình ảnh. Thiết bị hỗ trợ các ứng dụng thoại không được vượt quá độ rộng băng tần 25 kHz và phải sử dụng kỹ thuật truy cập phổ như LBT hoặc tương đương, máy phát bao gồm một cảm biến công suất đầu ra điều khiển điều khiển máy phát tới chu kỳ phát lớn nhất 1 phút cho mỗi lần truyền. CHÚ THÍCH 6: Khoảng cách kênh 100 kHz cho phép chia nhỏ thành 50 kHz hoặc 25 kHz. CHÚ THÍCH 7: Mật độ công suất có thể được tăng tới +6,2 dBm/100 kHz và -0,8 dBm/100 kHz, nếu băng được giới hạn 865 MHz đến 868 MHz và 865 MHz đến 870 MHz tương ứng. CHÚ THÍCH 8: Đối với điều chế băng rộng khác FHSS và DSSS với độ rộng băng tần 200 kHz đến 3 MHz, chu trình hoạt động có thể được tăng lên 1% nếu băng được giới hạn ở 865 MHz đến 868 MHz và công suất ≤ 10 mW e.r.p.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td>Tan s6/Bang tan</td><td> Ung dung</td><td>Cong suat burc xa lon nhat, e.r.p. /Mat d@ pho cong suat</td><td>Khoang cach kénh</td><td>Yéu cau giam thiéu va truy cap ph (e.g. he s6 lam viec hay LBT + AFA)</td></tr><tr><td colspan="5">CHU THICH 9: Chu trinh hoat dong c6 thé duoc tang len 1% néu bang duoc gioi han 865 MHz dén 868 MHz.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tần số/Băng tần Ứng dụng</td>
+      <td></td>
+      <td>Công suất bức xạ lớn nhất, e.r.p. /Mật độ phổ công suất</td>
+      <td>Khoảng cách kênh</td>
+      <td>Yêu cầu giảm thiểu và truy cập phổ (e.g. hệ số làm việc hay LBT + AFA)</td>
+    </tr>
+    <tr>
+      <td>CHÚ THÍCH 9: Chu trình hoạt động có thể được tăng lên 1% nếu băng được giới hạn 865 MHz đến 868 MHz.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

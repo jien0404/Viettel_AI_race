@@ -22,15 +22,202 @@ $^ +$ Có thể sửa đổi được: Đây là các chỉ tiêu dạng tùy ch
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Ten chi tieu</td><td rowspan=1 colspan=1>Yeu cau ky thuat</td><td rowspan=1 colspan=1>Tieu chi danh gia</td><td rowspan=1 colspan=1>Pham vi chophep sura doi</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>BANG TAI CON LAN DIEU HUONG</td><td></td><td></td><td></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=4> Yeu cau ve sir dung</td></tr><tr><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=1>Chieu dai bang tai</td><td rowspan=1 colspan=1>L=1000±100 mm</td><td rowspan=1 colspan=1> Dat: Dap ing tat ca yéu cau ky thuat.- Khong dat: Khong dap ing bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1>Chiéu rong phó bi cua bang tai (tinh ca cum dong co va tudien)</td><td rowspan=1 colspan=1>W≤2000 mm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca yéu cau ky thuat.- Khong dat: Khong dap ing bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1>Van toc bang tai khi sur dungdieu chinh dugc trong phamvi</td><td rowspan=1 colspan=1> V=15-45 m/phut</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca yéu cau ky thuat.- Khong dat: Khong dap ung bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1> Chiéu cao bang tai tang chinhduoc trong pham vi</td><td rowspan=1 colspan=1>H=750±60 mm</td><td rowspan=1 colspan=1>-Dat: Dap irng tat ca yéu cau ky thuat.- Khong dat: Khong dap ing bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1> Tinh nang dieu huong</td><td rowspan=1 colspan=1>Dieu huong hang hóa nhäp lan theophuong cheo so voi hé thong bang taichinh góc 45°</td><td rowspan=1 colspan=1>- Dat: Dap üng tat ca yéu cau ky thuat.- Khong dat: Khong dap ing bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.6</td><td rowspan=1 colspan=1> Nut dao chiéu bang tai</td><td rowspan=1 colspan=1>- C6 nut dao chieu bang tai- Thao tac ben ngoai tu dien, vi tri khongbi anh huong trong qua trinh thao tac cuanhan vien</td><td rowspan=1 colspan=1>- Dat: Dap trng tat ca yéu cau ky thuat.- Khong dat: Khong dap ing bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.7</td><td rowspan=1 colspan=1>Nut bam ON/OFF</td><td rowspan=1 colspan=1>- C6 nut bam ON/OFF.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca yeu cau ky thuat.- Khong dat: Khong dap irng bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Tên chỉ tiêu</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>BĂNG TẢI CON LĂN ĐIỀU HƯỚNG</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Yêu cầu về sử dụng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Chiều dài băng tải</td>
+      <td>L=1000±100 mm</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Chiều rộng phổ bì của băng tải (tính cả cụm động cơ và tủ điện)</td>
+      <td>W≤2000 mm</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>Vận tốc băng tải khi sử dụng điều chỉnh được trong phạm vi</td>
+      <td>V=15-45 m/phút</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Chiều cao băng tải tăng chỉnh được trong phạm vi</td>
+      <td>H=750±60 mm</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>Tính năng điều hướng</td>
+      <td>Điều hướng hàng hóa nhập làn theo phương chéo so với hệ thống băng tải chính góc 45°</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.6</td>
+      <td>Nút đảo chiều băng tải</td>
+      <td>- Có nút đảo chiều băng tải - Thao tác bên ngoài tủ điện, vị trí không bị ảnh hưởng trong quá trình thao tác của nhân viên</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.7</td>
+      <td>Nút bấm ON/OFF</td>
+      <td>- Có nút bấm ON/OFF.</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Ten chi tieu</td><td rowspan=1 colspan=1> Yeu cau ky thuat</td><td rowspan=1 colspan=1>Tieu chi danh gia</td><td rowspan=1 colspan=1>Pham vi chophep sura doi</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Thao tac ben ngoai tu dien,vi tri khongbi anh huong trong qua trinh thao tac cuanhan vien</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.8</td><td rowspan=1 colspan=1>Nut bam EMERGENCY</td><td rowspan=1 colspan=1>- C6 nut bam dung khän cap Thao tac bén ngoai tu dien, vi tri nhan vien dé dang tiep can, khong bi anhhuong trong qua trinh thao tac cua nhanvien</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca yéu cau ky thuat. - Khong dat: Khong dap ing bat ky chi tieu trong yéu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.9</td><td rowspan=1 colspan=1> Khung chan bang tai</td><td rowspan=1 colspan=1>- C6 kha nang dieu chinh do cao bang tai.- C6 thé có dinh xuóng san nha khi thaobanh xe</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca yéu cau ky thuat. - Khong dat: Khong dap tng bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Yeu cau ve tai trong</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> Tai trong van chuyén</td><td rowspan=1 colspan=1>≥ 60kg/mét</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca yeu cau ky thuat. - Khong dat: Khong dap ng bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Yeu cau ve do ben</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1>3.1</td><td rowspan=1 colspan=1>Vong bi</td><td rowspan=1 colspan=1>Tieu chuan JIS, hang moi chinh hang</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca yeu cau ky thuat. - Khong dat: Khong dap ung bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>3.2</td><td rowspan=1 colspan=1>Con lan</td><td rowspan=1 colspan=1>- Ma bang vat lieu chóng gi (kem hoaccrom)- Chju tai dap ung yeu cau sur dung</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä yéu cau ky thuat.- Khong dat: Khong dap ung bat ky chitieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Tên chỉ tiêu</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Thao tác bên ngoài tủ điện, vị trí không bị ảnh hưởng trong quá trình thao tác của nhân viên</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.8</td>
+      <td>Nút bấm EMERGENCY</td>
+      <td>- Có nút bấm dừng khẩn cấp - Thao tác bên ngoài tủ điện, vị trí nhân viên dễ dàng tiếp cận, không bị ảnh hưởng trong quá trình thao tác của nhân viên</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.9</td>
+      <td>Khung chân băng tải</td>
+      <td>- Có khả năng điều chỉnh độ cao băng tải. - Có thể cố định xuống sàn nhà khi tháo bánh xe</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Yêu cầu về tải trọng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Tải trọng vận chuyển</td>
+      <td>≥ 60kg/ mét</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Yêu cầu về độ bền</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>Vòng bi</td>
+      <td>Tiêu chuẩn JIS, hàng mới chính hãng</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td>Con lăn</td>
+      <td>- Mạ bằng vật liệu chống gỉ (kẽm hoặc crom) - Chịu tải đáp ứng yêu cầu sử dụng</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Ten chi tieu</td><td rowspan=1 colspan=1>Yeu cau ky thuat</td><td rowspan=1 colspan=1>Tieu chi danh gia</td><td rowspan=1 colspan=1>Pham vi chophep sura doi</td></tr><tr><td rowspan=1 colspan=1>3.3</td><td rowspan=1 colspan=1>Dong co va hop giam toc</td><td rowspan=1 colspan=1>+ Tieu chuan hieu suat dong co: IE2, IEC6034-30:2008 (TCVN 6627-30:2011),tieu chuan tuong duong hoac cao hon.+ Bao hanh toi thiéu 3 nam</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca yeu cau ky thuat. - Khong dat: Khong dap ing bat ky chitieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>3.4</td><td rowspan=1 colspan=1>Bien tan</td><td rowspan=1 colspan=1> + Yéu cau có chuing nhan chinh hāng+ Tieu chuan chiu moi truong: IP20 hoäccao hon+ Kha nang chiu qua tai khoi luong vanchuyén cua bang tai: 150% trong 1 phuthoäc lon hon+ Däp urng tieu chuan: CE UL 61800-5-1, tieu chuan tuong duong hoac cao hon+ Tuong thich voi dong co bang tai+ Bao hanh toi thiéu 3 nam+ C6 chirng nhan EMC+ Sur dung dong dien 3P-3P, 1P-3P</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca yéu cau ky thuat.- Khong dat: Khong dap irng bat ky chitieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>3.5</td><td rowspan=1 colspan=1>Bo truyen dong</td><td rowspan=1 colspan=1>+ Tieu chuan: tuan theo tiéu chuan JIS, ANSI, tieu chuan tuong duong hoac caohon+ Sir dung bo truyen dong xich</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca yéu cau ky thuat.- Khong dat: Khong dap ung bat ky chitieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>3.6</td><td rowspan=1 colspan=1>D@ rung khi lam viec</td><td rowspan=1 colspan=1>- Khi lam viec bäng tai khong rung lacmanh</td><td rowspan=1 colspan=1>-Dat: Dap ing tat ca yéu cau ky thuat. - Khong dat: Khong dap ung bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>3.7</td><td rowspan=1 colspan=1>Mau sac</td><td rowspan=1 colspan=1>- Theo yéu cau cua DHLCA,</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Tên chỉ tiêu</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+    </tr>
+    <tr>
+      <td>3.3</td>
+      <td>Động cơ và hộp giảm tốc</td>
+      <td>+ Tiêu chuẩn hiệu suất động cơ: IE2, IEC 6034-30:2008 (TCVN 6627-30:2011), tiêu chuẩn tương đương hoặc cao hơn. + Bảo hành tối thiểu 3 năm</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3.4</td>
+      <td>Biến tần</td>
+      <td>+ Yêu cầu có chứng nhận chính hãng + Tiêu chuẩn chịu môi trường: IP20 hoặc cao hơn + Khả năng chịu quá tải khối lượng vận chuyển của băng tải: 150% trong 1 phút hoặc lớn hơn + Đáp ứng tiêu chuẩn: CE UL 61800-5-1, tiêu chuẩn tương đương hoặc cao hơn + Tương thích với động cơ băng tải + Bảo hành tối thiểu 3 năm + Có chứng nhận EMC + Sử dụng dòng điện 3P-3P, 1P-3P</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3.5</td>
+      <td>Bộ truyền động</td>
+      <td>+ Tiêu chuẩn: tuân theo tiêu chuẩn JIS, ANSI, tiêu chuẩn tương đương hoặc cao hơn + Sử dụng bộ truyền động xích</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3.6</td>
+      <td>Độ rung khi làm việc</td>
+      <td>- Khi làm việc băng tải không rung lắc mạnh</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>3.7</td>
+      <td>Màu sắc</td>
+      <td>- Theo yêu cầu của DHLCA,</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -38,24 +225,440 @@ $^ +$ Có thể sửa đổi được: Đây là các chỉ tiêu dạng tùy ch
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Ten chi tieu</td><td rowspan=1 colspan=1>Yeu cau ky thuat</td><td rowspan=1 colspan=1>Tieu chi danh gia</td><td rowspan=1 colspan=1> Pham vi cho phép sura doi</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong dat: Khong dap ing bat ky chitiéu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1>Chiéu cao tam chän (so voimat bang tai</td><td rowspan=1 colspan=1>W=300±50 mm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca yeu cau ky thuat.- Khong dat: Khong dap ung bat ky chitieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1> Chieu day vat lieu cau thanhtam chan</td><td rowspan=1 colspan=1>t≥2 mm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca yeu cau ky thuat.- Khong dat: Khong dap ung bat ky chitieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1>Mau sac</td><td rowspan=1 colspan=1> Theo yéu cau cua DHLCA,- Son tinh dien hoäc son Ankyl≥3 1óp: ≥1lop son l6t, ≥2 lop son mau,do cumg &gt;2H</td><td rowspan=1 colspan=1>-Dat: Dap ing tat ca yeu cau ky thuat. - Khong dat: Khong dap ung bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Yeu cau ve dq ben</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>Do chiu tai trong va dap</td><td rowspan=1 colspan=1>Chiu duoc tai trong va dap hang hóa c6 khoi luong ≤ 100 kg</td><td rowspan=1 colspan=1>-Dat: Dap ing tat ca yéu cau ky thuat.- Khong dat: Khong dap ing bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>Mi ghep lap rap</td><td rowspan=1 colspan=1>C6 thé thao roi</td><td rowspan=1 colspan=1>- Dat: Dap img tat ca yéu cau ky thuat.- Khong dat: Khong dap trng bat ky chitiéu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1> An toan van hanh</td><td rowspan=1 colspan=1>Khong có canh sac, nhon gay nguy hiémtrong qua trinh van hanh.</td><td rowspan=1 colspan=1>-Dat: Dap ing tat ca yéu cau ky thuat.- Khong dat: Khong dap ung bat ky chitieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr><tr><td rowspan=1 colspan=1>2.4</td><td rowspan=1 colspan=1>D rung khi lam viec</td><td rowspan=1 colspan=1>Khi lam viec bang tai khong rung lacmanh</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca yeu cau ky thuat.</td><td rowspan=1 colspan=1>Khong</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Tên chỉ tiêu</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Chiều cao tấm chắn (so với mặt băng tải</td>
+      <td>W=300±50 mm</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>Chiều dày vật liệu cấu thành tấm chắn</td>
+      <td>t ≥ 2 mm</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Màu sắc</td>
+      <td>- Theo yêu cầu của DHLCA, - Sơn tĩnh điện hoặc sơn Ankyl ≥3 lớp: ≥1 lớp sơn lót, ≥2 lớp sơn màu, độ cứng > 2H</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Yêu cầu về độ bền</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>Độ chịu tải trọng va đập</td>
+      <td>Chịu được tải trọng va đập hàng hóa có khối lượng ≤ 100 kg</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>Mối ghép lắp ráp</td>
+      <td>Có thể tháo rời</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>An toàn vận hành</td>
+      <td>Không có cạnh sắc, nhọn gây nguy hiểm trong quá trình vận hành.</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>Độ rung khi làm việc</td>
+      <td>Khi làm việc băng tải không rung lắc mạnh</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật.</td>
+      <td>Không</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Ten chi tieu</td><td rowspan=1 colspan=1>Yeu cau ky thuat</td><td rowspan=1 colspan=1>Tieu chi danh gia</td><td rowspan=1 colspan=1>Pham vi chophép sura doi</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong dat: Khong dap irng bat ky chi tieu trong yeu cau ky thuat.</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Tên chỉ tiêu</td>
+      <td>Yêu cầu kỹ thuật</td>
+      <td>Tiêu chí đánh giá</td>
+      <td>Phạm vi cho phép sửa đổi</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 # 3.2 PHẦN 2: CÁC BÀI ĐO CHỈ TIÊU KỸ THUẬT
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1> Hang muc</td><td rowspan=1 colspan=1>Hang muc kiém tra</td><td rowspan=1 colspan=1>Quy trinh kiém tra</td><td rowspan=1 colspan=1>Tieu chi danh gia</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=4>BANG TAI CON LAN DIEU HUONG</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=3>Yeu cau ve sir dung</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=1>Chieu dai bang tai</td><td rowspan=1 colspan=1>L=1000±100 mm</td><td rowspan=7 colspan=1>- Do truc tiép bang thuócvoi cac noi dung quycach vé kich thuoc.- Kiém tra bang mat voiyéu cau vé cac nut chirc nang dieu khien.- Dói chieu voi chi tieuky thuat</td><td rowspan=7 colspan=1>- Dat: Dap ung tat ca yéucau ky thuat.- Khong dat: Khong daping bat ky chi tieu trongyeu cau ky thuat.</td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1>Chiéu rong ph bi cuabang tai (tinh ca cumdong co va tu dien)</td><td rowspan=1 colspan=1>W≤2000 mm</td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1>Van toc bang tai khi surdung dieu chinh duoctrong pham vi</td><td rowspan=1 colspan=1>V=15-45 m/phut</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1>Chieu cao bang tai tangchinh droc trong phamvi</td><td rowspan=1 colspan=1>H=750±60 mm</td></tr><tr><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1> Tinh nang dieu huong</td><td rowspan=1 colspan=1>Diéu huong hang hoa nhap lan theo phuong chéo so voi he thong bang tai chinh goc 45</td></tr><tr><td rowspan=1 colspan=1>1.6</td><td rowspan=1 colspan=1>Nut dao chieu bang tai</td><td rowspan=1 colspan=1> C6 nut dao chiéu bang tai- Thao tac ben ngoai tu dien, vi tri khong bi änh huong trong qua trinh thao tac cua nhan vien</td></tr><tr><td rowspan=1 colspan=1>1.7</td><td rowspan=1 colspan=1>Nut bam ON/OFF</td><td rowspan=1 colspan=1> C6 nut bam ON/OFF.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Hạng mục</td>
+      <td>Hạng mục kiểm tra</td>
+      <td>Quy trình kiểm tra</td>
+      <td>Tiêu chí đánh giá</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>BĂNG TẢI CON LĂN ĐIỀU HƯỚNG</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Yêu cầu về sử dụng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Chiều dài băng tải</td>
+      <td>L=1000±100 mm</td>
+      <td>- Đo trực tiếp bằng thước với các nội dung quy cách về kích thước. - Kiểm tra bằng mắt với yêu cầu về các nút chức năng điều khiển. - Đối chiếu với chỉ tiêu kỹ thuật</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Chiều rộng phổ bì của băng tải (tính cả cụm động cơ và tủ điện)</td>
+      <td>W≤2000 mm</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>Vận tốc băng tải khi sử dụng điều chỉnh được trong phạm vi</td>
+      <td>V=15-45 m/phút</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Chiều cao băng tải tăng chỉnh được trong phạm vi</td>
+      <td>H=750±60 mm</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>Tính năng điều hướng</td>
+      <td>Điều hướng hàng hóa nhập làn theo phương chéo so với hệ thống băng tải chính góc 45°</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.6</td>
+      <td>Nút đảo chiều băng tải</td>
+      <td>- Có nút đảo chiều băng tải - Thao tác bên ngoài tủ điện, vị trí không bị ảnh hưởng trong quá trình thao tác của nhân viên</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.7</td>
+      <td>Nút bấm ON/OFF</td>
+      <td>- Có nút bấm ON/OFF.</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Hang muc</td><td rowspan=1 colspan=1>Hang muc kiém tra</td><td rowspan=1 colspan=1>Quy trinh kiém tra</td><td rowspan=1 colspan=1>Tieu chi danh gia</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> Thao tac bén ngoai tu dien, vi tri khong bi anh huong trong qua trinh thao tac cua nhan vién</td><td rowspan=3 colspan=1></td><td rowspan=3 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.8</td><td rowspan=1 colspan=1>Nut bam EMERGENCY</td><td rowspan=1 colspan=1>- C6 nut bam dung khan cap Thao tac ben ngoai tu dien, vi tri nhan vien dédang tiep can, khong bi anh huong trong qua trinh thao tac cua nhan vien</td></tr><tr><td rowspan=1 colspan=1>1.9</td><td rowspan=1 colspan=1>Khung chan bang tai</td><td rowspan=1 colspan=1>- C6 kha nang diéu chinh d@ cao bang tai.- C6 thé co dinh xuong san nha khi thao banh xe</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Yeu cau ve tai trong</td><td></td><td></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Tai trong van chuyén</td><td rowspan=1 colspan=1>≥ 60kg/ mét</td><td rowspan=1 colspan=1>- Dat tai trong tieu chuan len bang tai va do van tockhi van hanh.- Dói chiéu voi chi tieuky thuat</td><td rowspan=1 colspan=1>- Dat: Dap irng tat ca yéucau ky thuat. - Khong dat: Khong daping bat ky chi tieu trongyeu cau ky thuat.</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=4>Yeu cau ve dq ben</td></tr><tr><td rowspan=1 colspan=1>3.1</td><td rowspan=1 colspan=1>Vong bi</td><td rowspan=1 colspan=1> Tieu chuan JIS, hang moi chinh hang</td><td rowspan=2 colspan=1> Kiém tra ma hang h6ava hoa don mua ban cuacac thiet bi yeu cau san</td><td rowspan=4 colspan=1>- Dat: Dap ing tat ca yeucau ky thuat. - Khong dat: Khong dapung bat ky chi tieu trongyéu cau ky thuat.</td></tr><tr><td rowspan=1 colspan=1>3.2</td><td rowspan=1 colspan=1>Con lan</td><td rowspan=1 colspan=1>- Ma bang vat lieu chóng gi (kem hoac crom)- Chiu tai dap ung yeu cau sur dung</td></tr><tr><td rowspan=1 colspan=1>3.3</td><td rowspan=1 colspan=1>Dong co va hop giam tóc</td><td rowspan=1 colspan=1>+ Tieu chuan hieu suat dong co: IE2, IEC 6034-30:2008 (TCVN 6627-30:2011), tieu chuan tuongduong hoac cao hon.+ Bao hanh toi thieu 3 nam</td><td rowspan=1 colspan=1> pham chinh hang- Kiém tra thong so kythuat trong cac tai lieudatasheet cua thiét bi.</td></tr><tr><td rowspan=1 colspan=1>3.4</td><td rowspan=1 colspan=1>Bien tan</td><td rowspan=1 colspan=1>+ Yéu cau c6 chung nhan chinh hang + Tieu chuan chiu moi truong: IP20 hoac cao hon</td><td rowspan=1 colspan=1>- Kiem tra mau sac ngoaiquan bang mat.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Hạng mục</td>
+      <td>Hạng mục kiểm tra</td>
+      <td>Quy trình kiểm tra</td>
+      <td>Tiêu chí đánh giá</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Thao tác bên ngoài tủ điện, vị trí không bị ảnh hưởng trong quá trình thao tác của nhân viên</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.8</td>
+      <td>Nút bấm EMERGENCY</td>
+      <td>- Có nút bấm dừng khẩn cấp - Thao tác bên ngoài tủ điện, vị trí nhân viên dễ dàng tiếp cận, không bị ảnh hưởng trong quá trình thao tác của nhân viên</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.9</td>
+      <td>Khung chân băng tải</td>
+      <td>- Có khả năng điều chỉnh độ cao băng tải. - Có thể cố định xuống sàn nhà khi tháo bánh xe</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Yêu cầu về tải trọng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Tải trọng vận chuyển</td>
+      <td>≥ 60kg/ mét</td>
+      <td>- Đặt tải trọng tiêu chuẩn lên băng tải và đo vận tốc khi vận hành. - Đối chiếu với chỉ tiêu kỹ thuật</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Yêu cầu về độ bền</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>Vòng bi</td>
+      <td>Tiêu chuẩn JIS, hàng mới chính hãng</td>
+      <td>- Kiểm tra mã hàng hóa và hóa đơn mua bán của các thiết bị yêu cầu sản phẩm chính hãng - Kiểm tra thông số kỹ thuật trong các tài liệu datasheet của thiết bị. - Kiểm tra màu sắc ngoại quan bằng mắt.</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td>Con lăn</td>
+      <td>- Mạ bằng vật liệu chống gỉ (kẽm hoặc crom) - Chịu tải đáp ứng yêu cầu sử dụng</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.3</td>
+      <td>Động cơ và hộp giảm tốc</td>
+      <td>+ Tiêu chuẩn hiệu suất động cơ: IE2, IEC 6034- 30:2008 (TCVN 6627-30:2011), tiêu chuẩn tương đương hoặc cao hơn. + Bảo hành tối thiểu 3 năm</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.4</td>
+      <td>Biến tần</td>
+      <td>+ Yêu cầu có chứng nhận chính hãng + Tiêu chuẩn chịu môi trường: IP20 hoặc cao hơn</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Hang muc</td><td rowspan=1 colspan=1>Hang muc kiém tra</td><td rowspan=1 colspan=1>Quy trinh kiém tra</td><td rowspan=1 colspan=1>Tieu chi danh gia</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>+ Kha nang chiu qua tai khói luong van chuyén cuabang tai: 150% trong 1 phut hoac lon hon+ Dap ung tieu chuan: CE UL 61800-5-1, tiéuchuan tuong duong hoäc cao hon+ Tuong thich voi dong co bang tai+ Bao hanh toi thiéu 3 nam+ C6 ching nhän EMC+ Str dung dong dien 3P-3P, 1P-3P</td><td rowspan=4 colspan=1>- Kiém tra cac thong sókhac bang cac dung cu do va thiét bi do duoc kiémdinh.</td><td rowspan=4 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.5</td><td rowspan=1 colspan=1>B@ truyen dong</td><td rowspan=1 colspan=1>+ Tieu chuan: tuan theo tiéu chuan JIS, ANSI, tiéuchuan tuong duong hoac cao hon+ Sir dung b@ truyén dong xich</td></tr><tr><td rowspan=1 colspan=1>3.6</td><td rowspan=1 colspan=1>D@ rung khi lam viec</td><td rowspan=1 colspan=1> - Khi lam viec bang tai khong rung lac manh</td></tr><tr><td rowspan=1 colspan=1>3.7</td><td rowspan=1 colspan=1>Mau sac</td><td rowspan=1 colspan=1>- Theo yéu cau cua DHLCA,- Son tinh dien hoäc son Ankyl ≥3 lóp: ≥1 lóp sonl6t, ≥2 lop son mau, do cung &gt; 2H</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=4>Yéu cau ve an toan</td></tr><tr><td rowspan=1 colspan=1>4.1</td><td rowspan=1 colspan=1>Tu dien</td><td rowspan=1 colspan=1>- Vat lieu: thép tam SS400 tiéu chuan JIS G3101- Chieu day: t≥ 1.5 mm- Mau säc: Theo yéu cau cua DHLCA, son tinhdien- Chi tieu chóng bui: ≥ IP4x</td><td rowspan=3 colspan=1>- Do trurc tiép bang thuocvoi cac noi dung quycach vé kich thuoc.- Kiém tra cac thong só khac bang cac dung cu dova thiet bi do duoc kiemdinh.</td><td rowspan=3 colspan=1>- Dat: Dap ing tat ca yéucau ky thuat. - Khong dat: Khong dapung bat ky chi tieu trongyéu cau ky thuat.</td></tr><tr><td rowspan=1 colspan=1>4.2</td><td rowspan=1 colspan=1>An toan dien</td><td rowspan=1 colspan=1>Khong bi ro dien ra khung vo co khi</td></tr><tr><td rowspan=1 colspan=1>4.3</td><td rowspan=1 colspan=1>An toan van hanh</td><td rowspan=1 colspan=1>- C6 nap che vi tri cac cum chuyén dong</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Hạng mục</td>
+      <td>Hạng mục kiểm tra</td>
+      <td>Quy trình kiểm tra</td>
+      <td>Tiêu chí đánh giá</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>+ Khả năng chịu quá tải khối lượng vận chuyển của băng tải: 150% trong 1 phút hoặc lớn hơn + Đáp ứng tiêu chuẩn: CE UL 61800-5-1, tiêu chuẩn tương đương hoặc cao hơn + Tương thích với động cơ băng tải + Bảo hành tối thiểu 3 năm + Có chứng nhận EMC + Sử dụng dòng điện 3P-3P, 1P-3P</td>
+      <td>- Kiểm tra các thông số khác bằng các dụng cụ đo và thiết bị đo được kiểm định.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.5</td>
+      <td>Bộ truyền động</td>
+      <td>+ Tiêu chuẩn: tuân theo tiêu chuẩn JIS, ANSI, tiêu chuẩn tương đương hoặc cao hơn + Sử dụng bộ truyền động xích</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.6</td>
+      <td>Độ rung khi làm việc</td>
+      <td>- Khi làm việc băng tải không rung lắc mạnh</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.7</td>
+      <td>Màu sắc</td>
+      <td>- Theo yêu cầu của DHLCA, - Sơn tĩnh điện hoặc sơn Ankyl ≥3 lớp: ≥1 lớp sơn lót, ≥2 lớp sơn màu, độ cứng > 2H</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Yêu cầu về an toàn</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.1</td>
+      <td>Tủ điện</td>
+      <td>- Vật liệu: thép tấm SS400 tiêu chuẩn JIS G3101 - Chiều dày: t ≥ 1.5 mm - Màu sắc: Theo yêu cầu của DHLCA, sơn tĩnh điện - Chỉ tiêu chống bụi: ≥ IP4x</td>
+      <td>- Đo trực tiếp bằng thước với các nội dung quy cách về kích thước. - Kiểm tra các thông số khác bằng các dụng cụ đo và thiết bị đo được kiểm định.</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+    </tr>
+    <tr>
+      <td>4.2</td>
+      <td>An toàn điện</td>
+      <td>Không bị rò điện ra khung vỏ cơ khí</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.3</td>
+      <td>An toàn vận hành</td>
+      <td>- Có nắp che vị trí các cụm chuyển động</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Hang muc</td><td rowspan=1 colspan=1>Hang muc kiém tra</td><td rowspan=1 colspan=1>Quy trinh kiém tra</td><td rowspan=1 colspan=1>Tieu chi danh gia</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Vat lieu nap che: thép son tinh dien- Khong c6 canh sac, nhon gay nguy hiém trongqua trinh van hanh.</td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.4</td><td rowspan=1 colspan=1>An toan tieng on</td><td rowspan=1 colspan=1> Murc on khi van hanh bang tai ≤ 75dBA</td></tr><tr><td rowspan=1 colspan=1>Ⅱ</td><td rowspan=1 colspan=1>HE THONG TAM CHAN BANG TA1</td><td></td><td></td><td></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=4> Yeu cau ve kich thuoc, ngoai quan</td></tr><tr><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=1> Chieu dai moi tam chan</td><td rowspan=1 colspan=1>L=2000±100 mm</td><td rowspan=4 colspan=1>- Do trrc tiép bang thuóc voi cac noi dung quycach ve kich thuoc.- Kiém tra mau sac ngoaiquan bang mat.- Doi chiéu voi chi tieuky thuat.</td><td rowspan=4 colspan=1>Dat: Dap ing tat ca yeucau ky thuat.- Khong dat: Khong daping bat ky chi tieu trongyeu cau ky thuat.</td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1>Chieu cao tam chan (sovoi mat bang tai</td><td rowspan=1 colspan=1>W=300±50 mm</td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1> Chieu day vat lieu cau thanh tam chan</td><td rowspan=1 colspan=1>t≥2 mm</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1>Mau sac</td><td rowspan=1 colspan=1>- Theo yéu cau cua DHLCA,- Son tinh dien hoäc son Ankyl ≥3 lóp: ≥1 lóp sonl6t, ≥2 lop son mau, do cung &gt; 2H</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Yeu cau ve do ben</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>Do chiu tai trong va dap</td><td rowspan=1 colspan=1> Chiu duoc tai trong va dap hang hoa c6 khoi luong≤100kg</td><td rowspan=4 colspan=1> - Dat tai trong tieu chuanlen bang tai va kiém trado chiu va dap.- Kiém tra bang mät voi yéu cau vé cac chi tieu doben khac.- Dói chiéu voi chi tieuky thuat.</td><td rowspan=4 colspan=1>Dat: Dap ing tat ca yéucau ky thuat.- Khong dat: Khong daping bat ky chi tieu trongyeu cau ky thuat.</td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>M6i ghep lap rap</td><td rowspan=1 colspan=1>C6 thé thao roi</td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1>An toan van hanh</td><td rowspan=1 colspan=1> Khong có canh sac, nhon gay nguy hiém trong quatrinh van hanh</td></tr><tr><td rowspan=1 colspan=1>2.4</td><td rowspan=1 colspan=1>D@ rung khi lam viec</td><td rowspan=1 colspan=1> Khi lam viec bäng tai khong rung lac manh</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Hạng mục</td>
+      <td>Hạng mục kiểm tra</td>
+      <td>Quy trình kiểm tra</td>
+      <td>Tiêu chí đánh giá</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Vật liệu nắp che: thép sơn tĩnh điện - Không có cạnh sắc, nhọn gây nguy hiểm trong quá trình vận hành.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.4</td>
+      <td>An toàn tiếng ồn</td>
+      <td>Mức ồn khi vận hành băng tải ≤ 75dBA</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>II</td>
+      <td>HỆ THỐNG TẤM CHẮN BĂNG TẢI</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Yêu cầu về kích thước, ngoại quan</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Chiều dài mỗi tấm chắn</td>
+      <td>L=2000±100 mm</td>
+      <td>- Đo trực tiếp bằng thước với các nội dung quy cách về kích thước. - Kiểm tra màu sắc ngoại quan bằng mắt. - Đối chiếu với chỉ tiêu kỹ thuật.</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Chiều cao tấm chắn (so với mặt băng tải</td>
+      <td>W=300±50 mm</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>Chiều dày vật liệu cấu thành tấm chắn</td>
+      <td>t ≥ 2 mm</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Màu sắc</td>
+      <td>- Theo yêu cầu của DHLCA, - Sơn tĩnh điện hoặc sơn Ankyl ≥3 lớp: ≥1 lớp sơn lót, ≥2 lớp sơn màu, độ cứng > 2H</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Yêu cầu về độ bền</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>Độ chịu tải trọng va đập</td>
+      <td>Chịu được tải trọng va đập hàng hóa có khối lượng ≤ 100 kg</td>
+      <td>- Đặt tải trọng tiêu chuẩn lên băng tải và kiểm tra độ chịu va đập. - Kiểm tra bằng mắt với yêu cầu về các chỉ tiêu độ bền khác. - Đối chiếu với chỉ tiêu kỹ thuật.</td>
+      <td>- Đạt: Đáp ứng tất cả yêu cầu kỹ thuật. - Không đạt: Không đáp ứng bất kỳ chỉ tiêu trong yêu cầu kỹ thuật.</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>Mối ghép lắp ráp</td>
+      <td>Có thể tháo rời</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>An toàn vận hành</td>
+      <td>Không có cạnh sắc, nhọn gây nguy hiểm trong quá trình vận hành</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>Độ rung khi làm việc</td>
+      <td>Khi làm việc băng tải không rung lắc mạnh</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

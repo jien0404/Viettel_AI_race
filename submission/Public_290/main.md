@@ -20,11 +20,99 @@ Ban hành bộ chỉ tiêu kỹ thuật (CTKT) làm sở cứ đầu tư, thuê 
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1> HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>A</td><td rowspan=1 colspan=4> Yéu cau chung</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Trién khai hien truong phancung</td><td rowspan=1 colspan=1>Lap dat thiét bi tai hien truong theothiet ké thong nhat.Danh dau, dan nhan thiét bi theo so dóhe thong.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                    img. - Khong Dat: Khong Dap ung tat cacac yéu cau hoac Khong có tai liéuky thuat thé hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Trién khai cai dat cau hinh thietbi</td><td rowspan=1 colspan=1>1. Cau hinh cai dat thiét bi mang theomo hinh cua VTP dap ung tieu chi kythuat cua he thóng, dam bao tinh durphong va sän sang cho he thóng. 2. Cau hinh cai dat quan tri va hé diéuhanh may chu dap ung tiéu chi kythuat cua he thong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cauva c6 tai lieu ky thuat thé hien suDap                                   img.- Khong Dat: Khong Dap trng tat cacac yéu cau hoac Khong có tai lieuky thuat thé hien su Dap ing.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Dap ung vän hanh cua VTP</td><td rowspan=1 colspan=1>Dam bao hé thóng hoat dong ón dinh,khong phat sinh loi phat sinh tur thiétbi, hé thóng va dap ing vat tu, linhkien, nhan sur bao hanh truc 24/7.</td><td rowspan=1 colspan=1>- Dat: Dap irng tat ca cac yéu cau va có tai lieu ky thuat thé hién surDap                                   ing. - Khong Dat: Khong Dap urng tat cacäc yéu cau hoac Khong có tai lieu ky thuat thé hien su Dap ing.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>Yêu cầu chung</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Triển khai hiện trường phần cứng</td>
+      <td>Lắp đặt thiết bị tại hiện trường theo thiết kế thống nhất. Đánh dấu, dán nhãn thiết bị theo sơ đồ hệ thống.</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Triển khai cài đặt cấu hình thiết bị</td>
+      <td>1. Cấu hình cài đặt thiết bị mạng theo mô hình của VTP đáp ứng tiêu chí kỹ thuật của hệ thống, đảm bảo tính dự phòng và sẵn sàng cho hệ thống. 2. Cấu hình cài đặt quản trị và hệ điều hành máy chủ đáp ứng tiêu chí kỹ thuật của hệ thống.</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Đáp ứng vận hành của VTP</td>
+      <td>Đảm bảo hệ thống hoạt động ổn định, không phát sinh lỗi phát sinh từ thiết bị, hệ thống và đáp ứng vật tư, linh kiện, nhân sự bảo hành trực 24/7.</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Tai lieu ban giao</td><td rowspan=1 colspan=1>Ban                                      giao:1. Tai lieu theo biéu mau cua VTP bao gom: danh sach va thong só thiet bi,hé thóng; thiét ké tong thé, chi tiét; mohinh trien khai; thong tin thiét lap cauhinh        quan        tri,2. Tai lieu huong dan cai dat cáu hinhthiét lap cua turng thiét bi dang videohoac tai lieu .doc dang step by step.</td><td rowspan=1 colspan=1>Dat: Dap ung tat ca cac yéu cau vac6 tai lieu ky thuat thé hien su Daping.- Khong Dat: Khong Dap urng tat cacac yéu cau hoac Khong có tai lieuky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>An toan thong tin</td><td rowspan=1 colspan=1>Hé thóng dam bao an toan thong tin theo cac quy dinh VTP dua ra, khonggay ra ro ri du lieu hoac bi chiémquyén dieu khien.</td><td rowspan=1 colspan=1> Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé́ hién suDap                                    ung. - Khong Dat: Khong Dap trng tat cacac yéu cau hoac Khong c6 tai lieu</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>An toan lap dat</td><td rowspan=1 colspan=1>Dam bao thiét bi dugc lap dat daping: khong chap, chay, ro ri dien, gay mat an toan con nguoi, thiét bi va héthóng smartbox noi lap dat.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu câu va c6 tai lieu ky thuat thé hien suDap                                    img.- Khong Dat: Khong Dap ing tat ca cac yéu cau hoac Khong c6 tai lieu</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Dong bo</td><td rowspan=1 colspan=1>- Cac thiét bi trong hé thóng va phanmém tich hop khi sur dung phai dong</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va có tai lieu ky thuat thé hién su</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Tài liệu bàn giao</td>
+      <td>Bàn giao: 1. Tài liệu theo biểu mẫu của VTP bao gồm: danh sách và thông số thiết bị, hệ thống; thiết kế tổng thể, chi tiết; mô hình triển khai; thông tin thiết lập cấu hình quản trị, ... 2. Tài liệu hướng dẫn cài đặt cấu hình thiết lập của từng thiết bị dạng video hoặc tài liệu .doc dạng step by step.</td>
+      <td></td>
+      <td>Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>An toàn thông tin</td>
+      <td>Hệ thống đảm bảo an toàn thông tin theo các quy định VTP đưa ra, không gây ra rò rỉ dữ liệu hoặc bị chiếm quyền điều khiển.</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>An toàn lắp đặt</td>
+      <td>Đảm bảo thiết bị được lắp đặt đáp ứng: không chập, cháy, rò rỉ điện, gây mất an toàn con người, thiết bị và hệ thống smartbox nơi lắp đặt.</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Đồng bộ</td>
+      <td>- Các thiết bị trong hệ thống và phần mềm tích hợp khi sử dụng phải đồng</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -32,47 +120,497 @@ Ban hành bộ chỉ tiêu kỹ thuật (CTKT) làm sở cứ đầu tư, thuê 
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1> Cam bién hinh änh</td><td rowspan=1 colspan=1>1/3” CMOS hoac cäm bién cho chatluong tuong duong</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yeu cau va c6 tai lieu ky thuat thé hien suDap                                   img.- Khong Dat: Khong Dap irng tatca cac yéu cau hoac Khong c6 tailieu ky thuat thé́ hién su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Do phan giai</td><td rowspan=1 colspan=1>≥ 4 MP (2560 x 1440)</td><td rowspan=1 colspan=1>- Dat: Dap üng tat cä cac yéu cau va c6 tai lieu ky thuat thé hién suDap                                   ung.- Khong Dat: Khong Dap ing tatcä cac yéu cäu hoäc Khóng có tai lieu ky thuat thé hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1> Tieu cu óng kinh</td><td rowspan=1 colspan=1>≥ 2.8mm</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va có tai lieu ky thuat thé hien suDap                                   ung. - Khong Dat: Khong Dap ing tatcä cac yéu cau hoac Khong c6 tai lieu ky thuat thé́ hién su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>FPS</td><td rowspan=1 colspan=1>≥ 30 FPS</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va có tai lieu ky thuat thé hien suDap                                   urng.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cảm biến hình ảnh</td>
+      <td>1/3” CMOS hoặc cảm biến cho chất lượng tương đương</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Độ phân giải</td>
+      <td>≥ 4 MP (2560 x 1440)</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Tiêu cự ống kính</td>
+      <td>≥ 2.8mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>FPS</td>
+      <td>≥ 30 FPS</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1> TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap ing tatcä cac yéu cau hoäc Khong có tai lieu ky thuat thé hién sur Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>S6 luong tin hieu</td><td rowspan=1 colspan=1>≥ 2 luong</td><td rowspan=1 colspan=1>- Dat: Dap irng tat cä cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   ing.- Khong Dat: Khong Dap ing tatcä cac yeu cau hoac Khong c6 tai lieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Do nhay sang</td><td rowspan=1 colspan=1>Ché do Color: ≥ 0.005 Lux @ (F1.6,AGC ON)Ché do B/W: 0 Lux with IR</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   ing.- Khong Dat: Khong Dap ing tatcä cac yéu cau hoac Khong có tai lieu ky thuat thé hién sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Chong nguoc sang</td><td rowspan=1 colspan=1>≥120dB</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   img.- Khong Dat: Khong Dap ing tatcä cac yéu cau hoac Khong có tai lieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Số luồng tín hiệu</td>
+      <td>≥ 2 luồng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Độ nhạy sáng</td>
+      <td>Chế độ Color: ≥ 0.005 Lux @ (F1.6, AGC ON) Chế độ B/W: 0 Lux with IR</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Chống ngược sáng</td>
+      <td>≥120dB</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1> HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Hong ngoai</td><td rowspan=1 colspan=1>Khoang hong ngoai: ≥ 20m.Khoang sang den led: ≥ 20m.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé́ hien suDap                                   ing.- Khong Dat: Khong Dap ung tatcä cac yéu cau hoac Khong có tailieu ky thuat thé hien sur Dap ing.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Chuan nén hinh änh</td><td rowspan=1 colspan=1>H265+ Triple streams hoäc chuan tinhieu cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap urng tat ca cac yéu cau va có tai lieu ky thuat thé hien suDap                                   img. - Khong Dat: Khong Dap ung tatca cac yéu cau hoac Khong có tai lieu ky thuat thé hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1> Tinh nang AI</td><td rowspan=1 colspan=1>- Tinh nang thong minh ve vung kin va ké vach hang rao bao dong. - Phat hien nguoi va vat thé chuyéndong. - Tinh nang ghi hinh khi phat hien vätthé chuyén dong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tät ca cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   ing.- Khong Dat: Khong Dap ung tatcä cac yéu cau hoac Khong có tai lieu ky thuat thé hien sur Dap ung.</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Tiéu chuan bao vé</td><td rowspan=1 colspan=1>≥ IP67.≥ IK10.</td><td rowspan=1 colspan=1>- Dat: Dap irng tat ca cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Hồng ngoại</td>
+      <td>Khoảng hồng ngoại: ≥ 20m. Khoảng sáng đèn led: ≥ 20m.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Chuẩn nén hình ảnh</td>
+      <td>H265+ Triple streams hoặc chuẩn tín hiệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Tính năng AI</td>
+      <td>- Tính năng thông minh vẽ vùng kín và kẻ vạch hàng rào báo động. - Phát hiện người và vật thể chuyển động. - Tính năng ghi hình khi phát hiện vật thể chuyển động.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Tiêu chuẩn bảo vệ</td>
+      <td>≥ IP67. ≥ IK10.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td>TT HANG MUC</td><td>YEU CAU</td><td>TIEU CHI DANH GIA</td><td>SUA DOI</td></tr><tr><td>12 Nhiet d@ lam viéc</td><td>-30℃~60℃</td><td>- Khong Dat: Khong Dap irng tat cä cac yéu cäu hoac Khóng có tai lieu ky thuat thé hien su Dap irng. - Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé hien su Dap ing. - Khong Dat: Khong Dap ing tat cä cac yéu cau hoäc Khong có tai lieu ky thuat thé hien sur Dap ung.</td><td>0</td></tr><tr><td>13 Do am toi da</td><td>95%</td><td>- Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé hien su Dap urng. - Khong Dat: Khong Dap ing tat cä cac yéu cau hoac Khong c6 tai lieu ky thuat thé hien sur Dap ing.</td><td>0</td></tr><tr><td>14 Nguon cap</td><td>12VDC, POE</td><td>- Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé hien su Dap img. - Khong Dat: Khong Dap ing tat cä cac yéu cau hoac Khong c6 tai lieu ky thuat thé hien su Dap ung.</td><td>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Nhiệt độ làm việc</td>
+      <td>-30 ̊C ~ 60 ̊C</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Độ ẩm tối đa</td>
+      <td>95%</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Nguồn cấp</td>
+      <td>12VDC, POE</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1> Kha nang ghi am</td><td rowspan=1 colspan=1>Tich hop MIC thu am bén trong va c61 cóng 1CH audio IN</td><td rowspan=1 colspan=1>- Dat: Dap üng tat ca cac yéu cau va c6 tai lieu ky thuat thé́ hien suDap                                   ing. - Khong Dat: Khong Dap ung tatcä cac yéu cau hoac Khong có tailieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1> Tinh näng Corrior mode</td><td rowspan=1 colspan=1>C6, xoay hinh ó g6c 0, 90,180, 270d@ view. Hoäc ché do cho cac tinh näng tuongduong.</td><td rowspan=1 colspan=1>- Dat: Dap irng tat ca cac yéu câu va c6 tai lieu ky thuat thé hien suDap                                   trng.- Khong Dat: Khong Dap ung tatca cac yéu cau hoac Khong có tailieu ky thuat thé hién su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Tinh nang P2P</td><td rowspan=1 colspan=1>H trg xem liveview, playback tren thé nhó khi có internet.</td><td rowspan=1 colspan=1>- Dat: Dap üng tat ca cac yeu cau va c6 tai lieu ky thuat thé hien suDap                                   img.- Khong Dat: Khong Dap ung tatcä cac yéu cau hoäc Khong có tai lieu ky thuat thé hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>H tro the nhó</td><td rowspan=1 colspan=1>Lap dät sän thé nho microSD 64Gb gän theo Camera.</td><td rowspan=1 colspan=1>- Dat: Dap üng tat ca cac yéu cau va có tai lieu ky thuat thé hien suDap                                   ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Khả năng ghi âm</td>
+      <td>Tích hợp MIC thu âm bên trong và có 1 cổng 1CH audio IN</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Tính năng Corrior mode</td>
+      <td>Có, xoay hình ở góc 0, 90, 180, 270 độ view. Hoặc chế độ cho các tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Tính năng P2P</td>
+      <td>Hỗ trợ xem liveview, playback trên thẻ nhớ khi có internet.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Hỗ trợ thẻ nhớ</td>
+      <td>Lắp đặt sẵn thẻ nhớ microSD 64Gb gắn theo Camera.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1> HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Khe cäm hδ trg thé nhó lén dén256Gb.</td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap ung tatca cac yéu cau hoac Khong có tai lieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=4> Yeu cau voi dich vu giam sat, luru trir</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Thoi gian luu tru du liéu</td><td rowspan=1 colspan=1>≥ 30 ngay</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   ung.- Khong Dat: Khong Dap ing tatca cac yéu cau hoac Khong có tai lieu ky thuat thé hién su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Server Rack</td><td rowspan=1 colspan=1>C6 tinh nang mo rong quan ly tóithiéu 1000 camera.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va có tai lieu ky thuat thé hien suDap                                   ing.- Khong Dat: Khong Dap ung tatcä cac yéu cau hoac Khong có tailieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1> Tinh näng back up</td><td rowspan=1 colspan=1>Có, dam bao theo cac yéu cau vé luu tru du lieu VTP dua ra.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   ing.- Khong Dat: Khong Dap irng tat</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Khe cắm hỗ trợ thẻ nhớ lên đến 256Gb.</td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>Yêu cầu với dịch vụ giám sát, lưu trữ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Thời gian lưu trữ dữ liệu</td>
+      <td>≥ 30 ngày</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Server Rack</td>
+      <td>Có tính năng mở rộng quản lý tối thiểu 1000 camera.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Tính năng back up</td>
+      <td>Có, đảm bảo theo các yêu cầu về lưu trữ dữ liệu VTP đưa ra.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>ca cac yeu cau hoac Khong c6 tailieu ky thuat thé hién su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Tai khoan theo doi</td><td rowspan=1 colspan=1>Cung cáp tai khoan cho ben thué chudong giam sat, trich xuat du lieu theodiém， giam sat theo Quan/Huyén, giam sat theo tung nh6m Camera.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va c6 tai lieu ky thuat thé hien surDap                                   ing. - Khong Dat: Khong Dap ing tatcä cac yéu cau hoac Khong c6 tailieu ky thuat thé hién sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1> May phat du phong</td><td rowspan=1 colspan=1>C6 may phat dien dam bao dap ingdugc cong suat he thong.</td><td rowspan=1 colspan=1>- Dat: Dap irng tat ca cac yéu cau va có tai lieu ky thuat thé hien suDap                                   img.- Khong Dat: Khong Dap üng tatcä cac yéu cäu hoac Khong có tai lieu ky thuat thé hién su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Duy tri dieu kien moi trrong</td><td rowspan=1 colspan=1>Dap ing nhiet do, do am on dinh theoyéu cau nha san xuat dua ra</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cáu va có tai lieu ky thuat thé hien suDap                                   img. - Khong Dat: Khong Dap ung tatcä cac yéu cau hoac Khong có tai lieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Tài khoản theo dõi</td>
+      <td>Cung cấp tài khoản cho bên thuê chủ động giám sát, trích xuất dữ liệu theo điểm, giám sát theo Quận/Huyện, giám sát theo từng nhóm Camera.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Máy phát dự phòng</td>
+      <td>Có máy phát điện đảm bảo đáp ứng được công suất hệ thống.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Duy trì điều kiện môi trường</td>
+      <td>Đáp ứng nhiệt độ, độ ẩm ổn định theo yêu cầu nhà sản xuất đưa ra</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>Yêu cầu với phòng máy giám sát</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1> S6 man hinh hδ trog</td><td rowspan=1 colspan=1>≥ 08 man hinh 55 inch.Hién thi ≥ 500 Kénh</td><td rowspan=1 colspan=1>- Dat: Dap üng tat ca cac yéu cauva c6 tai lieu ky thuat thé hien suDap                                   ing.- Khong Dat: Khong Dap ing tatca cac yéu cau hoac Khong có tailieu ky thuat thé́ hién su Dap urng.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1> S6 duong truyén mang</td><td rowspan=1 colspan=1> ≥ 02 duong truyén mang toi thieu1000 MBps</td><td rowspan=1 colspan=1>- Dat: Dap ürng tat cä cac yéu cau va c6 tai lieu ky thuat thé hién suDap                                   ung.- Khong Dat: Khong Dap ing tatcä cac yéu câu hoac Khong có tai lieu ky thuat thé́ hién su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>B@ luu dien</td><td rowspan=1 colspan=1>APC Smart-UPS SMT2200IC LCDwith SmartConnect hoac he thóngcho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap üng tat ca cac yeu cauva c6 tai lieu ky thuat thé hien suDap                                   img.- Khong Dat: Khong Dap ing tatca cac yéu cau hoäc Khong c6 tai lieu ky thuat thé hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1> May phat du phong</td><td rowspan=1 colspan=1>C6 may phat dien dam bao dap üngduoc cong suat hé thong.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va có tai lieu ky thuat thé hien suDap                                   ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Số màn hình hỗ trợ</td>
+      <td>≥ 08 màn hình 55 inch. Hiển thị ≥ 500 Kênh</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Số đường truyền mạng</td>
+      <td>≥ 02 đường truyền mạng tối thiểu 1000 MBps</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Bộ lưu điện</td>
+      <td>APC Smart-UPS SMT2200IC LCD with SmartConnect hoặc hệ thống cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Máy phát dự phòng</td>
+      <td>Có máy phát điện đảm bảo đáp ứng được công suất hệ thống.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap ung tatcä cac yéu cau hoac Khong có tailieu ky thuat thé hien sur Dap urng.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Duy tri dieu kien moi truong</td><td rowspan=1 colspan=1>Dap irng nhiét do, d@ äm ón dinh theoyéu cau nha san xuat dua ra</td><td rowspan=1 colspan=1>- Dat: Dap irng tat cä cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   ung.- Khong Dat: Khong Dap ing tatcä cac yéu cäu hoac Khong có tai lieu ky thuat thé hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>E</td><td rowspan=1 colspan=1>Tinh nang Platform</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Quan ly camera</td><td rowspan=1 colspan=1>Cho phép dat tén, phan nhóm，ganluong hinh anh tr cac camera.</td><td rowspan=1 colspan=1>- Dat: Dap üng tat ca cac yéu cau va có tai lieu ky thuat thé hién suDap                                    img.- Khong Dat: Khong Dap irng tatcä cac yéu cau hoäc Khong có tailieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Quan ly nguoidung</td><td rowspan=1 colspan=1>Cho phép khoi tao, phan quyén nguoidung, nhóm nguoi dung có quyén Xem camera, nhóm camera tuongirng.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yeu cau va c6 tai lieu ky thuat thé hien suDap                                   ung. - Khong Dat: Khong Dap ung tat</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Duy trì điều kiện môi trường</td>
+      <td>Đáp ứng nhiệt độ, độ ẩm ổn định theo yêu cầu nhà sản xuất đưa ra</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>Tính năng Platform</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Quản lý camera</td>
+      <td>Cho phép đặt tên, phân nhóm, gán luồng hình ảnh từ các camera.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Quản lý người dùng</td>
+      <td>Cho phép khởi tạo, phân quyền người dùng, nhóm người dùng có quyền xem camera, nhóm camera tương ứng.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>cä cac yéu cau hoac Khong có tailieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1> Xem truc tiép</td><td rowspan=1 colspan=1>Cho phép nguoi dung lua chon, xem trrc tiép cac camera dang hoat dong</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   ing.- Khong Dat: Khong Dap ung tatcä cac yéu cäu hoac Khong có tai lieu ky thuat thé hién sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Xem lai</td><td rowspan=1 colspan=1>Cho phép xem lai du liéu camera dóivoi cac camera dugc thiét lap luu trur.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va có tai lieu ky thuat thé hien suDap                                   ung. - Khong Dat: Khong Dap ing tatcä cac yéu cau hoac Khong có tailieu ky thuat thé hién sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Tai ve</td><td rowspan=1 colspan=1>Cho phép tai du liéu camera dugc luutru trén he thóng vé́ may tinh.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cauva có tai lieu ky thuat thé hien suDap                                   ing.- Khong Dat: Khong Dap ing tatcä cac yéu cau hoac Khong có tai lieu ky thuat thé hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Xem trực tiếp</td>
+      <td>Cho phép người dùng lựa chọn, xem trực tiếp các camera đang hoạt động</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Xem lại</td>
+      <td>Cho phép xem lại dữ liệu camera đối với các camera được thiết lập lưu trữ.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Tải về</td>
+      <td>Cho phép tải dữ liệu camera được lưu trữ trên hệ thống về máy tính.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Bao cao, canh bao</td><td rowspan=1 colspan=1>Cho phep canh bao, bao cao tinh tranghoat dong cua thiet bi va toan héthóng theo yéu cau.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cauva c6 tai lieu ky thuat thé hien suDap                                   ing. - Khong Dat: Khong Dap ing tatcä cac yéu cau hoac Khong c6 tailieu ky thuat thé hién su Dap urng.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1> Kha nang tuy bién</td><td rowspan=1 colspan=1>Dam bao kha nang tang, giam sóluong Camera ket ni dén, cho pheptuy bién tinh nang lru trur cho tingluong Camera truc tiép khi có yéucau.</td><td rowspan=1 colspan=1>- Dat: Dap irng tat cä cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   img.- Khong Dat: Khong Dap ing tatca cac yeu cau hoac Khong có tailieu ky thuat thé hién su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Cong cu giam sat truc tiép</td><td rowspan=1 colspan=1>Trinh duyét web, urng dung di dong(hδ trg hé diéu hanh android, ios),ung dung trén may vi tinh (PC window client).</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cauva có tai lieu ky thuat thé hien suDap                                   img. - Khong Dat: Khong Dap üng tatcä cac yéu cau hoac Khong có tailieu ky thuat thé hién su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Két noi cac camera</td><td rowspan=1 colspan=1>C6 kha nang két nói dén cac cameratheo chuan ONVIF hoäc tinh näng tuong duong.</td><td rowspan=1 colspan=1> - Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Báo cáo, cảnh báo</td>
+      <td>Cho phép cảnh báo, báo cáo tình trạng hoạt động của thiết bị và toàn hệ thống theo yêu cầu.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Khả năng tùy biến</td>
+      <td>Đảm bảo khả năng tăng, giảm số lượng Camera kết nối đến, cho phép tùy biến tính năng lưu trữ cho từng luồng Camera trực tiếp khi có yêu cầu.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Công cụ giám sát trực tiếp</td>
+      <td>Trình duyệt web, ứng dụng di động (hỗ trợ hệ điều hành android, ios), ứng dụng trên máy vi tính (PC window client).</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Kết nối các camera</td>
+      <td>Có khả năng kết nối đến các camera theo chuẩn ONVIF hoặc tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -80,16 +618,118 @@ Ban hành bộ chỉ tiêu kỹ thuật (CTKT) làm sở cứ đầu tư, thuê 
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADO1</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1> Ngon ngu sur dung</td><td rowspan=1 colspan=1>Tiéng anh, tieng viet</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cauva c6 tai lieu ky thuat thé hien suDap                                   ing.- Khong Dat: Khong Dap ürng tatca cac yéu cau hoac Khong có tailieu ky thuat thé hién su Dap urng.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1> S6 luong camera hó tro quan ly|≥3000 camera</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cäuva có tai lieu ky thuat thé hién suDap                                   ung.- Khong Dat: Khong Dap ung tatca cac yéu cäu hoac Khong co tailieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Do phan giai hinh anh camera</td><td rowspan=1 colspan=1>Toi thieu 640 X 480.</td><td rowspan=1 colspan=1>- Dat: Dap urng tat ca cac yéu cauva c6 tai lieu ky thuat thé hién suDap                                   ung.- Khong Dat: Khong Dap ung tatca cac yéu cau hoac Khong có tai lieu ky thuat thé hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Quan ly thong tin camera kétn6i</td><td rowspan=1 colspan=1>Theo ten, ma só, vi tri lap dät camera,ten nhóm camera, thong tin luóng camera két noi dén.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé hien suDap                                   ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Ngôn ngữ sử dụng</td>
+      <td>Tiếng anh, tiếng việt</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Số lượng camera hỗ trợ quản lý</td>
+      <td>≥3000 camera</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Độ phân giải hình ảnh camera</td>
+      <td>Tối thiểu 640 X 480.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Quản lý thông tin camera kết nối</td>
+      <td>Theo tên, mã số, vị trí lắp đặt camera, tên nhóm camera, thông tin luồng camera kết nối đến.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap irng tatca cac yeu cau hoac Khong có tailieu ky thuat thé hien su Dap ing.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Giam sat trang thai két noicamera</td><td rowspan=1 colspan=1>C6, hién thi bang biéu tuong tren giaodien quan sat truc tiép trang thai kétnoi, khong ket n6i.</td><td rowspan=1 colspan=1>- Dat: Dap urng tat ca cac yéu cauva có tai lieu ky thuat thé hien suDap                                   img.- Khong Dat: Khong Dap ung tatca cac yéu cau hoac Khong có tai lieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Giám sát trạng thái kết nối camera</td>
+      <td>Có, hiển thị bằng biểu tượng trên giao diện quan sát trực tiếp trạng thái kết nối, không kết nối.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 # 4. CÁC BÀI ĐO CTKT
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1> Hang muc</td><td rowspan=1 colspan=1>Quy trinh kiém tra</td><td rowspan=1 colspan=1>Tieu chi danh gia</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Cac chi tiéu</td><td rowspan=1 colspan=1>- Kiém tra thong só ky thuat trong datasheet cua thiét bi,hé thóng va cac tai lieu lien quan.- Kiém tra thurc té hien truong, ruong hop khong kiém tra trurc tiép tai hién truong, can dua vao giay to tai lieuva két qua thur nghiém chirng nhan cua bén thur 3.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va c6 tai lieukythuatthéhiensuDapung. - Khóng Dat: Khong Dap ung tat cä cac yéu cauhoäc Khong c6 tai lieu ky thuat thé hien su Dapirng.</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Thoi gian trung binh gitra cac lan hong hóc(MTBF)</td><td rowspan=1 colspan=1>Theo doi trong 3 thang sur dung lien tuc, khóng có lóiphat sinh tur thiét bi, hé thóng va vat tu, linh kién, nhan su truc 24/7.</td><td rowspan=1 colspan=1>- Dat: Dap ürng tat cä cac yéu cau va c6 tai liéukythuatthéhiensuDapurng.- Khóng Dat: Khong Dap ung tat ca cac yeu câu</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Hạng mục</td>
+      <td>Quy trình kiểm tra</td>
+      <td>Tiêu chí đánh giá</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Các chỉ tiêu</td>
+      <td>- Kiểm tra thông số kỹ thuật trong datasheet của thiết bị, hệ thống và các tài liệu liên quan. - Kiểm tra thực tế hiện trường, rường hợp không kiểm tra trực tiếp tại hiện trường, cần dựa vào giấy tờ tài liệu và kết quả thử nghiệm chứng nhận của bên thứ 3.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Thời gian trung bình giữa các lần hỏng hóc (MTBF)</td>
+      <td>Theo dõi trong 3 tháng sử dụng liên tục, không có lỗi phát sinh từ thiết bị, hệ thống và vật tư, linh kiện, nhân sự trực 24/7.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1> Hang muc</td><td rowspan=1 colspan=1>Quy trinh kiém tra</td><td rowspan=1 colspan=1>Tieu chi danh gia</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>hoac Khong c6 tai lieu ky thuat thé hien su Daping.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Hạng mục</td>
+      <td>Quy trình kiểm tra</td>
+      <td>Tiêu chí đánh giá</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+    </tr>
+  </tbody>
+</table>
