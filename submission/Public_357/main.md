@@ -8,19 +8,163 @@ Chỉ tiêu: Mức tín hiệu cao tần đo được tại điểm kết nối 
 
 Bảng 1 - Chỉ tiêu mức tín hiệu cao tần   
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Hệ thống</td>
+      <td>Điều chế</td>
+      <td></td>
+      <td>Dải tần</td>
+      <td>Mức tối thiểu dB (µV)</td>
+      <td>Mức tối đa dB (µV)</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Tốc độ mã</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DVB-T2 OFDM</td>
+      <td>QPSK</td>
+      <td>1/2</td>
+      <td>VHF/UHF</td>
+      <td>26</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>3/5</td>
+      <td></td>
+      <td>27</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>2/3</td>
+      <td></td>
+      <td>28</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>3/4</td>
+      <td></td>
+      <td>30</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>4/5</td>
+      <td></td>
+      <td>31</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>5/6</td>
+      <td></td>
+      <td>32</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>16 QAM</td>
+      <td>1/2</td>
+      <td>VHF/UHF</td>
+      <td>31</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>3/5</td>
+      <td></td>
+      <td>33</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>2/3</td>
+      <td></td>
+      <td>35</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>3/4</td>
+      <td></td>
+      <td>36</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>4/5</td>
+      <td></td>
+      <td>37</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>5/6</td>
+      <td></td>
+      <td>38</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>64 QAM</td>
+      <td>1/2</td>
+      <td>VHF/UHF</td>
+      <td>36</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>3/5</td>
+      <td></td>
+      <td>38</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>2/3</td>
+      <td></td>
+      <td>39</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>3/4</td>
+      <td></td>
+      <td>41</td>
+      <td>74</td>
+    </tr>
+  </tbody>
+</table>
 
 
-<table><tr><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1>4/5</td><td rowspan=2 colspan=2></td><td rowspan=1 colspan=1>43</td><td rowspan=1 colspan=1>74</td></tr><tr><td rowspan=1 colspan=1>5/6</td><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>74</td></tr><tr><td rowspan=6 colspan=1>256 QAM</td><td rowspan=1 colspan=1>1/2</td><td rowspan=3 colspan=2>VHF/UHF</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>74</td></tr><tr><td rowspan=1 colspan=1>3/5</td><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>74</td></tr><tr><td rowspan=1 colspan=1>2/3</td><td rowspan=2 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>74</td></tr><tr><td rowspan=1 colspan=1>3/4</td><td rowspan=1 colspan=1>46</td><td rowspan=1 colspan=1>74</td></tr><tr><td rowspan=1 colspan=1>4/5</td><td rowspan=2 colspan=2></td><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=1>74</td></tr><tr><td rowspan=1 colspan=1>5/6</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>74</td></tr></table>
 
 Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng xác định mức tín hiệu cao tần của tín hiệu thu được tại điểm kết nối thuê bao truyền hình cáp số DVBT2 của doanh nghiệp cung cấp dịch vụ.
 
 Sơ đồ đo như Hình 1.
 
-![](images/1.jpg)
-
-> **Hình chú thích:** a diagram of a text in english and vietnamese
-
-  
+![](images/image_1.jpg)  
 Hình 1 - Sơ đồ kết nối đo mức tín hiệu cao tần
 
 # 2. Băng thông của mỗi kênh
@@ -34,13 +178,77 @@ Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng xác đ�
 
 Sơ đồ đo như Hình 2.
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>4/5</td>
+      <td></td>
+      <td>43</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>5/6</td>
+      <td></td>
+      <td>44</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>256 QAM</td>
+      <td>1/2</td>
+      <td>VHF/UHF</td>
+      <td>39</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>3/5</td>
+      <td></td>
+      <td>42</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>2/3</td>
+      <td></td>
+      <td>44</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>3/4</td>
+      <td></td>
+      <td>46</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>4/5</td>
+      <td></td>
+      <td>48</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>5/6</td>
+      <td></td>
+      <td>49</td>
+      <td>74</td>
+    </tr>
+  </tbody>
+</table>
 
-
-![](images/2.jpg)
-
-> **Hình chú thích:** a diagram showing the steps to use dvd - b2
-
-
+![](images/image_2.jpg)
 
 Hình 2 - Sơ đồ kết nối đo băng thông mỗi kênh
 
@@ -54,11 +262,7 @@ Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng để x�
 
 Sơ đồ đo như Hình 3.
 
-![](images/3.jpg)
-
-> **Hình chú thích:** a diagram showing the steps to buy dvd - t
-
-
+![](images/image_3.jpg)
 
 Hình 3 - Sơ đồ kết nối đo đáp tuyến biên độ tần số tín hiệu cao tần
 
@@ -72,13 +276,21 @@ Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng để x�
 
 Sơ đồ đo như Hình 4.
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-
-![](images/4.jpg)
-
-> **Hình chú thích:** a diagram showing how to buy dvd - t2
-
-
+![](images/image_4.jpg)
 
 # Hình 4 - Sơ đồ kết nối đo độ di tần
 
@@ -92,7 +304,19 @@ Bảng 2 - Chỉ tiêu tỷ số tín hiệu cao tần trên tạp âm
 
 
 
-<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>5/6</td><td rowspan=1 colspan=1>21,8</td><td rowspan=1 colspan=1>22,8</td></tr><tr><td rowspan=6 colspan=1>64 QAM</td><td rowspan=1 colspan=1>1/2</td><td rowspan=1 colspan=1>20,2</td><td rowspan=1 colspan=1>21,2</td></tr><tr><td rowspan=1 colspan=1>3/5</td><td rowspan=1 colspan=1>22,.3</td><td rowspan=1 colspan=1>23,3</td></tr><tr><td rowspan=1 colspan=1>2/3</td><td rowspan=1 colspan=1>23.8</td><td rowspan=1 colspan=1>24,8</td></tr><tr><td rowspan=1 colspan=1>3/4</td><td rowspan=1 colspan=1>25,4</td><td rowspan=1 colspan=1>26,4</td></tr><tr><td rowspan=1 colspan=1>4/5</td><td rowspan=1 colspan=1>26,6</td><td rowspan=1 colspan=1>27,6</td></tr><tr><td rowspan=1 colspan=1>5/6</td><td rowspan=1 colspan=1>27,2</td><td rowspan=1 colspan=1>28,2</td></tr><tr><td rowspan=6 colspan=1>256 QAM</td><td rowspan=1 colspan=1>1/2</td><td rowspan=1 colspan=1>23.6</td><td rowspan=1 colspan=1>24,6</td></tr><tr><td rowspan=1 colspan=1>3/5</td><td rowspan=1 colspan=1>26,3</td><td rowspan=1 colspan=1>27,3</td></tr><tr><td rowspan=1 colspan=1>2/3</td><td rowspan=1 colspan=1>28,1</td><td rowspan=1 colspan=1>29,1</td></tr><tr><td rowspan=1 colspan=1>3/4</td><td rowspan=1 colspan=1>30,3</td><td rowspan=1 colspan=1>31,3</td></tr><tr><td rowspan=1 colspan=1>4/5</td><td rowspan=1 colspan=1>31,7</td><td rowspan=1 colspan=1>32,7</td></tr><tr><td rowspan=1 colspan=1>5/6</td><td rowspan=1 colspan=1>32.4</td><td rowspan=1 colspan=1>33,4</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Phương pháp xác định: Điều chỉnh máy phân tích về kênh cần đo, lựa chọn tần số trung tâm và cài đặt mức để có thể hiển thị toàn bộ băng tần.
 
@@ -100,16 +324,24 @@ Phương pháp xác định: Điều chỉnh máy phân tích về kênh cần �
 
 Sơ đồ đo như Hình 5.
 
-![](images/5.jpg)
-
-> **Hình chú thích:** a diagram of a computer program that is used to write a program
-
-  
+![](images/image_5.jpg)  
 Hình 5 - Sơ đồ kết nối đo tỷ số S/N
 
 6. Tỷ số lỗi bit
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Định nghĩa: Tỷ số lỗi bit (BER) là thông số cơ bản xác định chất lượng kết nối của đường truyền dẫn số; thông số BER là tỷ lệ số bit lỗi trên tổng số bit được truyền.
 
@@ -119,11 +351,7 @@ Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng xác đ�
 
 Sơ đồ đo như Hình 6.
 
-![](images/6.jpg)
-
-> **Hình chú thích:** a diagram showing the steps to buy dvd - t
-
-  
+![](images/image_6.jpg)  
 Hình 6 - Sơ đồ kết nối đo tỷ số BER
 
 # 7. Tỷ số lỗi điều chế
@@ -138,11 +366,7 @@ Sử dụng thiết bị đo chuyên dùng phân tích chòm sao tín hiệu đ�
 
 Sơ đồ đo như Hình 7.
 
-![](images/7.jpg)
-
-> **Hình chú thích:** a diagram showing the steps to buy a dvd
-
-  
+![](images/image_7.jpg)  
 Hình 7 - Sơ đồ kết nối đo tỷ số MER
 
 8. Độ rung pha
@@ -155,10 +379,6 @@ Chỉ tiêu: Độ rung pha tín hiệu phải nằm trong giải $\pm { } 5 ^ {
 
 Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng xác định độ rung pha của tín hiệu thu được tại điểm kết nối thuê bao truyền hình cáp số DVB-T2 của đơn vị cung cấp dịch vụ.
 
-![](images/8.jpg)
-
-> **Hình chú thích:** a diagram showing the steps to buy dvd
-
-
+![](images/image_8.jpg)
 
 Hình 8 - Sơ đồ kết nối đo độ rung pha

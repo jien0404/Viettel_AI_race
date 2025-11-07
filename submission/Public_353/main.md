@@ -1,27 +1,441 @@
 # Public_353
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Ten thiet bi</td><td rowspan=1 colspan=1>Don vi</td><td rowspan=1 colspan=1>S6lurong</td><td rowspan=1 colspan=1>Yeu cau su pham</td><td rowspan=1 colspan=1>Yeu cau ky thuat coban cua thiét bi</td></tr><tr><td rowspan=1 colspan=6>PHONG KY THUAT CO SO</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>May vi tinh</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>01</td><td rowspan=2 colspan=1>Sur dung dé trinhchiéu minh hoacho cac bai giang</td><td rowspan=1 colspan=1>Loai thong dung trenthi truong tai thoidiem mua sam</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>May chiéu(Projector)</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>01</td><td rowspan=1 colspan=1>- Cuong do sang≥ 2500 ANSI lumens - Kich thuoc phongchieu≥1800mm x1800mm.</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Bang di dong</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung dé thao luanva lam bai tapnh6m</td><td rowspan=1 colspan=1>Kich thuoc: ≥(1250x 2400) mm</td></tr><tr><td rowspan=5 colspan=1>4</td><td rowspan=1 colspan=1>He thong amthanh</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de ho trohoat dong giangday</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=3>Mot bo bao gom:</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Am ly</td><td rowspan=1 colspan=1>B6</td><td rowspan=1 colspan=1>1</td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>Phui hop voi congsuat loa</td></tr><tr><td rowspan=1 colspan=1>Micro</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Loai thong dung trénthi truong tai thoidiém mua sam</td></tr><tr><td rowspan=1 colspan=1>Loa</td><td rowspan=1 colspan=1>D6i</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Cong suat loa: ≥20W</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Duong truyén internet</td><td rowspan=1 colspan=1>Duongtruyen</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de két nói Internet</td><td rowspan=1 colspan=1>Tóc do duong truyén phu hop trong dayhoc</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Hé dieu hanh may vi tinh</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung lam moitruong cai dat cac phan mém ingdung ho tro</td><td rowspan=1 colspan=1>- Phien ban thong dung tren thi truong tai thoi diém muasam.- Cai dat toi thiéu 19may vi tinh</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Tên thiết bị</td>
+      <td>Đơn vị</td>
+      <td>Số lượng</td>
+      <td>Yêu cầu sư phạm</td>
+      <td>Yêu cầu kỹ thuật cơ bản của thiết bị</td>
+    </tr>
+    <tr>
+      <td>PHÒNG KỸ THUẬT CƠ SỞ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Máy vi tính</td>
+      <td>Bộ</td>
+      <td>01</td>
+      <td>S ử dụng để trình chiếu minh họa cho các bài giảng</td>
+      <td>Loại thông dụng trên thị trường tại thời điểm mua sắm</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>M áy chiếu (Projector)</td>
+      <td>Bộ</td>
+      <td>01</td>
+      <td></td>
+      <td>- Cường độ sáng  2500 ANSI lumens - Kích thước phông chiếu  1800mm x1800 mm.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Bảng di động</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td>Dùng để thảo luận và làm bài tập nhóm</td>
+      <td>Kích thước: ≥ (1250 x 2400) mm</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Hệ thống âm thanh Một bộ bao gồm: Âm ly Micro Loa</td>
+      <td>Bộ Bộ Chiếc Đôi</td>
+      <td>1 1 1 1</td>
+      <td>Dùng để hỗ trợ hoạt động giảng dạy</td>
+      <td>Phù hợp với công suất loa Loại thông dụng trên thị trường tại thời điểm mua sắm Công suất loa: ≥20W</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Đường truyền internet</td>
+      <td>Đường truyền</td>
+      <td>1</td>
+      <td>Dùng để kết nối Internet</td>
+      <td>Tốc độ đường truyền phù hợp trong dạy học</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>H ệ điều hành máy vi tính</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng làm môi trường cài đặt các phần mềm ứng dụng hỗ trợ</td>
+      <td>- Phiên bản thông dụng trên thị trường tại thời điểm mua sắm. - Cài đặt tối thiểu 19 máy vi tính</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Bó phan mémvan phong</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung dé h trg soan thao, trinhchieu,..</td><td rowspan=1 colspan=1>Phien ban pho bientai thoi diem mua sam (MicrosoftOffice, Open Office)</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Bo g0 tiengViet</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de h tro goTieng Viet</td><td rowspan=1 colspan=1>Phien ban thong dung tren thi truong tai thoi diem muasam</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Phan memdiet virus</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung dé bao vémay vi tinh, du lieu trong qua trinhthuc hanh</td><td rowspan=1 colspan=1> - Phien ban tuongthich voi he diéuhanh may vi tinh- Cai dat dugc toithieu 19 may</td></tr><tr><td rowspan=4 colspan=1>10</td><td rowspan=1 colspan=1>Dung cu ciruthuong</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de huongdan sur dung cacdung cu curuthuong</td><td rowspan=1 colspan=1>Theo tieu chuan ViétNam vé thiét bi y té</td></tr><tr><td rowspan=1 colspan=5>Moi bo bao gom:</td></tr><tr><td rowspan=1 colspan=1>Tu kinh</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Cac dung cu so ciu: panh,keo</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=6 colspan=1>11</td><td rowspan=1 colspan=1>Dung cuphong chay,chua chay</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de huongdan sur dung cacdung cu phongchay, chura chay</td><td rowspan=1 colspan=1>Theo tieu chuan VietNam vé phong chay,chua chay</td></tr><tr><td rowspan=1 colspan=5>Moi bo bao gom:</td></tr><tr><td rowspan=1 colspan=1>Binh khi C02</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Binh bot</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Binh bot</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Cac bang tieulenh chiachay</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>7</td>
+      <td>B ộ phần mềm văn phòng</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để hỗ trợ soạn thảo, trình chiếu,…</td>
+      <td>Phiên bản phổ biến tại thời điểm mua sắm (Microsoft Office, Open Office)</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Bộ gõ tiếng Việt</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để hỗ trợ gõ Tiếng Việt</td>
+      <td>Phiên bản thông dụng trên thị trường tại thời điểm mua sắm</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>P hần mềm diệt virus</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để bảo vệ máy vi tính, dữ liệu trong quá trình thực hành</td>
+      <td>- Phiên bản tương thích với hệ điều hành máy vi tính - Cài đặt được tối thiểu 19 máy</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>D ụng cụ cứu thương</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để hướng dẫn sử dụng các dụng cụ cứu thương</td>
+      <td>T heo tiêu chuẩn Việt Nam về thiết bị y tế</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mỗi bộ bao gồm:</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Tủ kính</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Các dụng cụ sơ cứu: panh, kéo</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Dụng cụ phòng cháy, chữa cháy</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để hướng dẫn sử dụng các dụng cụ phòng cháy, chữa cháy</td>
+      <td>Theo tiêu chuẩn Việt Nam về phòng cháy, chữa cháy</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mỗi bộ bao gồm:</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Bình khí C02</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Bình bọt</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Bình bột</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Các bảng tiêu lệnh chữa cháy</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=7 colspan=1>12</td><td rowspan=1 colspan=1>B@ dung cu antoan dien</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de huongdan sur dung cacdung cu bao ho@ laodong</td><td rowspan=1 colspan=1>Theo tieu chuan ViétNam vé bäo h@ laodong va an toan dien</td></tr><tr><td rowspan=1 colspan=5>Moi bo bao gom:</td></tr><tr><td rowspan=1 colspan=1>Kinh bao hó</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Ung cao su</td><td rowspan=1 colspan=1>Doi</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Gang tay</td><td rowspan=1 colspan=1>Doi</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Tham cao su</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>But thi dien</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>12</td>
+      <td>B ộ dụng cụ an toàn điện</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để hướng dẫn sử dụng các dụng cụ bảo hộ lao động</td>
+      <td>Theo tiêu chuẩn Việt Nam về bảo hộ lao động và an toàn điện</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mỗi bộ bao gồm:</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Kính bảo hộ</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Ủng cao su</td>
+      <td>Đôi</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Găng tay</td>
+      <td>Đôi</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Thảm cao su</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Bút thử điện</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PHÒNG THỰC HÀNH MÁY VI TÍNH</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>M áy vi tính</td>
+      <td>Bộ</td>
+      <td>19</td>
+      <td>Dùng để trình chiếu minh họa cho các bài giảng; thực hành sử dụng máy vi tính và các phần mềm</td>
+      <td>L oại thông dụng trên thị trường tại thời điểm mua sắm</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>M áy chiếu (Projector)</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để trình chiếu minh họa cho các bài giảng</td>
+      <td>- Cường độ sáng  2500 ANSI lumens - Kích thước phông chiếu:  1800mm x1800 mm.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>M áy quét (Scanner)</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td>Dùng để scan tài liệu phục vụ giảng dạy</td>
+      <td>Loại có thông số kỹ thuật thông dụng trên thị trường tại thời điểm mua sắm.</td>
+    </tr>
+  </tbody>
+</table>
 
 # PHÒNG THỰC HÀNH MÁY VI TÍNH
 
-<table><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1> May vi tinh</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>Dung dé trinhchiéu minh hoa chocac bai giang; thuchanh sur dung mayvi tinh vacac phan mém</td><td rowspan=1 colspan=1>Loai thong dung trenthi truong tai thoidiém mua sam</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>May chiéu(Projector)</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung dé trinhchiéu minh hoa chocac bai giang</td><td rowspan=1 colspan=1>- Cuong do sang≥ 2500 ANSI lumens- Kich thuoc phongchiéu: ≥ 1800mmx1800 mm.</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>May quet(Scanner)</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung dé scan tai liéu phuc vu giangday</td><td rowspan=1 colspan=1>Loai có thong só kythuat thong dung trénthi truong tai thoidiém mua sam.</td></tr></table>
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>4</td>
+      <td>T hiết bị lưu trữ dữ liệu</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td>Dùng để lưu trữ các nội dung, video, âm thanh</td>
+      <td>Loại có thông số kỹ thuật thông dụng trên thị trường tại thời điểm mua sắm.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Máy in</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td>Dùng để in tài liệu</td>
+      <td>In đen trắng, khổ giấy A4</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đường truyền internet</td>
+      <td>Đường truyền</td>
+      <td>1</td>
+      <td>Dùng để kết nối Internet</td>
+      <td>Tốc độ đường truyền phù hợp trong dạy học</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Hệ thống mạng LAN</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để kết nối các máy tính thành hệ thống mạng</td>
+      <td>Kết nối được ít nhất 19 máy vi tính với nhau</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>B ộ phần mềm văn phòng</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để rèn luyện kỹ năng tin học văn phòng</td>
+      <td>- Phiên bản phổ biến tại thời điểm mua sắm (Microsoft Office, Open Office) - Cài đặt cho 19 máy vi tính</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Bộ gõ Tiếng Việt</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để hỗ trợ gõ tiếng Việt</td>
+      <td>Phiên bản thông dụng trên thị trường tại thời điểm mua sắm</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>P hần mềm diệt virus</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để bảo vệ máy vi tính, dữ liệu trong quá trình thực hành</td>
+      <td>- Phiên bản thông dụng tại thời điểm mua sắm - Cài đặt cho 19 máy vi tính</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>P hần mềm quản lý lớp học</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để hỗ trợ trình chiếu bài giảng và quản lý máy tính của sinh viên</td>
+      <td>- Phiên bản thông dụng tại thời điểm mua sắm - Cài đặt cho 19 máy vi tính</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Thiét bi luu trudu lieu</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung dé luru trucac noi dung,video, am thanh</td><td rowspan=1 colspan=1>Loai c6 thong so kythuat thong dung trenthi truong tai thoidiém mua sam.</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>May in</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de in tailieu</td><td rowspan=1 colspan=1>In den trang, khó giayA4</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Duong truyén internet</td><td rowspan=1 colspan=1>Duongtruyén</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de két noiInternet</td><td rowspan=1 colspan=1>Toc do duong truyén phu hop trong dayhoc</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>He thong mangLAN</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de ket noicac may tinhthanh héthong mang</td><td rowspan=1 colspan=1>Két noi duoc it nhat19 may vi tinh voi nhau</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>B0 phan memvan phong</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung dé ren luyén ky nang tin hoc vanphong</td><td rowspan=1 colspan=1>- Phien ban phobién tai thoi diémmua säm (MicrosoftOffice, OpenOffice)- Cai dat cho 19may vi tinh</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Bo g6 TiéngViet</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung dé h tro gotieng Viet</td><td rowspan=1 colspan=1>Phien ban thong dungtrén thi truong taithoi diém mua säm</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Phan mem dietvirus</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de bao vemay vi tinh, dur lieu trong qua trinh thuchanh</td><td rowspan=1 colspan=1>- Phien ban thongdung tai thoi diém mua sam- Cai dat cho 19 mayvi tinh</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Phan mémquan ly l6phoc</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de ho trotrinh chiéu bai giang va quan ly may tinh cuasinh vien</td><td rowspan=1 colspan=1>- Phien ban thongdung tai thoi diémmua sam- Cai dat cho 19 mayvi tinh</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>PHÒNG NGOẠI NGỮ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>B àn điều khiển</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td>Dùng để quản lý trong quá trình dạy và học</td>
+      <td>Loại có thông số kỹ thuật thông dụng trên thị trường tại thời điểm mua sắm.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Khối điều khiển trung tâm</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td></td>
+      <td>Có khả năng mở rộng kết nối.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>P hần mềm điều khiển (LAB)</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td></td>
+      <td>Quản lý, giám sát hoạt động hệ thống và điều khiển. Thảo luận được 2 chiều.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Khối điều khiển thiết bị ngoại vi</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng kết nối, điều khiển các thiết bị ngoại vi</td>
+      <td>C ó khả năng tương thích với nhiều thiết bị.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>M áy chiếu (Projector)</td>
+      <td>Bộ</td>
+      <td>1</td>
+      <td>Dùng để trình chiếu, minh họa cho các bài giảng</td>
+      <td>- Cường độ sáng  2500 ANSI lumens - Kích thước phông chiếu  1800mm x1800 mm.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>M áy vi tính</td>
+      <td>Bộ</td>
+      <td>19</td>
+      <td>Dùng để cài đặt, sử dụng các phần mềm.</td>
+      <td>Loại có thông số kỹ thuật thông dụng trên thị trường tại thời điểm mua sắm; có khả năng đọc được đĩa quang học</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>T ai nghe</td>
+      <td>Bộ</td>
+      <td>19</td>
+      <td>D ùng để thực hành nghe</td>
+      <td>Loại có micro gắn kèm; thông số kỹ thuật thông dụng trên thị trường tại thời điểm mua sắm.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=6>PHONG NGOAI NGU</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Ban diéu khién</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung de quan lytrong qua trinh dayva hoc</td><td rowspan=1 colspan=1>Loai co thong só ky thuat thong dungtrén thi truong taithoi diém muasam.</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Khoi dieu khién trungtam</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>C6 kha nang morong ket noi.</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Phan mém diéukhién (LAB)</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Quan ly, giam sathoat dong he thong vadiéu khién. Thao luanduoc 2 chiéu.</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Khoi dieukhien thiet bingoai vi</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung ket noi, dieukhién cac thiét bingoaivi</td><td rowspan=1 colspan=1>C6 kha nang tuongthich voi nhiéu thietbi.</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>May chiéu(Projector)</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung dé trinhchiéu, minh hoacho cac bai giang</td><td rowspan=1 colspan=1>- Cuong do sang ≥ 2500 ANSI lumens - Kich thuócphong chieu≥ 1800mm x1800mm.</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1> May vi tinh</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>Dung dé cai dat, surdung cac phanmem.</td><td rowspan=1 colspan=1>Loai c6 thong so kythuat thong dungtrén thi truong taithoi diém mua sam;c6 kha nang docduoc dia quang hoc</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Tai nghe</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>Dung dé thuc hanhnghe</td><td rowspan=1 colspan=1>Loai có micro gänkem; thong só kythuat thong dungtrén thi truong tai thoi diém mua sam.</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>May quet(Scanner)</td><td rowspan=1 colspan=1>Chiec</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Dung dé scan tai lieu phuc vu giangday</td><td rowspan=1 colspan=1>Loai co thong só kythuat thong dungtrén thi truong taithoi diém muasam.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>8</td>
+      <td>M áy quét (Scanner)</td>
+      <td>Chiếc</td>
+      <td>1</td>
+      <td>Dùng để scan tài liệu phục vụ giảng dạy</td>
+      <td>Loại có thông số kỹ thuật thông dụng trên thị trường tại thời điểm mua sắm.</td>
+    </tr>
+  </tbody>
+</table>

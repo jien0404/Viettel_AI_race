@@ -2,76 +2,2584 @@
 
 1. PHỤ LỤC 1: NHU CẦU CÔNG SUẤT VÀ ĐIỆN NĂNG TOÀN TỈNH CÀ MAU GIAI ĐOẠN ĐẾN 2020-2025-2035 (Ban hành kèm theo quyết định số: 4218/QĐ-BCT ngày 24 tháng 10 năm 2016 của Bộ trưởng Bộ Công Thương)
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1> Hang muc</td><td rowspan=1 colspan=3>Nam 2015</td><td rowspan=1 colspan=3>Nam 2020</td><td rowspan=1 colspan=3>Nam 2025</td><td rowspan=1 colspan=3>Nam 2030</td><td rowspan=1 colspan=3>Nam 2035</td><td rowspan=1 colspan=4> Tang trurong binh quan/nam (%)</td></tr><tr><td rowspan=1 colspan=1>P(MW)</td><td rowspan=1 colspan=1>A(GWh)</td><td rowspan=1 colspan=1>%A</td><td rowspan=1 colspan=1>P(MW)</td><td rowspan=1 colspan=1>A(GWh)</td><td rowspan=1 colspan=1>%A</td><td rowspan=1 colspan=1>P(MW)</td><td rowspan=1 colspan=1>A(GWh)</td><td rowspan=1 colspan=1>%A</td><td rowspan=1 colspan=1>P(MW)</td><td rowspan=1 colspan=1>A(GWh)</td><td rowspan=1 colspan=1>%A</td><td rowspan=1 colspan=1>P(MW)</td><td rowspan=1 colspan=1>A(GWh)</td><td rowspan=1 colspan=1>%A</td><td rowspan=1 colspan=1>2016-2020</td><td rowspan=1 colspan=1>2021-2025</td><td rowspan=1 colspan=1>2026-2030</td><td rowspan=1 colspan=1>2031-2035</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Cong nghiep, xay dung</td><td rowspan=1 colspan=1>90</td><td rowspan=1 colspan=1>363,7</td><td rowspan=1 colspan=1>33,1</td><td rowspan=1 colspan=1>160</td><td rowspan=1 colspan=1>754,5</td><td rowspan=1 colspan=1>39,6</td><td rowspan=1 colspan=1>243</td><td rowspan=1 colspan=1>1.301</td><td rowspan=1 colspan=1>42.8</td><td rowspan=1 colspan=1>345</td><td rowspan=1 colspan=1>1.951</td><td rowspan=1 colspan=1>43,6</td><td rowspan=1 colspan=1>435</td><td rowspan=1 colspan=1>2.637</td><td rowspan=1 colspan=1>44,7</td><td rowspan=1 colspan=1>15,71</td><td rowspan=1 colspan=1>11,51</td><td rowspan=1 colspan=1>8,45</td><td rowspan=1 colspan=1>6,21</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1> Nong - lam - thuy san</td><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>116.9</td><td rowspan=1 colspan=1>10.6</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>148</td><td rowspan=1 colspan=1>7.8</td><td rowspan=1 colspan=1>57</td><td rowspan=1 colspan=1>176</td><td rowspan=1 colspan=1>5.8</td><td rowspan=1 colspan=1>65</td><td rowspan=1 colspan=1>208</td><td rowspan=1 colspan=1>4.6</td><td rowspan=1 colspan=1>74</td><td rowspan=1 colspan=1>239</td><td rowspan=1 colspan=1>4,1</td><td rowspan=1 colspan=1>4.86</td><td rowspan=1 colspan=1>3.52</td><td rowspan=1 colspan=1>3.36</td><td rowspan=1 colspan=1>2.85</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Thurong mai, dich u</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>50,1</td><td rowspan=1 colspan=1>46</td><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>108</td><td rowspan=1 colspan=1>5.7</td><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>214</td><td rowspan=1 colspan=1>7.0</td><td rowspan=1 colspan=1>82</td><td rowspan=1 colspan=1>321</td><td rowspan=1 colspan=1>7.2</td><td rowspan=1 colspan=1>110</td><td rowspan=1 colspan=1>463</td><td rowspan=1 colspan=1>7.8</td><td rowspan=1 colspan=1>16,71</td><td rowspan=1 colspan=1>14,50</td><td rowspan=1 colspan=1>8,48</td><td rowspan=1 colspan=1>7,62</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1> Quan Iy va TDDC</td><td rowspan=1 colspan=1>188</td><td rowspan=1 colspan=1>544,5</td><td rowspan=1 colspan=1>49.5</td><td rowspan=1 colspan=1>271</td><td rowspan=1 colspan=1>856</td><td rowspan=1 colspan=1>45.0</td><td rowspan=1 colspan=1>391</td><td rowspan=1 colspan=1>1.299</td><td rowspan=1 colspan=1>42,7</td><td rowspan=1 colspan=1>560</td><td rowspan=1 colspan=1>1.922</td><td rowspan=1 colspan=1>43.0</td><td rowspan=1 colspan=1>665</td><td rowspan=1 colspan=1>2.474</td><td rowspan=1 colspan=1>41.9</td><td rowspan=1 colspan=1>9,48</td><td rowspan=1 colspan=1>8.69</td><td rowspan=1 colspan=1>8,15</td><td rowspan=1 colspan=1>5,18</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Cac nhu cau khac</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>24.8</td><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>2.0</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>53</td><td rowspan=1 colspan=1>1.7</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>69</td><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>86</td><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1>8.51</td><td rowspan=1 colspan=1>7.20</td><td rowspan=1 colspan=1>5.43</td><td rowspan=1 colspan=1>4,65</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1> Tong thuong pham</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1.100</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1.905</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>3.042</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>4.470</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>5.900</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>11,61</td><td rowspan=1 colspan=1>9,82</td><td rowspan=1 colspan=1>8,00</td><td rowspan=1 colspan=1>5,71</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Ton that</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>9.0</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>6.0</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>4.5</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>4.5</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Tong dien nhan</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1.209</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2.026</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>3.185</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>4.678</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>6.171</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Pmax toan tinh (MW)</td><td rowspan=1 colspan=3>210</td><td rowspan=1 colspan=3>355</td><td rowspan=1 colspan=3>555</td><td rowspan=1 colspan=3>780</td><td rowspan=1 colspan=3>955</td><td rowspan=1 colspan=1>11,07</td><td rowspan=1 colspan=1>9,35</td><td rowspan=1 colspan=1>7,03</td><td rowspan=1 colspan=1>4,14</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Hạng mục</td>
+      <td>Năm 2015</td>
+      <td></td>
+      <td></td>
+      <td>Năm 2020</td>
+      <td></td>
+      <td></td>
+      <td>Năm 2025</td>
+      <td></td>
+      <td></td>
+      <td>Năm 2030</td>
+      <td></td>
+      <td></td>
+      <td>Năm 2035</td>
+      <td></td>
+      <td></td>
+      <td>Tăng trưởng bình quân/năm (%)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>P (MW)</td>
+      <td>A (GWh)</td>
+      <td>%A</td>
+      <td>P (MW)</td>
+      <td>A (GWh)</td>
+      <td>%A</td>
+      <td>P (MW)</td>
+      <td>A (GWh)</td>
+      <td>%A</td>
+      <td>P (MW)</td>
+      <td>A (GWh)</td>
+      <td>%A</td>
+      <td>P (MW)</td>
+      <td>A (GWh)</td>
+      <td>%A</td>
+      <td>2016- 2020</td>
+      <td>2021- 2025</td>
+      <td>2026- 2030</td>
+      <td>2031- 2035</td>
+    </tr>
+    <tr>
+      <td>1 2 3 4 5 6 7 8 9</td>
+      <td>Công nghiệp, xây dựng Nông - lâm - thủy sản Thương mại, dịch vụ Quản lý và TDDC Các nhu cầu khác Tổng thương phẩm Tổn thất Tổng điện nhận Pmax toàn tỉnh (MW)</td>
+      <td>90 42 17 188 10</td>
+      <td>363,7 116,9 50,1 544,5 24,8 1.100 9,0 1.209 210</td>
+      <td>33,1 10,6 4,6 49,5 2,3</td>
+      <td>160 50 31 271 15</td>
+      <td>754,5 148 108 856 37 1.905 6,0 2.026 355</td>
+      <td>39,6 7,8 5,7 45,0 2,0</td>
+      <td>243 57 56 391 19</td>
+      <td>1.301 176 214 1.299 53 3.042 4,5 3.185 555</td>
+      <td>42,8 5,8 7,0 42,7 1,7</td>
+      <td>345 65 82 560 24</td>
+      <td>1.951 208 321 1.922 69 4.470 4,5 4.678 780</td>
+      <td>43,6 4,6 7,2 43,0 1,5</td>
+      <td>435 74 110 665 30</td>
+      <td>2.637 239 463 2.474 86 5.900 4,4 6.171 955</td>
+      <td>44,7 4,1 7,8 41,9 1,5</td>
+      <td>15,71 4,86 16,71 9,48 8,51 11,61 11,07</td>
+      <td>11,51 3,52 14,50 8,69 7,20 9,82 9,35</td>
+      <td>8,45 3,36 8,48 8,15 5,43 8,00 7,03</td>
+      <td>6,21 2,85 7,62 5,18 4,65 5,71 4,14</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
 2. PHỤ LỤC 2: DANH MỤC CÁC CÔNG TRÌNH LƯỚI ĐIỆN DỰ KIẾN XÂY DỰNG GIAI ĐOẠN 2016-2025 (Ban hành kèm theo quyết định số: 4218/QĐ-BCT ngày 24 tháng 10 năm 2016 của Bộ trưởng Bộ Công Thương) Bảng 2.1 Khối lượng và thời điểm đưa vào vận hành các đường dây 220-110 kV tỉnh Cà Mau   
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1> Danh muc</td><td rowspan=1 colspan=2>Tiet dien (mm2)</td><td rowspan=1 colspan=2>Quy mo</td><td rowspan=2 colspan=1>Namvanhanh</td><td rowspan=2 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>Hien c6</td><td rowspan=1 colspan=1> XDM hoac sau cai tao</td><td rowspan=1 colspan=1>S6mach</td><td rowspan=1 colspan=1> Chieu dai(km)</td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=1>Giai doan 2016-2020</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>A</td><td rowspan=1 colspan=1>Duong day 220 kV</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Xay dung moi</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>65</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Ca Mau 2- Nam Can</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2x330</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>65</td><td rowspan=1 colspan=1>2020</td><td rowspan=1 colspan=1>Dong b@ voi tram 220 kV Nam CanTien d xem xét dong bo giai doan 2, 3 cua dien gi6 Khai Long.</td></tr><tr><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>Durong day 110 kV</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Xay dung moi</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>263,1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Danh muc cong trinh dau noi cac nha may dien nang lurong tai tao</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>NM dien gi6 Khai Long- tram 110 kVNam Can</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>330</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>45,4</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1>Döng b@ voi du án nha may dien gió KhaiLong giai doan 1</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Nhanh ré dau nói tram 110 kV Tan An1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>330</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2.6</td><td rowspan=1 colspan=1>2018</td><td rowspan=1 colspan=1>Dong bo voi dur an nha may dien gi6 TanAn 1</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục</td>
+      <td>Tiết diện (mm2)</td>
+      <td></td>
+      <td>Quy mô</td>
+      <td></td>
+      <td>Năm vận hành</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Hiện có</td>
+      <td>XDM hoặc sau cải tạo</td>
+      <td>Số mạch</td>
+      <td>Chiều dài (km)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Giai đoạn 2016-2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>Đường dây 220 kV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Xây dựng mới</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>65</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Cà Mau 2- Năm Căn</td>
+      <td></td>
+      <td>2x330</td>
+      <td>2</td>
+      <td>65</td>
+      <td>2020</td>
+      <td>Đồng bộ với trạm 220 kV Năm Căn Tiến độ xem xét đồng bộ giai đoạn 2, 3 của điện gió Khai Long.</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Đường dây 110 kV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Xây dựng mới</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>263,1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Danh mục công trình đấu nối các nhà máy điện năng lượng tái tạo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>NM điện gió Khai Long- trạm 110 kV Năm Căn</td>
+      <td></td>
+      <td>330</td>
+      <td>2</td>
+      <td>45,4</td>
+      <td>2017</td>
+      <td>Đồng bộ với dự án nhà máy điện gió Khai Long giai đoạn 1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Nhánh rẽ đấu nối trạm 110 kV Tân Ân 1</td>
+      <td></td>
+      <td>330</td>
+      <td>2</td>
+      <td>2,6</td>
+      <td>2018</td>
+      <td>Đồng bộ với dự án nhà máy điện gió Tân Ân 1</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1> Danh muc</td><td rowspan=1 colspan=2>Tiet dien (mm2)</td><td rowspan=1 colspan=2>Quy mo</td><td rowspan=2 colspan=1>Namvanhanh</td><td rowspan=2 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>Hien c6</td><td rowspan=1 colspan=1> XDM hoac sau cai tao</td><td rowspan=1 colspan=1>S6mach</td><td rowspan=1 colspan=1>Chieu dai(km)</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1> Nhanh ré dáu nói tram 110 kV TanThuan</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>2018</td><td rowspan=1 colspan=1>Dong bo voi du an NM dien gió TanThuan</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1> Nhanh ré dáu nói NM dien mat troi</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>330</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2020</td><td rowspan=1 colspan=1> Dong bo voi du an NM dien mät troi</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1> Nha may dien gió Khai Long- tram 220 kV Nam Can</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2x240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>2020</td><td rowspan=1 colspan=1> Dong bo voi tién do du an nha may dien gi6 Khai Long giai doan 2,3</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Danh muc cong trinh cap dien chophu tai</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1> Duong day 110 kV tur tram 220 kVCa Mau 2- tram 110 kV Ca Mau 2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3,3</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1>Dóng bo voi tram 110 kV Ca Mau 2</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1> An Xuyen- Vinh Thuan</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1> Nhanh ré tram 110 kV Thoi Binh</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2019</td><td rowspan=1 colspan=1> Dau nói chuyén tiép tren DZ 110 kV An Xuyén- Vinh Thuan</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1> Nhanh ré tram 110 kV Sóng Dóc</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1>Dáu nói chuyén tiép trén DZ 110 kV PhuTan- Tran Van Thoi</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Nhanh ré dau nói tram 110 kV NgocHien (Rach Góc)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>330</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2018</td><td rowspan=1 colspan=1>Dáu nói chuyén tiép trén DZ 110 kV KhaiLong- Nam Can</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Duong day 110 kV Phu Tan- tram 110kV Nam Can</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>2018</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục</td>
+      <td>Tiết diện (mm2)</td>
+      <td></td>
+      <td>Quy mô</td>
+      <td></td>
+      <td>Năm vận hành</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Hiện có</td>
+      <td>XDM hoặc sau cải tạo</td>
+      <td>Số mạch</td>
+      <td>Chiều dài (km)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Nhánh rẽ đấu nối trạm 110 kV Tân Thuận</td>
+      <td></td>
+      <td>240</td>
+      <td>2</td>
+      <td>6</td>
+      <td>2018</td>
+      <td>Đồng bộ với dự án NM điện gió Tân Thuận</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Nhánh rẽ đấu nối NM điện mặt trời</td>
+      <td></td>
+      <td>330</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2020</td>
+      <td>Đồng bộ với dự án NM điện mặt trời</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Nhà máy điện gió Khai Long- trạm 220 kV Năm Căn</td>
+      <td></td>
+      <td>2x240</td>
+      <td>2</td>
+      <td>40</td>
+      <td>2020</td>
+      <td>Đồng bộ với tiến độ dự án nhà máy điện gió Khai Long giai đoạn 2,3</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Danh mục công trình cấp điện cho phụ tải</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đường dây 110 kV từ trạm 220 kV Cà Mau 2- trạm 110 kV Cà Mau 2</td>
+      <td></td>
+      <td>240</td>
+      <td>2</td>
+      <td>3,3</td>
+      <td>2017</td>
+      <td>Đồng bộ với trạm 110 kV Cà Mau 2</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>An Xuyên- Vĩnh Thuận</td>
+      <td></td>
+      <td>240</td>
+      <td>1</td>
+      <td>35</td>
+      <td>2017</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Nhánh rẽ trạm 110 kV Thới Bình</td>
+      <td></td>
+      <td>240</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2019</td>
+      <td>Đấu nối chuyển tiếp trên ĐZ 110 kV An Xuyên- Vĩnh Thuận</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Nhánh rẽ trạm 110 kV Sông Đốc</td>
+      <td></td>
+      <td>240</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2017</td>
+      <td>Đấu nối chuyển tiếp trên ĐZ 110 kV Phú Tân- Trần Văn Thời</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Nhánh rẽ đấu nối trạm 110 kV Ngọc Hiển (Rạch Gốc)</td>
+      <td></td>
+      <td>330</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2018</td>
+      <td>Đấu nối chuyển tiếp trên ĐZ 110 kV Khai Long- Năm Căn</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Đường dây 110 kV Phú Tân- trạm 110 kV Năm Căn</td>
+      <td></td>
+      <td>240</td>
+      <td>1</td>
+      <td>35</td>
+      <td>2018</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1> Danh muc</td><td rowspan=1 colspan=2>Tiet dien (mm2)</td><td rowspan=1 colspan=2>Quy mo</td><td rowspan=2 colspan=1>Namv@nhanh</td><td rowspan=2 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>Hien co</td><td rowspan=1 colspan=1> XDM hoac sau cai tao</td><td rowspan=1 colspan=1>S6mach</td><td rowspan=1 colspan=1>Chieu dai(km)</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Duong day 110 kV tur tram 220 kV CaMau- An Xuyén (mach 2)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>2019</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1> Nhanh ré tram 110 kV Dinh Binh</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0,3</td><td rowspan=1 colspan=1>2019</td><td rowspan=1 colspan=1>Dau nói chuyén tiép trén DZ 110 kV CaMau- Gia Rai</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Duong day 110 kV tur tram 220 kV CaMau 2- Tran Van Thoi (mach 2)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>2020</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1> Nhanh ré tram 110 kV Nguyén Huan</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>2020</td><td rowspan=1 colspan=1>Dau noi Chuyén tiep tren duong day 110 kV Dam Doi- Dong Hai</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Xuat tuyén 4 mach duong day 110 kV tur tram 220 kV Nam Can</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>330</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2020</td><td rowspan=1 colspan=1> Dau noi chuyén tiép tren 2 mach duong day 110 kV NMDG Khai Long- tram 110 kV Nam Can</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Duong day 110 kV tur tram 220 kV CaMau 2 - tram 110 kV Ca Mau (mach2)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>15,5</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Cai tao, nang tiet dien day</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>161,1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> Phan pha tuyén duong day 110 kV trtram 220 kV Ca Mau 2- tram 110 kVDam Doi</td><td rowspan=1 colspan=1>185</td><td rowspan=1 colspan=1>2x185</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>25,8</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục</td>
+      <td>Tiết diện (mm2)</td>
+      <td></td>
+      <td>Quy mô</td>
+      <td></td>
+      <td>Năm vận hành</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Hiện có</td>
+      <td>XDM hoặc sau cải tạo</td>
+      <td>Số mạch</td>
+      <td>Chiều dài (km)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Đường dây 110 kV từ trạm 220 kV Cà Mau- An Xuyên (mạch 2)</td>
+      <td></td>
+      <td>240</td>
+      <td>1</td>
+      <td>12</td>
+      <td>2019</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Nhánh rẽ trạm 110 kV Định Bình</td>
+      <td></td>
+      <td>240</td>
+      <td>2</td>
+      <td>0,3</td>
+      <td>2019</td>
+      <td>Đấu nối chuyển tiếp trên ĐZ 110 kV Cà Mau- Giá Rai</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Đường dây 110 kV từ trạm 220 kV Cà Mau 2- Trần Văn Thời (mạch 2)</td>
+      <td></td>
+      <td>240</td>
+      <td>1</td>
+      <td>25</td>
+      <td>2020</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Nhánh rẽ trạm 110 kV Nguyễn Huân</td>
+      <td></td>
+      <td>240</td>
+      <td>2</td>
+      <td>22</td>
+      <td>2020</td>
+      <td>Đấu nối Chuyển tiếp trên đường dây 110 kV Đầm Dơi- Đông Hải</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Xuất tuyến 4 mạch đường dây 110 kV từ trạm 220 kV Năm Căn</td>
+      <td></td>
+      <td>330</td>
+      <td>4</td>
+      <td>10</td>
+      <td>2020</td>
+      <td>Đấu nối chuyển tiếp trên 2 mạch đường dây 110 kV NMĐG Khai Long- trạm 110 kV Năm Căn</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Đường dây 110 kV từ trạm 220 kV Cà Mau 2 - trạm 110 kV Cà Mau (mạch 2)</td>
+      <td></td>
+      <td>240</td>
+      <td>1</td>
+      <td>15,5</td>
+      <td>2017</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cải tạo, nâng tiết diện dây</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>161,1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Phân pha tuyến đường dây 110 kV từ trạm 220 kV Cà Mau 2- trạm 110 kV Đầm Dơi</td>
+      <td>185</td>
+      <td>2x185</td>
+      <td>1</td>
+      <td>25,8</td>
+      <td>2017</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1> Danh muc</td><td rowspan=1 colspan=2>Tiet dien (mm2)</td><td rowspan=1 colspan=2>Quy mo</td><td rowspan=2 colspan=1>Namvanhanh</td><td rowspan=2 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>Hien c6</td><td rowspan=1 colspan=1> XDM hoac sau cai tao</td><td rowspan=1 colspan=1>S6mach</td><td rowspan=1 colspan=1>Chieu dai(km)</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1> Phan pha tuyén duong day 110 kVDam Doi- Cai Nuoc</td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2x240</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Phan pha tuyen duong day 110 kV Cai Nuóc- Nam Can</td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2x240</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Phan pha tuyén duong day 110 kV tur tram 220 kV Ca Mau 2 - tram 110 kVAn Xuyen</td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2x240</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1> Phan pha tuyén duong day 110 kV tir An Xuyén- tram 110 kV Hong Dan</td><td rowspan=1 colspan=1>185</td><td rowspan=1 colspan=1>2x185</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>45</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1> Phan pha tuyén duong day 110 kV turtram 220 kV Ca Mau- tram 110 kVTran Van Thoi</td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2x240</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>25,3</td><td rowspan=1 colspan=1>2018</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=1>Giai doan 2021-2025</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>A</td><td rowspan=1 colspan=1>Duong day 220 kV</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=1>Cai tao nang tiet dien</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>5,7</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1> Ca Mau 2- NM nhiet dien Ca Mau</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2x400</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>5.7</td><td rowspan=1 colspan=1>2022</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>Durong day 110 kV</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Xay dung moi</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục</td>
+      <td>Tiết diện (mm2)</td>
+      <td></td>
+      <td>Quy mô</td>
+      <td></td>
+      <td>Năm vận hành</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Hiện có</td>
+      <td>XDM hoặc sau cải tạo</td>
+      <td>Số mạch</td>
+      <td>Chiều dài (km)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Phân pha tuyến đường dây 110 kV Đầm Dơi- Cái Nước</td>
+      <td>240</td>
+      <td>2x240</td>
+      <td>1</td>
+      <td>31</td>
+      <td>2017</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Phân pha tuyến đường dây 110 kV Cái Nước- Năm Căn</td>
+      <td>240</td>
+      <td>2x240</td>
+      <td>1</td>
+      <td>21</td>
+      <td>2017</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Phân pha tuyến đường dây 110 kV từ trạm 220 kV Cà Mau 2 - trạm 110 kV An Xuyên</td>
+      <td>240</td>
+      <td>2x240</td>
+      <td>1</td>
+      <td>13</td>
+      <td>2017</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Phân pha tuyến đường dây 110 kV từ An Xuyên- trạm 110 kV Hồng Dân</td>
+      <td>185</td>
+      <td>2x185</td>
+      <td>1</td>
+      <td>45</td>
+      <td>2017</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Phân pha tuyến đường dây 110 kV từ trạm 220 kV Cà Mau- trạm 110 kV Trần Văn Thời</td>
+      <td>240</td>
+      <td>2x240</td>
+      <td>1</td>
+      <td>25,3</td>
+      <td>2018</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>II</td>
+      <td>Giai đoạn 2021-2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>Đường dây 220 kV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Cải tạo nâng tiết diện</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>5,7</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Cà Mau 2- NM nhiệt điện Cà Mau</td>
+      <td></td>
+      <td>2x400</td>
+      <td>2</td>
+      <td>5,7</td>
+      <td>2022</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Đường dây 110 kV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Xây dựng mới</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>64</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1> Danh muc</td><td rowspan=1 colspan=2>Tiet dien (mm2)</td><td rowspan=1 colspan=2>Quy mo</td><td rowspan=2 colspan=1>Namvanhanh</td><td rowspan=2 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>Hien c6</td><td rowspan=1 colspan=1> XDM hoac sau cai tao</td><td rowspan=1 colspan=1>S6mach</td><td rowspan=1 colspan=1>Chieu dai(km)</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Danh muc cong trinh dau noi cac nha may dien nang luong tai tao</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Nhanh ré dau nói tram 110 kV nhamay dien gió An Dong 1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2x240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>2022</td><td rowspan=1 colspan=1> Chuyen tiép tren mot mach duong day 110 kV tir NM dien gi6 Khai Long - tram 220 kV Nam Can</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Nhanh ré dáu nói tram 110 kV nha may dien gi6 Khanh Binh Tay</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>2023</td><td rowspan=1 colspan=1> Chuyén tiep tren drong day 110 kV SongD6c- Phu Tan</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Danh muc cong trinh cap dién chophu tai</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Duong day 110 kV tur tram 220 kV Ca Mau 2- tram 110 kV U Minh</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>2021</td><td rowspan=1 colspan=1>Dong bo voi tram 110 kV U Minh</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1> Nhanh ré däu nói tram 110 kV Khucong nghiep Hoa Trung</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2x185</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>2021</td><td rowspan=1 colspan=1>Dau noi chuyén tiép tren duong day 110 kV tram 220 kV Ca Mau 2- tram 110 kVDam Doi</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1> Nhanh ré däu nói tram 110 kV Khucong nghiep Nam Can</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2x240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0,5</td><td rowspan=1 colspan=1>2022</td><td rowspan=1 colspan=1>Däu nói chuyén tiép tren duong day 110 kV Cai Nuoc- Nam Can</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1> Xuat tuyén duong day 110 kV mach kép tir tram 220 kV Nam Can</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>2021</td><td rowspan=1 colspan=1>Dau noi chuyén tiép tren duong day 110 kV Phu Tan- Nam Can</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục</td>
+      <td>Tiết diện (mm2)</td>
+      <td></td>
+      <td>Quy mô</td>
+      <td></td>
+      <td>Năm vận hành</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Hiện có</td>
+      <td>XDM hoặc sau cải tạo</td>
+      <td>Số mạch</td>
+      <td>Chiều dài (km)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Danh mục công trình đấu nối các nhà máy điện năng lượng tái tạo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Nhánh rẽ đấu nối trạm 110 kV nhà máy điện gió An Đông 1</td>
+      <td></td>
+      <td>2x240</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2022</td>
+      <td>Chuyển tiếp trên một mạch đường dây 110 kV từ NM điện gió Khai Long - trạm 220 kV Năm Căn</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Nhánh rẽ đấu nối trạm 110 kV nhà máy điện gió Khánh Bình Tây</td>
+      <td></td>
+      <td>240</td>
+      <td>2</td>
+      <td>9</td>
+      <td>2023</td>
+      <td>Chuyển tiếp trên đường dây 110 kV Sông Đốc- Phú Tân</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Danh mục công trình cấp điện cho phụ tải</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Đường dây 110 kV từ trạm 220 kV Cà Mau 2- trạm 110 kV U Minh</td>
+      <td></td>
+      <td>240</td>
+      <td>2</td>
+      <td>27</td>
+      <td>2021</td>
+      <td>Đồng bộ với trạm 110 kV U Minh</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Nhánh rẽ đấu nối trạm 110 kV Khu công nghiệp Hòa Trung</td>
+      <td></td>
+      <td>2x185</td>
+      <td>2</td>
+      <td>4</td>
+      <td>2021</td>
+      <td>Đấu nối chuyển tiếp trên đường dây 110 kV trạm 220 kV Cà Mau 2- trạm 110 kV Đầm Dơi</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Nhánh rẽ đấu nối trạm 110 kV Khu công nghiệp Năm Căn</td>
+      <td></td>
+      <td>2x240</td>
+      <td>2</td>
+      <td>0,5</td>
+      <td>2022</td>
+      <td>Đấu nối chuyển tiếp trên đường dây 110 kV Cái Nước- Năm Căn</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Xuất tuyến đường dây 110 kV mạch kép từ trạm 220 kV Năm Căn</td>
+      <td></td>
+      <td>240</td>
+      <td>2</td>
+      <td>14</td>
+      <td>2021</td>
+      <td>Đấu nối chuyển tiếp trên đường dây 110 kV Phú Tân- Năm Căn</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1>Danh muc</td><td rowspan=1 colspan=2>Tiet dien (mm2)</td><td rowspan=1 colspan=2>Quy mo</td><td rowspan=2 colspan=1>Namvanhanh</td><td rowspan=2 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>Hien co</td><td rowspan=1 colspan=1> XDM hoac sau cai tao</td><td rowspan=1 colspan=1>s6mach</td><td rowspan=1 colspan=1>Chieu dai(km)</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Duong day 110 kV tur tram 220 kV Nam Can- tram 110 kV Phu Tan</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>2022</td><td rowspan=1 colspan=1> Dau noi vao thanh cai tram 220 kV NamCan</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Duong day 110 kV tir tram 220 kVNam Can- Nguyén Huan</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>2023</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1> Nhanh ré tram 110 kV Khai Long</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>330</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2.5</td><td rowspan=1 colspan=1>2023</td><td rowspan=1 colspan=1> Chuyén tiép tren m@t mach DZ 110 kVNMDG Khai Long- tram 110 kV Nam Can</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Tuyén cap ngam 110 kV vän hanh ócap dien ap 22 kV cap dien cho daoHon Khoai</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>2024</td><td rowspan=1 colspan=1>Däu noi tir tram 110 kV Khai Long</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục</td>
+      <td>Tiết diện (mm2)</td>
+      <td></td>
+      <td>Quy mô</td>
+      <td></td>
+      <td>Năm vận hành</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Hiện có</td>
+      <td>XDM hoặc sau cải tạo</td>
+      <td>Số mạch</td>
+      <td>Chiều dài (km)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Đường dây 110 kV từ trạm 220 kV Năm Căn- trạm 110 kV Phú Tân</td>
+      <td></td>
+      <td>240</td>
+      <td>1</td>
+      <td>25</td>
+      <td>2022</td>
+      <td>Đấu nối vào thanh cái trạm 220 kV Năm Căn</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Đường dây 110 kV từ trạm 220 kV Năm Căn- Nguyễn Huân</td>
+      <td></td>
+      <td>240</td>
+      <td>2</td>
+      <td>40</td>
+      <td>2023</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Nhánh rẽ trạm 110 kV Khai Long</td>
+      <td></td>
+      <td>330</td>
+      <td>2</td>
+      <td>2,5</td>
+      <td>2023</td>
+      <td>Chuyển tiếp trên một mạch ĐZ 110 kV NMĐG Khai Long- trạm 110 kV Năm Căn</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Tuyến cáp ngầm 110 kV vận hành ở cấp điện áp 22 kV cấp điện cho đảo Hòn Khoai</td>
+      <td></td>
+      <td>240</td>
+      <td>1</td>
+      <td>12</td>
+      <td>2024</td>
+      <td>Đấu nối từ trạm 110 kV Khai Long</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
 Bảng 2.2 Khối lượng trạm biến áp ${ \displaystyle 2 2 0 \ \mathbf { k } \mathbf { V } } .$ , ${ \bf 1 1 0 k V }$ xây dựng mới, cải tạo, mở rộng nâng quy mô công suất của tỉnh Cà Mau giai đoạn 2016-2020
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1>Danh muctram</td><td rowspan=2 colspan=1>May</td><td rowspan=1 colspan=2>Hien trang</td><td rowspan=1 colspan=2>Nam 2016</td><td rowspan=1 colspan=2>Nam 2017</td><td rowspan=1 colspan=2>Nam 2018</td><td rowspan=1 colspan=2>Nam 2019</td><td rowspan=1 colspan=2>Nam 2020</td><td rowspan=2 colspan=1>Ghichu</td></tr><tr><td rowspan=1 colspan=1>Quym6(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv）</td><td rowspan=1 colspan=1>Quym(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv)）</td><td rowspan=1 colspan=1>Quym6(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv)</td><td rowspan=1 colspan=1>Quym6(MVA)</td><td rowspan=1 colspan=1>Dienap (kv)</td><td rowspan=1 colspan=1>Quym0(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv）</td><td rowspan=1 colspan=1>Quym(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv）</td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=14>Tram 220 kV</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=14>Xay dung moi</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>1</td><td rowspan=2 colspan=1>Nam Can</td><td rowspan=1 colspan=1>AT1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>250</td><td rowspan=1 colspan=1>220/110</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=8>Mo rong, nang quy mo cong suat</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=5></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>2</td><td rowspan=2 colspan=1>Ca Mau 2</td><td rowspan=1 colspan=1>AT1</td><td rowspan=1 colspan=1>125</td><td rowspan=1 colspan=1>220/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>250</td><td rowspan=1 colspan=1>220/110</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>AT2</td><td rowspan=1 colspan=1>250</td><td rowspan=1 colspan=1>220/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Ⅱ</td><td rowspan=1 colspan=14>Tram 110 kV</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=14>Xay dung moi</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1></td><td rowspan=2 colspan=6>Danh muc cong trinh dau noi cac nha may dien nang lrong tai tao</td><td rowspan=2 colspan=4>uro'ng tai tao</td><td rowspan=2 colspan=4></td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td></tr><tr><td rowspan=6 colspan=1>1</td><td rowspan=6 colspan=1>Dien gi6Khai Long</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T3</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T4</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T5</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục trạm</td>
+      <td>Máy</td>
+      <td>Hiện trạng</td>
+      <td></td>
+      <td>Năm 2016</td>
+      <td></td>
+      <td>Năm 2017</td>
+      <td></td>
+      <td>Năm 2018</td>
+      <td></td>
+      <td>Năm 2019</td>
+      <td></td>
+      <td>Năm 2020</td>
+      <td></td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Trạm 220 kV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Xây dựng mới</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Năm Căn</td>
+      <td>AT1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>250</td>
+      <td>220/110</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mở rộng, nâng quy mô công suất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cà Mau 2</td>
+      <td>AT1</td>
+      <td>125</td>
+      <td>220/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>250</td>
+      <td>220/110</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>AT2</td>
+      <td>250</td>
+      <td>220/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>II</td>
+      <td>Trạm 110 kV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Xây dựng mới</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Danh mục công trình đấu nối các nhà máy điện năng lượng tái tạo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Điện gió Khai Long</td>
+      <td>T1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T3</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T4</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T5</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T6</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td></td>
+      <td>T1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=3 colspan=1>TT</td><td rowspan=3 colspan=1> Danh muctramDien gi6Tan An 1</td><td rowspan=2 colspan=1>May</td><td rowspan=1 colspan=2>Hien trang</td><td rowspan=1 colspan=2>Nam 2016</td><td rowspan=1 colspan=2>Nam 2017</td><td rowspan=1 colspan=2>Nam 2018</td><td rowspan=1 colspan=2>Nam 2019</td><td rowspan=1 colspan=2>Nam 2020</td><td rowspan=2 colspan=1>Ghichu</td></tr><tr><td rowspan=1 colspan=1>(MVA)</td><td rowspan=1 colspan=1>Dien ap（v）</td><td rowspan=1 colspan=1>(MVA)</td><td rowspan=1 colspan=1>Dien ap（v）</td><td rowspan=1 colspan=1>Q(MVA)</td><td rowspan=1 colspan=1>Dien ap（v）</td><td rowspan=1 colspan=1>(MVA)</td><td rowspan=1 colspan=1>Dienap (kv）</td><td rowspan=1 colspan=1>Quym0(MVA)</td><td rowspan=1 colspan=1>Dien ap（kv）</td><td rowspan=1 colspan=1>(MVA)</td><td rowspan=1 colspan=1>Dien ap（kv）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>3</td><td rowspan=2 colspan=1>Dien gi6Tan Thuan</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>4</td><td rowspan=2 colspan=1>Dien mattroi</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục trạm Điện gió Tân Ân 1</td>
+      <td>Máy</td>
+      <td>Hiện trạng</td>
+      <td></td>
+      <td>Năm 2016</td>
+      <td></td>
+      <td>Năm 2017</td>
+      <td></td>
+      <td>Năm 2018</td>
+      <td></td>
+      <td>Năm 2019</td>
+      <td></td>
+      <td>Năm 2020</td>
+      <td></td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Điện gió Tân Thuận</td>
+      <td>T1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Điện mặt trời</td>
+      <td>T1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>22/110</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Danh mục công trình cấp điện cho phụ tải</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Cà Mau 2</td>
+      <td>T1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Thới Bình</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Sông Đốc</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Ngọc Hiển (Rạch Gốc)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Định Bình</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Nguyễn Huân</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mở rộng, nâng quy mô công suất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Danh mục công trình cấp điện cho phụ tải</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan=2 colspan=1>5</td><td rowspan=2 colspan=1>Ca Mau 2</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>6</td><td rowspan=2 colspan=1>Thoi Binh</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>7</td><td rowspan=2 colspan=1>Song Doc</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>8</td><td rowspan=2 colspan=1>Ngoc Hien(Rach G6c)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>9</td><td rowspan=2 colspan=1>Dinh Binh</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>10</td><td rowspan=2 colspan=1>NguyenHuan</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=14>Mo rong, nang quy mo cong suat</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=14>Danh muc cong trinh cáp dién cho phu tai</td></tr></table>
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục trạm</td>
+      <td>Máy</td>
+      <td>Hiện trạng</td>
+      <td></td>
+      <td>Năm 2016</td>
+      <td></td>
+      <td>Năm 2017</td>
+      <td></td>
+      <td>Năm 2018</td>
+      <td></td>
+      <td>Năm 2019</td>
+      <td></td>
+      <td>Năm 2020</td>
+      <td></td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Cà Mau</td>
+      <td>T1</td>
+      <td>40</td>
+      <td>110/22</td>
+      <td>63</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td>40</td>
+      <td>110/22</td>
+      <td>63</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>An Xuyên</td>
+      <td>T1</td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Cái Nước</td>
+      <td>T1</td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1> Danh muctram</td><td rowspan=2 colspan=1>May</td><td rowspan=1 colspan=2>Hien trang</td><td rowspan=1 colspan=2>Nam 2016</td><td rowspan=1 colspan=2>Nam 2017</td><td rowspan=1 colspan=2>Nam 2018</td><td rowspan=1 colspan=2>Nam 2019</td><td rowspan=1 colspan=2>Nam 2020</td><td rowspan=2 colspan=1>Ghichu</td></tr><tr><td rowspan=1 colspan=1>Quym(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv)</td><td rowspan=1 colspan=1>(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv)</td><td rowspan=1 colspan=1>Quym(MVA)</td><td rowspan=1 colspan=1>Dien ap（kv）</td><td rowspan=1 colspan=1>Quym0(MVA)</td><td rowspan=1 colspan=1>Dienap (kv）</td><td rowspan=1 colspan=1>Quym0(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv）</td><td rowspan=1 colspan=1>Quym6(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv)</td></tr><tr><td rowspan=2 colspan=1>1</td><td rowspan=2 colspan=1>Ca Mau</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>2</td><td rowspan=2 colspan=1>An Xuyen</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>3</td><td rowspan=2 colspan=1>Cai Nuoc</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
-
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục trạm</td>
+      <td>Máy</td>
+      <td>Năm 2020</td>
+      <td></td>
+      <td>Năm 2021</td>
+      <td></td>
+      <td>Năm 2022</td>
+      <td></td>
+      <td>Năm 2023</td>
+      <td></td>
+      <td>Năm 2024</td>
+      <td></td>
+      <td>Năm 2025</td>
+      <td></td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Trạm 110 kV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Xây dựng mới</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Danh mục công trình đấu nối các nhà máy điện năng lượng tái tạo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Điện gió Khánh Bình Tây</td>
+      <td>T1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Điện gió An Đông 1</td>
+      <td>T1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Danh mục công trình cấp điện cho phụ tải</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>U Minh</td>
+      <td>T1</td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>KCN Hòa Trung</td>
+      <td>T1</td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>KCN Năm Căn</td>
+      <td>T1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Bảng 2.3 Khối lượng trạm biến áp ${ \displaystyle 2 2 0 \ \mathbf { k } \mathbf { V } } .$ , ${ \bf 1 1 0 k V }$ xây dựng mới, cải tạo, mở rộng nâng quy mô công suất của tỉnh Cà Mau giai đoạn 2021-2025
 
-<table><tr><td rowspan="2">TT</td><td rowspan="2">Danh muc tram</td><td rowspan="2">May</td><td colspan="2">Nam 2020</td><td colspan="2">Nam 2021</td><td colspan="2">Nam 2022</td><td colspan="2">Nam 2023</td><td colspan="2">Nam 2024</td><td colspan="2">Nam 2025</td><td rowspan="2">Ghi</td></tr><tr><td>Quy mó (MVA)</td><td>Dien ap (kV)</td><td>Quy mo (MVA)</td><td>Dien ap (kv)</td><td>Quy mo (MVA)</td><td>Dien ap (kv)</td><td>Quy mo (MVA)</td><td>Dien ap (kv)</td><td>Quy m0 (MVA)</td><td>Dien ap (kv)</td><td>Quy m0 (MVA)</td><td>Dien áp chu (kv)</td></tr></table>
-
-<table><tr><td rowspan=2 colspan=1>1</td><td rowspan=2 colspan=1>Dien    gi6Khanh BinhTay</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>2</td><td rowspan=2 colspan=1>Dien gi6 AnDong1</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
-
-<table><tr><td rowspan=2 colspan=1>3</td><td rowspan=2 colspan=1>U Minh</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>4</td><td rowspan=2 colspan=1>KCN HoaTrung</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>5</td><td rowspan=2 colspan=1>KCN NamCan</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
 
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục trạm</td>
+      <td>Máy</td>
+      <td>Năm 2020</td>
+      <td></td>
+      <td>Năm 2021</td>
+      <td></td>
+      <td>Năm 2022</td>
+      <td></td>
+      <td>Năm 2023</td>
+      <td></td>
+      <td>Năm 2024</td>
+      <td></td>
+      <td>Năm 2025</td>
+      <td></td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Khai Long</td>
+      <td>T1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mở rộng, nâng quy mô công suất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Danh mục công trình đấu nối các nhà máy điện năng lượng tái tạo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Điện gió Tân Ân 1</td>
+      <td>T1</td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Điện gió Tân Thuận</td>
+      <td>T1</td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>NM điện mặt trời</td>
+      <td>T1</td>
+      <td>40</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>22/110</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Danh mục công trình cấp điện cho phụ tải</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Đầm Dơi</td>
+      <td>T1</td>
+      <td>25</td>
+      <td>110/22</td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td>25</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Cà Mau 2</td>
+      <td>T1</td>
+      <td>63</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td>63</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Thới Bình</td>
+      <td>T1</td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Sông Đốc</td>
+      <td>T1</td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1> Danh muctram</td><td rowspan=2 colspan=1>May</td><td rowspan=1 colspan=2>Nam 2020</td><td rowspan=1 colspan=2>Nam 2021</td><td rowspan=1 colspan=2>Nam 2022</td><td rowspan=1 colspan=2>Nam 2023</td><td rowspan=1 colspan=2>Nam 2024</td><td rowspan=1 colspan=2>Nam 2025</td><td rowspan=2 colspan=1>Ghichu</td></tr><tr><td rowspan=1 colspan=1>Quym6(MVA)</td><td rowspan=1 colspan=1>Dien ap（kv）</td><td rowspan=1 colspan=1>Quym(MVA)</td><td rowspan=1 colspan=1>Dien ap（kv）</td><td rowspan=1 colspan=1>Quym6(MVA)</td><td rowspan=1 colspan=1>Dien ap（kv）</td><td rowspan=1 colspan=1>(MVA)</td><td rowspan=1 colspan=1>Dien ap（kv）</td><td rowspan=1 colspan=1>Quym0(MVA)</td><td rowspan=1 colspan=1>Dien ap（kv）</td><td rowspan=1 colspan=1>(MVA)</td><td rowspan=1 colspan=1>Dien ap（kv）</td></tr><tr><td rowspan=2 colspan=1>6</td><td rowspan=2 colspan=1> Khai Long</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
 
-<table><tr><td rowspan=2 colspan=1>1</td><td rowspan=2 colspan=1>Dien gi6 TanAn1</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td></tr><tr><td rowspan=2 colspan=1>2</td><td rowspan=2 colspan=1>Dien gi6 TanThuan</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>22/110</td></tr><tr><td rowspan=2 colspan=1>3</td><td rowspan=2 colspan=1>NM dien mattr0i</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>22/110</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>22/110</td></tr></table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Danh mục trạm</td>
+      <td>Máy</td>
+      <td>Năm 2020</td>
+      <td></td>
+      <td>Năm 2021</td>
+      <td></td>
+      <td>Năm 2022</td>
+      <td></td>
+      <td>Năm 2023</td>
+      <td></td>
+      <td>Năm 2024</td>
+      <td></td>
+      <td>Năm 2025</td>
+      <td></td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td>Quy mô (MVA)</td>
+      <td>Điện áp (kV)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Định Bình</td>
+      <td>T1</td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40</td>
+      <td>110/22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Tên công trình</td>
+      <td>Đơn vị</td>
+      <td>Khối lượng xây dựng</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2016-2020</td>
+      <td>2021-2025</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Trạm biến áp phân phối</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>Xây dựng mới</td>
+      <td>trạm / kVA</td>
+      <td>676 / 149.030</td>
+      <td>935 / 247.185</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>Trạm điện lực</td>
+      <td>trạm / kVA</td>
+      <td>578 / 96.840</td>
+      <td>695 / 139.615</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>Trạm khách hàng</td>
+      <td>trạm / kVA</td>
+      <td>98 / 52.190</td>
+      <td>240 / 107.570</td>
+    </tr>
+    <tr>
+      <td>b</td>
+      <td>Cải tạo</td>
+      <td>trạm / kVA</td>
+      <td>438 / 44.910</td>
+      <td>629 / 60.050</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>Trạm điện lực</td>
+      <td>trạm / kVA</td>
+      <td>438 / 44.910</td>
+      <td>629 / 60.050</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>Trạm khách hàng</td>
+      <td>trạm / kVA</td>
+      <td>0 / 0</td>
+      <td>0 / 0</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Đường dây trung áp</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>Xây dựng mới</td>
+      <td>km</td>
+      <td>243,1</td>
+      <td>225,6</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>XLPE 240</td>
+      <td>km</td>
+      <td>75,2</td>
+      <td>59,9</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>Đường trục (AC-120;150)</td>
+      <td>km</td>
+      <td>74,5</td>
+      <td>66,1</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>Đường nhánh (AC-95;70)</td>
+      <td>km</td>
+      <td>93,4</td>
+      <td>99,6</td>
+    </tr>
+    <tr>
+      <td>b</td>
+      <td>Cải tạo</td>
+      <td>km</td>
+      <td>70,6</td>
+      <td>52,1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Đường dây hạ áp</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>Xây dựng mới</td>
+      <td>km</td>
+      <td>1.690</td>
+      <td>2.338</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>Đường trục (ABC-120;95)</td>
+      <td>km</td>
+      <td>879</td>
+      <td>1.216</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>Đường nhánh (AC-70;50)</td>
+      <td>km</td>
+      <td>811</td>
+      <td>1.122</td>
+    </tr>
+    <tr>
+      <td>b</td>
+      <td>Cải tạo</td>
+      <td>km</td>
+      <td>1.850</td>
+      <td>1.600</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Công tơ</td>
+      <td></td>
+      <td>27.247</td>
+      <td>23.905</td>
+    </tr>
+  </tbody>
+</table>
 
 # Danh mục công trình cấp điện cho phụ tải
 
-<table><tr><td rowspan=2 colspan=1>4</td><td rowspan=2 colspan=1>Dam Doi</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>5</td><td rowspan=2 colspan=1>Ca Mau 2</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>6</td><td rowspan=2 colspan=1>Thoi Binh</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Song D6c</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
 
 
 
-<table><tr><td rowspan=3 colspan=1>TT</td><td rowspan=3 colspan=1> Danh muctram</td><td rowspan=2 colspan=1>May</td><td rowspan=1 colspan=2>Nam 2020</td><td rowspan=1 colspan=2>Nam 2021</td><td rowspan=1 colspan=2>Nam 2022</td><td rowspan=1 colspan=2>Nam 2023</td><td rowspan=1 colspan=2>Nam 2024</td><td rowspan=1 colspan=2>Nam 2025</td><td rowspan=2 colspan=1>Ghichu</td></tr><tr><td rowspan=1 colspan=1>Quym(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv）</td><td rowspan=1 colspan=1>Quym6(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv）</td><td rowspan=1 colspan=1>Quym0(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv）</td><td rowspan=1 colspan=1>Quym(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv）</td><td rowspan=1 colspan=1>Quym(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv）</td><td rowspan=1 colspan=1>Quym6(MVA)</td><td rowspan=1 colspan=1>Dien ap(kv）</td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>8</td><td rowspan=2 colspan=1>Dinh Binh</td><td rowspan=1 colspan=1>T1</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=1>T2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>110/22</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
-
-Bảng 2.4 Khối lượng xây dựng mới và cải tạo lưới điện trung hạ áp tỉnh Cà Mau giai đoạn 2016-2025   
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1>Tén cong trinh</td><td rowspan=2 colspan=1>Don vi</td><td rowspan=1 colspan=2>Khoi lurong xay dung</td></tr><tr><td rowspan=1 colspan=1>2016-2020</td><td rowspan=1 colspan=1>2021-2025</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1> Tram bien ap phan phoi</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>a</td><td rowspan=1 colspan=1> Xay dung moi</td><td rowspan=1 colspan=1>tram / kVA</td><td rowspan=1 colspan=1>676  /  149.030</td><td rowspan=1 colspan=1>935  /  247.185</td></tr><tr><td rowspan=1 colspan=1>+</td><td rowspan=1 colspan=1>Tram dien luc</td><td rowspan=1 colspan=1>tram / kVA</td><td rowspan=1 colspan=1>578 /  96.840</td><td rowspan=1 colspan=1>695 /  139.615</td></tr><tr><td rowspan=1 colspan=1>+</td><td rowspan=1 colspan=1>Tram khach hang</td><td rowspan=1 colspan=1>tram / kVA</td><td rowspan=1 colspan=1>98  /  52.190</td><td rowspan=1 colspan=1>240 /  107.570</td></tr><tr><td rowspan=1 colspan=1>b</td><td rowspan=1 colspan=1>Cai tao</td><td rowspan=1 colspan=1>tram / kVA</td><td rowspan=1 colspan=1>438  /  44.910</td><td rowspan=1 colspan=1>629  /   60.050</td></tr><tr><td rowspan=1 colspan=1>+</td><td rowspan=1 colspan=1>Tram dien luc</td><td rowspan=1 colspan=1>tram / kVA</td><td rowspan=1 colspan=1>438 /  44.910</td><td rowspan=1 colspan=1>629 /   60.050</td></tr><tr><td rowspan=1 colspan=1>+</td><td rowspan=1 colspan=1>Tram khach hang</td><td rowspan=1 colspan=1>tram / kVA</td><td rowspan=1 colspan=1>0  /     0</td><td rowspan=1 colspan=1>0             0</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1> Durong day trung ap</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>a</td><td rowspan=1 colspan=1> Xay dung moi</td><td rowspan=1 colspan=1>km</td><td rowspan=1 colspan=1>243,1</td><td rowspan=1 colspan=1>225,6</td></tr><tr><td rowspan=1 colspan=1>+</td><td rowspan=1 colspan=1>XLPE 240</td><td rowspan=1 colspan=1>km</td><td rowspan=1 colspan=1>75,2</td><td rowspan=1 colspan=1>59,9</td></tr><tr><td rowspan=1 colspan=1>+</td><td rowspan=1 colspan=1>Duong truc (AC-120;150)</td><td rowspan=1 colspan=1>km</td><td rowspan=1 colspan=1>74,5</td><td rowspan=1 colspan=1>66,1</td></tr><tr><td rowspan=1 colspan=1>+</td><td rowspan=1 colspan=1>Duong nhanh (AC-95;70)</td><td rowspan=1 colspan=1>km</td><td rowspan=1 colspan=1>93,4</td><td rowspan=1 colspan=1>99,6</td></tr><tr><td rowspan=1 colspan=1>b</td><td rowspan=1 colspan=1>Cai tao</td><td rowspan=1 colspan=1>km</td><td rowspan=1 colspan=1>70.6</td><td rowspan=1 colspan=1>52,1</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Duong day ha ap</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>a</td><td rowspan=1 colspan=1> Xay dung moi</td><td rowspan=1 colspan=1>km</td><td rowspan=1 colspan=1>1.690</td><td rowspan=1 colspan=1>2.338</td></tr><tr><td rowspan=1 colspan=1>+</td><td rowspan=1 colspan=1>Duong truc (ABC-120;95)</td><td rowspan=1 colspan=1>km</td><td rowspan=1 colspan=1>879</td><td rowspan=1 colspan=1>1.216</td></tr><tr><td rowspan=1 colspan=1>+</td><td rowspan=1 colspan=1>Duong nhanh (AC-70;50)</td><td rowspan=1 colspan=1>km</td><td rowspan=1 colspan=1>811</td><td rowspan=1 colspan=1>1.122</td></tr><tr><td rowspan=1 colspan=1>b</td><td rowspan=1 colspan=1>Cai tao</td><td rowspan=1 colspan=1>km</td><td rowspan=1 colspan=1>1.850</td><td rowspan=1 colspan=1>1.600</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Cong to</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>27.247</td><td rowspan=1 colspan=1>23.905</td></tr></table>
+Bảng 2.4 Khối lượng xây dựng mới và cải tạo lưới điện trung hạ áp tỉnh Cà Mau giai đoạn 2016-2025

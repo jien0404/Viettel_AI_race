@@ -36,13 +36,71 @@ Chế độ "kiểm soát vòng” khi tàu cần truyền dữ liệu để tr�
 
 Các quy định trong phần này liên quan từ lớp 1 đến lớp 4 (Lớp vật lý, Lớp kết nối, Lớp mạng, Lớp vận tải) trong mô hình OSI.
 
-<table><tr><td rowspan=1 colspan=3>Lop ung dung</td></tr><tr><td rowspan=1 colspan=3>Lop trinh dién</td></tr><tr><td rowspan=1 colspan=3>Lóp phien</td></tr><tr><td rowspan=1 colspan=3>Lop van tai</td></tr><tr><td rowspan=1 colspan=3>Lop mangKénh 1                          Kénh 2</td></tr><tr><td rowspan=1 colspan=1>Lop lien kétLME</td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1>Lop lien kétLME</td></tr><tr><td rowspan=1 colspan=1>Lop lien két DLS</td><td rowspan=1 colspan=1>Lop lien két DLS</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Lớp ứng dụng</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lớp trình diễn</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lớp phiên</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lớp vận tải</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lớp mạng Kênh 1 Kênh 2</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lớp liên kết LME</td>
+      <td></td>
+      <td>Lớp liên kết LME</td>
+    </tr>
+    <tr>
+      <td>Lớp liên kết DLS</td>
+      <td></td>
+      <td>Lớp liên kết DLS</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
 Hình 2 - Mô tả mô hình các lớp trong một trạm AIS   
 
-<table><tr><td rowspan=1 colspan=1>L6p lien kétMAC</td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1>Lóp lien kétMAC</td></tr><tr><td rowspan=1 colspan=1>Lop vat ly</td><td rowspan=1 colspan=1>Lop vat ly</td></tr><tr><td rowspan=1 colspan=1>Rx1</td><td rowspan=1 colspan=1>Tx 1/2</td><td rowspan=1 colspan=1>Rx2</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Lớp liên kết MAC</td>
+      <td></td>
+      <td>Lớp liên kết MAC</td>
+    </tr>
+    <tr>
+      <td>Lớp vật lý</td>
+      <td></td>
+      <td>Lớp vật lý</td>
+    </tr>
+    <tr>
+      <td>Rx1</td>
+      <td>Tx 1/2</td>
+      <td>Rx2</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2.2 Lớp vật lý
 
@@ -52,9 +110,38 @@ Bảng 1 bao gồm các thông số kỹ thuật sẽ áp dụng cho các bộ t
 
 Bảng 1 - Các yêu cầu đặc tính bộ thu   
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Thông số máy thu</td>
+      <td>Kênh 25 kHz</td>
+      <td>Kênh 12,5 kHz</td>
+    </tr>
+    <tr>
+      <td>Độ nhạy</td>
+      <td>20 % PER, –107 dBm</td>
+      <td>20 % PER, –98 dBm</td>
+    </tr>
+    <tr>
+      <td>Triệt nhiễu cùng kênh</td>
+      <td>–10 dB ÷ 0 dB</td>
+      <td>–18 dB ÷ 0 dB</td>
+    </tr>
+    <tr>
+      <td>Độ chọn lọc kênh lân cận</td>
+      <td>70 dB</td>
+      <td>50 dB</td>
+    </tr>
+    <tr>
+      <td>Triệt đáp ứng giả</td>
+      <td>70 dB</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
 
 
-<table><tr><td>Triet dap ing xuyén diéu ché va triet nghen</td><td>20 % PER</td><td>N/A</td></tr></table>
 
 # 2.3 Lớp liên kết
 
@@ -80,7 +167,16 @@ Lớp mạng dùng để:
 
 a. Thiết lập và duy trì các kết nối kênh;
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Triệt đáp ứng xuyên điều chế và triệt nghẽn</td>
+      <td>20 % PER</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
 
 b. Quản lý các phép gán ưu tiên cho bản tin;   
 c. Phân phối các gói tin truyền vào các kênh.
@@ -110,11 +206,116 @@ Bảng 2 - Độ bền với các điều kiện khác nhau của môi trường
 
 
 
-<table><tr><td rowspan=1 colspan=1>Dieu kien</td><td rowspan=1 colspan=1> Xach tay</td><td rowspan=1 colspan=2>Duocche chan</td><td rowspan=1 colspan=1>Ngoai troi</td><td rowspan=1 colspan=1>Ngap nuro&#x27;c</td></tr><tr><td rowspan=1 colspan=1>Rung lac</td><td rowspan=1 colspan=5>Rung tai tan só 2 Hz - 13,2 Hz d@ dich chuyén ± 1 mm, tai 13,2 Hz -100 Hz do dich chuyén 7 m/s² va trong 2 h voi mδi lan cong huong,noi cach khac 2h quét tai 30 Hz theo cä 3 truc</td></tr><tr><td rowspan=1 colspan=1>Mua va buinuroc</td><td rowspan=1 colspan=2>X</td><td rowspan=1 colspan=2>Voi 12,5 mm , luuluong 100 lit/phutva khoang cach 3m</td><td rowspan=1 colspan=1>X</td></tr><tr><td rowspan=1 colspan=1>Nhung     vaonuoc</td><td rowspan=1 colspan=1>100 kPa (1 bar) trong 5 phut10 kPa (0,1 bar)voiVHF2chieu</td><td rowspan=1 colspan=3>X</td><td rowspan=1 colspan=1>600 kPa (6 bar)trong 12 h</td></tr><tr><td rowspan=1 colspan=1>Birc xa mat troi</td><td rowspan=1 colspan=1>1120 W/m²80 h</td><td rowspan=1 colspan=2>X</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1>X</td></tr><tr><td rowspan=1 colspan=1>Chóng dau bam</td><td rowspan=1 colspan=1>ISO Oil No. 124 h,19 ℃</td><td rowspan=1 colspan=2>X</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1>X</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Điều kiện</td>
+      <td>Xách tay</td>
+      <td>Được che chắn</td>
+      <td>Ngoài trời</td>
+      <td>Ngập nước</td>
+    </tr>
+    <tr>
+      <td>Khô nóng</td>
+      <td>+55 °C (bảo quản +70 °C)</td>
+      <td>+55 °C</td>
+      <td>+55 °C (bảo quản +70 °C)</td>
+      <td>(bảo quản +70 °C)</td>
+    </tr>
+    <tr>
+      <td>Nóng ẩm</td>
+      <td>+40 °C 93 %</td>
+      <td></td>
+      <td></td>
+      <td>x</td>
+    </tr>
+    <tr>
+      <td>Nhiệt độ thấp</td>
+      <td>–20 °C (bảo quản –30 °C)</td>
+      <td>–15 °C</td>
+      <td>–25 °C</td>
+      <td>x</td>
+    </tr>
+    <tr>
+      <td>Sốc nhiệt</td>
+      <td>45 K trong nước</td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rơi xuống mặt phẳng cứng</td>
+      <td>6 lần từ độ cao 1 m</td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rơi xuống nước</td>
+      <td>3 lần từ độ cao 20 m</td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>Dieu kien</td><td rowspan=1 colspan=1> Xach tay</td><td rowspan=1 colspan=1>Drocche chan</td><td rowspan=1 colspan=1>Ngoai troi</td><td rowspan=1 colspan=1>Ngap nuo&#x27;c</td></tr><tr><td rowspan=1 colspan=1>An mon</td><td rowspan=1 colspan=4>Bón chu ky, mi chu ky trong vong 7 ngay tai 40 C, do ám tuong dói 90 % - 95 % sau 2h phun nuóc muói</td></tr><tr><td rowspan=1 colspan=5>CHU THICH: “x&quot; - Khong quy dinh</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Điều kiện</td>
+      <td>Xách tay</td>
+      <td>Được che chắn</td>
+      <td></td>
+      <td>Ngoài trời</td>
+      <td>Ngập nước</td>
+    </tr>
+    <tr>
+      <td>Rung lắc</td>
+      <td>Rung tại tần số 2 Hz – 13,2 Hz độ dịch chuyển ± 1 mm, tại 13,2 Hz – 100 Hz độ dịch chuyển 7 m/s2 và trong 2 h với mỗi lần cộng hưởng, nói cách khác 2h quét tại 30 Hz theo cả 3 trục</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mưa và bụi nước</td>
+      <td>x</td>
+      <td></td>
+      <td>Vòi 12,5 mm , lưu lượng 100 lít/phút và khoảng cách 3 m</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>Nhúng vào nước</td>
+      <td>100 kPa (1 bar) trong 5 phút 10 kPa (0,1 bar) với VHF 2 chiều</td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+      <td>600 kPa (6 bar) trong 12 h</td>
+    </tr>
+    <tr>
+      <td>Bức xạ mặt trời</td>
+      <td>1120 W/m2 80 h</td>
+      <td>x</td>
+      <td></td>
+      <td>x</td>
+      <td>x</td>
+    </tr>
+    <tr>
+      <td>Chống dầu bám</td>
+      <td>ISO Oil No. 1 24 h, 19 °C</td>
+      <td>x</td>
+      <td></td>
+      <td>x</td>
+      <td>x</td>
+    </tr>
+  </tbody>
+</table>
 
 # 3.2 Nguồn điện
 

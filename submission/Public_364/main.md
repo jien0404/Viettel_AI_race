@@ -28,18 +28,223 @@ Yêu cầu kỹ thuật cụ thể của bài toán định vị thiết bị di
 
 Bảng 2. 1. Yêu cầu kỹ thuật cụ thể của bài toán định vị   
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Mô tả</td>
+      <td>Yêu cầu kỹ thuật, tham số, trị số</td>
+    </tr>
+    <tr>
+      <td>1. Yêu cầu chung</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1. Xác định đối tượng định vị</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Loại đối tượng</td>
+      <td>“Thực thể”</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mô tả thực thể</td>
+      <td>Tập dữ liệu đặc trưng và dữ liệu liên quan đến đối tượng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Tên người</td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Số thuê bao điện thoại MSISDN</td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Địa chỉ địa lý</td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Địa chỉ IP sở hữu hoặc sử dụng</td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Thuê bao (account) Internet</td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nick Name mạng xã hội</td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Các thông tin xã hội khác</td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td>1.2. Định vị đối tượng</td>
+      <td></td>
+      <td>Các trị số yêu cầu (tính khả dụng, độ chính xác… tương ứng với các số liệu nguyên lý kỹ thuật đã phân tích, so sánh ở Chương 1.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Đối tượng của bài toán</td>
+      <td>Thiết bị di động mà đối tượng mang theo</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Loại thiết bị di động</td>
+      <td>Điện thoại di động, máy tính bảng, máy tính xách tay, modul di động</td>
+    </tr>
+  </tbody>
+</table>
 
 
-<table><tr><td rowspan=1 colspan=1>Dinh vi pham vi rong cua doi tuong</td><td rowspan=1 colspan=1>Quoc gia, vung lanh thó</td></tr><tr><td rowspan=1 colspan=1>Dinh vi pham vi tuong doi cua doi tuong</td><td rowspan=1 colspan=1>Tinh, thanh phó</td></tr><tr><td rowspan=1 colspan=1>Dinh vi pham vi hep cua doi tuong</td><td rowspan=1 colspan=1>O di dong (Cell-ID/ Cell LAC),Sector BTS/eNB</td></tr><tr><td rowspan=1 colspan=1>Dinh vi vi tri chinh xac cua doi tuong</td><td rowspan=1 colspan=1>Toa do dia ly, só nha, duong phó, toanha, can phong...</td></tr><tr><td rowspan=1 colspan=1>Truy vet doi tuong</td><td rowspan=1 colspan=1>Lich sur vi tri, duong di</td></tr><tr><td rowspan=1 colspan=1>Xac dinh moi quan he cua doi tuong</td><td rowspan=1 colspan=1>Moi quan hé lien lac, biéu do quan hé</td></tr></table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Định vị phạm vi rộng của đối tượng</td>
+      <td>Quốc gia, vùng lãnh thổ</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Định vị phạm vi tương đối của đối tượng</td>
+      <td>Tỉnh, thành phố</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Định vị phạm vi hẹp của đối tượng</td>
+      <td>Ô di động (Cell-ID/ Cell LAC), Sector BTS/eNB</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Định vị vị trí chính xác của đối tượng</td>
+      <td>Tọa độ địa lý, số nhà, đường phố, tòa nhà, căn phòng…</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Truy vết đối tượng</td>
+      <td>Lịch sử vị trí, đường đi</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Xác định mối quan hệ của đối tượng</td>
+      <td>Mối quan hệ liên lạc, biểu đồ quan hệ</td>
+    </tr>
+    <tr>
+      <td>2. Thu thập dữ liệu đầu vào của bài toán định vị</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Dữ liệu từ mạng di động và mạng báo hiệu</td>
+      <td>- Cell-ID, Cell LAC phục vụ, số gọi, số bị gọi, thời gian cuộc gọi, loại cuộc gọi …được lập thành cơ sở dữ liệu chi tiết cuộc gọi (CDR). - Dữ liệu của mạng di động: MCC, MNC, Cell-ID database - Dữ liệu của mạng báo hiệu: SPC…</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Dữ liệu từ máy cầm tay</td>
+      <td>IMSI, IMEI và các tham số vô tuyến, tham số GNSS</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Dữ liệu từ SIM</td>
+      <td>MSISDN và các tham số định danh</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Dữ liệu từ Wifi</td>
+      <td>Các tham số của Wifi Access Point và các tham số vô tuyến</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Dữ liệu môi trường mạng mở</td>
+      <td>-Tất cả dữ liệu liên quan đến truy cập Internet, sử dụng mạng xã hội, sử dụng dịch vụ OTT như IP Address, Iternet Account, FB Acount, Nick Name, Media….</td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-<table><tr><td></td><td></td><td>- Dα liéu Cell-ID toan cau tur nguon mo - Du lieu Wifi toan cau tur nguon mo</td></tr></table>
 
 3. Thu thập dữ liệu tham chiếu của bài toán định vị
 
-<table><tr><td rowspan=1 colspan=1>Dα lieu thue bao di dong</td><td rowspan=1 colspan=1>Co so du lieu thué bao cua nha mang</td></tr><tr><td rowspan=1 colspan=1>Dα lieu dia ly</td><td rowspan=1 colspan=1>Bän do só, ban do hanh chinh, bän dóGoogle Maps.</td></tr><tr><td rowspan=1 colspan=1>Dα lieu khac lien quan</td><td rowspan=1 colspan=1>Nhung dur liéu lien quan dén hoatdong xä hoi khac nhu mo tä ó khainiem doi tuong</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Dữ liệu Cell-ID toàn cầu từ nguồn mở - Dữ liệu Wifi toàn cầu từ nguồn mở</td>
+    </tr>
+    <tr>
+      <td>3. Thu thập dữ liệu tham chiếu của bài toán định vị</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Dữ liệu thuê bao di động</td>
+      <td>Cơ sở dữ liệu thuê bao của nhà mạng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Dữ liệu địa lý</td>
+      <td>Bản đồ số, bản đồ hành chính, bản đồ Google Maps.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Dữ liệu khác liên quan</td>
+      <td>Những dữ liệu liên quan đến hoạt động xã hội khác như mô tả ở khái niệm đối tượng</td>
+    </tr>
+    <tr>
+      <td>4. Đầu ra của bài toán định vị</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Số liệu vị trí phạm vi rộng</td>
+      <td>Có, theo phạm vị quốc gia, vùng lãnh thổ</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Số liệu vị trí phạm vi tương đối</td>
+      <td>Có, theo phạm vi tỉnh, thành phố</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Số liệu vị trí phạm vi hẹp</td>
+      <td>Có, theo bán kính Cell di động</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Số liệu vị trí chính xác</td>
+      <td>Có</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Truy vết lịch sử vị trí và đường đi</td>
+      <td>Có, theo độ chính xác của bản đồ số Google Map (trực tuyến hoặc không trực tuyến) hoặc theo độ chính xác của bản đồ số chuyên dụng (nếu cài đặt và sử dụng)</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Xác định đồ thị mối quan hệ</td>
+      <td>Có, đồ thị GraphTech mối quan hệ.</td>
+    </tr>
+  </tbody>
+</table>
 
 4. Đầu ra của bài toán định vị
-
-<table><tr><td rowspan=1 colspan=1>S6 lieu vi tri pham vi rong</td><td rowspan=1 colspan=1>C6, theo pham vi quoc gia, vung lanhth</td></tr><tr><td rowspan=1 colspan=1>S6 lieu vi tri pham vi tuong doi</td><td rowspan=1 colspan=1>C6, theo pham vi tinh, thanh phó</td></tr><tr><td rowspan=1 colspan=1>Só lieu vi tri pham vi hep</td><td rowspan=1 colspan=1>C6, theo ban kinh Cell di dong</td></tr><tr><td rowspan=1 colspan=1>Só lieu vi tri chinh xac</td><td rowspan=1 colspan=1>C6</td></tr><tr><td rowspan=1 colspan=1>Truy vét lich sur vi tri va duong di</td><td rowspan=1 colspan=1>C6, theo d@ chinh xac cua ban d sóGoogle Map (trurc tuyén hoac khóngtruc tuyén) hoäc theo d@ chinh xaccua bän do só chuyén dung (néu caidat va sir dung)</td></tr><tr><td rowspan=1 colspan=1>Xac dinh do thi moi quan he</td><td rowspan=1 colspan=1>C6, do thi GraphTech moi quan he.</td></tr></table>

@@ -2,20 +2,524 @@
 
 GIỚI HẠN VỀ DUNG SAI TẦN SỐ ÁP DỤNG CHO MÁY PHÁT CỦA THIẾT BỊ HOẶC ĐÀI VÔ TUYẾN ĐIỆN
 
-<table><tr><td rowspan=1 colspan=1>Bang tan so (bao gom tan so gioi han tren, khongbao gom tan só gioi han duroi) va loai dai</td><td rowspan=1 colspan=1>Gioi hanvé dung sai tan só</td></tr><tr><td rowspan=1 colspan=2>Bang tan: 9 kHz den 535 kHz</td></tr><tr><td rowspan=1 colspan=2>1. Cac dai co dinh</td></tr><tr><td rowspan=1 colspan=1>9 kHz den 50kHz</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>50 kHz dén 535 kHz</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>2. Cac dai mat dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Cac dai bo</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>Cac dai hang khong</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>3. Cac dai di dong</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Cac dai tau</td><td rowspan=1 colspan=1>200</td></tr><tr><td rowspan=1 colspan=1>Cac may phat khan cap trén tau</td><td rowspan=1 colspan=1>500</td></tr><tr><td rowspan=1 colspan=1>Cac dai tau ciru nan</td><td rowspan=1 colspan=1>500</td></tr><tr><td rowspan=1 colspan=1>Cac dai tau bay</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>4. Cac dai vo tuyen xac dinh</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>5. Cac dai quang ba</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=2>Bang tan: 535 kHz den 1 606,5 kHz</td></tr><tr><td rowspan=1 colspan=1>Cac dai quang ba</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=2>Bang tan: 1 606,5 kHz den 4 000 kHz</td></tr><tr><td rowspan=1 colspan=2>1. Cac dai co dinh</td></tr><tr><td rowspan=1 colspan=1>Cong suat nho hon hoac bang 200 W</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>Cong suat tren 200 W</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>2. Cac dai mat dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Cong suat nho hon hoac bang 200 W</td><td rowspan=1 colspan=1>100</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Băng tần số (bao gồm tần số giới hạn trên, không bao gồm tần số giới hạn dưới) và loại đài</td>
+      <td>Giới hạn về dung sai tần số</td>
+    </tr>
+    <tr>
+      <td>Băng tần: 9 kHz đến 535 kHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Các đài cố định</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9 kHz đến 50 kHz</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>50 kHz đến 535 kHz</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>2. Các đài mặt đất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Các đài bờ</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Các đài hàng không</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>3. Các đài di động</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Các đài tàu</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>Các máy phát khẩn cấp trên tàu</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>Các đài tàu cứu nạn</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>Các đài tàu bay</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>4. Các đài vô tuyến xác định</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>5. Các đài quảng bá</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Băng tần: 535 kHz đến 1 606,5 kHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Các đài quảng bá</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Băng tần: 1 606,5 kHz đến 4 000 kHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Các đài cố định</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Công suất nhỏ hơn hoặc bằng 200 W</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Công suất trên 200 W</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>2. Các đài mặt đất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Công suất nhỏ hơn hoặc bằng 200 W</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>Cong suat tren 200 W</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>3. Cac dai di dong</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Cac dai tau</td><td rowspan=1 colspan=1>40</td></tr><tr><td rowspan=1 colspan=1>Cac dai tau ciru nan</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>Phao vo tuyén chi bao vi tri khan cap</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>Cac dai tau bay</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>Cac dai di dong mat dat</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>4. Cac dai vo tuyén xac dinh</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Cong suat nho hon hoac bang 200 W</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>Cong suat tren 200 W</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>5. Cac dai quang ba</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=2>Bang tan: 4 MHz den 29,7 MHz</td></tr><tr><td rowspan=1 colspan=2>1. Cac dai co dinh</td></tr><tr><td rowspan=1 colspan=2> Phat xa don bien va bien tan doc lap</td></tr><tr><td rowspan=1 colspan=1>1   Cong suat nho hon hoac bang 500 W</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>：  Cong suat tren 500 W</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>Phat xa loai F1B</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=2>Phat xa cac loai khac</td></tr><tr><td rowspan=1 colspan=1>1   Cong suat nho hon hoac bang 500 W</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1> Cong suat tren 500 W</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=2>2. Cac dai mat dat</td></tr><tr><td rowspan=1 colspan=1>Cac dai bo</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=2>Cac dai hang khong</td></tr><tr><td rowspan=1 colspan=1> Cong suat nho hon hoac bang 500 W</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>Cong suat tren 500 W</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>Cac tram goc</td><td rowspan=1 colspan=1>20</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Công suất trên 200 W</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>3. Các đài di động</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Các đài tàu</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>Các đài tàu cứu nạn</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Phao vô tuyến chỉ báo vị trí khẩn cấp</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Các đài tàu bay</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Các đài di động mặt đất</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>4. Các đài vô tuyến xác định</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Công suất nhỏ hơn hoặc bằng 200 W</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Công suất trên 200 W</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>5. Các đài quảng bá</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Băng tần: 4 MHz đến 29,7 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Các đài cố định</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Phát xạ đơn biên và biên tần độc lập</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>- Công suất nhỏ hơn hoặc bằng 500 W</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>- Công suất trên 500 W</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Phát xạ loại F1B</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Phát xạ các loại khác</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>- Công suất nhỏ hơn hoặc bằng 500 W</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>- Công suất trên 500 W</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>2. Các đài mặt đất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Các đài bờ</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Các đài hàng không</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>- Công suất nhỏ hơn hoặc bằng 500 W</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>- Công suất trên 500 W</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Các trạm gốc</td>
+      <td>20</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=2>3. Cac dai di dong</td></tr><tr><td rowspan=1 colspan=2>Cac dai tau</td></tr><tr><td rowspan=1 colspan=1>Phat xa loai A1A</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1> Cac phat xa khac ngoai loai A1A</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>Cac dai tau ciru nan</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>Cac dai tau bay</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>Cac dai di dong mat dat</td><td rowspan=1 colspan=1>40</td></tr><tr><td rowspan=1 colspan=1> 4. Cac dai quang ba</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1> 5. Cac dai vi tru</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>6. Cac dai trai dat</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=2>Bang tan: 29,7 MHz den 100 MHz</td></tr><tr><td rowspan=1 colspan=2>1. Cac dai co dinh</td></tr><tr><td rowspan=1 colspan=1>Cong suat nho hon hoac bang 50 W</td><td rowspan=1 colspan=1>30</td></tr><tr><td rowspan=1 colspan=1>Cong suat tren 50 W</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>2. Cac dai mat dat</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>3Cac dai di dong</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>4. Cac dai vo tuyén xac dinh</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>5.Cac dai quang ba (khong ké truyén hinh)</td><td rowspan=1 colspan=1>2 000</td></tr><tr><td rowspan=1 colspan=1>6. Cac dai quang ba (truyen hinh anh va amthanh)</td><td rowspan=1 colspan=1>500</td></tr><tr><td rowspan=1 colspan=1>7. Cac dai vi tru</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>8. Cac dai trai dat</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=2>Bang tan: 100 MHz den 470 MHz</td></tr><tr><td rowspan=1 colspan=2>1. Cac dai co dinh</td></tr><tr><td rowspan=1 colspan=1>Cong suat nho hon hoac bang 50 W</td><td rowspan=1 colspan=1>20</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>3. Các đài di động</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Các đài tàu</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>- Phát xạ loại A1A</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>- Các phát xạ khác ngoài loại A1A</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Các đài tàu cứu nạn</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Các đài tàu bay</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Các đài di động mặt đất</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>4. Các đài quảng bá</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>5. Các đài vũ trụ</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>6. Các đài trái đất</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Băng tần: 29,7 MHz đến 100 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Các đài cố định</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Công suất nhỏ hơn hoặc bằng 50 W</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Công suất trên 50 W</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>2. Các đài mặt đất</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>3. Các đài di động</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>4. Các đài vô tuyến xác định</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>5. Các đài quảng bá (không kể truyền hình)</td>
+      <td>2 000</td>
+    </tr>
+    <tr>
+      <td>6. Các đài quảng bá (truyền hình ảnh và âm thanh)</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>7. Các đài vũ trụ</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>8. Các đài trái đất</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Băng tần: 100 MHz đến 470 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Các đài cố định</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Công suất nhỏ hơn hoặc bằng 50 W</td>
+      <td>20</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>Cong suat tren 50 W</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>2. Cac dai mat dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Cac dai bo</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>Cac dai hang khong</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>Cac tram goc</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1> Trong bang 100 ÷ 235 MHz</td><td rowspan=1 colspan=1>15</td></tr><tr><td rowspan=1 colspan=1> Trong bang 235 ÷ 401 MHz</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1> Trong bäng 401 ÷ 470 MHz</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=2>3. Cac dai di dong</td></tr><tr><td rowspan=1 colspan=2>Cac dai tau va cac dai tau ciru nan</td></tr><tr><td rowspan=1 colspan=1>Trong bang 156 ÷ 174 MHz</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1> Ngoai bang 156 ÷ 174 MHz</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>Cac dai tau bay</td><td rowspan=1 colspan=1>30</td></tr><tr><td rowspan=1 colspan=2>Cac dai di dong mat dat</td></tr><tr><td rowspan=1 colspan=1> Trong bang 100 ÷ 235 MHz</td><td rowspan=1 colspan=1>15</td></tr><tr><td rowspan=1 colspan=1>Trong bang 235 ÷ 401 MHz</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>Trong bang 401 ÷ 470 MHz</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>4. Cac dai vo tuyén xac dinh</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>5. Cac dai quang ba (khong ke truyen hinh)</td><td rowspan=1 colspan=1>2 000</td></tr><tr><td rowspan=1 colspan=1>6. Cac dai quang ba (truyen hinh anh va amthanh)</td><td rowspan=1 colspan=1>500</td></tr><tr><td rowspan=1 colspan=1>7. Cac dai vu tru</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>8. Cac dai trai dat</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=2>Bang tan: 470 MHz den 2 450 MHz</td></tr><tr><td rowspan=1 colspan=1>1. Cac dai co dinh</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1> Cong suat nho hon hoac bang 100 W</td><td rowspan=1 colspan=1>100</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Công suất trên 50 W</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>2. Các đài mặt đất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Các đài bờ</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Các đài hàng không</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Các trạm gốc</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>- Trong băng 100 ÷ 235 MHz</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>- Trong băng 235 ÷ 401 MHz</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>- Trong băng 401 ÷ 470 MHz</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>3. Các đài di động</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Các đài tàu và các đài tàu cứu nạn</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>- Trong băng 156 ÷ 174 MHz</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>- Ngoài băng 156 ÷ 174 MHz</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Các đài tàu bay</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Các đài di động mặt đất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>- Trong băng 100 ÷ 235 MHz</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>- Trong băng 235 ÷ 401 MHz</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>- Trong băng 401 ÷ 470 MHz</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4. Các đài vô tuyến xác định</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>5. Các đài quảng bá (không kể truyền hình)</td>
+      <td>2 000</td>
+    </tr>
+    <tr>
+      <td>6. Các đài quảng bá (truyền hình ảnh và âm thanh)</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>7. Các đài vũ trụ</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>8. Các đài trái đất</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Băng tần: 470 MHz đến 2 450 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Các đài cố định</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>- Công suất nhỏ hơn hoặc bằng 100 W</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>Cong suat tren 100 W</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>2. Cac dai mat dat</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>3.Cac dai di dong</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>4. Cacdai vo tuyen xac dinh</td><td rowspan=1 colspan=1>500</td></tr><tr><td rowspan=1 colspan=1> 5. Cac dai quang ba (khong phai truyen hinh)</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>6. Cac dai quang ba (truyen hinh anh va amthanh)</td><td rowspan=1 colspan=1>500</td></tr><tr><td rowspan=1 colspan=1>7.Cac dai vu tru</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>8. Cac dai trai dat</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=2>Bang tan: 2 450 MHz den 10 500 MHz</td></tr><tr><td rowspan=1 colspan=2>1. Cac dai co dinh</td></tr><tr><td rowspan=1 colspan=1>Cong suat nho hon hoac bang 100 W</td><td rowspan=1 colspan=1>200</td></tr><tr><td rowspan=1 colspan=1>-   Cong suat tren 100 W</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>2. Cac dai mat dat</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>3.Cac dai di dong</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>4. Cac dai vo tuyen xac dinh</td><td rowspan=1 colspan=1>1250</td></tr><tr><td rowspan=1 colspan=1>5. Cac dai vi tru</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>6. Cac dai trai dat</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=2>Bang tan: 10,5 GHz den 40 GHz</td></tr><tr><td rowspan=1 colspan=1>1. Cac dai co dinh</td><td rowspan=1 colspan=1>300</td></tr><tr><td rowspan=1 colspan=1>2. Cac dai vo tuyén xac dinh</td><td rowspan=1 colspan=1>5000</td></tr><tr><td rowspan=1 colspan=1>3.Cac dai quang ba</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>4Cac dai vu tru</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>5. Cac dai trai dat</td><td rowspan=1 colspan=1>100</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>- Công suất trên 100 W</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>2. Các đài mặt đất</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>3. Các đài di động</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>4. Các đài vô tuyến xác định</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>5. Các đài quảng bá (không phải truyền hình)</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>6. Các đài quảng bá (truyền hình ảnh và âm thanh)</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>7. Các đài vũ trụ</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>8. Các đài trái đất</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Băng tần: 2 450 MHz đến 10 500 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Các đài cố định</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>- Công suất nhỏ hơn hoặc bằng 100 W</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>- Công suất trên 100 W</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>2. Các đài mặt đất</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>3. Các đài di động</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>4. Các đài vô tuyến xác định</td>
+      <td>1 250</td>
+    </tr>
+    <tr>
+      <td>5. Các đài vũ trụ</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>6. Các đài trái đất</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Băng tần: 10,5 GHz đến 40 GHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Các đài cố định</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>2. Các đài vô tuyến xác định</td>
+      <td>5 000</td>
+    </tr>
+    <tr>
+      <td>3. Các đài quảng bá</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>4. Các đài vũ trụ</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>5. Các đài trái đất</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+</table>

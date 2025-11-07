@@ -120,22 +120,171 @@ Trong quá trình triển khai, thực hiện Kế hoạch này nếu có khó k
 
 (Kèm theo Kế hoạch số /KH-STTTT ngày / /2024 của Sở Thông tin và Truyền thông tỉnh Đắk Nông)
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Nhiém vu thuc hién</td><td rowspan=1 colspan=1>Don vi chu tri</td><td rowspan=1 colspan=1>Don vi phoi hop</td><td rowspan=1 colspan=1>Thoi gianthurc hien</td><td rowspan=1 colspan=1>Quy mo, muc tieu, két qua</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=6> Tang cuong mo rong vung phu s6ng, chat luong dich vu mang vien thong di dng</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Tap trung mo rong vung phusng, chat luong mang vienthong di dong 4G, 5G</td><td rowspan=1 colspan=1>Cac doanh nghiepvien thong</td><td rowspan=1 colspan=1>So TT&amp;TT;UBND cac huyén,thanh phó va cac don vi c6 lienquan</td><td rowspan=1 colspan=1>2024-2025</td><td rowspan=1 colspan=1>Tap trung mo rong vung phu s6ng,chat luong mang vien thong di dong4G, 5G tai cac khu vurc trong diem:khu vuc hanh chinh cong; khu di tichlich sur - van h6a, danh lam thängcänh, khu du lich trong diém; co sóy té, giao duc; dau moi giao thong,truc duong quóc l@; trung tam thuong mai; khu vuc tap trung dongdan cu; cac thi tran va khu vuc trongdiém o nong thon.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Xay dung Quy hoach ha tangvien thong thu dong</td><td rowspan=1 colspan=1> So Thong tin vaTruyén thong</td><td rowspan=1 colspan=1>UBND cac huyén,thanh phó; DNVT;cac don vi c6 lienquan</td><td rowspan=1 colspan=1>2025</td><td rowspan=1 colspan=1>Trién khai xay dung quy hoach hatang ky thuat vien thong thu dong;thuc day chia sé ha tang mang dungchung giua cac doanh nghiep cung cáp dich vu theo quy dinh cua phap</td><td rowspan=1 colspan=1>Theo huong dancua Bo TT&amp;TT</td></tr></table>
 
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Nhiệm vụ thực hiện</td>
+      <td>Đơn vị chủ trì</td>
+      <td>Đơn vị phối hợp</td>
+      <td>Thời gian thực hiện</td>
+      <td>Quy mô, mục tiêu, kết quả</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>T ăng cường mở rộng vùng phủ sóng, chất lượng dịch vụ mạng viễn thông di động</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Tập trung mở rộng vùng phủ sóng, chất lượng mạng viễn thông di động 4G, 5G</td>
+      <td>Các doanh nghiệp viễn thông</td>
+      <td>Sở TT&TT; UBND các huyện, thành phố và các đơn vị có liên quan</td>
+      <td>2024-2025</td>
+      <td>Tập trung mở rộng vùng phủ sóng, chất lượng mạng viễn thông di động 4G, 5G tại các khu vực trọng điểm: khu vực hành chính công; khu di tích lịch sử - văn hóa, danh lam thắng cảnh, khu du lịch trọng điểm; cơ sở y tế, giáo dục; đầu mối giao thông, trục đường quốc lộ; trung tâm thương mại; khu vực tập trung đông dân cư; các thị trấn và khu vực trọng điểm ở nông thôn.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Xây dựng Quy hoạch hạ tầng viễn thông thụ động</td>
+      <td>Sở Thông tin và Truyền thông</td>
+      <td>UBND các huyện, thành phố; DNVT; các đơn vị có liên quan</td>
+      <td>2025</td>
+      <td>Triển khai xây dựng quy hoạch hạ tầng kỹ thuật viễn thông thụ động; thúc đẩy chia sẻ hạ tầng mạng dùng chung giữa các doanh nghiệp cung cấp dịch vụ theo quy định của pháp</td>
+      <td>Theo hướng dẫn của Bộ TT&TT</td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>luät dé mo róng vung phu 4G, 5G cung nhu giam thiéu chi dau tu.</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1> Phat trién ha tang va cung cap dich vu vién thong 5G phuc vu cac khu vuc trong diém.</td><td rowspan=1 colspan=1>Cac DNVT va cacdon vi c6 lienquan</td><td rowspan=1 colspan=1> Só Thong tin vaTruyén thong;UBND cac huyen,thanh phó</td><td rowspan=1 colspan=1>2024-2025</td><td rowspan=1 colspan=1> Thuc hien phat trién dich vu mang 5G, phan dau dua mang 5G phuc vuChinh quyén va Nhan dan khu vucdo thi, cu thé la tai Trung tam huyén,thanh phó Gia Nghia (O8/08 huyén, thanh phó Gia Nghia); dap üng nhucäu do thi thong minh, thanh ph anninh. Nghien curu, san xuat va cung ungcac san pham irng dung cong nghé 5G phuc vu trong cac linh vuc nhu:nong nghiep, cóng nghiép, dich vu, cac tien ich trong sinh hoat... giup gia tang hiéu qua kinh té - xa hoi.</td></tr></table>
+
 
 II Tăng cường khả năng chống chịu và phục hồi của mạng lưới
 
-<table><tr><td>4</td><td>Tang cuong kha nang chong chiu va phuc hoi cua mang luoi</td><td>Cac Doanh nghiep vien thong</td><td>So Thong tin va Truyén thong va cac don vi co lien quan</td><td>2024-2025</td><td>Day manh viec ing dung cong nghé trong viec thu thap, phan tich, xi ly du lieu, thuc day viec van hanh va bao tri mang luoi thong minh, giam sat trang thai mang theo thoi gian thuc, tu dong dinh vi day nhanh toc do phat hien va xir ly su có, dam bao tinh ón dinh va lien tuc cua mang lr6i.</td><td></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>luật để mở rộng vùng phủ 4G, 5G cũng như giảm thiểu chi đầu tư.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Phát triển hạ tầng và cung cấp dịch vụ viễn thông 5G phục vụ các khu vực trọng điểm.</td>
+      <td>Các DNVT và các đơn vị có liên quan</td>
+      <td>Sở Thông tin và Truyền thông; UBND các huyện, thành phố</td>
+      <td>2024-2025</td>
+      <td>Thực hiện phát triển dịch vụ mạng 5G, phấn đấu đưa mạng 5G phục vụ Chính quyền và Nhân dân khu vực đô thị, cụ thể là tại Trung tâm huyện, thành phố Gia Nghĩa (08/08 huyện, thành phố Gia Nghĩa); đáp ứng nhu cầu đô thị thông minh, thành phố an ninh. Nghiên cứu, sản xuất và cung ứng các sản phẩm ứng dụng công nghệ 5G phục vụ trong các lĩnh vực như: nông nghiệp, công nghiệp, dịch vụ, các tiện ích trong sinh hoạt… giúp gia tăng hiệu quả kinh tế - xã hội.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>II</td>
+      <td>T ăng cường khả năng chống chịu và phục hồi của mạng lưới</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Tăng cường khả năng chống chịu và phục hồi của mạng lưới</td>
+      <td>Các Doanh nghiệp viễn thông</td>
+      <td>Sở Thông tin và Truyền thông và các đơn vị có liên quan</td>
+      <td>2024-2025</td>
+      <td>- Đẩy mạnh việc ứng dụng công nghệ trong việc thu thập, phân tích, xử lý dữ liệu, thúc đẩy việc vận hành và bảo trì mạng lưới thông minh, giám sát trạng thái mạng theo thời gian thực, tự động định vị đẩy nhanh tốc độ phát hiện và xử lý sự cố, đảm bảo tỉnh ổn định và liên tục của mạng lưới.</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td></td><td></td><td>- Xay dung cac tram góc có do an toan cao, nang cao muc d@ chóng chiu tham hoa cua cac co so ha tang vien thong ó cac khu vuc dé bi thien tai, su co. - Day manh cong tac ra soat dinh ky, toi uu hoa he thóng, dam bao tinh bén vung co so ha tang vien thong</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Xây dựng các trạm gốc có độ an toàn cao, nâng cao mức độ chống chịu thảm họa của các cơ sở hạ tầng viễn thông ở các khu vực dễ bị thiên tai, sự cố. - Đẩy mạnh công tác rà soát định kỳ, tối ưu hóa hệ thống, đảm bảo tính bền vững cơ sở hạ tầng viễn thông</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>III</td>
+      <td>T ăng cường công tác quản lý, giám sát, đo kiểm chất lượng mạng và dịch vụ viễn thông di động</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Đo kiểm chất lượng mạng viễn thông di động</td>
+      <td>UBND các huyện, thành phố</td>
+      <td>Sở Thông tin và Truyền thông; các cơ quan, đơn vị liên quan</td>
+      <td>Thường xuyên</td>
+      <td>- Tuyên truyền, thúc đẩy người dân cài đặt và sử dụng ứng dụng i-Speed để đo chất lượng dịch vụ viễn thông. - Chỉ đạo các đơn vị, địa phương hàng tháng tiến hành đo kiểm và báo cáo chất lượng dịch vụ viễn thông di động 4G bằng ứng dụng i-Speed (đảm bảo tối thiểu 300 mẫu đo/xã/tháng; 100% các xã, phường, thị trấn phải có số liệu đo kiểm)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Tăng cường công tác quản lý chất lượng viễn thông</td>
+      <td>Sở Thông tin và Truyền thông</td>
+      <td>UBND các huyện, thành phố; các Doanh nghiệp viễn thông</td>
+      <td>Thường xuyên</td>
+      <td>Định kỳ công bố chất lượng dịch vụ của các doanh nghiệp viễn di động trên địa bàn theo kết quả đo kiểm bằng ứng dụng i-Speed.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>IV</td>
+      <td>T húc đẩy phối hợp, hợp tác</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Thúc đẩy phối hợp, hợp tác để phát huy tối đa nguồn lực.</td>
+      <td>Sở Thông tin và Truyền thông</td>
+      <td>Các Sở, ban, ngành; UBND các</td>
+      <td>Thường xuyên</td>
+      <td>- Tăng cường phối hợp giữa Sở Thông tin và Truyền thông với các</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Thuc day phoi hop, hop tac dé phat huy toi da nguon luc.</td><td rowspan=1 colspan=1>Só Thong tin vaTruyen thong</td><td rowspan=1 colspan=1>Cac So,ban,nganh; UBND cac</td><td rowspan=1 colspan=1>Thuongxuyen</td><td rowspan=1 colspan=1>Tang cuong phoi hop gita So</td></tr></table>
 
 
-
-<table><tr><td></td><td>huyén, thanh phó Gia Nghia; cac doanh nghiep vien thong va cac don vi c6 lien quan</td><td>vu. mac.</td><td>So, Ban, nganh lien quan thuc day sur dung chung co so ha tang lién nganh, thuc day phat trien co so ha tang dong bo, nang cao chat lrong dich - Day manh hop tac giura So Thong tin va Truyén thong voi cac Doanh nghiep vien thong trong viec quy hoach， thao go khó khan, vuóng - Day manh hop tac giura cac cap, cac nganh lien quan; phoi hop giua cac don vi truc thuoc B@ Thong tin va Truyén thong voi So Thong tin va Truyen thong trong viec thuc day nang chat luong mang vien thong di dong.</td><td></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>huyện, thành phố Gia Nghĩa; các doanh nghiệp viễn thông và các đơn vị có liên quan</td>
+      <td></td>
+      <td>Sở, Ban, ngành liên quan thúc đẩy sử dụng chung cơ sở hạ tầng liên ngành, thúc đẩy phát triển cơ sở hạ tầng động bộ, nâng cao chất lượng dịch vụ. - Đẩy mạnh hợp tác giữa Sở Thông tin và Truyền thông với các Doanh nghiệp viễn thông trong việc quy hoạch, tháo gỡ khó khăn, vướng mắc. - Đẩy mạnh hợp tác giữa các cấp, các ngành liên quan; phối hợp giữa các đơn vị trực thuộc Bộ Thông tin và Truyền thông với Sở Thông tin và Truyền thông trong việc thúc đẩy nâng chất lượng mạng viễn thông di động.</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

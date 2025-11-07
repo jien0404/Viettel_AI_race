@@ -12,11 +12,271 @@ Kiểm tra, đo đạc các chỉ số bằng đồng hồ Ampe 3 tháng/lần n
 
 Danh mục hệ thống các tủ điện:   
 
-<table><tr><td rowspan=1 colspan=1>Stt</td><td rowspan=1 colspan=1>Cac thiet bi</td><td rowspan=1 colspan=1>Dvt</td><td rowspan=1 colspan=1>DvtS6 lurong</td></tr><tr><td rowspan=1 colspan=4>1.     Tü dién chinh nha tram dién</td></tr><tr><td rowspan=3 colspan=1>1</td><td rowspan=1 colspan=1>Tü dien chinh</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>May cat khong khi ha thé ACB 2000A 4P 65KA</td><td rowspan=1 colspan=1>Cai</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>Digital power Meter A20 C/W control Fuse</td><td rowspan=1 colspan=1>Cai</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Tu dien tu bu (bu du cong suat yéu cau)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Tü dién bom dau (EMCC-1-OP)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Tü dién phong may (EDB-1-T)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>May bien ap hop bo 1250KVA (bao gom tu trung théRMU + may bién ap va cac phu kién khac kem theo).</td><td rowspan=1 colspan=1>Cai</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=4>II.    Hé thong tü dién nha diéu hanh</td></tr><tr><td rowspan=1 colspan=4>Tang 1</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Tu dien phan phói chung (DB-1)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Tu dien phan phoi chung 2 (DB-1/2)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Tu dien phong khanh tiet (LP-1-CTR)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Tu dien phong uom tao (LP-1-PR)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Tu dien phong Nghiép vu du phong A1 (LP-1-A1)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Tu dien phong Nghiep vu du phong B1 (LP-1-B1)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Tu dien phong Nghiep vu du phong A2 (LP-1-A2)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Tu dién phong Nghiep vu du phong B2 (LP-1-B2)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Tu dien Nha bép (TDA-KIT)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Tu dien khu Trung bay san pham (DB-1-GA)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Stt Các thiết bị Đvt Số lượng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>I. Tủ điện chính nhà trạm điện</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Tủ điện chính</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Máy cắt không khí hạ thế ACB 2000A 4P 65KA</td>
+      <td>Cái</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Digital power Meter A20 C/W control Fuse</td>
+      <td>Cái</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tủ điện tụ bù (bù đủ công suất yêu cầu)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Tủ điện bơm dầu (EMCC-1-OP)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Tủ điện phòng máy (EDB-1-T)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Máy biến áp hợp bộ 1250KVA (bao gồm tủ trung thế RMU + máy biến áp và các phụ kiện khác kèm theo).</td>
+      <td>Cái</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>II. Hệ thống tủ điện nhà điều hành</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tầng 1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Tủ điện phân phối chung (DB-1)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tủ điện phân phối chung 2 (DB-1/2)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Tủ điện phòng khánh tiết (LP-1-CTR)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Tủ điện phòng ươm tạo (LP-1-PR)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Tủ điện phòng Nghiệp vụ dự phòng A1 (LP-1-A1)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Tủ điện phòng Nghiệp vụ dự phòng B1 (LP-1-B1)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Tủ điện phòng Nghiệp vụ dự phòng A2 (LP-1-A2)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Tủ điện phòng Nghiệp vụ dự phòng B2 (LP-1-B2)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Tủ điện Nhà bếp (TDA-KIT)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Tủ điện khu Trưng bày sản phẩm (DB-1-GA)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Tu dien phong ky thuat (MCC-1-M)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Tu dien phong Bom nuóc sinh hoat (MCC-1-TP)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Tu dien phong QL, KT cong trinh (LP-1-DOA)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Tu dien phong Bom nuóc chua chay (EMCC-1-FP)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Tu dien phong quat khan (EMCC-1-M)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Tu dien phong Dieu khien trung tam (EDB-1-UPS)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=4>Tang 2</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Tu dien phan phoi chung (DB-2)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Tu dien phan phoi chung 2 (DB-2/2)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Tú dién phong tai chinh ké toan (LP-2-FN)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Tu dien phong nghiep vu du phong 02 (LP-2-DIV/2)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Tu dien phong nghiép vu du phong 01 (LP-2-DIV/1)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Tu dien phong nghiep vu dur phong C1 (LP-2-C1)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Tu dien phong hop (LP-2-R)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Tu dien phong nghiep vu dur phong D1 (LP-2-D1)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Tu dien phong nghiep vu dur phong (LP-2-AP)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Tu dien can tin (DB-2-CT)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Tu dien hoi truong (LP-2-CF)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Tu dién phong may tinh trung tam (EDB-2-CP)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Tu dien Tung tam thong tin du lieu (EDB-2-DATA)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Tu dien phong chia soan (MCC-2-GL)</td><td rowspan=1 colspan=1>Tu</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>11</td>
+      <td>Tủ điện phòng kỹ thuật (MCC-1-M)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Tủ điện phòng Bơm nước sinh hoạt (MCC-1-TP)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Tủ điện phòng QL, KT công trình (LP-1-DOA)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Tủ điện phòng Bơm nước chữa cháy (EMCC-1-FP)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Tủ điện phòng quạt khẩn (EMCC-1-M)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Tủ điện phòng Điều khiển trung tâm (EDB-1-UPS)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Tầng 2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Tủ điện phân phối chung (DB-2)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tủ điện phân phối chung 2 (DB-2/2)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Tủ điện phòng tài chính kế toán (LP-2-FN)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Tủ điện phòng nghiệp vụ dự phòng 02 (LP-2-DIV/2)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Tủ điện phòng nghiệp vụ dự phòng 01 (LP-2-DIV/1)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Tủ điện phòng nghiệp vụ dự phòng C1 (LP-2-C1)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Tủ điện phòng họp (LP-2-R)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Tủ điện phòng nghiệp vụ dự phòng D1 (LP-2-D1)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Tủ điện phòng nghiệp vụ dự phòng (LP-2-AP)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Tủ điện căn tin (DB-2-CT)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Tủ điện hội trường (LP-2-CF)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Tủ điện phòng máy tính trung tâm (EDB-2-CP)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Tủ điện Tung tâm thông tin dữ liệu (EDB-2-DATA)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Tủ điện phòng chia soạn (MCC-2-GL)</td>
+      <td>Tủ</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2. Thiết bị chiếu sáng:
 
@@ -41,7 +301,59 @@ $+$ Đèn chiếu sáng nhà trạm điện, nhà tắm nhân viên.
 
 - Thời gian tắt mở:   
 
-<table><tr><td rowspan=1 colspan=1>Stt</td><td rowspan=1 colspan=1>Loai den</td><td rowspan=1 colspan=1>Phan loai</td><td rowspan=1 colspan=1>Thoi gian hoat dong</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Bäng den led thong baotruoc sanh</td><td rowspan=1 colspan=1>Tu dong hen gio</td><td rowspan=1 colspan=1>Tur thur 2 dén thur 6:7:45 -17:00</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Den hanh lang cac tang</td><td rowspan=1 colspan=1>Dung hé thóng cambién hien dien</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Den loi thang b@ thoat hiém</td><td rowspan=1 colspan=1>Dung hé thóng cambién hien dien</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Den ciru ho cac tang</td><td rowspan=1 colspan=1>Tu dong</td><td rowspan=1 colspan=1>Tu dong bat sang khi toanha có su co mat dien</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Den bang hieu loi thoathiem</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Luon sang dé huong dancho moi nguoi loi thoathiem</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Den trong thang may</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Luon sang</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dén khu vuc sanh 1é tan</td><td rowspan=1 colspan=1>Dung hé thóng cambién hien dien</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Stt</td>
+      <td>Loại đèn</td>
+      <td>Phân loại</td>
+      <td>Thời gian hoạt động</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Bảng đèn led thông báo trước sảnh</td>
+      <td>Tự động hẹn giờ</td>
+      <td>Từ thứ 2 đến thứ 6: 7:45 – 17:00</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Đèn hành lang các tầng</td>
+      <td>Dùng hệ thống cảm biến hiện diện</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Đèn lối thang bộ thoát hiểm Dùng hệ thống cảm</td>
+      <td>biến hiện diện</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Đèn cứu hộ các tầng</td>
+      <td>Tự động</td>
+      <td>Tự động bật sáng khi tòa nhà có sự cố mất điện</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Đèn bảng hiệu lối thoát hiểm</td>
+      <td></td>
+      <td>Luôn sáng để hướng dẫn cho mọi người lối thoát hiểm</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đèn trong thang máy</td>
+      <td></td>
+      <td>Luôn sáng</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Đèn khu vực sảnh lễ tân</td>
+      <td>Dùng hệ thống cảm biến hiện diện</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 - Công tác bảo trì, bảo dưỡng:
 
@@ -59,7 +371,71 @@ Sau khi hết thời hạn bảo hành của nhà sản xuất các đèn bị c
 
 Danh mục các thiết bị:   
 
-<table><tr><td rowspan=1 colspan=1>Stt</td><td rowspan=1 colspan=1>Cac thiet bi</td><td rowspan=1 colspan=1>Dvt</td><td rowspan=1 colspan=1>S6 lurong</td></tr><tr><td rowspan=1 colspan=4>He thong chieu sang nha dieu hanh</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Den huynh quang bóng led (2x18w)- gan am tran</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>75</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Dén huynh quang bóng led (3x18w)- gan am tran</td><td rowspan=1 colspan=1>B0</td><td rowspan=1 colspan=1>406</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Dén huynh quang bong led 2x18w- nguon durphong 2H</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Dén huynh quang bong led 3x18w- gan am tran - nguon du phong 2H cho bóng giua</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>40</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Den tuyt b6ng led (1x18w)-gan tuong</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Den tuyt bóng led (1x18w)-gan tuong nguon duphong 2H</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Den pha b6ng led (1x150w)-gan turong</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Dén Downlight bóng led 12w- gän am tran</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>35</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Stt Các thiết bị Đvt Số lượng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hệ thống chiếu sáng nhà điều hành</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Đèn huỳnh quang bóng led (2x18w)- gắn âm trần</td>
+      <td>Bộ</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Đèn huỳnh quang bóng led (3x18w)- gắn âm trần</td>
+      <td>Bộ</td>
+      <td>406</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Đèn huỳnh quang bóng led 2x18w- nguồn dự phòng 2H</td>
+      <td>Bộ</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Đèn huỳnh quang bóng led 3x18w- gắn âm trần - nguồn dự phòng 2H cho bóng giữa</td>
+      <td>Bộ</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Đèn tuýt bóng led (1x18w)-gắn tường</td>
+      <td>Bộ</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đèn tuýt bóng led (1x18w)-gắn tường nguồn dự phòng 2H</td>
+      <td>Bộ</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Đèn pha bóng led (1x150w)-gắn tường</td>
+      <td>Bộ</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Đèn Downlight bóng led 12w- gắn âm trần</td>
+      <td>Bộ</td>
+      <td>35</td>
+    </tr>
+  </tbody>
+</table>
 
 # 3. Chống sét:
 
@@ -93,7 +469,29 @@ Kiểm tra định kỳ là 12 tháng, vào thời điểm trước mùa mưa. S
 
 Danh mục các thiết bị:   
 
-<table><tr><td rowspan=1 colspan=1>Stt</td><td rowspan=1 colspan=1>Cac thiet bi</td><td rowspan=1 colspan=1>Dvt</td><td rowspan=1 colspan=1>S6 lrong</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Kim thu set ESE Nimbus 15 R=51m, cap 3</td><td rowspan=1 colspan=1>Cai</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Bo dém set CDR 401</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>2</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Stt Các thiết bị</td>
+      <td></td>
+      <td>Đvt</td>
+      <td>Số lượng</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Kim thu sét ESE Nimbus 15 R=51m, cấp 3</td>
+      <td>Cái</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Bộ đếm sét CDR 401</td>
+      <td>Bộ</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
 
 4. Hệ thống điện nhẹ, Mạng điện thoại IP, mạng dữ liệu, truyền hình IP; Camera quan sát, Hệ thống kiểm soát an ninh:
 
@@ -131,4 +529,68 @@ $+$ Máy vi tính: bảo trì bảo dưỡng máy vi tính, chương trình truy
 
 Danh mục các thiết bị:   
 
-<table><tr><td rowspan=1 colspan=1>Stt</td><td rowspan=1 colspan=1>Cac thiet bi</td><td rowspan=1 colspan=1>Dvt</td><td rowspan=1 colspan=1>S6 lrong</td></tr><tr><td rowspan=1 colspan=4>He thong vien thong</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>B chuyén mach 24 Ports, 4 SFP Layer 2 Switch, 24cong Gigabit, 4 cong SFP</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>22</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Bo chuyen mach 48 Ports, 4 SFP 2 x Layer 2 Switch,24 cong Gigabit, 4 cong SFP</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Hé thong UPS dien nhe 20KVA</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Tu dau noi quang 96 loi (ODF quang 96 cong day duphu kién dau noi, chuan gan rack, dung trong nha vacäc phu kién khac kem theo)</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Tu dau noi quang 24 loi (Day du phu kien dau noi,chuan gän rack, dung trong nha)</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Tu SmartRak E 42U W600 D1000, nguon 10 ó cäm</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>B@ chuyén mach 8 Ports: Switch 8-Ports10/100/1000Mbps +2-SFP Slots</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Bo phat Wifi- gän tran (ZoneFlex R310, dual band802.11ac Indoor Access Point, BeamFlex, 2x2:2, 1-Port, PoE, Does not include power adapter or PoEInjector va cäc phu kién khac kem theo)</td><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>64</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Stt Các thiết bị Đvt Số lượng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hệ thống viễn thông</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Bộ chuyển mạch 24 Ports, 4 SFP Layer 2 Switch, 24 cổng Gigabit, 4 cổng SFP</td>
+      <td>Bộ</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Bộ chuyển mạch 48 Ports, 4 SFP 2 x Layer 2 Switch, 24 cổng Gigabit, 4 cổng SFP</td>
+      <td>Bộ</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Hệ thống UPS điện nhẹ 20KVA</td>
+      <td>Bộ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Tủ đấu nối quang 96 lõi (ODF quang 96 cổng đầy đủ phụ kiện đấu nối, chuẩn gắn rack, dùng trong nhà và các phụ kiện khác kèm theo)</td>
+      <td>Bộ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Tủ đấu nối quang 24 lõi (Đầy đủ phụ kiện đấu nối, chuẩn gắn rack, dùng trong nhà)</td>
+      <td>Bộ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Tủ SmartRak E 42U W600 D1000, nguồn 10 ổ cắm</td>
+      <td>Bộ</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Bộ chuyển mạch 8 Ports: Switch 8-Ports 10/100/1000Mbps + 2-SFP Slots</td>
+      <td>Bộ</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Bộ phát Wifi- gắn trần (ZoneFlex R310, dual band 802.11ac Indoor Access Point, BeamFlex, 2x2:2, 1- Port, PoE, Does not include power adapter or PoE Injector và các phụ kiện khác kèm theo)</td>
+      <td>B ộ</td>
+      <td>6 4</td>
+    </tr>
+  </tbody>
+</table>

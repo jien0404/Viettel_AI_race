@@ -26,17 +26,9 @@ Khuyến nghị G.826 của ITU-T về giới hạn lỗi đối với đường
 
 Hình C.1 mô tả đường truyền chuẩn trên mặt đất qua việc tính toán giới hạn lỗi như đã chỉ ra trong Quy chuẩn này.
 
-![](images/1.jpg)
+![](images/image_1.jpg)
 
-> **Hình chú thích:** a blue and white sign with the words vietnam
-
-
-
-![](images/2.jpg)
-
-> **Hình chú thích:** a diagram of the process of a power line
-
-  
+![](images/image_2.jpg)  
 Hình C.1 - Đường truyền chuẩn cho kênh thuê riêng trên mặt đất tốc độ 2 048 kbit/s.
 
 Đường truyền chuẩn trong Hình C.1 gồm có 2 nước tại 2 đầu cuối và một nước trung gian. Tại nước có điểm đầu cuối thì khoảng cách tính từ điểm NTP đến cổng đi quốc tế tối đa là $1 \ 0 0 0 \ \mathrm { k m }$ . Đối với nước trung gian thì khoảng cách tối đa là 3 $5 0 0 ~ \mathrm { k m }$ nếu chỉ có một cổng quốc tế. Khoảng cách trên được tính bằng 1,5 lần khoảng cách theo đường thẳng trừ trường hợp nếu là cáp ngầm dưới biển thì khoảng cách sẽ là khoảng cách thực tế.
@@ -45,11 +37,7 @@ CHÚ THÍCH: mô hình này cho phép khoảng cách tổng cộng lên đến $
 
 # 2.2 Đường truyền qua vệ tinh
 
-![](images/3.jpg)
-
-> **Hình chú thích:** a diagram of the different types of signal
-
-
+![](images/image_3.jpg)
 
 Hình C.2 - Đường truyền chuẩn cho kênh thuê riêng qua vệ tinh tốc độ
 
@@ -63,11 +51,69 @@ Trong Bảng C.1 và C.2 thể hiện phân bố theo tỷ lệ phần trăm v�
 
 Bảng C.1 - Phân bố nguyên nhân lỗi theo Khuyến nghị G.826 - Đường truyền mặt đất và đường truyền vệ tinh   
 
-<table><tr><td rowspan=1 colspan=1> Phan duong truyén</td><td rowspan=1 colspan=1>Phan bo loi</td></tr><tr><td rowspan=1 colspan=2>Durong truyén mat dat</td></tr><tr><td rowspan=1 colspan=1>Quóc gia 1 (phan bó có dinh)</td><td rowspan=1 colspan=1>17,5%</td></tr><tr><td rowspan=1 colspan=1>Quóc gia 1 (toi da 1 000 km)</td><td rowspan=1 colspan=1>2.0%</td></tr><tr><td rowspan=1 colspan=1>Diém qua giang quóc té</td><td rowspan=1 colspan=1>1,0%</td></tr><tr><td rowspan=1 colspan=1>Qua giang quoc té (phan bó có dinh)</td><td rowspan=1 colspan=1>2.0%</td></tr><tr><td rowspan=1 colspan=1>Qua giang quoc té (toi da 3 500 km)</td><td rowspan=1 colspan=1>7,0%</td></tr><tr><td rowspan=1 colspan=1>Diem qua giang quc té</td><td rowspan=1 colspan=1>1,0%</td></tr><tr><td rowspan=1 colspan=1>Quóc gia 2 (tói da 1 000 km)</td><td rowspan=1 colspan=1>2,0%</td></tr><tr><td rowspan=1 colspan=1>Quoc gia 2 (phan bó có dinh)</td><td rowspan=1 colspan=1>17,5%</td></tr><tr><td rowspan=1 colspan=1>Tong cong</td><td rowspan=1 colspan=1>50,0%</td></tr><tr><td rowspan=1 colspan=2>Duong truyén v@ tinh</td></tr><tr><td rowspan=1 colspan=1>Quoc gia 1 (phan bó có dinh)</td><td rowspan=1 colspan=1>17,5%</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-
-<table><tr><td rowspan=1 colspan=1>Quóc gia 1 (toi da 1 000 km)</td><td rowspan=1 colspan=1>2.0%</td></tr><tr><td rowspan=1 colspan=1>Diem két noi quoc té</td><td rowspan=1 colspan=1>2.0%</td></tr><tr><td rowspan=1 colspan=1>Duong truyén vé tinh</td><td rowspan=1 colspan=1>35,0%</td></tr><tr><td rowspan=1 colspan=1>Diém két noi quoc té</td><td rowspan=1 colspan=1>2.0%</td></tr><tr><td rowspan=1 colspan=1>Quoc gia 2 (toi da 1 000 km)</td><td rowspan=1 colspan=1>2,0%</td></tr><tr><td rowspan=1 colspan=1>Quoc gia 2 (phan bó có dinh)</td><td rowspan=1 colspan=1>17,5%</td></tr><tr><td rowspan=1 colspan=1>Tong cong</td><td rowspan=1 colspan=1>78,0%</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 CHÚ THÍCH: Nếu có thêm các quốc gia quá giang vào đường truyền mặt đất thì sẽ phải bổ sung thêm tỷ lệ phân bố cố định $( 2 \% )$ , điểm kết cuối quá giang $( 1 \% )$ và khoảng cách đường truyền ( $1 \%$ cho $5 0 0 ~ \mathrm { k m } ,$ ). Thông tin thêm về vấn đề này có trong Khuyến nghị G.826 của ITU-T.
 
@@ -79,11 +125,67 @@ Bảng C.2 - Tỷ lệ lỗi dài hạn áp dụng cho kênh thuê riêng cấu 
 
 2 048 kbit/s   
 
-<table><tr><td>Tham s6</td><td>G.826</td><td>Duong truyén mat dat</td><td>Duong truyén vé tinh</td></tr><tr><td>Ty le ES</td><td>4,00%</td><td>2,000 %</td><td>3,120%</td></tr><tr><td>Ty le SES</td><td>0,20%</td><td>0,100%</td><td>0,156%</td></tr></table>
 
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Phần đường truyền</td>
+      <td>Phân bố lỗi</td>
+    </tr>
+    <tr>
+      <td>Đường truyền mặt đất</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Quốc gia 1 (phân bố cố định)</td>
+      <td>17,5%</td>
+    </tr>
+    <tr>
+      <td>Quốc gia 1 (tối đa 1 000 km)</td>
+      <td>2,0%</td>
+    </tr>
+    <tr>
+      <td>Điểm quá giang quốc tế</td>
+      <td>1,0%</td>
+    </tr>
+    <tr>
+      <td>Quá giang quốc tế (phân bố cố định)</td>
+      <td>2,0%</td>
+    </tr>
+    <tr>
+      <td>Quá giang quốc tế (tối đa 3 500 km)</td>
+      <td>7,0%</td>
+    </tr>
+    <tr>
+      <td>Điểm quá giang quốc tế</td>
+      <td>1,0%</td>
+    </tr>
+    <tr>
+      <td>Quốc gia 2 (tối đa 1 000 km)</td>
+      <td>2,0%</td>
+    </tr>
+    <tr>
+      <td>Quốc gia 2 (phân bố cố định)</td>
+      <td>17,5%</td>
+    </tr>
+    <tr>
+      <td>Tổng cộng</td>
+      <td>50,0%</td>
+    </tr>
+    <tr>
+      <td>Đường truyền vệ tinh</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Quốc gia 1 (phân bố cố định)</td>
+      <td>17,5%</td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td>Ty le BBE</td><td>0,03%</td><td>0,015%</td><td>0,023%</td></tr><tr><td colspan="4">CHU THiCH: cac só lieu trong bang nay da duoc lam tron, cac só lieu chinh xac dugc sur dung dé tinh toan cac gioi han trong cac muc tiép theo.</td></tr></table>
+
 
 # 4. Lỗi dài hạn
 
@@ -99,12 +201,76 @@ $$
 
 Bảng C.3 - Các giá trị giới hạn đối với độ dài khối là 2 048 bit - Đường truyền mặt đất   
 
-<table><tr><td rowspan=1 colspan=1>Thong s6</td><td rowspan=1 colspan=1>ES</td><td rowspan=1 colspan=1>SES</td><td rowspan=1 colspan=1>BBE</td></tr><tr><td rowspan=1 colspan=1>Loi dai han</td><td rowspan=1 colspan=1>1 728 / 24h</td><td rowspan=1 colspan=1>86/ 24h</td><td rowspan=1 colspan=1>12 960/ 24h</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Quốc gia 1 (tối đa 1 000 km)</td>
+      <td>2,0%</td>
+    </tr>
+    <tr>
+      <td>Điểm kết nối quốc tế</td>
+      <td>2,0%</td>
+    </tr>
+    <tr>
+      <td>Đường truyền vệ tinh</td>
+      <td>35,0%</td>
+    </tr>
+    <tr>
+      <td>Điểm kết nối quốc tế</td>
+      <td>2,0%</td>
+    </tr>
+    <tr>
+      <td>Quốc gia 2 (tối đa 1 000 km)</td>
+      <td>2,0%</td>
+    </tr>
+    <tr>
+      <td>Quốc gia 2 (phân bố cố định)</td>
+      <td>17,5%</td>
+    </tr>
+    <tr>
+      <td>Tổng cộng</td>
+      <td>78,0%</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tham số</td>
+      <td>G.826</td>
+      <td>Đường truyền mặt đất</td>
+      <td>Đường truyền vệ tinh</td>
+    </tr>
+    <tr>
+      <td>Tỷ lệ ES Tỷ lệ SES</td>
+      <td>4,00% 0,20%</td>
+      <td>2,000 % 0,100%</td>
+      <td>3,120% 0,156%</td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-<table><tr><td>Thoi gian do 24 gio</td><td></td><td>68/ 24h</td><td>12 732/ 24h</td></tr><tr><td>Gia tri gioi han S1 Gia tri gioi han S2</td><td>1 645/ 24h 1 811/ 24h</td><td>105/ 24h</td><td>13 188/ 24h</td></tr></table>
 
 Bảng C.4 - Các giá trị giới hạn đối với độ dài khối là 2 048 bit - Đường truyền vệ tinh   
 
-<table><tr><td rowspan=1 colspan=1>Thong s6</td><td rowspan=1 colspan=1>ES</td><td rowspan=1 colspan=1>SES</td><td rowspan=1 colspan=1>BBE</td></tr><tr><td rowspan=1 colspan=1>Loi dai han</td><td rowspan=1 colspan=1>2 696 / 24h</td><td rowspan=1 colspan=1>135 / 24h</td><td rowspan=1 colspan=1>20 218 / 24h</td></tr><tr><td rowspan=2 colspan=1>Thoi gian do 24 gioGia tri gioi han S1Gia tri gioi han S2</td><td rowspan=1 colspan=1>2 592 /24h</td><td rowspan=1 colspan=1>112 / 24h</td><td rowspan=2 colspan=1>19 933 / 24h20 502 /24h</td></tr><tr><td rowspan=1 colspan=1>2 800 / 24h</td><td rowspan=1 colspan=1>158 / 24h</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tỷ lệ BBE</td>
+      <td>0,03%</td>
+      <td>0,015%</td>
+      <td>0,023%</td>
+    </tr>
+    <tr>
+      <td>CHÚ THÍCH: các số liệu trong bảng này đã được làm tròn, các số liệu chính xác được sử dụng để tính toán các giới hạn trong các mục tiếp theo.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

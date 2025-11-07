@@ -2,24 +2,407 @@
 
 # 1. Danh mục hàng hóa, vật tư, máy móc
 
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Chung loai hang hoa</td><td rowspan=1 colspan=1> Xuat xir, ky ma hieu, nhan mac cuasan pham</td><td rowspan=1 colspan=1>Don vitinh</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=3>Linh kien, thiet bi, vat tur</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Trong may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>HP1320/05A/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Gat muc may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>GM1200/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Gat tir may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>GT1200/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Truc sac may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>TS1200/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Trong may in HP605/602</td><td rowspan=1 colspan=1>HP64A/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Cum say may in HP605/602</td><td rowspan=1 colspan=1>CS605/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Cum say may in HP400 M401/402</td><td rowspan=1 colspan=1>CS400/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Vo lua may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>LS-HP1200/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Lo ép may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>LE-HP1320/05A/76A/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Day cap may in(chan cäm USB）3m</td><td rowspan=1 colspan=1>CAP3m/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Trong may photo Canon 2525</td><td rowspan=1 colspan=1>Drum IR2525/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Truc sac may photo Canon 2525</td><td rowspan=1 colspan=1>TS IR2525/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Qua dao keo giay HP600</td><td rowspan=1 colspan=1>CSHP600/Trung Quoc</td><td rowspan=1 colspan=1>B</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Main nguon may in HP401/402</td><td rowspan=1 colspan=1>MainHP400/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Bo dinh tuyen loai 1</td><td rowspan=1 colspan=1>TL-WR841/TPlink/Viet Nam</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Bo dinh tuyén loai 2</td><td rowspan=1 colspan=1>TL-WR941/TPlink/Viet Nam</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Ocung thé ran（SSD） 240Gb</td><td rowspan=1 colspan=1> SSDKingston 240GB/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1> Chuot may tinh c6 day (chuotquang）</td><td rowspan=1 colspan=1>MouseGX1/Coolerplus/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Chủng loại hàng hóa</td>
+      <td>Xuất xứ, ký mã hiệu, nhãn mác của sản phẩm</td>
+      <td>Đơn vị tính</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Linh kiện, thiết bị, vật tư</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Trống máy in HP401/402/404/ Canon 3300</td>
+      <td>HP1320/05A/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Gạt mực máy in HP401/402/404/ Canon 3300</td>
+      <td>GM1200/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Gạt từ máy in HP401/402/404/ Canon 3300</td>
+      <td>GT1200/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Trục sạc máy in HP401/402/404/ Canon 3300</td>
+      <td>TS1200/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Trống máy in HP605/602</td>
+      <td>HP64A/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Cụm sấy máy in HP605/602</td>
+      <td>CS605/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Cụm sấy máy in HP400 M401/402</td>
+      <td>CS400/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Vỏ lụa máy in HP401/402/404/ Canon 3300</td>
+      <td>LS-HP1200/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Lô ép máy in HP401/402/404/ Canon 3300</td>
+      <td>LE-HP1320/05A/76A/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Dây cáp máy in ( chân cắm USB ) 3m</td>
+      <td>CAP3m/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Trống máy photo Canon 2525</td>
+      <td>Drum IR2525/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Trục sạc máy photo Canon 2525</td>
+      <td>TS IR2525/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Quả đào kéo giấy HP600</td>
+      <td>CSHP600/Trung Quốc</td>
+      <td>Bộ</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Main nguồn máy in HP401/402</td>
+      <td>MainHP400/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Bộ định tuyến loại 1</td>
+      <td>TL-WR841/TPlink/Việt Nam</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Bộ định tuyến loại 2</td>
+      <td>TL-WR941/TPlink/Việt Nam</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Ổ cứng thể rắn ( SSD ) 240Gb</td>
+      <td>SSDKingston 240GB/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Chuột máy tính có dây ( chuột quang )</td>
+      <td>MouseGX1/Coolerplus/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>Ban phim may tinh c6 day (chancäm USB）</td><td rowspan=1 colspan=1>KeyboardGX1/Coolerplus/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>Day mang Cat6</td><td rowspan=1 colspan=1>AMP CAT6/Viet Nam</td><td rowspan=1 colspan=1>Met</td></tr><tr><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>Dau mang Cat6/ cat5</td><td rowspan=1 colspan=1>AMP RJ45/Viet Nam</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>Day lioa da nang 5m</td><td rowspan=1 colspan=1>LIOA 3S3DN/Viet Nam</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>Day line dien thoai</td><td rowspan=1 colspan=1>Day line/Vinacap/Viet Nam</td><td rowspan=1 colspan=1>Met</td></tr><tr><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>Switch 5 cong（Bo chia tin hieudé ban 5 cong）</td><td rowspan=1 colspan=1> Switch 5 port/TPlink/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>Switch 8 cong(Bo chia tin hieudeban 8 cong）</td><td rowspan=1 colspan=1>Switch 8 port/TPlink/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>Cap chuyén doi Display - VGA</td><td rowspan=1 colspan=1> CAPC/DISPLAYport - VGA/TrungQu6c</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>Nguon man hinh/ nguon Laptop</td><td rowspan=1 colspan=1> ADAPTER/Laptop/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>Day HDMI10m</td><td rowspan=1 colspan=1>HDMI10M/Ugreen/Viet Nam</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>Nguon may scan Kodak 24v-1.5A</td><td rowspan=1 colspan=1> ADAPTER/SCAN/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1> Hop muc (cartridge) cho may inHP402</td><td rowspan=1 colspan=1>CF226A/Trung Quoc</td><td rowspan=1 colspan=1>Hop</td></tr><tr><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1> Hop muc (cartridge) cho may inHP401</td><td rowspan=1 colspan=1>CF280A/Trung Quoc</td><td rowspan=1 colspan=1>Hop</td></tr><tr><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1> Hop muc (cartridge) cho may inHP M602/605dn</td><td rowspan=1 colspan=1>CE390A/C281A/Trung Quoc</td><td rowspan=1 colspan=1>Hop</td></tr><tr><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1> Hop muc (cartridge) cho may incanon 3300</td><td rowspan=1 colspan=1>Q5949A/Trung Quoc</td><td rowspan=1 colspan=1>Hop</td></tr><tr><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>Hop muc may photo Canon 2535</td><td rowspan=1 colspan=1>TN NPG50/Trung Quóc</td><td rowspan=1 colspan=1>Hop</td></tr><tr><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1> Hop mrc (cartridge) cho may inHP404 CH</td><td rowspan=1 colspan=1>CF276A/Trung Quoc</td><td rowspan=1 colspan=1>Hop</td></tr><tr><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1>Hop muc may photo Xerox V3065</td><td rowspan=1 colspan=1>TN V3065/Trung Quoc</td><td rowspan=1 colspan=1>Hop</td></tr><tr><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>Hóp muc may photo Xerox V5070</td><td rowspan=1 colspan=1>TN V5070/Trung Quoc</td><td rowspan=1 colspan=1>Hop</td></tr><tr><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>Cum trong photo Xerox V3065</td><td rowspan=1 colspan=1>DR V3065/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>41</td><td rowspan=1 colspan=1>Cum trong photo Xerox V5070</td><td rowspan=1 colspan=1>DR V5070/Trung Quoc</td><td rowspan=1 colspan=1>Chiec</td></tr><tr><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>Giay in kho A4 thuong</td><td rowspan=1 colspan=1>A4/Pagi/Viet Nam</td><td rowspan=1 colspan=1>gsm</td></tr><tr><td rowspan=1 colspan=1>43</td><td rowspan=1 colspan=1>Giay in A4 cao cap</td><td rowspan=1 colspan=1>A4/One/Indonesia</td><td rowspan=1 colspan=1>gsm</td></tr><tr><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>Giay in A5 cao cap</td><td rowspan=1 colspan=1>A5/One/Indonesia</td><td rowspan=1 colspan=1>gsm</td></tr><tr><td rowspan=1 colspan=1>Ⅱ</td><td rowspan=1 colspan=3>Dich vu lien quan</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>19</td>
+      <td>Bàn phím máy tính có dây ( chân cắm USB )</td>
+      <td>KeyboardGX1/Coolerplus/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Dây mạng Cat6</td>
+      <td>AMP CAT6/Việt Nam</td>
+      <td>Mét</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Đầu mạng Cat6/ cat5</td>
+      <td>AMP RJ45/Việt Nam</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Dây lioa đa năng 5m</td>
+      <td>LIOA 3S3DN/Việt Nam</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Dây line điện thoại</td>
+      <td>Dây line/Vinacap/Việt Nam</td>
+      <td>Mét</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Switch 5 cổng ( Bộ chia tín hiệu để bàn 5 cổng )</td>
+      <td>Switch 5 port/TPlink/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Switch 8 cổng ( Bộ chia tín hiệu để bàn 8 cổng )</td>
+      <td>Switch 8 port/TPlink/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Cáp chuyển đổi Display - VGA</td>
+      <td>CAPC/DISPLAYport - VGA/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Nguồn màn hình/ nguồn Laptop</td>
+      <td>ADAPTER/Laptop/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Dây HDMI 10m</td>
+      <td>HDMI10M/Ugreen/Việt Nam</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Nguồn máy scan Kodak 24v – 1.5A</td>
+      <td>ADAPTER/SCAN/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Hộp mực (cartridge) cho máy in HP402</td>
+      <td>CF226A/Trung Quốc</td>
+      <td>Hộp</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Hộp mực (cartridge) cho máy in HP401</td>
+      <td>CF280A/Trung Quốc</td>
+      <td>Hộp</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>Hộp mực (cartridge) cho máy in HP M602/605dn</td>
+      <td>CE390A/C281A/Trung Quốc</td>
+      <td>Hộp</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Hộp mực (cartridge) cho máy in canon 3300</td>
+      <td>Q5949A/Trung Quốc</td>
+      <td>Hộp</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>Hộp mực máy photo Canon 2535</td>
+      <td>TN NPG50/Trung Quốc</td>
+      <td>Hộp</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>Hộp mực (cartridge) cho máy in HP404 CH</td>
+      <td>CF276A/Trung Quốc</td>
+      <td>Hộp</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>Hộp mực máy photo Xerox V3065</td>
+      <td>TN V3065/Trung Quốc</td>
+      <td>Hộp</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>Hộp mực máy photo Xerox V5070</td>
+      <td>TN V5070/Trung Quốc</td>
+      <td>Hộp</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>Cụm trống photo Xerox V3065</td>
+      <td>DR V3065/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Cụm trống photo Xerox V5070</td>
+      <td>DR V5070/Trung Quốc</td>
+      <td>Chiếc</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>Giấy in khổ A4 thường</td>
+      <td>A4/Pagi/Việt Nam</td>
+      <td>gsm</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>Giấy in A4 cao cấp</td>
+      <td>A4/One/Indonesia</td>
+      <td>gsm</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>Giấy in A5 cao cấp</td>
+      <td>A5/One/Indonesia</td>
+      <td>gsm</td>
+    </tr>
+    <tr>
+      <td>II</td>
+      <td>Dịch vụ liên quan</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Bao tri may phat dien KOHLER75KV (1 thang/1 lan) trong 12thang</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Cai</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Bao tri may phat dien KOHLER150KV (1 thang/1 lan) trong 12thang</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Cai</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Bao tri, bao duong may tinh déban (1 thang/1 lan) trong 12 thang</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Cai</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Bao tri, bao duong may tinh xachtay (1 thang/1 lan) trong 12 thang</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Cai</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Bảo trì máy phát điện KOHLER 75KV (1 tháng/1 lần) trong 12 tháng</td>
+      <td></td>
+      <td>Cái</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Bảo trì máy phát điện KOHLER 150KV (1 tháng/1 lần) trong 12 tháng</td>
+      <td></td>
+      <td>Cái</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Bảo trì, bảo dưỡng máy tính để bàn (1 tháng/1 lần) trong 12 tháng</td>
+      <td></td>
+      <td>Cái</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Bảo trì, bảo dưỡng máy tính xách tay (1 tháng/1 lần) trong 12 tháng</td>
+      <td></td>
+      <td>Cái</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2. Yêu cầu kỹ thuật đối với hàng hóa
 
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Ten hang hóa</td><td rowspan=1 colspan=1>Thong só ky thuat va cac tieu chuan</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Trong may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>- Dong: Linh kién cho may in HP/Canon- Ma ky hiéu: Tróng roi HP1320/05A- Hop muc dung: dung cho hop mucHP49A/80A/26A/76A- Loai drum: Trong roi- Xuat xur: Trung Quoc</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Gat muc may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>- Dong: Linh kién cho may in HP/Canon- Ma ky hieu: GM1200- Hop muc dung: dung cho hop mucHP49A/80A/26A/76A- Loai gat: Gat muc roi- Xuat xur: Trung Quóc</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Gat tur may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>- Dong: Linh kién cho may in HP/Canon- Ma ky hiéu: GT1200- H@p muc dung: dung cho hop mucHP49A/80A/26A/76A- Loai gat: Gat tur roi- Xuat xir: Trung Quoc</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Tên hàng hóa</td>
+      <td>Thông số kỹ thuật và các tiêu chuẩn</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>T rống máy in HP401/402/404/ Canon 3300</td>
+      <td>- Dòng: Linh kiện cho máy in HP/Canon - Mã ký hiệu: Trống rời HP1320/05A - Hộp mực dùng: dùng cho hộp mực HP49A/80A/26A/76A - Loại drum: Trống rời - Xuất xứ: Trung Quốc</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>G ạt mực máy in HP401/402/404/ Canon 3300</td>
+      <td>- Dòng: Linh kiện cho máy in HP/Canon - Mã ký hiệu: GM1200 - Hộp mực dùng: dùng cho hộp mực HP49A/80A/26A/76A - Loại gạt: Gạt mực rời - Xuất xứ: Trung Quốc</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>G ạt từ máy in HP401/402/404/ Canon 3300</td>
+      <td>- Dòng: Linh kiện cho máy in HP/Canon - Mã ký hiệu: GT1200 - Hộp mực dùng: dùng cho hộp mực HP49A/80A/26A/76A - Loại gạt: Gạt từ rời - Xuất xứ: Trung Quốc</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Truc sac may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>- Dong: Linh kién cho may in HP/Canon- Ma ky hiéu: TS1200- H@p muc dung: dung cho h@p mucHP49A/80A/26A/76A- Loai gat: Truc sac roi- Xuat xur: Trung Quoc</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Tróng may in HP605/602</td><td rowspan=1 colspan=1>- Ma Trong : HP64A- Loai Trong : In Laser den trang .- Dung cho may in : HP602/605- Xuat xir: Trung Quóc</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Cum say may in HP605/602</td><td rowspan=1 colspan=1>- Dong: Linh kién cho may in HP605/602- Ma ky hiéu: Cum say HP602/605- May dung: HP605/602- Xuat xur: Chinh hang</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Cum say may in HP400 M401/402</td><td rowspan=1 colspan=1>- Dong: Linh kien cho may in HP400- Ma ky hiéu: Cum say HP400 M401/402- May dung: HP400 M401/402- Xuat xir: Chinh hang</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Vó lua may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>- Dong: Linh kién cho may in HP/Canon- Ma ky hiéu: LS-HP 1200- H@p muc dung: dung cho hop mucHP49A/80A/26A/76A- Loai gat: lo say roi- Xuat xtr: Trung Quoc</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Lo ép may in HP401/402/404/Canon 3300</td><td rowspan=1 colspan=1>- Dong: Linh kién cho may in HP/Canon- Ma ky hiéu: LE-HP 1200- Hop muc dung: dung cho hop mucHP49A/80A/26A/76A- Loai gat: lo ép roi- Xuat xur: Trung Quoc</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>5</td>
+      <td>T rục sạc máy in HP401/402/404/ Canon 3300</td>
+      <td>- Dòng: Linh kiện cho máy in HP/Canon - Mã ký hiệu: TS1200 - Hộp mực dùng: dùng cho hộp mực HP49A/80A/26A/76A - Loại gạt: Trục sạc rời - Xuất xứ: Trung Quốc</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>T rống máy in HP605/602</td>
+      <td>- Mã Trống : HP64A - Loại Trống : In Laser đen trắng . - Dùng cho máy in : HP602/605 - Xuất xứ: Trung Quốc</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>C ụm sấy máy in HP605/602</td>
+      <td>- Dòng: Linh kiện cho máy in HP605/602 - Mã ký hiệu: Cụm sấy HP602/605 - Máy dùng: HP605/602 - Xuất xứ: Chính hãng</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>C ụm sấy máy in HP400 M401/402</td>
+      <td>- Dòng: Linh kiện cho máy in HP400 - Mã ký hiệu: Cụm sấy HP400 M401/402 - Máy dùng: HP400 M401/402 - Xuất xứ: Chính hãng</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>V ỏ lụa máy in HP401/402/404/ Canon 3300</td>
+      <td>- Dòng: Linh kiện cho máy in HP/Canon - Mã ký hiệu: LS-HP 1200 - Hộp mực dùng: dùng cho hộp mực HP49A/80A/26A/76A - Loại gạt: lô sấy rời - Xuất xứ: Trung Quốc</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>L ô ép máy in HP401/402/404/ Canon 3300</td>
+      <td>- Dòng: Linh kiện cho máy in HP/Canon - Mã ký hiệu: LE-HP 1200 - Hộp mực dùng: dùng cho hộp mực HP49A/80A/26A/76A - Loại gạt: lô ép rời - Xuất xứ: Trung Quốc</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Day cap may in(chan cäm USB) 3m</td><td rowspan=1 colspan=1>- Loai cap có day va cuc chóng nhiéu tót- Cap may in két nói cóng USB Dé dang cämcac thiét bi may in- Do dai day cap: 3 Mét- Xuat xur: Trung Quóc</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Tróng may photo Canon 2525</td><td rowspan=1 colspan=1>- Dong: Linh kien cho may photo canon 2525- Ma ky hiéu: Drum IR2525- May dung: may photo canon IR2525/2535- Loai gat: Trong roi- Xuat xir: Trung Quóc</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Truc sac may photo Canon 2525</td><td rowspan=1 colspan=1>- Dong: Linh kien cho may photo canon 2525- Ma ky hieu: Truc sac IR2525- May dung: may photo canon IR2525/2535- Loai gat: Truc sac roi- Xuat xur: Trung Quóc</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>11</td>
+      <td>D ây cáp máy in ( chân cắm USB ) 3m</td>
+      <td>- Loại cáp có dây và cục chống nhiễu tốt - Cáp máy in kết nối cổng USB Dễ dàng cắm các thiết bị máy in - Độ dài dây cáp: 3 Mét - Xuất xứ: Trung Quốc</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>T rống máy photo Canon 2525</td>
+      <td>- Dòng: Linh kiện cho máy photo canon 2525 - Mã ký hiệu: Drum IR2525 - Máy dùng: máy photo canon IR2525/2535 - Loại gạt: Trống rời - Xuất xứ: Trung Quốc</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>T rục sạc máy photo Canon 2525</td>
+      <td>- Dòng: Linh kiện cho máy photo canon 2525 - Mã ký hiệu: Trục sạc IR2525 - Máy dùng: máy photo canon IR2525/2535 - Loại gạt: Trục sạc rời - Xuất xứ: Trung Quốc</td>
+    </tr>
+  </tbody>
+</table>

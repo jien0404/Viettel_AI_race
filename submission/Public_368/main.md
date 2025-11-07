@@ -6,7 +6,21 @@ Kích cỡ khối để thử luồng PDH trong hệ thống đang khai thác đ
 
 # Bảng 6 - Kích cỡ khối PDH
 
-<table><tr><td>Tóc do bit cua luong PDH kbit/s</td><td>Kich co khi PDH bit</td><td>EDC/khong c6 EDC</td></tr><tr><td>2048</td><td>2048</td><td>CRC-4</td></tr><tr><td>8448</td><td>4224</td><td>Khong c6 EDC</td></tr><tr><td>34368</td><td>4296</td><td>Khong c6 EDC</td></tr><tr><td>139264</td><td>17408</td><td>Kh6ng c6 EDC</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Tốc độ bit của luồng PDH kbit/s</td>
+      <td>Kích cỡ khối PDH bit</td>
+      <td>EDC/không có EDC</td>
+    </tr>
+    <tr>
+      <td>2048 8448 34368 139264</td>
+      <td>2048 4224 4296 17408</td>
+      <td>CRC-4 Không có EDC Không có EDC Không có EDC</td>
+    </tr>
+  </tbody>
+</table>
 
 # 2. Các bất bình thường (Anomatics)
 
@@ -42,9 +56,28 @@ Một loạt các giới hạn của chỉ thị sai hỏng d1, d2 do thiết b�
 
 Bảng 7 - Các thông số và tiêu chuẩn đo   
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Kiểu luồng</td>
+      <td>Các thông số</td>
+      <td>Tiêu chuẩn đo</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>ESR</td>
+      <td>Một giây bị lỗi quan sát được khi trong một giây ít nhất có một bất bình thường a1 hoặc a2 hoặc một sai hỏng d1 đến d3 xảy ra.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>SESR</td>
+      <td>Một giây bị lỗi nghiêm trọng quan sát được khi trong một giây ít nhất có ‘x’ bất bình thường a1 hoặc a2, hoặc một sai hỏng d1 đến d3 xảy ra.</td>
+    </tr>
+  </tbody>
+</table>
 
 
-<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>BBER</td><td rowspan=1 colspan=1>Mot loi khói co ban quan sat duoc khi: mot batbinh thuong a1 hoac a2 xay ra trong mot khóinhung khong thuoc phan giay bi loi nghiemtrong.</td></tr><tr><td rowspan=2 colspan=1>2</td><td rowspan=1 colspan=1>ESR</td><td rowspan=1 colspan=1>Mot giay bi loi quan sat duoc khi trong motgiay it nhat có mot bat binh thuong a1 hoac mótsai hong d1 dén d3 xay ra</td></tr><tr><td rowspan=1 colspan=1>SESR</td><td rowspan=1 colspan=1>Mot giay bi loi nghiem trong quan sat duoc khitrong m@t giay it nhat có ‘x&#x27; bat binh thuong a1hoäc mot sai hong di hoac d2 xay ra.</td></tr><tr><td rowspan=2 colspan=1>3</td><td rowspan=1 colspan=1>ESR</td><td rowspan=1 colspan=1>Mot giay bi loi quan sat duoc khi trong motgiay it nhat có mót bat binh thuong a1 hoac motsai hong di hoac d xay ra.</td></tr><tr><td rowspan=2 colspan=1>SESR</td><td rowspan=1 colspan=1>Mot giay bi loi nghiem trong quan sat duoc khitrong mot giay có it nhat ‘x&#x27; bat binh thuong a1hoäc mot sai hong di hoac d2 xay ra</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Mot giay bi loi nghiem trong quan sat duoc khitrong mot giay it nhat có mot sai hong dl hoacd2 xay ra.</td></tr></table>
 
 # 6. Tiêu chuẩn cho việc phát hiện một giây bị lỗi nghiêm trọng trong luồng PDH
 
@@ -52,6 +85,38 @@ Bảng 8 liệt $\mathrm { k } \hat { \mathrm { e } }$ giá trị ‘x’ gây r
 
 Bảng 8 - Tiêu chuẩn có SES trên các tuyến PDH
 
-
-
-<table><tr><td rowspan=1 colspan=1>Tóc do bit (kbit/s)</td><td rowspan=1 colspan=1>2 048</td></tr><tr><td rowspan=1 colspan=1>Kiéu EDC</td><td rowspan=1 colspan=1>CRC-4</td></tr><tr><td rowspan=1 colspan=1>S6 khoi/1 giay</td><td rowspan=1 colspan=1>1000</td></tr><tr><td rowspan=1 colspan=1>S6 bit/1 khói</td><td rowspan=1 colspan=1>2 048</td></tr><tr><td rowspan=1 colspan=1>Nguong SES truoc Khuyén nghi G.826</td><td rowspan=1 colspan=1>x = 805</td></tr><tr><td rowspan=1 colspan=1>Nguong ISM dua tren SES cua Khuyénnghi G.826</td><td rowspan=1 colspan=1>X = 30% khoi bi 1oi</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td>BBER</td>
+      <td>Một lỗi khối cơ bản quan sát được khi: một bất bình thường a1 hoặc a2 xảy ra trong một khối nhưng không thuộc phần giây bị lỗi nghiêm trọng.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>ESR</td>
+      <td>Một giây bị lỗi quan sát được khi trong một giây ít nhất có một bất bình thường a1 hoặc một sai hỏng d1 đến d3 xảy ra</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>SESR</td>
+      <td>Một giây bị lỗi nghiêm trọng quan sát được khi trong một giây ít nhất có ‘x’ bất bình thường a1 hoặc một sai hỏng d1 hoặc d2 xảy ra.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>ESR</td>
+      <td>Một giây bị lỗi quan sát được khi trong một giây ít nhất có một bất bình thường a1 hoặc một sai hỏng d1 hoặc d2 xảy ra.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>SESR</td>
+      <td>Một giây bị lỗi nghiêm trọng quan sát được khi trong một giây có ít nhất ‘x’ bất bình thường a1 hoặc một sai hỏng d1 hoặc d2 xảy ra</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td></td>
+      <td>Một giây bị lỗi nghiêm trọng quan sát được khi trong một giây ít nhất có một sai hỏng d1 hoặc d2 xảy ra.</td>
+    </tr>
+  </tbody>
+</table>

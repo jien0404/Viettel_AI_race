@@ -66,18 +66,142 @@ Trong bảng dưới đây, luận án tổng hợp một số nguyên lý kỹ 
 
 Bảng 1. 1. Tổng hợp các kỹ thuật định vị di động   
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Ky thuat</td><td rowspan=1 colspan=1>Mo ta/Dinh nghia/Khai niém</td><td rowspan=1 colspan=1>Thuat toan/ Cong thuctinh toan co ban</td></tr><tr><td rowspan=1 colspan=4>1.    Dura tren mang</td></tr><tr><td rowspan=1 colspan=4>Dinh vi dua tren thong tin tinh toan cua mang di dong</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Multilateration(MLAT)</td><td rowspan=1 colspan=1>Ky thuat do da phuong hay congoi la ky thuat dinh vi hyperbolic,la ky thuat tinh toan vi tri cua thiétbi trén co so do thoi gian dén(ToA) thiét bi cua sóng vo tuyénduoc phat tur nhiéu tram góc.Do da biét dang sóng, tóc do vadia diém cac tram góc, nén sé tinhduoc vi tri cua thiét bi can dinh vi.</td><td rowspan=1 colspan=1>ToAs (thoi diém dén) =ToFs (thoi gian bay) +ToT (thoi diém phat).</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Triangulation</td><td rowspan=1 colspan=1>Ky thuat do tam giac dé tinh toanvi tri cua thiét bi bang cach ve cacduong cät thanh hinh tam giac turcac diém phat song da biet (cacBTS/eNB) dén thiét bi (con goi laky thuat do tam giac duong xuongtien tien).</td><td rowspan=1 colspan=1>Cac thuat toan tinh toantam giac dac.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Kỹ thuật</td>
+      <td>Mô tả/Định nghĩa/Khái niệm</td>
+      <td>Thuật toán/ Công thức tính toán cơ bản</td>
+    </tr>
+    <tr>
+      <td>I. Dựa trên mạng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Định vị dựa trên thông tin tính toán của mạng di động</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Multilateration (MLAT)</td>
+      <td>Kỹ thuật đo đa phương hay còn gọi là kỹ thuật định vị hyperbolic, là kỹ thuật tính toán vị trí của thiết bị trên cơ sở đo thời gian đến (ToA) thiết bị của sóng vô tuyến được phát từ nhiều trạm gốc. Do đã biết dạng sóng, tốc độ và địa điểm các trạm gốc, nên sẽ tính được vị trí của thiết bị cần định vị.</td>
+      <td>ToAs (thời điểm đến) = ToFs (thời gian bay) + ToT (thời điểm phát).</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Triangulation</td>
+      <td>Kỹ thuật đo tam giác để tính toán vị trí của thiết bị bằng cách vẽ các đường cắt thành hình tam giác từ các điểm phát sóng đã biết (các BTS/eNB) đến thiết bị (còn gọi là kỹ thuật đo tam giác đường xuống tiên tiến).</td>
+      <td>Các thuật toán tính toán tam giác đạc.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td colspan="4">II. Dura trén may cam tay</td></tr><tr><td></td><td>dong).</td><td>Dinh vi dua trén phan mém khach cai dät trén may cam tay, vi du phän mém irng dung vi tri GPS trén may dien thoai thong minh Ky thuat nay xac dinh vi tri cua thiét bi cam tay boi cac tham só nhän dang té bao Cell-ID cua mang di dong phuc vu nó, cuong d  tin hiéu cua cac té bao nha va lan can, lien tuc duoc giri dén nha cung cap dich vu. Mot cach tiép cän khac la dua trén “däu van tay&quot;, trong dó “chur ky&quot; cua Cell nha va Cell lan cän bao hiéu cuong d@ tin hieu tai diém quan tam khac nhau, duoc ghi lai va khop voi thoi gian thuc dé tinh toan vi tri cua may cam tay. (Phuong phap nay doc lap voi nha cung cap dich vu, thuong duoc sur dung trong cac thiét bi dinh vi co</td><td>- Cac thuat toan tinh toan toa d@ dia ly tren co so tin hiéu GPS tir vé tinh dén may cam tay. - Thuat toan tinh chénh léch thoi gian quan sat nang cao E-OTD. Thuat toän tinh chénh léch thoi gian dén cua duong len U-TDoA.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>II. Dựa trên máy cầm tay</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Định vị dựa trên phần mềm khách cài đặt trên máy cầm tay, ví dụ phần mềm ứng dụng vị trí GPS trên máy điện thoại thông minh. Kỹ thuật này xác định vị trí của thiết bị cầm tay bởi các tham số nhận dạng tế bào Cell-ID của mạng di động phục vụ nó, cường độ tín hiệu của các tế bào nhà và lân cận, liên tục được gửi đến nhà cung cấp dịch vụ. Một cách tiếp cận khác là dựa trên “dấu vân tay”, trong đó “chữ ký” của Cell nhà và Cell lân cận báo hiệu cường độ tín hiệu tại điểm quan tâm khác nhau, được ghi lại và khớp với thời gian thực để tính toán vị trí của máy cầm tay. (Phương pháp này độc lập với nhà cung cấp dịch vụ, thường được sử dụng trong các thiết bị định vị cơ động).</td>
+      <td>- Các thuật toán tính toán tọa độ địa lý trên cơ sở tín hiệu GPS từ vệ tinh đến máy cầm tay. - Thuật toán tính chênh lệch thời gian quan sát nâng cao E-OTD. Thuật toán tính chênh lệch thời gian đến của đường lên U-TDoA.</td>
+    </tr>
+    <tr>
+      <td>III. Dựa trên SIM</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Đo các tham số vô tuyến từ máy cầm tay bằng cách sử dụng SIM của nó. Các tham số đo được là Cell-ID đang phục vụ, thời gian phản hồi và cường độ tín hiệu. Từ đó tính toán được vị trí của máy cầm tay.</td>
+      <td>Các thuật toán tính toán giữa tham số Cell, thời gian phản hồi và cường độ tín hiệu.</td>
+    </tr>
+  </tbody>
+</table>
 
 # III. Dựa trên SIM
 
 
 
-<table><tr><td rowspan=1 colspan=4>IV.Dua tren Wifi</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> Xac dinh vi tri cua thiet bi cam taybang cach lay du lieu Wi-Finguon cong dong</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Signalstrengthbased(AP-RSSI)</td><td rowspan=1 colspan=1> Ky thuat ghi lai cuong d tin hieuRSSI tur mot só diém truy captrong pham vi may cam tay détinh toan vi tri may cam tay.</td><td rowspan=1 colspan=1>Su dung cac thuat toando tam giac nhu mó ta ótren.</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Fingerprintingbased</td><td rowspan=1 colspan=1>Ky thuat ghi lai cuong do tin hieuRSSI tir mot só diém truy cap vaoco so du lieu, lay mot toa do dabiét cua thiét bi khach trong giaidoan ngoai tuyén, uoc tinh dugcvi tri gan dung nhat khi nó tructuyén.</td><td rowspan=1 colspan=1>Cac thuat toan do tam giac va cac thuat toanuoc luong.</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Angle of arrivalbased (AoA)</td><td rowspan=1 colspan=1>Ky thuat uoc tinh goc dén(AoA) cua tin hieu da duongnhan duoc tai cac mang ang-ten trong cac diém truy cap va apdung phuong phap do tam giac détinh toan vi tri cüa cac thiét bikhach.</td><td rowspan=1 colspan=1>Thuat toan Music.</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Time of flightbased (ToF)</td><td rowspan=1 colspan=1>Ky thuat lay dau thoi gian duoccung cap boi cac giao dien khongday dé tinh toan ToF cua tin hieu va sau dó sur dung thong tin naydé uóc tinh khoang cach va vi trituong doi cua mot thiét bi khachdoi voi cac diém truy cap.</td><td rowspan=1 colspan=1>- Thuat toan do tam giac- Thuat toan do thoi gian</td></tr><tr><td rowspan=1 colspan=4>V.Lai ghép tien tién</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>IV. Dựa trên Wifi</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Xác định vị trí của thiết bị cầm tay bằng cách lấy dữ liệu Wi-Fi nguồn cộng đồng</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Signal strength based (AP-RSSI)</td>
+      <td>Kỹ thuật ghi lại cường độ tín hiệu RSSI từ một số điểm truy cập trong phạm vi máy cầm tay để tính toán vị trí máy cầm tay.</td>
+      <td>Sử dụng các thuật toán đo tam giác như mô tả ở trên.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Fingerprinting based</td>
+      <td>Kỹ thuật ghi lại cường độ tín hiệu RSSI từ một số điểm truy cập vào cơ sở dữ liệu, lấy một tọa độ đã biết của thiết bị khách trong giai đoạn ngoại tuyến, ước tính được vị trí gần đúng nhất khi nó trực tuyến.</td>
+      <td>Các thuật toán đo tam giác và các thuật toán ước lượng.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Angle of arrival based (AoA)</td>
+      <td>Kỹ thuật ước tính góc đến (AoA) của tín hiệu đa đường nhận được tại các mảng ăng-ten trong các điểm truy cập và áp dụng phương pháp đo tam giác để tính toán vị trí của các thiết bị khách.</td>
+      <td>Thuật toán Music.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Time of flight based (ToF)</td>
+      <td>Kỹ thuật lấy dấu thời gian được cung cấp bởi các giao diện không dây để tính toán ToF của tín hiệu và sau đó sử dụng thông tin này để ước tính khoảng cách và vị trí tương đối của một thiết bị khách đối với các điểm truy cập.</td>
+      <td>- Thuật toán đo tam giác - Thuật toán đo thời gian</td>
+    </tr>
+    <tr>
+      <td>V. Lai ghép tiên tiến</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>A-GNSS(A-GPS)</td><td rowspan=1 colspan=1>Ky thuat dinh vi toan cäu có hótrg, dé tinh toan vi tri may cam taytr cä thong tin toa d@ GPS vathong tin mang (dien thoai c6dugc vi tri GPS cua nó truc tiéptr vé tinh va sau dó gii thong tinqua mang toi nguoi dang dinh vidien thoai do).</td><td rowspan=1 colspan=1>-Thuat toan cua GoogleMaps.-Thuat toan OTDoA vaE-CellID cua mang 4GLTE.</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Két hop</td><td rowspan=1 colspan=1>Ky thuat két hop mót só phuongphap tiép cän vi tri khac nhau dédinh vi thiét bi di dong bang Wi-Fi, WiMAX,GSM,LTE,dia chiIP va du lieu moi truong mang.</td><td rowspan=1 colspan=1>Nhiéu thuat toan cua cacky thuat trén két hop voi nhau dé dinh vi hoac dungmoi thuat toan tuy theo durlieu vao kha dung.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>A-GNSS (A-GPS)</td>
+      <td>Kỹ thuật định vị toàn cầu có hỗ trợ, để tính toán vị trí máy cầm tay từ cả thông tin tọa độ GPS và thông tin mạng (điện thoại có được vị trí GPS của nó trực tiếp từ vệ tinh và sau đó gửi thông tin qua mạng tới người đang định vị điện thoại đó).</td>
+      <td>-Thuật toán của Google Maps. -Thuật toán OTDoA và E-CellID của mạng 4G LTE.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Kết hợp</td>
+      <td>Kỹ thuật kết hợp một số phương pháp tiếp cận vị trí khác nhau để định vị thiết bị di động bằng Wi- Fi , WiMAX , GSM, LTE, địa chỉ IP và dữ liệu môi trường mạng.</td>
+      <td>Nhiều thuật toán của các kỹ thuật trên kết hợp với nhau để định vị hoặc dùng mỗi thuật toán tùy theo dữ liệu vào khả dụng.</td>
+    </tr>
+  </tbody>
+</table>

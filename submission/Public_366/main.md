@@ -2,15 +2,309 @@
 
 Bảng 1. Hóa chất và dụng cụ, thiết bị thí nghiệm chế tạo điện cực cấu trúc nano
 
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Ten</td><td rowspan=1 colspan=1>Thong so ky thuat</td><td rowspan=1 colspan=1>Xuat xur</td></tr><tr><td rowspan=1 colspan=4> Dung cu, hoa chat</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Ethylene glycol</td><td rowspan=1 colspan=1>D@ tinh khiét 99,9%</td><td rowspan=1 colspan=1>Fisher - Anh</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Polyvinylpyrrolidone(PVP)</td><td rowspan=1 colspan=1>Do tinh khiet 99%, khoi luongphan tir trung binh 360 000 Da</td><td rowspan=1 colspan=1> Sigma- My</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Dung moiChloroform</td><td rowspan=1 colspan=1>Tieu chuan tinh khiét phantich</td><td rowspan=1 colspan=1>Fisher - Anh</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Dung moi Methanol</td><td rowspan=1 colspan=1>Tieu chuan tinh khiet phantich</td><td rowspan=1 colspan=1>Fisher - Anh</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Dung moi Acetone</td><td rowspan=1 colspan=1>Tieu chuan tinh khiét phantich</td><td rowspan=1 colspan=1>Fisher - Anh</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Dung moi Iso-propanol</td><td rowspan=1 colspan=1>Tieu chuan tinh khiet phantich</td><td rowspan=1 colspan=1>Fisher - Anh</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Dung moi Ethanol</td><td rowspan=1 colspan=1> Tieu chuan tinh khiet phantich</td><td rowspan=1 colspan=1>Fisher - Anh</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Dung moi N,N&#x27;-dimethylformamide(DMF)</td><td rowspan=1 colspan=1>Tieu chuan tinh khiét phantich</td><td rowspan=1 colspan=1>Fisher - Anh</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Dung moiTetrahydrofuran(THF)</td><td rowspan=1 colspan=1>Tieu chuan tinh khiét phantich</td><td rowspan=1 colspan=1>Fisher - Anh</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Axit H2SO4</td><td rowspan=1 colspan=1>Nong do 98%</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Axit HNO3</td><td rowspan=1 colspan=1>Nong do 70%</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Cacbon nanotube</td><td rowspan=1 colspan=1>&gt;95% cacbon</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Graphite powder</td><td rowspan=1 colspan=1>Kich thuoc hat ≤20 μm</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>AgNO3</td><td rowspan=1 colspan=1>D@ tinh khiét 99,9%</td><td rowspan=1 colspan=1>Fisher</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Tên</td>
+      <td>Thông số kỹ thuật</td>
+      <td>Xuất xứ</td>
+    </tr>
+    <tr>
+      <td>Dụng cụ, hoá chất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Ethylene glycol</td>
+      <td>Độ tinh khiết 99,9%</td>
+      <td>Fisher - Anh</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Polyvinylpyrrolidone (PVP)</td>
+      <td>Độ tinh khiết 99%, khối lượng phân tử trung bình 360 000 Da</td>
+      <td>Sigma- Mỹ</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Dung môi Chloroform</td>
+      <td>Tiêu chuẩn tinh khiết phân tích</td>
+      <td>Fisher - Anh</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Dung môi Methanol</td>
+      <td>Tiêu chuẩn tinh khiết phân tích</td>
+      <td>Fisher - Anh</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Dung môi Acetone</td>
+      <td>Tiêu chuẩn tinh khiết phân tích</td>
+      <td>Fisher - Anh</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Dung môi Iso- propanol</td>
+      <td>Tiêu chuẩn tinh khiết phân tích</td>
+      <td>Fisher - Anh</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Dung môi Ethanol</td>
+      <td>Tiêu chuẩn tinh khiết phân tích</td>
+      <td>Fisher - Anh</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Dung môi N,N’- dimethylformamide (DMF)</td>
+      <td>Tiêu chuẩn tinh khiết phân tích</td>
+      <td>Fisher - Anh</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Dung môi Tetrahydrofuran (THF)</td>
+      <td>Tiêu chuẩn tinh khiết phân tích</td>
+      <td>Fisher - Anh</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Axit H2SO4</td>
+      <td>Nồng độ 98%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Axit HNO3</td>
+      <td>Nồng độ 70%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Cacbon nanotube</td>
+      <td>>95% cacbon</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Graphite powder</td>
+      <td>Kích thước hạt ≤20 μm</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>AgNO3</td>
+      <td>Độ tinh khiết 99,9%</td>
+      <td>Fisher</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>NiCl</td><td rowspan=1 colspan=1>D@ tinh khiét 98%</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>FeCl3.6HO</td><td rowspan=1 colspan=1>D@ tinh khiét 99%</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Mg(NO3)2.6H0</td><td rowspan=1 colspan=1>D tinh khiet 99%</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>CuCl2.2H2O</td><td rowspan=1 colspan=1>D@ tinh khiet 99%</td><td rowspan=1 colspan=1>Sigma - My</td></tr><tr><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>Dé PET(polyethylene terephthalate)</td><td rowspan=1 colspan=1>Co 300x300x0,25mm, trongsuot</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1> ITO tren dé PET</td><td rowspan=1 colspan=1>Co 300x300x0,25mm, do dandien ~30 Ω2/sq</td><td rowspan=1 colspan=1>Sigma - My</td></tr><tr><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>Potassium phosphatemonobasic (KH2PO4)</td><td rowspan=1 colspan=1>D tinh khiét ≥ 99%</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>Potassium phosphatedibasic (K2HPO4)</td><td rowspan=1 colspan=1>Do tinh khiét ≥ 98%</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>Kali clorua (KCl)</td><td rowspan=1 colspan=1>ACS reagent, d tinh khiet99%</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>Axit Terephtalic</td><td rowspan=1 colspan=1>D@ tinh khiét 99%</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>NaNO3</td><td rowspan=1 colspan=1>D@ tinh khiét 99%</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>KMnO4</td><td rowspan=1 colspan=1>Do tinh khiét 99,5%</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>Dung dichEnrofloxacin 1000</td><td rowspan=1 colspan=1>Tieu chuan tinh khiét phantich</td><td rowspan=1 colspan=1>Sigma - Durc</td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>Dung dich Pb2+chuan1000 μg/L</td><td rowspan=1 colspan=1> Tieu chuan tinh khiét phantich</td><td rowspan=1 colspan=1> Sigma - Durc</td></tr><tr><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>Dien cuc so sanhAg/AgC1/KC1</td><td rowspan=1 colspan=1>Dau dan gom,drong kinh 6mm</td><td rowspan=1 colspan=1>Thuy si</td></tr><tr><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1> Dien cuc than thuytinh</td><td rowspan=1 colspan=1>Duong kinh 3 mm</td><td rowspan=1 colspan=1>Thuy si</td></tr><tr><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>Dien cuc doi Pt</td><td rowspan=1 colspan=1>Drong kinh 2 mm</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1> Dau tip pipet tu dong</td><td rowspan=1 colspan=1>Thé tich 20 μL</td><td rowspan=1 colspan=1> Sigma - My</td></tr><tr><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>Dau tip pipet tur dong</td><td rowspan=1 colspan=1>Thé tich 200 μL</td><td rowspan=1 colspan=1>Sigma - My</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>15</td>
+      <td>NiCl2</td>
+      <td>Độ tinh khiết 98%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>FeCl3.6H2O</td>
+      <td>Độ tinh khiết 99%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Mg(NO3)2.6H2O</td>
+      <td>Độ tinh khiết 99%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>CuCl2.2H2O</td>
+      <td>Độ tinh khiết 99%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>1 9</td>
+      <td>Đế PET (polyethylene terephthalate)</td>
+      <td>Cỡ 300x300x0,25mm, trong suốt</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>ITO trên đế PET</td>
+      <td>Cỡ 300x300x0,25mm, độ dẫn điện ~ 30 Ω/sq</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Potassium phosphate monobasic (KH2PO4)</td>
+      <td>Độ tinh khiết ≥ 99%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Potassium phosphate dibasic (K2HPO4)</td>
+      <td>Độ tinh khiết ≥ 98%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Kali clorua (KCl)</td>
+      <td>ACS reagent, độ tinh khiết 99%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Axit Terephtalic</td>
+      <td>Độ tinh khiết 99%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>NaNO3</td>
+      <td>Độ tinh khiết 99%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>KMnO4</td>
+      <td>Độ tinh khiết 99,5%</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Dung dịch Enrofloxacin 1000</td>
+      <td>Tiêu chuẩn tinh khiết phân tích</td>
+      <td>Sigma - Đức</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Dung dịch Pb2+ chuẩn 1000 µg/L</td>
+      <td>Tiêu chuẩn tinh khiết phân tích</td>
+      <td>Sigma - Đức</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Điện cực so sánh Ag/AgCl/KCl</td>
+      <td>Đầu dẫn gốm, đường kính 6 mm</td>
+      <td>Thụy sĩ</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Điện cực than thủy tinh</td>
+      <td>Đường kính 3 mm</td>
+      <td>Thụy sĩ</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Điện cực đối Pt</td>
+      <td>Đường kính 2 mm</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Đầu típ pipet tự động</td>
+      <td>Thể tích 20 μL</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Đầu típ pipet tự động</td>
+      <td>Thể tích 200 μL</td>
+      <td>Sigma - Mỹ</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>Pipet Dragonlab</td><td rowspan=1 colspan=1>1000-5000 μL</td><td rowspan=1 colspan=1>Dlab-My</td></tr><tr><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>Pipet Dragonlab</td><td rowspan=1 colspan=1>2-20 μL</td><td rowspan=1 colspan=1>Dlab-My</td></tr><tr><td rowspan=1 colspan=4>Thiet bi</td></tr><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Ten</td><td rowspan=1 colspan=1>Xuat xur</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Tu say thep khong ri</td><td rowspan=1 colspan=1>Memmert -Duc</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1> May phu quay, WS-650Mz-23NPP</td><td rowspan=1 colspan=1>Laurell TechnologiesCorporation - My</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>May ép co hoc</td><td rowspan=1 colspan=1> Xiangyng - Trung Quóc</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Dén chiéu tia UV, LF-215.LS</td><td rowspan=1 colspan=1>Vilber Lourmat - Phap</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Bé rung sieu am,Elmasonic S 100H</td><td rowspan=1 colspan=1>Elma - Duc</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Can ky thuat dien tr hien s6, Ohaus PA 4102</td><td rowspan=1 colspan=1>Ohaus - My</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>May ly tam lanh, Z326K</td><td rowspan=1 colspan=1>Hermle-Durc</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Hé do dien hoaAUTOLABpotentiostatPGS302N</td><td rowspan=1 colspan=1>Metrohm, Ha Lan</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>34</td>
+      <td>Pipet Dragonlab</td>
+      <td>1000-5000 μL</td>
+      <td>Dlab-Mỹ</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Pipet Dragonlab</td>
+      <td>2-20 μL</td>
+      <td>Dlab-Mỹ</td>
+    </tr>
+    <tr>
+      <td>Thiết bị</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Tên</td>
+      <td>Xuất xứ</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Tủ sấy thép không rỉ</td>
+      <td>Memmert – Đức</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Máy phủ quay, WS- 650Mz-23NPP</td>
+      <td>Laurell Technologies Corporation – Mỹ</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Máy ép cơ học</td>
+      <td>Xiangyng - Trung Quốc</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Đèn chiếu tia UV, LF- 215.LS</td>
+      <td>Vilber Lourmat - Pháp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Bể rung siêu âm, Elmasonic S 100H</td>
+      <td>Elma - Đức</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Cân kỹ thuật điện tử hiện số, Ohaus PA 4102</td>
+      <td>Ohaus – Mỹ</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Máy ly tâm lạnh, Z326K</td>
+      <td>Hermle-Đức</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Hệ đo điện hoá AUTOLAB potentiostat PGS302N</td>
+      <td>Metrohm, Hà Lan</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 # 1. Tổng hợp sợi nano bạc bằng phương pháp polyol
 
@@ -18,11 +312,7 @@ Sợi nano bạc được tổng hợp bằng phương pháp polyol, với tiề
 
 
 
-![](images/1.jpg)
-
-> **Hình chú thích:** a diagram of the process for the production of agwg
-
-  
+![](images/image_1.jpg)  
 Hình 2.1. Sơ đồ quy trình tổng hợp dung dịch nano bạc dạng sợi
 
 # 1.1 Tổng hợp sợi nano bạc bằng phương pháp polyol
@@ -49,11 +339,7 @@ tốc độ 7000 vòng/ phút trong 5 phút
 
 Graphene oxit được tổng hợp theo phương pháp Hummer cải tiến [69], quy trình được mô tả trong sơ đồ Hình 2.2 cụ thể như sau:
 
-![](images/2.jpg)
-
-> **Hình chú thích:** a diagram of the process of using graph paper
-
-  
+![](images/image_2.jpg)  
 Hình 2.2. Sơ đồ quy trình tổng hợp GO
 
 Bước 1: Đặt cốc chứa $9 6 ~ \mathrm { m l }$ $\mathrm { H } _ { 2 } \mathrm { S O } _ { 4 }$ đặc trong chậu muối đá cho tới khi nhiệt độ hệ giảm xuống dưới $5 \mathrm { { } ^ { \circ } C }$ .
@@ -80,11 +366,7 @@ Bước 1: Phân tán $0 , 7 1 \ \mathrm { g }$ EDOT và 1 g PSSNa trong $1 0 0 
 
 Bước $2 \colon 2 ~ \mathrm { m L }$ dung dịch ammoni persulfate và $2 ~ \mathrm { m L }$ dung dịch FeCl3 (0,2M) được thêm từ từ vào dung dịch. Tiếp tục khuấy trong 1h $\dot { \mathbf { O } }$ nhiệt độ phòng. Thu được PEDOT:PSS phân tán trong nước với nồng độ $2 \%$ .
 
-![](images/3.jpg)
-
-> **Hình chú thích:** a diagram showing the process of using the word
-
-  
+![](images/image_3.jpg)  
 Hình 2.3. Sơ đồ quy trình tổng hợp PEDOT:PSS
 
 # 4. Phương pháp oxi hóa cacbon nanotube
@@ -101,11 +383,7 @@ CNT được thực hiện như sau:
 
 Vật liệu khung hữu cơ kim loại lưỡng kim FeMg-BDC với các tỷ lệ mol Fe/Mg khác nhau được tổng hợp theo quy trình như sơ đ $\dot { \hat { 0 } } \mathrm { H i n h } 2 . 4 \mathrm { c u }$ thể như sau [73, 74]:
 
-![](images/4.jpg)
-
-> **Hình chú thích:** the flow diagram for the process of producing a drug
-
-  
+![](images/image_4.jpg)  
 Hình 2.4. Sơ đồ quy trình tổng hợp FeMg-BDC
 
 Bước 1: 1 mmol muối kim loại có tỷ $\mathsf { l e } \mathrm { m o l } \mathrm { F e } ^ { 3 + } / \mathrm { M g } ^ { 2 + }$ thay đổi (1/1, 1/2, 1/4) kết hợp với 1 mmol $\mathrm { H } _ { 2 } \mathrm { B D C }$ được hòa tan trong $1 0 \mathrm { m L }$ DMF và khuấy liên tục để thu được dung dịch đồng nhất.
@@ -114,7 +392,41 @@ Bước 2: Sau đó, nhanh chóng bơm $2 \mathrm { m L }$ dung dịch NaOH 0,2 
 
 Bước 3: Hỗn hợp được chuyển vào Autoclave và đun nóng không khuấy trong lò ở $1 0 0 ^ { \circ } \mathrm { C }$ trong 15 giờ. Sau khi làm nguội đến nhiệt độ phòng, huyền phù thu được được giữ lại bằng cách ly tâm, lọc rửa nhiều lần bằng DMF và metanol. Cuối cùng, mẫu đã rửa được sấy khô ở $6 0 ^ { \circ } \mathrm { C }$ trong 24 giờ trong chân không để loại bỏ hoàn toàn lượng
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 nước còn dư.
 

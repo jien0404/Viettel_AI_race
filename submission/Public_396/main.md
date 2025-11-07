@@ -1,91 +1,978 @@
 # Public_396
 
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>NQi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=4>Hé thóng cung cap dien dam bao yeu cau ky thuat, an toan theo quy dinh (Tieu chi 4.1)</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=4>Luoi dien cao ap</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=4>Ho so&#x27; phap ly</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.1.1</td><td rowspan=2 colspan=1>Thu tuc,h so</td><td rowspan=1 colspan=1> Du an/cong trinh/hang muc dau tu</td><td rowspan=3 colspan=1> Ho so, quyét dinh phé duyét cua cap có thämquyen</td><td rowspan=3 colspan=1>C6 hó so, c6 Quyétdinh phe duyet</td><td rowspan=1 colspan=1>Dat</td><td rowspan=2 colspan=1>Truong hop khongc6 hoac that lac ho so, chu dau tu bao cao cap c6 tham</td></tr><tr><td rowspan=1 colspan=1>1.1.2</td><td rowspan=1 colspan=1>H so thiet ké</td><td rowspan=1 colspan=1>Dat</td></tr><tr><td rowspan=1 colspan=1>1.1.3</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Ho so nghiem thu</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1> quyen xac nhan duphap ly</td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=4>An toan dien</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Den mat dat voi duong day tren khong dien apden 35 kV neu sur dung day tran: Khi xay dung,cai tao doan duong day dan dién cao áp trén khong vuot qua nha o, cong trinh có nguoi sinh song, lam viec ben trong; noi thuong xuyen taptrung dong nguoi; cong trinh quan trong lienquan dén an ninh quoc gia; khu di tich lich sur -van hoa, danh lam thang canh da duoc Nha</td><td rowspan=1 colspan=1>≥14m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1> nuoc xép hang phai tang cuong cac bien phapan toan vé dien</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.2</td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1> Xay dung trong truong hop dac biet voi duongday tren khong dien ap den 35 kV néu sur dungday boc</td><td rowspan=1 colspan=1>≥11m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.3</td><td rowspan=1 colspan=1>Dén mät dat tu nhien khu vuc dong dan cu</td><td rowspan=1 colspan=1>≥7,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.4</td><td rowspan=1 colspan=1>Thong</td><td rowspan=2 colspan=1> Khoang cach thangdung nho nhat tur diemthap nhat cua day dan</td><td rowspan=1 colspan=1>Dén mat dat tu nhien khu vuc it dan cu</td><td rowspan=1 colspan=1>≥5,5m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.5</td><td rowspan=1 colspan=1>tin,s6lieu ky</td><td rowspan=1 colspan=1>Dén mat dat tur nhien khu vuc kh6 dén</td><td rowspan=1 colspan=1>≥4,5m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.6</td><td rowspan=2 colspan=1>thuat deénhandang vean toandien</td><td rowspan=2 colspan=1>o trang thai vong lonnhat den trong cac ched@ lam viec binh thuong cua duong day</td><td rowspan=1 colspan=1>Den mat duong ó to</td><td rowspan=1 colspan=1>≥ 7,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.7</td><td rowspan=1 colspan=1>Dén diem cao nhat (4,5m) cua phuong tien, cong trinh giao thong duong sat, hoac den diém cao nhat (7,5m) cua phuong tien, congtrinh giao thong duong sat chay dién</td><td rowspan=1 colspan=1>3,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.8</td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1>Dén murc nuoc cao nhat ó sóng, hó, kenh c6 tau thuyen qua lai</td><td rowspan=1 colspan=1>tinh khong +1,5 m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.9</td><td rowspan=1 colspan=1> Dén bai song va noi ngap nuoc khong c6thuyén be qua lai</td><td rowspan=1 colspan=1>≥ 5,5m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=2>Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>1.2.10</td><td rowspan=6 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=2>Dén muc nuoc cao nhat tren song, hó, kenh mathuyén bé va nguoi khong thé qua lai duoc</td><td rowspan=1 colspan=1>≥ 2,5m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.11</td><td rowspan=1 colspan=2>Tur duong dien ap 22 kV dén duong day co capdien ap thap hon</td><td rowspan=1 colspan=1>≥ 2.0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.12</td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=2>Tur duong dien ap 35 kV dén duong day có capdien ap thap hon</td><td rowspan=1 colspan=1>≥ 3,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.13</td><td rowspan=1 colspan=2>Dén duong day thong tin</td><td rowspan=1 colspan=1>≥3.0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.14</td><td rowspan=1 colspan=2>Dén mat de,dap</td><td rowspan=1 colspan=1>≥6,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.15</td><td rowspan=4 colspan=1> Chiéu rong hanh lang gioi han boi hai matthang durng</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Day boc 22 kV</td><td rowspan=1 colspan=1>≥ 1,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=4 colspan=1> Khong có cay c6 théd hoac xo canh vaoday dan dien.</td></tr><tr><td rowspan=1 colspan=1>1.2.16</td><td rowspan=3 colspan=1></td><td rowspan=3 colspan=1> Khoang cach turday ngoai cungvé moi phia khiday o trang thaitinh</td><td rowspan=1 colspan=1>Day boc 35 kV</td><td rowspan=1 colspan=1>≥1,5 m</td><td rowspan=1 colspan=1>Dat</td></tr><tr><td rowspan=1 colspan=1>1.2.17</td><td rowspan=1 colspan=1>Day tran 22 kV</td><td rowspan=1 colspan=1>≥ 2.0m</td><td rowspan=1 colspan=1>Dat</td></tr><tr><td rowspan=1 colspan=1>1.2.18</td><td rowspan=1 colspan=1>Day tran 35 kV</td><td rowspan=1 colspan=1>≥3,0m</td><td rowspan=1 colspan=1>Dat</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>NQi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>1.2.19</td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>Cap ngam</td><td rowspan=1 colspan=1> Cap ngam: Duong cap dien di tren mat dat hoac tren khong, hanh lang bao ve an toan duong capduoc gioi han vé cac phia tinh tir mat ngoai cua soi cap ngoai cung tro ra</td><td rowspan=1 colspan=1>≥0,5m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.20</td><td rowspan=1 colspan=1>Bién bao an toan</td><td rowspan=1 colspan=1>C6 Bién bao cam; Bién bao nguy hiém, canhbao; Bién chi dan; Bién bao an toan</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2.21</td><td rowspan=1 colspan=1> An toan cho nguoi vavat nuoi</td><td rowspan=1 colspan=1>Day noi dat: day noi tur xa,day neo hoac daytrung tinh dén coc tiép dia</td><td rowspan=1 colspan=1> Khong bi gi sat hoacdtirt, co noi vao coc tiepdat</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=4>Cung cap dien</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.3.1</td><td rowspan=1 colspan=1>Nguondiencungcap</td><td rowspan=1 colspan=1>Däm bao vé nguon cap</td><td rowspan=1 colspan=1> Dong dien lam viec lon nhat cua day dan</td><td rowspan=1 colspan=1> Nho hon dong dien phatnong day dan</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap két qua dé danh gia: dat/khong dat</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1> Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1> Nh@n dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>1.3.2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dam bao dien ap</td><td rowspan=1 colspan=1>Dien ap tai dau ra phia cuoi duong day</td><td rowspan=1 colspan=1> khong vuot qua +5%; -10% dien ap dinh muc</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap két qua de danh gia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=2> Két cau chju lurc</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.4.1</td><td rowspan=4 colspan=1>Thongtin,s6lieu kythuat dénhandang veketcauchiu lrc</td><td rowspan=2 colspan=1>Cot be tong</td><td rowspan=1 colspan=1> Xac dinh mirc d@ vo, nurt bé tong</td><td rowspan=1 colspan=1>Khong dé ho cot thépben trong</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.4.2</td><td rowspan=1 colspan=1>D@ nghieng doc hoac ngang tuyén chiéu xuong tu ngon cot</td><td rowspan=1 colspan=1> Khong nghieng qua1/150 x H</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>H: Chieu cao cot</td></tr><tr><td rowspan=1 colspan=1>1.4.3</td><td rowspan=2 colspan=1>Cot thép</td><td rowspan=1 colspan=1> Xac dinh cac thanh thép va bu long</td><td rowspan=1 colspan=1> Du cac thanh thép khong bi cong; son hoac ma chong gikhong bi bong</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.4.4</td><td rowspan=1 colspan=1>Do nghieng doc hoac ngang tuyén chiéu xuóng tur ngon cot</td><td rowspan=1 colspan=1> Khong nghieng qua1/200 x H</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>H: Chieu cao cot</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1> Thanh phan danh gia</td><td rowspan=1 colspan=1>NQi dung danh gia</td><td rowspan=1 colspan=1> Nhän dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>1.4.5</td><td rowspan=5 colspan=1></td><td rowspan=2 colspan=1> Két cáu hδ tro chiu luc</td><td rowspan=1 colspan=1>Day neo thep,thanh chong</td><td rowspan=1 colspan=1>C6 bao ve chong githeo quy dinh</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.4.6</td><td rowspan=1 colspan=1> Mong neo</td><td rowspan=1 colspan=1>Duoc bao vé chóng x6i1</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.4.7</td><td rowspan=1 colspan=1>M6ng cot</td><td rowspan=1 colspan=1> M6ng be tong,tru...</td><td rowspan=1 colspan=1>Dugc bao vé khóng bix6ilo</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.4.8</td><td rowspan=2 colspan=1>Xa gia do</td><td rowspan=1 colspan=1> Xa do, neo day dien</td><td rowspan=1 colspan=1>Duoc bao ve chóng gi,khong bi van, cong, venh, duoc noi vao coctiep dia</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.4.9</td><td rowspan=1 colspan=1>Gia do va ket cau khac</td><td rowspan=1 colspan=1>Duoc bao ve chong gi,khong bi van, cong, venh, duoc noi vao coctiep dia</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=4>Van hanh</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>NQi dung danh gia</td><td rowspan=1 colspan=1>Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>1.5.1</td><td rowspan=2 colspan=1>Nhandang véquytrinhvanhanh</td><td rowspan=2 colspan=1>Cac quy trinh van hanh</td><td rowspan=1 colspan=1>Quy trinh kiém tra an toan vän hanh</td><td rowspan=1 colspan=1> C6 quy trinh day du</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap ket qua de danh gia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>1.5.2</td><td rowspan=1 colspan=1>Quy trinh sua chua, khac phuc sr có</td><td rowspan=1 colspan=1>C6 quy trinh day du</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luroi dien cungcap ket qua de danh gia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=4>Tram bien ap phan phói</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=4>Ho so phap ly</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.1.1</td><td rowspan=3 colspan=1>Thu tuc,ho so</td><td rowspan=1 colspan=1>Du an dau tu</td><td rowspan=2 colspan=1> H so, quyét dinh phé duyet cua cap c6 thamquyen</td><td rowspan=3 colspan=1>C6 ho so, có Quyétdinh phe duyet</td><td rowspan=1 colspan=1>Dat</td><td rowspan=3 colspan=1> Truong hop khongc6 hoac that lac ho so, chu dau tur baocao cap c6 tham quyén xac nhan dambao phap ly</td></tr><tr><td rowspan=1 colspan=1>2.1.2</td><td rowspan=1 colspan=1>H so thiet ké</td><td rowspan=1 colspan=1>Dat</td></tr><tr><td rowspan=1 colspan=1>2.1.3</td><td rowspan=1 colspan=1>Ho so nghiem thu</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dat</td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=4>An toan dien</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Mircdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>2.2.1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> Khoang cach giura phan mang dien voi</td><td rowspan=1 colspan=1>Dén 22 kV</td><td rowspan=1 colspan=1>≥2,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1> Khong c6 cay c6 théd hoac xo canh vao</td></tr><tr><td rowspan=1 colspan=1>2.2.2</td><td rowspan=2 colspan=1>lieu kythuat dénhandang vean toan</td><td rowspan=1 colspan=1>cac bo phan, cong trinh xung quanh</td><td rowspan=1 colspan=1>Dén 35 kV</td><td rowspan=1 colspan=1>≥3,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>cac ket cau congtrinh tram bién ap</td></tr><tr><td rowspan=1 colspan=1>2.2.3</td><td rowspan=1 colspan=1>Noi dat</td><td rowspan=1 colspan=1>Day noi dat an toan, noi dat lam viec va noidat chong set</td><td rowspan=1 colspan=1>C6 du cac diem noi dat,day noi dat khong bi gihoac bi durt</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.2.4</td><td rowspan=1 colspan=1>dien</td><td rowspan=1 colspan=1>Bién bao an toan</td><td rowspan=1 colspan=1> Bién bao cam; Bien bao nguy hiem, canh bao;Bién chi dan; Bién bao yeu cau c6 kich thuoc theo quy dinh</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=4>Cung cap dien</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.3.1</td><td rowspan=1 colspan=1>Nguondiencungcap</td><td rowspan=1 colspan=1>Dam bao veé nguon cap</td><td rowspan=1 colspan=1> Dung luong van hanh tram theo nhu cau surdung dien</td><td rowspan=1 colspan=1> ≤cong suat dinh murcmay bién ap</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap két qua dé danh gia: dat/khong dat</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1> Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1>Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>2.3.2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dam bao vé chat lrongdien</td><td rowspan=1 colspan=1>Dien ap phia ha ap tai dau ra</td><td rowspan=1 colspan=1>Khong vuot qua +5%; -10% dien ap dinh mirc</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, van hanh luoi dien cungcap ket qua dé danh gia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>2.4</td><td rowspan=1 colspan=2>Van hanh</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.4.1</td><td rowspan=1 colspan=1></td><td rowspan=2 colspan=1>Mua ban dien</td><td rowspan=1 colspan=1>Ty lé so cong to do dém dien nang khach hangtrong thoi gian kiém dinh, nguyen kep chi</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap ket qua dé danhgia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>2.4.2</td><td rowspan=1 colspan=1>Nhan,dang vequytrinhvanhanh</td><td rowspan=1 colspan=1>C6 dong ho do,bo bién di kiem tra cac thong só vän hanh (V; A; VT; CT ) tram dam bao cac thong s ky thuat dang van hanh</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap két qua dé danh gia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>2.4.3</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Thao tac, vän hanh</td><td rowspan=1 colspan=1>Thiét bi dong cät duoc kiém tra du tieu chuandong cät truoc khi thao tac</td><td rowspan=1 colspan=1>C6 ho so</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap ket qua de danh gia: dat/khong dat</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1> Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>2.4.4</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Thiét bi bao vé duoc kiém tra,bao tri theo quydinh hien hanh</td><td rowspan=1 colspan=1>C6 ho so</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap ket qua de danh gia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>2.5</td><td rowspan=1 colspan=2> Két cau chiu luc, bao vé</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.5.1</td><td rowspan=2 colspan=1>Tlieu kythuatdenhandangve</td><td rowspan=2 colspan=1>Cot dien</td><td rowspan=1 colspan=1>Cot be tong</td><td rowspan=1 colspan=1> Khong bi vo, nurt bétong de ho cot thep bentrong</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.5.2</td><td rowspan=1 colspan=1>Cot thep</td><td rowspan=1 colspan=1> Khong nghieng, cacthanh thep day du, duocbao ve chong gi sat</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.5.3</td><td rowspan=1 colspan=1>ket cauchiu lrc</td><td rowspan=1 colspan=1>M6ng cot</td><td rowspan=1 colspan=1> M6ng bé tong, tru</td><td rowspan=1 colspan=1>Duoc bao ve khong bixoilo</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1> Thanh phan danh gia</td><td rowspan=1 colspan=1>NQi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>2.5.4</td><td rowspan=4 colspan=1></td><td rowspan=2 colspan=1>Gia do thiet bi</td><td rowspan=1 colspan=1> Xa do, day neo cot dien</td><td rowspan=1 colspan=1>Duoc bao vé chong gi, khong bi van, cong,venh, duoc noi vao coctiep dia</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.5.5</td><td rowspan=1 colspan=1>Gia do va két cau khac</td><td rowspan=1 colspan=1>Dugc bao ve chong gi, khong bi van, cong,venh, duoc noi vao coctiep dia</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.5.6</td><td rowspan=1 colspan=1>Cong, hang rao bao vé</td><td rowspan=1 colspan=1>Hang rao</td><td rowspan=1 colspan=1> M6ng bo rao khong bi s6i mon, tuong rao khong bi bong vura, thung lo, ntrt mach vura</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.5.7</td><td rowspan=1 colspan=1> tram (néu có)</td><td rowspan=1 colspan=1>Cong ra vao</td><td rowspan=1 colspan=1>C6 cira, khóa, nganduoc nguoi va vat nuoi,khong bi cong venh, vatlieu bang thep khong bigi sat</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=4>Duong day ha ap</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1>Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>3.1</td><td rowspan=1 colspan=4>Ho so phap ly</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.1.1</td><td rowspan=3 colspan=1>Thu tuc,ho so</td><td rowspan=1 colspan=1>Du an dau tu</td><td rowspan=3 colspan=1>Ho so, quyét dinh phe duyet cua cap có thamquyen</td><td rowspan=3 colspan=1>C6 ho so, c6 Quyétdinh phe duyet</td><td rowspan=1 colspan=1>Dat</td><td rowspan=3 colspan=1> Truong hop khongc6 hoac that lac hoso, chu dau tu baocao cap co thamquyén xac nhan dambao phap ly</td></tr><tr><td rowspan=1 colspan=1>3.1.2</td><td rowspan=1 colspan=1>Ho so thiet ké</td><td rowspan=1 colspan=1>Dat</td></tr><tr><td rowspan=1 colspan=1>3.1.3</td><td rowspan=1 colspan=1> H so nghiem thu</td><td rowspan=1 colspan=1>Dat</td></tr><tr><td rowspan=1 colspan=1>3.2</td><td rowspan=1 colspan=4>An toan dien</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.1</td><td rowspan=4 colspan=1>mlieu kythuat de</td><td rowspan=4 colspan=1> Khoang cach thangdung nho nhat tu diemthap nhat cua day dano trang thai vong lon,nhat den trong cac ché</td><td rowspan=1 colspan=1>Dén mat dat tur nhien khu vuc dong dan cu</td><td rowspan=1 colspan=1>≥ 5.5m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.2</td><td rowspan=1 colspan=1>Dén mat dat tur nhien khu vuc it dan cu</td><td rowspan=1 colspan=1>≥ 5,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.3</td><td rowspan=1 colspan=1>Dén mät dat tur nhien khu vuc khó dén</td><td rowspan=1 colspan=1>≥4,0 m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.4</td><td rowspan=1 colspan=1>Dén mat durong 6 to cap I,II</td><td rowspan=1 colspan=1>≥7,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>NQi dung danh gia</td><td rowspan=1 colspan=1> Nh@n dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>3.2.5</td><td rowspan=1 colspan=1>nhandang ve</td><td rowspan=1 colspan=1>d lam viec binh thuong cua duong day</td><td rowspan=1 colspan=1>Dén mat duong 6 to cac cap con lai</td><td rowspan=1 colspan=1>≥6,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.6</td><td rowspan=3 colspan=1>an toandien</td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>Dén mat ray duong sat</td><td rowspan=1 colspan=1>≥8,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.7</td><td rowspan=1 colspan=1>Dén murc nuoc cao nhat  sóng, hó, kenh cótau thuyén qua lai</td><td rowspan=1 colspan=1> tinh khong +1,5 m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.8</td><td rowspan=1 colspan=1>Den bai song va noi ngap nuoc khong c6thuyen be qua lai</td><td rowspan=1 colspan=1>≥5,5m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.9</td><td rowspan=5 colspan=1></td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>Dén mirc nuoc cao nhat trén song, hó, kénh ma thuyén bé va nguoi khong thé qua lai duoc</td><td rowspan=1 colspan=1>≥ 2,5m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.10</td><td rowspan=1 colspan=1>Dén duong day thong tin</td><td rowspan=1 colspan=1>≥ 1,25 m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.11</td><td rowspan=1 colspan=1>Den mat de,dap</td><td rowspan=1 colspan=1>≥6,0m</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.12</td><td rowspan=2 colspan=1>N6i dat</td><td rowspan=1 colspan=1>Noi dat lap lai cho day trung tinh, ni dat vothiet bi</td><td rowspan=1 colspan=1>khong bidurt hay gi set</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.2.13</td><td rowspan=1 colspan=1>Dien tro noi dat doi voi cac duong day di qua khu vuc có nhiéu nha cao tang, cay cao chechan, khó c6 thé bi set danh trrc tiep</td><td rowspan=1 colspan=1>&lt;50Ω</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, van hanh luoi dien cungcap ket qua dé danhgia: dat/khong dat</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>3.2.14</td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dien tro noi dat doi voi cac duong day di qua khu vuc tróng trai khong c6 nha cua, congtrinh, cay che chan, duong day dé bi sét danhtruc tiep</td><td rowspan=1 colspan=1>&lt;30Ω</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, van hanh lroi dien cungcap ket qua dé danh gia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>3.2.15</td><td rowspan=1 colspan=1>Bién bao an toan</td><td rowspan=1 colspan=1>C6 bién bao cám; bién bao nguy hiém, canhbao; bién chi dan; bién bao yeu cau c6 kichthuóc theo quy dinh</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.3</td><td rowspan=1 colspan=2> Chat luong dien nang</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.3.1</td><td rowspan=2 colspan=1>Thongtin,solieunhandangchatluongdiennang surdung</td><td rowspan=2 colspan=1>Dien ap</td><td rowspan=1 colspan=1>Trong dieu kien binh thuong, do lech dien apcho phép so voi dién áp danh dinh cua luoidien va duoc xac dinh tai vi tri dat thiet bi do dém dien hoac tai vi tri khac do hai ben thoathuan</td><td rowspan=1 colspan=1>trong khoang ± 5%</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap ket qua de danh gia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>3.3.2</td><td rowspan=1 colspan=1>Doi voi luoi dien chua on dinh sau su có, do lech dien ap cho phép</td><td rowspan=1 colspan=1> tir +5% dén -10%</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap ket qua de danh gia: dat/khong dat</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1> Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>3.3.3</td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>Tan s6</td><td rowspan=1 colspan=1>Trong dieu kien binh thuong, do lech tan so hé thóng dien cho phép so voi tan so danh dinh la50Hz</td><td rowspan=1 colspan=1> trong pham vi± 0,2 Hz</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap ket qua dé danh gia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>3.3.4</td><td rowspan=1 colspan=1>Doi voi luoi dien chua ón dinh sau sur co donlé, do léch tan só cho phép so voi tan só danhdinh la 50 Hz</td><td rowspan=1 colspan=1>trong pham vi ± 0,5 Hz</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, van hanh luoi dien cungcap két qua dé danh gia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>3.4</td><td rowspan=1 colspan=4>Day dan dien</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.4.1</td><td rowspan=2 colspan=1>Nhandang vechungloai，m</td><td rowspan=1 colspan=1>Kiéu di day</td><td rowspan=1 colspan=1>Dam bao an toan dien</td><td rowspan=1 colspan=1>Lap tren sur cach dienc6 xa do sur, khong macday dan dien tren cay xanh, ga tren mai nha.</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.4.2</td><td rowspan=1 colspan=1>Ket noi day</td><td rowspan=1 colspan=1>Moi noi phai duoc noi bang ong noi ép chathoac bat siét óc chac chan</td><td rowspan=1 colspan=1> s6 luong gip kep ≥ 2 bó</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.4.3</td><td rowspan=1 colspan=1> lieu daydan haap</td><td rowspan=1 colspan=1>An toan dan dien</td><td rowspan=1 colspan=1>Dong dien lam viec lon nhat day dän</td><td rowspan=1 colspan=1>Nho hon dong dien phatnong day dan</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, vanhanh luoi dien cungcap két qua danh gia:dat/khong dat</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1> Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Mircdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>3.4.4</td><td rowspan=2 colspan=1></td><td rowspan=3 colspan=1>An toan cach dien</td><td rowspan=1 colspan=1>Day tran</td><td rowspan=1 colspan=1>C6 str cach dien tren c@t</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.4.5</td><td rowspan=1 colspan=1>Day boc</td><td rowspan=1 colspan=1>Day khong nurt, rach, c6 sur cach dien tren cot</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.4.6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Day cap dan dien</td><td rowspan=1 colspan=1>Duoc chon duoi dathoac treo c6 cap thépchju lrc</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.4.7</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>An toan vé co hoc</td><td rowspan=1 colspan=1>Day tran va day boc</td><td rowspan=1 colspan=1>Day khong bi bong dirtsoi cap ben</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.5</td><td rowspan=1 colspan=2>Ket cau chju lurc</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.5.1</td><td rowspan=2 colspan=1>lieu kythuat dénhandangveket cau</td><td rowspan=2 colspan=1>Cot dien</td><td rowspan=1 colspan=1>Cot be tong</td><td rowspan=1 colspan=1> Khong bi vo, nurt bétong de ho cot thep bentrong</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.5.2</td><td rowspan=1 colspan=1>Cot thep</td><td rowspan=1 colspan=1> Khong nghieng, cacthanh thep day du, duocbao ve chong gi sat</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>N@i dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>3.5.3</td><td rowspan=7 colspan=1>chjulurc.</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Cot gó, tre tren nhanh ré vé h gia dinh</td><td rowspan=1 colspan=1> Cao toi thiéu 5m,duong kinh ngon toithieu 80mm, duoc xu ly chong moi muc.</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.5.4</td><td rowspan=2 colspan=1> Két cáu hδ tro chju luc</td><td rowspan=1 colspan=1>Day neo thep, thanh chóng</td><td rowspan=1 colspan=1>C6 bao ve, chong gi sat</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.5.5</td><td rowspan=1 colspan=1> M6ng neo</td><td rowspan=1 colspan=1>Duoc bao ve chong x6i1</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.5.6</td><td rowspan=3 colspan=1>M6ng cot</td><td rowspan=1 colspan=1> M6ng bé tong, tru</td><td rowspan=1 colspan=1>Duoc bao ve khong bix6i1o</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.5.7</td><td rowspan=1 colspan=1>Mong da can</td><td rowspan=1 colspan=1>Duoc bao veé khong bix6ilo</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.5.8</td><td rowspan=1 colspan=1>M6ng dat</td><td rowspan=1 colspan=1>Duoc bao vé khong bix6ilo</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.5.9</td><td rowspan=1 colspan=1> Xa gia do</td><td rowspan=1 colspan=1> Xa do, neo day dien</td><td rowspan=1 colspan=1>Duoc bao ve chong gi, khong bi van, cong, venh, duoc noi vao coctiep dia</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1> Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Mircdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>3.5.10</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Gia do va két cau khac</td><td rowspan=1 colspan=1>Duoc bao vé chóng gi, khong bi van, cong,venh, duoc noi vao coctiep dia</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.6</td><td rowspan=1 colspan=4>Van hanh</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.6.1</td><td rowspan=3 colspan=1>Nhandang ve</td><td rowspan=1 colspan=1>Duong day</td><td rowspan=1 colspan=1>Son chi ro ten va mach tren cac vi tri cot</td><td rowspan=1 colspan=1>C6 danh só</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.6.2</td><td rowspan=2 colspan=1>Cac quy trinh van hanh</td><td rowspan=1 colspan=1>Quy trinh kiém tra an toan van hanh.</td><td rowspan=1 colspan=1>C6 so theo doi</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.6.3</td><td rowspan=1 colspan=1> Quy trinh sua chta, khac phuc su có</td><td rowspan=1 colspan=1>C6 s theo doi</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.6.4</td><td rowspan=2 colspan=1>quytrinhvanhanh</td><td rowspan=1 colspan=1> Trong mach dien bapha bon day</td><td rowspan=1 colspan=1>Thiét bi dong cat (ap-to-mat,cau dao,cau chi)dat tren day pha</td><td rowspan=1 colspan=1>Cat thiet bi cac daykhóng c6 dien</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3.6.5</td><td rowspan=1 colspan=1> Trong mach dien motpha hai day</td><td rowspan=1 colspan=1>Ap-to-mat,cau chi va cong tac dat tren daypha</td><td rowspan=1 colspan=1>Cat thiet bi hai daykhóng có dien</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=4> Day dan vé ho gia dinh sau cong to dien va cong to dien</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.1</td><td rowspan=1 colspan=4>Day sau cong to</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.1.1</td><td rowspan=1 colspan=1>Nhandang vechungloai，</td><td rowspan=1 colspan=1>Loai day dan vé ho giadinh</td><td rowspan=1 colspan=1>Tiet dien day boc cach dien hoac cap dien phai phu hop voi cong suat sur dung cua cac h@ surdung dien.</td><td rowspan=1 colspan=1>Day boc cach dien, tietdien toi thieu 2,5 mm2.</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Mircdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>4.1.2</td><td rowspan=1 colspan=1>mholieu daydan saucong to</td><td rowspan=3 colspan=1> An toan treo day dan</td><td rowspan=1 colspan=1>Khoang cach tur cong to vé nha droi 20 m</td><td rowspan=1 colspan=1> C6 häm day hai dautren sur cach dien ha ap hoäc sur dung kep ham,kep siet 2 dau</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.1.3</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Khoang cach tur cong to vé nha tur 20 m tro lén</td><td rowspan=1 colspan=1>C6 ham day hai dau tren sur cach dien ha ap hoac sur dung kep ham, kep siet 2 dau,c6 cot do trung gian</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.1.4</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Day dan cang vuot duong ó tó</td><td rowspan=1 colspan=1>C6 ham day hai dau tren sur cach dien ha ap,c6 day vang do day， khoang cach an toan toidat kiém tra theo tieu chuan duong day ha ap</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.2</td><td rowspan=1 colspan=4> Ket cau sau cong to dien va loai cong to</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.2.1</td><td rowspan=1 colspan=1>Tlieu</td><td rowspan=1 colspan=1>Cot do trung gian</td><td rowspan=1 colspan=1>Loai cot</td><td rowspan=1 colspan=1>G hoac tre, cao ≥ 4,0m, duong kinh ≥ 80mm</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1> Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>4.2.2</td><td rowspan=4 colspan=1>nhandang</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Bao veé an toan cho c@t</td><td rowspan=1 colspan=1>Duoc chon duoi dat, khong bi nghieng, khong anh huong den viec giao thong di lai</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.2.3</td><td rowspan=1 colspan=1> Hop dong mua bandien</td><td rowspan=1 colspan=1>Cac ho dan ky hop dong mua ban dien theo giaquy dinh cua Chinh phu</td><td rowspan=1 colspan=1>100 % cac ho dan duocky hop dong</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Don vi quan ly, van hanh luoi dien cungcap két qua dé danh gia: dat/khong dat</td></tr><tr><td rowspan=1 colspan=1>4.2.4</td><td rowspan=1 colspan=1>Cong to dien</td><td rowspan=1 colspan=1>Chat urong</td><td rowspan=1 colspan=1>C6 kiem dinh con thoihan, duoc kep chi niemphong</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.2.5</td><td rowspan=1 colspan=1>Bao ve cong to</td><td rowspan=1 colspan=1>Hom cong to</td><td rowspan=1 colspan=1>Cong to dugc dat tronghom composite hoac son tinh dien treo trencot hoac trong nha</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>4.3</td><td rowspan=1 colspan=4>Dien trong nha</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>NQi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Murcdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>4.3.1</td><td rowspan=2 colspan=1>Tlieunhandang</td><td rowspan=1 colspan=1>Bang dien tong</td><td rowspan=1 colspan=1>C6 cau chi/aptomat, cong tac, ó cäm dat códinh tren tuong hoac khung nha</td><td rowspan=1 colspan=1>100 % cac h@ dan</td><td rowspan=1 colspan=1>dat</td><td rowspan=2 colspan=1>Truong thon (ban,buon) bao cao danhgia chung, cung capket qua de danh giadat/ khong dat</td></tr><tr><td rowspan=1 colspan=1>4.3.2</td><td rowspan=1 colspan=1>Day dien</td><td rowspan=1 colspan=1>C6 vo cach dién, day dién dugc có dinh trén tuong hoac khung nha hoac chon trong tuong</td><td rowspan=1 colspan=1>100 % cac hó dan</td><td rowspan=1 colspan=1>dat</td></tr><tr><td rowspan=1 colspan=1>Ⅱ</td><td rowspan=1 colspan=3>Ty lé h@ str dung dien thurong xuyen (Tieu chi 4.2)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=4>Khu vurc luoi dien két noi luoi dien quoc gia</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=2 colspan=1>Thongtin nhandang vesur dungdienlu6iqu6cgia</td><td rowspan=2 colspan=1>Ty lé s6 ho dung dien thuong xuyen</td><td rowspan=1 colspan=1>Doi voi vung Dong bang song Hong, DongNam Bo</td><td rowspan=1 colspan=1>≥ 99%</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1>Doi voi vung Bac Trung Bo va Duyen hai mien Trung, Tay Nguyen, Dong bang songCiru Long</td><td rowspan=1 colspan=1>≥ 98%</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1>Rieng doi voi cac xakhu vuc II,III thuθcvung dong bao dantoc thieu so va miennui, ty le ho sur dung</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1>Thanh phan danh gia</td><td rowspan=1 colspan=1>Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Mircdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=4 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>dien thuong xuyen ≥95%</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1>Dói voi vung Trung du mien nui phia bac; cac xa theo Quyét dinh só 90/QD-TTg cua Thu turong Chinh phu ngay 18 thang O1 nam 2022phé duyét Chuong trinh muc tieu quóc gia giamngheo ben vung giai doan 2021 - 2025</td><td rowspan=1 colspan=1>≥95%</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>.5</td><td rowspan=2 colspan=1>Ngirng, giam murccung cap dien</td><td rowspan=1 colspan=1>Thong bao cho khach hang biét truoc thoi diem ngung hoac giam muc cung cap dien</td><td rowspan=1 colspan=1>≥ 05 ngay</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1.6</td><td rowspan=1 colspan=1>Thong bao tren phuong tien thong tin daichung</td><td rowspan=1 colspan=1>Trong 3 ngay lien tiép</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=4> Khu virc sir dung dien tir nguon nang lrong tai tao, tram Diezen doc lap</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Mucdanhgia</td><td rowspan=1 colspan=1> Thanh phan danh gia</td><td rowspan=1 colspan=1> Noi dung danh gia</td><td rowspan=1 colspan=1> Nhan dang danh gia</td><td rowspan=1 colspan=1>Mircdanhgia</td><td rowspan=1 colspan=1>Ghi chu</td></tr><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>Nguonnang</td><td rowspan=1 colspan=1>C6 cong suat ≥ 50 kW</td><td rowspan=1 colspan=1> To churc c6 giay phep hoat dong dien luc</td><td rowspan=1 colspan=1>Ty lé ho dan khu vucnha may két noi≥ 95 %</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>lrongtaitao.</td><td rowspan=1 colspan=1>C6 cong suat &lt; 50 kW</td><td rowspan=1 colspan=1>Tö chirc,ca nhan kinh doanh ban dien trc tiép</td><td rowspan=1 colspan=1>Ty lé ho dan khu vucnha may ket noi≥ 85%</td><td rowspan=1 colspan=1>Dat</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Hệ thống cung cấp điện đảm bảo yêu cầu kỹ thuật, an toàn theo quy định (Tiêu chí 4.1)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Lưới điện cao áp</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Hồ sơ pháp lý</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1.1 1.1.2 1.1.3</td>
+      <td>Thủ tục, hồ sơ</td>
+      <td>Dự án/công trình/hạng mục đầu tư Hồ sơ thiết kế Hồ sơ nghiệm thu</td>
+      <td>Hồ sơ, quyết định phê duyệt của cấp có thẩm quyền</td>
+      <td>Có hồ sơ, có Quyết định phê duyệt</td>
+      <td>Đạt Đạt Đạt</td>
+      <td>Trường hợp không có hoặc thất lạc hồ sơ, chủ đầu tư báo cáo cấp có thẩm quyền xác nhận đủ pháp lý</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>An toàn điện</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.2.1</td>
+      <td></td>
+      <td></td>
+      <td>Đến mặt đất với đường dây trên không điện áp đến 35 kV nếu sử dụng dây trần: Khi xây dựng, cải tạo đoạn đường dây dẫn điện cao áp trên không vượt qua nhà ở, công trình có người sinh sống, làm việc bên trong; nơi thường xuyên tập trung đông người; công trình quan trọng liên quan đến an ninh quốc gia; khu di tích lịch sử - văn hoá, danh lam thắng cảnh đã được Nhà</td>
+      <td>≥ 14 m</td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>1.2.2 1.2.3 1.2.4 1.2.5 1.2.6 1.2.7 1.2.8 1.2.9</td>
+      <td>Thông tin, số liệu kỹ thuật để nhận dạng về an toàn điện</td>
+      <td>Khoảng cách thẳng đứng nhỏ nhất từ điểm thấp nhất của dây dẫn ở trạng thái võng lớn nhất đến trong các chế độ làm việc bình thường của đường dây</td>
+      <td>nước xếp hạng phải tăng cường các biện pháp an toàn về điện Xây dựng trong trường hợp đặc biệt với đường dây trên không điện áp đến 35 kV nếu sử dụng dây bọc Đến mặt đất tự nhiên khu vực đông dân cư Đến mặt đất tự nhiên khu vực ít dân cư Đến mặt đất tự nhiên khu vực khó đến Đến mặt đường ô tô Đến điểm cao nhất (4,5m) của phương tiện, công trình giao thông đường sắt, hoặc đến điểm cao nhất (7,5m) của phương tiện, công trình giao thông đường sắt chạy điện Đến mức nước cao nhất ở sông, hồ, kênh có tàu thuyền qua lại Đến bãi sông và nơi ngập nước không có thuyền bè qua lại</td>
+      <td>≥ 11 m ≥ 7,0 m ≥ 5,5 m ≥ 4,5 m ≥ 7,0 m 3,0 m tĩnh không +1,5 m ≥ 5,5 m</td>
+      <td>Đạt Đạt Đạt Đạt Đạt Đạt Đạt Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td></td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>1.2.10 1.2.11 1.2.12 1.2.13 1.2.14</td>
+      <td></td>
+      <td></td>
+      <td>Đến mức nước cao nhất trên sông, hồ, kênh mà thuyền bè và người không thể qua lại được Từ đường điện áp 22 kV đến đường dây có cấp điện áp thấp hơn Từ đường điện áp 35 kV đến đường dây có cấp điện áp thấp hơn Đến đường dây thông tin Đến mặt đê, đập</td>
+      <td></td>
+      <td>≥ 2,5 m ≥ 2,0 m ≥ 3,0 m ≥ 3,0 m ≥ 6,0 m</td>
+      <td>Đạt Đạt Đạt Đạt Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.2.15 1.2.16 1.2.17 1.2.18</td>
+      <td></td>
+      <td>Chiều rộng hành lang giới hạn bởi hai mặt thẳng đứng</td>
+      <td>Khoảng cách từ dây ngoài cùng về mỗi phía khi dây ở trạng thái tĩnh</td>
+      <td>Dây bọc 22 kV Dây bọc 35 kV Dây trần 22 kV Dây trần 35 kV</td>
+      <td>≥ 1,0 m ≥ 1,5 m ≥ 2,0 m ≥ 3,0 m</td>
+      <td>Đạt Đạt Đạt Đạt</td>
+      <td>Không có cây có thể đổ hoặc xô cành vào dây dẫn điện.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>1.2.19 1.2.20</td>
+      <td>Cung cấp điện Nguồn điện cung cấp</td>
+      <td>Cáp ngầm Biển báo an toàn</td>
+      <td>Cáp ngầm: Đường cáp điện đi trên mặt đất hoặc trên không, hành lang bảo vệ an toàn đường cáp được giới hạn về các phía tính từ mặt ngoài của sợi cáp ngoài cùng trở ra Có Biến báo cấm; Biển báo nguy hiểm, cảnh báo; Biển chỉ dẫn; Biển báo an toàn</td>
+      <td>≥ 0,5 m 100%</td>
+      <td>Đạt Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.2.21 1.3 1.3.1</td>
+      <td></td>
+      <td>An toàn cho người và vật nuôi Đảm bảo về nguồn cấp</td>
+      <td>Dây nối đất: dây nối từ xà, dây néo hoặc dây trung tính đến cọc tiếp địa Dòng điện làm việc lớn nhất của dây dẫn</td>
+      <td>Không bị gỉ sắt hoặc đứt, có nối vào cọc tiếp đất Nhỏ hơn dòng điện phát nóng dây dẫn</td>
+      <td>Đạt Đạt Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>1.3.2</td>
+      <td></td>
+      <td>Đảm bảo điện áp</td>
+      <td>Điện áp tại đầu ra phía cuối đường dây</td>
+      <td>không vượt quá +5%; - 10% điện áp định mức</td>
+      <td>Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Kết cấu chịu lực</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.4.1 1.4.2 1.4.3 1.4.4</td>
+      <td>Thông tin, số liệu kỹ thuật để nhận dạng về kết cấu chịu lực</td>
+      <td>Cột bê tông Cột thép</td>
+      <td>Xác định mức độ vỡ, nứt bê tông Độ nghiêng dọc hoặc ngang tuyến chiếu xuống từ ngọn cột Xác định các thanh thép và bu lông Độ nghiêng dọc hoặc ngang tuyến chiếu xuống từ ngọn cột</td>
+      <td>Không để hở cốt thép bên trong Không nghiêng quá 1/150 x H Đủ các thanh thép không bị cong; sơn hoặc mạ chống gỉ không bị bong Không nghiêng quá 1/200 x H</td>
+      <td>Đạt Đạt Đạt Đạt</td>
+      <td>H: Chiều cao cột H: Chiều cao cột</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>1.4.5 1.4.6 1.4.7 1.4.8 1.4.9</td>
+      <td></td>
+      <td>Kết cấu hỗ trợ chịu lực Móng cột Xà giá đỡ</td>
+      <td>Dây néo thép, thanh chống Móng néo Móng bê tông, trụ … Xà đỡ, néo dây điện Giá đỡ và kết cấu khác</td>
+      <td>Có bảo vệ chống gỉ theo quy đinh Được bảo vệ chống xói lở Được bảo vệ không bị xói lở Được bảo vệ chống gỉ, không bị vặn, cong, vênh, được nối vào cọc tiếp địa Được bảo vệ chống gỉ, không bị vặn, cong, vênh, được nối vào cọc tiếp địa</td>
+      <td>Đạt Đạt Đạt Đạt Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>Vận hành</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>1.5.1 1.5.2</td>
+      <td>Nhận dạng về quy trình vận hành</td>
+      <td>Các quy trình vận hành</td>
+      <td>Quy trình kiểm tra an toàn vận hành Quy trình sửa chữa, khắc phục sự cố</td>
+      <td>Có quy trình đầy đủ Có quy trình đầy đủ</td>
+      <td>Đạt Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Trạm biến áp phân phối</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>Hồ sơ pháp lý</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.1.1 2.1.2 2.1.3</td>
+      <td>Thủ tục, hồ sơ</td>
+      <td>Dự án đầu tư Hồ sơ thiết kế Hồ sơ nghiệm thu</td>
+      <td>Hồ sơ, quyết định phê duyệt của cấp có thẩm quyền</td>
+      <td>Có hồ sơ, có Quyết định phê duyệt</td>
+      <td>Đạt Đạt Đạt</td>
+      <td>Trường hợp không có hoặc thất lạc hồ sơ, chủ đầu tư báo cáo cấp có thẩm quyền xác nhận đảm bảo pháp lý</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>An toàn điện</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>2.2.1 2.2.2 2.2.3 2.2.4</td>
+      <td>Thông tin, số liệu kỹ thuật để nhận dạng về an toàn điện</td>
+      <td>Khoảng cách giữa phần mang điện với các bộ phận, công trình xung quanh Nối đất Biển báo an toàn</td>
+      <td>Đến 22 kV Đến 35 kV Dây nối đất an toàn, nối đất làm việc và nối đất chống sét Biến báo cấm; Biển báo nguy hiểm, cảnh báo; Biển chỉ dẫn; Biển báo yêu cầu có kích thước theo quy định</td>
+      <td>≥ 2,0 m ≥ 3,0 m Có đủ các điểm nối đất, dây nối đất không bị gỉ hoặc bị đứt 100%</td>
+      <td>Đạt Đạt Đạt Đạt</td>
+      <td>Không có cây có thể đổ hoặc xô cành vào các kết cấu công trình trạm biến áp</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>Cung cấp điện</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.3.1</td>
+      <td>Nguồn điện cung cấp</td>
+      <td>Đảm bảo về nguồn cấp</td>
+      <td>Dung lượng vận hành trạm theo nhu cầu sử dụng điện</td>
+      <td>≤công suất định mức máy biến áp</td>
+      <td>Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>2.3.2</td>
+      <td></td>
+      <td>Đảm bảo về chất lượng điện</td>
+      <td>Điện áp phía hạ áp tại đầu ra</td>
+      <td>Không vượt quá +5%; - 10% điện áp định mức</td>
+      <td>Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>Vận hành</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.4.1 2.4.2 2.4.3</td>
+      <td>Nhận dạng về quy trình vận hành</td>
+      <td>Mua bán điện Thao tác, vận hành</td>
+      <td>Tỷ lệ số công tơ đo đếm điện năng khách hàng trong thời gian kiểm định, nguyên kẹp chì Có đồng hồ đo, bộ biến đổi kiểm tra các thông số vận hành (V; A; VT; CT ) trạm đảm bảo các thông số kỹ thuật đang vận hành Thiết bị đóng cắt được kiểm tra đủ tiêu chuẩn đóng cắt trước khi thao tác</td>
+      <td>100% 100% Có hồ sơ</td>
+      <td>Đạt Đạt Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>2.4.4</td>
+      <td></td>
+      <td></td>
+      <td>Thiết bị bảo vệ được kiểm tra, bảo trì theo quy định hiện hành</td>
+      <td>Có hồ sơ</td>
+      <td>Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+    <tr>
+      <td>2.5</td>
+      <td>Kết cấu chịu lực, bảo vệ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.5.1 2.5.2 2.5.3</td>
+      <td>Thông tin, số liệu kỹ thuật để nhận dạng về kết cấu chịu lực</td>
+      <td>Cột điện Móng cột</td>
+      <td>Cột bê tông Cột thép Móng bê tông, trụ</td>
+      <td>Không bị vỡ, nứt bê tông để hở cốt thép bên trong Không nghiêng, các thanh thép đầy đủ, được bảo vệ chống gỉ sắt Được bảo vệ không bị xói lở</td>
+      <td>Đạt Đạt Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>2.5.4 2.5.5 2.5.6 2.5.7</td>
+      <td></td>
+      <td>Giá đỡ thiết bị Cổng, hàng rào bảo vệ trạm (nếu có)</td>
+      <td>Xà đỡ, dây néo cột điện Giá đỡ và kết cấu khác Hàng rào Cổng ra vào</td>
+      <td>Được bảo vệ chống gỉ, không bị vặn, cong, vênh, được nối vào cọc tiếp địa Được bảo vệ chống gỉ, không bị vặn, cong, vênh, được nối vào cọc tiếp địa Móng bờ rào không bị sói mòn, tường rào không bị bong vữa, thủng lỗ, nứt mạch vữa Có cửa, khóa, ngăn được người và vật nuôi, không bị cong vênh, vật liệu bằng thép không bị gỉ sắt</td>
+      <td>Đạt Đạt Đạt Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Đường dây hạ áp</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>Hồ sơ pháp lý</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.1.1 3.1.2 3.1.3</td>
+      <td>Thủ tục, hồ sơ</td>
+      <td>Dự án đầu tư Hồ sơ thiết kế Hồ sơ nghiệm thu</td>
+      <td>Hồ sơ, quyết định phê duyệt của cấp có thẩm quyền</td>
+      <td>Có hồ sơ, có Quyết định phê duyệt</td>
+      <td>Đạt Đạt Đạt</td>
+      <td>Trường hợp không có hoặc thất lạc hồ sơ, chủ đầu tư báo cáo cấp có thẩm quyền xác nhận đảm bảo pháp lý</td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td>An toàn điện</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.2.1 3.2.2 3.2.3 3.2.4</td>
+      <td>Thông tin, số liệu kỹ thuật để</td>
+      <td>Khoảng cách thẳng đứng nhỏ nhất từ điểm thấp nhất của dây dẫn ở trạng thái võng lớn nhất đến trong các chế</td>
+      <td>Đến mặt đất tự nhiên khu vực đông dân cư Đến mặt đất tự nhiên khu vực ít dân cư Đến mặt đất tự nhiên khu vực khó đến Đến mặt đường ô tô cấp I,II</td>
+      <td>≥ 5,5 m ≥ 5,0 m ≥ 4,0 m ≥ 7,0 m</td>
+      <td>Đạt Đạt Đạt Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>3.2.5 3.2.6 3.2.7 3.2.8 3.2.9 3.2.10 3.2.11 3.2.12 3.2.13</td>
+      <td>nhận dạng về an toàn điện</td>
+      <td>độ làm việc bình thường của đường dây Nối đất</td>
+      <td>Đến mặt đường ô tô các cấp còn lại Đến mặt ray đường sắt Đến mức nước cao nhất ở sông, hồ, kênh có tàu thuyền qua lại Đến bãi sông và nơi ngập nước không có thuyền bè qua lại Đến mức nước cao nhất trên sông, hồ, kênh mà thuyền bè và người không thể qua lại được Đến đường dây thông tin Đến mặt đê, đập Nối đất lặp lại cho dây trung tính, nối đất vỏ thiết bị Điện trở nối đất đối với các đường dây đi qua khu vực có nhiều nhà cao tầng, cây cao che chắn, khó có thể bị sét đánh trực tiếp</td>
+      <td>≥ 6,0 m ≥ 8,0 m tĩnh không +1,5 m ≥ 5,5 m ≥ 2,5 m ≥ 1,25 m ≥ 6,0 m không bị đứt hay gỉ sét < 50 Ω</td>
+      <td>Đạt Đạt Đạt Đạt Đạt Đạt Đạt Đạt Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>3.2.14 3.2.15</td>
+      <td></td>
+      <td>Biển báo an toàn</td>
+      <td>Điện trở nối đất đối với các đường dây đi qua khu vực trống trải không có nhà cửa, công trình, cây che chắn, đường dây dễ bị sét đánh trực tiếp Có biến báo cấm; biển báo nguy hiểm, cảnh báo; biển chỉ dẫn; biển báo yêu cầu có kích thước theo quy định</td>
+      <td>< 30 Ω 100%</td>
+      <td>Đạt Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+    <tr>
+      <td>3.3</td>
+      <td>Chất lượng điện năng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.3.1 3.3.2</td>
+      <td>Thông tin, số liệu nhận dạng chất lượng điện năng sử dụng</td>
+      <td>Điện áp</td>
+      <td>Trong điều kiện bình thường, độ lệch điện áp cho phép so với điện áp danh định của lưới điện và được xác định tại vị trí đặt thiết bị đo đếm điện hoặc tại vị trí khác do hai bên thỏa thuận Đối với lưới điện chưa ổn định sau sự cố, độ lệch điện áp cho phép</td>
+      <td>trong khoảng ± 5% từ +5% đến -10%</td>
+      <td>Đạt Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>3.3.3 3.3.4</td>
+      <td></td>
+      <td>Tần số</td>
+      <td>Trong điều kiện bình thường, độ lệch tần số hệ thống điện cho phép so với tần số danh định là 50 Hz Đối với lưới điện chưa ổn định sau sự cố đơn lẻ, độ lệch tần số cho phép so với tần số danh định là 50 Hz</td>
+      <td>trong phạm vi ± 0,2 Hz trong phạm vi ± 0,5 Hz</td>
+      <td>Đạt Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+    <tr>
+      <td>3.4</td>
+      <td>Dây dẫn điện</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.4.1 3.4.2 3.4.3</td>
+      <td>Nhận dạng về chủng loại, thông tin số liệu dây dẫn hạ áp</td>
+      <td>Kiểu đi dây Kết nối dây An toàn dẫn điện</td>
+      <td>Đảm bảo an toàn điện Mối nối phải được nối bằng ống nối ép chặt hoặc bắt siết ốc chắc chắn Dòng điện làm việc lớn nhất dây dẫn</td>
+      <td>Lắp trên sứ cách điện có xà đỡ sứ, không mắc dây dẫn điện trên cây xanh, gá trên mái nhà. số lượng gíp kẹp ≥ 2 bộ Nhỏ hơn dòng điện phát nóng dây dẫn</td>
+      <td>Đạt Đạt Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả đánh giá: đạt/không đạt</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>3.4.4 3.4.5 3.4.6 3.4.7</td>
+      <td></td>
+      <td>An toàn cách điện An toàn về cơ học</td>
+      <td>Dây trần Dây bọc Dây cáp dẫn điện Dây trần và dây bọc</td>
+      <td>Có sứ cách điện trên cột Dây không nứt, rách, có sứ cách điện trên cột Được chôn dưới đất hoặc treo có cáp thép chịu lực Dây không bị bong đứt sợi cáp bện</td>
+      <td>Đạt Đạt Đạt Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.5</td>
+      <td>Kết cấu chịu lực</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.5.1 3.5.2</td>
+      <td>Thông tin, số liệu kỹ thuật để nhận dạng về kết cấu</td>
+      <td>Cột điện</td>
+      <td>Cột bê tông Cột thép</td>
+      <td>Không bị vỡ, nứt bê tông để hở cốt thép bên trong Không nghiêng, các thanh thép đầy đủ, được bảo vệ chống gỉ sắt</td>
+      <td>Đạt Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>3.5.3 3.5.4 3.5.5 3.5.6 3.5.7 3.5.8 3.5.9</td>
+      <td>chịu lực.</td>
+      <td>Kết cấu hỗ trợ chịu lực Móng cột Xà giá đỡ</td>
+      <td>Cột gỗ, tre trên nhánh rẽ về hộ gia đình Dây néo thép, thanh chống Móng néo Móng bê tông, trụ Móng đà cản Móng đất Xà đỡ, néo dây điện</td>
+      <td>Cao tối thiểu 5m, đường kính ngọn tối thiểu 80mm, được xử lý chống mối mục. Có bảo vệ, chống gỉ sắt Được bảo vệ chống xói lở Được bảo vệ không bị xói lở Được bảo vệ không bị xói lở Được bảo vệ không bị xói lở Được bảo vệ chống gỉ, không bị vặn, cong, vênh, được nối vào cọc tiếp địa</td>
+      <td>Đạt Đạt Đạt Đạt Đạt Đạt Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>3.5.10</td>
+      <td></td>
+      <td></td>
+      <td>Giá đỡ và kết cấu khác</td>
+      <td>Được bảo vệ chống gỉ, không bị vặn, cong, vênh, được nối vào cọc tiếp địa</td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.6</td>
+      <td>Vận hành</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3.6.1 3.6.2 3.6.3 3.6.4 3.6.5</td>
+      <td>Nhận dạng về quy trình vận hành</td>
+      <td>Đường dây Các quy trình vận hành Trong mạch điện ba pha bốn dây Trong mạch điện một pha hai dây</td>
+      <td>Sơn chỉ rõ tên và mạch trên các vị trí cột Quy trình kiểm tra an toàn vận hành. Quy trình sửa chữa, khắc phục sự cố Thiết bị đóng cắt (áp-tô-mát, cầu dao, cầu chì) đặt trên dây pha Áp-tô-mát, cầu chì và công tắc đặt trên dây pha</td>
+      <td>Có đánh số Có sổ theo dõi Có sổ theo dõi Cắt thiết bị các dây không có điện Cắt thiết bị hai dây không có điện</td>
+      <td>Đạt Đạt Đạt Đạt Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Dây dẫn về hộ gia đình sau công tơ điện và công tơ điện</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.1</td>
+      <td>Dây sau công tơ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.1.1</td>
+      <td>Nhận dạng về chủng loại,</td>
+      <td>Loại dây dẫn về hộ gia đình</td>
+      <td>Tiết diện dây bọc cách điện hoặc cáp điện phải phù hợp với công suất sử dụng của các hộ sử dụng điện.</td>
+      <td>Dây bọc cách điện, tiết diện tối thiểu 2,5 mm2.</td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>4.1.2 4.1.3 4.1.4</td>
+      <td>thông tin số liệu dây dẫn sau công tơ</td>
+      <td>An toàn treo dây dẫn</td>
+      <td>Khoảng cách từ công tơ về nhà dưới 20 m Khoảng cách từ công tơ về nhà từ 20 m trở lên Dây dẫn căng vượt đường ô tô</td>
+      <td>Có hãm dây hai đầu trên sứ cách điện hạ áp hoặc sử dụng kẹp hãm, kẹp siết 2 đầu Có hãm dây hai đầu trên sứ cách điện hạ áp hoặc sử dụng kẹp hãm, kẹp siết 2 đầu, có cột đỡ trung gian Có hãm dây hai đầu trên sứ cách điện hạ áp, có dây văng đỡ dây, khoảng cách an toàn tới đất kiểm tra theo tiêu chuẩn đường dây hạ áp</td>
+      <td>Đạt Đạt Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.2</td>
+      <td>Kết cấu sau công tơ điện và loại công tơ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4.2.1</td>
+      <td>Thông tin, số liệu</td>
+      <td>Cột đỡ trung gian</td>
+      <td>Loại cột</td>
+      <td>Gỗ hoặc tre, cao ≥ 4,0 m, đường kính ≥ 80 mm</td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>4.2.2 4.2.3 4.2.4 4.2.5</td>
+      <td>nhận dạng</td>
+      <td>Hợp đồng mua bán điện Công tơ điện Bảo vệ công tơ</td>
+      <td>Bảo vệ an toàn cho cột Các hộ dân ký hợp đồng mua bán điện theo giá quy định của Chính phủ Chất lượng Hòm công tơ</td>
+      <td>Được chôn dưới đất, không bị nghiêng, không ảnh hưởng đến việc giao thông đi lại 100 % các hộ dân được ký hợp đồng Có kiểm đinh còn thời hạn, được kẹp chì niêm phong Công tơ được đặt trong hòm composite hoặc sơn tĩnh điện treo trên cột hoặc tường nhà</td>
+      <td>Đạt Đạt Đạt Đạt</td>
+      <td>Đơn vị quản lý, vận hành lưới điện cung cấp kết quả để đánh giá: đạt/không đạt</td>
+    </tr>
+    <tr>
+      <td>4.3</td>
+      <td>Điện trong nhà</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>4.3.1 4.3.2</td>
+      <td>Thông tin, số liệu nhận dạng</td>
+      <td>Bảng điện tổng Dây điện</td>
+      <td>Có cầu chì/aptomat, công tắc, ổ cắm đặt cố định trên tường hoặc khung nhà Có vỏ cách điện, dây điện được cố định trên tường hoặc khung nhà hoặc chôn trong tường</td>
+      <td>100 % các hộ dân 100 % các hộ dân</td>
+      <td>đạt đạt</td>
+      <td>Trưởng thôn (bản, buôn) báo cáo đánh giá chung, cung cấp kết quả để đánh giá đạt/ không đạt</td>
+    </tr>
+    <tr>
+      <td>II</td>
+      <td>Tỷ lệ hộ sử dụng điện thường xuyên (Tiêu chí 4.2)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Khu vực lưới điện kết nối lưới điện quốc gia</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.2 1.3</td>
+      <td>Thông tin nhận dạng về sử dụng điện lưới quốc gia</td>
+      <td>Tỷ lệ số hộ dùng điện thường xuyên</td>
+      <td>Đối với vùng Đồng bằng sông Hồng, Đông Nam Bộ Đối với vùng Bắc Trung Bộ và Duyên hải miền Trung, Tây Nguyên, Đồng bằng sông Cửu Long</td>
+      <td>≥ 99 % ≥ 98 %</td>
+      <td>Đạt Đạt</td>
+      <td>Riêng đối với các xã khu vực II, III thuộc vùng đồng bào dân tộc thiểu số và miền núi, tỷ lệ hộ sử dụng</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>1.4 .5 1.6</td>
+      <td></td>
+      <td>Ngừng, giảm mức cung cấp điện</td>
+      <td>Đối với vùng Trung du miền núi phía bắc; các xã theo Quyết định số 90/QĐ-TTg của Thủ tướng Chính phủ ngày 18 tháng 01 năm 2022 phê duyệt Chương trình mục tiêu quốc gia giảm nghèo bền vững giai đoạn 2021 - 2025 Thông báo cho khách hàng biết trước thời điểm ngừng hoặc giảm mức cung cấp điện Thông báo trên phương tiện thông tin đại chúng</td>
+      <td>≥ 95 % ≥ 05 ngày Trong 3 ngày liên tiếp</td>
+      <td>Đạt Đạt Đạt</td>
+      <td>điện thường xuyên ≥ 95%</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Khu vực sử dụng điện từ nguồn năng lượng tái tạo, trạm Diezen độc lập</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Mục đánh giá</td>
+      <td>Thành phần đánh giá</td>
+      <td>Nội dung đánh giá</td>
+      <td>Nhận dạng đánh giá</td>
+      <td>Mức đánh giá</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>2.1 2.2</td>
+      <td>Nguồn năng lượng tái tạo.</td>
+      <td>Có công suất ≥ 50 kW Có công suất < 50 kW</td>
+      <td>Tổ chức có giấy phép hoạt động điện lực Tổ chức, cá nhân kinh doanh bán điện trực tiếp</td>
+      <td>Tỷ lệ hộ dân khu vực nhà máy kết nối ≥ 95 % Tỷ lệ hộ dân khu vực nhà máy kết nối ≥ 85 %</td>
+      <td>Đạt Đạt</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

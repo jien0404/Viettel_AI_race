@@ -14,7 +14,31 @@ Phạm vi: Áp dụng cho hoạt động đánh giá, lựa chọn hạ tầng l
 
 3. Tài liệu liên quan
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Tai lieu</td><td rowspan=1 colspan=1>Ngay ban hanh</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Bó tiéu chuan Luu tru va Van hanh dur liéuTC.CNVTQD.CNTT.40</td><td rowspan=1 colspan=1>3/2021</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Quy dinh xay dung va ap dung chi tieu ky thuat cho san phäm hang hóa phuc vu hoat dong cua Tap doan CNVTQDma hiéu 3208/QyD-CNVTQD-VTNet</td><td rowspan=1 colspan=1>9/2020</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Guideline dinh co cap phat tai nguyen CNTT mä hiéuGL.CNVTQD.CNTT.18.514</td><td rowspan=1 colspan=1>09/2021</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Tài liệu</td>
+      <td>Ngày ban hành</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Bộ tiêu chuẩn Lưu trữ và Vận hành dữ liệu TC.CNVTQĐ.CNTT.40</td>
+      <td>3/2021</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Quy định xây dựng và áp dụng chỉ tiêu kỹ thuật cho sản phẩm hàng hóa phục vụ hoạt động của Tập đoàn CNVTQĐ mã hiệu 3208/QyĐ-CNVTQĐ-VTNet</td>
+      <td>9/2020</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Guideline định cỡ cấp phát tài nguyên CNTT mã hiệu GL.CNVTQĐ.CNTT.18.514</td>
+      <td>09/2021</td>
+    </tr>
+  </tbody>
+</table>
 
 4. Giải thích thuật ngữ và từ viết tắt Thuật ngữ o Dữ liệu (Data): là thông tin được máy tính lưu trữ, xử lý hoặc truy xuất theo yêu cầu của người dùng hoặc theo tiến trình hoạt động của máy tính.
 
@@ -28,7 +52,46 @@ o Node: Một máy tính/ máy chủ vật lý lưu trữ và xử lý dữ li�
 
 Từ viết tắt
 
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1> Thuat ngir va tir viet tat</td><td rowspan=1 colspan=1>Giai thich</td></tr><tr><td rowspan=1 colspan=1>1.</td><td rowspan=1 colspan=1>CSDL</td><td rowspan=1 colspan=1>Co so dur lieu</td></tr><tr><td rowspan=1 colspan=1>2.</td><td rowspan=1 colspan=1>RDBMS</td><td rowspan=1 colspan=1>Relational Database Management System (Hé quantri CSDL quan he)</td></tr><tr><td rowspan=1 colspan=1>3.</td><td rowspan=1 colspan=1>NoSQL</td><td rowspan=1 colspan=1>Non Relational hoäc Not Only SQL: La loai DBMSdanh cho du liéu có cáu truc linh hoat</td></tr><tr><td rowspan=1 colspan=1>4.</td><td rowspan=1 colspan=1>CNTT</td><td rowspan=1 colspan=1>Cong nghé thong tin</td></tr><tr><td rowspan=1 colspan=1>5.</td><td rowspan=1 colspan=1>QHDC</td><td rowspan=1 colspan=1>Quy hoach dinh co</td></tr><tr><td rowspan=1 colspan=1>6.</td><td rowspan=1 colspan=1>VHKT</td><td rowspan=1 colspan=1>Van hanh khai thac</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Thuật ngữ và từ viết tắt</td>
+      <td>Giải thích</td>
+    </tr>
+    <tr>
+      <td>1.</td>
+      <td>CSDL</td>
+      <td>Cơ sở dữ liệu</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>RDBMS</td>
+      <td>Relational Database Management System (Hệ quản trị CSDL quan hệ)</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>NoSQL</td>
+      <td>Non Relational hoặc Not Only SQL: Là loại DBMS dành cho dữ liệu có cấu trúc linh hoạt</td>
+    </tr>
+    <tr>
+      <td>4.</td>
+      <td>CNTT</td>
+      <td>Công nghệ thông tin</td>
+    </tr>
+    <tr>
+      <td>5.</td>
+      <td>QHĐC</td>
+      <td>Quy hoạch định cỡ</td>
+    </tr>
+    <tr>
+      <td>6.</td>
+      <td>VHKT</td>
+      <td>Vận hành khai thác</td>
+    </tr>
+  </tbody>
+</table>
 
 # 5. Nội dung quy trình lựa chọn Hạ tầng lưu trữ dữ liệu
 
@@ -42,38 +105,259 @@ Sự kiện bắt đầu: Khi có nhu cầu đầu tư hạ tầng lưu trữ d�
 
 • Lưu đồ tổng thể quy trình • Diễn giải chi tiết • Vai trò của các bên liên quan
 
-![](images/1.jpg)
+![](images/image_1.jpg)
 
-> **Hình chú thích:** a flow diagram showing the process for a project
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Bước</td>
+      <td>Hoạt động chính</td>
+      <td>Công việc thực hiện</td>
+      <td>Phụ trách thực hiện</td>
+      <td>Đầu vào</td>
+      <td>Đầu ra</td>
+    </tr>
+    <tr>
+      <td>1.</td>
+      <td>Phân tích, đánh giá các tiêu chí công nghệ về lựa chọn</td>
+      <td>Khi có nhu cầu đầu tư tài nguyên lưu trữ dữ liệu từ các đơn vị có yêu cầu, đơn vị QHĐC thực hiện phân tích, đánh giá theo các tiêu chí công nghệ sau: - Kiến trúc lưu trữ</td>
+      <td>Đơn vị yêu cầu Đơn vị QHĐC</td>
+      <td>Phân tích yêu cầu về hạ tầng cần đầu tư</td>
+      <td>Các nhận định về loại hạ tầng phù hợp với từng tiêu chí sau khi</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>Buroc</td><td rowspan=1 colspan=1>Hoatdongchinh</td><td rowspan=1 colspan=1>Cong viec thuc hien</td><td rowspan=1 colspan=1>Phu trachthuc hien</td><td rowspan=1 colspan=1>Dau vao</td><td rowspan=1 colspan=1>Dau ra</td></tr><tr><td rowspan=1 colspan=1>1.</td><td rowspan=1 colspan=1>Phan tich,danh giacac   tieuchi congnghe velua  chon</td><td rowspan=1 colspan=1>Khi có nhu cäu däu tur tainguyén luu tru du liéu turcac don vi có yéu cau, donvi QHDC thuc hién phantich, danh gia theo cac tieuchi cong nghé sau:1  Kien truc luu trur</td><td rowspan=1 colspan=1>Don viyeu cauDon viQHDC</td><td rowspan=1 colspan=1>Phantichyeu_ cau véha tang candau tu</td><td rowspan=1 colspan=1>Cacnhandinh    veloai     hatang phuhop   Voitumg tieuchi sau khi</td></tr></table>
 
 
 
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td>sản phẩm và chi phí</td>
+      <td>tại các cộng đồng công nghệ trên thế giới. Xem xét chi phí cho 1 đơn vị lưu trữ trên từng loại hạ tầng để chọn loại tối ưu về TCO.</td>
+      <td></td>
+      <td>báo cáo công nghệ của đơn vị và Tập đoàn. Các nguồn thông tin đáng tin cậy.</td>
+      <td>chí về chi phí và mức độ phổ biến của sản phẩm.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Đánh giá năng lực làm chủ sản phẩm, các sản phẩm DBMS và hệ điều hành hỗ trợ</td>
+      <td>Đơn vị triển khai cài đặt và Đơn vị vận hành hạ tầng lưu trữ đánh giá năng lực làm chủ sản phẩm. Ưu tiên chọn sản phẩm mà đội dự án am hiểu và thành thạo nhất và vận hành đơn giản, ít lỗi. Trường hợp là hạ tầng lưu trữ mới thì cần phải có đánh giá thử nghiệp trước khi ra quyết định lựa chọn. Biểu mẫu đánh giá lựa chọn từ Bước 1,2,3,4 xem trong Phụ lục 04.</td>
+      <td>ĐV QHĐC</td>
+      <td>Các use cases đội dự án đã triển khai hoặc tham khảo từ các đơn vị khác. Biên bản đánh giá kết quả thử nghiệp theo các tiêu chí công nghệ được ưu tiên.</td>
+      <td>Kết quả lựa chọn hạ tầng lưu trữ được Lãnh đạo đơn vị QHĐC và Lãnh đạo đơn vị vận hành hạ tầng lưu trữ phê duyệt.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Xây dựng CTKT về Hạ tầng lưu trữ</td>
+      <td>Đội dự án đưa đưa kết quả lựa chọn hạ tầng lưu trữ ở Bước 4 vào CTKT mua sắm đầu tư mới hạ tầng lưu trữ theo QĐ 3208/QyĐ- CNVTQĐ-VTNet.</td>
+      <td>ĐV QHĐC</td>
+      <td>Căn cứ vào kết quả phê duyệt lựa chọn hạ tầng lưu trữ</td>
+      <td>CTKT hạ tầng lưu trữ</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Hoạt động chính</td>
+      <td>ĐV yêu cầu</td>
+      <td>ĐV QHĐC</td>
+      <td>ĐV VHKT hạ tầng lưu trữ</td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>san phamva chi phi</td><td rowspan=1 colspan=1>tai cac cong dong congnghe trén thé gioi.Xem xét chi phi cho 1 donvi luu trur trén tirng loai hatang dé chon loai toi uu veTCO.</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>bao    caocong nghécua don viva     Tapdoan.Cac nguonthong   tindang    tincay.</td><td rowspan=1 colspan=1>chi ve chiphi    vamuc   dpho biencua   sanpham.</td></tr><tr><td rowspan=4 colspan=1>4</td><td rowspan=4 colspan=1>Danh gianang  lurclam   chusan pham,cac    sanphamDBMS vahé   dieuhanh  htro</td><td rowspan=4 colspan=1>Don vi trién khai cai dat vaDon vi van hanh ha tangluu tru danh gia nang luclam chu san phäm. Uu tiénchon sän pham ma doi duán am hiéu va thanh thaonhat va van hanh don gian,it 10i. Truong hop la ha tang luutrur moi thi cän phai códanh gia thir nghiep truockhi ra quyét dinh lua chon.Biéu mau danh gia luachon tur Buóc 1,2,3,4 xemtrong Phu luc 04.</td><td rowspan=4 colspan=1>DVQHDC</td><td rowspan=1 colspan=1>Cac    usecases  doidu anda</td><td rowspan=4 colspan=1>Ket  qualua  chonha   tangluru    trurduoc Lanhdao don viQHDC vaLanh daodon vi vanhanhhatang  luutrur   pheduyet.</td></tr><tr><td rowspan=1 colspan=1>trien khai</td></tr><tr><td rowspan=1 colspan=1>hoac thamkhao tr cacdon      vikhac.Bien  ban</td></tr><tr><td rowspan=1 colspan=1>danh  giakét qua thurnghiep theocac tieu chicong ngheduoc   uutien.</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Xay dungCTKTvéHatanglru trur</td><td rowspan=1 colspan=1>Doi dur an dua dua két qualua chon ha tang luu tru óBuóc 4 vao CTKT mua säm dau tu moi ha tang luutrur theo QD 3208/QyD-CNVTQD-VTNet.</td><td rowspan=1 colspan=1>DVQHDC</td><td rowspan=1 colspan=1>Can cur vaokét qua phéduyétlrachon    hatang luu trur</td><td rowspan=1 colspan=1>CTKThatang  luutru</td></tr></table>
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Hoat d@ng chinh</td><td rowspan=1 colspan=1>DV yeu cau</td><td rowspan=1 colspan=1>DVQHDC</td><td rowspan=1 colspan=1>DV VHKTha tang luutrur</td></tr></table>
-
-
-
-<table><tr><td rowspan=1 colspan=1>1.</td><td rowspan=1 colspan=1>Dua ra yéu cau vé tai nguyén luu tru</td><td rowspan=1 colspan=1>A/R</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.</td><td rowspan=1 colspan=1>Danh gia, phan tich cac tieu chi vecong nghé, chi phi, va kha näng lamchu cong nghé</td><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=1>A/R</td><td rowspan=1 colspan=1>R</td></tr><tr><td rowspan=1 colspan=1>3.</td><td rowspan=1 colspan=1>Thäm dinh va phé duyét lua chon ha tang luru tru</td><td rowspan=1 colspan=1>R</td><td rowspan=1 colspan=1>A</td><td rowspan=1 colspan=1>R</td></tr><tr><td rowspan=1 colspan=1>4.</td><td rowspan=1 colspan=1> Dua két qua lua chon ha tang luu truvao CTKT phan mém</td><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=1>A/R</td><td rowspan=1 colspan=1>C</td></tr></table>
 
 Giải thích:   
 
-<table><tr><td rowspan=1 colspan=1>Chir viet tat</td><td rowspan=1 colspan=1>Y nghia</td></tr><tr><td rowspan=1 colspan=1>A</td><td rowspan=1 colspan=1>Don vi/vai tro chiu trach nhiem giai trinh két qua cua hoat dong</td></tr><tr><td rowspan=1 colspan=1>R</td><td rowspan=1 colspan=1>Don vi/vai tro chiu trach nhiém thuc hien hoat dong</td></tr><tr><td rowspan=1 colspan=1>S</td><td rowspan=1 colspan=1>Don vi/vai tro cung cáp nguon luc va hö tro thuc hien hoat dong</td></tr><tr><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>Don vi/vai tro cung cap thong tin va tu van hö trog truoc va trong quatrinh thuc hién hoat dong</td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=1> Don vi/vai tro duoc thong bao/cung cap thong tin sau khi hoat dongduoc thuc hién</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>1.</td>
+      <td>Đưa ra yêu cầu về tài nguyên lưu trữ</td>
+      <td>A/R</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>Đánh giá, phân tích các tiêu chí về công nghệ, chi phí, và khả năng làm chủ công nghệ</td>
+      <td>I</td>
+      <td>A/R</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>Thẩm định và phê duyệt lựa chọn hạ tầng lưu trữ</td>
+      <td>R</td>
+      <td>A</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <td>4.</td>
+      <td>Đưa kết quả lựa chọn hạ tầng lưu trữ vào CTKT phần mềm</td>
+      <td>I</td>
+      <td>A/R</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
 
 # 6. Tiêu chí, chỉ số đánh giá việc thực hiện quy trình
 
-<table><tr><td rowspan=1 colspan=1>Miéu ta KPI</td><td rowspan=1 colspan=1>Cong thirc tinh: Ti lé tuan thu quy trinh = Tong so du an co bao cao luachon ha tang luu tri dung quy trinh truoc khi xay dung CTKT/ Tong sódu an.Cach tinh: Hang quy don vi chiu trach nhiem ra soat va lay só luong trénhé thóng dé tinh ti lé.</td></tr><tr><td rowspan=1 colspan=1>Muc dich KPI</td><td rowspan=1 colspan=1>Quan ly viéc tuan thu quy trinh.</td></tr><tr><td rowspan=1 colspan=1>NguongKPImuc tieu</td><td rowspan=1 colspan=1> &gt;=90% (Kiem tra thu nghiem sau 3 thang sau dó se dieu chinh nguongKPI theo thuc té)</td></tr><tr><td rowspan=1 colspan=1>Don vi chiutrachnhiémthuc hien KPI</td><td rowspan=1 colspan=1>DV QHDC</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Chữ viết tắt</td>
+      <td>Ý nghĩa</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>Đơn vị/vai trò chịụ trách nhiệm giải trình kết quả của hoạt động</td>
+    </tr>
+    <tr>
+      <td>R</td>
+      <td>Đơn vị/vai trò chịu trách nhiệm thực hiện hoạt động</td>
+    </tr>
+    <tr>
+      <td>S</td>
+      <td>Đơn vị/vai trò cung cấp nguồn lực và hỗ trợ thực hiện hoạt động</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>Đơn vị/vai trò cung cấp thông tin và tư vấn hỗ trợ trước và trong quá trình thực hiện hoạt động</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Đơn vị/vai trò được thông báo/cung cấp thông tin sau khi hoạt động được thực hiện</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Miêu tả KPI</td>
+      <td>Công thức tính: Tỉ lệ tuân thủ quy trình = Tổng số dự án có báo cáo lựa chọn hạ tầng lưu trữ đúng quy trình trước khi xây dựng CTKT/ Tổng số dự án. Cách tính: Hàng quý đơn vị chịu trách nhiệm rà soát và lấy số lượng trên hệ thống để tính tỉ lệ.</td>
+    </tr>
+    <tr>
+      <td>Mục đích KPI</td>
+      <td>Quản lý việc tuân thủ quy trình.</td>
+    </tr>
+    <tr>
+      <td>Ngưỡng KPI mục tiêu</td>
+      <td>>=90% (Kiểm tra thử nghiệm sau 3 tháng sau đó sẽ điều chỉnh ngưỡng KPI theo thực tế)</td>
+    </tr>
+    <tr>
+      <td>Đơn vị chịu trách nhiệm thực hiện KPI</td>
+      <td>ĐV QHĐC</td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-<table><tr><td>Don vi ra soat viéc thuc hien KPI</td><td>Bó phan Quan tri du liéu</td></tr></table>
 
 # 7. Phụ lục đính kèm
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Đơn vị rà soát việc thực hiện KPI</td>
+      <td>Bộ phận Quản trị dữ liệu</td>
+    </tr>
+  </tbody>
+</table>

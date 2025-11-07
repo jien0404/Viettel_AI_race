@@ -50,12 +50,166 @@ Thiết bị PMR dùng cho thoại tương tự (ETSI EN 300 296). Thiết bị 
 
 Quy định về mã HS của thiết bị vô tuyến di động mặt đất và thiết bị trung kế vô tuyến mặt đất
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>Ten sän phäm,QCVN</td><td rowspan=1 colspan=1>Ma s HS</td><td rowspan=1 colspan=1>hang hoa theoMa s6 HS Mo tä san pham, hang hoa</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Thiét bi vo tuyéndi dong mat datcó ang ten lien8517.14.00dung cho thoaituong tr(a)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Thiét bi vo tuyén cam tay c6 ang ten lién dungphuong thirc diéu ché góc trong cac nghiép vudi dong mat dat, hoat dong trong dai tan só votuyén tur 30 MHz dén 1 000 MHz voi cackhoäng cäch kénh la 12,5 kHz va 25 kHz, chuyéu cho thoai tuong tr (dién thoai cho mang</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>Tên sản phẩm, hàng hóa theo QCVN</td>
+      <td>Mã số HS Mô tả sản phẩm, hàng hóa</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Thiết bị vô tuyến di động mặt đất có ăng ten liền dùng cho thoại tương tự(a)</td>
+      <td>8517.14.00</td>
+      <td>Thiết bị vô tuyến cầm tay có ăng ten liền dùng phương thức điều chế góc trong các nghiệp vụ di động mặt đất, hoạt động trong dải tần số vô tuyến từ 30 MHz đến 1 000 MHz với các khoảng cách kênh là 12,5 kHz và 25 kHz, chủ yếu cho thoại tương tự (điện thoại cho mạng</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>khong day, khong phai dien thoai thong minh,khong phai b@ dien thoai huu tuyén voi diénthoai cam tay khong day).</td></tr><tr><td rowspan=3 colspan=1>2</td><td rowspan=3 colspan=1>Thiét bi vo tuyéndi dong mat datc6 ang ten roildung cho thoai8517.61.00tuong tur(a)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Cac thiet bi trong heé thong dieu ché goc sur dungtrong nghiep vu di dong mat dat, hoat dong taicác tan só vo tuyén giua 30 MHz va 1 000 MHz.có khoang cach kénh la 12,5 kHz va 25 kHzdung cho thoai trong tur (dien thoai cho mangkhong day, khong phai dien thoai thong minh,khong phai b@ dién thoai huu tuyén voi dienthoai cam tay khong day), bao góm:</td></tr><tr><td rowspan=1 colspan=1>8517.61.00</td><td rowspan=1 colspan=1>Thiét bi tram góc (BS) (có ó cäm ang ten);</td></tr><tr><td rowspan=1 colspan=1>8517.14.00</td><td rowspan=1 colspan=1>Tram di dong (c6 ó cam ang ten);May cam tay c6 ó cam ang ten; hoac khóng co cäm äng ten (thiét bi ang ten lien) nhung c6dau noi RF 50 Ω ben trong có dinh hoac tamthoi cho phep két noi dén cong ra cua may phatva cong vao cua may thu.</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Thiét bi vo tuyéndi dong mat datc6 ang ten liendung cho truyendulieu   (vathoai)(a)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Thiét bi vo tuyén di dong mat dat sur dung diéuché góc c6 duong bao khong doi, hoat dong odai tan só vo tuyén tur 30 MHz dén 1 GHz, voi8517.62.59cac khoang cach kenh 12,5 kHz va 25 kHz, baogóm thiét bi cäm tay vó tuyén só hoäc vo tuyénkét hop tuong tr/só dung ang ten lién dé truyénsó lieu va/hoac thoai.</td></tr><tr><td rowspan=3 colspan=1>4</td><td rowspan=3 colspan=1>Thiét bi vo tuyéndi dong mat datc6 ang ten roi8517.61.00dung cho truyéns    lieu   (vathoai)(a)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Thiét bi vo tuyén só va thiét bi két hop tuongtr/só c6 ang ten roi voi muc dich truyén só lieuva/hoac thoai, bao góm:</td></tr><tr><td rowspan=1 colspan=1>8517.61.00</td><td rowspan=1 colspan=1>Thiét bi tram góc (BS) (có ó cäm ang ten dugcsir dung ó vi tri co dinh);</td></tr><tr><td rowspan=1 colspan=1>8517.62.59</td><td rowspan=1 colspan=1>Tram di dong (có ó cäm ang ten thuong duocsu dung trén mot phuong tién van tai hoac nhum@t tram luu dong) hoac may cam tay voi mucdich truyén so lieu va/hoac thoai.</td></tr><tr><td rowspan=3 colspan=1>5</td><td rowspan=3 colspan=1>Thiét bi trung kévo tuyén dien matdat (TETRA) (a)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Thiét bi trung ké vo tuyén mat dat TETRA, baogom:</td></tr><tr><td rowspan=1 colspan=1>8517.61.00T</td><td rowspan=1 colspan=1>Thiet bi tram góc (BS);</td></tr><tr><td rowspan=1 colspan=1>8517.14.00</td><td rowspan=1 colspan=1>8517.14.00May dien thoai di dong (MS);</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>không dây, không phải điện thoại thông minh, không phải bộ điện thoại hữu tuyến với điện thoại cầm tay không dây).</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Thiết bị vô tuyến di động mặt đất có ăng ten rời dùng cho thoại tương tự(a)</td>
+      <td></td>
+      <td>Các thiết bị trong hệ thống điều chế góc sử dụng trong nghiệp vụ di động mặt đất, hoạt động tại các tần số vô tuyến giữa 30 MHz và 1 000 MHz, có khoảng cách kênh là 12,5 kHz và 25 kHz dùng cho thoại tương tự (điện thoại cho mạng không dây, không phải điện thoại thông minh, không phải bộ điện thoại hữu tuyến với điện thoại cầm tay không dây), bao gồm:</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.61.00 Thiết bị trạm gốc (BS) (có ổ cắm ăng ten);</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.14.00</td>
+      <td>Trạm di động (có ổ cắm ăng ten); Máy cầm tay có ổ cắm ăng ten; hoặc không có ổ cắm ăng ten (thiết bị ăng ten liền) nhưng có đầu nối RF 50 Ω bên trong cố định hoặc tạm thời cho phép kết nối đến cổng ra của máy phát và cổng vào của máy thu.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Thiết bị vô tuyến di động mặt đất có ăng ten liền dùng cho truyền dữ liệu (và thoại)(a)</td>
+      <td>8517.62.59</td>
+      <td>Thiết bị vô tuyến di động mặt đất sử dụng điều chế góc có đường bao không đổi, hoạt động ở dải tần số vô tuyến từ 30 MHz đến 1 GHz, với các khoảng cách kênh 12,5 kHz và 25 kHz, bao gồm thiết bị cầm tay vô tuyến số hoặc vô tuyến kết hợp tương tự/số dùng ăng ten liền để truyền số liệu và/hoặc thoại.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Thiết bị vô tuyến di động mặt đất có ăng ten rời dùng cho truyền số liệu (và thoại)(a)</td>
+      <td></td>
+      <td>Thiết bị vô tuyến số và thiết bị kết hợp tương tự/số có ăng ten rời với mục đích truyền số liệu và/hoặc thoại, bao gồm:</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.61.00</td>
+      <td>Thiết bị trạm gốc (BS) (có ổ cắm ăng ten được sử dụng ở vị trí cố định);</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.62.59</td>
+      <td>Trạm di động (có ổ cắm ăng ten thường được sử dụng trên một phương tiện vận tải hoặc như một trạm lưu động) hoặc máy cầm tay với mục đích truyền số liệu và/hoặc thoại.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Thiết bị trung kế vô tuyến điện mặt đất (TETRA) (a)</td>
+      <td></td>
+      <td>Thiết bị trung kế vô tuyến mặt đất TETRA, bao gồm:</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.61.00 Thiết bị trạm gốc (BS);</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.14.00 Máy điện thoại di động (MS);</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-
-
-<table><tr><td rowspan="3"></td><td></td><td>May dien thoai di dong - ché do trrc tiép (DM- MS); May dién thoai di dong - DW (DW-MS); Thiét bi lap - ché do truc tiép (DM-REP), khóng</td></tr><tr><td>8517.62.59</td><td>phai dien thoai; Thiét bi läp/cóng - ché do trrc tiép (DM- REP/GATE), khong phai dien thoai; Thiét bi läp - ché d@ trung ké (TMO-REP), khong phai dien thoai.</td></tr><tr><td>8517.62.59khong phai dien thoai;</td><td>Thiét bi cóng - ché do trrc tiép (DM-GATE), 8517.62.69Thiét bi co dong cua cac he thóng thong tin vo tuyén TETRA, khong phai dien thoai.</td></tr><tr><td colspan="4">(a) Khong äp dung doi voi loai thiét bi thong tin phong no.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>không dây, không phải điện thoại thông minh, không phải bộ điện thoại hữu tuyến với điện thoại cầm tay không dây).</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Thiết bị vô tuyến di động mặt đất có ăng ten rời dùng cho thoại tương tự(a)</td>
+      <td></td>
+      <td>Các thiết bị trong hệ thống điều chế góc sử dụng trong nghiệp vụ di động mặt đất, hoạt động tại các tần số vô tuyến giữa 30 MHz và 1 000 MHz, có khoảng cách kênh là 12,5 kHz và 25 kHz dùng cho thoại tương tự (điện thoại cho mạng không dây, không phải điện thoại thông minh, không phải bộ điện thoại hữu tuyến với điện thoại cầm tay không dây), bao gồm:</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.61.00 Thiết bị trạm gốc (BS) (có ổ cắm ăng ten);</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.14.00</td>
+      <td>Trạm di động (có ổ cắm ăng ten); Máy cầm tay có ổ cắm ăng ten; hoặc không có ổ cắm ăng ten (thiết bị ăng ten liền) nhưng có đầu nối RF 50 Ω bên trong cố định hoặc tạm thời cho phép kết nối đến cổng ra của máy phát và cổng vào của máy thu.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Thiết bị vô tuyến di động mặt đất có ăng ten liền dùng cho truyền dữ liệu (và thoại)(a)</td>
+      <td>8517.62.59</td>
+      <td>Thiết bị vô tuyến di động mặt đất sử dụng điều chế góc có đường bao không đổi, hoạt động ở dải tần số vô tuyến từ 30 MHz đến 1 GHz, với các khoảng cách kênh 12,5 kHz và 25 kHz, bao gồm thiết bị cầm tay vô tuyến số hoặc vô tuyến kết hợp tương tự/số dùng ăng ten liền để truyền số liệu và/hoặc thoại.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Thiết bị vô tuyến di động mặt đất có ăng ten rời dùng cho truyền số liệu (và thoại)(a)</td>
+      <td></td>
+      <td>Thiết bị vô tuyến số và thiết bị kết hợp tương tự/số có ăng ten rời với mục đích truyền số liệu và/hoặc thoại, bao gồm:</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.61.00</td>
+      <td>Thiết bị trạm gốc (BS) (có ổ cắm ăng ten được sử dụng ở vị trí cố định);</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.62.59</td>
+      <td>Trạm di động (có ổ cắm ăng ten thường được sử dụng trên một phương tiện vận tải hoặc như một trạm lưu động) hoặc máy cầm tay với mục đích truyền số liệu và/hoặc thoại.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Thiết bị trung kế vô tuyến điện mặt đất (TETRA) (a)</td>
+      <td></td>
+      <td>Thiết bị trung kế vô tuyến mặt đất TETRA, bao gồm:</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.61.00 Thiết bị trạm gốc (BS);</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>8517.14.00 Máy điện thoại di động (MS);</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

@@ -25,15 +25,174 @@ $^ +$ Có thể sửa đổi được(O): Đây là các chỉ tiêu dạng tùy
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=1>HANG MUC</td><td rowspan=2 colspan=1>YEU CAU</td><td rowspan=2 colspan=1>TIEU CHI DANH GIA</td><td rowspan=2 colspan=1>SUADOI</td></tr><tr></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Loai dong co</td><td rowspan=1 colspan=1>Diesel,≥ 6 xilanh, turbo tang ap, 4 ky,lam matchat long. Hoac dong co dien cho cong suat tuong ung.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Tong thé tich cong tac buongdot</td><td rowspan=1 colspan=1> ≥ 9960 cc hoac cho cong suat tuong duong néu xe sir dung dong co dien.</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cac yéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Cong s6 lon nhat/toc d vongquay</td><td rowspan=1 colspan=1>≥ 309/1800 KW/rpm</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cac yéu cau hoac Khong c6 tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1> Kich thuoc tóng thé (D x R xC</td><td rowspan=1 colspan=1>≤ 7000 x 2500 x 3750 mm.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Cong thurc bänh xe</td><td rowspan=1 colspan=1>≥6x4</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cäu va c6tai lieu ky thuat thé hién sur Dap ung.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>S6 nguoi cho phep cho</td><td rowspan=1 colspan=1>≥ 2 nguoi</td><td rowspan=1 colspan=1> - Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat the hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Loại động cơ</td>
+      <td>Diesel, ≥ 6 xilanh, turbo tăng áp, 4 kỳ, làm mát chất lỏng. Hoặc động cơ điện cho công suất tương ứng.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tổng thể tích công tác buồng đốt</td>
+      <td>≥ 9960 cc hoặc cho công suất tương đương nếu xe sử dụng động cơ điện.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Công số lớn nhất/tốc độ vòng quay</td>
+      <td>≥ 309/1800 KW/rpm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Kích thước tổng thể (D x R x C)</td>
+      <td>≤ 7000 x 2500 x 3750 mm.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Công thức bánh xe</td>
+      <td>≥ 6 x 4</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Số người cho phép chở</td>
+      <td>≥ 2 người</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong co tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Lop xe</td><td rowspan=1 colspan=1> ≥ 12R22.5/12R22.5 hoac loai lóp dap ing tinhtoan thiet ké</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai liéu ky thuatthe hien sur Dap ung.</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1> Hé thóng phanh truoc sau</td><td rowspan=1 colspan=1>Dän dong khi nen, tang tróng hoac loai phanh c6 tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat cä cac yéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1> Phanh tay</td><td rowspan=1 colspan=1>Lóc ke hoac phanh c6 tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat cä cacyéu cau hoac Khong co tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>He thong lai</td><td rowspan=1 colspan=1>Truc vit é cu bi, co khi, tro luc thuy lrc hoäché thóng cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung. - Khong Dat: Khong Dap ung tat ca cac yeu cau hoac Khong c6 tai lieu ky thuatthé hien su Dap ing.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1> Khoang cach truc</td><td rowspan=1 colspan=1>≤3300 +1350 mm</td><td rowspan=1 colspan=1>- Dat: Dap üng tat cä cac yéu cäu va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat cä cac</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Lốp xe</td>
+      <td>≥ 12R22.5/12R22.5 hoặc loại lốp đáp ứng tính toán thiết kế</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Hệ thống phanh trước sau</td>
+      <td>Dẫn động khí nén, tang trống hoặc loại phanh có tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Phanh tay</td>
+      <td>Lốc kê hoặc phanh có tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Hệ thống lái</td>
+      <td>Trục vít ê cu bi, cơ khí, trợ lực thuỷ lực hoặc hệ thống cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Khoảng cách trục</td>
+      <td>≤ 3300 + 1350 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1> Tieu chuan khi thai</td><td rowspan=1 colspan=1>≥Euro 5</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va cótai lieu ky thuat thé hien sur Dap ung.-Khong Dat: Khong Dap ung tat cä cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1> Nam san xuat</td><td rowspan=1 colspan=1> 2025 hoac 6 thang tur ngay ky hop dong.</td><td rowspan=1 colspan=1> Dat: Dap ung tat ca cac yéu cau va cotai lieu ky thuat thé́ hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong c6 tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1> Khoi luong ban than</td><td rowspan=1 colspan=1>≥ 8800Kg</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ing. - Khong Dat: Khong Dap irng tat ca cacyeu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Toc do toi da</td><td rowspan=1 colspan=1>≥ 100 Km/h</td><td rowspan=1 colspan=1>- Dat: Dap üng tat cä cac yéu cau va c6tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Thung nhien lieu</td><td rowspan=1 colspan=1> ≥ 350 lit hoac khong có thung nhien lieu néu la xe dien.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va cotai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Tiêu chuẩn khí thải</td>
+      <td>≥ Euro 5</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Năm sản xuất</td>
+      <td>2025 hoặc 6 tháng từ ngày ký hợp đồng.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Khối lượng bản thân</td>
+      <td>≥ 8800 Kg</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Tốc độ tối đa</td>
+      <td>≥ 100 Km/h</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Thùng nhiên liệu</td>
+      <td>≥ 350 lít hoặc không có thùng nhiên liệu nếu là xe điện.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -43,11 +202,110 @@ $^ +$ Có thể sửa đổi được(O): Đây là các chỉ tiêu dạng tùy
 
 3.2 CHỈ TIÊU KỸ THUẬT: xe rơ mooc   
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Kich thuoc tong thé (dai xrong x cao)</td><td rowspan=1 colspan=1> ≤ 20,000 x 2,500 x 4,000 mm (dap ung theoyéu cau dang kiém)</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Khoang sang gam xe</td><td rowspan=1 colspan=1>≥ 120 mm.</td><td rowspan=1 colspan=1>- Dat: Dap img tat ca cac yeu cau va c6 tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Khói luong cho hang chophep</td><td rowspan=1 colspan=1>≥ 32.000 kg.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va c6tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai liéu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Dam chinh</td><td rowspan=1 colspan=1>Thep Q345B/SM490YA hoac vat lieu cho tinhnang tuong tu.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoäc Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Tai trong 1 truc</td><td rowspan=1 colspan=1>≥ 10 tan</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Kích thước tổng thể (dài x rộng x cao)</td>
+      <td>≤ 20,000 x 2,500 x 4,000 mm (đáp ứng theo yêu cầu đăng kiểm)</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Khoảng sáng gầm xe</td>
+      <td>≥ 120 mm.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Khối lượng chở hàng cho phép</td>
+      <td>≥ 32.000 kg.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Dầm chính</td>
+      <td>Thép Q345B/SM490YA hoặc vật liệu cho tính năng tương tự.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Tải trọng 1 trục</td>
+      <td>≥ 10 tấn</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1> S6 luong truc</td><td rowspan=1 colspan=1>Cum truc 3.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va c6 tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap irng tat ca cacyéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Chot khoa container</td><td rowspan=1 colspan=1>≤12 chót (4 chót co dinh cho container 45ft, cacchót con lai di dong dé cho phép gan dugccontainer 40ft, 20ft).</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong co tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Ch6t keo</td><td rowspan=1 colspan=1> ≥ 2&quot; (050),lien két bu long dé c6 thé thao doi.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Chan chong</td><td rowspan=1 colspan=1>Tai trong keo ngang ≥28 tan, tai trong tinh ≥80 tan.</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Hé thong treo</td><td rowspan=1 colspan=1> Nhip 7 la hoac hé thong cho tinh nang tuongduong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>He thong phanh</td><td rowspan=1 colspan=1>- Néu sir dung phanh khi nen thi he thóngphanh chinh phai có hai luong chia hoi doc lap</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ing.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Số lượng trục</td>
+      <td>Cụm trục 3.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Chốt khóa container</td>
+      <td>≤12 chốt (4 chốt cố định cho container 45ft, các chốt còn lại di động để cho phép gắn được container 40ft, 20ft).</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Chốt kéo</td>
+      <td>≥ 2" (Ø50), liên kết bu lông để có thể tháo dời.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Chân chống</td>
+      <td>Tải trọng kéo ngang ≥28 tấn, tải trọng tĩnh ≥ 80 tấn.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Hệ thống treo</td>
+      <td>Nhíp 7 lá hoặc hệ thống cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Hệ thống phanh</td>
+      <td>- Nếu sử dụng phanh khí nén thì hệ thống phanh chính phải có hai luồng chia hơi độc lập</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -55,23 +313,246 @@ $^ +$ Có thể sửa đổi được(O): Đây là các chỉ tiêu dạng tùy
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Thung chua dung cu</td><td rowspan=1 colspan=1>C6</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va c6 tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap irng tat ca cacyéu cäu hoac Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1> Tam phan quang</td><td rowspan=1 colspan=1> Xe phai duoc trang bi tam phan quang mau dophia sau (khong phai la hinh tam giac).</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap irng tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>Trang bi tieu chuan</td><td rowspan=1 colspan=1>Trang bi camera va thiét bi giam sat hanh trinhdap umg CHi TIEU KY THUAT cua VTPostva yéu cau dang kiém, quy dinh phap luat.</td><td rowspan=1 colspan=1>- Dat: Dap urng tat cä cac yéu cau va cotai lieu ky thuat thé hien su Dap ung.- Khóng Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>Thoi gian giao hang</td><td rowspan=1 colspan=1>Giao xe trong 6 thang ké tir ngay ky hop dongva lam cac thu tuc dang ky dé luu hanh xe theo tién do quy dinh cua phap luat.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong co tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1> Quy dinh dang kiém</td><td rowspan=1 colspan=1>Dap ing cac yéu cäu cua phap luat truoc khiban giao van hanh.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat cä cac yéu cau va cótai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>Bao hanh toan b@ xe</td><td rowspan=1 colspan=1>Toi thieu 2 nam hoac quang duong di duoc250.000 Km</td><td rowspan=1 colspan=1>- Dat: Dap ing tat cä cac yéu cau va có tai lieu ky thuat thé hien sur Dap ing.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Thùng chứa dụng cụ</td>
+      <td>Có</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Tấm phản quang</td>
+      <td>Xe phải được trang bị tấm phản quang màu đỏ phía sau (không phải là hình tam giác).</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Trang bị tiêu chuẩn</td>
+      <td>Trang bị camera và thiết bị giám sát hành trình đáp ứng CHỈ TIÊU KỸ THUẬT của VTPost và yêu cầu đăng kiểm, quy định pháp luật.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Thời gian giao hàng</td>
+      <td>Giao xe trong 6 tháng kể từ ngày ký hợp đồng và làm các thủ tục đăng ký để lưu hành xe theo tiến độ quy định của pháp luật.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Quy định đăng kiểm</td>
+      <td>Đáp ứng các yêu cầu của pháp luật trước khi bàn giao vận hành.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Bảo hành toàn bộ xe</td>
+      <td>Tối thiểu 2 năm hoặc quãng đường đi được 250.000 Km</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap ung tat ca cac yeu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 3.3 CHỈ TIÊU KỸ THUẬT: xe 18-20 Tấn  
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=4>Thong so ky thuat xe co&#x27; so</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Loai dong co</td><td rowspan=1 colspan=1>Diesel, ≥ 6 xilanh, turbo tang áp, 4 ky, lam matbang chat long. Hoac dong co dien cho cong suat tuong ing.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap ung tat cä cacyéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Tóng thé tich cong tac buongdt</td><td rowspan=1 colspan=1> ≥ 9960 cc hoac cho cong suat tuong duong néu xe su dung dong co dien.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat cä cacyéu cau hoac Khong c6 tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Cong suat lon nhat/tóc d@ vong quay</td><td rowspan=1 colspan=1>≥ 280/1900 KW/rpm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap ung tat cä cacyéu cäu hoac Khong có tai liéu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Kich thuoc tong thé</td><td rowspan=1 colspan=1>≤ 13000 x 2500 x 3750 mm</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien sur Dap ung.</td><td rowspan=1 colspan=1>0</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Thông số kỹ thuật xe cơ sở</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Loại động cơ</td>
+      <td>Diesel, ≥ 6 xilanh, turbo tăng áp, 4 kỳ, làm mát bằng chất lỏng. Hoặc động cơ điện cho công suất tương ứng.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tổng thể tích công tác buồng đốt</td>
+      <td>≥ 9960 cc hoặc cho công suất tương đương nếu xe sử dụng động cơ điện.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Công suất lớn nhất/tốc độ vòng quay</td>
+      <td>≥ 280/1900 KW/rpm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Kích thước tổng thể</td>
+      <td>≤ 13000 x 2500 x 3750 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>O</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap ing tat ca cacyéu cau hoäc Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Cong thurc banh xe</td><td rowspan=1 colspan=1>≥8x4</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap üng tat ca cacyeu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1> S6 nguoi cho phep cho</td><td rowspan=1 colspan=1>≥ 2 nguoi</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yeu cau va co tai lieu ky thuat thé hién sur Dap ung. - Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai liéu ky thuat thé hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>L6p xe</td><td rowspan=1 colspan=1>12R22.5/12R22.5 hoac lóp cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va c6tai lieu ky thuat thé hien sur Dap ung. - Khong Dat: Khong Dap ing tat ca cacyéu cau hoäc Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Hé thóng phanh truoc sau</td><td rowspan=1 colspan=1>Dän dong khi nen, tang tróng hoac he thóngcho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ing tat ca cac yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1> Phanh tay</td><td rowspan=1 colspan=1>Khi nén,lo xo tich nang toi cac bau phanh hoäché thóng cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Däp ung tat cä cac yéu cau va có tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cac</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Công thức bánh xe</td>
+      <td>≥ 8 x 4</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Số người cho phép chở</td>
+      <td>≥ 2 người</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Lốp xe</td>
+      <td>12R22.5/12R22.5 hoặc lốp cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Hệ thống phanh trước sau</td>
+      <td>Dẫn động khí nén, tang trống hoặc hệ thống cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Phanh tay</td>
+      <td>Khí nén, lò xo tích năng tới các bầu phanh hoặc hệ thống cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>He thong lai</td><td rowspan=1 colspan=1>Truc vit é cu bi, co khi, tro luc thuy lrc hoäché thong cho tinh nang tuong duong.</td><td rowspan=1 colspan=1> Dat: Dap ung tat ca cac yéu cau va co tai lieu ky thuat thé hien sur Dap ing. - Khong Dat: Khong Dap ing tat ca cac yéu cau hoac Khong có tai lieu ky thuatthé hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Chiéu dai co só</td><td rowspan=1 colspan=1>7.850 (1.700+4.850+1.300) mm</td><td rowspan=1 colspan=1> Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien sur Dap ung.-Khong Dat: Khong Dap ung tat cä cacyéu cau hoac Khong có tai liéu ky thuatthe hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Tieu chuan khi thai</td><td rowspan=1 colspan=1>≥ Euro 5</td><td rowspan=1 colspan=1>- Dat: Dáp ung tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1> Nam san xuat</td><td rowspan=1 colspan=1>2025 hoac 6 thang tur khi ky hop dong.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ung. - Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong c6 tai lieu ky thuatthé hien su Dap ing.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Trang bi tieu chuan</td><td rowspan=1 colspan=1>Trang bi camera va thiet bi giam sat hanh trinhdap ung CHi TIEU KY THUAT cua VTPostva yéu cau dang kiém, quy dinh phap luat.Giuong nam, khoang dé dó, may lanh, kinhmót cham, radio, mp3, AUX, do nghé, ≥ 02</td><td rowspan=1 colspan=1>- Dat: Dáp ung tat ca cac yéu cau va có tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong c6 tai lieu ky thuatthé hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Hệ thống lái</td>
+      <td>Trục vít ê cu bi, cơ khí, trợ lực thuỷ lực hoặc hệ thống cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Chiều dài cơ sở</td>
+      <td>7.850 (1.700+4.850+1.300) mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Tiêu chuẩn khí thải</td>
+      <td>≥ Euro 5</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Năm sản xuất</td>
+      <td>2025 hoặc 6 tháng từ khi ký hợp đồng.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Trang bị tiêu chuẩn</td>
+      <td>Trang bị camera và thiết bị giám sát hành trình đáp ứng CHỈ TIÊU KỸ THUẬT của VTPost và yêu cầu đăng kiểm, quy định pháp luật. Giường nằm, khoang để đồ, máy lạnh, kính một chạm, radio, mp3, AUX, đồ nghề, ≥ 02</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -79,39 +560,579 @@ $^ +$ Có thể sửa đổi được(O): Đây là các chỉ tiêu dạng tùy
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap ing tat ca cacyeu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=2> Kich thuoc long xe (D x Rx C)</td><td rowspan=1 colspan=1>9600 x 2350 x 2320 mm ± 10%</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai liéu ky thuatthé hien su Dap ing.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=4 colspan=1> San thung</td><td rowspan=1 colspan=1>Dam doc</td><td rowspan=1 colspan=1>Thép CT3, U140 (duc) hoac vat lieu va két cáucho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Dam ngang</td><td rowspan=1 colspan=1>Thép CT3, U100 (duc) hoäc vat lieu va két caudam bao tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap üng tat ca cac yéu cau va c6tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Ke lien két</td><td rowspan=1 colspan=1>Thép CT3, V30</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Trai san</td><td rowspan=1 colspan=1>Inox 430, day 3 ± 1 mm hoäc vat lieu có tinhnang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ing. - Khong Dat: Khong Dap ung tat ca cac</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Kích thước lòng xe (D x R x C)</td>
+      <td></td>
+      <td>9600 x 2350 x 2320 mm ± 10%</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Sàn thùng</td>
+      <td>Dầm dọc</td>
+      <td>Thép CT3, U140 (đúc) hoặc vật liệu và kết cấu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td></td>
+      <td>Dầm ngang</td>
+      <td>Thép CT3, U100 (đúc) hoặc vật liệu và kết cấu đảm bảo tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td></td>
+      <td>Ke liên kết</td>
+      <td>Thép CT3, V30</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td></td>
+      <td>Trải sàn</td>
+      <td>Inox 430, dày 3 ± 1 mm hoặc vật liệu có tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=3 colspan=1>Thanh truroc</td><td rowspan=1 colspan=1>Khungxuong thanhtruoc</td><td rowspan=1 colspan=1>Ma kem， thép hóp []80 x 40 ± 5 mm[]40 x 40±5 mm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6 tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap irng tat ca cacyéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>BQc   ngoai thanh truoc</td><td rowspan=1 colspan=1> Ma kem, day 0.8 ±10% mm phäng</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6 tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong co tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Boc   trong thanh truoc</td><td rowspan=1 colspan=1> Ma kem, day 0.5 ± 10% mm phang.</td><td rowspan=1 colspan=1> Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong co tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=2 colspan=1>Thanh bén</td><td rowspan=1 colspan=1>Khungxuong thanhbén</td><td rowspan=1 colspan=1>Ma kem， thép hóp []80 x 40 ± 5 mm[]40 x 40 ± 5 mm</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6 tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cac yéu cau hoac Khong c6 tai lieu ky thuatthé hien su Dap ing.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Bao      santhung</td><td rowspan=1 colspan=1>Thép CT3, kich thuoc 3 ± 1 mm hoäc vät lieucho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ing.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Thành trước</td>
+      <td>Khung xương thành trước</td>
+      <td>Mạ kẽm, thép hộp []80 x 40 ± 5 mm []40 x 40 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td></td>
+      <td>Bọc ngoài thành trước</td>
+      <td>Mạ kẽm, dày 0.8 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td></td>
+      <td>Bọc trong thành trước</td>
+      <td>Mạ kẽm, dày 0.5 ± 10% mm phẳng.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Thành bên</td>
+      <td>Khung xương thành bên</td>
+      <td>Mạ kẽm, thép hộp []80 x 40 ± 5 mm []40 x 40 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td></td>
+      <td>Bao sàn thùng</td>
+      <td>Thép CT3, kích thước 3 ± 1 mm hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=2>HANG MUC</td><td rowspan=2 colspan=1>YEU CAU</td><td rowspan=2 colspan=1>TIEU CHI DANH GIA</td><td rowspan=2 colspan=1>SUADOI</td></tr><tr></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>Bocngoaithanh thung</td><td rowspan=1 colspan=1> Ma kem, kich thuoc 0.8 ± 10% mm phang</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cotai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Boctrongthanh thung</td><td rowspan=1 colspan=1> Ma kem, kich thuóc 0.5 ± 10% mm phäng</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>L6p xóp gitra</td><td rowspan=1 colspan=1>Day 40± 5 mm</td><td rowspan=1 colspan=1> - Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ing tat ca cacyeu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=3 colspan=1>Mang noc</td><td rowspan=1 colspan=1>Khung xuong noc</td><td rowspan=1 colspan=1>Ma kem,thép hóp []80 x 40 ± 5 mm[]40 x 40 ± 5 mm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cac yéu cau hoac Khong có tai liéu ky thuatthe hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Boc  ngoaimang noc</td><td rowspan=1 colspan=1> Ma kem, kich thuóc 0.8 ± 10% mm phäng</td><td rowspan=1 colspan=1> - Dat: Dáp irng tat ca cac yéu cäu va có tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Boc   trongmang noc</td><td rowspan=1 colspan=1> Ma kem, kich thuoc 0.5 ± 10% mm phang</td><td rowspan=1 colspan=1> - Dat: Dap ung tat ca cac yeu cau va c6tai lieu ky thuat the hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td></td>
+      <td>Bọc ngoài thành thùng</td>
+      <td>Mạ kẽm, kích thước 0.8 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td></td>
+      <td>Bọc trong thành thùng</td>
+      <td>Mạ kẽm, kích thước 0.5 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td></td>
+      <td>Lớp xốp giữa Dày 40 ± 5 mm</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Mảng nóc</td>
+      <td>Khung xương nóc</td>
+      <td>Mạ kẽm, thép hộp []80 x 40 ± 5 mm []40 x 40 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td></td>
+      <td>Bọc ngoài mảng nóc</td>
+      <td>Mạ kẽm, kích thước 0.8 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td></td>
+      <td>Bọc trong mảng nóc</td>
+      <td>Mạ kẽm, kích thước 0.5 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong co tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>Lóp xóp gitra</td><td rowspan=1 colspan=1>Day 40±5 mm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>19</td><td rowspan=3 colspan=1>Ve chan bun</td><td rowspan=1 colspan=1>Vé chan bun</td><td rowspan=1 colspan=1>Inox 430 mo, day 0.8 ± 10% mm hoäc vat lieucho tinh nang trong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ing tat ca cac yéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>Thanhlienket</td><td rowspan=1 colspan=1> Ma kem, tuyp phi 27.</td><td rowspan=1 colspan=1>Dat: Dap ing tat cä cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cac yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>Lien két véchan bun</td><td rowspan=1 colspan=1> Bu long M10 hoac vat liéu cho tinh nang tuongduong.</td><td rowspan=1 colspan=1> Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>Can hong</td><td rowspan=1 colspan=1>Lien két vechan bun</td><td rowspan=1 colspan=1>Bän vao xat xi bang bu long M12 dai óc kép hoac vat lieu cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va cotai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cac</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td></td>
+      <td>Lớp xốp giữa Dày 40 ± 5 mm</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Vè chắn bùn</td>
+      <td>Vè chắn bùn</td>
+      <td>Inox 430 mờ, dày 0.8 ± 10% mm hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td></td>
+      <td>Thanh liên kết</td>
+      <td>Mạ kẽm, tuýp phi 27.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td></td>
+      <td>Liên kết vè chắn bùn</td>
+      <td>Bu lông M10 hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Cản hông</td>
+      <td>Liên kết vè chắn bùn</td>
+      <td>Bắn vào xát xi bằng bu lông M12 đai ốc kép hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>yeu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>Thanh ngang</td><td rowspan=1 colspan=1>Ma kem, thép hóp []80 x 40 ± 5 mm[]40 x 40 ± 5 mm</td><td rowspan=1 colspan=1> Dat: Dap ung tat ca cac yéu cau va co tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ing tat cä cac24yeu cau hoac Khong có tai lieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>Thanh doc</td><td rowspan=1 colspan=1>Ma kem, []60 x 30± 5 mm</td><td rowspan=1 colspan=1> Dat: Dap ung tat cä cac yéu cau va có tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat cä cacyéu cau hoäc Khong co tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>25</td><td rowspan=3 colspan=1>Can duoi</td><td rowspan=1 colspan=1>Lien két</td><td rowspan=1 colspan=1>Bän vao xat xi bang bu long M12 dai óc képhoac co cau cho tinh nang tuong duong.</td><td rowspan=1 colspan=1> Dat: Dap ung tat cä cac yéu cau va c6 tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cac yéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>Thanh ngang</td><td rowspan=1 colspan=1>Thép CT3, U10 (duc) hoac vat liéu va két cau dam bao tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cac yéu cau hoac Khong c6 tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>Thanh doc</td><td rowspan=1 colspan=1>Thep CT3, U80 (duc) hoäc vat lieu va két caudam bao tinh nang tuong duong.</td><td rowspan=1 colspan=1> Dat: Dap ung tat cä cac yéu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ing.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td></td>
+      <td>Thanh ngang</td>
+      <td>Mạ kẽm, thép hộp []80 x 40 ± 5 mm []40 x 40 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các 24yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td></td>
+      <td>Thanh dọc</td>
+      <td>Mạ kẽm, []60 x 30 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Cản đuôi</td>
+      <td>Liên kết</td>
+      <td>Bắn vào xát xi bằng bu lông M12 đai ốc kép hoặc cơ cấu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td></td>
+      <td>Thanh ngang</td>
+      <td>Thép CT3, U100 (đúc) hoặc vật liệu và kết cấu đảm bảo tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td></td>
+      <td>Thanh dọc</td>
+      <td>Thép CT3, U80 (đúc) hoặc vật liệu và kết cấu đảm bảo tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=5 colspan=1>Lien     ketthung hangvoi sat xi</td><td rowspan=1 colspan=1>Cao su dém</td><td rowspan=1 colspan=1>Day 20 ± 5 mm.</td><td rowspan=1 colspan=1>- Dat: Dap img tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>Tam     noichong xó</td><td rowspan=1 colspan=1>Thép CT3, day 8 ± 1 mm hoäc vat lieu va két cau dam bao tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yeu cau va c6 tai lieu ky thuat thé hien su Dap irng.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>Bulonglienket tam noi</td><td rowspan=1 colspan=1> C45, M12 hoac loai dam bao chiu lurc tuongduong.</td><td rowspan=1 colspan=1> - Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong c6 tai lieu ky thuatthe hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>Bulonglienket chong x0</td><td rowspan=1 colspan=1> C45, M14 hoac loai dam bao chiu lrc tuongduong.</td><td rowspan=1 colspan=1>- Dat: Dap trng tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong co tai lieu ky thuatthe hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>Bulongquang</td><td rowspan=1 colspan=1>Phi 20 hoac loai dam bao chiu lrc tuongduong.</td><td rowspan=1 colspan=1>- Dat: Dap üng tat cä cac yéu cau va c6 tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>Cira hong</td><td rowspan=1 colspan=1>Quy cach</td><td rowspan=1 colspan=1>Toi thieu mo 2 cura hong moi beén, moi cia 2canh</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yeu cau va c6tai lieu ky thuat the hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Liên kết thùng hàng với sắt xi</td>
+      <td>Cao su đệm</td>
+      <td>Dày 20 ± 5 mm.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td></td>
+      <td>Tấm nối chống xô</td>
+      <td>Thép CT3, dày 8 ± 1 mm hoặc vật liệu và kết cấu đảm bảo tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td></td>
+      <td>Bulong liên kết tấm nối</td>
+      <td>C45, M12 hoặc loại đảm bảo chịu lực tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td></td>
+      <td>Bulong liên kết chống xô</td>
+      <td>C45, M14 hoặc loại đảm bảo chịu lực tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td></td>
+      <td>Bulong quang</td>
+      <td>Phi 20 hoặc loại đảm bảo chịu lực tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Cửa hông</td>
+      <td>Quy cách</td>
+      <td>Tối thiểu mở 2 cửa hông mỗi bên, mỗi cửa 2 cánh</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SU&#x27;ADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=6 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>Kichthuocchiéu rong lotlong moi curahong</td><td rowspan=1 colspan=1> Moi cira có chiéu rong lot long cia toi thieu2500± 50 mm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>Bocngoaicira hong</td><td rowspan=1 colspan=1> Ma kem, kich thuoc 0.8± 10% mm phäng hoacvat lieu cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va cotai lieu ky thuat thé hien sur Dap ing. - Khong Dat: Khong Dap irng tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>Boc trong</td><td rowspan=1 colspan=1>Ma kem, kich thuóc 0.5 ± 10% mm phang hoacvat lieu cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap üng tat ca cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>L6p xóp gitra</td><td rowspan=1 colspan=1> Day 20 ± 4 mm.</td><td rowspan=1 colspan=1>-Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ing. - Khong Dat: Khong Dap ung tat ca cac yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1> Xuongcurahau</td><td rowspan=1 colspan=1>Thép CT3, thép hop []40 x 20± 5 mm hoäc vatlieu, két cau cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap üng tat ca cac</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td></td>
+      <td>Kích thước chiều rộng lọt lòng mỗi cửa hông</td>
+      <td>Mỗi cửa có chiều rộng lọt lòng cửa tối thiểu 2500 ± 50 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td></td>
+      <td>Bọc ngoài cửa hông</td>
+      <td>Mạ kẽm, kích thước 0.8 ± 10% mm phẳng hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td></td>
+      <td>Bọc trong</td>
+      <td>Mạ kẽm, kích thước 0.5 ± 10% mm phẳng hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td></td>
+      <td>Lớp xốp giữa Dày 20 ± 4 mm.</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td></td>
+      <td>Xương cửa hậu</td>
+      <td>Thép CT3, thép hộp []40 x 20 ± 5 mm hoặc vật liệu, kết cấu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>Gioangcuahau</td><td rowspan=1 colspan=1>Cao su</td><td rowspan=1 colspan=1>Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat cä cacyéu cau hoäc Khong co tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>Tay   kh6a,ban 1e</td><td rowspan=1 colspan=1>Inox chong ri</td><td rowspan=1 colspan=1> Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat cä cacyéu cau hoäc Khong co tai lieu ky thuatthe hien su Dap ung</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>41</td><td rowspan=3 colspan=1>Cira hau</td><td rowspan=1 colspan=1>Quy cach</td><td rowspan=1 colspan=1>Mo 1 cua hau, 2 canh.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va cotai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyeu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>Boc  ngoaicira hong</td><td rowspan=1 colspan=1> Ma kem, 0.8± 10% mm phang</td><td rowspan=1 colspan=1>- Dat: Dap üng tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>43</td><td rowspan=1 colspan=1>Boc trong</td><td rowspan=1 colspan=1> Ma kem, 0.5 ± 10% mm phäng</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td></td>
+      <td>Gioăng cửa hậu</td>
+      <td>Cao su</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td></td>
+      <td>Tay khóa, bản lề</td>
+      <td>Inox chống rỉ</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Cửa hậu</td>
+      <td>Quy cách</td>
+      <td>Mở 1 cửa hậu, 2 cánh.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td></td>
+      <td>Bọc ngoài cửa hông</td>
+      <td>Mạ kẽm, 0.8 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td></td>
+      <td>Bọc trong</td>
+      <td>Mạ kẽm, 0.5 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>44</td><td rowspan=4 colspan=1></td><td rowspan=1 colspan=1>Lóp xóp gitra</td><td rowspan=1 colspan=1>Day 20±5mm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>45</td><td rowspan=1 colspan=1>Xuong cirahau</td><td rowspan=1 colspan=1> Ma kem, []40 x 20±5 mm</td><td rowspan=1 colspan=1>- Dat: Dap üng tat cä cac yéu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>46</td><td rowspan=1 colspan=1>Gioangcurahau</td><td rowspan=1 colspan=1>Cao su</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung. 47- Khong Dat: Khong Dap irng tat cacac yéu cau hoac Khong có tai liéu kythuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>47</td><td rowspan=1 colspan=1>Tay   kh6a,ban lé</td><td rowspan=1 colspan=1>Inox</td><td rowspan=1 colspan=1>- Dat: Dap ing tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=2>Den chiéu sang</td><td rowspan=1 colspan=1>Den bao kich thuóc cia truoc sau, den trantrong thung hang, den bao hai ben thung hang</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoäc Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=2>Yéu cau vé son</td><td rowspan=1 colspan=1>Phun bi lam sach bé mat, son nuoc 2 l6p. Hoaccong nghe cho chat luong tót hon.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td></td>
+      <td>Lớp xốp giữa Dày 20 ± 5 mm</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td></td>
+      <td>Xương cửa hậu</td>
+      <td>Mạ kẽm, []40 x 20 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td></td>
+      <td>Gioăng cửa hậu</td>
+      <td>Cao su</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. 47- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td></td>
+      <td>Tay khóa, bản lề</td>
+      <td>Inox</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>Đèn chiếu sáng</td>
+      <td></td>
+      <td>Đèn báo kích thước cửa trước sau, đèn trần trong thùng hàng, đèn báo hai bên thùng hàng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>Yêu cầu về sơn</td>
+      <td></td>
+      <td>Phun bi làm sạch bề mặt, sơn nước 2 lớp. Hoặc công nghệ cho chất lượng tốt hơn.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -121,11 +1142,117 @@ $^ +$ Có thể sửa đổi được(O): Đây là các chỉ tiêu dạng tùy
 
 3.4 CHỈ TIÊU KỸ THUẬT: xe tải trọng 1900kg (tải trọng cho phép tham gia giao thông từ 1.800kg - 2.000kg)
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=4>Thong só ky thuat xe co so</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Loai dong co</td><td rowspan=1 colspan=1>Diesel 4 ky, có tang áp, phun nhien lieu dien tir. Hoac dong co dien cho cong suat tuonging.</td><td rowspan=1 colspan=1>- Dat: Dap üng tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai liéu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Tong thé tich cong tac buongdot</td><td rowspan=1 colspan=1> 2.900 ÷ 3.000 cc hoac cho cong suat tuongduong néu xe sur dung dong co dien.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai liéu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Cong suat lon nhat/tóc d@vong quay</td><td rowspan=1 colspan=1>≥ 77KW/3.200 v/ph</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai liéu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Kich thuoc tóng thé</td><td rowspan=1 colspan=1>≤6.265 x 2.000 x 2.890 mm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va c6tai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoäc Khong có tai liéu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Cong thirc banh xe</td><td rowspan=1 colspan=1>≥4x2</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cac</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Thông số kỹ thuật xe cơ sở</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Loại động cơ</td>
+      <td>Diesel 4 kỳ, có tăng áp, phun nhiên liệu điện tử. Hoặc động cơ điện cho công suất tương ứng.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tổng thể tích công tác buồng đốt</td>
+      <td>2.900 ÷ 3.000 cc hoặc cho công suất tương đương nếu xe sử dụng động cơ điện.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Công suất lớn nhất/tốc độ vòng quay</td>
+      <td>≥ 77KW/3.200 v/ph</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Kích thước tổng thể</td>
+      <td>≤ 6.265 x 2.000 x 2.890 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Công thức bánh xe</td>
+      <td>≥ 4 x 2</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1> S6 nguoi cho phep cho</td><td rowspan=1 colspan=1>≥ 2 nguoi</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ing.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>L6p xe</td><td rowspan=1 colspan=1> 7.00-15 hoac lóp cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat cä cacyéu cau hoäc Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1> Hé thong phanh truoc sau</td><td rowspan=1 colspan=1>Tang tróng/ Thuy luc, tro luc chan khong hoäche thong cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1> Phanh tay</td><td rowspan=1 colspan=1>Tac dong len hé thong truyen luc hoac hé thóngcho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va cótai lieu ky thuat theé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong co tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>He thong lai</td><td rowspan=1 colspan=1>Truc vit é cu bi, co khi, trg luc thuy lurc hoäché thong cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va c6tai lieu ky thuat thé hien su Dap ing. - Khong Dat: Khong Dap ung tat ca cacyeu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Số người cho phép chở</td>
+      <td>≥ 2 người</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Lốp xe</td>
+      <td>7.00-15 hoặc lốp cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Hệ thống phanh trước sau</td>
+      <td>Tang trống/ Thủy lực, trợ lực chân không hoặc hệ thống cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Phanh tay</td>
+      <td>Tác động lên hệ thống truyền lực hoặc hệ thống cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Hệ thống lái</td>
+      <td>Trục vít ê cu bi, cơ khí, trợ lực thuỷ lực hoặc hệ thống cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -133,39 +1260,572 @@ $^ +$ Có thể sửa đổi được(O): Đây là các chỉ tiêu dạng tùy
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1> Thoi gian giao hang</td><td rowspan=1 colspan=1>Giao xe trong 6 thang ké tur ngay ky hop dongva lam cac thu tuc dang ky dé luu hanh xe theotien do quy dinh.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yeu cau va cótai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Quy dinh dang kiém</td><td rowspan=1 colspan=1>Dap ing cac yeu cau cua phap luat va dangkiem truoc khi ban giao van hanh.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai liéu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>Bao hanh xe</td><td rowspan=1 colspan=1>Tói thiéu 2 nam hoäc quang duong di duoc250.000 Km</td><td rowspan=1 colspan=1>- Dat: Dap irng tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ung. - Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>Ⅱ</td><td rowspan=1 colspan=4>Thong s6 ky thuat thung xe</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Trong tai hang hóa cho pheptham gia giao thong</td><td rowspan=1 colspan=1>1.900 kg ± 100 kg</td><td rowspan=1 colspan=1>- Dat: Dap ing tat cä cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1> Kich thuoc long xe (D x Rx C)</td><td rowspan=1 colspan=1>4.400 x 1.890 x 1.890 mm ± 5%</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6 tai lieu ky thuat thé hien sur Dap ing. - Khong Dat: Khong Dap ung tat ca cac</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Thời gian giao hàng</td>
+      <td>Giao xe trong 6 tháng kể từ ngày ký hợp đồng và làm các thủ tục đăng ký để lưu hành xe theo tiến độ quy định.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Quy định đăng kiểm</td>
+      <td>Đáp ứng các yêu cầu của pháp luật và đăng kiểm trước khi bàn giao vận hành.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Bảo hành xe</td>
+      <td>Tối thiểu 2 năm hoặc quãng đường đi được 250.000 Km</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>II</td>
+      <td>Thông số kỹ thuật thùng xe</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Trọng tải hàng hóa cho phép tham gia giao thông</td>
+      <td>1.900 kg + 100 kg</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Kích thước lòng xe (D x R x C)</td>
+      <td>4.400 x 1.890 x 1.890 mm ± 5%</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=4 colspan=1> San thung</td><td rowspan=1 colspan=1>Dam doc</td><td rowspan=1 colspan=1>Thep CT3, U100 (duc) hoac vat lieu va két caucho tinh nang tuong duong.</td><td rowspan=1 colspan=1>Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong co tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Dam ngang</td><td rowspan=1 colspan=1>Thep CT3, U80 (duc) hoac vat lieu va ket caudam bao tinh nang tuong duong.</td><td rowspan=1 colspan=1> Dat: Dap ung tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat cä cacyéu cau hoäc Khong co tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Ke lien két</td><td rowspan=1 colspan=1>Thép CT3, V30</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ing tat ca cacyeu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Trai san</td><td rowspan=1 colspan=1>Inox 430, day 3 ± 1 mm hoäc vät liéu có tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap urng tat cä cac yéu cau va cotai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Thanh truóc</td><td rowspan=1 colspan=1>Khungxuong thanhtrroc</td><td rowspan=1 colspan=1>Ma kem，thép hóp []80 x 40 ± 5 mm[]40 x 40± 5 mm</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va có tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Sàn thùng</td>
+      <td>Dầm dọc</td>
+      <td>Thép CT3, U100 (đúc) hoặc vật liệu và kết cấu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td></td>
+      <td>Dầm ngang</td>
+      <td>Thép CT3, U80 (đúc) hoặc vật liệu và kết cấu đảm bảo tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td></td>
+      <td>Ke liên kết</td>
+      <td>Thép CT3, V30</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td></td>
+      <td>Trải sàn</td>
+      <td>Inox 430, dày 3 ± 1 mm hoặc vật liệu có tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Thành trước</td>
+      <td>Khung xương thành trước</td>
+      <td>Mạ kẽm, thép hộp []80 x 40 ± 5 mm []40 x 40 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SU&#x27;ADOI</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1>Bocngoai thanh truoc</td><td rowspan=1 colspan=1>Ma kem, day 0.8 ± 10% mm phäng</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Boctrong thanh truoc</td><td rowspan=1 colspan=1> Ma kem, day 0.5± 10% mm phäng.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat cä cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=4 colspan=1>Thanh bén</td><td rowspan=1 colspan=1>Khung xuong thanhbén</td><td rowspan=1 colspan=1>Ma kém,thép hóp []80 x 40 ± 5 mm[]40 x 40 ± 5 mm</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap irng tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Bao     santhung</td><td rowspan=1 colspan=1> Thép CT3, kich thuóc 3 ± 1 mm hoäc vät liéu cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ing. - Khong Dat: Khong Dap tng tat ca cacyeu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Bocngoaithanh thung</td><td rowspan=1 colspan=1> Ma kem, kich thuoc 0.8 ± 10% mm phäng</td><td rowspan=1 colspan=1>- Dat: Dap ing tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Boc   trongthanh thung</td><td rowspan=1 colspan=1> Ma kem, kich thuoc 0.5 ± 10% mm phang</td><td rowspan=1 colspan=1> - Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td></td>
+      <td>Bọc ngoài thành trước</td>
+      <td>Mạ kẽm, dày 0.8 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td></td>
+      <td>Bọc trong thành trước</td>
+      <td>Mạ kẽm, dày 0.5 ± 10% mm phẳng.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Thành bên</td>
+      <td>Khung xương thành bên</td>
+      <td>Mạ kẽm, thép hộp []80 x 40 ± 5 mm []40 x 40 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td></td>
+      <td>Bao sàn thùng</td>
+      <td>Thép CT3, kích thước 3 ± 1 mm hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td></td>
+      <td>Bọc ngoài thành thùng</td>
+      <td>Mạ kẽm, kích thước 0.8 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td></td>
+      <td>Bọc trong thành thùng</td>
+      <td>Mạ kẽm, kích thước 0.5 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong co tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Lóp xóp gitra</td><td rowspan=1 colspan=1>Day 40±5 mm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=4 colspan=1>Mang nóc</td><td rowspan=1 colspan=1>Khung xuong noc</td><td rowspan=1 colspan=1>Ma kem,thép hóp []80 x 40 ± 5 mm[]40 x 40 ± 5 mm</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ing tat ca cac yéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Boc  ngoaimang noc</td><td rowspan=1 colspan=1> Ma kem, kich thuoc 0.8± 10% mm phang</td><td rowspan=1 colspan=1>Dat: Dap ing tat cä cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap üng tat ca cac yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>Boctrong mang noc</td><td rowspan=1 colspan=1> Ma kem, kich thuoc 0.5 ± 10% mm phang</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung. - Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ing.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>Lop xóp gitra</td><td rowspan=1 colspan=1>Day 40 ± 5 mm</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va cotai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap urng tat ca cac</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td></td>
+      <td>Lớp xốp giữa Dày 40 ± 5 mm</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Mảng nóc</td>
+      <td>Khung xương nóc</td>
+      <td>Mạ kẽm, thép hộp []80 x 40 ± 5 mm []40 x 40 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td></td>
+      <td>Bọc ngoài mảng nóc</td>
+      <td>Mạ kẽm, kích thước 0.8 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td></td>
+      <td>Bọc trong mảng nóc</td>
+      <td>Mạ kẽm, kích thước 0.5 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td></td>
+      <td>Lớp xốp giữa Dày 40 ± 5 mm</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>19</td><td rowspan=3 colspan=1>Ve chan bun</td><td rowspan=1 colspan=1>Ve chan bun</td><td rowspan=1 colspan=1> Inox 430 mo, day 0.8 ± 10% mm hoäc vät lieucho tinh nang tuong duong.</td><td rowspan=1 colspan=1>Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoäc Khong co tai lieu ky thuatthe hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>Thanh  lienket</td><td rowspan=1 colspan=1>Ma kem, tuyp phi 27.</td><td rowspan=1 colspan=1> Dat: Dap ung tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat cä cacyéu cau hoäc Khong co tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>Lien két vechan bun</td><td rowspan=1 colspan=1> Bu long M10 hoac vat lieu cho tinh nang tuongduong.</td><td rowspan=1 colspan=1> Dat: Dap ung tat ca cac yéu cau va c6tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>22</td><td rowspan=2 colspan=1>Can hong</td><td rowspan=1 colspan=1>Lien két vechan bun</td><td rowspan=1 colspan=1>Bän vao xat xi bang bu long M12 dai óc kép hoac vat lieu cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ing tat ca cac yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>Thanh ngang</td><td rowspan=1 colspan=1>Ma kem,thép hóp []80 x 40 ± 5 mm[]40 x 40± 5 mm</td><td rowspan=1 colspan=1>- Dat: Dap ung tat cä cac yéu cau va có tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cac24yéu cau hoac Khong có tai lieu kythuat the hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Vè chắn bùn</td>
+      <td>Vè chắn bùn</td>
+      <td>Inox 430 mờ, dày 0.8 ± 10% mm hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td></td>
+      <td>Thanh liên kết</td>
+      <td>Mạ kẽm, tuýp phi 27.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td></td>
+      <td>Liên kết vè chắn bùn</td>
+      <td>Bu lông M10 hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Cản hông</td>
+      <td>Liên kết vè chắn bùn</td>
+      <td>Bắn vào xát xi bằng bu lông M12 đai ốc kép hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td></td>
+      <td>Thanh ngang</td>
+      <td>Mạ kẽm, thép hộp []80 x 40 ± 5 mm []40 x 40 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các 24yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Thanh doc</td><td rowspan=1 colspan=1>Ma kem,[]60 x 30± 5 mm</td><td rowspan=1 colspan=1>- Dat: Dap trng tat ca cac yéu cau va c6 tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>25</td><td rowspan=3 colspan=1>Can duoi</td><td rowspan=1 colspan=1>Lien két</td><td rowspan=1 colspan=1>Bän vao xat xi bang bu long M12 dai óc képhoac co cáu cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>Thanh ngang</td><td rowspan=1 colspan=1>Thép CT3, U100 (duc) hoäc vat liéu va két caudam bao tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va c6tai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>Thanh doc</td><td rowspan=1 colspan=1>Thép CT3, U80 (duc) hoac vat lieu va két caudam bao tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>28</td><td rowspan=2 colspan=1>Lien     ketthunghangvoi sat xi</td><td rowspan=1 colspan=1> Cao su dém</td><td rowspan=1 colspan=1>Day 20± 5 mm.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>Tam     noich6ng x6</td><td rowspan=1 colspan=1>Thép CT3, day 8 ± 1 mm hoäc vat lieu va kétcau dam bao tinh nang tuong duong.</td><td rowspan=1 colspan=1> - Dat: Dap ing tat ca cac yéu cau va c6tai lieu ky thuat thé hien sur Dap tng.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td></td>
+      <td>Thanh dọc</td>
+      <td>Mạ kẽm, []60 x 30 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Cản đuôi</td>
+      <td>Liên kết</td>
+      <td>Bắn vào xát xi bằng bu lông M12 đai ốc kép hoặc cơ cấu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td></td>
+      <td>Thanh ngang</td>
+      <td>Thép CT3, U100 (đúc) hoặc vật liệu và kết cấu đảm bảo tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td></td>
+      <td>Thanh dọc</td>
+      <td>Thép CT3, U80 (đúc) hoặc vật liệu và kết cấu đảm bảo tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Liên kết thùng hàng với sắt xi</td>
+      <td>Cao su đệm</td>
+      <td>Dày 20 ± 5 mm.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td></td>
+      <td>Tấm nối chống xô</td>
+      <td>Thép CT3, dày 8 ± 1 mm hoặc vật liệu và kết cấu đảm bảo tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=4 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>- Khong Dat: Khong Dap tng tat ca cacyéu cau hoac Khong co tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>Bulonglienket tam noi</td><td rowspan=1 colspan=1> C45, M12 hoac loai dam bao chiu luc tuongduong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat cä cac yéu cau va có tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoäc Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>Bulonglienket chong x6</td><td rowspan=1 colspan=1> C45, M14 hoäc loai dam bao chiu luc tuongduong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ing tat ca cacyeu cau hoac Khong c6 tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>Bulongquang</td><td rowspan=1 colspan=1> Phi 20 hoäc loai dam bao chiu luc tuongduong.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat ca cac yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>33</td><td rowspan=2 colspan=1>Cira hong</td><td rowspan=1 colspan=1>Quy cach</td><td rowspan=1 colspan=1> Toi thiéu mo 1 cia hong moi bén, moi cura 2canh</td><td rowspan=1 colspan=1>- Dat: Dap ing tat cä cac yéu cau va co tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>Kichthuócchiéu rong lotlong moi curahong</td><td rowspan=1 colspan=1> Mi cira c6 chiéu rong lot long cura tói thiéu1500 ± 50 mm.</td><td rowspan=1 colspan=1>- Dat: Dap irng tat ca cac yéu cau va c6tai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap irng tat cä cac</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>- Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td></td>
+      <td>Bulong liên kết tấm nối</td>
+      <td>C45, M12 hoặc loại đảm bảo chịu lực tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td></td>
+      <td>Bulong liên kết chống xô</td>
+      <td>C45, M14 hoặc loại đảm bảo chịu lực tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td></td>
+      <td>Bulong quang</td>
+      <td>Phi 20 hoặc loại đảm bảo chịu lực tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Cửa hông</td>
+      <td>Quy cách</td>
+      <td>Tối thiểu mở 1 cửa hông mỗi bên, mỗi cửa 2 cánh</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td></td>
+      <td>Kích thước chiều rộng lọt lòng mỗi cửa hông</td>
+      <td>Mỗi cửa có chiều rộng lọt lòng cửa tối thiểu 1500 ± 50 mm.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>TT</td><td rowspan=2 colspan=2>HANG MUC</td><td rowspan=2 colspan=1>YEU CAU</td><td rowspan=2 colspan=1>TIEU CHI DANH GIA</td><td rowspan=2 colspan=1>SUADOI</td></tr><tr></tr><tr><td rowspan=1 colspan=1></td><td rowspan=6 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>yéu cau hoac Khong c6 tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>BQc  ngoaicura hong</td><td rowspan=1 colspan=1>Ma kem, kich thuoc 0.8 ± 10% mm phang hoäc vat lieu cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap tng tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>Boc trong</td><td rowspan=1 colspan=1>Ma kem,kich thuoc 0.5± 10% mm phang hoäcvat lieu cho tinh nang tuong duong.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ing tat ca cac yéu cau hoac Khong có tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>L6p xóp gitra</td><td rowspan=1 colspan=1>Day 20 ± 4 mm.</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va cótai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap ung tat cä cac yéu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1> Xuong  cuahau</td><td rowspan=1 colspan=1>Thép CT3, thép hop []40 x 20± 5 mm hoäc vatlieu, két cau cho tinh nang tuong duong.</td><td rowspan=1 colspan=1> Dat: Dap ung tat cä cac yéu cau va cótai lieu ky thuat thé hien su Dap ing.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong c6 tai lieu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>Gioangcuahau</td><td rowspan=1 colspan=1>Cao su</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ung.- Khong Dat: Khong Dap irng tat ca cacyeu cau hoac Khong có tai lieu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td></td>
+      <td>Bọc ngoài cửa hông</td>
+      <td>Mạ kẽm, kích thước 0.8 ± 10% mm phẳng hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td></td>
+      <td>Bọc trong</td>
+      <td>Mạ kẽm, kích thước 0.5 ± 10% mm phẳng hoặc vật liệu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td></td>
+      <td>Lớp xốp giữa Dày 20 ± 4 mm.</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td></td>
+      <td>Xương cửa hậu</td>
+      <td>Thép CT3, thép hộp []40 x 20 ± 5 mm hoặc vật liệu, kết cấu cho tính năng tương đương.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td></td>
+      <td>Gioăng cửa hậu</td>
+      <td>Cao su</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=2>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUADOI</td></tr><tr><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Tay   kh6a,ban lé</td><td rowspan=1 colspan=1>Inox chóng ri</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yeu cau va c6tai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap irng tat ca cacyéu cau hoac Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>41</td><td rowspan=5 colspan=1>Cira hau</td><td rowspan=1 colspan=1>Quy cach</td><td rowspan=1 colspan=1>Mo 1 cira hau, 2 canh.</td><td rowspan=1 colspan=1>- Dat: Dap ung tat ca cac yéu cau va cotai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap ing tat ca cacyéu cau hoac Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>Boc1ngoaicura hong</td><td rowspan=1 colspan=1> Ma kem, 0.8 ± 10% mm phäng</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va c6tai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat ca cacyéu cau hoac Khong có tai liéu ky thuatthe hien sur Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>43</td><td rowspan=1 colspan=1>Boc trong</td><td rowspan=1 colspan=1> Ma kem, 0.5 ± 10% mm phang</td><td rowspan=1 colspan=1>- Dat: Dap ing tat ca cac yéu cau va c6tai lieu ky thuat thé hien sur Dap ung.- Khong Dat: Khong Dap üng tat cä cacyéu cau hoac Khong có tai liéu ky thuatthé hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>Lop xóp gitra</td><td rowspan=1 colspan=1>Day 20± 5 mm</td><td rowspan=1 colspan=1>- Dat: Dap üng tat cä cac yéu cau va cótai lieu ky thuat thé hien sur Dap ing.- Khong Dat: Khong Dap ung tat caä cacyéu cau hoac Khong có tai liéu ky thuatthe hien su Dap ung.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>45</td><td rowspan=1 colspan=1>Xuong curahau</td><td rowspan=1 colspan=1>Ma kem, []40 x 20± 5 mm</td><td rowspan=1 colspan=1> - Dat: Dap img tat ca cac yeu cau va c6tai lieu ky thuat thé hien su Dap ing.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td></td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td></td>
+      <td>Tay khóa, bản lề</td>
+      <td>Inox chống rỉ</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Cửa hậu</td>
+      <td>Quy cách</td>
+      <td>Mở 1 cửa hậu, 2 cánh.</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td></td>
+      <td>Bọc ngoài cửa hông</td>
+      <td>Mạ kẽm, 0.8 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td></td>
+      <td>Bọc trong</td>
+      <td>Mạ kẽm, 0.5 ± 10% mm phẳng</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td></td>
+      <td>Lớp xốp giữa Dày 20 ± 5 mm</td>
+      <td></td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng. - Không Đạt: Không Đáp ứng tất cả các yêu cầu hoặc Không có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td></td>
+      <td>Xương cửa hậu</td>
+      <td>Mạ kẽm, []40 x 20 ± 5 mm</td>
+      <td>- Đạt: Đáp ứng tất cả các yêu cầu và có tài liệu kỹ thuật thể hiện sự Đáp ứng.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -179,4 +1839,26 @@ $^ +$ Có thể sửa đổi được(O): Đây là các chỉ tiêu dạng tùy
 
 # 4. PHƯƠNG PHÁP KIỂM TRA
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>QUY TRINH KIEM TRA</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Chi tieu ky thuat</td><td rowspan=1 colspan=1>- Kiém tra ngoai quan.- Kiém tra tren toan b@ san pham ban giao- Kiém tra trong sur dung thuc té.- Kiém tra theo tai lieu dang kiém va thong tin sanpham cua nha san xuat.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéucau.- Khong dat: Cac hang muc khong thoa man yéu cau.</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Kiém tra ho so</td><td rowspan=1 colspan=1>Kiém tra hö so dang kiém, tai lieu lien quan do nha san xuat cung cap</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yeucau. - Khong dat: Cac hang muc khong thoa man yéu cau.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>QUY TRÌNH KIỂM TRA</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Chỉ tiêu kỹ thuật</td>
+      <td>- Kiểm tra ngoại quan. - Kiểm tra trên toàn bộ sản phẩm bàn giao - Kiểm tra trong sử dụng thực tế. - Kiểm tra theo tài liệu đăng kiểm và thông tin sản phẩm của nhà sản xuất.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Kiểm tra hồ sơ</td>
+      <td>Kiểm tra hồ sơ đăng kiểm, tài liệu liên quan do nhà sản xuất cung cấp</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+    </tr>
+  </tbody>
+</table>

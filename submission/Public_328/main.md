@@ -10,19 +10,155 @@ Hướng dẫn áp dụng với các dự án phát triển sản phẩm ứng d
 
 3. Định nghĩa, thuật ngữ và viết tắt
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Thuật ngữ & viết tắt</td>
+      <td>Giải thích</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>CNTT</td>
+      <td>Công nghệ thông tin</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>AI</td>
+      <td>Artificial Intelligence: Lĩnh vực khoa học máy tính nghiên cứu và phát triển các hệ thống có khả năng thực hiện những tác vụ đòi hỏi trí tuệ tương đương con người.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>GPU</td>
+      <td>Graphics Processing Unit: Vi xử lý chuyên dụng tối ưu cho tính toán song song cường độ cao,</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Thuật ngữ & viết tắt</td>
+      <td>Giải thích</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>thường được sử dụng trong huấn luyện mô hình DL.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>TPU</td>
+      <td>Tensor Processing Unit: Vi xử lý do Google phát triển, tối ưu cho các phép toán tensor thường dùng trong huấn luyện và suy luận DL.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>GAN</td>
+      <td>Generative Adversarial Network: Mô hình Generative AI gồm hai mạng (generator, discriminator) thi đua nhau để sinh dữ liệu có phân phối giống dữ liệu thật.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>VAE</td>
+      <td>Variational Autoencoder: Mô hình Generative AI học phân phối tiềm ẩn để sinh dữ liệu mới qua cơ chế mã hóa–giải mã với chuẩn hóa xác suất.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>GPT</td>
+      <td>Generative Pre-trained Transformer: Mô hình</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Thuật ngữ & viết tắt</td>
+      <td>Giải thích</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>transformer tiền huấn luyện trên khối lượng lớn văn bản, có khả năng sinh ngôn ngữ tự nhiên.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Stable Diffusion</td>
+      <td>Kỹ thuật tạo ảnh từ nhiễu dựa trên quá trình khuếch tán ngược, kiểm soát chất lượng và phong cách.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Whisper</td>
+      <td>Mô hình nhận diện giọng nói của OpenAI, chuyển đổi âm thanh giọng nói thành văn bản.</td>
+    </tr>
+    <tr>
+      <td>1 0</td>
+      <td>MusicGen</td>
+      <td>Mô hình DL sinh nhạc tự động theo phong cách và cấu trúc đầu vào.</td>
+    </tr>
+    <tr>
+      <td>1 1</td>
+      <td>CNN</td>
+      <td>Convolutional Neural Network: Mạng nơ-ron tích chập, chuyên xử lý dữ liệu lưới (ảnh, video) bằng lớp tích chập để trích xuất đặc trưng.</td>
+    </tr>
+    <tr>
+      <td>1 2</td>
+      <td>RNN</td>
+      <td>Recurrent Neural Network: Mạng nơ-ron hồi tiếp, phù hợp xử lý dữ liệu tuần tự nhờ liên</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-
-
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Thuat ngur &amp; viet tat</td><td rowspan=1 colspan=1>Giai thich</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>chiéu dur liéu lén trucchinh có phuong sai lonnhat.</td></tr><tr><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>t-SNE</td><td rowspan=1 colspan=1>t-Distributed StochasticNeighbor Embedding:Phuong phap giam chiéuphi tuyén, giu cau truckhong gian cuc b@ khi truc quan hóa du lieu caochieu.</td></tr><tr><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>Isolation Forest</td><td rowspan=1 colspan=1>Thuat toan phat hién batthuong, có lap diém dulieu khac biet qua móhinh rung cay ngaunhien.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Thuật ngữ & viết tắt</td>
+      <td>Giải thích</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>kết trạng thái qua thời gian.</td>
+    </tr>
+    <tr>
+      <td>1 3</td>
+      <td>LSTM</td>
+      <td>Long Short-Term Memory: Biến thể của RNN, giúp duy trì thông tin dài hạn qua cổng nhớ.</td>
+    </tr>
+    <tr>
+      <td>1 4</td>
+      <td>GRU</td>
+      <td>Gated Recurrent Unit: Biến thể RNN tích hợp cổng cập nhật và khôi phục, đơn giản hóa cấu trúc so với LSTM.</td>
+    </tr>
+    <tr>
+      <td>1 5</td>
+      <td>Transformer</td>
+      <td>Kiến trúc mạng dựa trên cơ chế self-attention, xử lý song song và đạt hiệu quả cao trong NLP.</td>
+    </tr>
+    <tr>
+      <td>1 6</td>
+      <td>ResNet</td>
+      <td>Residual Network: Mạng nơ-ron với kết nối tắt (skip connection), giảm thiểu mất mát thông tin khi mô hình sâu tầng.</td>
+    </tr>
+    <tr>
+      <td>1 7</td>
+      <td>EfficientNet</td>
+      <td>Kiến trúc CNN tự động cân chỉnh độ sâu, độ rộng và độ phân giải để tối ưu hiệu suất.</td>
+    </tr>
+  </tbody>
+</table>
 
 # Các kỹ thuật AI
 
@@ -32,11 +168,69 @@ Các kỹ thuật AI được chia thành $3 \mathrm { k } \tilde { \mathrm { y 
 
 
 
-<table><tr><td rowspan=2 colspan=1> STT</td><td rowspan=2 colspan=1>Ky thuat</td><td rowspan=2 colspan=1>Dinh nghia</td><td rowspan=2 colspan=1>Uu diém</td><td rowspan=2 colspan=1>Nhuoc diem</td><td rowspan=2 colspan=1>Ung dung dienhinh</td><td rowspan=2 colspan=1>Thuat toan dienhinh</td></tr><tr></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>ML1</td><td rowspan=1 colspan=1>- Ky thuat AI surdung thuat toanthong ke de hoc trdu lieu qua khur vadua ra du doan ma khong can lap trinhturong minh.</td><td rowspan=1 colspan=1>- Xu ly tot du liéeuc6 cau truc.- Mot só thuat toanc6 kha nang giaithich duoc va tothon hoc sau.- Chi phi tinh toan thaphomhoc sau.- Manh voi du liéeuvira va nho.</td><td rowspan=1 colspan=1> Hieu suat kém voi dur lieu phicáu truc (anh, video, äm thanh,van ban).- Can buoc trich chon dac trung thu cong.- Do chinh xac gioi han voi baitoan có mäu phurc tap.- Gioi han kha nang khai thac tuong tac giura cac dac trungphurc tap (phi tuyén).</td><td rowspan=1 colspan=1>- Dur bao nhu cau,dur bao doanhthu.- Phan loai tindung, rui ro.- Phat hien gianlan.Du doan khachhangroi mang.</td><td rowspan=1 colspan=1>- Linear Regression,Logistic Regression.- Decision Tree,Random Forest. - GradientBoosting,XGBoost,LightGBM.- SVM, KNN, - Naive Bayes.- K-means,DBSCAN</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>DL²</td><td rowspan=1 colspan=1>Nhanh cua ML sur dung mang no-ron      sau(Deep Neural Networks1DNN) c6 kha nang tudong hoc bieu dien tur dulieu.</td><td rowspan=1 colspan=1>- Tu dong trich xuat dac trung trdur lieu. Xur ly manh du lieu phi cau truc (anh,am thanh,van ban, video).- H trg hoc daphuong thurc bao góm anh, van ban,dur lieu bang...- Tói uu hoa tót chocac bai toan co dulieu l6n, phtrc tap.- Dat do chinh xac rat</td><td rowspan=1 colspan=1>Yéu cäu dur liéu rat lon va tainguyén phan cungmanh(GPU/TPU).Tinh dóng, kho giai thich.Chi phi tinh toan cao, d@ tré caokhi suy luan.D bi qua khop(overfitting)néu khong c6 dur lieu hoac kythuat chinh quy hóa(regularization) tót.Qua trinh huan luyén phirc tap, nhay voi cac sieu tham só, do docan tinh chinh ky luong.</td><td rowspan=1 colspan=1>Nhan dienkhuon mat, y téchan doan hinhanh.Phan tich van ban,phan tich cam xuc.Dich may,nhan dangtieng noi.Phat hien doi tuongtrong video.</td><td rowspan=1 colspan=1>- CNN - RNN,LSTM,GRU- Transformer- ResNet,EfficientNet</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Thuật ngữ & viết tắt</td>
+      <td>Giải thích</td>
+    </tr>
+    <tr>
+      <td>1 8</td>
+      <td>SVM</td>
+      <td>Support Vector Machine: thuật toán học có giám sát, phân loại bằng cách tìm siêu phẳng tối ưu phân tách các lớp dữ liệu.</td>
+    </tr>
+    <tr>
+      <td>1 9</td>
+      <td>KNN</td>
+      <td>k-Nearest Neighbors: thuật toán học máy có giám sát, phân loại dựa trên nhãn của k mẫu gần nhất trong không gian đặc trưng.</td>
+    </tr>
+    <tr>
+      <td>2 0</td>
+      <td>DBSCAN</td>
+      <td>Density-Based Spatial Clustering of Applications with Noise: thuật toán học máy không giám sát, phân nhóm dữ liệu dựa trên mật độ, tự động phát hiện điểm nhiễu.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>XGBoost</td>
+      <td>Extreme Gradient Boosting: Thuật toán học máy có giám sát dựa trên kỹ thuật tăng cường (boosting), sử dụng nhiều cây quyết định liên tiếp</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1> STT</td><td rowspan=1 colspan=1>Ky thuat</td><td rowspan=1 colspan=1> Dinh nghia</td><td rowspan=1 colspan=1> Uu diem</td><td rowspan=1 colspan=1> Nhuoc diem</td><td rowspan=1 colspan=1>Ung dung diénhinh</td><td rowspan=1 colspan=1>Thuat toan dienhinh</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>cao trong thi giacmay tinh, xir ly ngonngu tr nhien.</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>Nhánh cüa hoc sau surdung cac mo hinh có kha nang sinh ra du lieumoi (van ban, hinh anh, äm thanh, video, code,nhac).</td><td rowspan=1 colspan=1>Sinh noi dung sang tao(van ban, anh, video,nhac, code).-Hoc biéu dién phuc tap tur du lieu phi cautruc.-Tang tocquy trinh sang tao,lap trinh,nghien curu va phattrién (R&amp;D).-H tro xay dung durlieutonghop(syntheticdata)déhuán luyén mó hinhkhac.Két hop manh voi tao sinh dua trén truy xuat tang curong (RAG), hótrobai toan doanh nghiep phurc tap.</td><td rowspan=1 colspan=1>- Chi phi tinh toan rat cao.- Dau ra c6 thé chua thong tinsai lech, thien kién (bias), ao giac (hallucination). - D@ tin cay phu thu@c manhvao prompt, chat luong tinhchinh mó hinh (fine tune).- Van dé vé ban quyén,dao ducva kiem duyet noi dung.- Kh6 kiém soat chinh xac logicnoi tai cua mo hinh.</td><td rowspan=1 colspan=1>- Sinh noi dungtruyén thong- Tro ly lap trinh: sinh ma nguon, sinh tai lieu phantich.- Tro ly ao chodoanh nghiep.- Tao du lieu tonghop trong nghiencuru y hoc, sanxuat.</td><td rowspan=1 colspan=1>- GPT. - Stable Diffusion - Whisper. - MusicGen.- GAN, VAE</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Thuật ngữ & viết tắt</td>
+      <td>Giải thích</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>để tối ưu độ chính xác. Thuật toán tập trung vào khả năng xử lý dữ liệu bị thiếu, kiểm soát tình trạng quá khớp (overfitting) tốt.</td>
+    </tr>
+    <tr>
+      <td>2 2</td>
+      <td>LightGBM</td>
+      <td>Light Gradient Boosting Machine: Thuật toán học máy có giám sát dựa trên kỹ thuật boosting, sử dụng nhiều cây quyết định liên tiếp để tối ưu độ chính xác. Thuật toán tập trung vào các kỹ thuật giúp tăng tốc độ huấn luyện, giảm bộ nhớ tiêu thụ.</td>
+    </tr>
+    <tr>
+      <td>2 3</td>
+      <td>K-means</td>
+      <td>Thuật toán phân cụm không giám sát, nhóm dữ liệu thành k cụm để tối thiểu hoá khoảng cách tới tâm cụm.</td>
+    </tr>
+    <tr>
+      <td>2 4</td>
+      <td>PCA</td>
+      <td>Principal Component Analysis: Phương pháp giảm chiều bằng cách</td>
+    </tr>
+  </tbody>
+</table>
 
 1 Lưu ý: ML là khái niệm tổng quát bao gồm tất cả các phương pháp cho phép hệ thống học từ dữ liệu, bao $\mathrm { g } \dot { \hat { \mathrm { o } } } \mathrm { m }$ cả học sâu. Tuy nhiên trong tài liệu này, khi đề cập tới ML, ngầm hiểu là ML cổ điển, bao gồm lớp thuật toán thống kê, không bao gồm kiến trúc mạng nơ-ron sâu đặc trưng của học sâu.
 
@@ -54,33 +248,251 @@ Các kỹ thuật AI được chia thành $3 \mathrm { k } \tilde { \mathrm { y 
 
 - Bảng 2. Bảng đánh giá mức độ phù hợp của các kỹ thuật AI theo từng tiêu chí
 
-<table><tr><td rowspan=1 colspan=1> STT</td><td rowspan=1 colspan=1> Tieu chi</td><td rowspan=1 colspan=1> Thu@c tinh danh gia</td><td rowspan=1 colspan=1> Dinh nghia</td><td rowspan=1 colspan=1> Danh gia chi tiet</td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>GenAI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Muctiéubai toan</td><td rowspan=1 colspan=1>Du doan</td><td rowspan=1 colspan=1>Dur bao bien lientuc(regression)hoacphanloainhan (classification)dua tren tap dur lieu có nhan.</td><td rowspan=1 colspan=1>- ML, DL phu hop: ban chat cua ML va DL la xay dung mó hinhhoc anh xa tur dur lieu dau vao toi mot két qua xac dinh.- GenAI can nhac: vi GenAI khong dugc thiét ké cho bai toan dudoan, tuy nhien có thé sur dung trong mot só truong hop dac biet nhu sinh két qua du doan dua tren ngu canh, nhung khong phai la lua chon toi uu cho cac bai toan dur doan hoac phan loai nhanro rang.</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td></tr></table>
+
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Thuật ngữ & viết tắt</td>
+      <td>Giải thích</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>chiếu dữ liệu lên trục chính có phương sai lớn nhất.</td>
+    </tr>
+    <tr>
+      <td>2 5</td>
+      <td>t-SNE</td>
+      <td>t-Distributed Stochastic Neighbor Embedding: Phương pháp giảm chiều phi tuyến, giữ cấu trúc không gian cục bộ khi trực quan hóa dữ liệu cao chiều.</td>
+    </tr>
+    <tr>
+      <td>2 6</td>
+      <td>Isolation Forest</td>
+      <td>Thuật toán phát hiện bất thường, cô lập điểm dữ liệu khác biệt qua mô hình rừng cây ngẫu nhiên.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1> STT</td><td rowspan=1 colspan=1> Tieu chi</td><td rowspan=1 colspan=1>Thu@c tinh danh gia</td><td rowspan=1 colspan=1> Dinh nghia</td><td rowspan=1 colspan=1>Danh gia chi tiét</td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>GenAI</td></tr><tr><td rowspan=3 colspan=1>2</td><td rowspan=3 colspan=1>Loaidulieu</td><td rowspan=1 colspan=1>Tao sinh</td><td rowspan=1 colspan=1>Tao moi du lieu phi cau truc nhu vän ban, hinh änh,video, am thanhhoac ma nguon.</td><td rowspan=1 colspan=1>- GenAI phu hop: Day la muc tiéu chinh cua GenAI DL can nhac: Cac mo hinh DL truyén thóng khong linh hoat vahiéu qua bäng cac mó hinh sinh hién dai, tuy nhién có thé can nhäc trong truong hop du lieu khong qua lon.- ML khong phu hop: Cac thuat toan ML khong có khä nängsinhdu lieu moi.</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>Dα lieu c6cau truc</td><td rowspan=1 colspan=1>Du lieu dang bang,gom hang va cot voi kiéu dur lieu rorang.</td><td rowspan=1 colspan=1>- ML phu hop: Cac thuat toan ML duoc toi uu hóa dé xur ly va tim ra cac moi quan he trong du lieu c6 cau truc- DL can nhac: DL có thé xir ly dugc có cáu truc nhung thuong khong mang lai két qua vuot troi so voi ML ma lai tón kém tai nguyen hon. Do do DL khong phai lua chon uu tien.- GenAI khong phu hop: GenAI khong duoc thiét ké dé lam viec voi dur lieu có cau truc.</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=1 colspan=1>Dαlieu phicau truc</td><td rowspan=1 colspan=1>Du lieu khong c6cau truc bang dinh san, bao gom anh,van ban tur do, amthanh, video...</td><td rowspan=1 colspan=1> - ML khong phu hop: ML khong xur ly truc tiép du lieu phi cau truc, can phai trich xuat cac dac trung thu cong truoc khi ap dung mó hinh, diéu nay rat ton thoi gian va khong hiéu qua. DL va GenAI phu hop: DL va GenAI déu duoc thiet ké dé xur ly du lieu phi cau truc thong qua cac kién truc mang no-ron sau, c6 kha nang hoc cac dac trung phurc tap mot cach tr dong.</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Nhandulieu</td><td rowspan=1 colspan=1>C6 nhan rórang</td><td rowspan=1 colspan=1>Tap du lieu da gannhan dau ra(supervised).</td><td rowspan=1 colspan=1>- ML va DL phu hop: Cac ky thuat déu dua trén du lieu c6 nhandhoc cac mau va moi quan he.- GenAI can nhac:</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Kỹ thuật</td>
+      <td>Định nghĩa</td>
+      <td>Ưu điểm</td>
+      <td>Nhược điểm</td>
+      <td>Ứng dụng điển hình</td>
+      <td>Thuật toán điển hình</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>ML1</td>
+      <td>- Kỹ thuật AI sử dụng thuật toán thống kê để học từ dữ liệu quá khứ và đưa ra dự đoán mà không cần lập trình tường minh.</td>
+      <td>- Xử lý tốt dữ liệu có cấu trúc. - Một số thuật toán có khả năng giải thích được và tốt hơn học sâu. - Chi phí tính toán thấp hơn học sâu. - Mạnh với dữ liệu vừa và nhỏ.</td>
+      <td>- Hiệu suất kém với dữ liệu phi cấu trúc (ảnh, video, âm thanh, văn bản). - Cần bước trích chọn đặc trưng thủ công. - Độ chính xác giới hạn với bài toán có mẫu phức tạp. - Giới hạn khả năng khai thác tương tác giữa các đặc trưng phức tạp (phi tuyến).</td>
+      <td>- Dự báo nhu cầu, dự báo doanh thu. - Phân loại tín dụng, rủi ro. - Phát hiện gian lận. Dự đoán khách hàng rời mạng.</td>
+      <td>- Linear Regression, Logistic Regression. - Decision Tree, Random Forest. - Gradient Boosting, XGBoost, LightGBM. - SVM, KNN, - Naive Bayes. - K-means, DBSCAN</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>DL2</td>
+      <td>Nhánh của ML sử dụng mạng nơ-ron sâu (Deep Neural Networks – DNN) có khả năng tự động học biểu diễn từ dữ liệu.</td>
+      <td>- Tự động trích xuất đặc trưng từ dữ liệu. - Xử lý mạnh dữ liệu phi cấu trúc (ảnh, âm thanh, văn bản, video). - Hỗ trợ học đa phương thức bao gồm ảnh, văn bản, dữ liệu bảng... - Tối ưu hóa tốt cho các bài toán có dữ liệu lớn, phức tạp. - Đạt độ chính xác rất</td>
+      <td>- Yêu cầu dữ liệu rất lớn và tài nguyên phần cứng mạnh (GPU/TPU). - Tính đóng, khó giải thích. - Chi phí tính toán cao, độ trễ cao khi suy luận. - Dễ bị quá khớp(overfitting) nếu không có dữ liệu hoặc kỹ thuật chính quy hóa (regularization) tốt. - Quá trình huấn luyện phức tạp, nhạy với các siêu tham số, do đó cần tinh chỉnh kỹ lưỡng.</td>
+      <td>- Nhận diện khuôn mặt, y tế chẩn đoán hình ảnh. - Phân tích văn bản, phân tích cảm xúc. - Dịch máy, nhận dạng tiếng nói. - Phát hiện đối tượng trong video.</td>
+      <td>- CNN - RNN, LSTM, GRU - Transformer - ResNet, EfficientNet</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1> STT</td><td rowspan=1 colspan=1> Tieu chi</td><td rowspan=1 colspan=1>Thu@c tinh danh gia</td><td rowspan=1 colspan=1> Dinh nghia</td><td rowspan=1 colspan=1>Danh gia chi tiét</td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>GenAI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Khong nhan</td><td rowspan=1 colspan=1>Tap dur lieu chua c6 nhan, can kham phacau truc tiém an(unsupervised).</td><td rowspan=1 colspan=1>- GenAI phu hop: Ky thuat nay hoc va tao ra cau truc tur du liéu tho, khong can nhan.-ML va DL can nhac: Trong truong hop cac bai toanunsupervised, cac ky thuat nay c6 thé sur dung dé kham pha caccau truc tur dur lieu.</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=2 colspan=1>4</td><td rowspan=2 colspan=1>S6chieudur lieu</td><td rowspan=1 colspan=1>S6 chieu du liéu nhó</td><td rowspan=1 colspan=1>Du lieu c6 s6 luongdac trung (feature)nh6.</td><td rowspan=1 colspan=1>- ML phu hop: ML hoat dong hiéu qua voi dur lieu c6 it feature- DL va GenAI can nhac: C6 thé can nhac sur dung nhung thuong khong can thiet va có nguy co overfitting.</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>S6 chieu dur lieu lon</td><td rowspan=1 colspan=1>Dir lieu c6 s6 luongfeature rat lon</td><td rowspan=1 colspan=1> - DL va GenAI phu hop: Kien truc mang no-ron sau dugc thietké de xir ly va trich xuat dac trung tir du lieu c6 so chieu lon motcach tur dong. - ML khong phu hop: ML có hieu suat kém va khó xir ly khi sóluong dac trung tang len.</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>s6 luongdu lieu</td><td rowspan=1 colspan=1>Khoi lurong durlieu nh6</td><td rowspan=1 colspan=1>Tap du lieu nhó</td><td rowspan=1 colspan=1>- ML phu hop: ML hoat dong tot tren cac tap dur lieu nho, yeucau it tai nguyen tinh toan va thuong cho két qua tot.- DL va GenAI can nhac: DL va GenAI doi hoi luong lon du liéudé hoc cac dac trung phurc tap. Voi du lieu nho, DL dé bioverfitting va kém hiéu qua. Tuy nhién có thé́ can nhac néu sirdung cac mó hinh da duoc huan luyén sän hoac tinh chinh tréndur lieu nho.</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Kỹ thuật</td>
+      <td>Định nghĩa</td>
+      <td>Ưu điểm</td>
+      <td>Nhược điểm</td>
+      <td>Ứng dụng điển hình</td>
+      <td>Thuật toán điển hình</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>cao trong thị giác máy tính, xử lý ngôn ngữ tự nhiên.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>GenAI</td>
+      <td>Nhánh của học sâu sử dụng các mô hình có khả năng sinh ra dữ liệu mới (văn bản, hình ảnh, âm thanh, video, code, nhạc).</td>
+      <td>- Sinh nội dung sáng tạo (văn bản, ảnh, video, nhạc, code). - Học biểu diễn phức tạp từ dữ liệu phi cấu trúc. - Tăng tốc quy trình sáng tạo, lập trình, nghiên cứu và phát triển (R&D). - Hỗ trợ xây dựng dữ liệu tổng hợp (synthetic data) để huấn luyện mô hình khác. - Kết hợp mạnh với tạo sinh dựa trên truy xuất tăng cường (RAG), hỗ trợ bài toán doanh nghiệp phức tạp.</td>
+      <td>- Chi phí tính toán rất cao. - Đầu ra có thể chứa thông tin sai lệch, thiên kiến (bias), ảo giác (hallucination). - Độ tin cậy phụ thuộc mạnh vào prompt, chất lượng tinh chỉnh mô hình (fine tune). - Vấn đề về bản quyền, đạo đức và kiểm duyệt nội dung. - Khó kiểm soát chính xác logic nội tại của mô hình.</td>
+      <td>- Sinh nội dung truyền thông - Trợ lý lập trình: sinh mã nguồn, sinh tài liệu phân tích. - Trợ lý ảo cho doanh nghiệp. - Tạo dữ liệu tổng hợp trong nghiên cứu y học, sản xuất.</td>
+      <td>- GPT. - Stable Diffusion - Whisper. - MusicGen. - GAN, VAE</td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-<table><tr><td rowspan=1 colspan=1> STT</td><td rowspan=1 colspan=1> Tieu chi</td><td rowspan=1 colspan=1>Thu@c tinhdanh gia</td><td rowspan=1 colspan=1>Dinh nghia</td><td rowspan=1 colspan=1>Danh gia chi tiet</td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>GenAI</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Khoi luong dulieu lon</td><td rowspan=1 colspan=1>Tap du lieu lon</td><td rowspan=1 colspan=1> DL va GenAI phu hop: Cac ky thuat nay có kha näng khaithac cac mói quan hé phurc tap tur du lieu lon.- ML can nhac: ML có thé́ hoat dong nhung thuong kém hiéu qua hon,dac biet khi dur lieu c6 nhieu dac trung phurc tap.</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Yéu caukha nanggiaithich</td><td rowspan=1 colspan=1>Yéu cau khanang giai thichrorang,dekiem tra</td><td rowspan=1 colspan=1> Yeu cau kha nang giai thich ro rang, dé kiém tra nguyen nhan mo hinh dua ra quyét dinh cu thé.</td><td rowspan=1 colspan=1>- ML phu hop: Cac thuat toan ML nhu Linear regression,Decision tree thuong dé giai thich, minh bach va có thé kiém tracac quyét dinh cua mo hinh. DL va GenAI can nhac: Cac ky thuat nay dura trén cac mo hinh mang tinh chat hop den (black-box), rat khó dé giai thich va truy vét nguyen nhan cu thé. Tuy nhien, có thé can nhac khi ap dungkét hop cac ky thuat giai thich mo hinh bó sung hoac doi voiGenAI thi yéu cau sinh phuong phap ly luan (tuy nhien vé banchat mo hinh van khong dién giai duoc)</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td></tr></table>
 
 # 6. Các bài toán AI phổ biến
 
 - Theo Viện tiêu chuẩn và Công nghệ Quốc gia của Hoa Kỳ (National Institute of Standards and Technology – NIST), bài toán AI được phân loại theo 14 bài toán phổ biến như sau:
 
-<table><tr><td rowspan=1 colspan=1> STT</td><td rowspan=1 colspan=1>Bai toan AI</td><td rowspan=1 colspan=1>Mo ta</td><td rowspan=1 colspan=1>Ung dung cu thé</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Tiêu chí</td>
+      <td>Thuộc tính đánh giá</td>
+      <td>Định nghĩa</td>
+      <td>Đánh giá chi tiết</td>
+      <td>ML</td>
+      <td>DL</td>
+      <td>Gen AI</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Mục tiêu bài toán</td>
+      <td>D ự đoán</td>
+      <td>Dự báo biến liên tục (regression) hoặc phân loại nhãn (classification) dựa trên tập dữ liệu có nhãn.</td>
+      <td>- ML, DL phù hợp: bản chất của ML và DL là xây dựng mô hình học ánh xạ từ dữ liệu đầu vào tới một kết quả xác định. - GenAI cân nhắc: vì GenAI không được thiết kế cho bài toán dự đoán, tuy nhiên có thể sử dụng trong một số trường hợp đặc biệt như sinh kết quả dự đoán dựa trên ngữ cảnh, nhưng không phải là lựa chọn tối ưu cho các bài toán dự đoán hoặc phân loại nhãn rõ ràng.</td>
+      <td>P</td>
+      <td>P</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=2 colspan=1>1</td><td rowspan=2 colspan=1>Tao noidung</td><td rowspan=2 colspan=1> Tao ra cac san pham, du lieu hoac noi dung moi dua trencac yeu cau hoac muc tieu duoc xac dinh ro rang.</td><td rowspan=2 colspan=1> Tao phu dé tu dong cho video quang cao; sinh ma lap trinh tur mó ta; tao hinh anh tur noi dung van ban</td></tr><tr></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Tong hopnoi dung</td><td rowspan=1 colspan=1>Ket hop, phan tich, tom tat cac dur lieu hoac thong tinrieng le de tao ra mot noi dung hoan chinh, co cau truc vay nghia ro rang.</td><td rowspan=1 colspan=1>T6m tat bao cao tai chinh; chuyén doi ghi chu y té phi cau truccua bac si thanh hó so bénh an day du.</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Raquyetdinh</td><td rowspan=1 colspan=1>H trg hoac dé xuat quyét dinh toi uu tur nhieu lua chon,dua tren phan tich du lieu, du doan hoac danh gia rui ro.</td><td rowspan=1 colspan=1> H tro quyét dinh mua ban co phieu; heé thong dé xuat phéduyet khoan vay tu dong dua tren lich sur tin dung.</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Phat hien</td><td rowspan=1 colspan=1>Nhan dien va xac dinh su hien dien cua cac van dé, su kien hoäc nguy co tiem an thong qua phan tich du lieu.</td><td rowspan=1 colspan=1> Phat hien gian lan giao dich ngan hang; phat hien tan cong mang; nhan dang sur co ky thuat trong day chuyén san xuat.</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Tro ly ao</td><td rowspan=1 colspan=1>H trg nguoi dung bang cach hieu, phan hoi va thuc hiencác yéu cau hoac tac vu qua giao tiép tur nhién nhu móttro ly ca nhan.</td><td rowspan=1 colspan=1> Siri, Alexa hδ tro dat lich hop; trg ly ao giup tra loi cau hoikhach hang truc tuyen tu dong.</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Kham pha</td><td rowspan=1 colspan=1> Khai pha, nhan dang hoac tim ra thong tin, san pham hoacquy trinh hoan toan moi ma con nguoi chua biét toi hoacchua tiép can dugc truoc dó.</td><td rowspan=1 colspan=1> Phat hien phan tur moi trong duoc pham; kham pha vat liéu pintien tien; toi uu cong thirc san pham moi trong san xuat.</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Phan tichhinh anh</td><td rowspan=1 colspan=1> Nhan dien va phan tich noi dung tur hinh anh só dé dua rathong tin huu ich, hö trg viec ra quyét dinh.</td><td rowspan=1 colspan=1>Hé thóng nhan dang ung thu sóm tur hinh anh chan doan y té;phan tich san pham loi tur hinh anh trén day chuyén san xuat.</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Truy xuatthong tin</td><td rowspan=1 colspan=1> Ho trg nguoi dung tim kiém, tiép can nhanh chóng vachinh xac cac thong tin can thiét tur nguon du lieu lon, dadang.</td><td rowspan=1 colspan=1>Truy xuat tai lieu phap ly theo tur kh6a; tim kiém protein óndinh cho nghien ciru thuóc nhanh hon.</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>Giam sat</td><td rowspan=1 colspan=1>Theo doi, giam sat lien tuc trang thai, chat luong hoachieu suat cua heé thóng dé phat hien bat thuong hoac caitien hoat dong.</td><td rowspan=1 colspan=1>Giam sat tinh trang thiét bi cong nghiep theo thoi gian thuc; giam sat moi truong dé phat hien chay rung tur dong.</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Cai thienhieu suat</td><td rowspan=1 colspan=1>Tói uu h6a, nang cao chat luong, d@ chinh xac hoac hiéu suat van hanh cua quy trinh hoac hé thóng hién c6.</td><td rowspan=1 colspan=1>Tói uu thuat toan phan tich dur lieu lon; cai tién do chinh xacmo hinh dur bao thoi tiét.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Tiêu chí</td>
+      <td>Thuộc tính đánh giá</td>
+      <td>Định nghĩa</td>
+      <td>Đánh giá chi tiết</td>
+      <td>ML</td>
+      <td>DL</td>
+      <td>Gen AI</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Loại dữ liệu</td>
+      <td>Tạo sinh</td>
+      <td>Tạo mới dữ liệu phi cấu trúc như văn bản, hình ảnh, video, âm thanh hoặc mã nguồn.</td>
+      <td>- GenAI phù hợp: Đây là mục tiêu chính của GenAI - DL cân nhắc: Các mô hình DL truyền thống không linh hoạt và hiệu quả bằng các mô hình sinh hiện đại, tuy nhiên có thể cân nhắc trong trường hợp dữ liệu không quá lớn. - ML không phù hợp: Các thuật toán ML không có khả năng sinh dữ liệu mới.</td>
+      <td>K</td>
+      <td>C</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>D ữ liệu có cấu trúc</td>
+      <td>Dữ liệu dạng bảng, gồm hàng và cột với kiểu dữ liệu rõ ràng.</td>
+      <td>- ML phù hợp: Các thuật toán ML được tối ưu hóa để xử lý và tìm ra các mối quan hệ trong dữ liệu có cấu trúc - DL cân nhắc: DL có thể xử lý được có cấu trúc nhưng thường không mang lại kết quả vượt trội so với ML mà lại tốn kém tài nguyên hơn. Do đó DL không phải lựa chọn ưu tiên. - GenAI không phù hợp: GenAI không được thiết kế để làm việc với dữ liệu có cấu trúc.</td>
+      <td>P</td>
+      <td>C</td>
+      <td>K</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>D ữ liệu phi cấu trúc</td>
+      <td>Dữ liệu không có cấu trúc bảng định sẵn, bao gồm ảnh, văn bản tự do, âm thanh, video…</td>
+      <td>- ML không phù hợp: ML không xử lý trực tiếp dữ liệu phi cấu trúc, cần phải trích xuất các đặc trưng thủ công trước khi áp dụng mô hình, điều này rất tốn thời gian và không hiệu quả. - DL và GenAI phù hợp: DL và GenAI đều được thiết kế để xử lý dữ liệu phi cấu trúc thông qua các kiến trúc mạng nơ-ron sâu, có khả năng học các đặc trưng phức tạp một cách tự động.</td>
+      <td>K</td>
+      <td>P</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Nhãn dữ liệu</td>
+      <td>Có nhãn rõ ràng</td>
+      <td>Tập dữ liệu đã gán nhãn đầu ra (supervised).</td>
+      <td>- ML và DL phù hợp: Các kỹ thuật đều dựa trên dữ liệu có nhãn để học các mẫu và mối quan hệ. - GenAI cân nhắc:</td>
+      <td>P</td>
+      <td>P</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Ca nhan hoa</td><td rowspan=1 colspan=1>Dieu chinh va cung cap san pham, dich vu, noi dung phuhop nhat voi tng cä nhan dua trén hanh vi, so thich vadac diem rieng cua ho.</td><td rowspan=1 colspan=1> Ca nhan hóa noi dung quang cao theo hanh vi mua sam truc tuyén; cung cap noi dung giao duc phu hop theo nang luc hocvien.</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Dur bao</td><td rowspan=1 colspan=1>Du doan kha nang xay ra cua cac su kién hoac két qua trong tuong lai, dua tren phan tich dur lieu lich sur vamo hinh thong ke.</td><td rowspan=1 colspan=1>Dur bao doanh thu quy ké tiep; dur bao kha nang hong hoc maymóc trong san xuat; du bao luu luong khach hang dé toi uudich vu.</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Tu dong h6aquy trinh</td><td rowspan=1 colspan=1>Thuc hien cac tac vu thuong xuyen, lap lai hoac dé xayra sai sot nham giam thoi gian, tiét kiem nguon luc va nang cao hieu qua hoat dong.</td><td rowspan=1 colspan=1>Tu dong hóa quan ly hoa don va thanh toan; xir ly, phan loaiemail noi bo tur dong.</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Khuyén nghi</td><td rowspan=1 colspan=1> Dua ra cac goi y, lua chon hop ly nhat cho nguoi dungnham hö tro ho ra quyét dinh mót cach hieu qua.</td><td rowspan=1 colspan=1>De xuat san pham phu hop cho khach hang mua sam truc tuyén;goi y phan hoi nhanh trong he thong cham soc khach hang.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Tiêu chí</td>
+      <td>Thuộc tính đánh giá</td>
+      <td>Định nghĩa</td>
+      <td>Đánh giá chi tiết</td>
+      <td>ML</td>
+      <td>DL</td>
+      <td>Gen AI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Không nhãn</td>
+      <td>Tập dữ liệu chưa có nhãn, cần khám phá cấu trúc tiềm ẩn (unsupervised).</td>
+      <td>- GenAI phù hợp: Kỹ thuật này học và tạo ra cấu trúc từ dữ liệu thô, không cần nhãn. - ML và DL cân nhắc: Trong trường hợp các bài toán unsupervised, các kỹ thuật này có thể sử dụng để khám phá các cấu trúc từ dữ liệu.</td>
+      <td>C</td>
+      <td>C</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Số chiều dữ liệu</td>
+      <td>Số chiều dữ liệu nhỏ</td>
+      <td>Dữ liệu có số lượng đặc trưng (feature) nhỏ.</td>
+      <td>- ML phù hợp: ML hoạt động hiệu quả với dữ liệu có ít feature - DL và GenAI cân nhắc: Có thể cân nhắc sử dụng nhưng thường không cần thiết và có nguy cơ overfitting.</td>
+      <td>P</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Số chiều dữ liệu lớn</td>
+      <td>Dữ liệu có số lượng feature rất lớn</td>
+      <td>- DL và GenAI phù hợp: Kiến trúc mạng nơ-ron sâu được thiết kế để xử lý và trích xuất đặc trưng từ dữ liệu có số chiều lớn một cách tự động. - ML không phù hợp: ML có hiệu suất kém và khó xử lý khi số lượng đặc trưng tăng lên.</td>
+      <td>K</td>
+      <td>P</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Số lượng dữ liệu</td>
+      <td>Khối lượng dữ liệu nhỏ</td>
+      <td>Tập dữ liệu nhỏ</td>
+      <td>- ML phù hợp: ML hoạt động tốt trên các tập dữ liệu nhỏ, yêu cầu ít tài nguyên tính toán và thường cho kết quả tốt. - DL và GenAI cân nhắc: DL và GenAI đòi hỏi lượng lớn dữ liệu để học các đặc trưng phức tạp. Với dữ liệu nhỏ, DL dễ bị overfitting và kém hiệu quả. Tuy nhiên có thể cân nhắc nếu sử dụng các mô hình đã được huấn luyện sẵn hoặc tinh chỉnh trên dữ liệu nhỏ.</td>
+      <td>P</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
 
 # Đánh giá mức độ phù hợp của các kỹ thuật AI theo từng bài toán phổ biến
 
@@ -99,15 +511,123 @@ Các kỹ thuật AI được chia thành $3 \mathrm { k } \tilde { \mathrm { y 
 
 Bảng 4. Bảng đánh giá mức độ phù hợp của các kỹ thuật AI theo từng bài toán phổ biến.
 
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Bai toan</td><td rowspan=1 colspan=2> Chieu danh gia</td><td rowspan=1 colspan=1>Muc tieubai toan</td><td rowspan=1 colspan=1>Loai durlieu</td><td rowspan=1 colspan=1> Nhan durlieu</td><td rowspan=1 colspan=1> So chieu durlieu</td><td rowspan=1 colspan=1> Só lrongdur lieu</td><td rowspan=1 colspan=1>Yéu cau kha nang giai thich</td><td rowspan=1 colspan=1>Tongdiem</td><td rowspan=1 colspan=1>Kétluan</td></tr><tr><td rowspan=4 colspan=1>1</td><td rowspan=4 colspan=1>Tao noidung</td><td rowspan=1 colspan=2>Dac diem</td><td rowspan=1 colspan=1>Tao sinh</td><td rowspan=1 colspan=1>Phi cau truc</td><td rowspan=1 colspan=1>Kh6ng nhan</td><td rowspan=1 colspan=1>L6n</td><td rowspan=1 colspan=1>Lon</td><td rowspan=1 colspan=1>Khong bat buoc</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=4 colspan=1>2</td><td rowspan=4 colspan=1>Tonghop noidung</td><td rowspan=1 colspan=2>Dac diem</td><td rowspan=1 colspan=1>Tao sinh</td><td rowspan=1 colspan=1>Phi cau truc</td><td rowspan=1 colspan=1>Kh6ng nhan</td><td rowspan=1 colspan=1>L6n</td><td rowspan=1 colspan=1>L6n</td><td rowspan=1 colspan=1>Khong bat buoc</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=4 colspan=1>3</td><td rowspan=4 colspan=1>dinh</td><td rowspan=1 colspan=1>D</td><td rowspan=1 colspan=1>Dac diem</td><td rowspan=1 colspan=1>Dur doan</td><td rowspan=1 colspan=1>C6 cau truc</td><td rowspan=1 colspan=1>C6 nhan</td><td rowspan=1 colspan=1>Nho</td><td rowspan=1 colspan=1>Lon</td><td rowspan=1 colspan=1>C6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>that</td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=4 colspan=1>4</td><td rowspan=4 colspan=1>Phathien</td><td rowspan=1 colspan=2>Dac diem</td><td rowspan=1 colspan=1>Du doan</td><td rowspan=1 colspan=1>Phi cau truc</td><td rowspan=1 colspan=1>C6 nhan</td><td rowspan=1 colspan=1>Nho</td><td rowspan=1 colspan=1>Lon</td><td rowspan=1 colspan=1>C6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=4 colspan=1>5</td><td rowspan=4 colspan=1>Tr</td><td rowspan=1 colspan=1>D</td><td rowspan=1 colspan=1>Dac diem</td><td rowspan=1 colspan=1>Tao sinh</td><td rowspan=1 colspan=1>Phi cau truc</td><td rowspan=1 colspan=1>Khong nhan</td><td rowspan=1 colspan=1>Lon</td><td rowspan=1 colspan=1>Lon</td><td rowspan=1 colspan=1>C6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>tha</td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>P</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Tiêu chí</td>
+      <td>Thuộc tính đánh giá</td>
+      <td>Định nghĩa</td>
+      <td>Đánh giá chi tiết</td>
+      <td>ML</td>
+      <td>DL</td>
+      <td>Gen AI</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Khối lượng dữ liệu lớn</td>
+      <td>Tập dữ liệu lớn</td>
+      <td>- DL và GenAI phù hợp: Các kỹ thuật này có khả năng khai thác các mối quan hệ phức tạp từ dữ liệu lớn. - ML cân nhắc: ML có thể hoạt động nhưng thường kém hiệu quả hơn, đặc biệt khi dữ liệu có nhiều đặc trưng phức tạp.</td>
+      <td>C</td>
+      <td>P</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Yêu cầu khả năng giải thích</td>
+      <td>Yêu cầu khả năng giải thích rõ ràng, dễ kiểm tra</td>
+      <td>Yêu cầu khả năng giải thích rõ ràng, dễ kiểm tra nguyên nhân mô hình đưa ra quyết định cụ thể.</td>
+      <td>- ML phù hợp: Các thuật toán ML như Linear regression, Decision tree thường dễ giải thích, minh bạch và có thể kiểm tra các quyết định của mô hình. - DL và GenAI cân nhắc: Các kỹ thuật này dựa trên các mô hình mang tính chất hộp đen (black-box), rất khó để giải thích và truy vết nguyên nhân cụ thể. Tuy nhiên, có thể cân nhắc khi áp dụng kết hợp các kỹ thuật giải thích mô hình bổ sung hoặc đối với GenAI thì yêu cầu sinh phương pháp lý luận (tuy nhiên về bản chất mô hình vẫn không diễn giải được)</td>
+      <td>P</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Bài toán AI</td>
+      <td>Mô tả</td>
+      <td>Ứng dụng cụ thể</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1> STT</td><td rowspan=1 colspan=1>Bai toan</td><td rowspan=1 colspan=2>Chieu danh gia</td><td rowspan=1 colspan=1>Muc tieubai toan</td><td rowspan=1 colspan=1>Loai durlieu</td><td rowspan=1 colspan=1> Nhan durlieu</td><td rowspan=1 colspan=1>S6 chieu durlieu</td><td rowspan=1 colspan=1> S6 lrongdur lieu</td><td rowspan=1 colspan=1>Yeu cau kha nang giai thich</td><td rowspan=1 colspan=1>Tongdiem</td><td rowspan=1 colspan=1>Ketluan</td></tr><tr><td rowspan=4 colspan=1>6</td><td rowspan=4 colspan=1>Khampha</td><td rowspan=1 colspan=2>Dac diem</td><td rowspan=1 colspan=1>Tao sinh</td><td rowspan=1 colspan=1>Phi cau truc</td><td rowspan=1 colspan=1>Khong nhan</td><td rowspan=1 colspan=1>Lon</td><td rowspan=1 colspan=1>L6n</td><td rowspan=1 colspan=1>C6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=4 colspan=1>7</td><td rowspan=4 colspan=1>Phantichhinhanh</td><td rowspan=1 colspan=2>Dac diem</td><td rowspan=1 colspan=1>Du doan</td><td rowspan=1 colspan=1>Phi cau truc</td><td rowspan=1 colspan=1>C6 nhan</td><td rowspan=1 colspan=1>L6n</td><td rowspan=1 colspan=1>L6n</td><td rowspan=1 colspan=1>Khong bät buoc</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=4 colspan=1>8</td><td rowspan=4 colspan=1>Truyxuatthongtin</td><td rowspan=1 colspan=1>D</td><td rowspan=1 colspan=1>Dac diem</td><td rowspan=1 colspan=1>Du doan</td><td rowspan=1 colspan=1> Phi cau truc</td><td rowspan=1 colspan=1>C6 nhan</td><td rowspan=1 colspan=1>Lon</td><td rowspan=1 colspan=1>L6n</td><td rowspan=1 colspan=1>C6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=4 colspan=1>9</td><td rowspan=4 colspan=1>Giamsat</td><td rowspan=1 colspan=1>D</td><td rowspan=1 colspan=1>Dac diem</td><td rowspan=1 colspan=1>Du doan</td><td rowspan=1 colspan=1>C6 cau truc</td><td rowspan=1 colspan=1>Khong nhan</td><td rowspan=1 colspan=1>Nho</td><td rowspan=1 colspan=1>Lon</td><td rowspan=1 colspan=1>C6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=4 colspan=1>10</td><td rowspan=4 colspan=1>Caithienhieusuat</td><td rowspan=1 colspan=1>D</td><td rowspan=1 colspan=1>Dac diem</td><td rowspan=1 colspan=1>Du doan</td><td rowspan=1 colspan=1>C6 cau truc</td><td rowspan=1 colspan=1>C6 nhan</td><td rowspan=1 colspan=1>Nho</td><td rowspan=1 colspan=1>Nho</td><td rowspan=1 colspan=1>C6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>tht</td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=4 colspan=1>11</td><td rowspan=4 colspan=1>Ca nhanhoa</td><td rowspan=1 colspan=2>Dac diem</td><td rowspan=1 colspan=1>Du doan</td><td rowspan=1 colspan=1>C6 cau truc</td><td rowspan=1 colspan=1>C6 nhan</td><td rowspan=1 colspan=1>Nho</td><td rowspan=1 colspan=1>Lon</td><td rowspan=1 colspan=1>C6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>h</td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Tạo nội dung</td>
+      <td>Tạo ra các sản phẩm, dữ liệu hoặc nội dung mới dựa trên các yêu cầu hoặc mục tiêu được xác định rõ ràng.</td>
+      <td>Tạo phụ đề tự động cho video quảng cáo; sinh mã lập trình từ mô tả; tạo hình ảnh từ nội dung văn bản</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tổng hợp nội dung</td>
+      <td>Kết hợp, phân tích, tóm tắt các dữ liệu hoặc thông tin riêng lẻ để tạo ra một nội dung hoàn chỉnh, có cấu trúc và ý nghĩa rõ ràng.</td>
+      <td>Tóm tắt báo cáo tài chính; chuyển đổi ghi chú y tế phi cấu trúc của bác sĩ thành hồ sơ bệnh án đầy đủ.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Ra quyết định</td>
+      <td>Hỗ trợ hoặc đề xuất quyết định tối ưu từ nhiều lựa chọn, dựa trên phân tích dữ liệu, dự đoán hoặc đánh giá rủi ro.</td>
+      <td>Hỗ trợ quyết định mua bán cổ phiếu; hệ thống đề xuất phê duyệt khoản vay tự động dựa trên lịch sử tín dụng.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Phát hiện</td>
+      <td>Nhận diện và xác định sự hiện diện của các vấn đề, sự kiện hoặc nguy cơ tiềm ẩn thông qua phân tích dữ liệu.</td>
+      <td>Phát hiện gian lận giao dịch ngân hàng; phát hiện tấn công mạng; nhận dạng sự cố kỹ thuật trong dây chuyền sản xuất.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Trợ lý ảo</td>
+      <td>Hỗ trợ người dùng bằng cách hiểu, phản hồi và thực hiện các yêu cầu hoặc tác vụ qua giao tiếp tự nhiên như một trợ lý cá nhân.</td>
+      <td>Siri, Alexa hỗ trợ đặt lịch họp; trợ lý ảo giúp trả lời câu hỏi khách hàng trực tuyến tự động.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Khám phá</td>
+      <td>Khai phá, nhận dạng hoặc tìm ra thông tin, sản phẩm hoặc quy trình hoàn toàn mới mà con người chưa biết tới hoặc chưa tiếp cận được trước đó.</td>
+      <td>Phát hiện phân tử mới trong dược phẩm; khám phá vật liệu pin tiên tiến; tối ưu công thức sản phẩm mới trong sản xuất.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Phân tích hình ảnh</td>
+      <td>Nhận diện và phân tích nội dung từ hình ảnh số để đưa ra thông tin hữu ích, hỗ trợ việc ra quyết định.</td>
+      <td>Hệ thống nhận dạng ung thư sớm từ hình ảnh chẩn đoán y tế; phân tích sản phẩm lỗi từ hình ảnh trên dây chuyền sản xuất.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Truy xuất thông tin</td>
+      <td>Hỗ trợ người dùng tìm kiếm, tiếp cận nhanh chóng và chính xác các thông tin cần thiết từ nguồn dữ liệu lớn, đa dạng.</td>
+      <td>Truy xuất tài liệu pháp lý theo từ khóa; tìm kiếm protein ổn định cho nghiên cứu thuốc nhanh hơn.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Giám sát</td>
+      <td>Theo dõi, giám sát liên tục trạng thái, chất lượng hoặc hiệu suất của hệ thống để phát hiện bất thường hoặc cải tiến hoạt động.</td>
+      <td>Giám sát tình trạng thiết bị công nghiệp theo thời gian thực; giám sát môi trường để phát hiện cháy rừng tự động.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Cải thiện hiệu suất</td>
+      <td>Tối ưu hóa, nâng cao chất lượng, độ chính xác hoặc hiệu suất vận hành của quy trình hoặc hệ thống hiện có.</td>
+      <td>Tối ưu thuật toán phân tích dữ liệu lớn; cải tiến độ chính xác mô hình dự báo thời tiết.</td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-<table><tr><td rowspan=1 colspan=1>STT</td><td rowspan=1 colspan=1>Bai toán</td><td rowspan=1 colspan=2>Chieu danh gia</td><td rowspan=1 colspan=1>Muc tieubai toan</td><td rowspan=1 colspan=1>Loai durlieu</td><td rowspan=1 colspan=1>Nhan durlieu</td><td rowspan=1 colspan=1>Só chieu durlieu</td><td rowspan=1 colspan=1>S6 lrongdur lieu</td><td rowspan=1 colspan=1>Yeu cau khä nang giai thich</td><td rowspan=1 colspan=1>Tongdiem</td><td rowspan=1 colspan=1>Ketluan</td></tr><tr><td rowspan=4 colspan=1>12</td><td rowspan=4 colspan=1>Dur bao</td><td rowspan=1 colspan=2>Dac diem</td><td rowspan=1 colspan=1>Du doan</td><td rowspan=1 colspan=1>C6 cau truc</td><td rowspan=1 colspan=1>C6 nhan</td><td rowspan=1 colspan=1>Nho</td><td rowspan=1 colspan=1>L6n</td><td rowspan=1 colspan=1>C6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>Kythuat</td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=4 colspan=1>13</td><td rowspan=4 colspan=1>Turdonghoa quytrinh</td><td rowspan=1 colspan=2>Dac diem</td><td rowspan=1 colspan=1>Du doan</td><td rowspan=1 colspan=1> C6 cau truc</td><td rowspan=1 colspan=1>Khong nhan</td><td rowspan=1 colspan=1>Nho</td><td rowspan=1 colspan=1>Nho</td><td rowspan=1 colspan=1>Khong bat buoc</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>Kythuat</td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr><tr><td rowspan=4 colspan=1>14</td><td rowspan=4 colspan=1>Khuyennghi</td><td rowspan=1 colspan=2>Dac diem</td><td rowspan=1 colspan=1>Du doan</td><td rowspan=1 colspan=1>C6 cau truc</td><td rowspan=1 colspan=1>C6 nhan</td><td rowspan=1 colspan=1>Nho</td><td rowspan=1 colspan=1>Lon</td><td rowspan=1 colspan=1>C6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>Kythuat</td><td rowspan=1 colspan=1>ML</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>DL</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>C</td></tr><tr><td rowspan=1 colspan=1>GenAI</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>K</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>K</td></tr></table>
 
 # Đánh giá chung:
 
@@ -115,6 +635,34 @@ Bảng 4. Bảng đánh giá mức độ phù hợp của các kỹ thuật AI t
 
 - DL: phù hợp với phần lớn các bài toán bao gồm cả sinh nội dung (tạo nội dung, tổng hợp nội dung, trợ lý số, khám phá), lẫn các tác vụ dự đoán như ra quyết định, phát hiện, phân tích hình ảnh, truy xuất thông tin, cải thiện hiệu suất, cá nhân hóa, dự báo, tự động hóa quy trình và khuyến nghị. DL cần được cân nhắc trong các trường hợp yêu cầu giải thích rõ như giám sát, hoặc dữ liệu nhỏ như tự động hóa quy trình, khi mà DL có thể áp dụng được nhưng không tối ưu nếu thiếu lượng dữ liệu lớn hoặc tài nguyên tính toán phù hợp.
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td>11</td>
+      <td>Cá nhân hóa</td>
+      <td>Điều chỉnh và cung cấp sản phẩm, dịch vụ, nội dung phù hợp nhất với từng cá nhân dựa trên hành vi, sở thích và đặc điểm riêng của họ.</td>
+      <td>Cá nhân hóa nội dung quảng cáo theo hành vi mua sắm trực tuyến; cung cấp nội dung giáo dục phù hợp theo năng lực học viên.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Dự báo</td>
+      <td>Dự đoán khả năng xảy ra của các sự kiện hoặc kết quả trong tương lai, dựa trên phân tích dữ liệu lịch sử và mô hình thống kê.</td>
+      <td>Dự báo doanh thu quý kế tiếp; dự báo khả năng hỏng hóc máy móc trong sản xuất; dự báo lưu lượng khách hàng để tối ưu dịch vụ.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Tự động hóa quy trình</td>
+      <td>Thực hiện các tác vụ thường xuyên, lặp lại hoặc dễ xảy ra sai sót nhằm giảm thời gian, tiết kiệm nguồn lực và nâng cao hiệu quả hoạt động.</td>
+      <td>Tự động hóa quản lý hóa đơn và thanh toán; xử lý, phân loại email nội bộ tự động.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td></td>
+      <td>Khuyến nghị Đưa ra các gợi ý, lựa chọn hợp lý nhất cho người dùng nhằm hỗ trợ họ ra quyết định một cách hiệu quả.</td>
+      <td>Đề xuất sản phẩm phù hợp cho khách hàng mua sắm trực tuyến; gợi ý phản hồi nhanh trong hệ thống chăm sóc khách hàng.</td>
+    </tr>
+  </tbody>
+</table>
 
 - GenAI: cho thấy hiệu quả vượt trội trong các bài toán sinh nội dung và tương tác ngôn ngữ tự nhiên như tạo nội dung, tổng hợp nội dung, trợ lý số và khám phá – tất cả đều đạt điểm đánh giá tối đa. GenAI cũng có thể cân nhắc áp dụng ở các bài toán như phân tích hình ảnh, phát hiện và truy xuất thông tin, đặc biệt khi cần hỗ trợ trực quan hóa hoặc mở rộng khả năng phân tích dữ liệu phi cấu trúc. Tuy nhiên, GenAI hiện không phù hợp cho các bài toán truyền thống thiên về dự đoán định lượng và yêu cầu tính giải thích cao như ra quyết định, giám sát, cải thiện hiệu suất, cá nhân hóa, dự báo, tự động hóa quy trình và khuyến nghị, do đặc điểm sinh mô hình không rõ ràng, chi phí huấn luyện lớn và khó kiểm soát logic suy luận

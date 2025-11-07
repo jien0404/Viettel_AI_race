@@ -45,24 +45,113 @@ Trong dải tần từ $9 \mathrm { k H z }$ đến 4,5 GHz, các phát xạ gi�
 
 Bảng 1 - Các giới hạn phát xạ giả cho máy phát DVB-T   
 
-<table><tr><td rowspan=1 colspan=1>Dai tan só phat xa gia</td><td rowspan=1 colspan=1>Cong suattrung binhcua may phat,W</td><td rowspan=1 colspan=1>Gioi han phat xa gia</td><td rowspan=1 colspan=1>D@ rongbang tanchuan</td><td rowspan=1 colspan=1>Hinhve</td></tr><tr><td rowspan=1 colspan=1>9 kHz dén 174 MHz</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-36 dBm (250 nW)</td><td rowspan=1 colspan=1>100 kHz</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=3 colspan=1>&gt; 174 MHz dén 400MHz</td><td rowspan=1 colspan=1>P≤25</td><td rowspan=1 colspan=1>-82 dBm</td><td rowspan=3 colspan=1>4 kHz</td><td rowspan=3 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>25&lt;P≤1000</td><td rowspan=1 colspan=1>-126 dBc</td></tr><tr><td rowspan=1 colspan=1>1000&lt;P</td><td rowspan=1 colspan=1>-66 dBm</td></tr><tr><td rowspan=1 colspan=1>&gt; 400 MHz dén 790MHz</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-36 dBm (250 nW)</td><td rowspan=1 colspan=1>100 kHz</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=3 colspan=1>&gt; 790 MHz dén 862MHz</td><td rowspan=1 colspan=1>P≤25</td><td rowspan=1 colspan=1>-76 dBm</td><td rowspan=3 colspan=1>4 kHz</td><td rowspan=3 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>25&lt;P≤1000</td><td rowspan=1 colspan=1>-120 dBc</td></tr><tr><td rowspan=1 colspan=1>1000&lt;P</td><td rowspan=1 colspan=1>-60 dBm</td></tr><tr><td rowspan=1 colspan=1>&gt; 862 MHz dén 1000MHz</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-36 dBm (250 nW)</td><td rowspan=1 colspan=1>100 kHz</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>&gt; 1000 MHz</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-30 dBm (1 μW)</td><td rowspan=1 colspan=1>100 kHz</td><td rowspan=1 colspan=1>2</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Dải tần số phát xạ giả</td>
+      <td>Công suất trung bình của máy phát, W</td>
+      <td>Giới hạn phát xạ giả</td>
+      <td>Độ rộng băng tần chuẩn</td>
+      <td>Hình vẽ</td>
+    </tr>
+    <tr>
+      <td>9 kHz đến 174 MHz</td>
+      <td></td>
+      <td>-36 dBm (250 nW)</td>
+      <td>100 kHz</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>> 174 MHz đến 400 MHz</td>
+      <td>P  25</td>
+      <td>-82 dBm</td>
+      <td>4 kHz</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>25 < P  1000</td>
+      <td>-126 dBc</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>1000 < P</td>
+      <td>-66 dBm</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>> 400 MHz đến 790 MHz</td>
+      <td></td>
+      <td>-36 dBm (250 nW)</td>
+      <td>100 kHz</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>> 790 MHz đến 862 MHz</td>
+      <td>P  25</td>
+      <td>-76 dBm</td>
+      <td>4 kHz</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>25 < P  1000</td>
+      <td>-120 dBc</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>1000 < P</td>
+      <td>-60 dBm</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>> 862 MHz đến 1000 MHz</td>
+      <td></td>
+      <td>-36 dBm (250 nW)</td>
+      <td>100 kHz</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>> 1000 MHz</td>
+      <td></td>
+      <td>-30 dBm (1 W)</td>
+      <td>100 kHz</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
 
 # Hình 2 - Các giới hạn phát xạ giả đối với máy phát DVB-T (độ rộng băng tần chuẩn là $\mathbf { 1 0 0 k H z }$ )
 
-![](images/1.jpg)
-
-> **Hình chú thích:** a graph showing the average temperature of a water supply
-
-  
+![](images/image_1.jpg)  
 Công suất trung bình của máy phát
 
-
-
-![](images/2.jpg)
-
-> **Hình chú thích:** a graph showing the average flow rate of water in a river
-
+<table>
   
+  <tbody>
+    <tr>
+      <td>- 3 0 d B m ( 1  W ) - 3 6 d B m ( 2 5 0 n W )</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>9 kHz – 174 MHz 400 – 790 MHz >862 – 1000 MHz >1000 MHz</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+![](images/image_2.jpg)  
 Hình 3 - Các giới hạn phát xạ giả đối với máy phát DVB-T (độ rộng băng tần chuẩn là ${ \bf 4 } ~ { \bf k H z }$ )
 
 # 2.2 Các phát xạ ngoài băng
@@ -111,15 +200,49 @@ Trong những trường hợp nghiêm ngặt như các kênh truyền hình kề
 
 Bảng 2 - Các giới hạn phát xạ ngoài băng đối với các máy phát có công suất dưới 25W và từ 25W trở lên   
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>- 7 6 d B m ( 2 5 - p 8 2 W ) d B m ( 6 , 3 p - W 6 ) 0 d - B 6 6 m ( d 1 B n m W ( ) 0 , 2 5 n W</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>174 – 400 MHz >790 - 862 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
+<table>
+  
+  <tbody>
+    <tr>
+      <td>( 1 n W )</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>174 – 400 MHz >790 - 862 MHz</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>±6</td><td rowspan=1 colspan=1>-95</td></tr><tr><td rowspan=1 colspan=1>±12</td><td rowspan=1 colspan=1>-120</td></tr><tr><td rowspan=1 colspan=1>:</td><td rowspan=1 colspan=1>-126</td></tr><tr><td rowspan=1 colspan=2>DUOI 25W</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=5 colspan=1>Truong hop khongnghiem ngat</td><td rowspan=1 colspan=1>±3,81</td><td rowspan=1 colspan=1>11,2</td></tr><tr><td rowspan=1 colspan=1>±4,2</td><td rowspan=1 colspan=1>-29</td></tr><tr><td rowspan=1 colspan=1>±6</td><td rowspan=1 colspan=1>-41</td></tr><tr><td rowspan=1 colspan=1>±12</td><td rowspan=1 colspan=1>-66</td></tr><tr><td rowspan=1 colspan=1>-</td><td rowspan=1 colspan=1>-82</td></tr><tr><td rowspan=5 colspan=1>Truong hop nghiemngat</td><td rowspan=1 colspan=1>±3,81</td><td rowspan=1 colspan=1>11,2</td></tr><tr><td rowspan=1 colspan=1>±4,2</td><td rowspan=1 colspan=1>-39</td></tr><tr><td rowspan=1 colspan=1>±6</td><td rowspan=1 colspan=1>-51</td></tr><tr><td rowspan=1 colspan=1>±12</td><td rowspan=1 colspan=1>-76</td></tr><tr><td rowspan=1 colspan=1>-</td><td rowspan=1 colspan=1>-82</td></tr></table>
-
-![](images/3.jpg)
-
-> **Hình chú thích:** a graph showing the temperature and pressure of a gas
-
-
+![](images/image_3.jpg)
 
 
 
@@ -167,7 +290,56 @@ Trong dải tần từ 30 MHz đến 4,5 GHz, các phát xạ bức xạ không 
 
 Không được thực hiện các phép đo trong băng ngoại trừ (xem chú thích 2 trong Bảng 4).
 
-
+<table>
+  
+  <tbody>
+    <tr>
+      <td>Phân loại theo ấn định tần số</td>
+      <td>Sai lệch tần số tính từ tần số trung tâm, MHz</td>
+      <td>Mức tương đối, dBc</td>
+    </tr>
+    <tr>
+      <td>TỪ 25W TRỞ LÊN</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Trường hợp không nghiêm ngặt</td>
+      <td>3,81</td>
+      <td>-32,8</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>4,2</td>
+      <td>-73</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>6</td>
+      <td>-85</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>12</td>
+      <td>-110</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>-</td>
+      <td>-126</td>
+    </tr>
+    <tr>
+      <td>Trường hợp nghiêm ngặt</td>
+      <td>3,81</td>
+      <td>-32,8</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>4,2</td>
+      <td>-83</td>
+    </tr>
+  </tbody>
+</table>
 
 Phép đo này được thực hiện $\dot { \mathbf { O } }$ cự ly $1 0 \mathrm { m }$ . Khi có yêu cầu về kích cỡ hay công suất thì có th $\acute { \hat { \mathbf { e } } }$ sử dụng cự ly khác, khi đó cần lưu ý một số điểm sau:
 
@@ -181,11 +353,7 @@ $\mathrm { L } ( \mathrm { x } ) { = } \mathrm { L } ( 1 0 \mathrm { m } ) { + }
 
 Bảng 4 - Các giới hạn bức xạ vỏ   
 
-<table><tr><td rowspan=1 colspan=1>Gioi han &#x27; cur ly 10 m (dBμV/m)(xem chu thich 1 va 2)</td><td rowspan=1 colspan=1>Dai tan</td></tr><tr><td rowspan=1 colspan=1>30 ≤ 60 + 10 log10 (Po/2000)≤ 70</td><td rowspan=1 colspan=1>30 MHz ÷ 230 MHz</td></tr><tr><td rowspan=1 colspan=1>37 ≤67 + 10l0g10(Po/2000)≤ 77</td><td rowspan=1 colspan=1>230 MHz ÷ 4,5 GHz</td></tr><tr><td rowspan=1 colspan=2>CHU THiCH 1: Po la cong suat ra, tinh theo WCHU THiCH 2: Bang ngoai trur cua may phat la kénh duoc cap phat.</td></tr></table>
 
-![](images/4.jpg)
 
-> **Hình chú thích:** the graph shows the power output of a generator
-
-  
+![](images/image_4.jpg)  
 Hình 5 - Giới hạn bức xạ vỏ cho máy phát hình số

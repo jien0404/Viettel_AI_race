@@ -25,28 +25,368 @@ $^ +$ Có thể sửa đổi được (O): Đây là các chỉ tiêu dạng tù
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUA DOI</td></tr><tr><td rowspan=1 colspan=1>I</td><td rowspan=1 colspan=4>Yeu cau sir dung</td></tr><tr><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=1>Loai may in</td><td rowspan=1 colspan=1>May in nhiet.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1> Phuong phap in</td><td rowspan=1 colspan=1>In truyén nhiet trrc tiép.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthoa man yeu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1>Loai muc in</td><td rowspan=1 colspan=1>Khong can dung muc in.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yeu cau.- Khong dat: Cac hang muc khóngthöa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1>Vat lieu in</td><td rowspan=1 colspan=1>Giay tem decal cam nhiet truc tiép.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthöa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1>Kho giay in</td><td rowspan=1 colspan=1>A8.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yeu cau.- Khong dat: Cac hang muc khong thoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>1.6</td><td rowspan=1 colspan=1>Duong kinh cuon giay toida cho phép lap vao may</td><td rowspan=1 colspan=1>≥ 50 mm (duong kinh ngoai).</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yeu cau.- Khong dat: Cac hang muc khongthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>Yêu cầu sử dụng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Loại máy in</td>
+      <td>Máy in nhiệt.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Phương pháp in</td>
+      <td>In truyền nhiệt trực tiếp.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>Loại mực in</td>
+      <td>Không cần dùng mực in.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Vật liệu in</td>
+      <td>Giấy tem decal cảm nhiệt trực tiếp.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>Khổ giấy in</td>
+      <td>A8.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>1.6</td>
+      <td>Đường kính cuộn giấy tối đa cho phép lắp vào máy</td>
+      <td>≥ 50 mm (đường kính ngoài).</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUA DOI</td></tr><tr><td rowspan=1 colspan=1>1.7</td><td rowspan=1 colspan=1>Duong kinh toi da thanh gacuon giay in (néu c6)</td><td rowspan=1 colspan=1>≤13 mm</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khóngthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>1.8</td><td rowspan=1 colspan=1>Chiéu rong kho in toi da</td><td rowspan=1 colspan=1>≥ 48 mm.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khong thoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>1.9</td><td rowspan=1 colspan=1> Chiéu dai kh in toi da</td><td rowspan=1 colspan=1>≥ 50 mm.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khong thoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>1.10</td><td rowspan=1 colspan=1>Do day nhan giay in nhónhat</td><td rowspan=1 colspan=1>≤ 0,06 mm.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthöa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>1.11</td><td rowspan=1 colspan=1>Do day nhan giay in lonnhat</td><td rowspan=1 colspan=1>≥ 0,19 mm.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthöa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>1.12</td><td rowspan=1 colspan=1>Tinh nang tu dong nhan dien kich thuoc tem dé canchinh vung in</td><td rowspan=1 colspan=1>C6.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthöa man yeu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>ⅡI</td><td rowspan=1 colspan=4>Yeu cau thiet bi</td></tr><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>Dau in</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>1.7</td>
+      <td>Đường kính tối đa thanh gá cuộn giấy in (nếu có)</td>
+      <td>≤ 13 mm</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>1.8</td>
+      <td>Chiều rộng khổ in tối đa</td>
+      <td>≥ 48 mm.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>1.9</td>
+      <td>Chiều dài khổ in tối đa</td>
+      <td>≥ 50 mm.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>1.10</td>
+      <td>Độ dày nhãn giấy in nhỏ nhất</td>
+      <td>≤ 0,06 mm.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>1.11</td>
+      <td>Độ dày nhãn giấy in lớn nhất</td>
+      <td>≥ 0,19 mm.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>1.12</td>
+      <td>Tính năng tự động nhận diện kích thước tem để căn chỉnh vùng in</td>
+      <td>Có.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>II</td>
+      <td>Yêu cầu thiết bị</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>Đầu in</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUA DOI</td></tr><tr><td rowspan=1 colspan=1>2.1.1</td><td rowspan=1 colspan=1>Toc do in toi da</td><td rowspan=1 colspan=1>≥ 3.6 IPS</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khong thoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.1.2</td><td rowspan=1 colspan=1>Do phan giai</td><td rowspan=1 colspan=1>≥ 203 dpi.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.1.3</td><td rowspan=1 colspan=1>Do ben dau in</td><td rowspan=1 colspan=1>C6 thé in duoc ≥ 30 Km giay.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthöa man yeu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.1.4</td><td rowspan=1 colspan=1>Thoi gian trung binh giuacac lan hong hoc (MTBF)</td><td rowspan=1 colspan=1>≥ 4.000 h.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khóngthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.1.5</td><td rowspan=1 colspan=1>Chuan ma code hδ tro</td><td rowspan=1 colspan=1> Ma 128, 39, Ma tran du lieu, EAN128，EAN/UPC， QRcode,Codabar</td><td rowspan=1 colspan=1> - Dat: Cac hang muc dung voi yéu cau. - Khong dat: Cac hang muc khóngthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>Ket n6i</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.2.1</td><td rowspan=1 colspan=1>Cong két noi dur lieu</td><td rowspan=1 colspan=1>Tói thiéu c6 USB 2.0, Bluetooth4.0 va Wifi 802.11</td><td rowspan=1 colspan=1> Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>2.1.1</td>
+      <td>Tốc độ in tối đa</td>
+      <td>≥ 3.6 IPS</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.1.2 Độ phân giải</td>
+      <td></td>
+      <td>≥ 203 dpi.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.1.3 Độ bền đầu in</td>
+      <td></td>
+      <td>Có thể in được ≥ 30 Km giấy.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.1.4</td>
+      <td>Thời gian trung bình giữa các lần hỏng hóc (MTBF)</td>
+      <td>≥ 4.000 h.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.1.5</td>
+      <td>Chuẩn mã code hỗ trợ</td>
+      <td>Mã 128, 39, Ma trận dữ liệu, EAN 128, EAN/UPC, QR code, Codabar</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>Kết nối</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.2.1</td>
+      <td>Cổng kết nối dữ liệu</td>
+      <td>Tối thiểu có USB 2.0, Bluetooth 4.0 và Wifi 802.11</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUA DOI</td></tr><tr><td rowspan=1 colspan=1>2.2.2</td><td rowspan=1 colspan=1>Két noi dur lieu in</td><td rowspan=1 colspan=1>C6 thé in truc tiép tur may tinh,dien thoai va may tinh bang.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yeu cau.- Khong dat: Cac hang muc khongthöa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.2.3</td><td rowspan=1 colspan=1>Driver</td><td rowspan=1 colspan=1>Windows, Linux, Mac.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yeu cau.- Khong dat: Cac hang muc khongthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.2.4</td><td rowspan=1 colspan=1>SDK</td><td rowspan=1 colspan=1>Cung cap cho VTP:Windows，Linux， Mac，iOS,Android.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yeu cau.- Khong dat: Cac hang muc khongthöa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1> Kich thuoc</td><td rowspan=1 colspan=1>≤ 250 x 200 x 200 mm.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yeu cau.- Khong dat: Cac hang muc khongthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.4</td><td rowspan=1 colspan=1> Trong luong may</td><td rowspan=1 colspan=1>≤1Kg.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.5</td><td rowspan=1 colspan=1> Moi truong hoat dong</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2.5.1</td><td rowspan=1 colspan=1> Nhiet do hoat dong</td><td rowspan=1 colspan=1>Toi thiéu trong dai 10-40 C.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthoa man yeu cau.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>2.2.2 Kết nối dữ liệu in</td>
+      <td></td>
+      <td>Có thể in trực tiếp từ máy tính, điện thoại và máy tính bảng.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.2.3 Driver</td>
+      <td></td>
+      <td>Windows, Linux, Mac.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.2.4</td>
+      <td>SDK</td>
+      <td>Cung cấp cho VTP: Windows, Linux, Mac, iOS, Android.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>Kích thước</td>
+      <td>≤ 250 x 200 x 200 mm.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>Trọng lượng máy</td>
+      <td>≤ 1Kg.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.5</td>
+      <td>Môi trường hoạt động</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2.5.1 Nhiệt độ hoạt động</td>
+      <td></td>
+      <td>Tối thiểu trong dải 10-40 °C.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUA DOI</td></tr><tr><td rowspan=1 colspan=1>2.5.2</td><td rowspan=1 colspan=1>Do am hoat dong</td><td rowspan=1 colspan=1>Toi thiéu trong dai 30 - 90 %,khong dong suong.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.6</td><td rowspan=1 colspan=1>Nguon dien</td><td rowspan=1 colspan=1>- Dien ap: tur 200 VAC dén 250VAC.Tan só: 50 ± 0,2 Hz. - Cong suat: ≤ 50 W.</td><td rowspan=1 colspan=1> - Dat: Cac hang muc dung voi yeu cau.- Khong dat: Cac hang muc khongthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.7</td><td rowspan=1 colspan=1> Phu kien, tai lieu dong bo dikem</td><td rowspan=1 colspan=1>Day nguon, cap USB, HDSD, tailieu SDK...</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khongthoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.8</td><td rowspan=1 colspan=1>Chirng nhan CO, CQ</td><td rowspan=1 colspan=1>C6.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khong dat: Cac hang muc khong thoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.9</td><td rowspan=1 colspan=1> Nam san xuat</td><td rowspan=1 colspan=1> Truoc thoi diém dau tu, mua samkhong qua 12 thang.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yéu cau.- Khóng dat: Cac hang muc khongthöa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>2.10</td><td rowspan=1 colspan=1> Tieu chuan dap ing</td><td rowspan=1 colspan=1>Tieu chuan an toan moi truongRoHS va an toan dien.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voi yeu cau.- Khong dat: Cac hang muc khong thoa man yéu cau.</td><td rowspan=1 colspan=1>0</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>2.5.2 Độ ẩm hoạt động</td>
+      <td></td>
+      <td>Tối thiểu trong dải 30 - 90 %, không đọng sương.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.6</td>
+      <td>Nguồn điện</td>
+      <td>- Điện áp: từ 200 VAC đến 250 VAC. - Tần số: 50 ± 0,2 Hz. - Công suất: ≤ 50 W.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.7</td>
+      <td>Phụ kiện, tài liệu đồng bộ đi kèm</td>
+      <td>Dây nguồn, cáp USB, HDSD, tài liệu SDK…</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.8</td>
+      <td>Chứng nhận CO, CQ</td>
+      <td>Có.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.9</td>
+      <td>Năm sản xuất</td>
+      <td>Trước thời điểm đầu tư, mua sắm không quá 12 tháng.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>2.10</td>
+      <td>Tiêu chuẩn đáp ứng</td>
+      <td>Tiêu chuẩn an toàn môi trường RoHS và an toàn điện.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>O</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
 4. PHƯƠNG PHÁP KIỂM TRA CHẤT LƯỢNG SẢN PHẨM THEO CTKT   
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1>HANG MUC</td><td rowspan=1 colspan=1>YEU CAU</td><td rowspan=1 colspan=1> TIEU CHI DANH GIA</td><td rowspan=1 colspan=1>SUA DOI</td></tr><tr><td rowspan=1 colspan=1>2.11</td><td rowspan=1 colspan=1>Bao hanh</td><td rowspan=1 colspan=1>≥ 12 thang voi may, ≥ 6 thang voidau in.</td><td rowspan=1 colspan=1>Dat: Cac hang muc dung voi yeu cau. Khong dat: Cac hang muc khong thoa man yéu cau.</td><td rowspan=1 colspan=1>M</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>YÊU CẦU</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+      <td>SỬA ĐỔI</td>
+    </tr>
+    <tr>
+      <td>2.11</td>
+      <td>Bảo hành</td>
+      <td>≥ 12 tháng với máy, ≥ 6 tháng với đầu in.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
 
-<table><tr><td rowspan=1 colspan=1>TT</td><td rowspan=1 colspan=1> HANG MUC</td><td rowspan=1 colspan=1> PHUONG PHAP KIEM TRA</td><td rowspan=1 colspan=1>TIEU CHI DANH GIA</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Cac chi tieu</td><td rowspan=1 colspan=1>Kiém tra ngoai quan, sur dung thuc té, va theo tai lieu datasheet san pham cua nha san xuatcong b6.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voiyeu                                cau.- Khong dat: Cac hang muckhong thoa man yéu cau.</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>Thoi gian trung binh giua cac lan honghóc (MTBF)</td><td rowspan=1 colspan=1>Kiem tra tai lieu cong bó cua nha san xuat véthiét bi hoac cac chung chi kiém tra cho ma sän phäm kem theo.</td><td rowspan=1 colspan=1>- Dat: Cac hang muc dung voiyéu                                cau.- Khong dat: Cac hang muckhong thoa man yeu cau.</td></tr></table>
+<table>
+  
+  <tbody>
+    <tr>
+      <td>TT</td>
+      <td>HẠNG MỤC</td>
+      <td>PHƯƠNG PHÁP KIỂM TRA</td>
+      <td>TIÊU CHÍ ĐÁNH GIÁ</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Các chỉ tiêu</td>
+      <td>Kiểm tra ngoại quan, sử dụng thực tế, và theo tài liệu datasheet sản phẩm của nhà sản xuất công bố.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Thời gian trung bình giữa các lần hỏng hóc (MTBF)</td>
+      <td>Kiểm tra tài liệu công bố của nhà sản xuất về thiết bị hoặc các chứng chỉ kiểm tra cho mã sản phẩm kèm theo.</td>
+      <td>- Đạt: Các hạng mục đúng với yêu cầu. - Không đạt: Các hạng mục không thỏa mãn yêu cầu.</td>
+    </tr>
+  </tbody>
+</table>
