@@ -352,7 +352,7 @@ Băng tần hoạt động được quy định trong Quy chuẩn QCVN 128:2021/
 
 - Băng tần n28-700APT với chế độ song công phân chia theo tần số (FDD) là đoạn băng tần được giải phóng sau số hóa truyền hình và được đánh giá là băng tần quý giá đáp ứng cho nhu cầu phát triển của thông tin di động tại nhiều quốc gia trong đó có Việt Nam (Hình 3).
 
-![](images/image_1.jpg)  
+|<image_1>|  
 Hình 3. Quy hoạch phổ tần băng n28 (IMT)   
 Hình 4. Phân chia phổ tần băng n28.
 
@@ -404,7 +404,7 @@ Hình 4. Phân chia phổ tần băng n28.
 
 5.
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Hình 5. Đoạn băng 773 MHz đến ${ 7 9 2 } \mathrm { M H z }$ Viettel đang thử nghiệm (ngày đo 28/2/2024 tại 80 Trần Quốc Hoàn, Hà Nội)
 
 # 1.3.2 Băng 40 (n40)
@@ -434,7 +434,7 @@ Băng tần này đang được thử nghiệm cho mạng 5G, Viettel đang th�
 
 
 
-![](images/image_3.jpg)
+|<image_3>|
 
 Hình 7. Đoạn băng 2350 MHz đến 2390 MHz Viettel đang thử nghiệm (ngày đo 28/2/2024 tại 80 Trần Quốc Hoàn, Hà Nội ).
 
@@ -1049,7 +1049,7 @@ Khối C4 có độ rộng 80 MHz, từ tần số 3900 MHz đến 3980 MHz.
   </tbody>
 </table>
 
-![](images/image_4.jpg)  
+|<image_4>|  
 Hình 10. Phổ tần thử nghiệm 5G Viettel dải tần 3700 MHz (ngày đo 29/6/2024)
 
 Tại Việt Nam băng tần n40 (2300 MHz đến 2400 MHz), n41 (2500 MHz đến 2690 MHz) và n77 (3700 MHz đến 4200 MHz) được Cục Tần số vô tuyến điện quy hoạch cho cấu Hình 5G NR TDD và xây dựng lộ trình đấu giá khai thác các băng tần trên. Hiện nay đang được Vinaphone, Viettel và MobiFone đang thử nghiệm trên các băng tần này.
@@ -1485,7 +1485,7 @@ Thiết bị gây nhiễu thông tin di động 5G có 5 băng tần cần thự
 
 Trên cơ sở lựa chọn giải pháp gây nhiễu, nhóm tác giả đã nghiên cứu thiết kế, xây dựng sơ đồ khối của thiết bị như Hình 11.
 
-![](images/image_5.jpg)
+|<image_5>|
 
 Hình 11. Sơ đồ khối thiết bị gây nhiễu thông tin di động 5G tích hợp gây nhiễu các dải tần số 2G, 3G, 4G
 

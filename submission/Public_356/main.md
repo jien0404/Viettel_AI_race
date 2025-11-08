@@ -130,7 +130,7 @@ Bảng 1 - Các giới hạn phát xạ giả cho máy phát DVB-T
 
 # Hình 2 - Các giới hạn phát xạ giả đối với máy phát DVB-T (độ rộng băng tần chuẩn là $\mathbf { 1 0 0 k H z }$ )
 
-![](images/image_1.jpg)  
+|<image_1>|  
 Công suất trung bình của máy phát
 
 <table>
@@ -151,7 +151,7 @@ Công suất trung bình của máy phát
   </tbody>
 </table>
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Hình 3 - Các giới hạn phát xạ giả đối với máy phát DVB-T (độ rộng băng tần chuẩn là ${ \bf 4 } ~ { \bf k H z }$ )
 
 # 2.2 Các phát xạ ngoài băng
@@ -242,7 +242,7 @@ Bảng 2 - Các giới hạn phát xạ ngoài băng đối với các máy phá
   </tbody>
 </table>
 
-![](images/image_3.jpg)
+|<image_3>|
 
 
 
@@ -355,5 +355,5 @@ Bảng 4 - Các giới hạn bức xạ vỏ
 
 
 
-![](images/image_4.jpg)  
+|<image_4>|  
 Hình 5 - Giới hạn bức xạ vỏ cho máy phát hình số

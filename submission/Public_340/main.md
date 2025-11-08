@@ -10,7 +10,7 @@ Tên Thông tư: Thông tư Sửa đổi 1:2023 QCVN 81:2019/BTTTT “Quy chuẩ
 
 - Băng tần đã cấp phép cho các nhà mạng:
 
-![](images/image_1.jpg)
+|<image_1>|
 
 - Về thực trạng chất lượng dịch vụ Internet 4G: Tháng 8/2019, Bộ Thông tin và Truyền thông đã ban hành Quy chuẩn kỹ thuật quốc gia QCVN 81:2019/BTTTT “Quy chuẩn kỹ thuật quốc gia về chất lượng dịch vụ truy nhập Internet trên mạng viễn thông di động mặt đất”. Quy chuẩn quy định, các doanh nghiệp cung cấp dịch vụ phải công bố vùng cung cấp dịch vụ dưới dạng bản đồ số và các giá trị tốc độ tải xuống tối thiểu $\mathrm { ( V d \mathrm { _ { m i n } } ) }$ , tốc độ tải xuống trung bình $\mathrm { ( V _ { d } ) }$ , tốc độ tải lên trung bình $\mathrm { ( V _ { u } ) }$ trong vùng cung cấp dịch vụ. Định kỳ hàng quý Cục Viễn thông triển khai đo kiểm chất lượng dịch vụ truy nhập Internet 4G phục vụ công tác quản lý nhà nước về chất lượng dịch vụ để so sánh, đánh giá với mức doanh nghiệp công bố. Giá trị doanh nghiệp hiện đang công bố như sau:
 
@@ -2636,7 +2636,7 @@ $+$ Băng rộng 4G: 30 Mbit/s.
 
 $\bigcirc$ $\mathrm { S } \acute { \boldsymbol { \mathrm { o } } } \mathrm { \ l i e u } ^ { 3 }$ từ United Nations ESCAP (Economic and Social Commission for Asia and Pacific) cho thấy tốc độ download băng rộng di động trung bình của Asia và Pacific như sau:
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Minimum data speeds of 5G and 4G technology in 2022 (in Mbps)
 
 $^ +$ Khu vực Châu Á và Thái Bình Dương: 31 Mbit/s.   

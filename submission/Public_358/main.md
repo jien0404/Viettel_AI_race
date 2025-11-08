@@ -26,9 +26,9 @@ Khuyến nghị G.826 của ITU-T về giới hạn lỗi đối với đường
 
 Hình C.1 mô tả đường truyền chuẩn trên mặt đất qua việc tính toán giới hạn lỗi như đã chỉ ra trong Quy chuẩn này.
 
-![](images/image_1.jpg)
+|<image_1>|
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Hình C.1 - Đường truyền chuẩn cho kênh thuê riêng trên mặt đất tốc độ 2 048 kbit/s.
 
 Đường truyền chuẩn trong Hình C.1 gồm có 2 nước tại 2 đầu cuối và một nước trung gian. Tại nước có điểm đầu cuối thì khoảng cách tính từ điểm NTP đến cổng đi quốc tế tối đa là $1 \ 0 0 0 \ \mathrm { k m }$ . Đối với nước trung gian thì khoảng cách tối đa là 3 $5 0 0 ~ \mathrm { k m }$ nếu chỉ có một cổng quốc tế. Khoảng cách trên được tính bằng 1,5 lần khoảng cách theo đường thẳng trừ trường hợp nếu là cáp ngầm dưới biển thì khoảng cách sẽ là khoảng cách thực tế.
@@ -37,7 +37,7 @@ CHÚ THÍCH: mô hình này cho phép khoảng cách tổng cộng lên đến $
 
 # 2.2 Đường truyền qua vệ tinh
 
-![](images/image_3.jpg)
+|<image_3>|
 
 Hình C.2 - Đường truyền chuẩn cho kênh thuê riêng qua vệ tinh tốc độ
 

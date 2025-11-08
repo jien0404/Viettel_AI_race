@@ -3261,7 +3261,7 @@ ES3 là nguồn năng lượng điện loại 3 khi cả nguồn điện và đi
 
 
 
-![](images/image_1.jpg)
+|<image_1>|
 
 Hình 11 - Hình minh họa các giới hạn ES về điện áp và dòng điện Đối với bất kỳ điện áp trong giới hạn điện áp, sẽ không có giới hạn cho dòng điện. Tương tự như vậy đối với bất kỳ dòng điện nào trong giới hạn, sẽ không có giới hạn nào đối với điện áp, xem Hình 11.
 
@@ -3557,12 +3557,12 @@ Thay thế cho các yêu cầu bên trên, các giá trị dưới đây có th�
   </tbody>
 </table>
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Hình 12 - Các giá trị cực đại cho kết hợp dòng AC và dòng DC
 
 
 
-![](images/image_3.jpg)  
+|<image_3>|  
 Hình 13 - Các giá trị cực đại cho kết hợp điện áp AC và điện áp DC
 
 # 2.3 Các giới hạn điện dung
@@ -4036,7 +4036,7 @@ Sự kiện kết thúc: Lựa chọn được DBMS phù hợp với yêu cầu 
 
 
 
-![](images/image_1.jpg)
+|<image_1>|
 
 <table>
   
@@ -8568,7 +8568,7 @@ Sự kiện bắt đầu: Khi có nhu cầu đầu tư hạ tầng lưu trữ d�
 
 • Lưu đồ tổng thể quy trình • Diễn giải chi tiết • Vai trò của các bên liên quan
 
-![](images/image_1.jpg)
+|<image_1>|
 
 <table>
   
@@ -8837,7 +8837,7 @@ Tên Thông tư: Thông tư Sửa đổi 1:2023 QCVN 81:2019/BTTTT “Quy chuẩ
 
 - Băng tần đã cấp phép cho các nhà mạng:
 
-![](images/image_1.jpg)
+|<image_1>|
 
 - Về thực trạng chất lượng dịch vụ Internet 4G: Tháng 8/2019, Bộ Thông tin và Truyền thông đã ban hành Quy chuẩn kỹ thuật quốc gia QCVN 81:2019/BTTTT “Quy chuẩn kỹ thuật quốc gia về chất lượng dịch vụ truy nhập Internet trên mạng viễn thông di động mặt đất”. Quy chuẩn quy định, các doanh nghiệp cung cấp dịch vụ phải công bố vùng cung cấp dịch vụ dưới dạng bản đồ số và các giá trị tốc độ tải xuống tối thiểu $\mathrm { ( V d \mathrm { _ { m i n } } ) }$ , tốc độ tải xuống trung bình $\mathrm { ( V _ { d } ) }$ , tốc độ tải lên trung bình $\mathrm { ( V _ { u } ) }$ trong vùng cung cấp dịch vụ. Định kỳ hàng quý Cục Viễn thông triển khai đo kiểm chất lượng dịch vụ truy nhập Internet 4G phục vụ công tác quản lý nhà nước về chất lượng dịch vụ để so sánh, đánh giá với mức doanh nghiệp công bố. Giá trị doanh nghiệp hiện đang công bố như sau:
 
@@ -11463,7 +11463,7 @@ $+$ Băng rộng 4G: 30 Mbit/s.
 
 $\bigcirc$ $\mathrm { S } \acute { \boldsymbol { \mathrm { o } } } \mathrm { \ l i e u } ^ { 3 }$ từ United Nations ESCAP (Economic and Social Commission for Asia and Pacific) cho thấy tốc độ download băng rộng di động trung bình của Asia và Pacific như sau:
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Minimum data speeds of 5G and 4G technology in 2022 (in Mbps)
 
 $^ +$ Khu vực Châu Á và Thái Bình Dương: 31 Mbit/s.   
@@ -15569,7 +15569,7 @@ Bảng 1 - Các giới hạn phát xạ giả cho máy phát DVB-T
 
 # Hình 2 - Các giới hạn phát xạ giả đối với máy phát DVB-T (độ rộng băng tần chuẩn là $\mathbf { 1 0 0 k H z }$ )
 
-![](images/image_1.jpg)  
+|<image_1>|  
 Công suất trung bình của máy phát
 
 <table>
@@ -15590,7 +15590,7 @@ Công suất trung bình của máy phát
   </tbody>
 </table>
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Hình 3 - Các giới hạn phát xạ giả đối với máy phát DVB-T (độ rộng băng tần chuẩn là ${ \bf 4 } ~ { \bf k H z }$ )
 
 # 2.2 Các phát xạ ngoài băng
@@ -15681,7 +15681,7 @@ Bảng 2 - Các giới hạn phát xạ ngoài băng đối với các máy phá
   </tbody>
 </table>
 
-![](images/image_3.jpg)
+|<image_3>|
 
 
 
@@ -15794,7 +15794,7 @@ Bảng 4 - Các giới hạn bức xạ vỏ
 
 
 
-![](images/image_4.jpg)  
+|<image_4>|  
 Hình 5 - Giới hạn bức xạ vỏ cho máy phát hình số
 
 # Public_292
@@ -17317,7 +17317,7 @@ Ban hành bộ chỉ tiêu kỹ thuật (CTKT) làm sở cứ đầu tư, thuê 
 
 # 1. Khái niệm
 
-![](images/image_1.jpg)
+|<image_1>|
 
 Hình 1.Giới hạn miền phát xạ ngoài băng, miền phát xạ giả
 
@@ -18490,7 +18490,7 @@ Mô phỏng ảnh hưởng của nhiễu gây ra bởi nguồn, tín hiệu và 
 
 EUT được đặt trên một tấm đỡ cách điện có độ cao 0,1 m so với mặt phẳng tham chiếu đất. Thiết bị phụ trợ (AE) cần thiết cung cấp nguồn cho EUT và các tín hiệu cần thiết để được khai thác bình thường và kiểm tra chất lượng phải được kết nối với nhau bằng dây cáp, sẽ được cung cấp bởi các thiết bị ghép và tách thích hợp (CDNs) tại khoảng cách $^ { 0 , 1 \mathrm { ~ m ~ } }$ và $^ { 0 , 3 \mathrm { ~ m ~ } }$ từ EUT (Hình 7). TCVN 8241-4-6: 2009 chỉ rõ thiết kế của CDNs và các kẹp phun thay thế nếu không thể sử dụng CDN.
 
-![](images/image_1.jpg)
+|<image_1>|
 
 CHÚ THÍCH: T - Đầu cuối $5 0 \Omega$
 
@@ -18520,7 +18520,7 @@ CDN - Mạng ghép/ tách
 
 # Hình 7 - Sơ đồ thiết lập thử miễn nhiễm đối với nhiễu dẫn tần số vô tuyến
 
-![](images/image_2.jpg)
+|<image_2>|
 
 CHU THICH:CDN-M3, $C _ { 1 } \left( { \sf t y p } \right) = 1 0 \mathsf { n F }$ $C _ { 2 } \ ( \mathsf { t y p } ) = 4 7$ nF, $R = 3 0 0$ Ω,L≥280 $\mu \mathsf { H }$ tai150 kHz. CDN-M2, $C _ { 1 } \left( { \sf t y p } \right) = 1 0 \mathsf { n F }$ $C _ { 2 } \left( \mathrm { t y p } \right) = 4 7$ nF, $R = 2 0 0 ~ \Omega$ Ω, $L \geq 2 8 0 ~ \mu \ H$ tai150kHz. CDN-M1, $C _ { 1 } \left( { \sf t y p } \right) = 2 2 { \sf n F }$ $C _ { 2 } \left( \mathsf { t y p } \right) = 4 7$ nF, $R = \ d _ { 1 } 0 0 \Omega$ $L \geq 2 8 0 ~ \mu \ H$ tai150kHz.
 
@@ -18719,7 +18719,7 @@ EUT cần đặt ở khu vực cường độ trường đồng nhất và cách
   </tbody>
 </table>
 
-![](images/image_3.jpg)
+|<image_3>|
 
 # Hình 9 - Ví dụ điều kiện thử nghiệm thích hợp miễn nhiễmđối với tần số vô tuyến phân tán
 
@@ -18745,7 +18745,7 @@ Mô phỏng đột biến năng lượng thấp, nhanh gây ra do chuyển mạc
 
 Phép thử được tiến hành như trong IEC 61000-4-4, tại mức nghiêm ngặt 3, sử dụng thiết bị phát thử tuân thủ theo 6.1.1 của IEC 61000-4-4, mạng ghép/tách tuân thủ theo 6.2 của IEC 61000-4-4 cho các đường điện, và thiết bị kẹp ghép điện dung tuân thủ theo 6.3 của IEC 61000-4-4 cho tín hiệu và đường điều khiển (Hình 10).
 
-![](images/image_4.jpg)
+|<image_4>|
 
 CHÚ THÍCH: I - Khoảng cách giữa giá kẹp và EUT (không lớn hơn 1 m) (A) - Vị trí ghép đường nguồn
 
@@ -25795,7 +25795,7 @@ Băng tần hoạt động được quy định trong Quy chuẩn QCVN 128:2021/
 
 - Băng tần n28-700APT với chế độ song công phân chia theo tần số (FDD) là đoạn băng tần được giải phóng sau số hóa truyền hình và được đánh giá là băng tần quý giá đáp ứng cho nhu cầu phát triển của thông tin di động tại nhiều quốc gia trong đó có Việt Nam (Hình 3).
 
-![](images/image_1.jpg)  
+|<image_1>|  
 Hình 3. Quy hoạch phổ tần băng n28 (IMT)   
 Hình 4. Phân chia phổ tần băng n28.
 
@@ -25847,7 +25847,7 @@ Hình 4. Phân chia phổ tần băng n28.
 
 5.
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Hình 5. Đoạn băng 773 MHz đến ${ 7 9 2 } \mathrm { M H z }$ Viettel đang thử nghiệm (ngày đo 28/2/2024 tại 80 Trần Quốc Hoàn, Hà Nội)
 
 # 1.3.2 Băng 40 (n40)
@@ -25877,7 +25877,7 @@ Băng tần này đang được thử nghiệm cho mạng 5G, Viettel đang th�
 
 
 
-![](images/image_3.jpg)
+|<image_3>|
 
 Hình 7. Đoạn băng 2350 MHz đến 2390 MHz Viettel đang thử nghiệm (ngày đo 28/2/2024 tại 80 Trần Quốc Hoàn, Hà Nội ).
 
@@ -26492,7 +26492,7 @@ Khối C4 có độ rộng 80 MHz, từ tần số 3900 MHz đến 3980 MHz.
   </tbody>
 </table>
 
-![](images/image_4.jpg)  
+|<image_4>|  
 Hình 10. Phổ tần thử nghiệm 5G Viettel dải tần 3700 MHz (ngày đo 29/6/2024)
 
 Tại Việt Nam băng tần n40 (2300 MHz đến 2400 MHz), n41 (2500 MHz đến 2690 MHz) và n77 (3700 MHz đến 4200 MHz) được Cục Tần số vô tuyến điện quy hoạch cho cấu Hình 5G NR TDD và xây dựng lộ trình đấu giá khai thác các băng tần trên. Hiện nay đang được Vinaphone, Viettel và MobiFone đang thử nghiệm trên các băng tần này.
@@ -26928,7 +26928,7 @@ Thiết bị gây nhiễu thông tin di động 5G có 5 băng tần cần thự
 
 Trên cơ sở lựa chọn giải pháp gây nhiễu, nhóm tác giả đã nghiên cứu thiết kế, xây dựng sơ đồ khối của thiết bị như Hình 11.
 
-![](images/image_5.jpg)
+|<image_5>|
 
 Hình 11. Sơ đồ khối thiết bị gây nhiễu thông tin di động 5G tích hợp gây nhiễu các dải tần số 2G, 3G, 4G
 
@@ -28275,7 +28275,7 @@ Sợi nano bạc được tổng hợp bằng phương pháp polyol, với tiề
 
 
 
-![](images/image_1.jpg)  
+|<image_1>|  
 Hình 2.1. Sơ đồ quy trình tổng hợp dung dịch nano bạc dạng sợi
 
 # 1.1 Tổng hợp sợi nano bạc bằng phương pháp polyol
@@ -28302,7 +28302,7 @@ tốc độ 7000 vòng/ phút trong 5 phút
 
 Graphene oxit được tổng hợp theo phương pháp Hummer cải tiến [69], quy trình được mô tả trong sơ đồ Hình 2.2 cụ thể như sau:
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Hình 2.2. Sơ đồ quy trình tổng hợp GO
 
 Bước 1: Đặt cốc chứa $9 6 ~ \mathrm { m l }$ $\mathrm { H } _ { 2 } \mathrm { S O } _ { 4 }$ đặc trong chậu muối đá cho tới khi nhiệt độ hệ giảm xuống dưới $5 \mathrm { { } ^ { \circ } C }$ .
@@ -28329,7 +28329,7 @@ Bước 1: Phân tán $0 , 7 1 \ \mathrm { g }$ EDOT và 1 g PSSNa trong $1 0 0 
 
 Bước $2 \colon 2 ~ \mathrm { m L }$ dung dịch ammoni persulfate và $2 ~ \mathrm { m L }$ dung dịch FeCl3 (0,2M) được thêm từ từ vào dung dịch. Tiếp tục khuấy trong 1h $\dot { \mathbf { O } }$ nhiệt độ phòng. Thu được PEDOT:PSS phân tán trong nước với nồng độ $2 \%$ .
 
-![](images/image_3.jpg)  
+|<image_3>|  
 Hình 2.3. Sơ đồ quy trình tổng hợp PEDOT:PSS
 
 # 4. Phương pháp oxi hóa cacbon nanotube
@@ -28346,7 +28346,7 @@ CNT được thực hiện như sau:
 
 Vật liệu khung hữu cơ kim loại lưỡng kim FeMg-BDC với các tỷ lệ mol Fe/Mg khác nhau được tổng hợp theo quy trình như sơ đ $\dot { \hat { 0 } } \mathrm { H i n h } 2 . 4 \mathrm { c u }$ thể như sau [73, 74]:
 
-![](images/image_4.jpg)  
+|<image_4>|  
 Hình 2.4. Sơ đồ quy trình tổng hợp FeMg-BDC
 
 Bước 1: 1 mmol muối kim loại có tỷ $\mathsf { l e } \mathrm { m o l } \mathrm { F e } ^ { 3 + } / \mathrm { M g } ^ { 2 + }$ thay đổi (1/1, 1/2, 1/4) kết hợp với 1 mmol $\mathrm { H } _ { 2 } \mathrm { B D C }$ được hòa tan trong $1 0 \mathrm { m L }$ DMF và khuấy liên tục để thu được dung dịch đồng nhất.
@@ -29024,7 +29024,7 @@ Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng xác đ�
 
 Sơ đồ đo như Hình 1.
 
-![](images/image_1.jpg)  
+|<image_1>|  
 Hình 1 - Sơ đồ kết nối đo mức tín hiệu cao tần
 
 # 2. Băng thông của mỗi kênh
@@ -29108,7 +29108,7 @@ Sơ đồ đo như Hình 2.
   </tbody>
 </table>
 
-![](images/image_2.jpg)
+|<image_2>|
 
 Hình 2 - Sơ đồ kết nối đo băng thông mỗi kênh
 
@@ -29122,7 +29122,7 @@ Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng để x�
 
 Sơ đồ đo như Hình 3.
 
-![](images/image_3.jpg)
+|<image_3>|
 
 Hình 3 - Sơ đồ kết nối đo đáp tuyến biên độ tần số tín hiệu cao tần
 
@@ -29150,7 +29150,7 @@ Sơ đồ đo như Hình 4.
   </tbody>
 </table>
 
-![](images/image_4.jpg)
+|<image_4>|
 
 # Hình 4 - Sơ đồ kết nối đo độ di tần
 
@@ -29184,7 +29184,7 @@ Phương pháp xác định: Điều chỉnh máy phân tích về kênh cần �
 
 Sơ đồ đo như Hình 5.
 
-![](images/image_5.jpg)  
+|<image_5>|  
 Hình 5 - Sơ đồ kết nối đo tỷ số S/N
 
 6. Tỷ số lỗi bit
@@ -29211,7 +29211,7 @@ Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng xác đ�
 
 Sơ đồ đo như Hình 6.
 
-![](images/image_6.jpg)  
+|<image_6>|  
 Hình 6 - Sơ đồ kết nối đo tỷ số BER
 
 # 7. Tỷ số lỗi điều chế
@@ -29226,7 +29226,7 @@ Sử dụng thiết bị đo chuyên dùng phân tích chòm sao tín hiệu đ�
 
 Sơ đồ đo như Hình 7.
 
-![](images/image_7.jpg)  
+|<image_7>|  
 Hình 7 - Sơ đồ kết nối đo tỷ số MER
 
 8. Độ rung pha
@@ -29239,7 +29239,7 @@ Chỉ tiêu: Độ rung pha tín hiệu phải nằm trong giải $\pm { } 5 ^ {
 
 Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng xác định độ rung pha của tín hiệu thu được tại điểm kết nối thuê bao truyền hình cáp số DVB-T2 của đơn vị cung cấp dịch vụ.
 
-![](images/image_8.jpg)
+|<image_8>|
 
 Hình 8 - Sơ đồ kết nối đo độ rung pha
 
@@ -29492,9 +29492,9 @@ Khuyến nghị G.826 của ITU-T về giới hạn lỗi đối với đường
 
 Hình C.1 mô tả đường truyền chuẩn trên mặt đất qua việc tính toán giới hạn lỗi như đã chỉ ra trong Quy chuẩn này.
 
-![](images/image_1.jpg)
+|<image_1>|
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Hình C.1 - Đường truyền chuẩn cho kênh thuê riêng trên mặt đất tốc độ 2 048 kbit/s.
 
 Đường truyền chuẩn trong Hình C.1 gồm có 2 nước tại 2 đầu cuối và một nước trung gian. Tại nước có điểm đầu cuối thì khoảng cách tính từ điểm NTP đến cổng đi quốc tế tối đa là $1 \ 0 0 0 \ \mathrm { k m }$ . Đối với nước trung gian thì khoảng cách tối đa là 3 $5 0 0 ~ \mathrm { k m }$ nếu chỉ có một cổng quốc tế. Khoảng cách trên được tính bằng 1,5 lần khoảng cách theo đường thẳng trừ trường hợp nếu là cáp ngầm dưới biển thì khoảng cách sẽ là khoảng cách thực tế.
@@ -29503,7 +29503,7 @@ CHÚ THÍCH: mô hình này cho phép khoảng cách tổng cộng lên đến $
 
 # 2.2 Đường truyền qua vệ tinh
 
-![](images/image_3.jpg)
+|<image_3>|
 
 Hình C.2 - Đường truyền chuẩn cho kênh thuê riêng qua vệ tinh tốc độ
 
@@ -29805,7 +29805,7 @@ Các giới hạn quy định trong [2] là so với đất hoặc so với mộ
 
 CHÚ THÍCH: Trong [2] ,thuật ngữ "điện áp" có nghĩa là “điện áp tiếp xúc tiềm năng”. Tương tự, thuật ngữ “dòng điện” có nghĩa là “dòng điện tiếp xúc”.
 
-![](images/image_1.jpg)  
+|<image_1>|  
 [Hình 1] - Hình minh họa các giới hạn ES về điện áp và dòng điện
 
 Đối với bất kỳ điện áp nào trong giới hạn điện áp, sẽ không có giới hạn cho dòng điện. Tương tự như vậy đối với bất kỳ dòng điện nào trong giới hạn dòng điện, sẽ không có giới hạn nào đối với điện áp, xem [Hình 21].
@@ -29986,10 +29986,10 @@ Trong các điều kiện sự cố đơn lẻ của biện pháp bảo vệ cơ
 
 
 
-![](images/image_2.jpg)  
+|<image_2>|  
 [Hình 2] - Các giá trị cực đại cho kết hợp dòng a.c. và dòng d.c
 
-![](images/image_3.jpg)  
+|<image_3>|  
 [Hình 3] - Các giá trị cực đại cho kết hợp điện áp a.c và điện áp d.c
 
 # 2.3 Giới hạn điện dung
@@ -31777,7 +31777,7 @@ Diễn giải:
 
 Mô hình hệ thống: Hệ thống Wi-Fi
 
-![](images/image_1.jpg)
+|<image_1>|
 
 <table>
   

@@ -129,7 +129,7 @@ Mô phỏng ảnh hưởng của nhiễu gây ra bởi nguồn, tín hiệu và 
 
 EUT được đặt trên một tấm đỡ cách điện có độ cao 0,1 m so với mặt phẳng tham chiếu đất. Thiết bị phụ trợ (AE) cần thiết cung cấp nguồn cho EUT và các tín hiệu cần thiết để được khai thác bình thường và kiểm tra chất lượng phải được kết nối với nhau bằng dây cáp, sẽ được cung cấp bởi các thiết bị ghép và tách thích hợp (CDNs) tại khoảng cách $^ { 0 , 1 \mathrm { ~ m ~ } }$ và $^ { 0 , 3 \mathrm { ~ m ~ } }$ từ EUT (Hình 7). TCVN 8241-4-6: 2009 chỉ rõ thiết kế của CDNs và các kẹp phun thay thế nếu không thể sử dụng CDN.
 
-![](images/image_1.jpg)
+|<image_1>|
 
 CHÚ THÍCH: T - Đầu cuối $5 0 \Omega$
 
@@ -159,7 +159,7 @@ CDN - Mạng ghép/ tách
 
 # Hình 7 - Sơ đồ thiết lập thử miễn nhiễm đối với nhiễu dẫn tần số vô tuyến
 
-![](images/image_2.jpg)
+|<image_2>|
 
 CHU THICH:CDN-M3, $C _ { 1 } \left( { \sf t y p } \right) = 1 0 \mathsf { n F }$ $C _ { 2 } \ ( \mathsf { t y p } ) = 4 7$ nF, $R = 3 0 0$ Ω,L≥280 $\mu \mathsf { H }$ tai150 kHz. CDN-M2, $C _ { 1 } \left( { \sf t y p } \right) = 1 0 \mathsf { n F }$ $C _ { 2 } \left( \mathrm { t y p } \right) = 4 7$ nF, $R = 2 0 0 ~ \Omega$ Ω, $L \geq 2 8 0 ~ \mu \ H$ tai150kHz. CDN-M1, $C _ { 1 } \left( { \sf t y p } \right) = 2 2 { \sf n F }$ $C _ { 2 } \left( \mathsf { t y p } \right) = 4 7$ nF, $R = \ d _ { 1 } 0 0 \Omega$ $L \geq 2 8 0 ~ \mu \ H$ tai150kHz.
 
@@ -358,7 +358,7 @@ EUT cần đặt ở khu vực cường độ trường đồng nhất và cách
   </tbody>
 </table>
 
-![](images/image_3.jpg)
+|<image_3>|
 
 # Hình 9 - Ví dụ điều kiện thử nghiệm thích hợp miễn nhiễmđối với tần số vô tuyến phân tán
 
@@ -384,7 +384,7 @@ Mô phỏng đột biến năng lượng thấp, nhanh gây ra do chuyển mạc
 
 Phép thử được tiến hành như trong IEC 61000-4-4, tại mức nghiêm ngặt 3, sử dụng thiết bị phát thử tuân thủ theo 6.1.1 của IEC 61000-4-4, mạng ghép/tách tuân thủ theo 6.2 của IEC 61000-4-4 cho các đường điện, và thiết bị kẹp ghép điện dung tuân thủ theo 6.3 của IEC 61000-4-4 cho tín hiệu và đường điều khiển (Hình 10).
 
-![](images/image_4.jpg)
+|<image_4>|
 
 CHÚ THÍCH: I - Khoảng cách giữa giá kẹp và EUT (không lớn hơn 1 m) (A) - Vị trí ghép đường nguồn
 

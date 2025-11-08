@@ -312,7 +312,7 @@ Sợi nano bạc được tổng hợp bằng phương pháp polyol, với tiề
 
 
 
-![](images/image_1.jpg)  
+|<image_1>|  
 Hình 2.1. Sơ đồ quy trình tổng hợp dung dịch nano bạc dạng sợi
 
 # 1.1 Tổng hợp sợi nano bạc bằng phương pháp polyol
@@ -339,7 +339,7 @@ tốc độ 7000 vòng/ phút trong 5 phút
 
 Graphene oxit được tổng hợp theo phương pháp Hummer cải tiến [69], quy trình được mô tả trong sơ đồ Hình 2.2 cụ thể như sau:
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Hình 2.2. Sơ đồ quy trình tổng hợp GO
 
 Bước 1: Đặt cốc chứa $9 6 ~ \mathrm { m l }$ $\mathrm { H } _ { 2 } \mathrm { S O } _ { 4 }$ đặc trong chậu muối đá cho tới khi nhiệt độ hệ giảm xuống dưới $5 \mathrm { { } ^ { \circ } C }$ .
@@ -366,7 +366,7 @@ Bước 1: Phân tán $0 , 7 1 \ \mathrm { g }$ EDOT và 1 g PSSNa trong $1 0 0 
 
 Bước $2 \colon 2 ~ \mathrm { m L }$ dung dịch ammoni persulfate và $2 ~ \mathrm { m L }$ dung dịch FeCl3 (0,2M) được thêm từ từ vào dung dịch. Tiếp tục khuấy trong 1h $\dot { \mathbf { O } }$ nhiệt độ phòng. Thu được PEDOT:PSS phân tán trong nước với nồng độ $2 \%$ .
 
-![](images/image_3.jpg)  
+|<image_3>|  
 Hình 2.3. Sơ đồ quy trình tổng hợp PEDOT:PSS
 
 # 4. Phương pháp oxi hóa cacbon nanotube
@@ -383,7 +383,7 @@ CNT được thực hiện như sau:
 
 Vật liệu khung hữu cơ kim loại lưỡng kim FeMg-BDC với các tỷ lệ mol Fe/Mg khác nhau được tổng hợp theo quy trình như sơ đ $\dot { \hat { 0 } } \mathrm { H i n h } 2 . 4 \mathrm { c u }$ thể như sau [73, 74]:
 
-![](images/image_4.jpg)  
+|<image_4>|  
 Hình 2.4. Sơ đồ quy trình tổng hợp FeMg-BDC
 
 Bước 1: 1 mmol muối kim loại có tỷ $\mathsf { l e } \mathrm { m o l } \mathrm { F e } ^ { 3 + } / \mathrm { M g } ^ { 2 + }$ thay đổi (1/1, 1/2, 1/4) kết hợp với 1 mmol $\mathrm { H } _ { 2 } \mathrm { B D C }$ được hòa tan trong $1 0 \mathrm { m L }$ DMF và khuấy liên tục để thu được dung dịch đồng nhất.

@@ -105,7 +105,7 @@ Sự kiện bắt đầu: Khi có nhu cầu đầu tư hạ tầng lưu trữ d�
 
 • Lưu đồ tổng thể quy trình • Diễn giải chi tiết • Vai trò của các bên liên quan
 
-![](images/image_1.jpg)
+|<image_1>|
 
 <table>
   

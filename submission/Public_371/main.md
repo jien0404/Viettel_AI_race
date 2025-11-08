@@ -2,7 +2,7 @@
 
 # 1. Khái niệm
 
-![](images/image_1.jpg)
+|<image_1>|
 
 Hình 1.Giới hạn miền phát xạ ngoài băng, miền phát xạ giả
 

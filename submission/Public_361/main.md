@@ -35,7 +35,7 @@ ES3 là nguồn năng lượng điện loại 3 khi cả nguồn điện và đi
 
 
 
-![](images/image_1.jpg)
+|<image_1>|
 
 Hình 11 - Hình minh họa các giới hạn ES về điện áp và dòng điện Đối với bất kỳ điện áp trong giới hạn điện áp, sẽ không có giới hạn cho dòng điện. Tương tự như vậy đối với bất kỳ dòng điện nào trong giới hạn, sẽ không có giới hạn nào đối với điện áp, xem Hình 11.
 
@@ -331,12 +331,12 @@ Thay thế cho các yêu cầu bên trên, các giá trị dưới đây có th�
   </tbody>
 </table>
 
-![](images/image_2.jpg)  
+|<image_2>|  
 Hình 12 - Các giá trị cực đại cho kết hợp dòng AC và dòng DC
 
 
 
-![](images/image_3.jpg)  
+|<image_3>|  
 Hình 13 - Các giá trị cực đại cho kết hợp điện áp AC và điện áp DC
 
 # 2.3 Các giới hạn điện dung
