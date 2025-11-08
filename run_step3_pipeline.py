@@ -16,7 +16,7 @@ from typing import List, Dict, Any
 DB_PATH = "chroma_database"
 COLLECTION_NAME = "all_documents"
 QUESTIONS_FILE_PATH = "data/raw/public_test_data/question.csv"
-OUTPUT_FILE_PATH = "submission/answer4.md"
+OUTPUT_FILE_PATH = "submission/answer2.md"
 
 # Model dùng cho embedding câu hỏi (PHẢI GIỐNG model ở bước 2)
 EMBEDDING_MODEL_NAME = 'bkai-foundation-models/vietnamese-bi-encoder'
@@ -27,8 +27,8 @@ LLM_MODEL_NAME = "unsloth/Qwen3-4B-Instruct-2507"
 RERANKER_MODEL_NAME = "thanhtantran/Vietnamese_Reranker"
 
 # Số lượng context chunk sẽ truy xuất cho mỗi câu hỏi
-NUM_RETRIEVED_CHUNKS = 100
-TOP_N_AFTER_RERANK = 8 
+NUM_RETRIEVED_CHUNKS = 50
+TOP_N_AFTER_RERANK = 5 
 
 
 def load_llm_model_and_tokenizer():
@@ -38,7 +38,7 @@ def load_llm_model_and_tokenizer():
     print(f"Đang tải mô hình LLM: {LLM_MODEL_NAME}...")
     model, tokenizer = FastLanguageModel.from_pretrained(
         model_name=LLM_MODEL_NAME,
-        max_seq_length= 32768,
+        max_seq_length= 16384,
         dtype=None, 
         load_in_4bit=True,
     )
@@ -120,24 +120,25 @@ class RetrieverQA:
     def generate_answer(self, context: str, question: str, options: Dict[str, str]) -> str:
         """
         Tạo prompt chi tiết (có hướng dẫn và few-shot), đưa vào mô hình LLM và sinh câu trả lời.
+        (Phiên bản cải tiến với thẻ [ANSWER])
         """
         print("  - Đang sinh câu trả lời bằng LLM (với prompt nâng cao)...")
         
         # Xây dựng phần lựa chọn trong prompt
         options_str = "\n".join([f"{key}: {value}" for key, value in options.items()])
         
-        # --- PROMPT MỚI VỚI HƯỚNG DẪN CHI TIẾT VÀ FEW-SHOT ---
+        # --- PROMPT MỚI VỚI HƯỚNG DẪN CHI TIẾT VÀ THẺ ĐÁP ÁN ---
         prompt = f"""
 Bạn là một **trợ lý QA tiếng Việt chuyên nghiệp**, được huấn luyện đặc biệt để xử lý **câu hỏi trắc nghiệm nhiều đáp án đúng**.
 
 QUY TẮC BẮT BUỘC:
+0. Câu trả lời cuối cùng **BẮT BUỘC** phải được đặt trong cặp thẻ `[ANSWER]` và `[/ANSWER]`. **Đây là quy tắc quan trọng nhất.**
 1. Bạn **chỉ** được sử dụng thông tin trong phần NGỮ CẢNH bên dưới.
-2. **Tuyệt đối không** sử dụng bất kỳ kiến thức, suy luận hay giả định nào từ bên ngoài.
-3. Bạn **phải luôn trả về ít nhất một đáp án hợp lệ** trong các lựa chọn (A, B, C, D, ...).
-4. Đáp án **chỉ** là chuỗi ký tự gồm các lựa chọn đúng, viết hoa, phân tách bằng dấu phẩy **(không có khoảng trắng)**.
+2. **Tuyệt đối** không được liệt kê lại danh sách các đáp án được cung cấp, câu trả lời chỉ được phép nhắc đến đáp án mà bạn chọn.
+3. Đáp án **chỉ** là chuỗi ký tự gồm các lựa chọn đúng, viết hoa, phân tách bằng dấu phẩy **(không có khoảng trắng)**.
    - Ví dụ: `A` hoặc `A,C,D`
-5. **Không** viết thêm lời giải thích, nhận xét, hay ký tự ngoài đáp án.
-6. Nếu không có bất kì thông tin nào từ ngữ cảnh thì trả lời "Không có thông tin"
+4. **Tuyệt đối không** viết thêm lời giải thích, nhận xét, hay ký tự ngoài đáp án.
+5. Nếu không có bất kì thông tin nào từ ngữ cảnh thì vẫn phải chọn (các) đáp án nào mà bạn cho là đúng, không cần giải thích thêm.
 
 --- VÍ DỤ ---
 
@@ -146,10 +147,10 @@ NGỮ CẢNH: Công thức hóa học của nước là H2O
 CÂU HỎI: Các nguyên tố hóa học nào tạo nên phân tử nước?
 CÁC LỰA CHỌN:
 A: A, H
-B: A, O
-C: H, O
+B: H, O
+C: A, O
 D: H, 2
-ĐÁP ÁN: C
+ĐÁP ÁN: [ANSWER]B[/ANSWER]
 
 **VÍ DỤ 2: Trường hợp nhiều đáp án đúng**
 NGỮ CẢNH: Sản phẩm mới hỗ trợ kết nối qua cả Wi-Fi và Bluetooth. Cổng USB-C dùng để sạc.
@@ -159,17 +160,17 @@ A: Wi-Fi
 B: Cổng USB-C
 C: Bluetooth
 D: NFC
-ĐÁP ÁN: A,C
+ĐÁP ÁN: [ANSWER]A,C[/ANSWER]
 
 **VÍ DỤ 3: Trường hợp nội dung lựa chọn chứa ký tự có thể gây nhiễu**
 NGỮ CẢNH: Yêu cầu kỹ thuật cho bộ phận C là phải có chứng chỉ "A D M".
 CÂU HỎI: Bộ phận nào cần chứng chỉ "A D M"?
 CÁC LỰA CHỌN:
-A: Bộ phận A
-B: Bộ phận B
-C: Bộ phận C
-D: Bộ phận D
-ĐÁP ÁN: C
+A: Bộ phận C
+B: Bộ phận D
+C: Bộ phận A
+D: Bộ phận B
+ĐÁP ÁN: [ANSWER]A[/ANSWER]
 
 --- KẾT THÚC VÍ DỤ ---
 
@@ -197,7 +198,7 @@ CÁC LỰA CHỌN:
         
         outputs = self.llm_model.generate(
             input_ids=input_ids, 
-            max_new_tokens=256, # Chỉ cần token cho đáp án (A,B,C,D) nên không cần nhiều
+            max_new_tokens=2048, # Chỉ cần token cho đáp án (A,B,C,D) nên không cần nhiều
             pad_token_id=self.tokenizer.eos_token_id
         )
         
@@ -207,6 +208,7 @@ CÁC LỰA CHỌN:
     def process_question(self, question_row: pd.Series) -> str:
         """
         Thực hiện toàn bộ pipeline cho một câu hỏi: retrieve -> generate -> format.
+        (Phiên bản cải tiến với logic trích xuất thông minh)
         """
         question = question_row['Question']
         options = {
@@ -227,15 +229,30 @@ CÁC LỰA CHỌN:
         raw_answer = self.generate_answer(context, question, options)
         print(f"  - Phản hồi thô từ LLM: '{raw_answer}'")
         
-        # Bước 3: Xử lý thông minh để trích xuất các đáp án độc lập
-        # Sử dụng "lookarounds" (?<!\w) và (?!\w) để đảm bảo ký tự A, B, C, D
-        # không bị đứng trước hoặc đứng sau bởi các ký tự chữ/số khác.
-        # Đây là cách chính xác nhất để phân biệt đáp án và chữ cái trong câu.
-        found_answers = re.findall(r'(?<!\w)[A-Da-d](?!\w)', raw_answer)
+        # --- LOGIC XỬ LÝ CÂU TRẢ LỜI MỚI ---
+        answer_content = ""
+        # Bước 3.1: Ưu tiên tìm kiếm câu trả lời trong thẻ [ANSWER]
+        # re.DOTALL cho phép '.' khớp với cả ký tự xuống dòng
+        match = re.search(r'\[ANSWER\](.*?)\[/ANSWER\]', raw_answer, re.DOTALL)
+        
+        if match:
+            # Nếu tìm thấy, chỉ lấy nội dung bên trong thẻ
+            answer_content = match.group(1).strip()
+            print(f"  - Đã tìm thấy thẻ [ANSWER]. Nội dung: '{answer_content}'")
+        else:
+            # Bước 3.2: Nếu không có thẻ, sử dụng toàn bộ phản hồi (phương án dự phòng)
+            # Đồng thời cảnh báo để chúng ta biết LLM không tuân thủ
+            print("  - Cảnh báo: Không tìm thấy thẻ [ANSWER]. Sử dụng toàn bộ phản hồi để phân tích.")
+            answer_content = raw_answer
+
+        # Bước 3.3: Trích xuất các ký tự A, B, C, D hợp lệ từ nội dung đã được xác định
+        # Regex này đơn giản hơn vì ta đã thu hẹp phạm vi tìm kiếm.
+        # Nó tìm tất cả các ký tự A, B, C, D (không phân biệt hoa thường)
+        found_answers = re.findall(r'[A-D]', answer_content.upper())
 
         # Bước 4: Chuẩn hóa kết quả đã trích xuất
         # Đưa tất cả về chữ hoa, loại bỏ các đáp án trùng lặp và sắp xếp lại.
-        valid_answers = sorted(list(set([ans.upper() for ans in found_answers])))
+        valid_answers = sorted(list(set(found_answers)))
         
         # Bước 5: Định dạng output cuối cùng theo yêu cầu
         num_correct = len(valid_answers)
