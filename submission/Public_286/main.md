@@ -62,7 +62,7 @@ Các giới hạn quy định trong [2] là so với đất hoặc so với mộ
 
 CHÚ THÍCH: Trong [2] ,thuật ngữ "điện áp" có nghĩa là “điện áp tiếp xúc tiềm năng”. Tương tự, thuật ngữ “dòng điện” có nghĩa là “dòng điện tiếp xúc”.
 
-![](images/image_1.jpg)  
+|<image_1>|  
 [Hình 1] - Hình minh họa các giới hạn ES về điện áp và dòng điện
 
 Đối với bất kỳ điện áp nào trong giới hạn điện áp, sẽ không có giới hạn cho dòng điện. Tương tự như vậy đối với bất kỳ dòng điện nào trong giới hạn dòng điện, sẽ không có giới hạn nào đối với điện áp, xem [Hình 21].
@@ -243,10 +243,10 @@ Trong các điều kiện sự cố đơn lẻ của biện pháp bảo vệ cơ
 
 
 
-![](images/image_2.jpg)  
+|<image_2>|  
 [Hình 2] - Các giá trị cực đại cho kết hợp dòng a.c. và dòng d.c
 
-![](images/image_3.jpg)  
+|<image_3>|  
 [Hình 3] - Các giá trị cực đại cho kết hợp điện áp a.c và điện áp d.c
 
 # 2.3 Giới hạn điện dung

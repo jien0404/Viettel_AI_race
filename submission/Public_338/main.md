@@ -58,7 +58,7 @@ Diễn giải:
 
 Mô hình hệ thống: Hệ thống Wi-Fi
 
-![](images/image_1.jpg)
+|<image_1>|
 
 <table>
   

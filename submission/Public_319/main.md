@@ -123,7 +123,7 @@ Sự kiện kết thúc: Lựa chọn được DBMS phù hợp với yêu cầu 
 
 
 
-![](images/image_1.jpg)
+|<image_1>|
 
 <table>
   

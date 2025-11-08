@@ -164,7 +164,7 @@ Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng xác đ�
 
 Sơ đồ đo như Hình 1.
 
-![](images/image_1.jpg)  
+|<image_1>|  
 Hình 1 - Sơ đồ kết nối đo mức tín hiệu cao tần
 
 # 2. Băng thông của mỗi kênh
@@ -248,7 +248,7 @@ Sơ đồ đo như Hình 2.
   </tbody>
 </table>
 
-![](images/image_2.jpg)
+|<image_2>|
 
 Hình 2 - Sơ đồ kết nối đo băng thông mỗi kênh
 
@@ -262,7 +262,7 @@ Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng để x�
 
 Sơ đồ đo như Hình 3.
 
-![](images/image_3.jpg)
+|<image_3>|
 
 Hình 3 - Sơ đồ kết nối đo đáp tuyến biên độ tần số tín hiệu cao tần
 
@@ -290,7 +290,7 @@ Sơ đồ đo như Hình 4.
   </tbody>
 </table>
 
-![](images/image_4.jpg)
+|<image_4>|
 
 # Hình 4 - Sơ đồ kết nối đo độ di tần
 
@@ -324,7 +324,7 @@ Phương pháp xác định: Điều chỉnh máy phân tích về kênh cần �
 
 Sơ đồ đo như Hình 5.
 
-![](images/image_5.jpg)  
+|<image_5>|  
 Hình 5 - Sơ đồ kết nối đo tỷ số S/N
 
 6. Tỷ số lỗi bit
@@ -351,7 +351,7 @@ Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng xác đ�
 
 Sơ đồ đo như Hình 6.
 
-![](images/image_6.jpg)  
+|<image_6>|  
 Hình 6 - Sơ đồ kết nối đo tỷ số BER
 
 # 7. Tỷ số lỗi điều chế
@@ -366,7 +366,7 @@ Sử dụng thiết bị đo chuyên dùng phân tích chòm sao tín hiệu đ�
 
 Sơ đồ đo như Hình 7.
 
-![](images/image_7.jpg)  
+|<image_7>|  
 Hình 7 - Sơ đồ kết nối đo tỷ số MER
 
 8. Độ rung pha
@@ -379,6 +379,6 @@ Chỉ tiêu: Độ rung pha tín hiệu phải nằm trong giải $\pm { } 5 ^ {
 
 Phương pháp xác định: Sử dụng thiết bị đo chuyên dùng xác định độ rung pha của tín hiệu thu được tại điểm kết nối thuê bao truyền hình cáp số DVB-T2 của đơn vị cung cấp dịch vụ.
 
-![](images/image_8.jpg)
+|<image_8>|
 
 Hình 8 - Sơ đồ kết nối đo độ rung pha

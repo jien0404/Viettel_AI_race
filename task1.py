@@ -147,18 +147,18 @@ def process_auto_folder(auto_folder, pdf_name, camelot_tables: List[str]):
             rename_map[old_name] = new_name
 
         # Cập nhật đường dẫn ảnh trong markdown (Không thay đổi)
-        for old_name, new_name in rename_map.items():
-            md_content = re.sub(
-                rf'(?<=images/){re.escape(old_name)}(?=[\)"\'\s])',
-                new_name,
-                md_content
+        for i, old_name in enumerate(ordered_images, start=1):
+            # Tạo placeholder mới theo đúng định dạng yêu cầu
+            new_placeholder = f"|<image_{i}>|"
+            
+            # Tìm tất cả các biến thể của thẻ ảnh cũ (cả markdown và html) và thay thế
+            # bằng placeholder mới. Dùng re.escape để xử lý các ký tự đặc biệt trong tên file.
+            old_pattern = re.compile(
+                r'(!\[[^\]]*\]\((?:\.?/)?images/' + re.escape(old_name) + r'\))|' +
+                r'(<img[^>]+src=["\'](?:\.?/)?images/' + re.escape(old_name) + r'["\'][^>]*>)',
+                re.IGNORECASE
             )
-            # Đảm bảo caption ảnh trống ![] để không có text thừa
-            md_content = re.sub(
-                rf'!\[.*?\]\((images/{re.escape(new_name)})\)',
-                r'![](\1)',
-                md_content
-            )
+            md_content = old_pattern.sub(new_placeholder, md_content)
 
     # --- Xóa bảng chứa “Viettel AI Race” (Không thay đổi) ---
     # Chạy lại bước này để đảm bảo các bảng header do Camelot nhận diện cũng bị xóa
