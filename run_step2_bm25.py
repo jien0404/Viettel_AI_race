@@ -4,13 +4,12 @@ import time
 import json
 
 sys.path.append(os.getcwd())
-
 from src.step2_context_enrichment.parser import parse_document
 from src.step2_context_enrichment.chunker import create_chunks
 from src.step2_context_enrichment.context_enricher import ContextEnricher
 from src.step2_context_enrichment.sqlite_handler import SQLiteHandler
 
-INPUT_DIRECTORY = "test_submission" 
+INPUT_DIRECTORY = "submission" 
 DB_OUTPUT_FILE = "bm25_database.sqlite" 
 
 def run_full_pipeline():
@@ -27,9 +26,7 @@ def run_full_pipeline():
     print(f"Tìm thấy tổng cộng {total_docs} tài liệu để xử lý.")
     
     print("\nKhởi tạo các công cụ xử lý (Context Enricher, SQLite Handler)...")
-    # Khởi tạo mô hình VLM để làm giàu ngữ cảnh
     enricher = ContextEnricher()
-    # Khởi tạo handler để lưu vào SQLite
     db_handler = SQLiteHandler(db_file=DB_OUTPUT_FILE)
     db_handler.create_table()
     print("Khởi tạo hoàn tất.\n")
@@ -52,14 +49,38 @@ def run_full_pipeline():
             chunks = create_chunks(parsed_blocks, doc_name=doc_name)
             print(f"Đã tạo {len(chunks)} chunk ban đầu.")
             
-            # Bước 3: Làm giàu ngữ cảnh cho từng chunk bằng VLM
-            print("Bắt đầu làm giàu ngữ cảnh cho các chunk...")
-            enriched_chunks = enricher.enrich_chunks_with_llm(chunks, folder_path)
+            # === BẮT ĐẦU CƠ CHẾ CACHE ===
+            print("Kiểm tra các chunk đã được xử lý trong database...")
+            existing_chunk_ids = db_handler.get_existing_chunk_identifiers(doc_name)
+            
+            chunks_to_process = []
+            for chunk in chunks:
+                # Tạo định danh cho chunk hiện tại, phải giống hệt cách tạo trong handler
+                identifier = str(chunk['metadata'].get('original_blocks'))
+                if identifier not in existing_chunk_ids:
+                    chunks_to_process.append(chunk)
+
+            num_skipped = len(chunks) - len(chunks_to_process)
+            if num_skipped > 0:
+                print(f"Đã bỏ qua {num_skipped} chunk đã được làm giàu trước đó.")
+            
+            if not chunks_to_process:
+                print("Tất cả chunk trong tài liệu này đã được xử lý. Chuyển sang tài liệu tiếp theo.")
+                print(f"--- Hoàn tất xử lý {doc_name} ---\n")
+                continue
+            
+            print(f"Còn lại {len(chunks_to_process)} chunk cần được làm giàu.")
+            # === KẾT THÚC CƠ CHẾ CACHE ===
+
+            # Bước 3: Chỉ làm giàu những chunk MỚI
+            print("Bắt đầu làm giàu ngữ cảnh cho các chunk mới...")
+            enriched_chunks = enricher.enrich_chunks_with_llm(chunks_to_process, folder_path)
             print("Làm giàu ngữ cảnh hoàn tất.")
 
-            # Bước 4: Lưu các chunk đã làm giàu vào SQLite
-            db_handler.add_chunks(enriched_chunks)
-            print(f"Đã lưu {len(enriched_chunks)} chunk vào cơ sở dữ liệu SQLite.")
+            # Bước 4: Lưu các chunk VỪA làm giàu vào SQLite
+            if enriched_chunks:
+                db_handler.add_chunks(enriched_chunks)
+                print(f"Đã lưu {len(enriched_chunks)} chunk mới vào cơ sở dữ liệu SQLite.")
 
         except Exception as e:
             print(f"\n!!!! GẶP LỖI khi xử lý tài liệu '{doc_name}' !!!!")
@@ -73,7 +94,6 @@ def run_full_pipeline():
     print(f"===   HOÀN TẤT TOÀN BỘ PIPELINE LÀM GIÀU NGỮ CẢNH   ===")
     print(f"Đã xử lý {total_docs} tài liệu trong {end_time_full - start_time_full:.2f} giây.")
     print(f"Tất cả dữ liệu đã được lưu vào file: '{DB_OUTPUT_FILE}'")
-    print("Cơ sở dữ liệu đã sẵn sàng cho việc retrieval bằng BM25.")
     print("==========================================================")
 
 if __name__ == '__main__':

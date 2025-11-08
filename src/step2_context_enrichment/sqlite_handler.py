@@ -77,3 +77,34 @@ class SQLiteHandler:
         """Đóng kết nối khi đối tượng bị hủy."""
         if self.conn:
             self.conn.close()
+            
+    def get_existing_chunk_identifiers(self, doc_name: str) -> set:
+        """
+        Lấy một set các định danh (dựa trên nội dung gốc) của các chunk 
+        đã tồn tại trong database cho một tài liệu cụ thể.
+        """
+        if not self.conn:
+            return set()
+        
+        query = "SELECT metadata FROM chunks WHERE doc_name = ?"
+        try:
+            cursor = self.conn.cursor()
+            cursor.execute(query, (doc_name,))
+            
+            existing_ids = set()
+            for row in cursor.fetchall():
+                # row[0] là cột metadata, được lưu dưới dạng chuỗi JSON
+                metadata = json.loads(row[0])
+                
+                # 'original_blocks' là nguồn dữ liệu gốc, không thay đổi
+                # Chuyển nó thành chuỗi để làm định danh duy nhất
+                original_blocks = metadata.get('original_blocks')
+                if original_blocks is not None:
+                    # str() là cách đơn giản và hiệu quả để tạo "dấu vân tay"
+                    identifier = str(original_blocks)
+                    existing_ids.add(identifier)
+            
+            return existing_ids
+        except sqlite3.Error as e:
+            print(f"Lỗi khi truy vấn chunk đã tồn tại: {e}")
+            return set()

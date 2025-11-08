@@ -1,0 +1,7 @@
+# Yêu cầu pip cài đặt llama-cpp-python trực tiếp từ nhánh chính (main) của kho GitHub
+git+https://github.com/abetlen/llama-cpp-python.git
+
+# Các thư viện khác giữ nguyên
+Pillow
+beautifulsoup4
+huggingface-hub

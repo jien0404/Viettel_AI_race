@@ -1,0 +1,6 @@
+docker build -t viettel-ai-race .
+
+# Dành cho Linux/macOS
+docker run --gpus all -it --rm -v "$(pwd)":/app viettel-ai-race
+
+python run_step2_bm25.py
