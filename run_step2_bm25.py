@@ -10,7 +10,7 @@ from src.step2_context_enrichment.chunker import create_chunks
 from src.step2_context_enrichment.context_enricher import ContextEnricher
 from src.step2_context_enrichment.sqlite_handler import SQLiteHandler
 
-INPUT_DIRECTORY = "submission" 
+INPUT_DIRECTORY = "test_submission" 
 DB_OUTPUT_FILE = "bm25_database.sqlite" 
 
 def run_full_pipeline():
