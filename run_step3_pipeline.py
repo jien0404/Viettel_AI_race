@@ -1,3 +1,6 @@
+# Còn 2 vấn đề là: thêm các ví dụ các đáp án là các chữ cái, chỉ dẫn trả lời cho đúng (check lại xem đã truyền đáp án vào đúng kiểu A: abc chưa)
+#                 xử lý các trường hợp đầu vào của model bị quá max length, thêm cơ chế nếu vượt quá thì giảm dần số lượng context đến khi vừa
+
 import os
 import re
 import pandas as pd
@@ -13,19 +16,19 @@ from typing import List, Dict, Any
 DB_PATH = "chroma_database"
 COLLECTION_NAME = "all_documents"
 QUESTIONS_FILE_PATH = "data/raw/public_test_data/question.csv"
-OUTPUT_FILE_PATH = "submission/answer2.md"
+OUTPUT_FILE_PATH = "submission/answer4.md"
 
 # Model dùng cho embedding câu hỏi (PHẢI GIỐNG model ở bước 2)
 EMBEDDING_MODEL_NAME = 'bkai-foundation-models/vietnamese-bi-encoder'
 
 # Model ngôn ngữ lớn để sinh câu trả lời (Qwen tối ưu bởi Unsloth)
 # LLM_MODEL_NAME = "unsloth/Qwen2.5-3B-Instruct-bnb-4bit"
-LLM_MODEL_NAME = "unsloth/Qwen2.5-3B-Instruct-bnb-4bit"
+LLM_MODEL_NAME = "unsloth/Qwen3-4B-Instruct-2507"
 RERANKER_MODEL_NAME = "thanhtantran/Vietnamese_Reranker"
 
 # Số lượng context chunk sẽ truy xuất cho mỗi câu hỏi
-NUM_RETRIEVED_CHUNKS = 50
-TOP_N_AFTER_RERANK = 3 
+NUM_RETRIEVED_CHUNKS = 100
+TOP_N_AFTER_RERANK = 8 
 
 
 def load_llm_model_and_tokenizer():
@@ -35,8 +38,8 @@ def load_llm_model_and_tokenizer():
     print(f"Đang tải mô hình LLM: {LLM_MODEL_NAME}...")
     model, tokenizer = FastLanguageModel.from_pretrained(
         model_name=LLM_MODEL_NAME,
-        max_seq_length=2048,
-        dtype=None,  # Để Unsloth tự chọn dtype tốt nhất
+        max_seq_length= 32768,
+        dtype=None, 
         load_in_4bit=True,
     )
     print("Tải mô hình LLM hoàn tất.")
@@ -124,30 +127,61 @@ class RetrieverQA:
         options_str = "\n".join([f"{key}: {value}" for key, value in options.items()])
         
         # --- PROMPT MỚI VỚI HƯỚNG DẪN CHI TIẾT VÀ FEW-SHOT ---
-        prompt = f"""Bạn là một trợ lý QA tiếng Việt chuyên nghiệp, chuyên xử lý các câu hỏi trắc nghiệm nhiều đáp án đúng.
-Bạn sẽ chỉ sử dụng chính xác các thông tin trong phần NGỮ CẢNH được cung cấp, và không được sử dụng kiến thức bên ngoài.
-Tuy nhiên, nếu trong ngữ cảnh không có thông tin đủ rõ để xác định được ít nhất một đáp án đúng, bạn vẫn chọn các lựa chọn mà bạn cho là đúng nhất.
---- HƯỚNG DẪN TRẢ LỜI ---
-Dựa vào ngữ cảnh, xác định TẤT CẢ các lựa chọn (A, B, C, D…) mà bạn chắc chắn cho là đúng.
-Nếu bạn không tìm thấy đủ thông tin để chắc chắn, bạn vẫn chọn đáp án mà bạn cho là đúng nhất.
-Đáp án của bạn chỉ là một chuỗi ký tự đại diện đáp án đúng, cách nhau bằng dấu phẩy — ví dụ: A,C hoặc B
-Không kèm lời giải, lý do, hoặc văn bản nào khác ngoài chuỗi như trên.
+        prompt = f"""
+Bạn là một **trợ lý QA tiếng Việt chuyên nghiệp**, được huấn luyện đặc biệt để xử lý **câu hỏi trắc nghiệm nhiều đáp án đúng**.
+
+QUY TẮC BẮT BUỘC:
+1. Bạn **chỉ** được sử dụng thông tin trong phần NGỮ CẢNH bên dưới.
+2. **Tuyệt đối không** sử dụng bất kỳ kiến thức, suy luận hay giả định nào từ bên ngoài.
+3. Bạn **phải luôn trả về ít nhất một đáp án hợp lệ** trong các lựa chọn (A, B, C, D, ...).
+4. Đáp án **chỉ** là chuỗi ký tự gồm các lựa chọn đúng, viết hoa, phân tách bằng dấu phẩy **(không có khoảng trắng)**.
+   - Ví dụ: `A` hoặc `A,C,D`
+5. **Không** viết thêm lời giải thích, nhận xét, hay ký tự ngoài đáp án.
+6. Nếu không có bất kì thông tin nào từ ngữ cảnh thì trả lời "Không có thông tin"
+
 --- VÍ DỤ ---
-NGỮ CẢNH: Một khảo sát cho thấy rằng 40% sinh viên tham gia chỉ chọn môn Toán A, 20% chỉ chọn môn Toán B.
-CÂU HỎI: Có bao nhiêu phần trăm sinh viên chỉ chọn môn Toán A thôi?
+
+**VÍ DỤ 1: Trường hợp chỉ có 1 đáp án đúng**
+NGỮ CẢNH: Công thức hóa học của nước là H2O
+CÂU HỎI: Các nguyên tố hóa học nào tạo nên phân tử nước?
 CÁC LỰA CHỌN:
-A: 30%
-B: 40%
-C: 50%
-D: 60%
-ĐÁP ÁN: B
+A: A, H
+B: A, O
+C: H, O
+D: H, 2
+ĐÁP ÁN: C
+
+**VÍ DỤ 2: Trường hợp nhiều đáp án đúng**
+NGỮ CẢNH: Sản phẩm mới hỗ trợ kết nối qua cả Wi-Fi và Bluetooth. Cổng USB-C dùng để sạc.
+CÂU HỎI: Sản phẩm hỗ trợ những kết nối không dây nào?
+CÁC LỰA CHỌN:
+A: Wi-Fi
+B: Cổng USB-C
+C: Bluetooth
+D: NFC
+ĐÁP ÁN: A,C
+
+**VÍ DỤ 3: Trường hợp nội dung lựa chọn chứa ký tự có thể gây nhiễu**
+NGỮ CẢNH: Yêu cầu kỹ thuật cho bộ phận C là phải có chứng chỉ "A D M".
+CÂU HỎI: Bộ phận nào cần chứng chỉ "A D M"?
+CÁC LỰA CHỌN:
+A: Bộ phận A
+B: Bộ phận B
+C: Bộ phận C
+D: Bộ phận D
+ĐÁP ÁN: C
+
 --- KẾT THÚC VÍ DỤ ---
+
 --- BẮT ĐẦU NHIỆM VỤ ---
 NGỮ CẢNH:
 {context}
+
 CÂU HỎI: {question}
+
 CÁC LỰA CHỌN:
 {options_str}
+
 ĐÁP ÁN:"""
         
         # Sử dụng template chat của Qwen
@@ -163,7 +197,7 @@ CÁC LỰA CHỌN:
         
         outputs = self.llm_model.generate(
             input_ids=input_ids, 
-            max_new_tokens=50, # Chỉ cần token cho đáp án (A,B,C,D) nên không cần nhiều
+            max_new_tokens=256, # Chỉ cần token cho đáp án (A,B,C,D) nên không cần nhiều
             pad_token_id=self.tokenizer.eos_token_id
         )
         
