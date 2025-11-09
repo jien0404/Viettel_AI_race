@@ -10,7 +10,7 @@ from src.step2_context_enrichment.chunker import create_chunks
 from src.step2_context_enrichment.context_enricher import ContextEnricher
 from src.step2_context_enrichment.sqlite_handler import SQLiteHandler
 
-INPUT_DIRECTORY = "test_submission" 
+INPUT_DIRECTORY = "submission" 
 DB_OUTPUT_FILE = "bm25_database.sqlite" 
 
 def run_full_pipeline():
@@ -51,6 +51,21 @@ def run_full_pipeline():
             # Bước 2: Tạo các chunk ban đầu từ block
             chunks = create_chunks(parsed_blocks, doc_name=doc_name)
             print(f"Đã tạo {len(chunks)} chunk ban đầu.")
+            
+            # --- LOGIC CACHING MỚI ---
+            existing_chunk_ids = db_handler.get_existing_chunk_identifiers(doc_name)
+            chunks_to_process = []
+            for chunk in chunks:
+                identifier = str(chunk['metadata'].get('original_blocks'))
+                if identifier not in existing_chunk_ids:
+                    chunks_to_process.append(chunk)
+            
+            print(f"Phát hiện {len(existing_chunk_ids)} chunk đã được xử lý. Còn lại {len(chunks_to_process)} chunk cần làm giàu.")
+            # --- KẾT THÚC LOGIC CACHING ---
+            
+            if not chunks_to_process:
+                print("Tất cả các chunk trong tài liệu này đã được xử lý. Bỏ qua.")
+                continue
             
             # Bước 3: Làm giàu ngữ cảnh cho từng chunk bằng VLM
             print("Bắt đầu làm giàu ngữ cảnh cho các chunk...")

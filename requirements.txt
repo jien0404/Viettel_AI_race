@@ -16,4 +16,6 @@ accelerate
 datasets
 tqdm
 
+rank-bm25
+
 # pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124

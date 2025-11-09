@@ -8,3 +8,5 @@ chroma_database/
 unsloth_compiled_cache/
 
 data/processed/rag_finetuning_dataset/
+
+*.sqlite

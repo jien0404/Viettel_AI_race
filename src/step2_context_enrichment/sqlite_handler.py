@@ -77,3 +77,55 @@ class SQLiteHandler:
         """Đóng kết nối khi đối tượng bị hủy."""
         if self.conn:
             self.conn.close()
+            
+    def get_existing_chunk_identifiers(self, doc_name: str) -> set:
+        """Lấy một set các định danh của chunk đã có trong DB cho một tài liệu."""
+        if not self.conn:
+            return set()
+        
+        query = "SELECT metadata FROM chunks WHERE doc_name = ?"
+        cursor = self.conn.cursor()
+        cursor.execute(query, (doc_name,))
+        
+        existing_ids = set()
+        for row in cursor.fetchall():
+            # Tạo một định danh duy nhất cho chunk dựa trên nội dung gốc
+            # Đây là một cách đơn giản, bạn có thể làm phức tạp hơn
+            metadata = json.loads(row[0])
+            content_identifier = str(metadata.get('original_blocks'))
+            existing_ids.add(content_identifier)
+            
+        return existing_ids
+    
+    def _load_corpus_from_sqlite(self, db_path: str) -> List[Dict[str, Any]]:
+        """
+        Đọc toàn bộ các chunk từ file SQLite, lấy tất cả các cột cần thiết
+        và tái cấu trúc lại dữ liệu.
+        """
+        corpus_data = []
+        try:
+            with sqlite3.connect(db_path) as conn:
+                cursor = conn.cursor()
+                # === SỬA ĐỔI Ở ĐÂY: Lấy thêm cột doc_name và chunk_type ===
+                cursor.execute("SELECT doc_name, chunk_type, enriched_content, metadata FROM chunks")
+                
+                for row in cursor.fetchall():
+                    # Lấy dữ liệu từ các cột tương ứng
+                    doc_name, chunk_type, enriched_content, metadata_str = row
+                    
+                    # Parse metadata từ chuỗi JSON
+                    metadata = json.loads(metadata_str)
+                    
+                    # "Bơm" lại các thông tin còn thiếu vào dictionary metadata
+                    # để phần còn lại của chương trình có thể sử dụng
+                    metadata['doc_name'] = doc_name
+                    metadata['chunk_type'] = chunk_type
+                    
+                    # Tạo cấu trúc dữ liệu cuối cùng mà chương trình mong đợi
+                    corpus_data.append({
+                        'enriched_content': enriched_content,
+                        'metadata': metadata
+                    })
+        except Exception as e:
+            print(f"LỖI: không thể đọc file database '{db_path}': {e}")
+        return corpus_data

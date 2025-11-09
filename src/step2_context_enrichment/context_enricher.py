@@ -12,13 +12,20 @@ class ContextEnricher:
     def __init__(self, model_name: str = "Qwen/Qwen3-VL-4B-Instruct"):
         print(f"Đang tải mô hình Vision-Language: {model_name}...")
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        
+
         self.model = Qwen3VLForConditionalGeneration.from_pretrained(
-            model_name, 
-            dtype="auto", 
+            model_name,
+            dtype="auto",
             device_map="auto"
         )
+
+        # 👇 Sửa ở đây
         self.processor = AutoProcessor.from_pretrained(model_name)
+        if hasattr(self.processor, "tokenizer"):
+            self.processor.tokenizer.padding_side = "left"
+            if self.processor.tokenizer.pad_token is None:
+                self.processor.tokenizer.pad_token = self.processor.tokenizer.eos_token
+
         print(f"Tải mô hình hoàn tất. Sử dụng thiết bị: {self.device}")
 
     # Sửa đổi hàm generate để xử lý batch
@@ -62,7 +69,7 @@ class ContextEnricher:
     # Viết lại hoàn toàn hàm enrich_chunks_with_llm để sử dụng batching
     def enrich_chunks_with_llm(self, chunks: List[Dict[str, Any]], 
                                doc_folder_path: str, 
-                               batch_size: int = 8) -> List[Dict[str, Any]]:
+                               batch_size: int = 4) -> List[Dict[str, Any]]:
         
         enriched_chunks_data = []
         
