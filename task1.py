@@ -251,8 +251,8 @@ def process_all_pdfs(input_root, output_root):
 
 # === 7️⃣ CHẠY (Không thay đổi) ===
 if __name__ == "__main__":
-    input_root = "data/raw/public_test_data"
-    output_root = "./submission"
+    input_root = "data/raw/private_test_data/input"
+    output_root = "./private_submission"
     os.makedirs(output_root, exist_ok=True)
     process_all_pdfs(input_root, output_root)
     main_py_path = os.path.join(output_root, "main.py")

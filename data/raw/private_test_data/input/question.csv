@@ -1,0 +1,284 @@
+Question,A,B,C,D
+Tuổi thọ trung bình của tấm pin năng lượng mặt trời là bao nhiêu năm?,20 – 25 năm,10 – 12 năm,5 – 7 năm,10 - 15 năm
+Biểu tượng nào hiển thị màu lục khi động cơ servo đang bật?,Biểu tượng chế độ thủ công,Biểu tượng gia nhiệt khoang chứa,Biểu tượng hoạt động của động cơ servo,Biểu tượng báo động
+"Theo tài liệu Public_656, LED nào sáng khi trống (Drum) cần được thay thế sớm?",Toner LED,Drum LED,Error LED,Ready LED
+Nút bàn di chuột phải có chức năng gì?,Hoạt động như nút trái chuột ngoài,Hoạt động như nút phải chuột ngoài,Dùng để cuộn trang,Dùng để bật/tắt touchpad
+Thành phần nào dùng để đặt giới hạn tối đa có thể điều chỉnh khi ở chế độ thủ công của E-Drive?,Manual Settings Limits,Auto Settings Limits,Mechanical Settings Limits,Servo Movement Alarms
+Đầu dò Convex và đầu dò Sector của máy siêu âm ICU trong TD636 lần lượt có dải tần số hoạt động bao nhiêu?,3.0–5.0 MHz và 2.5–4.5 MHz ,2.0–4.0 MHz và 3.0–6.0 MHz,1.5–5.0 MHz và 2.0–5.0 MHz,3.5–6.0 MHz và 2.5–5.5 MHz
+"Trong tài liệu Public_665, có bao nhiêu loại vít được liệt kê trong danh sách chi tiết lắp xiết?",2,3,4,5
+Văn bản Public_675 chủ yếu mô tả về nội dung gì?,Ký hiệu cửa đi và cửa sổ,Ký hiệu sơ đồ điện,Ký hiệu lỗ trống và cầu thang,Ký hiệu vách ngăn và các bộ phận cần sửa chữa trong bản vẽ thi công
+"Theo cấu trúc bảng trong TD648, các cột thông tin chính gồm những mục nào?","STT, Tên mặt hàng, Mã số theo biểu thuế nhập khẩu, Ký hiệu quy cách, mô tả đặc tính kỹ thuật ","Tên vật liệu, Đơn vị tính, Giá bán","Danh mục, Quy cách, Giá, Số lượng","Vật liệu, Đơn vị, Ghi chú, Giá"
+Văn bản Public 449 mô tả yêu cầu gì về dữ liệu nhập mới? Và bước nào cần kích hoạt nếu dữ liệu không đạt chuẩn?,(1) Phải hợp lệ (2) Rollback giao dịch,(1) Có thể bỏ qua (2) Không rollback,(1) Tạm lưu (2) Xuất báo cáo,(1) Không kiểm tra (2) Ghi log định kỳ
+Vít cấy A1-M12×45 được quy định trong tiêu chuẩn nào?,TCVN 1892-76,TCVN 3608-81,TCVN 52-86,TCVN 58-86
+SLA được quy định trong Public 446 phải đạt __________. (điền khuyết),0.97,99.9%,99.99%,1
+Tài liệu TD651 giới thiệu về nội dung chính nào?,Giới thiệu cơ bản về máy tính và trình tự sử dụng ,Hệ thống tín hiệu rời rạc,Quản lý mạng máy tính,Thiết kế phần mềm
+Tiêu chuẩn Public_669 quy định ký hiệu quy ước cho những bộ phận nào của ngôi nhà?,Lỗ trống và cửa sổ,Cửa đi và cầu thang,Tường và cột,Dầm và sàn
+Model đầu dò Convex đi kèm máy siêu âm TD634 là gì?,PVT-375BT,PLT-1005BT,PST-30BT,PVT-500BT
+"Theo tài liệu `Public_445`, hệ thống CRM yêu cầu gì khi thêm mới Opportunity và cơ chế nào phải hoạt động khi có lỗi phát sinh?",(1) Phải nhập đủ trường bắt buộc (2) Rollback giao dịch,(1) Tích hợp RPA (2) Tăng tốc SLA,(1) Có log báo cáo (2) Bỏ qua khi lỗi nhỏ,(1) Tự động lưu nháp (2) Không rollback
+Đèn báo bộ đổi nguồn AC và pin màu hổ phách thể hiện trạng thái nào?,Đang không sạc pin,Pin đã đầy,Pin đang được sạc,Pin yếu
+"Khi import dữ liệu, hệ thống cần đảm bảo tính toàn vẹn và hợp lệ của dữ liệu như thế nào, và cơ chế xử lý lỗi nào cần được kích hoạt khi phát hiện dữ liệu không hợp lệ hoặc không thể nhập?",(1) Dữ liệu hợp lệ (2) Rollback giao dịch,(1) Có thể bỏ qua lỗi (2) Không rollback,(1) Lưu nháp (2) Bỏ qua kiểm tra,(1) Gửi cảnh báo SMS (2) Tiếp tục xử lý
+"Khối lượng bê tông đá dăm lót móng (R ≤ 250cm, vữa bê tông đá 4x6 M100) trong hạng mục phần móng là bao nhiêu?","24,346 m³","76,366 m³","112,665 m²","23,404 m³"
+Nội dung chính được mô tả trong tài liệu Public_670 là gì?,Quy ước vẽ lò xo,Ký hiệu quy ước lỗ trống,"Ký hiệu cửa đi, cầu thang và đường dốc trong bản vẽ thi công",Ký hiệu cột và dầm
+Điểm nhấn cốt lõi của Public 449 là gì?,Đặc tả kiểm thử transaction & đảm bảo dữ liệu,Hướng dẫn phân công nhân sự,Kế hoạch bảo trì hệ thống,Báo cáo khảo sát khách hàng
+Văn bản này nói về nội dung gì?,Cách sử dụng hệ điều hành Windows,Hướng dẫn cài đặt phần mềm,Hướng dẫn sử dụng chuột máy tính,Hướng dẫn sử dụng bàn phím đúng cách
+Tài liệu Public_673 chủ yếu mô tả về nội dung gì?,Quy ước vẽ phòng ốc,Ký hiệu bản vẽ xây dựng,"Ký hiệu thiết bị đóng cắt, bảo vệ, đo lường và cung cấp điện trong sơ đồ điện",Cách ghi chú trong bản vẽ kiến trúc
+"Theo cấu trúc TD640, các cột thông tin chính trong bảng giá vật liệu gồm những mục nào?","STT, Nhóm vật liệu, Tên vật liệu/loại, Đơn vị tính, Tiêu chuẩn kỹ thuật, Quy cách, Nhà sản xuất, Xuất xứ, Vận chuyển, Ghi chú, Giá bán","Tên vật liệu, Xuất xứ, Giá bán","Danh mục, Tên, Đơn giá, Số lượng","Vật liệu, Đơn vị tính, Ghi chú, Giá"
+"Trong TD643, “Sơn bóng nano” có giá bán (chưa VAT) là bao nhiêu đồng/lít?",97.146,110.101,116.616,128
+Giá bán đến chân công trình của “Khớp nối mềm gang cầu BE DN 500 (mm)” là bao nhiêu đồng/bộ?,12500000,12800000,13000000,13168000
+Văn bản Public_662 mô tả chủ yếu về nội dung gì?,Màn hình Overview E-Multi,Màn hình cài đặt phun E-Multi,Màn hình cài đặt phục hồi E-Multi,"Màn hình Biểu đồ sản xuất E-Multi: các chế độ hiển thị, nút menu ngữ cảnh và nút chức năng"
+"Trong phần Open Trigger của màn hình cài đặt cửa van, có bao nhiêu tùy chọn kích hoạt được liệt kê?",4,5,9,8
+Giải pháp được đề xuất trong tài liệu Public_470 để giảm thiểu xử lý thủ công khi quản lý dữ liệu 3D là gì?,Chỉ dùng người nhập liệu thủ công,"Tận dụng phần mềm phân tích đám mây điểm, máy quét 3D để tự động sinh dữ liệu đặc tả",Bỏ qua dữ liệu đặc tả và chỉ lưu ảnh 3D,Dùng người nhập thủ công và chỉ lưu ảnh 3D
+“Xe nâng người làm việc trên cao” trong TD649 có Mã số theo biểu thuế nhập khẩu theo nhóm nào?,8427,8428,8429,8430
+"Nêu các phím tắt để: làm mới tài liệu trong Microsoft Word, gửi/nhận email trong Outlook, và kích hoạt thanh menu của ứng dụng đang mở.",F5 và F6,F7 và F8,F9 và F10,F11 và F12
+Giá Tấm Panel Bê tông nhẹ khí chưng áp SCL-ALC-LC (m3) theo TD638 là bao nhiêu đồng/m3?,2.250.000,2.300.000,2.491.667,2.600.000
+"Giá bán (chưa VAT) của “Đá (5x10)mm” tại Mỏ đá Lùng Khứ, xã Hưng Vũ, huyện Bắc Sơn là bao nhiêu đồng/m³?",175000,200000,185000,190000
+Mã “BCCS2_TT_HOPDONG” trong tài liệu Public 444 thể hiện nghiệp vụ gì?,Thanh toán công nợ,Quản lý hợp đồng,Báo cáo doanh thu,Quản lý nhóm khách hàng
+"Trong TD650, có tổng cộng bao nhiêu tên mặt hàng có Mã số theo biểu thuế nhập khẩu theo nhóm 8517?",41,42,43,44
+Giá bán (chưa VAT) của ống HDPE 80 DN 32 PN 10 và ống HDPE 80 DN 50 PN 12.5 lần lượt là bao nhiêu đồng/m?,16.090 và 45.182,15.909 và 43.636,16.090 và 45.182,17.000 và 45.182
+"Trong số hóa 3D, thuộc tính “Identifier” (định danh) dùng để làm gì?","Xác định đối tượng, dữ liệu hoặc tệp tin một cách duy nhất",Mô tả chi tiết về nội dung dữ liệu,Ghi lại quyền sở hữu dữ liệu,Cả 3 đáp án trên
+"Theo Public 449, khi kiểm thử transaction, log hệ thống cần lưu thông tin nào trước tiên?",Thời gian giao dịch,Người thực hiện,Kết quả cuối cùng,Lý do rollback
+"Theo cấu trúc bảng giá trong TD641, các cột thông tin chính gồm những mục nào?","STT, Nhóm vật liệu, Tên vật liệu/loại, Đơn vị tính, Tiêu chuẩn kỹ thuật, Quy cách, Nhà sản xuất, Xuất xứ, Vận chuyển, Ghi chú, Giá bán ","Tên vật liệu, Đơn vị tính, Giá bán","Danh mục, Quy cách, Giá, Số lượng","Vật liệu, Đơn vị, Ghi chú, Giá"
+Bộ đếm số lần sản xuất (Prod. Counter) hiển thị các giá trị nào?,"Actual, Remain, Set","Current, Past, Total","Max, Min, Average","Input, Output, Total"
+"Giá bán tại mỏ của “Cát trát” thuộc mỏ cát sỏi Kéo Thin, xã Bạch Đằng là bao nhiêu đồng/m³?",320.000,350.000,380.000,400.000
+"Trong tài liệu Public_642, tổng cộng có bao nhiêu loại “Mô tơ” được liệt kê trong bảng giá?",2,4,3,5
+Miệng thoát khí thải của ống xả trên xe được phép hướng theo hướng nào?,Ra phía sau hoặc sang trái theo chiều tiến,Ra phía trước xe,Sang phải theo chiều tiến,Ra phía sau xe
+"Trong bảng giá vật liệu TD637, nhựa đường được liệt kê với tổng cộng bao nhiêu loại?",2,3,4,5
+Windows 1.0 và Windows 2.0 ra mắt năm nào?,1984 và 1986,1983 và 1984,1985 và 1987,1986 và 1988
+"Trong tài liệu Public_448, phương thức nào của API /network/qos/monitor có chức năng Export dữ liệu?",GET,POST,PUT,DELETE
+"Trong phần “Các loại đèn điện và thiết bị dùng điện”, tổng cộng có bao nhiêu loại được liệt kê?",7,9,10,11
+"Trong BCCS2, mã BCCS2_SALE_HOPDONG được mô tả là chức năng gì?",Tra cứu thông tin khách hàng,Danh mục dịch vụ,Quản lý hợp đồng,Quản lý hóa đơn
+"Trong phần “Ký hiệu cửa đi”, có tổng cộng bao nhiêu loại cửa khác nhau được liệt kê?",9,12,13,14
+Mã chức năng BCCS2_SALE_CONGNO thể hiện nghiệp vụ gì? Và đơn vị nào là phụ trách chính chức năng này?,(1) Báo cáo bán hàng (2) Phòng Tài chính,(1) Quản lý công nợ (2) TT ĐHBH VTT,(1) Quản lý hợp đồng (2) Phòng Nhân sự,(1) CSKH khách hàng (2) Trung tâm CNTT
+"Trong TD647, có tổng cộng bao nhiêu loại ""VẬT LIỆU HẠ TẦNG CƠ SỞ"" được liệt kê trong bảng",4,5,9,8
+"Giá bán (chưa VAT) của “Cửa 2 cánh liền vách (thanh nhôm vách dày 1,5mm)” trong TD642 là bao nhiêu đồng/m²?",3350000,3250000,3200000,3280000
+"Trong TD649, có tổng cộng bao nhiêu tên mặt hàng có Mã số theo biểu thuế nhập khẩu theo nhóm 6902?",8,10,12,14
+"Các giai đoạn chính của quá trình số hóa 3D, từ thu thập dữ liệu đến tạo mô hình, bao gồm những bước nào?",Chỉ quét đối tượng và lưu trữ dữ liệu,"Quét đối tượng, xử lý dữ liệu, lưu trữ","Lập kế hoạch, chuẩn bị, quét, xử lý, dung sai, lập chỉ mục, quản lý lưu trữ","Quét đối tượng, xử lý và lưu trữ dữ liệu"
+Cầu dao 1 pha có những dạng nào và cầu dao 3 pha có những dạng nào?,"1 pha: 1 cực, 3 pha: 3 cực","1 pha: 1 cực, 2 cực, 3 pha: 1 cực, 2 cực","1 pha: loại thường và loại đảo (2 ngã), 3 pha: loại thường và loại đảo (2 ngã)","1 pha: loại xoay, 3 pha: loại trượt"
+Văn bản này chủ yếu nói về nội dung gì?,Hệ điều hành Windows và các thao tác cơ bản trên Windows,Cách sử dụng bàn phím máy tính,Hướng dẫn an toàn lao động,Lắp ráp phần cứng máy tính
+"Theo cấu trúc bảng giá trong TD645, các cột thông tin chính gồm những mục nào?","STT, Nhóm vật liệu, Tên vật liệu/loại, Đơn vị tính, Tiêu chuẩn kỹ thuật, Quy cách, Nhà sản xuất, Xuất xứ, Vận chuyển, Ghi chú, Giá bán ","Tên vật liệu, Đơn vị tính, Giá bán","Danh mục, Quy cách, Giá, Số lượng","Vật liệu, Đơn vị, Ghi chú, Giá"
+Hệ thống vCOC trong văn bản được mô tả là công cụ gì?,Quản lý bán hàng,Giám sát điều hành CSKH,Quản lý nhân sự,Điều hành logistics
+"Cổng nào có thể kết nối thiết bị USB, truyền dữ liệu tốc độ cao và sạc thiết bị nhỏ ngay cả khi máy tính đã tắt?",Cổng USB Type-C có tính năng HP Sleep and Charge,Cổng HDMI,Giắc tai nghe/micrô,Đầu đọc thẻ nhớ
+"Theo cấu trúc bảng trong TD647, các cột thông tin chính gồm những mục nào?","STT, Tên vật liệu, Chỉ tiêu thí nghiệm, Tiêu chuẩn thí nghiệm, Tiêu chuẩn lấy mẫu, yêu cầu kỹ thuật, Số lượng/ Khối lượng/ Quy cách mẫu thử, Ghi chú ","Tên vật liệu, Đơn vị tính, Giá bán","Danh mục, Quy cách, Giá, Số lượng","Vật liệu, Đơn vị, Ghi chú, Giá"
+Ký hiệu Aptomat 3 pha thuộc nhóm thiết bị nào?,Thiết bị đo lường,"Thiết bị đóng cắt, bảo vệ",Thiết bị chiếu sáng,Thiết bị truyền động
+Home to Closed Position Only có ý nghĩa gì và Max Stroke có ý nghĩa gì?,Chỉ vị trí mở và hành trình trung bình,Vị trí servo và tỷ số truyền,Tấm di chuyển đến vị trí ban đầu và Hành trình tối đa được đặt cho tấm E-Drive,Giới hạn thủ công và giới hạn tự động
+"Trong TD643, có tổng cộng bao nhiêu loại sơn thuộc nhóm ""SƠN KOVA)",41,43,42,40
+Airbus A321 thường được ứng dụng cho các tuyến bay nào?,Bay nội địa ngắn dưới 500 km,"Các tuyến tầm ngắn và trung bình, có nhu cầu vận chuyển cao",Chỉ bay xuyên lục địa,"Bay quốc tế, từ 2000km trở lên"
+Yếu tố quan trọng nào cần khảo sát trước khi lắp đặt hệ thống điện mặt trời?,"Nhu cầu sử dụng điện, diện tích mái, hướng lắp đặt, ngân sách","Màu sơn mái nhà, chiều cao tường",Số lượng cây xanh quanh nhà,Diện tích sử dụng
+Hai hãng sản xuất CPU nổi tiếng nhất thế giới hiện nay là gì?,Intel và NVIDIA,Apple và Qualcomm,Intel và AMD,Intel và Qualcomm
+"“Thiết bị đầu cuối ADSL có định tuyến và thu phát vô tuyến sử dụng kỹ thuật điều chế trải phổ trong băng tần 2,4 GHz (iGate AW300N)” trong TD650 có Mã số theo biểu thuế nhập khẩu theo nhóm nào?",8516,8518,8517,8521
+"Trong tài liệu Public_651, có tổng cộng bao nhiêu bộ phận cơ bản của máy tính được liệt kê?",6,7,8,9
+“Cột chống thủy lực đơn” trong TD648 có Mã số theo biểu thuế nhập khẩu theo nhóm nào?,8425,8427,8426,8428
+"Trong Public 445, chỉ tiêu SLA của hệ thống CRM được yêu cầu đạt mức bao nhiêu phần trăm?",0.95,0.97,99.9%,99.99%
+"Trong bảng ký hiệu của tài liệu Public_671, tổng cộng có bao nhiêu phần tử điện được liệt kê?",25,32,30,28
+Có bao nhiêu cấp đường đô thị chính được liệt kê trong Bảng 4.4 của tiêu chuẩn này?,5 cấp,6 cấp,7 cấp,8 cấp
+"Trong TD640, tổng cộng có bao nhiêu loại ống nhựa HDPE PE100 được liệt kê trong bảng giá?",120,130,150,160
+Đầu dò Convex (PVT-375BT) và đầu dò Sector (PST-30BT) lần lượt được sử dụng cho các ứng dụng nào?,"Ổ bụng – tổng quát, sản phụ khoa, và tim người lớn, Doppler xuyên sọ","Siêu âm mạch máu, và siêu âm ổ bụng – tổng quát","Siêu âm tuyến giáp, và siêu âm cơ xương khớp","Siêu âm sản phụ khoa, và siêu âm tim trẻ em"
+"Trong Public 449, điều kiện nào được xem là bắt buộc để dữ liệu mới được chấp nhận?",Đúng định dạng và đầy đủ trường bắt buộc,Được duyệt bởi quản lý,Không trùng với dữ liệu cũ,Có cảnh báo SMS
+"Dựa vào tài liệu, có bao nhiêu trạng thái khác nhau của máy in được mô tả (READY, PRINTING, WARMING UP, COOLING DOWN, SLEEP, DEEP SLEEP, RECEIVING DATA, DATA REMAINING)?",18,16,17,19
+"Trên màn hình cài đặt cửa van, các tab ở đầu màn hình cho phép làm gì?",Hiển thị báo động servo,Cài đặt cho hai cửa van cùng lúc,Đặt mômen servo,Hiển thị trạng thái E-Drive
+Tiêu chuẩn này quy định ký hiệu quy ước cho những bộ phận nào của ngôi nhà?,"Cửa đi, cầu thang và đường dốc",Cửa sổ và cửa đi,Tường và cột,Dầm và sàn
+"Ký hiệu cửa sổ đơn thể hiện trên mặt bằng được vẽ theo tỷ lệ nào, theo quy định trong tài liệu Public_669?",1:50,1:100,1:200,01:20:00
+"Trong tài liệu Public_659, ý nghĩa của “Inject pressure” trong mục điều kiện chuyển tiếp là gì và “Cut Off Activation Position” được dùng để làm gì?","V1: Áp suất phun tại đó hệ thống chuyển sang giữ, V2: Dùng để tránh chuyển tiếp khi áp suất phun đạt đỉnh lúc bắt đầu phun","V1: Vận tốc phun để chuyển sang giữ, V2: Đặt thời gian phun tối đa","V1: Thời gian phun để chuyển sang giữ, V2: Xác định áp suất khí nén","V1: Vị trí trục vít để chuyển sang giữ, V2: Dùng để khởi động lại chu kỳ"
+Ưu điểm nổi bật của ổ cứng SSD so với HDD là gì?,Tốc độ đọc/ghi và xử lý nhanh hơn,Giá thành rẻ hơn nhiều,Dung lượng luôn lớn hơn HDD,Cả 3 đáp án trên
+"Trong tài liệu Public_644, cấu trúc bảng giá gồm những cột thông tin chính nào?","STT, Nhóm vật liệu, Tên vật liệu/loại, Đơn vị tính, Tiêu chuẩn kỹ thuật, Quy cách, Nhà sản xuất, Xuất xứ, Vận chuyển, Ghi chú, Giá bán ","Tên vật liệu, Đơn vị tính, Giá bán","Danh mục, Quy cách, Giá, Số lượng","Vật liệu, Đơn vị, Ghi chú, Giá"
+"Theo tài liệu Public_471, sau khi thử nghiệm với nước, hình ảnh nhiều màu phải được đánh giá theo tiêu chuẩn nào?",ISO 9001,ISO 5-3,ISO 7724,ISO 7730
+"Theo tài liệu Public_441, nếu hệ thống vCOC không còn theo dõi tỷ lệ hài lòng khách hàng, điều này sẽ tác động như thế nào đến các chỉ số kinh doanh và khả năng ra quyết định của doanh nghiệp?",Khó đánh giá chất lượng dịch vụ,Giảm chi phí vận hành,Tăng độ chính xác của KPI,Không ảnh hưởng tới việc giám sát
+Giá bán (chưa VAT) của “Bê tông nhựa Carboncor Asphalt - CA 9.5” trong TD644 là bao nhiêu đồng/tấn?,3500000,3600000,3700000,3800000
+Giá bán tại thành phố Lạng Sơn của “Cáp CVV-(3x70mm² +1x35mm²)” và “Cáp CVV-(3x70mm² +1x50mm²)” lần lượt là bao nhiêu đồng/m?,"890,000 và 940,000","905,000 và 960,000","900,000  và 954,545 ","910,000 và 970,000"
+"Trong phần “Ký hiệu vách ngăn”, có tổng cộng bao nhiêu loại vách ngăn được liệt kê?",3,5,6,7
+Giá bán (chưa VAT) của ống HDPE 80 DN 20 PN 6 trong TD640 là bao nhiêu đồng/m?,4.666,5.229,6.838,7.723
+Mục đích chính của Public 448 là gì?,"Quản lý API & Log, định nghĩa phương thức",Lưu trữ thông tin khách hàng,Xây dựng SLA dịch vụ,Phân tích hiệu suất hệ thống
+Có thể đặt chế độ hiển thị biểu đồ sản xuất theo những dạng nào?,Thời gian và nhiệt độ,Vị trí và mômen,"Thời gian, Vị trí, Phân tách (cả hai)",Áp suất và tốc độ
+Tài liệu Public_665 mô tả chủ yếu về nội dung gì?,"Các chi tiết ghép ren tiêu chuẩn và các loại mối ghép bulông, vít cấy, vít",Quy trình vận hành máy in,Các phím tắt trong Windows,Cách cài đặt phần mềm
+Kích thước của “Máy tính để bàn” và “Máy tính xách tay” trong Public_651 lần lượt là gì?,Nhỏ và Nhỏ,Lớn và Lớn,Lớn và Nhỏ ,Nhỏ và Hợp lý để xách tay
+Cửa đi đơn một cánh mở cả hai phía dạng tự động được vẽ ký hiệu như thế nào và góc mở quy định là bao nhiêu độ?,Ký hiệu bằng hình vuông và góc mở 45°,Ký hiệu bằng hình tam giác và góc mở 90°,Chiều quay cánh cửa vẽ theo độ chênh và góc mở 30°,Dùng mũi tên kép và góc mở 60°
+"Nếu không có popup hiển thị lịch sử tương tác khách hàng, nguyên nhân có thể là gì?",Điện thoại viên khó nắm bắt thông tin,Chất lượng dịch vụ được cải thiện,Giảm chi phí vận hành,Không ảnh hưởng đến CSKH
+"Trong tài liệu, tổng cộng có bao nhiêu loại cửa sổ khác nhau được liệt kê ký hiệu?",12,17,16,18
+Sơ đồ nhất thứ dùng để biểu diễn mạch điện nào?,Các mạch điều khiển phụ,Các mạch điện chính từ nguồn đến nơi tiêu thụ,Các mạch điện chiếu sáng,Các mạch điện gia dụng
+Ưu điểm nổi bật của phương pháp cắt Plasma bằng khí Oxy khi cắt thép Carbon là gì?,"Chất lượng cắt tốt, tốc độ nhanh nhất, đường cắt mịn ít xỉ","Giá thành rẻ nhất, không cần khí bảo vệ",Không làm thay đổi tính chất kim loại,Không cần khí bảo vệ
+Có bao nhiêu phím thao tác (từ f1 đến f12) được mô tả trong tài liệu?,10,11,12,13
+Hệ điều hành Windows nào được phát hành năm 1995?,Windows 3.0,Windows NT 3.1,Windows 95,Windows Vista
+"Trong phần “Injection Pressure”, khi máy không hoạt động thì giá trị này thể hiện điều gì?",Áp suất nhựa do thiết bị phun tạo ra,Áp suất tải trước của hệ thống,Áp suất khí nén,Áp suất khuôn
+Lò xo xoắn phẳng thường được dùng làm gì?,Giảm xóc ô tô,Dây cót,Lò xo kéo,Vòng đệm
+Các trạng thái nào liên quan đến mực in (Toner): “TONER LOW” và “TONER ENDED” lần lượt có ý nghĩa gì?,"Cần chuẩn bị mực mới, Phải thay thế hộp mực mới","Hết mực hoàn toàn, Hộp mực bị lỗi","Đèn báo mờ, Máy không in được","Chỉ báo trục Drum hỏng, Máy báo lỗi hệ thống"
+"Theo tài liệu Public_469, yêu cầu chung của hệ thống phanh đối với xe chưa qua sử dụng là gì?","Đảm bảo dừng xe, hoạt động đúng tính năng, không rò rỉ dầu/khí, dẫn động linh hoạt",Chỉ cần phanh chính hoạt động tốt,"Chỉ cần có phanh đỗ, không cần phanh dự phòng",Cả 3 đáp án trên
+"Theo cấu trúc tài liệu TD634, các nhóm thông tin chính được trình bày gồm những gì?","Yêu cầu chung, Yêu cầu cấu hình, Thông số kỹ thuật, Các yêu cầu khác","Xuất xứ, Giá cả, Nhà cung cấp, Bảo hành","Thông số hiển thị, Thông số âm học, Phần mềm, Phần cứng","Danh mục thiết bị, Danh mục phụ kiện, Bảng giá, Tài liệu tham khảo"
+"Trong quy hoạch giao thông vùng, những loại hình cảng nào cần được xác định vị trí và quy mô?","Cảng biển loại I, II, III","Cảng hàng không quốc tế, nội địa",Cảng đường bộ,Cảng thủy nội địa
+Đèn nào sáng khi bàn di chuột đang bị tắt?,Đèn nguồn,Đèn khóa viết hoa,Đèn bàn di chuột,Đèn tắt tiếng
+Ưu điểm nổi bật của hệ thống điều khiển bay fly-by-wire trên Airbus A321 là gì?,"Tăng độ an toàn, giảm tải cho phi công",Giúp máy bay nhẹ hơn,Làm tăng dung tích nhiên liệu,Cả 3 đáp án trên
+Xe chưa qua sử dụng phải có nhãn hàng hóa thể hiện những thông tin nào?,Chỉ tên thương mại và năm sản xuất,"Tên nhà sản xuất, nhãn hiệu, model code, số khung, thông số kỹ thuật, năm sản xuất",Chỉ số động cơ và cảnh báo an toàn,Cả 3 đáp án trên
+Văn bản Public_668 chủ yếu mô tả về nội dung gì?,Các loại bulông và vít,Phím tắt trên bàn phím,Hệ điều hành Windows,"Khái niệm, phân loại và quy ước vẽ lò xo trong bản vẽ kỹ thuật"
+"Trong phần “Các loại thiết bị đo lường”, có tổng cộng bao nhiêu thiết bị được liệt kê?",7,9,10,11
+Những yêu cầu bắt buộc đối với hệ thống truyền động thủy lực của xe được nêu trong Public_469 là gì?,"Lắp đặt chắc chắn, đường ống có thể bẹp nhẹ, không cần áp suất ổn định","Van thủy lực có thể kẹt nhẹ, ống có thể nứt nhỏ","Lắp chắc chắn, bơm – mô tơ – van hoạt động ổn định, ống không nứt, áp suất trong giới hạn",Cả 3 đáp án trên
+Văn bản `Public_659` mô tả chủ yếu về nội dung gì?,Các loại cảm biến nhiệt,Giao diện màn hình Overview,Cách cài đặt bàn di chuột,"Màn hình cài đặt phun E-Multi: cấu hình phun, áp suất, vận tốc, điều kiện chuyển tiếp"
+"Giá bán (chưa VAT) của “Chống thấm xi măng, bê tông CT-11A Gold” trong TD643 là bao nhiêu đồng/kg?",117.656,179.773,190,200
+"Theo TCVN 1615-75, cầu dao 1 pha được dùng để làm gì trong mạng điện gia dụng?",Đóng cắt mạch điện 1 pha,Thay đổi điện áp,Đo cường độ dòng điện,Tự động bù công suất
+"Trên màn hình cài đặt phục hồi, số bước phục hồi có thể điều chỉnh tối đa là bao nhiêu?",3 bước,5 bước,7 bước,10 bước
+Nhấn nhanh nút nguồn sẽ làm gì khi máy tính đang ở trạng thái Ngủ hoặc Ngủ đông?,Thoát chế độ Ngủ và thoát chế độ Ngủ đông,Chuyển sang tắt máy và khởi động lại,Bật bàn phím số và bật đèn nền bàn phím,Đưa máy vào chế độ tiết kiệm pin
+"Nếu cần cắt thép không gỉ dày 10 cm, nên chọn loại khí nào để đạt chất lượng tốt nhất?",Không khí đã lọc sạch,Hỗn hợp Argon – Hidro,Chỉ dùng Oxy,Có thể sử dụng cả 3 cách trên
+Văn bản Public 447 yêu cầu kiểm thử những gì khi thực hiện API stress test? Và kết quả nào phải được ghi nhận?,(1) Khả năng chịu tải (2) Log toàn bộ kết quả,(1) Bảo mật dữ liệu (2) Rollback giao dịch,(1) Gửi báo cáo PDF (2) Tạo SMS cảnh báo,(1) Ghi nhận SLA (2) Chặn kết nối API
+"Trong ký hiệu cửa đi, ký hiệu chiều quay của cánh cửa đơn một cánh thể hiện trên mặt bằng theo góc bao nhiêu?",30°,90° hoặc 45°,60°,120°
+"Trong TD648, có tổng cộng bao nhiêu tên mặt hàng có Mã số theo biểu thuế nhập khẩu theo nhóm 8517?",4,5,6,7
+Màn hình của máy siêu âm Doppler màu trong TD634 có kích thước bao nhiêu inch?,17 inch,19 inch,"21,5 inch",24 inch
+Điểm chuyển tiếp trong biểu đồ sản xuất được hiển thị bằng dạng nào trong tài liệu Public_662?,Đường màu đen,Đường dọc màu ngọc lam,Đường ngang màu đỏ,Thanh màu vàng
+Trong BCCS2: (1) Quyền TD_DC_HM_MB áp dụng cho việc gì? (2) Quyền TD_DC_HM_QUYEN_NANG_HM dùng khi nào?,(1) Chuyển nhượng thuê bao (2) Đổi gói cước,(1) Quản lý hợp đồng (2) Tra cứu thông tin,(1) Thay đổi thông tin KH (2) Cập nhật người dùng,(1) Thay đổi đặt cọc/hạn mức cho thuê bao Mobile (2) Nâng hạn mức lớn hơn quy định
+chiều dài tối thiểu nền ga của ga hành khách thông qua là bao nhiêu mét?,1000 m,1200 m,1400 m,2000 m
+Văn bản Public_661 mô tả chủ yếu về nội dung gì?,Màn hình Overview E-Multi,Màn hình cài đặt phục hồi,Các phím đặc biệt của Windows,Màn hình cài đặt E-Drive và cài đặt cửa van của hệ thống E-Multi
+Đai ốc xẻ rãnh 1-M16 thuộc tiêu chuẩn nào theo tài liệu Public_665?,TCVN 1905-76,TCVN 2061-77,TCVN 1911-76,TCVN 3377-83
+"Trong TD645, tổng cộng có bao nhiêu loại cáp 4 lõi hạ thế được liệt kê trong bảng giá?",20,12,13,18
+"Trong TD644, có tổng cộng bao nhiêu loại ""Nhựa đường""vật liệu thuộc nhóm “Cột thép” được liệt kê?",3,4 ✅=,5,6
+Giá bán tại mỏ của “Đá dăm 1x2” ở mỏ Khưa Vặn (xã Chu Trinh) và ở Công ty Cổ phần Sea Holdings lần lượt là bao nhiêu?,200.000 và 190.909,180.000 và 200.000,190.909 và 180.000,210.000 và 200.000
+Mật độ quang học tối thiểu của hình ảnh đen in bằng máy in laser theo quy định là bao nhiêu?,"0,90","0,65","0,50","0,80"
+"Theo tài liệu Public_465, các hệ thống điện mặt trời phổ biến hiện nay gồm những loại nào?",Chỉ có hệ thống hòa lưới,Hòa lưới và độc lập,"Hòa lưới, Hybrid (có lưu trữ), độc lập",Cả 3 đáp án trên
+Giá bán (chưa VAT) của “Mô tơ Singdoor 300kg” và “Mô tơ Singdoor 500kg” trong TD642 lần lượt là bao nhiêu đồng/m²?,2.450.000 và 2.400.000,2.400.000 và 2.450.000,2.300.000 và 2.450.000,2.300.000 và 2.350.000
+Vai trò của inverter trong hệ thống điện mặt trời là gì?,Biến đổi dòng DC từ pin thành AC để dùng cho thiết bị điện,Lưu trữ điện năng dư thừa,Chỉ để giám sát hệ thống,Cả 3 đáp án trên
+Giá bán tại thành phố Lạng Sơn của “Cáp CVV-(3x50 mm² +1x25 mm²)” là bao nhiêu đồng/m?,640,648.909,655,660
+"Trong trường hợp một API có cấu hình 'Retry tối đa 3 lần' và 'Rollback khi lỗi', cơ chế 'Rollback khi lỗi' sẽ được kích hoạt khi nào so với quá trình thử lại?","Khả năng phục hồi, độ tin cậy giao dịch",Giảm băng thông và dung lượng log,Giới hạn quyền truy cập,Hỗ trợ nhiều phiên bản dữ liệu
+"Trên màn hình Desktop, thanh nào thường nằm ngang ở phía dưới cùng và hiển thị biểu tượng các phần mềm đang chạy?",Menu Start,Taskbar,Toolbar,Status bar
+"Trong tài liệu Public_646, có tổng cộng bao nhiêu loại “Van cổng ty chìm mặt bích tay quay” được liệt kê?",9,10,11,12
+"Trong bản vẽ hệ thống điện, ký hiệu MC biểu thị cho thiết bị nào?",Máy cắt điện,Máy biến áp,Máy biến dòng điện,Máy phát điện
+Ống HDPE 100 D25 PN20 trong TD640 có giá bán (chưa VAT) là bao nhiêu đồng/m?,11.727,13.182,14.642,15.909
+"Vì sao các tuyến đường ô-tô cao tốc cấp 80, 100, 120 không được phép đi xuyên qua đô thị mà phải bố trí đường tránh?",Vì chi phí xây dựng cao tốc trong đô thị cao hơn nhiều,"Vì đường cao tốc đi xuyên đô thị sẽ gây nguy cơ mất an toàn giao thông, ô nhiễm và cản trở phát triển không gian đô thị.",Vì luật chỉ cho phép xây dựng cao tốc ở nông thôn.,"Vì cao tốc chỉ phù hợp với vận tải hàng hóa, không liên quan đến đô thị."
+Văn bản Public_656 chủ yếu mô tả nội dung gì?,Cách cài đặt driver máy in,Các phím tắt trên bàn phím,Cách kết nối mạng không dây,"Bảng điều khiển, đèn LED và trạng thái lỗi của máy in Brother HL2240D"
+Văn bản này chủ yếu mô tả về nội dung gì?,Các loại vật liệu xây dựng,"Ký hiệu quy ước phòng ốc, nguồn điện, đèn và thiết bị điện trong bản vẽ kỹ thuật",Phương pháp đo điện trở đất,Cách lắp đặt bảng điện dân dụng
+Nội dung chính của văn bản Public 442 là gì?,Đặc tả kỹ thuật BCCS2,Báo cáo khảo sát tính năng IVR/IPCC,Hướng dẫn sử dụng CRM nội bộ,Quy định đào tạo nhân sự tổng đài
+"Trong TD641, tổng cộng có bao nhiêu loại Gạch xây dựng",13,16,15,14
+"Theo cấu trúc bảng giá trong TD642, các cột thông tin chính gồm những mục nào?","STT, Nhóm vật liệu, Tên vật liệu/loại, Đơn vị tính, Tiêu chuẩn kỹ thuật, Quy cách, Nhà sản xuất, Xuất xứ, Vận chuyển, Ghi chú, Giá bán ","Tên vật liệu, Đơn vị tính, Giá bán","Danh mục, Quy cách, Giá, Số lượng","Vật liệu, Đơn vị, Ghi chú, Giá"
+Màn hình của máy siêu âm Doppler màu trong TD635 có kích thước bao nhiêu inch?,17 inch,19 inch,"21,5 inch",24 inch
+Những yếu tố nào cần đáp ứng để hình ảnh in/ghi đạt yêu cầu về ngoại quan theo tài liệu Public_471?,"Có thể mờ nhẹ, chấp nhận nét gạch ngang","Rõ ràng, dễ đọc, màu duy trì, không có nét gạch/ngang, nét lông",Chỉ cần đúng màu cơ bản,Cả 3 đáp án trên
+"Theo tài liệu Public_468, các loại khí nào phù hợp khi cắt thép không gỉ và nhôm với chất lượng cao?",Oxy / Air,"Nitơ, Argon–Hidro, Nitơ–H₂O",Chỉ sử dụng không khí,Cả 3 đáp án trên
+"Trong TD639, có tổng cộng bao nhiêu loại ống nhựa gân xoắn HDPE được liệt kê trong bảng giá?",11,12,13,14
+Lò xo xoắn ốc gồm những loại nào và được chia theo tác dụng gì?,"Lò xo nén và lò xo phẳng, chia theo hình dạng","Lò xo kéo và lò xo đĩa, chia theo vật liệu","Lò xo nén, lò xo xoắn, lò xo kéo và chia theo tác dụng","Lò xo xoắn và lò xo nhíp, chia theo kết cấu"
+CPU trong laptop có vai trò gì?,"Phân tích và xử lý dữ liệu, quyết định sức mạnh của laptop","Xử lý đồ họa, hiển thị hình ảnh",Lưu trữ hệ điều hành và dữ liệu,Cả 3 đáp án trên
+Dòng điện xoay chiều được ký hiệu như thế nào và mạng điện 3 pha 4 dây được ký hiệu ra sao?,"Xoay chiều: N, 3 pha 4 dây: 3~","Xoay chiều: DC, 3 pha 4 dây: AC","Xoay chiều: f, U, 3 pha 4 dây: m~","Xoay chiều: AC hoặc ~, 3 pha 4 dây: 3~ + N"
+(Vế 1) Chế độ thủ công máy chạy ở tốc độ nào? — (Vế 2) Chế độ tự động máy sẽ vận hành khi nào?,"V1: Máy chạy ở tốc độ tối đa, V2: Máy vận hành tự động khi máy ép phun khởi động đúng và kết nối EuroMap giữa máy ép phun và rô-bốt là chính xác.","V1: Máy chạy ở tốc độ tối đa, V2: Máy chỉ vận hành khi có lệnh từ người dùng","V1: Máy chạy ở tốc độ thiết lập, V2: Máy không vận hành tự động","V1: Máy dừng, V2: Máy chạy chậm"
+Giá của Lam chắn nắng Foster Sun Louver hình hộp FT - HH 300 x 100 x 1.5mm và FT - HH 400 x 100 x 1.5mm lần lượt là bao nhiêu?,1.018.000 và 1.360.000,1.018.000 và 1.018.000,1.360.000 và 1.018.000,1.240.000 và 1.360.000
+Public_466 cung cấp giải pháp nào để gia đình chủ động sử dụng điện ngay cả khi mất điện lưới?,Điện mặt trời kết hợp pin lưu trữ (Hybrid/Off-grid),Điện mặt trời hòa lưới đơn thuần,Chỉ sử dụng điện lưới EVN,Cả 3 đáp án trên
+"Dựa trên thông tin trong tài liệu Public_472, dòng chip nào là phù hợp nhất cho laptop tối ưu AI và hiệu năng cao?",AMD Ryzen 7/9,Intel Core Ultra (Meteor Lake),Apple M1/M2/M3,Dimensity 9400 Plus
+"Trong tài liệu Public_448, API /invoice/export yêu cầu cơ chế xác thực nào và kết quả nào phải được ghi lại sau mỗi lần gọi?",(1) OAuth2 (2) Log giao dịch chi tiết,(1) Basic Auth (2) Không cần log,(1) Không xác thực (2) Log tuỳ chọn,(1) LDAP (2) Ghi log định kỳ
+Lò xo hoạt động dựa trên đặc tính đàn hồi như thế nào?,Đặc tính đàn hồi,Độ bền cơ học,Độ dẫn điện,Trọng lượng riêng
+"Theo cấu trúc TD636, các nhóm thông tin chính được trình bày gồm những gì?","Yêu cầu chung, Yêu cầu cấu hình, Thông số kỹ thuật, Các yêu cầu khác ","Xuất xứ, Giá cả, Nhà cung cấp, Bảo hành","Tên thiết bị, Thông số, Phụ kiện, Bảo hành","Danh mục thiết bị, Danh mục phụ kiện, Tài liệu tham khảo, Bảng giá"
+"Theo tài liệu Public_471, những tiêu chí đánh giá và kết luận cụ thể nào áp dụng khi hình ảnh in bị bong tróc một phần sau khi thử mài mòn?",Hình ảnh vẫn đạt yêu cầu,Hình ảnh không đạt yêu cầu,Chỉ cần kiểm tra lại bằng mắt thường,Cần kiểm tra máy móc
+"“Ống dẫn dung môi (phụ kiện của bồn chữa cháy)” và “Anot hy sinh nhôm chống ăn mòn – dạng tấm, trụ, thẳng” trong TD649 có Mã số theo biểu thuế nhập khẩu theo nhóm lần lượt là gì?",7505 và 7602,7506 và 7603,7507  và 7604 ,7508 và 7605
+"Dựa trên tài liệu, có bao nhiêu nút menu ngữ cảnh được liệt kê ở màn hình cài đặt phun?",3,4,5,6
+"Theo tài liệu Public_446, nếu log Audit không được ghi nhận đầy đủ trong hệ thống, có thể suy ra hệ quả gì?",Khó truy vết và xác định nguyên nhân lỗi,Hệ thống vận hành nhanh hơn,SLA vẫn đảm bảo,Không ảnh hưởng tới tính toàn vẹn dữ liệu
+"Trong TD641, “Gạch bê tông KN lỗ GTTLS 012, Mac 8” có giá bán (chưa VAT) là bao nhiêu đồng/viên?",1050,5500,1150,1200
+Giá bán tại thành phố Lạng Sơn của “Cáp CVV-(4x16 mm²)” là bao nhiêu đồng/m?,241.273,250,245,260
+"Theo tài liệu Public_470, mục tiêu của việc gán dữ liệu đặc tả cho hình ảnh số hóa 3D là gì?","Hỗ trợ quản lý, truy vấn hình ảnh và tối ưu quy trình nghiệp vụ",Chỉ để giảm dung lượng dữ liệu,Giúp hiển thị ảnh 3D rõ nét hơn,Cả 3 đáp án trên
+Thiết bị trong TD635 phải được sản xuất từ năm nào trở về sau?,Từ năm 2019 trở về sau,Từ năm 2021 trở về sau,Từ năm 2022 trở về sau,Từ năm 2023 trở về sau
+Trạng thái nào cho biết máy đang nhận hoặc xử lý dữ liệu từ máy tính?,DATA REMAINING,PRINTING,RECEIVING DATA,MEMORY FULL
+"Nếu một chức năng trong Public 444 không được gắn mã định danh kỹ thuật, hệ quả có thể là gì?",Khó phân quyền và kiểm soát vận hành,Hệ thống xử lý nhanh hơn,Đơn giản hóa công tác báo cáo,Không ảnh hưởng đến hệ thống
+"Trong TD651, “Ổ cứng hay ổ đĩa cứng” của máy tính gồm những loại nào?",Chỉ HDD,HDD và SSD ,Chỉ SSD,"HDD, SSD và CD-ROM"
+Văn bản Public 446 có nội dung tổng thể liên quan nhiều nhất đến lĩnh vực nào?,Đặc tả kỹ thuật & kiểm thử hệ thống,Chính sách bảo mật nhân sự,Báo cáo khảo sát khách hàng,Kế hoạch kinh doanh dịch vụ
+"Theo cấu trúc bảng trong TD649, các cột thông tin chính gồm những mục nào?","STT, Tên mặt hàng, Mã số theo biểu thuế nhập khẩu, Ký hiệu quy cách, mô tả đặc tính kỹ thuật ","Tên vật liệu, Đơn vị tính, Giá bán","Danh mục, Quy cách, Giá, Số lượng","Vật liệu, Đơn vị, Ghi chú, Giá"
+Màu đèn báo trên giắc RJ-45 thể hiện điều gì: màu trắng và màu hổ phách lần lượt nghĩa là gì?,Không kết nối và có mạng,Pin đã sạc đầy và pin đang được sạc,Pin đầy và pin yếu,Sạc và không sạc
+Giá bán (chưa VAT) của “Sơn lót kháng kiềm nội thất LA” và “Sơn lót kháng kiềm ngoại thất LB” trong TD643 lần lượt là bao nhiêu đồng/lít?,"65,686 và 177,222 ","65,686 và 137,889","70,000 và 185,000","66,000 và 180,000"
+Max. decomp. time có ý nghĩa gì và Max. plasticize time có ý nghĩa gì?,Thời gian giảm áp tối đa được phép và Thời gian dẻo hóa tối đa được phép,Thời gian trễ và thời gian rung tối đa,Thời gian giảm áp tối đa và mômen sạc tối đa,Thời gian bật và tắt thiết bị rung
+Nội dung chính của văn bản Public 444 là gì?,Báo cáo tài chính định kỳ,Đặc tả chức năng và mã kỹ thuật hệ thống,Khảo sát mong muốn khách hàng,Hướng dẫn nghiệp vụ CSKH
+"Giá thi công lắp đặt Trần nhôm Foster C300 phẳng- Shaped, chiều dày 0,9mm trong TD638 là bao nhiêu đồng/m2?",570.000,410.000,450.000,630.000
+Khoảng cách tối thiểu giữa tấm pin và mái khi lắp đặt là bao nhiêu mm?,50 mm,≥100 mm,200 mm,80 mm
+"Theo tài liệu Public_624, bề rộng tối thiểu vỉa hè đường cấp đô thị là bao nhiêu mét, và bề rộng tối thiểu đường xe đạp là bao nhiêu mét?","4,5 m và 2,0 m","6,0 m và 3,0 m","3,0 m và 1,5 m","4,0 m và 2,5 m"
+"“Cát cho bê tông và vữa” có Tiêu chuẩn lấy mẫu, yêu cầu kỹ thuật nào theo TD647?",TCVN 7570:2006 ,TCVN 7572-4:2006,TCVN 2682:2009,TCVN 6017:2015
+"Trên màn hình cài đặt phun, số bước phun có thể điều chỉnh tối đa là bao nhiêu?",5 bước,8 bước,10 bước,12 bước
+"Một hộ gia đình sử dụng điện sinh hoạt, vậy nhóm điện được tính giá thuộc loại nào?",Điện sinh hoạt,Điện kinh doanh,Điện sản xuất,Điện công nghiệp
+Sơ đồ nhất thứ có những loại nào và sơ đồ một sợi biểu thị điều gì?,"Sơ đồ nhị thứ và sơ đồ chính, biểu thị mạch điều khiển","Sơ đồ một sợi và sơ đồ phụ, biểu thị mạch chiếu sáng","Sơ đồ một sợi và sơ đồ ba sợi, sơ đồ một sợi biểu thị sự liên hệ trang bị điện qua một pha","Sơ đồ hai sợi và sơ đồ ba sợi, sơ đồ một sợi biểu thị cả ba pha"
+"Theo tài liệu Public_657, nếu có báo động, hộp thông báo trên màn hình sẽ hiển thị màu gì?",Đỏ,Vàng,Xanh lục,Xám
+“Bộ sạc năng lượng mặt trời (solar charger)” trong TD650 có Mã số theo biểu thuế nhập khẩu theo nhóm nào?,8503,8504,8505,8506
+"Theo Public 447, trong kịch bản kiểm thử Cluster failover, hệ thống phải tự động chuyển đổi trong bao lâu?",1 giây,3 giây,5 giây,10 giây
+"Trong TD638, có bao nhiêu mặt hàng có giá bán lớn hơn 1.000.000 đồng?",15,18,21,24
+Tài liệu Public_660 mô tả chủ yếu về nội dung gì?,Màn hình Overview E-Multi,Màn hình cài đặt phun E-Multi,Các loại đèn báo của máy in Brother,"Màn hình cài đặt phục hồi E-Multi: dẻo hóa, đối áp, giảm áp, thông số thời gian và chế độ"
+Trường “Charge torque” có chức năng gì?,Hiển thị vòng quay trục vít,Hiển thị vị trí trục vít,Chỉ định mômen sạc tối đa,Chỉ định áp suất tối đa
+Đầu dò Convex (Model và dải tần số) và Đầu dò thực quản (Model và dải tần số) lần lượt là gì?,PVT-375BT (1.5 - 6.0 MHz) và PET-512MA (3.0 - 6.5 MHz),PLT-1005BT (4.2 - 14.0 MHz) và PST-30BT (1.7 - 5.2 MHz),PST-30BT (1.7 - 5.2 MHz) và PLT-1005BT (4.2 - 14.0 MHz),PET-512MA (3.0 - 6.5 MHz) và PVT-375BT (1.5 - 6.0 MHz)
+Trường “Inject time” có chức năng gì?,Hiển thị hành trình trục vít,Chỉ định số giây để hệ thống chuyển sang áp suất giữ,Hiển thị áp suất nhựa hiện tại,Cài đặt vận tốc phun
+Có mấy bước để mở bàn phím ảo (On-Screen Keyboard) trong Windows?,3,4,5,6
+"Theo tài liệu Public_652, phím nào dùng để mở màn hình Trợ giúp?",F1,F2,F3,F4
+"Trong TD634, có tổng cộng bao nhiêu loại đầu dò được mô tả chi tiết kèm theo ứng dụng?",2,3,4,5
+Tài liệu Public_671 chủ yếu mô tả về nội dung gì?,Cách lắp đặt dây điện trong nhà,Quy tắc đo điện trở,Các ký hiệu quy ước trong bản vẽ điện và các loại sơ đồ điện cơ bản,Cách tính công suất động cơ
+Màn hình LCD của máy siêu âm ICU trong TD636 có kích thước bao nhiêu inch?,14 inch,"15,5 inch ",17 inch,19 inch
+"Trong bảng ví dụ quy ước vẽ, có bao nhiêu loại lò xo được liệt kê?",6,9,10,11
+"Trong quy trình xử lý dữ liệu được mô tả trong tài liệu Public_446, bước nào được thực hiện trước khi lưu dữ liệu chính thức?",Kiểm tra định dạng và trường bắt buộc,Ghi log Audit,Gửi cảnh báo SMS,Phân quyền người dùng
+Tường hiện có cần sửa chữa được ký hiệu riêng để làm gì và tường mới thiết kế khi sửa chữa hay xây mới cần thể hiện thế nào?,"Để ghi rõ chiều cao và chiều dày, vẽ bằng nét chấm gạch","Để phân biệt phần giữ lại và phần thay đổi, tường mới thể hiện rõ ràng, đậm hoặc khác biệt với tường cũ","Để xác định kết cấu chịu lực, tường mới vẽ bằng màu đỏ","Để ghi chú vật liệu, tường mới chỉ cần ký hiệu bằng chữ"
+"Trong kiểm thử Database recovery test, sự kiện nào cần được mô phỏng để đánh giá khả năng phục hồi?",DB corruption,API timeout,Network overload,User login fail
+Có bao nhiêu cách để cài đặt ngày và giờ (Date & Time) theo tài liệu Public_653?,1,2,3,4
+“Máy tiện vạn năng phổ thông” và “Máy cắt vật liệu nhựa PE” trong TD648 có Mã số theo biểu thuế nhập khẩu theo nhóm lần lượt là gì?,8458  và 8459 ,8460 và 8461,8462 và 8463,8457 và 8459
+"Nếu log không ghi đầy đủ chi tiết transaction trong quá trình rollback, những thách thức chính trong việc chẩn đoán và khôi phục hệ thống là gì?",Truy vết nguyên nhân lỗi,SLA không đạt,Người dùng cuối không thể thao tác,Dữ liệu hệ thống bị xóa
+Tài liệu Public_442 có đề cập đến tính năng “phát âm báo theo tỉnh” và yêu cầu popup thông tin khách hàng không?,"(1) Đúng, (2) Sai","(1) Sai, (2) Đúng",(1) và (2) đều đúng,(1) và (2) đều sai
+Văn bản Public_655 chủ yếu nói về nội dung gì?,Các cổng kết nối trên máy tính HP,Hệ điều hành Windows,Các phím tắt trong Word,"Bàn di chuột, đèn báo, nút nguồn và các phím đặc biệt"
+Loại đá nào trong danh mục TD637 có giá bán tại mỏ là 160.000 đồng/m³?,"Đá dăm 0,5",Đá hộc,Đá dăm 1x2,Bột đá
+“Thiết bị đầu cuối OLT” và “Thiết bị âm thanh không dây” trong TD650 có Mã số theo biểu thuế nhập khẩu theo nhóm lần lượt là gì?,8517 và 8518 ,8519 và 8521,8522 và 8523,8524 và 8525
+Card đồ họa rời (VGA rời) thường phù hợp với nhu cầu nào?,"Lướt web, xem tin tức","Chơi game, thiết kế đồ họa nặng, render phim ảnh",Chỉ gõ văn bản và tính toán cơ bản,Cả 3 đáp án trên
+Tên gọi phổ biến của bố cục bàn phím gồm 6 chữ cái đầu tiên là gì?,AZERTY,QWERTY,DVORAK,Colemak
+"Trên màn hình Overview được mô tả trong tài liệu Public_658, có bao nhiêu nút menu ngữ cảnh được liệt kê?",3,4,5,6
+"Nếu hệ thống không rollback khi thêm mới dữ liệu bị thiếu trường, có thể dẫn tới hậu quả nào?","Dữ liệu CRM bị sai lệch, không toàn vẹn",Hệ thống chạy nhanh hơn,Không ảnh hưởng SLA 99.99%,Không gây ra vấn đề gì
+"Theo cấu trúc bảng trong TD650, các cột thông tin chính gồm những mục nào?","STT, Tên mặt hàng, Mã số theo biểu thuế nhập khẩu, Ký hiệu quy cách, mô tả đặc tính kỹ thuật ","Tên vật liệu, Đơn vị tính, Giá bán","Danh mục, Quy cách, Giá, Số lượng","Vật liệu, Đơn vị, Ghi chú, Giá"
+"Theo cấu trúc bảng giá trong TD646, các cột thông tin chính gồm những mục nào?","STT, Nhóm vật liệu, Tên vật liệu/loại, Đơn vị tính, Tiêu chuẩn kỹ thuật, Quy cách, Nhà sản xuất, Vận chuyển, Ghi chú, Giá bán ","Tên vật liệu, Đơn vị tính, Giá bán","Danh mục, Quy cách, Giá, Số lượng","Vật liệu, Đơn vị, Ghi chú, Giá"
+"Theo tài liệu Public_447, nếu trong kiểm thử Load test hệ thống không lưu lại log đầy đủ, hậu quả nào có thể xảy ra?",Khó so sánh benchmark với bản phát hành trước,Hệ thống xử lý nhanh hơn,Không ảnh hưởng đến QA,SLA vẫn được đảm bảo
+"Trong văn bản, bất cập khi không có tính năng “tự động check ngưỡng nghẽn” là gì?",Không phát hiện được quá tải queue,Tăng chi phí phần cứng,Giảm số lượng khách hàng gọi vào,Mất dữ liệu chăm sóc khách hàng
+"(Vế 1) Trên màn hình Overview, Cycle time hiển thị mấy giá trị khác nhau? — (Vế 2) Các trường này gồm những gì?","V1: 2 giá trị, V2: Current, Max","V1: 4 giá trị, V2: Current, Last, Max, Average","V1: 2 giá trị, V2: Actual, Remain","V1: 3 giá trị, V2: Current (trái), Last (giữa), Max (phải)"
+Giá bán đến chân công trình của “Van cổng ty chìm mặt bích tay quay - DN 300” là bao nhiêu đồng/cái?,18000000,18500000,18670000,19000000
+Tổng cộng có bao nhiêu loại màn hình chức năng điều hướng được liệt kê ở thanh dưới cùng?,7,8,9,10
+Ưu điểm của điện mặt trời so với điện lưới nhà nước là gì?,Không cần vốn đầu tư ban đầu,"Hoàn toàn ổn định, không phụ thuộc thời tiết","Năng lượng sạch, tiết kiệm dài hạn",Tiết kiệm chi phí
+"Theo cấu trúc tài liệu TD635, các nhóm thông tin chính được trình bày gồm những gì?","I. YÊU CẦU CHUNG, II. YÊU CẦU CẤU HÌNH, III. THÔNG SỐ KỸ THUẬT, IV. CÁC YÊU CẦU KHÁC","Yêu cầu chung, Yêu cầu cấu hình, Thông số hiển thị, Phần mềm","Thông số kỹ thuật, Phụ kiện, Bảo hành, Hướng dẫn","Xuất xứ, Giá cả, Nhà cung cấp, Bảo hành"
+Giá bán đến chân công trình của “Cút 45 độ EE DN 280” và “Cút 45 độ EE DN 300” lần lượt là bao nhiêu đồng/bộ?,5.400.000 và 5.800.000,5.599.000  và 5.969.000 ,5.700.000 và 6.000.000,5.800.000 và 6.100.000
+"Trong tài liệu Public_660, mục “Chế độ (Mode)” liệt kê bao nhiêu chế độ?",2,3,4,5
+"Trên bản vẽ tỷ lệ 1:200, vách ngăn được thể hiện bằng loại nét nào?","Nét liền đậm, kèm chú thích vật liệu",Nét chấm gạch,Nét lượn sóng,Nét đứt đôi
+Độ phân giải màn hình LCD của máy in 3D Elegoo Saturn 4 Ultra là bao nhiêu?,16.384 x 9.216 pixel (16K),8.192 x 4.608 pixel (8K),3.840 x 2.160 pixel (4K),16.384 x 2.160 pixel (16K)
+Nút Set all ref. curves dùng để làm gì và nút Export dùng để làm gì?,Chọn tất cả các đường cong hiển thị làm tham chiếu và mở hộp thoại cài đặt để xuất số đo,Đặt miền dung sai và hiển thị đường cong xu hướng,Chọn đường cong xu hướng và tải số đo,Hiển thị giá trị thực tế và phóng đại biểu đồ
+"Theo khảo sát, tính năng nào được mong muốn bổ sung để kiểm tra tình trạng âm báo tại từng tỉnh?",File Excel,Công cụ test âm báo theo tỉnh,Popup thông tin khách hàng,Voice biometric
+Ưu điểm nổi bật của màn hình LCD mạ crôm trên Saturn 4 Ultra 16K là gì?,"Tăng tốc độ xử lý, nâng cao tuổi thọ màn hình, chất lượng in đồng đều",Chỉ giúp tiết kiệm điện năng,Chỉ giảm chi phí vật liệu in,Cả 3 đáp án trên
+“Cân ô tô điện tử” trong TD648 có Mã số theo biểu thuế nhập khẩu theo nhóm nào?,8422,8423,8424,8425
+Kích thước thể tích in của Elegoo Saturn 4 Ultra 16K là bao nhiêu?,123 x 123 x 123 mm,218 x 123 x 250 mm,300 x 200 x 300 mm,123 x 300 x 250 mm
+Các vị trí nào trên một máy tính thường có khe thông gió?,Chỉ bên phải,Mặt sau và bên trái,Bên trái và bên phải,Bên phải và mặt sau
+(1) Hệ thống vCOC cung cấp báo cáo theo thời gian nào? (2) Kết quả được hiển thị dưới hình thức gì?,(1) Theo tháng (2) File Word,(1) Theo quý (2) Dashboard CRM,(1) Theo ngày (2) Dashboard trực quan,(1) Theo năm (2) Email PDF
+Văn bản Public_658 chủ yếu mô tả về nội dung gì?,Bảng điều khiển máy in Brother,Các phím đặc biệt trên bàn phím HP,"Màn hình Overview E-Multi: dữ liệu sản xuất, áp suất, vị trí, nhiệt độ và cài đặt",Giao diện Windows 10
+Public_471 quy định độ bền mài mòn của hình ảnh in/ghi đạt yêu cầu trong điều kiện nào?,Khả năng giữ lại ≥ 80% so với đường đối chứng,Không bị bong tróc khi gấp,Không đổi màu khi chiếu sáng,Cả 3 đáp án trên
+"Trong TD644, “Cột thép đa giác, tròn côn THGT dày 6mm, tay vươn vuông góc 5m + 2m dày
+4mm” có giá bán (chưa VAT) là bao nhiêu đồng/cột?",14000000,13000000,29000000,30000000
+"Trong tài liệu Public_639, theo cấu trúc của TD639, các cột thông tin chính trong bảng giá vật liệu gồm những mục nào?","STT, Nhóm vật liệu, Tên vật liệu/loại, Đơn vị tính, Tiêu chuẩn kỹ thuật, Quy cách, Nhà sản xuất, Xuất xứ, Vận chuyển, Ghi chú, Giá bán ","STT, Vật liệu, Xuất xứ, Giá bán","Danh mục, Tên, Giá, Số lượng","Tên vật liệu, Nhà sản xuất, Quy cách, Ghi chú"
+Văn bản này chủ yếu mô tả về nội dung gì?,Quy ước vẽ lò xo,Quy tắc bố trí mặt bằng,Ký hiệu quy ước lỗ trống và cửa sổ trong bản vẽ thi công,Tiêu chuẩn ghi kích thước trên bản vẽ
+"Giá bán (chưa VAT) của “Trụ tủ điều khiển tín hiệu giao thông” và “Tủ điều khiển tín hiệu giao thông 2 pha, ổn áp 2000VA” trong TD644 lần lượt là bao nhiêu đồng/bộ?",50.000.000 và 30.000.000,51.000.000 và 31.000.000,52.500.000 và 32.500.000 ,54.000.000 và 34.000.000
+"Trong ký hiệu nguồn điện, dây trung tính được biểu thị bằng chữ nào?",N,L,G,M
+Giá bán (chưa VAT) của “Đèn LED đường phố VHL1-60W (Dim 5 cấp)” và “Đèn LED đường phố VHL2-120W” lần lượt là bao nhiêu đồng?,4.000.000 và 5.200.000 ,3.800.000 và 5.000.000,4.200.000 và 5.500.000,5.000.000 và 5.200.000
+“Ống thép bọc cách nhiệt” trong TD649 có Mã số theo biểu thuế nhập khẩu theo nhóm nào?,7305,7306,7307,7308
+"Trong TD636, tổng cộng có bao nhiêu loại thiết bị được mô tả chi tiết kèm cấu hình và thông số kỹ thuật?",1,2,3,4
+"“Cáp DUL, thép cường độ cao” có quy định về Số lượng/ Khối lượng/ Quy cách mẫu thử như thế nào?","Lấy 2 thanh có chiều dài từ 1,2  – 1,5 m tùy thiết bị thí nghiệm.","Lấy 3 thanh có chiều dài từ 1,2  – 1,5 m tùy thiết bị thí nghiệm.","Lấy 1 thanh có chiều dài từ 1,2  – 1,5 m tùy thiết bị thí nghiệm.","Lấy 3 thanh có chiều dài từ 1,1  – 1,4 m tùy thiết bị thí nghiệm."
+"Trong TD642, “Vách dựng liền cửa sổ, 1 cánh, mở hất (đố cửa hở)” có giá bán (chưa VAT) là bao nhiêu đồng/m²?",1800000,1900000,1850000,1900000
+Nội dung chính của Public 447 tập trung vào vấn đề nào?,Kịch bản kiểm thử QA hệ thống,Chính sách phân quyền người dùng,Báo cáo khảo sát khách hàng,Kế hoạch đào tạo kỹ thuật viên
+"Giá bán (chưa VAT) của “Gạch bê tông KN 2 lỗ GT5, Mác 10” và “Gạch bê tông KN đặc GT1, Mác 10” trong tài liệu Public_641 lần lượt là bao nhiêu đồng/m³?",180.000 và 185.000,4.500 và 1.150,190.000 và 195.000,195.000 và 200.000
+Văn bản này chủ yếu mô tả nội dung gì?,Hệ điều hành Windows,Các phím chức năng trên bàn phím,Cách cài đặt phần mềm,Các cổng kết nối và thành phần vùng cạnh trên máy tính HP
+Đơn vị tính của công tác “Ván khuôn móng” được ghi trong bảng là gì?,m³,m²,Tấn,Bộ
+Chức năng của API /customer/update khi sử dụng phương thức PATCH được mô tả trong tài liệu Public_448 là gì?,Kiểm tra trạng thái,Thêm bản ghi,Xóa thông tin,Export dữ liệu
+Hệ điều hành nào có thể được sử dụng cho máy tính để bàn được mô tả trong tài liệu Public_651?,Windows hoặc MacOS hoặc Linux ,Chỉ Windows,Chỉ MacOS,Android hoặc iOS
+Số lượng tấm pin cần cho hệ điện mặt trời 5 kWp (sử dụng tấm pin 555W) là bao nhiêu?,8 tấm,10 tấm,12 tấm,14 tấm
+Chiều dài vít cấy được lấy bằng bao nhiêu khi chi tiết có lỗ ren bằng gang và khi bằng hợp kim nhẹ?,"0,75d và d","d và 1,25d","1,25d và 1,5d","1,25d và 2d"
+Vì sao hệ thống GBOC ngoài báo cáo SXKD còn cần thêm chức năng GBOC.DASHBOARD.ALARM (cảnh báo kinh doanh)?,Để giảm số lượng báo cáo chi tiết,Để thay thế hoàn toàn chức năng BOC2.0,"Để giám sát tức thời rủi ro doanh thu, thuê bao và cảnh báo sớm cho điều hành",Để gộp các báo cáo hợp đồng và khách hàng
+Loại khí nào thường được sử dụng phổ biến nhất trong cắt Plasma?,Oxy,Nitơ,Không khí đã được làm sạch,Heli
+Plasma được đề cập trong tài liệu Public_468 là gì?,"Tập hợp các ion dương và electron, dẫn điện tốt",Chỉ là một loại khí trơ,Dòng điện xoay chiều trong kim loại,Cả 3 đáp án trên
+Máy hạ thân nhiệt chỉ huy trong TD636 có màn hình cảm ứng TFT kích thước bao nhiêu?,"7,5’’","8,4’’",10,12’’
+"Khi thực hiện export dữ liệu Contact trong CRM, hệ thống cần làm gì trước tiên?",Ghi log tự động,Validate dữ liệu đầu vào,Gửi thông báo SMS,Rollback giao dịch
+"Theo cấu trúc tài liệu TD637, các cột thông tin chính trong bảng giá vật liệu xây dựng gồm những gì?","STT, Nhóm vật liệu, Tên vật liệu/loại, Đơn vị tính, Tiêu chuẩn kỹ thuật, Quy cách, Nhà sản xuất, Xuất xứ, Vận chuyển, Ghi chú, Giá bán","STT, Vật liệu, Xuất xứ, Giá bán","Vật liệu, Đơn vị tính, Giá bán, Bảo hành","Nhóm, Tên vật liệu, Số lượng, Giá thành"
+Elegoo Saturn 4 Ultra 16K thường được ứng dụng trong những lĩnh vực nào?,"Thời trang, ẩm thực","Nông nghiệp, chăn nuôi","Nguyên mẫu sản phẩm, mô hình thu nhỏ, trang sức, giáo dục",Hàng không vũ trụ
+"Theo tài liệu Public_473, hãng hàng không giá rẻ nên chọn phiên bản máy bay hoặc hệ thống nào để tối ưu chi phí khai thác?",A321ceo,A321neo,A321XLR,A321-200
+"Trong Public 444, mã chức năng nào được gắn với nghiệp vụ Quản lý công nợ?",BCCS2_ADMIN_CONGNO,BCCS2_SALE_CONGNO,BCCS2_CARE_CONGNO,BCCS2_TT_CONGNO
+"Theo cấu trúc TD638, các cột thông tin chính trong bảng giá vật liệu xây dựng gồm những gì?","STT, Nhóm vật liệu, Tên vật liệu/loại, Đơn vị tính, Tiêu chuẩn kỹ thuật, Quy cách, Nhà sản xuất, Xuất xứ, Vận chuyển, Ghi chú, Giá bán","STT, Vật liệu, Xuất xứ, Giá bán","Vật liệu, Đơn vị tính, Giá bán, Bảo hành","Nhóm, Tên vật liệu, Số lượng, Giá thành"
+"Nếu xe được thử phanh chính và dự phòng ở vận tốc 32 km/h mà không đạt khoảng cách dừng quy định, kết luận thế nào?",Xe vẫn đạt chuẩn vì có phanh đỗ hỗ trợ,Xe không đạt yêu cầu kỹ thuật an toàn,Xe vẫn đạt nếu động cơ hoạt động ổn định,Xe không đạt vì không có phanh đỗ hỗ trợ
+"Theo tài liệu Public_441, đơn vị nào chịu trách nhiệm phát triển và triển khai hệ thống vCOC?",Trung tâm DVKH Viettel,Trung tâm Phân tích dữ liệu Viettel,Trung tâm Kinh doanh Viettel,Viettel Network (VTNet)
+Chiều dài của máy bay Airbus A321 là bao nhiêu?,"44,51 m","35,8 m","11,76 m",45 m
+Cửa sổ đơn hai cánh quay theo bản lề đứng mở ra ngoài được ký hiệu như thế nào và tam giác biểu thị điều gì?,Bằng hai đường song song và tam giác chỉ hướng mở,Bằng một vòng tròn nhỏ và tam giác chỉ kích thước,"Bằng hình tam giác cân, đỉnh tam giác biểu thị phía có bản lề","Bằng hình vuông nhỏ, tam giác chỉ phía mở cửa"
+"Theo nội dung văn bản, mục tiêu chính của hệ thống vCOC là gì?",Đo lường KPI mạng lưới,Chuẩn hóa quy trình chăm sóc khách hàng,Đảm bảo chất lượng dịch vụ & giám sát tổng thể,Tích hợp ERP với CRM
+"Trong BCCS2, mã chức năng BCCS2_SALE_BO_CHECK_DIEU_KIEN_THUE_BAO_DANG_KY cho phép làm gì?",Thêm thuê bao mới,Bỏ check điều kiện thuê bao phải đăng ký mới để mở chặn,Khóa thuê bao vi phạm,Tra cứu hợp đồng
+"Trên màn hình Biểu đồ sản xuất, có bao nhiêu nút menu ngữ cảnh được liệt kê?",4,5,6,7
+Tiêu chuẩn quốc tế nào được tham khảo trong quản lý dữ liệu đặc tả số hóa 3D theo tài liệu Public_470?,ISO 9001:2015,ISO 23081-1:2006,ISO/IEC 27001,ISO 9001:2020
+Vách ngăn bằng kính hoặc vật liệu trong suốt thường được ưu tiên sử dụng trong trường hợp nào?,Không gian cần cách âm,Không gian cần chịu lực,Không gian cần lấy sáng tự nhiên hoặc tạo cảm giác thoáng,Không gian cần chống cháy
+Động cơ A321neo sử dụng loại nào để tiết kiệm nhiên liệu 15–20%?,IAE V2500,CFM56,Pratt & Whitney PW1100G hoặc CFM LEAP-1A,IAE V3000
+Nội dung tổng thể của Public 445 tập trung vào chủ đề nào?,Đặc tả kiểm thử và yêu cầu kỹ thuật CRM,Báo cáo doanh thu hệ thống CRM,Kế hoạch triển khai mạng 5G,Chính sách đào tạo nhân sự CSKH
+Văn bản này mô tả chủ yếu về nội dung gì?,Bảng điều khiển máy in Brother,"Giao diện màn hình cảm ứng E-Multi, các biểu tượng và màn hình chức năng",Các phím tắt bàn phím Windows,Các loại bộ nhớ trong máy tính
+"Giá bán (chưa VAT) của “Đèn LED đường phố VHL2-120W (Dim 5 cấp công suất, kết nối 1-10V/DALI, lumen > 120lm/w, chống xung sét 10kA)” trong TD639 là bao nhiêu đồng?",4800000,5000000,5200000,5500000
+"Trong bản vẽ điện, hướng đi lên của cầu thang được thể hiện bằng gì?",Một mũi tên duy nhất ở bậc đầu tiên,Đường gãy khúc: chấm tròn ở bậc đầu và mũi tên ở bậc cuối,Đường thẳng song song với bậc thang,Nét đứt từ chân cầu thang đến chiếu nghỉ
+"Theo cấu trúc bảng giá trong TD643, các cột thông tin chính gồm những mục nào?","STT, Nhóm vật liệu, Tên vật liệu/loại, Đơn vị tính, Tiêu chuẩn kỹ thuật, Quy cách, Nhà sản xuất, Xuất xứ, Vận chuyển, Ghi chú, Giá bán ","Tên vật liệu, Đơn vị tính, Giá bán","Danh mục, Quy cách, Giá, Số lượng","Vật liệu, Đơn vị, Ghi chú, Giá"
+Văn bản Public 428 liệt kê các hệ thống chính nào?,Chỉ BCCS2,Chỉ Customer Care 2.0,BCCS2 và BOC2.0,"BCCS2, Customer Care 2.0, BOC2.0 và GBOC"
+"Trong TD635, có tổng cộng bao nhiêu loại đầu dò siêu âm được mô tả chi tiết kèm theo ứng dụng?",3,4,5,6
+"Nếu một thợ kim hoàn cần tạo khuôn và thiết kế trang sức chi tiết cao, Saturn 4 Ultra 16K có phù hợp không?","Có, vì máy cho độ chi tiết cực cao và phù hợp in mẫu nhỏ phức tạp","Không, vì chỉ dùng cho giáo dục","Không, vì chỉ in được mô hình kích thước lớn","Có, vì phù hợp với các sản phẩm đơn giản"
+"“Bu lông” và “Cupler” trong TD647 có Tiêu chuẩn lấy mẫu, yêu cầu kỹ thuật lần lượt là gì?",TCVN 197-1:2014 và TCVN 1651:2018,ASTM A370 và ASTM A53,TCVN 1916:1995 và TCVN 8163:2009 ,ISO 15630-1:2010 và TCVN 7937-1:2013
+"Với hóa đơn điện hàng tháng khoảng 3 triệu đồng (~1000 kWh), nên lắp hệ thống điện mặt trời công suất bao nhiêu và loại nào là phù hợp?",Hệ điện mặt trời hòa lưới công suất 5 kWp,Hệ điện mặt trời 3 kWp,Hệ điện mặt trời 1 kWp,Cả 3 đáp án trên
+"Trong TD639, tiêu chuẩn kỹ thuật áp dụng cho đèn LED chiếu sáng đường phố là gì?",TCVN 7722-1:2017 ,TCVN 4453:1995,ISO 9002:2005,TCVN 1234:2010
