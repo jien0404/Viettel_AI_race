@@ -120,10 +120,12 @@ class SQLiteHandler:
                     # để phần còn lại của chương trình có thể sử dụng
                     metadata['doc_name'] = doc_name
                     metadata['chunk_type'] = chunk_type
+                    original_blocks = metadata.get('original_blocks', [])
                     
                     # Tạo cấu trúc dữ liệu cuối cùng mà chương trình mong đợi
                     corpus_data.append({
                         'enriched_content': enriched_content,
+                        'original_blocks': original_blocks,
                         'metadata': metadata
                     })
         except Exception as e:

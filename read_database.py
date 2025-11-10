@@ -81,7 +81,7 @@ def main():
     parser.add_argument(
         "db_file", 
         type=str,
-        default="bm25_database.sqlite",
+        default="bm25_database_thinking.sqlite",
         nargs='?', # Dấu '?' làm cho argument này là tùy chọn, và sẽ lấy giá trị từ 'default' nếu không được cung cấp
         help="Đường dẫn tới file database SQLite (mặc định: bm25_database.sqlite)."
     )

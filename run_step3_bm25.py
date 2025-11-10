@@ -10,17 +10,50 @@ from PIL import Image
 from rank_bm25 import BM25Okapi
 from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
 from typing import List, Dict, Any
+import subprocess
 
+def get_free_gpu():
+    """
+    Tìm và trả về ID của GPU có nhiều bộ nhớ trống nhất.
+    Sử dụng nvidia-smi để truy vấn.
+    """
+    try:
+        # Lệnh nvidia-smi để lấy index và bộ nhớ trống, định dạng csv, không có header và đơn vị
+        command = "nvidia-smi --query-gpu=index,memory.free --format=csv,noheader,nounits"
+        
+        # Thực thi lệnh và lấy output
+        output = subprocess.check_output(command, shell=True, text=True)
+        
+        # Xử lý output
+        gpus = []
+        for line in output.strip().split('\n'):
+            index, memory_free = line.split(', ')
+            gpus.append((int(index), int(memory_free)))
+        
+        # Sắp xếp các GPU theo bộ nhớ trống giảm dần và chọn GPU đầu tiên
+        if not gpus:
+            print("Cảnh báo: Không tìm thấy GPU nào. Sẽ sử dụng CPU hoặc cài đặt mặc định.")
+            return "auto" # Fallback về "auto"
+            
+        best_gpu_index = max(gpus, key=lambda item: item[1])[0]
+        best_device = f"cuda:{best_gpu_index}"
+        print(f"Đã tìm thấy {len(gpus)} GPUs. GPU có nhiều bộ nhớ trống nhất là: {best_device} ({max(gpus, key=lambda item: item[1])[1]} MiB).")
+        return best_device
+
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        print("Cảnh báo: Không thể chạy `nvidia-smi`. Sẽ sử dụng cài đặt mặc định 'auto'.")
+        return "auto" # Fallback nếu nvidia-smi không hoạt động
+    
 # --- CẤU HÌNH ---
 DB_FILE_PATH = "bm25_database.sqlite"
 QUESTIONS_FILE_PATH = "data/raw/public_test_data/question.csv"
 SUBMISSION_DIR = "submission"
-OUTPUT_FILE_PATH = "submission/answer_final_stable.md"
+OUTPUT_FILE_PATH = "submission/answer_final_stable_top5_instruct.md"
 
 VLM_MODEL_NAME = "Qwen/Qwen3-VL-4B-Instruct"
-TOP_K_BM25 = 3
+TOP_K_BM25 = 5
 
-def load_vlm_model_and_processor():
+def load_vlm_model_and_processor(device: str):
     """
     Tải mô hình VLM và processor, cấu hình theo cách đã hoạt động thành công.
     """
@@ -28,7 +61,7 @@ def load_vlm_model_and_processor():
     model = Qwen3VLForConditionalGeneration.from_pretrained(
         VLM_MODEL_NAME, 
         torch_dtype=torch.bfloat16,
-        device_map="auto"
+        device_map=device
     )
     processor = AutoProcessor.from_pretrained(VLM_MODEL_NAME)
     
@@ -233,7 +266,8 @@ def main():
     print("======================================================")
     print("===   BẮT ĐẦU PIPELINE: BM25 RETRIEVAL & VLM QA   ===")
     print("======================================================")
-    vlm_model, processor = load_vlm_model_and_processor()
+    best_device = get_free_gpu()
+    vlm_model, processor = load_vlm_model_and_processor(device=best_device)
     qa_pipeline = BM25_VLM_QA(db_path=DB_FILE_PATH, vlm_model=vlm_model, processor=processor)
     try:
         questions_df = pd.read_csv(QUESTIONS_FILE_PATH)

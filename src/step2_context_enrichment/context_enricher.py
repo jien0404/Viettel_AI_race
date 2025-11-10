@@ -9,7 +9,7 @@ def encode_image_to_base64(image_path):
         return base64.b64encode(image_file.read()).decode('utf-8')
 
 class ContextEnricher:
-    def __init__(self, model_name: str = "Qwen/Qwen3-VL-4B-Instruct"):
+    def __init__(self, model_name: str = "Qwen/Qwen3-VL-4B-Thinking"):
         print(f"Đang tải mô hình Vision-Language: {model_name}...")
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -91,12 +91,17 @@ class ContextEnricher:
                     if os.path.exists(image_path_full):
                         image_uri = f"data:image/jpeg;base64,{encode_image_to_base64(image_path_full)}"
                         prompt_text = (
-                            "BẠN LÀ TRỢ LÝ AI. HÃY TRẢ LỜI BẰNG TIẾNG VIỆT.\n\n"
-                            f"**Ngữ cảnh:**\n{content_to_enrich}\n\n"
-                            "**YÊU CẦU:** Dựa vào hình ảnh và ngữ cảnh, hãy:\n"
-                            "1. Mô tả chi tiết hình ảnh.\n"
-                            "2. Trích xuất (OCR) toàn bộ văn bản trong ảnh.\n"
-                            "3. Diễn giải ý nghĩa của ảnh."
+                            "Bạn là một chuyên gia phân tích hình ảnh kỹ thuật. Nhiệm vụ của bạn là phân tích hình ảnh được cung cấp trong ngữ cảnh văn bản xung quanh.\n"
+                            "HÃY TRẢ LỜI HOÀN TOÀN BẰNG TIẾNG VIỆT. Bắt đầu câu trả lời ngay lập tức, không dùng lời chào hay câu dẫn.\n\n"
+                            f"--- NGỮ CẢNH VĂN BẢN ---\n{content_to_enrich}\n\n"
+                            "--- YÊU CẦU ---\n"
+                            "Hãy phân tích hình ảnh và trả về kết quả theo đúng cấu trúc Markdown sau:\n\n"
+                            "### MÔ TẢ HÌNH ẢNH\n"
+                            "(Mô tả một cách khách quan và chi tiết tất cả các đối tượng, biểu đồ, và thành phần trong ảnh.)\n\n"
+                            "### VĂN BẢN TRONG ẢNH (OCR)\n"
+                            "(Trích xuất TOÀN BỘ văn bản, chữ số, ký hiệu có trong ảnh, không bỏ sót. Nếu không có, ghi rõ 'Không có văn bản'.)\n\n"
+                            "### PHÂN TÍCH & KẾT NỐI\n"
+                            "(Diễn giải ý nghĩa của hình ảnh và mối liên hệ của nó với ngữ cảnh văn bản được cung cấp.)"
                         )
                         messages_batch.append([
                             {"role": "user", "content": [
@@ -109,12 +114,19 @@ class ContextEnricher:
 
                 elif chunk_type == 'text':
                     prompt_text = (
-                        "BẠN LÀ TRỢ LÝ AI. HÃY TRẢ LỜI BẰNG TIẾNG VIỆT.\n\n"
-                        f"**Nội dung cần làm giàu:**\n{content_to_enrich}\n\n"
-                        "**YÊU CẦU:** Thực hiện các bước sau:\n"
-                        "1. Diễn giải và mở rộng nội dung.\n"
-                        "2. Liệt kê 5-10 từ khóa.\n"
-                        "3. Đặt ra 3 câu hỏi giả định."
+                        "Bạn là một chuyên gia làm giàu dữ liệu cho hệ thống tìm kiếm (search engine). Nhiệm vụ của bạn là phân tích và mở rộng đoạn văn bản dưới đây.\n"
+                        "HÃY TRẢ LỜI HOÀN TOÀN BẰNG TIẾNG VIỆT. Bắt đầu câu trả lời ngay lập tức, không dùng các câu dẫn như 'Dưới đây là phần trả lời...'\n\n"
+                        f"--- DỮ LIỆU GỐC ---\n{content_to_enrich}\n\n"
+                        "--- YÊU CẦU ---\n"
+                        "Hãy tạo ra một phiên bản làm giàu của dữ liệu gốc theo đúng cấu trúc Markdown sau:\n\n"
+                        "### TÓM TẮT & MỞ RỘNG\n"
+                        "(Tóm tắt lại ý chính và diễn giải, mở rộng nó với các chi tiết bổ sung để làm rõ ngữ cảnh.)\n\n"
+                        "### TỪ KHÓA CHÍNH\n"
+                        "- (Liệt kê 5-7 từ khóa quan trọng nhất, mỗi từ khóa một dòng)\n\n"
+                        "### THUẬT NGỮ LIÊN QUAN\n"
+                        "- (Liệt kê các từ đồng nghĩa hoặc thuật ngữ kỹ thuật có liên quan chặt chẽ.)\n\n"
+                        "### CÂU HỎI TIỀM NĂNG\n"
+                        "- (Tạo ra 3 câu hỏi mà đoạn văn này có thể trả lời trực tiếp.)"
                     )
                     messages_batch.append([{"role": "user", "content": [{"type": "text", "text": prompt_text}]}])
                 else:
