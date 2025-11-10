@@ -1,5 +1,6 @@
+from unsloth import FastLanguageModel 
 import torch
-from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
+from transformers import AutoProcessor
 from typing import List, Dict, Any
 import os
 import base64
@@ -9,22 +10,26 @@ def encode_image_to_base64(image_path):
         return base64.b64encode(image_file.read()).decode('utf-8')
 
 class ContextEnricher:
-    def __init__(self, model_name: str = "Qwen/Qwen3-VL-4B-Thinking"):
+    def __init__(self, model_name: str = "unsloth/Qwen3-VL-4B-Instruct-unsloth-bnb-4bit"):
         print(f"Đang tải mô hình Vision-Language: {model_name}...")
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
 
-        self.model = Qwen3VLForConditionalGeneration.from_pretrained(
-            model_name,
-            dtype="auto",
-            device_map="auto"
+        self.model, self.tokenizer = FastLanguageModel.from_pretrained(
+            model_name=model_name,
+            max_seq_length=8192, # Có thể điều chỉnh nếu cần
+            dtype=None,
+            load_in_4bit=True, # Tự động lượng tử hóa 4-bit
         )
-
-        # 👇 Sửa ở đây
-        self.processor = AutoProcessor.from_pretrained(model_name)
-        if hasattr(self.processor, "tokenizer"):
-            self.processor.tokenizer.padding_side = "left"
-            if self.processor.tokenizer.pad_token is None:
-                self.processor.tokenizer.pad_token = self.processor.tokenizer.eos_token
+        # Unsloth sẽ tự động xử lý device_map
+        self.device = self.model.device
+        
+        # Processor vẫn tải từ model gốc của Qwen
+        self.processor = AutoProcessor.from_pretrained("Qwen/Qwen3-VL-4B-Instruct")
+        
+        # Cấu hình padding cho tokenizer (quan trọng cho batching)
+        self.tokenizer.padding_side = "left"
+        if self.tokenizer.pad_token is None:
+            self.tokenizer.pad_token = self.tokenizer.eos_token
 
         print(f"Tải mô hình hoàn tất. Sử dụng thiết bị: {self.device}")
 

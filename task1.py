@@ -12,7 +12,46 @@ try:
 except ImportError:
     print("Lỗi: Thư viện camelot-py chưa được cài đặt. Vui lòng chạy: pip install 'camelot-py[cv]'")
     exit()
+    
+def select_freest_gpu():
+    """
+    Sử dụng nvidia-smi để tìm và trả về ID của GPU có nhiều bộ nhớ trống nhất.
+    Trả về ID của GPU (int) hoặc None nếu không thể tìm thấy/chọn GPU.
+    """
+    try:
+        # Lệnh nvidia-smi để lấy index và bộ nhớ trống, không header, không đơn vị
+        cmd = [
+            "nvidia-smi",
+            "--query-gpu=index,memory.free",
+            "--format=csv,noheader,nounits"
+        ]
+        # Chạy lệnh và lấy output
+        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+        output = result.stdout.strip()
+        
+        # Xử lý output
+        gpu_info = []
+        for line in output.split('\n'):
+            if not line:
+                continue
+            index, memory_free = line.split(',')
+            gpu_info.append((int(index.strip()), int(memory_free.strip())))
 
+        # Nếu không có thông tin GPU, trả về None
+        if not gpu_info:
+            print("⚠️ Không tìm thấy thông tin GPU nào từ nvidia-smi.")
+            return None
+
+        # Tìm GPU có bộ nhớ trống nhiều nhất
+        best_gpu = max(gpu_info, key=lambda item: item[1])
+        return best_gpu[0]
+
+    except FileNotFoundError:
+        print("💡 Không tìm thấy lệnh 'nvidia-smi'. Giả định không có GPU hoặc driver NVIDIA.")
+        return None
+    except Exception as e:
+        print(f"❌ Đã xảy ra lỗi khi chọn GPU: {e}")
+        return None
 
 # === LOGIC TRÍCH XUẤT BẢNG TỪ SCRIPT THỨ 2 ===
 def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
@@ -72,9 +111,42 @@ def run_mineru(pdf_path, output_root):
 
     cmd = ["mineru", "-p", pdf_path, "-o", output_root]
     print(f"🚀 Đang chạy mineru cho {pdf_name} ...")
-    subprocess.run(cmd, check=True)
+    
+    # --- THAY ĐỔI TẠI ĐÂY ---
+    try:
+        # Chạy và bắt output
+        result = subprocess.run(cmd, check=True, capture_output=True, text=True)
+        
+        # In output để debug
+        print("   -> Mineru STDOUT:")
+        print(result.stdout)
+        print("   -> Mineru STDERR:")
+        print(result.stderr)
+
+    except subprocess.CalledProcessError as e:
+        # Nếu mineru trả về mã lỗi, in chi tiết lỗi
+        print(f"❌ LỖI: Mineru thất bại với mã lỗi {e.returncode}")
+        print("   -> Mineru STDOUT:")
+        print(e.stdout)
+        print("   -> Mineru STDERR:")
+        print(e.stderr)
+        # Ném lại lỗi hoặc xử lý một cách phù hợp
+        raise e
+    except FileNotFoundError:
+        print("❌ LỖI: Không tìm thấy lệnh 'mineru'. Hãy đảm bảo nó đã được cài đặt và nằm trong PATH của hệ thống.")
+        raise
+    # --- KẾT THÚC THAY ĐỔI ---
+
+    auto_folder_path = os.path.join(output_dir, "auto")
+
+    # Thêm một bước kiểm tra trước khi trả về
+    if not os.path.isdir(auto_folder_path):
+        print(f"⚠️ CẢNH BÁO: Mineru đã chạy xong nhưng không tạo ra thư mục mong đợi: {auto_folder_path}")
+        # Bạn có thể quyết định ném lỗi ở đây để dừng chương trình sớm hơn
+        # raise FileNotFoundError(f"Thư mục auto không được mineru tạo ra cho {pdf_name}")
+
     print(f"✅ Mineru hoàn tất: {pdf_name}")
-    return os.path.join(output_dir, "auto"), pdf_name
+    return auto_folder_path, pdf_name
 
 
 # === 2️⃣ XỬ LÝ auto/ (ĐÃ CẬP NHẬT) ===
@@ -210,39 +282,65 @@ def collect_submission(all_folders, final_root):
     print(f"\n📁 Đã tạo thư mục submission tại: {final_root}")
 
 
-# === 6️⃣ PIPELINE CHÍNH (ĐÃ CẬP NHẬT) ===
+# === 6️⃣ PIPELINE CHÍNH (ĐÃ CẬP NHẬT VỚI LOGIC KIỂM TRA) ===
 def process_all_pdfs(input_root, output_root):
     pdf_files = [f for f in os.listdir(input_root) if f.lower().endswith(".pdf")]
     md_info_list = []
 
-    # --- ĐÃ LOẠI BỎ VIỆC LOAD MÔ HÌNH BLIP2 ---
-
     for pdf in pdf_files:
-        pdf_path = os.path.join(input_root, pdf)
         pdf_name = os.path.splitext(pdf)[0]
+        # Xây dựng đường dẫn thư mục output dự kiến cho file PDF này
+        expected_output_folder = os.path.join(output_root, pdf_name)
+
+        # --- LOGIC MỚI: KIỂM TRA SỰ TỒN TẠI CỦA THƯ MỤC KẾT QUẢ ---
+        if os.path.isdir(expected_output_folder):
+            print(f"⏭️  Bỏ qua {pdf_name} vì thư mục kết quả '{expected_output_folder}' đã tồn tại.")
+            
+            # Dù bỏ qua, ta vẫn cần thu thập thông tin file main.md để tạo answer.md
+            main_md_path = os.path.join(expected_output_folder, "main.md")
+            if os.path.exists(main_md_path):
+                # Tái tạo lại pdf_title để thêm vào danh sách
+                match = re.search(r"(\d+)", pdf_name)
+                num = int(match.group(1)) if match else 0
+                pdf_title = f"Public_{num:03d}"
+                md_info_list.append((main_md_path, pdf_title))
+            else:
+                print(f"   ⚠️ Cảnh báo: Thư mục tồn tại nhưng không tìm thấy file main.md tại {main_md_path}")
+            
+            continue # Chuyển sang file PDF tiếp theo
+        # --- KẾT THÚC LOGIC MỚI ---
+
+        # Nếu thư mục chưa tồn tại, bắt đầu quy trình xử lý bình thường
+        pdf_path = os.path.join(input_root, pdf)
 
         print(f"\n==============================")
         print(f"📄 BẮT ĐẦU XỬ LÝ FILE: {pdf_name}")
         print("==============================")
 
-        # BƯỚC 1: Chạy Mineru để lấy cấu trúc file .md, text và ảnh
-        auto_folder, pdf_name_from_mineru = run_mineru(pdf_path, output_root)
+        try:
+            # BƯỚC 1: Chạy Mineru để lấy cấu trúc file .md, text và ảnh
+            auto_folder, pdf_name_from_mineru = run_mineru(pdf_path, output_root)
 
-        # BƯỚC 2: Chạy Camelot để lấy các bảng chất lượng cao từ file PDF gốc
-        camelot_html_tables = extract_and_process_tables_with_camelot(pdf_path)
+            # BƯỚC 2: Chạy Camelot để lấy các bảng chất lượng cao từ file PDF gốc
+            camelot_html_tables = extract_and_process_tables_with_camelot(pdf_path)
 
-        # BƯỚC 3: Xử lý hậu kỳ, giữ nguyên luồng logic của script gốc
-        # nhưng thay thế bảng của Mineru bằng bảng của Camelot.
-        output_folder, main_md, pdf_title = process_auto_folder(auto_folder, pdf_name_from_mineru, camelot_html_tables)
-        if main_md:
-            # --- ĐÃ LOẠI BỎ LỆNH GỌI add_image_captions ---
-            # all_outputs không cần dùng nữa nếu không gom submission
-            md_info_list.append((main_md, pdf_title))
+            # BƯỚC 3: Xử lý hậu kỳ
+            output_folder, main_md, pdf_title = process_auto_folder(auto_folder, pdf_name_from_mineru, camelot_html_tables)
+            if main_md:
+                md_info_list.append((main_md, pdf_title))
 
-        print(f"🎯 Hoàn tất pipeline cho {pdf_title}\n")
-        time.sleep(1)
+            print(f"🎯 Hoàn tất pipeline cho {pdf_title}\n")
+            time.sleep(1)
 
-    # Tạo file answer.md (Không thay đổi)
+        except Exception as e:
+            print(f"❌ Đã xảy ra lỗi nghiêm trọng khi xử lý {pdf_name}: {e}")
+            # Tùy chọn: Dọn dẹp thư mục output nếu xử lý thất bại
+            if os.path.isdir(expected_output_folder):
+                shutil.rmtree(expected_output_folder)
+                print(f"   -> Đã dọn dẹp thư mục không hoàn chỉnh: {expected_output_folder}")
+            continue # Tiếp tục với file tiếp theo
+
+    # Tạo file answer.md từ tất cả các file đã xử lý (cả lần chạy này và các lần trước)
     if md_info_list:
         generate_answer_md(output_root, md_info_list)
 
@@ -251,10 +349,22 @@ def process_all_pdfs(input_root, output_root):
 
 # === 7️⃣ CHẠY (Không thay đổi) ===
 if __name__ == "__main__":
+    # --- BƯỚC MỚI: CHỌN GPU TRƯỚC KHI CHẠY BẤT CỨ THỨ GÌ ---
+    gpu_id_to_use = select_freest_gpu()
+    if gpu_id_to_use is not None:
+        # Đặt biến môi trường để các thư viện (pytorch, tensorflow, cv2) chỉ thấy GPU này
+        os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_id_to_use)
+        print(f"✅ Đã chọn GPU {gpu_id_to_use} để chạy.")
+    else:
+        print("✅ Không chọn được GPU cụ thể, sẽ chạy trên CPU hoặc GPU mặc định.")
+    # --- KẾT THÚC BƯỚC MỚI ---
+
     input_root = "data/raw/private_test_data/input"
     output_root = "./private_submission"
     os.makedirs(output_root, exist_ok=True)
+    
     process_all_pdfs(input_root, output_root)
+    
     main_py_path = os.path.join(output_root, "main.py")
     with open(main_py_path, "w", encoding="utf-8") as f:
         f.write('print("AIRONMEN")\n')
