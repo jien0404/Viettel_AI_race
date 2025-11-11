@@ -11,12 +11,56 @@ from sentence_transformers.cross_encoder import CrossEncoder
 from transformers import AutoTokenizer
 from unsloth import FastLanguageModel
 from typing import List, Dict, Any
+from typing import Optional
+import subprocess
+import torch
+
+def get_freest_gpu():
+    """
+    Tìm và trả về định danh của GPU có nhiều VRAM trống nhất.
+    Sử dụng pynvml nếu có, nếu không thì fallback về việc phân tích `nvidia-smi`.
+    """
+    if not torch.cuda.is_available():
+        return 'cpu'
+    
+    try:
+        # Ưu tiên sử dụng pynvml vì ổn định hơn
+        from pynvml import nvmlInit, nvmlDeviceGetCount, nvmlDeviceGetHandleByIndex, nvmlDeviceGetMemoryInfo, nvmlShutdown
+        nvmlInit()
+        device_count = nvmlDeviceGetCount()
+        if device_count == 0:
+            return 'cpu'
+        
+        max_free_mem = 0
+        best_gpu_id = 0
+        for i in range(device_count):
+            handle = nvmlDeviceGetHandleByIndex(i)
+            mem_info = nvmlDeviceGetMemoryInfo(handle)
+            if mem_info.free > max_free_mem:
+                max_free_mem = mem_info.free
+                best_gpu_id = i
+        nvmlShutdown()
+        return f'cuda:{best_gpu_id}'
+    except ImportError:
+        # Phương án dự phòng: phân tích output của nvidia-smi
+        print("Cảnh báo: Thư viện 'pynvml' không được tìm thấy. Sử dụng phương án dự phòng `nvidia-smi`. (pip install pynvml)")
+        try:
+            result = subprocess.check_output(['nvidia-smi', '--query-gpu=memory.free', '--format=csv,nounits,noheader'])
+            free_memory = [int(x) for x in result.decode().strip().split('\n')]
+            if not free_memory:
+                 return 'cpu'
+            best_gpu_id = free_memory.index(max(free_memory))
+            return f'cuda:{best_gpu_id}'
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            # Nếu nvidia-smi cũng không hoạt động, fallback về mặc định
+            print("Cảnh báo: Không thể chạy `nvidia-smi`. Quay về sử dụng 'cuda:0' nếu có.")
+            return 'cuda:0' if torch.cuda.device_count() > 0 else 'cpu'
 
 # --- CẤU HÌNH ---
 DB_PATH = "chroma_database"
 COLLECTION_NAME = "all_documents"
-QUESTIONS_FILE_PATH = "data/raw/public_test_data/question.csv"
-OUTPUT_FILE_PATH = "submission/answer2.md"
+QUESTIONS_FILE_PATH = "data/raw/private_test_data/input/question.csv"
+OUTPUT_FILE_PATH = "private_submission/answer_1.md"
 
 # Model dùng cho embedding câu hỏi (PHẢI GIỐNG model ở bước 2)
 EMBEDDING_MODEL_NAME = 'bkai-foundation-models/vietnamese-bi-encoder'
@@ -28,7 +72,7 @@ RERANKER_MODEL_NAME = "thanhtantran/Vietnamese_Reranker"
 
 # Số lượng context chunk sẽ truy xuất cho mỗi câu hỏi
 NUM_RETRIEVED_CHUNKS = 50
-TOP_N_AFTER_RERANK = 5 
+TOP_N_AFTER_RERANK = 3 
 
 
 def load_llm_model_and_tokenizer():
@@ -47,66 +91,131 @@ def load_llm_model_and_tokenizer():
 
 
 class RetrieverQA:
-    def __init__(self, db_path, collection_name, embedding_model_name, llm_model, tokenizer):
-        self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        print(f"Sử dụng thiết bị: {self.device}")
+    def __init__(self, db_path, collection_name, embedding_model_name, llm_model, tokenizer, device: str):
+        self.device = device
+        print(f"Sử dụng thiết bị được chỉ định: {self.device}")
 
         # 1. Khởi tạo ChromaDB client
         print("Đang kết nối tới ChromaDB...")
         self.db_client = chromadb.PersistentClient(path=db_path)
-        self.collection = self.db_client.get_collection(name=collection_name)
-        print(f"Kết nối thành công tới collection '{collection_name}'.")
+        self.base_collection_name = collection_name  # e.g. "all_documents"
+        print("Kết nối tới ChromaDB hoàn tất.")
 
-        # 2. Tải mô hình embedding
+        # 2. Tải mô hình embedding (PHẢI GIỐNG BƯỚC 2)
         print(f"Đang tải mô hình embedding: {embedding_model_name}...")
         self.embedding_model = SentenceTransformer(embedding_model_name, device=self.device)
         print("Tải mô hình embedding hoàn tất.")
-        
-        # 3. (THÊM MỚI) Tải mô hình Reranker
+
+        # 2.a Tính dimension embedding (bằng cách encode chuỗi mẫu)
+        try:
+            sample_vec = self.embedding_model.encode("test sample", convert_to_tensor=False)
+            # sample_vec có thể là list hoặc numpy array
+            self.text_embedding_dim = len(sample_vec)
+            print(f"Xác định embedding dimension cho text: {self.text_embedding_dim}")
+        except Exception as e:
+            print(f"Cảnh báo: Không xác định được embedding dim tự động: {e}")
+            self.text_embedding_dim = None
+
+        # 2.b Lấy collection tương ứng với dimension
+        self.collection: Optional[Any] = None
+        if self.text_embedding_dim is not None:
+            coll_name = f"{self.base_collection_name}_dim_{self.text_embedding_dim}"
+            try:
+                self.collection = self.db_client.get_collection(name=coll_name)
+                print(f"Kết nối thành công tới collection '{coll_name}'.")
+            except Exception as e:
+                print(f"Cảnh báo: Không tìm thấy collection '{coll_name}' trong DB: {e}")
+                # Không raise, vẫn cho phép chạy (sẽ fallback trong retrieve_context)
+        else:
+            print("Cảnh báo: text_embedding_dim = None, sẽ không tự động lấy collection theo dim.")
+
+        # 3. Tải Reranker
         print(f"Đang tải mô hình Reranker: {RERANKER_MODEL_NAME}...")
         self.reranker_model = CrossEncoder(RERANKER_MODEL_NAME, max_length=512, device=self.device)
         print("Tải mô hình Reranker hoàn tất.")
         
-        # 4. Lưu trữ mô hình LLM và tokenizer (Giữ nguyên, chỉ số thứ tự thay đổi)
+        # 4. Lưu LLM & tokenizer
         self.llm_model = llm_model
         self.tokenizer = tokenizer
 
     def retrieve_context(self, question: str, n_results: int, top_n_rerank: int) -> str:
         """
-        Từ một câu hỏi, truy xuất ban đầu, sau đó rerank để lấy ngữ cảnh chính xác nhất.
+        Truy xuất ban đầu, sau đó rerank để lấy ngữ cảnh chính xác nhất.
+        SỬA: chỉ query collection phù hợp dimension embedding text.
         """
-        # Bước 1: Truy xuất ban đầu để lấy ra một lượng lớn ứng viên (30 chunks)
         print(f"  - Đang truy xuất {n_results} ngữ cảnh ứng viên...")
-        question_embedding = self.embedding_model.encode(question, convert_to_tensor=False).tolist()
-        
-        results = self.collection.query(
-            query_embeddings=[question_embedding],
-            n_results=n_results,
-            include=["metadatas"]
-        )
-        
-        retrieved_docs = results['metadatas'][0]
-        if not retrieved_docs:
-            print("  - Không tìm thấy ngữ cảnh nào.")
+
+        # 1) Tính embedding câu hỏi bằng chính model embedding (same as step 2)
+        try:
+            question_embedding = self.embedding_model.encode(question, convert_to_tensor=False).tolist()
+        except Exception as e:
+            print(f"Lỗi khi encode câu hỏi: {e}")
             return ""
 
-        # Bước 2: Chuẩn bị các cặp [câu hỏi, nội dung chunk] cho reranker
-        pairs = []
-        for doc in retrieved_docs:
-            content = doc.get('original_content', '')
-            pairs.append([question, content])
+        candidate_metadatas = []
 
-        # Bước 3: Dùng Reranker để chấm điểm các cặp
+        # 2) Nếu self.collection đã được set (collection đúng dim), query trực tiếp
+        if self.collection is not None:
+            try:
+                results = self.collection.query(
+                    query_embeddings=[question_embedding],
+                    n_results=n_results,
+                    include=["metadatas"]  # cần metadata chứa original_content & context_headings
+                )
+                candidate_metadatas = results.get('metadatas', [[]])[0]
+            except Exception as e:
+                print(f"Cảnh báo: Lỗi khi query collection '{self.collection.name if hasattr(self.collection,'name') else 'unknown'}': {e}")
+                candidate_metadatas = []
+        else:
+            # 3) Fallback: dò các collection có pattern base_collection_name_dim_*
+            print("  - Fallback: đang dò các collection theo pattern dimension...")
+            try:
+                all_collections = self.db_client.list_collections()  # trả về list dict (tùy chroma wrapper)
+            except Exception:
+                all_collections = []
+
+            # Lọc các collection phù hợp (tên chứa base_collection_name)
+            matched = []
+            for coll in all_collections:
+                # coll có thể là dict hoặc object tùy chromadb wrapper
+                name = coll['name'] if isinstance(coll, dict) and 'name' in coll else getattr(coll, 'name', None)
+                if name and name.startswith(self.base_collection_name + "_dim_"):
+                    matched.append(name)
+
+            # Query mỗi collection đã matched, gộp kết quả
+            for name in matched:
+                try:
+                    coll = self.db_client.get_collection(name=name)
+                    r = coll.query(query_embeddings=[question_embedding], n_results=n_results, include=["metadatas"])
+                    m = r.get('metadatas', [[]])[0]
+                    candidate_metadatas.extend(m)
+                except Exception as e:
+                    print(f"  - Cảnh báo: Không query được collection {name}: {e}")
+
+        if not candidate_metadatas:
+            print("  - Không tìm thấy ngữ cảnh ứng viên nào.")
+            return ""
+
+        # 4) Chuẩn bị pairs (question, chunk_content) cho reranker
+        pairs = []
+        for doc_meta in candidate_metadatas:
+            # 'original_content' là metadata bạn đã lưu khi chunking
+            content = doc_meta.get('original_content', '')
+            # bạn có thể muốn thêm context_headings vào content để reranker hiểu thêm
+            headings = doc_meta.get('context_headings', '')
+            combined = f"{headings}\n{content}" if headings else content
+            pairs.append([question, combined])
+
+        # 5) Rerank
         print(f"  - Đang Rerank {len(pairs)} ứng viên để chọn ra top {top_n_rerank}...")
         scores = self.reranker_model.predict(pairs, show_progress_bar=False)
 
-        # Bước 4: Kết hợp document với điểm số, sắp xếp và lấy ra top N tốt nhất
-        doc_scores = list(zip(retrieved_docs, scores))
-        doc_scores.sort(key=lambda x: x[1], reverse=True) # Sắp xếp điểm từ cao đến thấp
-        
+        # 6) Lấy top N sau rerank
+        doc_scores = list(zip(candidate_metadatas, scores))
+        doc_scores.sort(key=lambda x: x[1], reverse=True)
         final_docs = [doc for doc, score in doc_scores[:top_n_rerank]]
 
-        # Bước 5: Tạo chuỗi ngữ cảnh từ các document đã được rerank
+        # 7) Tạo chuỗi ngữ cảnh trả về
         context_str = ""
         for i, metadata in enumerate(final_docs):
             content = metadata.get('original_content', '')
@@ -114,7 +223,7 @@ class RetrieverQA:
             context_str += f"--- Ngữ cảnh tham khảo {i+1} ---\n"
             context_str += f"Tiêu đề liên quan: {headings}\n"
             context_str += f"Nội dung: {content}\n\n"
-            
+
         return context_str.strip()
 
     def generate_answer(self, context: str, question: str, options: Dict[str, str]) -> str:
@@ -277,16 +386,21 @@ def main():
     print("===   BẮT ĐẦU PIPELINE BƯỚC 3: RETRIEVAL & QA   ===")
     print("================================================")
     
+    # Chọn GPU rảnh nhất trước khi tải bất kỳ mô hình nào
+    selected_device = get_freest_gpu()
+    print(f"GPU rảnh nhất được chọn: {selected_device}")
+
     # Tải các mô hình
     llm_model, tokenizer = load_llm_model_and_tokenizer()
     
-    # Khởi tạo pipeline
+    # Khởi tạo pipeline và truyền device đã chọn vào
     qa_pipeline = RetrieverQA(
         db_path=DB_PATH,
         collection_name=COLLECTION_NAME,
         embedding_model_name=EMBEDDING_MODEL_NAME,
         llm_model=llm_model,
-        tokenizer=tokenizer
+        tokenizer=tokenizer,
+        device=selected_device
     )
     
     # Đọc file câu hỏi
