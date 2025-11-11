@@ -50,24 +50,22 @@ def get_freest_gpu():
             if not free_memory:
                  return 'cpu'
             best_gpu_id = free_memory.index(max(free_memory))
-            return f'cuda:{best_gpu_id}'
+            return str(best_gpu_id) # Trả về ID dưới dạng chuỗi
         except (subprocess.CalledProcessError, FileNotFoundError):
-            # Nếu nvidia-smi cũng không hoạt động, fallback về mặc định
-            print("Cảnh báo: Không thể chạy `nvidia-smi`. Quay về sử dụng 'cuda:0' nếu có.")
-            return 'cuda:0' if torch.cuda.device_count() > 0 else 'cpu'
+            return "0" if torch.cuda.device_count() > 0 else "cpu"
 
 # --- CẤU HÌNH ---
 DB_PATH = "chroma_database"
 COLLECTION_NAME = "all_documents"
 QUESTIONS_FILE_PATH = "data/raw/private_test_data/input/question.csv"
-OUTPUT_FILE_PATH = "private_submission/answer_1.md"
+OUTPUT_FILE_PATH = "private_submission/answer.md"
 
 # Model dùng cho embedding câu hỏi (PHẢI GIỐNG model ở bước 2)
 EMBEDDING_MODEL_NAME = 'bkai-foundation-models/vietnamese-bi-encoder'
 
 # Model ngôn ngữ lớn để sinh câu trả lời (Qwen tối ưu bởi Unsloth)
-# LLM_MODEL_NAME = "unsloth/Qwen2.5-3B-Instruct-bnb-4bit"
-LLM_MODEL_NAME = "unsloth/Qwen3-4B-Instruct-2507"
+LLM_MODEL_NAME = "unsloth/Qwen2.5-3B-Instruct-bnb-4bit"
+# LLM_MODEL_NAME = "unsloth/Qwen3-4B-Instruct-2507"
 RERANKER_MODEL_NAME = "thanhtantran/Vietnamese_Reranker"
 
 # Số lượng context chunk sẽ truy xuất cho mỗi câu hỏi
@@ -386,14 +384,26 @@ def main():
     print("===   BẮT ĐẦU PIPELINE BƯỚC 3: RETRIEVAL & QA   ===")
     print("================================================")
     
-    # Chọn GPU rảnh nhất trước khi tải bất kỳ mô hình nào
-    selected_device = get_freest_gpu()
-    print(f"GPU rảnh nhất được chọn: {selected_device}")
-
-    # Tải các mô hình
-    llm_model, tokenizer = load_llm_model_and_tokenizer()
+    # === THAY ĐỔI QUAN TRỌNG ===
+    # Bước 1: Chọn GPU rảnh nhất
+    gpu_id_to_use = get_freest_gpu()
     
+    if gpu_id_to_use != "cpu":
+        # Bước 2: Thiết lập biến môi trường ĐỂ chương trình chỉ "nhìn thấy" GPU này
+        # Việc này PHẢI được thực hiện TRƯỚC KHI tải mô hình
+        os.environ["CUDA_VISIBLE_DEVICES"] = gpu_id_to_use
+        print(f"Đã thiết lập CUDA_VISIBLE_DEVICES='{gpu_id_to_use}'. Chương trình sẽ chạy trên GPU vật lý {gpu_id_to_use}.")
+        # Sau khi thiết lập, PyTorch sẽ coi GPU này là 'cuda:0'
+        selected_device = "cuda:0"
+    else:
+        print("Không có GPU. Chương trình sẽ chạy trên CPU.")
+        selected_device = "cpu"
+
+    # Tải các mô hình. Unsloth/Transformers sẽ tự động tải lên 'cuda:0' (chính là GPU vật lý ta đã chọn)
+    llm_model, tokenizer = load_llm_model_and_tokenizer() # Không cần truyền device vào đây nữa
+
     # Khởi tạo pipeline và truyền device đã chọn vào
+    # Tất cả các model khác (embedding, reranker) cũng sẽ được đưa lên device này
     qa_pipeline = RetrieverQA(
         db_path=DB_PATH,
         collection_name=COLLECTION_NAME,
