@@ -36,7 +36,7 @@ Viettel_AI_Race_NLP/
 ```bash 
 pip install -r requirements.txt
 ```
-3. Chạy step 3
+3. Tải data tại: https://drive.google.com/drive/folders/1WDXPWaMIJL6FM7k4cAiGPV04eFGoNaQA?usp=sharing rồi giải nén vào thư mục gốc
+4. Chạy step 3
 ```bash
 python run_step3_pipeline.py
-```
