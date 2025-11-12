@@ -8,7 +8,8 @@ import base64
 import numpy as np
 from PIL import Image
 from rank_bm25 import BM25Okapi
-from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
+from unsloth import FastLanguageModel
+from transformers import AutoProcessor
 from typing import List, Dict, Any
 import subprocess
 
@@ -45,34 +46,37 @@ def get_free_gpu():
         return "auto" # Fallback nếu nvidia-smi không hoạt động
     
 # --- CẤU HÌNH ---
-DB_FILE_PATH = "bm25_database.sqlite"
-QUESTIONS_FILE_PATH = "data/raw/public_test_data/question.csv"
-SUBMISSION_DIR = "submission"
-OUTPUT_FILE_PATH = "submission/answer_final_stable_top5_instruct.md"
+DB_FILE_PATH = "bm25_database_private.sqlite"
+QUESTIONS_FILE_PATH = "data/raw/private_test_data/input/question.csv"
+SUBMISSION_DIR = "private_submission"
+OUTPUT_FILE_PATH = "private_submission/answer.md"
 
-VLM_MODEL_NAME = "Qwen/Qwen3-VL-4B-Instruct"
-TOP_K_BM25 = 5
+VLM_MODEL_NAME = "unsloth/Qwen3-VL-4B-Instruct-unsloth-bnb-4bit"
+TOP_K_BM25 = 3
 
-def load_vlm_model_and_processor(device: str):
+def load_vlm_model_and_processor(device: str): # Unsloth tự xử lý device, nên tham số này không còn cần thiết
     """
-    Tải mô hình VLM và processor, cấu hình theo cách đã hoạt động thành công.
+    Tải mô hình VLM đã được tối ưu bằng Unsloth và processor của nó.
     """
-    print(f"Đang tải mô hình VLM: {VLM_MODEL_NAME}...")
-    model = Qwen3VLForConditionalGeneration.from_pretrained(
-        VLM_MODEL_NAME, 
-        torch_dtype=torch.bfloat16,
-        device_map=device
+    print(f"Đang tải mô hình VLM với Unsloth: {VLM_MODEL_NAME}...")
+    model, tokenizer = FastLanguageModel.from_pretrained(
+        model_name=VLM_MODEL_NAME,
+        max_seq_length=16384, 
+        dtype=None, 
+        load_in_4bit=True,
     )
-    processor = AutoProcessor.from_pretrained(VLM_MODEL_NAME)
     
-    # --- ÁP DỤNG CHÍNH XÁC LOGIC TỪ CODE MẪU ---
-    if hasattr(processor, "tokenizer"):
-        processor.tokenizer.padding_side = "left"
-        if processor.tokenizer.pad_token is None:
-            processor.tokenizer.pad_token = processor.tokenizer.eos_token
+    # Processor vẫn tải từ model gốc của Qwen
+    processor = AutoProcessor.from_pretrained("Qwen/Qwen3-VL-4B-Instruct")
+
+    # Cấu hình padding cho tokenizer (quan trọng cho batching)
+    tokenizer.padding_side = "left"
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
             
     print("Tải mô hình VLM hoàn tất.")
-    return model, processor
+    # Trả về cả tokenizer để sử dụng
+    return model, tokenizer, processor
 
 def encode_image_to_base64_uri(image_path):
     try:
@@ -84,11 +88,12 @@ def encode_image_to_base64_uri(image_path):
         return None
 
 class BM25_VLM_QA:
-    def __init__(self, db_path, vlm_model, processor):
+    def __init__(self, db_path, vlm_model, tokenizer, processor):
         self.device = vlm_model.device
         print(f"Sử dụng thiết bị: {self.device}")
 
         self.vlm_model = vlm_model
+        self.tokenizer = tokenizer # Thêm tokenizer
         self.processor = processor
 
         print("Đang kết nối tới SQLite và tải corpus cho BM25...")
@@ -97,11 +102,23 @@ class BM25_VLM_QA:
             raise ValueError("Không thể tải corpus từ database.")
         
         print("Đang xây dựng chỉ mục BM25...")
-        tokenized_corpus = [doc['enriched_content'].split() for doc in self.corpus]
+        # --- SỬA DÒNG NÀY ---
+        tokenized_corpus = [
+            (
+                doc['metadata'].get('doc_name', '') + " " + 
+                doc.get('searchable_original_content', '') + " " + 
+                doc['enriched_content']
+            ).split() for doc in self.corpus
+        ]
+        # --- KẾT THÚC SỬA ---
         self.bm25 = BM25Okapi(tokenized_corpus)
         print("Xây dựng chỉ mục BM25 hoàn tất.")
 
     def _load_corpus_from_sqlite(self, db_path: str) -> List[Dict[str, Any]]:
+        """
+        Đọc toàn bộ các chunk từ file SQLite, lấy tất cả các cột cần thiết
+        và trích xuất cả original_blocks.
+        """
         corpus_data = []
         try:
             with sqlite3.connect(db_path) as conn:
@@ -110,9 +127,28 @@ class BM25_VLM_QA:
                 for row in cursor.fetchall():
                     doc_name, chunk_type, enriched_content, metadata_str = row
                     metadata = json.loads(metadata_str)
+                    
                     metadata['doc_name'] = doc_name
                     metadata['chunk_type'] = chunk_type
-                    corpus_data.append({'enriched_content': enriched_content, 'metadata': metadata})
+                    
+                    # === SỬA ĐỔI Ở ĐÂY ===
+                    # Trích xuất original_blocks từ metadata
+                    original_blocks = metadata.get('original_blocks', [])
+                    
+                    searchable_original_content = ""
+                    for block in original_blocks:
+                        block_type = block.get('type')
+                        if block_type == 'paragraph':
+                            searchable_original_content += block.get('content', '') + " "
+
+                    # Thêm original_blocks vào cấp cao nhất của dictionary
+                    corpus_data.append({
+                        'enriched_content': enriched_content,
+                        'original_blocks': original_blocks,
+                        'searchable_original_content': searchable_original_content.strip(), # <<< Lưu lại
+                        'metadata': metadata
+                    })
+                    # === KẾT THÚC SỬA ĐỔI ===
         except Exception as e:
             print(f"LỖI: không thể đọc file database '{db_path}': {e}")
         return corpus_data
@@ -125,22 +161,43 @@ class BM25_VLM_QA:
         return [self.corpus[i] for i in top_k_indices]
 
     # === HÀM GENERATE_ANSWER VIẾT LẠI HOÀN TOÀN THEO LOGIC ĐÃ THÀNH CÔNG ===
+    # Thay thế toàn bộ hàm này trong class BM25_VLM_QA
+
     def generate_answer(self, retrieved_chunks: List[Dict], question: str, options: Dict[str, str]) -> str:
         """
-        Tạo prompt và sinh câu trả lời theo logic ổn định từ code mẫu.
+        Tạo prompt và sinh câu trả lời, bao gồm cả original_blocks và enriched_content.
         """
-        print("  - Đang chuẩn bị prompt và ngữ cảnh cho VLM...")
+        print("  - Đang chuẩn bị prompt và ngữ cảnh cho VLM (Unsloth)...")
         
         context_str = ""
         vlm_content_list = []
 
         # Xây dựng context từ tất cả các chunk được truy xuất
         for i, chunk in enumerate(retrieved_chunks):
-            content = chunk['enriched_content']
+            # === BẮT ĐẦU SỬA ĐỔI ===
+            enriched_content = chunk['enriched_content']
+            original_blocks = chunk.get('original_blocks', [])
             metadata = chunk['metadata']
             doc_name = metadata.get('doc_name', 'N/A')
             chunk_type = metadata.get('chunk_type')
-            context_str += f"--- Ngữ cảnh tham khảo {i+1} (Từ tài liệu: {doc_name}) ---\n{content}\n\n"
+
+            # Định dạng original_blocks để dễ đọc
+            original_content_str = ""
+            for block in original_blocks:
+                block_type = block.get('type')
+                if block_type == 'paragraph':
+                    original_content_str += block.get('content', '') + "\n"
+                elif block_type == 'html_table':
+                    # Có thể dùng lại hàm linearize_html_table nếu muốn,
+                    # hoặc chỉ hiển thị HTML gốc
+                    original_content_str += f"[Bảng HTML gốc]:\n{block.get('raw_html', '')}\n"
+                # Thêm các loại block khác nếu cần
+            
+            # Thêm cả hai loại nội dung vào context_str
+            context_str += f"--- Ngữ cảnh tham khảo {i+1} (Từ tài liệu: {doc_name}) ---\n"
+            context_str += f"**NỘI DUNG GỐC:**\n{original_content_str.strip()}\n\n"
+            context_str += f"**NỘI DUNG ĐÃ LÀM GIÀU (để tham khảo thêm):**\n{enriched_content}\n\n"
+            # === KẾT THÚC SỬA ĐỔI ===
             
             if chunk_type == 'image_context':
                 image_path_relative = metadata.get('image_path')
@@ -148,9 +205,11 @@ class BM25_VLM_QA:
                     image_path_full = os.path.join(SUBMISSION_DIR, doc_name, image_path_relative)
                     image_uri = encode_image_to_base64_uri(image_path_full)
                     if image_uri:
-                        # Thêm cả text và image vào list theo đúng format VLM
-                        vlm_content_list.append({"type": "text", "text": f"\nẢnh tham khảo từ ngữ cảnh {i+1}:\n"})
+                        # Thêm ảnh vào vlm_content_list theo đúng format
                         vlm_content_list.append({"type": "image", "image": image_uri})
+                        print(f"    - Đã tìm thấy và sẽ sử dụng ảnh: {image_path_full}")
+                        # Chỉ lấy ảnh đầu tiên để tránh phức tạp
+                        break
 
         options_str = "\n".join([f"{key}: {value}" for key, value in options.items()])
         prompt_template = f"""
@@ -197,15 +256,19 @@ CÁC LỰA CHỌN:
 
         final_prompt_text = prompt_template.format(context_str=context_str, question=question, options_str=options_str)
         
-        # Thêm prompt text vào đầu danh sách content
-        vlm_content_list.insert(0, {"type": "text", "text": final_prompt_text})
+        # === BẮT ĐẦU SỬA LỖI THEO CODE MẪU ===
         
-        # Tạo messages với batch size là 1
-        messages_batch = [[{"role": "user", "content": vlm_content_list}]]
+        # Bước 1: Xây dựng content list, đặt text làm item đầu tiên
+        final_content_list = [{"type": "text", "text": final_prompt_text}]
+        # Nối danh sách ảnh đã tìm thấy vào sau
+        final_content_list.extend(vlm_content_list)
         
-        print("  - Đang sinh câu trả lời bằng VLM...")
+        # Bước 2: Tạo messages batch (dù chỉ có 1 item)
+        messages_batch = [[{"role": "user", "content": final_content_list}]]
+        
+        print("  - Đang sinh câu trả lời bằng VLM (Unsloth)...")
         try:
-            # --- ÁP DỤNG CHÍNH XÁC LOGIC TỪ CODE MẪU ---
+            # Bước 3: Luôn sử dụng PROCESSOR để áp dụng template
             inputs = self.processor.apply_chat_template(
                 messages_batch,
                 tokenize=True,
@@ -215,28 +278,25 @@ CÁC LỰA CHỌN:
                 return_tensors="pt"
             ).to(self.device)
 
-            generated_ids = self.vlm_model.generate(**inputs, max_new_tokens=20)
+            # Bước 4: Gọi generate bằng cách unpack dictionary inputs (**)
+            outputs = self.vlm_model.generate(**inputs, max_new_tokens=20)
             
-            # Giải mã output
-            response = self.processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
-            
-            # Trích xuất phần trả lời sau prompt
+            # Bước 5: Giải mã và trích xuất output như trong code mẫu
+            response_full = self.processor.batch_decode(outputs, skip_special_tokens=True)[0]
             prompt_text_only = self.processor.decode(inputs['input_ids'][0], skip_special_tokens=True)
-            if response.startswith(prompt_text_only):
-                return response[len(prompt_text_only):].strip()
+            
+            if response_full.startswith(prompt_text_only):
+                return response_full[len(prompt_text_only):].strip()
             else:
-                # Fallback: Trả về phần cuối của response nếu không match
-                # (Đôi khi model thêm/bớt ký tự làm prompt không khớp 100%)
-                # Tìm vị trí "ĐÁP ÁN:" cuối cùng và lấy phần sau đó
-                last_occurrence = response.rfind("ĐÁP ÁN:")
+                last_occurrence = response_full.rfind("ĐÁP ÁN:")
                 if last_occurrence != -1:
-                    return response[last_occurrence + len("ĐÁP ÁN:"):].strip()
-                return response # Trả về toàn bộ nếu không tìm thấy
-            # --- KẾT THÚC ÁP DỤNG ---
+                    return response_full[last_occurrence + len("ĐÁP ÁN:"):].strip()
+                return response_full
             
         except Exception as e:
             print(f"  - LỖI khi generate: {e}. Có thể do prompt quá dài hoặc lỗi khác.")
             return "[GENERATION_ERROR]"
+        # === KẾT THÚC SỬA LỖI ===
 
 
     def process_question(self, question_row: pd.Series) -> str:
@@ -261,34 +321,60 @@ CÁC LỰA CHỌN:
         elif num_correct == 1: return f'1,{answers_str}'
         else: return '0,""'
 
+# Thay thế hàm main cũ bằng hàm này
+
 def main():
-    # ... (Hàm này giữ nguyên, không cần thay đổi) ...
+    """
+    Hàm chính điều khiển toàn bộ pipeline.
+    Đã sửa đổi để luôn ghi một section TASK QA mới vào cuối file output.
+    """
     print("======================================================")
     print("===   BẮT ĐẦU PIPELINE: BM25 RETRIEVAL & VLM QA   ===")
     print("======================================================")
-    best_device = get_free_gpu()
-    vlm_model, processor = load_vlm_model_and_processor(device=best_device)
-    qa_pipeline = BM25_VLM_QA(db_path=DB_FILE_PATH, vlm_model=vlm_model, processor=processor)
+    
+    # Unsloth tự quản lý device, không cần get_free_gpu nữa
+    vlm_model, tokenizer, processor = load_vlm_model_and_processor(device="auto")
+    qa_pipeline = BM25_VLM_QA(
+        db_path=DB_FILE_PATH, 
+        vlm_model=vlm_model, 
+        tokenizer=tokenizer, 
+        processor=processor
+    )
+    
     try:
         questions_df = pd.read_csv(QUESTIONS_FILE_PATH)
         print(f"\nĐã đọc thành công {len(questions_df)} câu hỏi từ '{QUESTIONS_FILE_PATH}'.")
     except FileNotFoundError:
         print(f"LỖI: Không tìm thấy file câu hỏi tại '{QUESTIONS_FILE_PATH}'.")
         return
+
+    # === BẮT ĐẦU SỬA ĐỔI LOGIC GHI FILE ===
+    
+    # 1. Tạo thư mục nếu chưa tồn tại
     os.makedirs(os.path.dirname(OUTPUT_FILE_PATH), exist_ok=True)
-    with open(OUTPUT_FILE_PATH, 'w', encoding='utf-8') as f:
+    
+    # 2. Luôn mở file ở chế độ nối tiếp ('a' - append)
+    with open(OUTPUT_FILE_PATH, 'a', encoding='utf-8') as f:
+        
+        # 3. Luôn ghi một bộ header mới vào cuối file để bắt đầu một section mới
+        print(f"Sẽ ghi một section TASK QA mới vào cuối file '{OUTPUT_FILE_PATH}'.")
         f.write("### TASK QA\n")
         f.write("num_correct,answers\n")
-    print(f"Đã tạo và ghi header cho file output tại '{OUTPUT_FILE_PATH}'.")
-    with open(OUTPUT_FILE_PATH, 'a', encoding='utf-8') as f:
+
+        # 4. Bắt đầu vòng lặp xử lý và ghi các câu trả lời
         total_questions = len(questions_df)
         for index, row in questions_df.iterrows():
             print(f"\n--- Xử lý câu hỏi {index + 1}/{total_questions} ---")
             print(f"Câu hỏi: {row['Question']}")
+            
             final_answer_line = qa_pipeline.process_question(row)
+            
             print(f"  - Kết quả cuối cùng: {final_answer_line}")
             f.write(final_answer_line + "\n")
             f.flush()
+            
+    # === KẾT THÚC SỬA ĐỔI LOGIC GHI FILE ===
+
     print("\n======================================================")
     print("===      HOÀN TẤT TOÀN BỘ PIPELINE QA      ===")
     print(f"Kết quả đã được ghi vào file: '{OUTPUT_FILE_PATH}'")
